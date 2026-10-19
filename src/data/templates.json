@@ -4052,14 +4052,14 @@
     "anchors": {
       "base": [
         128,
-        192
+        204
       ],
       "grip": [
         128,
-        150
+        120
       ]
     },
-    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M24 170 C30 140 52 128 70 134 C76 110 100 96 128 96 C156 96 180 110 186 134 C204 128 226 140 232 170 C210 176 196 168 188 160 C176 182 150 192 128 192 C106 192 80 182 68 160 C60 168 46 176 24 170 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 134 C80 150 78 162 68 160 M106 100 C114 130 112 170 100 190 M150 100 C142 130 144 170 156 190 M186 134 C176 150 178 162 188 160\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"120\" cy=\"116\" rx=\"16\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M14 204 C30 120 80 84 128 84 C176 84 226 120 242 204 C230 200 214 186 200 176 C180 160 154 150 128 150 C102 150 76 160 56 176 C42 186 26 200 14 204 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M64 112 C78 132 84 150 84 162 M128 86 V150 M192 112 C178 132 172 150 172 162\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"110\" cy=\"106\" rx=\"18\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
   },
   {
     "id": "cosy_armchair",
@@ -4280,10 +4280,10 @@
     "anchors": {
       "base": [
         128,
-        184
+        192
       ]
     },
-    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"26\" y=\"100\" width=\"204\" height=\"84\" rx=\"40\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"84\" cy=\"130\" r=\"34\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"172\" cy=\"130\" r=\"34\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M84 112 V148 M66 130 H102\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M154 130 H190\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"5\" stroke-linecap=\"round\"/><ellipse cx=\"70\" cy=\"116\" rx=\"12\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"100\" y=\"128\" width=\"56\" height=\"24\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"140\" r=\"52\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"140\" r=\"52\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"140\" r=\"32\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"140\" r=\"32\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 92 V100 M44 108 L50 114 M108 108 L102 114 M180 92 V100 M148 108 L154 114 M212 108 L206 114\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"60\" cy=\"112\" rx=\"10\" ry=\"5\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
   },
   {
     "id": "eye_drop_bottle",
@@ -6880,5 +6880,2339 @@
       ]
     },
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"36\" y=\"44\" width=\"184\" height=\"20\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M36 64 H220 Q232 64 232 88 V190 L150 226 Q130 238 110 226 L28 190 V88 Q28 64 36 64 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"76\" width=\"172\" height=\"16\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"144\" r=\"42\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><polygon points=\"130,131 143,140 138,155 122,155 117,140\" fill=\"#3a2a2a\"/><circle cx=\"130\" cy=\"114\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"158\" cy=\"132\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"148\" cy=\"168\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"112\" cy=\"168\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"102\" cy=\"132\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"56\" cy=\"54\" r=\"5\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"54\" r=\"5\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "stadium_mascot_plush",
+    "name": "Stadium Mascot Plush",
+    "category": "sport",
+    "size": {
+      "w": 18,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        168
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"138\" rx=\"92\" ry=\"94\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><polygon points=\"128,52 150,66 142,92 114,92 106,66\" fill=\"{{trim}}\"/><polygon points=\"48,132 72,120 84,146 66,168 40,156\" fill=\"{{trim}}\"/><polygon points=\"208,132 184,120 172,146 190,168 216,156\" fill=\"{{trim}}\"/><polygon points=\"128,202 154,192 164,218 128,232 92,218 102,192\" fill=\"{{trim}}\"/><ellipse cx=\"88\" cy=\"80\" rx=\"18\" ry=\"9\" fill=\"#ffffff\" opacity=\"0.7\"/><ellipse cx=\"36\" cy=\"170\" rx=\"16\" ry=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><ellipse cx=\"220\" cy=\"170\" rx=\"16\" ry=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><ellipse cx=\"100\" cy=\"224\" rx=\"22\" ry=\"18\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><ellipse cx=\"156\" cy=\"224\" rx=\"22\" ry=\"18\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"100\" cy=\"126\" r=\"11\" fill=\"#3a2a2a\"/><circle cx=\"156\" cy=\"126\" r=\"11\" fill=\"#3a2a2a\"/><circle cx=\"104\" cy=\"122\" r=\"3.5\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"122\" r=\"3.5\" fill=\"#ffffff\"/><ellipse cx=\"128\" cy=\"146\" rx=\"12\" ry=\"8\" fill=\"{{accent}}\"/><path d=\"M112 162 Q128 178 144 162\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"5\" stroke-linecap=\"round\"/><ellipse cx=\"94\" cy=\"154\" rx=\"10\" ry=\"6\" fill=\"{{accent}}\" opacity=\"0.85\"/><ellipse cx=\"162\" cy=\"154\" rx=\"10\" ry=\"6\" fill=\"{{accent}}\" opacity=\"0.85\"/></svg>"
+  },
+  {
+    "id": "stadium_training_cones",
+    "name": "Training Cones",
+    "category": "sport",
+    "size": {
+      "w": 26,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        222
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"42\" y=\"212\" width=\"172\" height=\"28\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M84 56 L54 212 C52 222 58 226 66 226 L102 226 C110 226 116 222 114 212 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M172 56 L142 212 C140 222 146 226 154 226 L190 226 C198 226 204 222 202 212 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><polygon points=\"74,152 77,132 91,132 94,152\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><polygon points=\"162,152 165,132 179,132 182,152\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"84\" cy=\"58\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"172\" cy=\"58\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><ellipse cx=\"79\" cy=\"108\" rx=\"4\" ry=\"16\" fill=\"#ffffff\" opacity=\"0.7\"/><ellipse cx=\"167\" cy=\"108\" rx=\"4\" ry=\"16\" fill=\"#ffffff\" opacity=\"0.7\"/></svg>"
+  },
+  {
+    "id": "stadium_ball_rack",
+    "name": "Ball Rack",
+    "category": "sport",
+    "size": {
+      "w": 35,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        248
+      ],
+      "grip": [
+        58,
+        130
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"56\" y=\"28\" width=\"144\" height=\"208\" rx=\"32\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"36\" y=\"222\" width=\"184\" height=\"26\" rx=\"13\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"32\" width=\"28\" height=\"204\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"184\" y=\"32\" width=\"28\" height=\"204\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"68\" y=\"92\" width=\"120\" height=\"16\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"68\" y=\"144\" width=\"120\" height=\"16\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"68\" y=\"196\" width=\"120\" height=\"16\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"66\" r=\"26\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"128\" cy=\"118\" r=\"26\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"128\" cy=\"170\" r=\"26\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"128\" cy=\"66\" r=\"10\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"112\" cy=\"74\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"144\" cy=\"74\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"128\" cy=\"118\" r=\"10\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"112\" cy=\"126\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"144\" cy=\"126\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"128\" cy=\"170\" r=\"10\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"112\" cy=\"178\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><circle cx=\"144\" cy=\"178\" r=\"8\" fill=\"{{accent}}\" stroke=\"none\"/><ellipse cx=\"118\" cy=\"56\" rx=\"7\" ry=\"4\" fill=\"#ffffff\" stroke=\"none\" opacity=\"0.85\"/><ellipse cx=\"118\" cy=\"108\" rx=\"7\" ry=\"4\" fill=\"#ffffff\" stroke=\"none\" opacity=\"0.85\"/><ellipse cx=\"118\" cy=\"160\" rx=\"7\" ry=\"4\" fill=\"#ffffff\" stroke=\"none\" opacity=\"0.85\"/></svg>"
+  },
+  {
+    "id": "school_shopping_backpack",
+    "name": "School Backpack",
+    "category": "bag",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M102 56 C102 20 154 20 154 56 L138 56 C138 34 118 34 118 56 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"22\" y=\"116\" width=\"44\" height=\"90\" rx=\"22\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"190\" y=\"116\" width=\"44\" height=\"90\" rx=\"22\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"52\" width=\"168\" height=\"172\" rx=\"54\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M76 98 C104 82 152 82 180 98\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"174\" cy=\"98\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><rect x=\"72\" y=\"130\" width=\"112\" height=\"76\" rx=\"30\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"92\" y=\"146\" width=\"72\" height=\"12\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"164\" cy=\"152\" r=\"7\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><path d=\"M128 180 C119 169 106 174 109 185 C112 194 128 202 128 202 C128 202 144 194 147 185 C150 174 137 169 128 180 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><ellipse cx=\"84\" cy=\"84\" rx=\"18\" ry=\"10\" fill=\"#ffffff\" opacity=\"0.7\"/><ellipse cx=\"96\" cy=\"150\" rx=\"14\" ry=\"7\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "school_shopping_lunchbox",
+    "name": "School Lunchbox",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        52
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M96 76 C96 36 160 36 160 76 L140 76 C140 52 116 52 116 76 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"32\" y=\"72\" width=\"192\" height=\"48\" rx=\"22\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"108\" width=\"176\" height=\"128\" rx=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"64\" y=\"164\" width=\"128\" height=\"56\" rx=\"18\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"112\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"168\" cy=\"112\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><circle cx=\"104\" cy=\"134\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"152\" cy=\"134\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M96 142 C110 156 146 156 160 142\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"192\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><ellipse cx=\"80\" cy=\"92\" rx=\"18\" ry=\"8\" fill=\"#ffffff\" opacity=\"0.7\"/></svg>"
+  },
+  {
+    "id": "school_shopping_notebook",
+    "name": "Notebook",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 26
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><g><path d=\"M60 60 C60 46 70 36 84 36 H172 C186 36 196 46 196 60 V212 C196 226 186 236 172 236 H84 C70 236 60 226 60 212 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"52\" width=\"28\" height=\"172\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"92\" y=\"92\" width=\"84\" height=\"52\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><polygon points=\"158,36 182,36 182,86 170,72 158,86\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"58\" cy=\"76\" r=\"10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"108\" r=\"10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"140\" r=\"10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"172\" r=\"10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"204\" r=\"10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><ellipse cx=\"104\" cy=\"66\" rx=\"18\" ry=\"8\" fill=\"#ffffff\" opacity=\"0.7\"/></g></svg>"
+  },
+  {
+    "id": "school_shopping_ruler",
+    "name": "Ruler",
+    "category": "school",
+    "size": {
+      "w": 29,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        232
+      ],
+      "grip": [
+        128,
+        204
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"26\" y=\"176\" width=\"204\" height=\"56\" rx=\"28\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"192\" width=\"168\" height=\"24\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><line x1=\"64\" y1=\"186\" x2=\"64\" y2=\"202\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"186\" x2=\"84\" y2=\"210\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"104\" y1=\"186\" x2=\"104\" y2=\"202\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"186\" x2=\"124\" y2=\"210\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"144\" y1=\"186\" x2=\"144\" y2=\"202\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"164\" y1=\"186\" x2=\"164\" y2=\"210\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"184\" y1=\"186\" x2=\"184\" y2=\"202\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"204\" y1=\"186\" x2=\"204\" y2=\"210\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"218\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"152\" cy=\"218\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M112 226 C118 232 140 232 146 226\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"62\" cy=\"188\" rx=\"16\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.7\"/></svg>"
+  },
+  {
+    "id": "school_shopping_eraser",
+    "name": "Cute Eraser",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"36\" y=\"116\" width=\"184\" height=\"120\" rx=\"30\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"52\" y=\"152\" width=\"152\" height=\"36\" rx=\"18\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"172\" cy=\"170\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><ellipse cx=\"82\" cy=\"142\" rx=\"24\" ry=\"10\" fill=\"#ffffff\" opacity=\"0.7\"/></svg>"
+  },
+  {
+    "id": "cloud_key",
+    "name": "Cloud Key",
+    "category": "toy",
+    "size": {
+      "w": 8,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"128\" cy=\"60\" r=\"44\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"60\" r=\"20\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"100\" width=\"20\" height=\"120\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"138\" y=\"170\" width=\"30\" height=\"16\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"138\" y=\"200\" width=\"22\" height=\"16\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"40\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"156\" cy=\"40\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "inflatable_flamingo",
+    "name": "Flamingo Float",
+    "category": "garden",
+    "size": {
+      "w": 60,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"190\" rx=\"110\" ry=\"40\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"186\" rx=\"70\" ry=\"18\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 170 C230 120 220 60 186 50 C160 46 150 70 168 80\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"22\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"176\" cy=\"56\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 54 L120 64 L150 70 Z\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"182\" cy=\"50\" r=\"5\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pretzel",
+    "name": "Pretzel",
+    "category": "food",
+    "size": {
+      "w": 10,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        206
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M60 170 C20 120 60 60 128 120 C196 60 236 120 196 170 C160 210 96 210 60 170 M90 110 L166 190 M166 110 L90 190\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"26\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"100\" cy=\"140\" r=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"156\" cy=\"140\" r=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"182\" r=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "glue_stick",
+    "name": "Glue Stick",
+    "category": "school",
+    "size": {
+      "w": 4,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"96\" y=\"70\" width=\"64\" height=\"160\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"90\" y=\"40\" width=\"76\" height=\"40\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"120\" width=\"48\" height=\"60\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"110\" cy=\"100\" rx=\"6\" ry=\"18\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "crayon_box",
+    "name": "Crayon Box",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"60\" y=\"50\" width=\"20\" height=\"90\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 50 L70 30 L80 50 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"90\" y=\"60\" width=\"20\" height=\"90\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 60 L100 40 L110 60 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"50\" width=\"20\" height=\"90\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 50 L130 30 L140 50 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"60\" width=\"20\" height=\"90\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 60 L160 40 L170 60 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"50\" width=\"20\" height=\"90\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 50 L190 30 L200 50 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"110\" width=\"176\" height=\"120\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"140\" width=\"136\" height=\"50\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 165 H176\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "photo_frame",
+    "name": "Photo Frame",
+    "category": "decor",
+    "size": {
+      "w": 20,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        216
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"30\" y=\"40\" width=\"196\" height=\"176\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"52\" y=\"62\" width=\"152\" height=\"132\" rx=\"6\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"110\" r=\"18\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 194 L110 140 L150 176 L176 150 L196 194 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"60\" cy=\"54\" rx=\"16\" ry=\"4\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook",
+    "category": "toy",
+    "size": {
+      "w": 10,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        216
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M24 80 C70 60 110 70 128 90 C146 70 186 60 232 80 V210 C186 190 146 196 128 216 C110 196 70 190 24 210 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 92 C76 80 106 86 120 102 V196 C106 184 76 180 40 190 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M216 92 C180 80 150 86 136 102 V196 C150 184 180 180 216 190 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"140\" r=\"16\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M160 120 H200 M160 140 H196 M160 160 H200\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "milk_carton",
+    "name": "Milk Carton",
+    "category": "drink",
+    "size": {
+      "w": 6,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 80 L128 30 L186 80 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"80\" width=\"116\" height=\"156\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"130\" width=\"116\" height=\"60\" rx=\"4\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"160\" r=\"18\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"122\" cy=\"156\" r=\"4\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"134\" cy=\"156\" r=\"4\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bread_loaf",
+    "name": "Bread Loaf",
+    "category": "food",
+    "size": {
+      "w": 14,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        206
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M24 200 V130 C24 70 232 70 232 130 V200 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 96 L100 120 M128 90 L148 114 M176 96 L196 120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"24\" y=\"186\" width=\"208\" height=\"20\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cereal_box",
+    "name": "Cereal Box",
+    "category": "food",
+    "size": {
+      "w": 8,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"60\" y=\"20\" width=\"136\" height=\"216\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"40\" width=\"104\" height=\"40\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 60 H166\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"150\" r=\"26\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"146\" cy=\"160\" r=\"22\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"130\" r=\"16\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M112 196 Q128 212 144 196\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "category": "food",
+    "size": {
+      "w": 10,
+      "h": 5
+    },
+    "anchors": {
+      "base": [
+        128,
+        190
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M30 110 C60 200 196 210 236 130 C200 170 90 170 46 100 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 110 L20 92 L44 96 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 150 C110 176 170 176 206 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "cheese_wedge",
+    "name": "Cheese Wedge",
+    "category": "food",
+    "size": {
+      "w": 10,
+      "h": 7
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 200 L236 200 L236 110 L20 170 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 170 L236 110 L200 90 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"180\" r=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"160\" r=\"16\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"176\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "egg_carton",
+    "name": "Egg Carton",
+    "category": "food",
+    "size": {
+      "w": 14,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"130\" width=\"216\" height=\"80\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"56\" cy=\"120\" rx=\"22\" ry=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"104\" cy=\"120\" rx=\"22\" ry=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"152\" cy=\"120\" rx=\"22\" ry=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"200\" cy=\"120\" rx=\"22\" ry=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"150\" width=\"216\" height=\"12\" rx=\"4\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "sunglasses_stand",
+    "name": "Sunglasses Stand",
+    "category": "decor",
+    "size": {
+      "w": 24,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"120\" y=\"60\" width=\"16\" height=\"160\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"228\" rx=\"60\" ry=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"70\" r=\"22\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"70\" r=\"22\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 70 H138\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"96\" cy=\"130\" r=\"22\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"130\" r=\"22\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 130 H138\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"88\" cy=\"62\" rx=\"6\" ry=\"4\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "reading_glasses_tray",
+    "name": "Reading Glasses Tray",
+    "category": "decor",
+    "size": {
+      "w": 24,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"150\" width=\"228\" height=\"60\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"42\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"78\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M56 170 H64\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"146\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M124 170 H132\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"178\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"214\" cy=\"170\" r=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M192 170 H200\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "trial_frame",
+    "name": "Trial Frame",
+    "category": "decor",
+    "size": {
+      "w": 18,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        180
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"76\" cy=\"130\" r=\"50\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"130\" r=\"50\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"130\" r=\"50\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\"/><circle cx=\"180\" cy=\"130\" r=\"50\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\"/><path d=\"M126 120 H130 M24 120 L6 100 M232 120 L250 100\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"76\" cy=\"76\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"76\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "contact_lens_box",
+    "name": "Contact Lens Box",
+    "category": "decor",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"40\" y=\"100\" width=\"176\" height=\"110\" rx=\"12\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"100\" width=\"176\" height=\"40\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"98\" cy=\"170\" r=\"18\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"158\" cy=\"170\" r=\"18\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"70\" cy=\"116\" rx=\"12\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "salon_scissors",
+    "name": "Scissors",
+    "category": "makeup",
+    "size": {
+      "w": 6,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        190
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"90\" cy=\"190\" r=\"30\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"166\" cy=\"190\" r=\"30\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"90\" cy=\"190\" r=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"166\" cy=\"190\" r=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M108 166 L136 30 L146 34 L130 166 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M148 166 L120 30 L110 34 L126 166 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"140\" r=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "towel_cart",
+    "name": "Towel Cart",
+    "category": "decor",
+    "size": {
+      "w": 40,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"30\" y=\"40\" width=\"196\" height=\"160\" rx=\"10\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 40 V200 M226 40 V200\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"30\" y=\"90\" width=\"196\" height=\"10\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"160\" width=\"196\" height=\"10\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"52\" width=\"50\" height=\"38\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"52\" width=\"50\" height=\"38\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"52\" width=\"50\" height=\"38\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"122\" width=\"70\" height=\"38\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"122\" width=\"70\" height=\"38\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"50\" cy=\"222\" r=\"14\" fill=\"{{outline}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"206\" cy=\"222\" r=\"14\" fill=\"{{outline}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "powder_compact",
+    "name": "Powder Compact",
+    "category": "makeup",
+    "size": {
+      "w": 6,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        180
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"140\" rx=\"100\" ry=\"40\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"132\" rx=\"80\" ry=\"28\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M48 120 C48 40 208 40 208 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"90\" rx=\"50\" ry=\"22\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "lip_balm",
+    "name": "Lip Balm",
+    "category": "makeup",
+    "size": {
+      "w": 4,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"96\" y=\"100\" width=\"64\" height=\"130\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"40\" width=\"64\" height=\"70\" rx=\"20\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"150\" width=\"64\" height=\"30\" rx=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"110\" cy=\"120\" rx=\"5\" ry=\"14\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "blush_pot",
+    "name": "Blush Pot",
+    "category": "makeup",
+    "size": {
+      "w": 7,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"40\" y=\"120\" width=\"176\" height=\"80\" rx=\"20\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"120\" rx=\"88\" ry=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 110 C80 96 120 104 128 116 C136 104 176 96 196 110\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 116 C100 104 120 110 128 120 C136 110 156 104 176 116\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "tissue_box",
+    "name": "Tissue Box",
+    "category": "decor",
+    "size": {
+      "w": 10,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"30\" y=\"100\" width=\"196\" height=\"120\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"100\" width=\"96\" height=\"20\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 102 C100 60 120 40 128 30 C136 40 156 60 156 102 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"170\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"170\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "hotel_key_card",
+    "name": "Key Card",
+    "category": "toy",
+    "size": {
+      "w": 10,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "grip": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"24\" y=\"80\" width=\"208\" height=\"120\" rx=\"16\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"100\" width=\"60\" height=\"40\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 120 H200 M120 150 H180\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"24\" y=\"170\" width=\"208\" height=\"14\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "welcome_mat",
+    "name": "Welcome Mat",
+    "category": "decor",
+    "size": {
+      "w": 50,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"10\" y=\"180\" width=\"236\" height=\"40\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"188\" width=\"208\" height=\"24\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 200 C118 194 124 192 128 196 C132 192 138 194 138 200 C138 206 128 210 128 210 C128 210 118 206 118 200 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "night_lamp",
+    "name": "Night Lamp",
+    "category": "decor",
+    "size": {
+      "w": 12,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 40 H186 L210 140 H46 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"90\" r=\"18\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"140\" width=\"20\" height=\"60\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"214\" rx=\"60\" ry=\"16\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"70\" r=\"5\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bathrobe_hook",
+    "name": "Bathrobe",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"110\" y=\"10\" width=\"36\" height=\"20\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 40 C90 30 166 30 186 40 L216 236 H40 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 40 L128 120 L156 40\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 40 L128 120 L156 40 M60 150 H196\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"180\" width=\"36\" height=\"30\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "sweet_counter",
+    "name": "Sweet Counter",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "top": [
+        128,
+        92
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"110\" width=\"228\" height=\"126\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"8\" y=\"92\" width=\"240\" height=\"24\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"126\" width=\"196\" height=\"70\" rx=\"10\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"160\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"160\" r=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"160\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M14 60 H242 L230 92 H26 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 60 V92 M100 60 V92 M150 60 V92 M200 60 V92\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "sprinkle_jar",
+    "name": "Sprinkle Jar",
+    "category": "decor",
+    "size": {
+      "w": 8,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"70\" y=\"80\" width=\"116\" height=\"150\" rx=\"26\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"50\" width=\"104\" height=\"34\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"120\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"110\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"160\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"180\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"200\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"146\" y=\"150\" width=\"16\" height=\"6\" rx=\"3\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "tasting_spoons",
+    "name": "Tasting Spoons",
+    "category": "food",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"70\" cy=\"90\" rx=\"26\" ry=\"34\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"120\" width=\"12\" height=\"100\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"90\" rx=\"26\" ry=\"34\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"122\" y=\"120\" width=\"12\" height=\"100\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"186\" cy=\"90\" rx=\"26\" ry=\"34\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"120\" width=\"12\" height=\"100\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "toy_kitchen",
+    "name": "Toy Kitchen",
+    "category": "toy",
+    "size": {
+      "w": 40,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"60\" width=\"216\" height=\"176\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"60\" width=\"216\" height=\"30\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"75\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"75\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"110\" width=\"80\" height=\"100\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"160\" r=\"22\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"110\" width=\"76\" height=\"100\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"160\" r=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"30\" width=\"60\" height=\"30\" rx=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "toy_car",
+    "name": "Toy Car",
+    "category": "toy",
+    "size": {
+      "w": 14,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 190 V150 C20 130 40 120 60 120 L90 80 H170 L200 120 C220 120 236 130 236 150 V190 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 90 H160 L184 120 H80 Z\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"196\" r=\"24\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"186\" cy=\"196\" r=\"24\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"196\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"186\" cy=\"196\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "menu_chalkboard",
+    "name": "Chalkboard Menu",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M60 236 L90 40 M196 236 L166 40\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 236 L96 40 M196 236 L160 40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"60\" y=\"30\" width=\"136\" height=\"150\" rx=\"10\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 70 H176 M80 100 H150 M80 130 H170\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"156\" r=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "juice_rack",
+    "name": "Juice Rack",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "top": [
+        128,
+        30
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"30\" width=\"216\" height=\"206\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"126\" width=\"196\" height=\"10\" rx=\"4\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"60\" width=\"32\" height=\"66\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"46\" width=\"12\" height=\"16\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"60\" width=\"32\" height=\"66\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"46\" width=\"12\" height=\"16\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"134\" y=\"60\" width=\"32\" height=\"66\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"144\" y=\"46\" width=\"12\" height=\"16\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"60\" width=\"32\" height=\"66\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"190\" y=\"46\" width=\"12\" height=\"16\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"150\" width=\"40\" height=\"76\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"150\" width=\"40\" height=\"76\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"150\" width=\"40\" height=\"76\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "desktop_computer",
+    "name": "Computer",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 28
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"40\" y=\"30\" width=\"176\" height=\"130\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"46\" width=\"144\" height=\"98\" rx=\"6\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M108 100 Q128 120 148 100\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"102\" cy=\"80\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"154\" cy=\"80\" r=\"6\" fill=\"#3a2a2a\"/><rect x=\"110\" y=\"160\" width=\"36\" height=\"40\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"200\" width=\"136\" height=\"30\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "filing_cabinet",
+    "name": "Filing Cabinet",
+    "category": "furniture",
+    "size": {
+      "w": 30,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "top": [
+        128,
+        20
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"50\" y=\"20\" width=\"156\" height=\"216\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"40\" width=\"132\" height=\"56\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"62\" width=\"40\" height=\"12\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"110\" width=\"132\" height=\"56\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"132\" width=\"40\" height=\"12\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"180\" width=\"132\" height=\"56\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"202\" width=\"40\" height=\"12\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "whiteboard",
+    "name": "Whiteboard",
+    "category": "decor",
+    "size": {
+      "w": 80,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        196
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"30\" width=\"228\" height=\"150\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"42\" width=\"204\" height=\"126\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 80 C80 60 100 100 130 80 M50 120 H160\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"60\" y=\"180\" width=\"136\" height=\"12\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"172\" width=\"30\" height=\"10\" rx=\"4\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "office_printer",
+    "name": "Printer",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"100\" width=\"216\" height=\"110\" rx=\"16\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"60\" width=\"136\" height=\"50\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"150\" width=\"156\" height=\"20\" rx=\"6\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"170\" width=\"116\" height=\"50\" rx=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 190 H160 M90 204 H140\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"124\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "soft_cushion",
+    "name": "Soft Cushion",
+    "category": "decor",
+    "size": {
+      "w": 20,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        206
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 120 C20 80 60 70 128 70 C196 70 236 80 236 120 C236 160 236 190 196 200 C140 210 116 210 60 200 C20 190 20 160 20 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"136\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 120 L4 104 M236 120 L252 104\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"80\" cy=\"96\" rx=\"22\" ry=\"8\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "tiny_party_hat",
+    "name": "Tiny Pet Hat",
+    "category": "toy",
+    "size": {
+      "w": 6,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        222
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M60 210 L128 30 L196 210 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 160 L170 110 M100 200 L180 160\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"30\" r=\"18\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"210\" rx=\"76\" ry=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cookie_jar",
+    "name": "Cookie Jar",
+    "category": "decor",
+    "size": {
+      "w": 12,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"50\" y=\"80\" width=\"156\" height=\"150\" rx=\"40\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"54\" width=\"136\" height=\"34\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"40\" r=\"16\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"22\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"176\" r=\"20\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"130\" cy=\"130\" r=\"18\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"94\" cy=\"154\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"166\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"146\" cy=\"170\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"156\" cy=\"182\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"126\" cy=\"124\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cup_stack",
+    "name": "Cup Stack",
+    "category": "drink",
+    "size": {
+      "w": 8,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 200 H186 L176 236 H80 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M72 160 H184 L174 196 H82 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M74 120 H182 L172 156 H84 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 80 H180 L170 116 H86 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "hair_clips",
+    "name": "Hair Clips",
+    "category": "makeup",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        143
+      ],
+      "grip": [
+        128,
+        120
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M26 120 C40 90 80 90 94 120 C80 150 40 150 26 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"120\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M94 120 C108 90 148 90 162 120 C148 150 108 150 94 120 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"120\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M162 120 C176 90 216 90 230 120 C216 150 176 150 162 120 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"120\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "candle",
+    "name": "Candle",
+    "category": "decor",
+    "size": {
+      "w": 6,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"226\" rx=\"60\" ry=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"90\" width=\"60\" height=\"136\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 90 V70\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 70 C108 50 120 20 128 10 C136 20 148 50 128 70 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "salad_bowl",
+    "name": "Salad Bowl",
+    "category": "food",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        188
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 120 C20 210 236 210 236 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"110\" r=\"24\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"100\" r=\"26\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"110\" r=\"22\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"116\" r=\"12\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"112\" r=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "toy_mouse",
+    "name": "Toy Mouse",
+    "category": "toy",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"150\" rx=\"80\" ry=\"50\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"104\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"104\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"186\" cy=\"104\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"210\" cy=\"150\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"170\" cy=\"140\" r=\"5\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M48 160 C20 160 14 130 30 120\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "bandage_roll",
+    "name": "Bandage Roll",
+    "category": "decor",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"110\" cy=\"140\" r=\"70\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"140\" r=\"26\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 196 H236 V220 H130 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 120 C80 110 100 110 120 120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "juice_tap",
+    "name": "Juice Tap",
+    "category": "decor",
+    "size": {
+      "w": 24,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"60\" y=\"150\" width=\"136\" height=\"86\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"40\" width=\"36\" height=\"116\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"40\" r=\"24\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"90\" width=\"40\" height=\"16\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M176 106 V130\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"176\" cy=\"140\" r=\"6\" fill=\"#7fd1ff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "toy_guitar",
+    "name": "Guitar",
+    "category": "toy",
+    "size": {
+      "w": 12,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        60
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"118\" y=\"10\" width=\"20\" height=\"120\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"4\" width=\"40\" height=\"24\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 120 C80 120 60 150 76 176 C50 200 70 240 128 240 C186 240 206 200 180 176 C196 150 176 120 128 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"186\" r=\"18\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 30 V230 M136 30 V230\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "juice_jug",
+    "name": "Juice Jug",
+    "category": "drink",
+    "size": {
+      "w": 8,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ],
+      "grip": [
+        208,
+        120
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 40 H176 L186 220 C186 232 70 232 70 220 Z\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M74 100 H182 L186 220 C186 232 70 232 70 220 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 70 C230 70 230 170 186 170\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 40 L50 30 L74 60 Z\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"150\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "snack_basket",
+    "name": "Snack Basket",
+    "category": "food",
+    "size": {
+      "w": 14,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        60
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M60 120 C60 40 196 40 196 120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M30 120 H226 L206 220 H50 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 150 H206 M56 180 H200\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"90\" cy=\"110\" r=\"20\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"104\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"86\" width=\"30\" height=\"40\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "stable_door",
+    "name": "Stable Door",
+    "category": "decor",
+    "size": {
+      "w": 60,
+      "h": 80
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"30\" y=\"20\" width=\"196\" height=\"216\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"34\" width=\"168\" height=\"90\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"132\" width=\"168\" height=\"96\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M44 34 L212 124 M212 34 L44 124 M44 132 L212 228 M212 132 L44 228\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"196\" cy=\"130\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "saddle",
+    "name": "Saddle",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 150 C40 90 80 110 128 110 C176 110 216 90 236 150 C200 170 56 170 20 150 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 140 C90 130 166 130 196 140 L190 190 H66 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 160 V230\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"230\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"96\" width=\"56\" height=\"20\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "horse_blanket",
+    "name": "Horse Blanket",
+    "category": "decor",
+    "size": {
+      "w": 50,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M14 120 C40 100 216 100 242 120 L232 220 H24 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 140 H226 M28 200 H228\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M108 160 C108 150 120 146 128 154 C136 146 148 150 148 160 C148 172 128 184 128 184 C128 184 108 172 108 160 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "category": "food",
+    "size": {
+      "w": 4,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        120
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M100 70 C110 60 146 60 156 70 L132 236 C130 242 126 242 124 236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 110 L130 110 M120 150 L140 150 M126 190 L136 190\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 66 C110 40 100 30 96 14 C116 20 124 34 128 50 C132 34 140 20 160 14 C156 30 146 40 128 66 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "wooden_fence",
+    "name": "Wooden Fence",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M16 236 V100 L30 80 L44 100 V236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M66 236 V100 L80 80 L94 100 V236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M116 236 V100 L130 80 L144 100 V236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M166 236 V100 L180 80 L194 100 V236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M212 236 V100 L226 80 L240 100 V236 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"130\" width=\"236\" height=\"18\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"190\" width=\"236\" height=\"18\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pet_food_bowl",
+    "name": "Pet Food Bowl",
+    "category": "decor",
+    "size": {
+      "w": 12,
+      "h": 5
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M28 150 H228 L204 220 H52 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"150\" rx=\"100\" ry=\"20\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"140\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"136\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"156\" cy=\"140\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 186 C110 176 120 172 128 180 C136 172 146 176 146 186 C146 196 128 204 128 204 C128 204 110 196 110 186 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "birdcage",
+    "name": "Birdcage",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M50 230 V110 C50 40 206 40 206 110 V230 Z\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 230 V110 C50 40 206 40 206 110 V230 M90 230 V60 M128 230 V40 M166 230 V60\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\"/><rect x=\"40\" y=\"220\" width=\"176\" height=\"16\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"30\" r=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 160 H186\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"140\" rx=\"24\" ry=\"18\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"136\" cy=\"134\" r=\"4\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 140 L166 146 L150 150 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "wall_mural",
+    "name": "Wall Mural",
+    "category": "decor",
+    "size": {
+      "w": 120,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"10\" y=\"40\" width=\"236\" height=\"160\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M10 200 C60 120 100 160 140 110 C170 80 210 120 246 100 V200 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"80\" r=\"20\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 200 C60 150 80 150 100 200 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 90 C120 60 150 60 150 90 C150 110 120 110 120 90 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "paint_sponge",
+    "name": "Paint Sponge",
+    "category": "school",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"40\" y=\"110\" width=\"176\" height=\"90\" rx=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"140\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"130\" cy=\"160\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"170\" cy=\"130\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"180\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"182\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 130 C80 100 120 140 160 110 C190 90 216 110 216 110 V120 H40 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "colour_mixing_bowl",
+    "name": "Colour Mixing Bowl",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        196
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M24 120 C24 214 232 214 232 120 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"120\" rx=\"104\" ry=\"24\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 120 C100 104 130 136 160 112 C176 100 190 116 196 120\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 130 C110 122 130 140 150 128\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"170\" y=\"40\" width=\"16\" height=\"90\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "star_wall_sticker",
+    "name": "Star Sticker",
+    "category": "decor",
+    "size": {
+      "w": 14,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        218
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 20 L156 90 L232 96 L174 144 L194 218 L128 178 L62 218 L82 144 L24 96 L100 90 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"120\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"146\" cy=\"120\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M116 140 Q128 152 140 140\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"110\" cy=\"70\" rx=\"10\" ry=\"5\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "flower_bed",
+    "name": "Flower Bed",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"170\" width=\"228\" height=\"66\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 170 V110\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"40\" cy=\"100\" r=\"18\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"100\" r=\"7\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 170 V90\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"80\" cy=\"80\" r=\"18\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"80\" r=\"7\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 170 V110\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"120\" cy=\"100\" r=\"18\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"100\" r=\"7\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M160 170 V90\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"80\" r=\"18\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 170 V110\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"100\" r=\"18\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"100\" r=\"7\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "butterfly",
+    "name": "Butterfly",
+    "category": "animal",
+    "size": {
+      "w": 15,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        214
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 120 C100 60 30 50 40 110 C46 150 100 150 128 130 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 120 C156 60 226 50 216 110 C210 150 156 150 128 130 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 140 C100 160 60 200 90 210 C110 216 124 180 128 150 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 140 C156 160 196 200 166 210 C146 216 132 180 128 150 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"90\" width=\"16\" height=\"110\" rx=\"8\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M124 90 L110 60 M132 90 L146 60\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"80\" cy=\"100\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"100\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "garden_bench",
+    "name": "Garden Bench",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"60\" width=\"216\" height=\"20\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"96\" width=\"216\" height=\"20\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"140\" width=\"228\" height=\"24\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 80 V236 M216 80 V236 M60 164 V236 M196 164 V236\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "treasure_chest",
+    "name": "Treasure Chest",
+    "category": "decor",
+    "size": {
+      "w": 40,
+      "h": 34
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M30 120 C30 50 226 50 226 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"120\" width=\"196\" height=\"110\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 120 H226 M80 60 V230 M176 60 V230\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"110\" y=\"120\" width=\"36\" height=\"40\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"140\" r=\"6\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"100\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"100\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "picnic_basket",
+    "name": "Picnic Basket",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 110 C70 40 186 40 186 110\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 110 H232 L212 230 H44 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 110 H232 V140 H24 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M64 140 V230 M104 140 V230 M144 140 V230 M184 140 V230\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M60 110 C60 90 100 90 100 110 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "fairy_lamp",
+    "name": "Fairy Lamp",
+    "category": "decor",
+    "size": {
+      "w": 14,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        224
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 0 V40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M88 40 H168 L180 70 H76 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"70\" width=\"88\" height=\"110\" rx=\"14\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 90 C108 110 112 150 128 160 C144 150 148 110 128 90 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"180\" width=\"96\" height=\"20\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"214\" r=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "star_lantern",
+    "name": "Star Lantern",
+    "category": "decor",
+    "size": {
+      "w": 16,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        206
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 0 V40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 40 L150 100 L214 104 L164 144 L180 206 L128 172 L76 206 L92 144 L42 104 L106 100 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"130\" r=\"20\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"112\" cy=\"92\" rx=\"8\" ry=\"4\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "rainbow_slide",
+    "name": "Rainbow Slide",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"60\" width=\"16\" height=\"176\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"60\" width=\"16\" height=\"176\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"50\" width=\"66\" height=\"16\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 100 H70 M40 150 H70 M40 200 H70\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M86 60 C150 70 190 160 236 226\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M86 78 C146 90 180 170 226 234\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"240\" cy=\"226\" r=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "moon_hammock",
+    "name": "Moon Hammock",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ],
+      "seat": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 60 L60 150 M236 60 L196 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 140 C80 220 176 220 216 140 C176 170 80 170 40 140 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M184 40 C150 50 140 100 170 120 C140 120 120 90 130 60 C138 44 160 36 184 40 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"160\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"166\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cloud_bench",
+    "name": "Cloud Bench",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"60\" cy=\"150\" r=\"40\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"130\" r=\"46\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"136\" r=\"44\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"204\" cy=\"156\" r=\"36\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"150\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"90\" cy=\"170\" r=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"176\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 210 V236 M186 210 V236\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "sky_flower",
+    "name": "Sky Flower",
+    "category": "plant",
+    "size": {
+      "w": 20,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 236 C120 180 136 140 128 100\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"100\" cy=\"190\" rx=\"24\" ry=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"168\" cy=\"70\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"148\" cy=\"105\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"108\" cy=\"105\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"88\" cy=\"70\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"108\" cy=\"35\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"148\" cy=\"35\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"70\" r=\"24\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"119\" cy=\"66\" r=\"4\" fill=\"#3a2a2a\"/><circle cx=\"137\" cy=\"66\" r=\"4\" fill=\"#3a2a2a\"/><path d=\"M121 78 Q128 85 135 78\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "board_game",
+    "name": "Board Game",
+    "category": "toy",
+    "size": {
+      "w": 16,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"150\" width=\"228\" height=\"60\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"86\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"146\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"176\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"206\" y=\"160\" width=\"26\" height=\"40\" rx=\"4\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"130\" r=\"16\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"110\" width=\"30\" height=\"30\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"168\" cy=\"118\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"182\" cy=\"132\" r=\"3\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cat_basket",
+    "name": "Pet Basket",
+    "category": "decor",
+    "size": {
+      "w": 36,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        208
+      ],
+      "seat": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 140 C20 230 236 230 236 140 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 170 H226 M44 200 H212\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"140\" rx=\"108\" ry=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"140\" rx=\"80\" ry=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"120\" r=\"26\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"108\" cy=\"100\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"148\" cy=\"100\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"118\" cy=\"120\" r=\"4\" fill=\"#3a2a2a\"/><circle cx=\"138\" cy=\"120\" r=\"4\" fill=\"#3a2a2a\"/></svg>"
+  },
+  {
+    "id": "star_stepping_stones",
+    "name": "Star Path",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M40 190 L48 206 L66 208 L52 220 L56 238 L40 228 L24 238 L28 220 L14 208 L32 206 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 180 L108 196 L126 198 L112 210 L116 228 L100 218 L84 228 L88 210 L74 198 L92 196 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M160 190 L168 206 L186 208 L172 220 L176 238 L160 228 L144 238 L148 220 L134 208 L152 206 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M220 180 L228 196 L246 198 L232 210 L236 228 L220 218 L204 228 L208 210 L194 198 L212 196 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "seashell_basket",
+    "name": "Seashell Basket",
+    "category": "decor",
+    "size": {
+      "w": 20,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        222
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M24 120 H232 L208 222 H48 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 150 H216 M48 186 H208\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 120 C60 90 100 80 104 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 120 C120 80 160 80 160 120 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"190\" cy=\"108\" r=\"16\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "coconut_drink",
+    "name": "Coconut Drink",
+    "category": "drink",
+    "size": {
+      "w": 8,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"128\" cy=\"150\" r=\"80\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"100\" rx=\"70\" ry=\"20\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M140 100 L176 20\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M150 60 C170 40 210 50 220 70 C200 64 180 66 160 76 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"170\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"196\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "happy_starfish",
+    "name": "Starfish",
+    "category": "decor",
+    "size": {
+      "w": 12,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        228
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 20 L152 96 L232 100 L170 150 L192 228 L128 182 L64 228 L86 150 L24 100 L104 96 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"112\" cy=\"126\" r=\"5\" fill=\"#3a2a2a\"/><circle cx=\"144\" cy=\"126\" r=\"5\" fill=\"#3a2a2a\"/><path d=\"M118 146 Q128 156 138 146\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"60\" r=\"5\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"112\" r=\"5\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"112\" r=\"5\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "driftwood_bench",
+    "name": "Driftwood Bench",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M14 140 C40 120 216 120 242 140 C246 160 216 170 128 170 C40 170 10 160 14 140 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 150 C90 140 160 140 206 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M50 166 L40 236 H70 L76 166 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 166 L186 236 H216 L206 166 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "beach_tricycle",
+    "name": "Beach Trike",
+    "category": "toy",
+    "size": {
+      "w": 30,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        232
+      ],
+      "grip": [
+        150,
+        60
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"60\" cy=\"196\" r=\"36\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"196\" r=\"16\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"196\" r=\"36\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"196\" r=\"16\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 196 L120 120 L200 196 M120 120 L150 60 M136 60 H170\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"96\" y=\"100\" width=\"50\" height=\"20\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "message_in_bottle",
+    "name": "Message in a Bottle",
+    "category": "decor",
+    "size": {
+      "w": 14,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M30 150 C30 110 60 100 90 100 H180 L210 116 V184 L180 200 H90 C60 200 30 190 30 150 Z\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"210\" y=\"124\" width=\"30\" height=\"52\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"130\" width=\"90\" height=\"40\" rx=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 145 H150 M96 158 H136\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"70\" cy=\"120\" rx=\"16\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "beach_blanket",
+    "name": "Beach Blanket",
+    "category": "decor",
+    "size": {
+      "w": 60,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        198
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M10 190 L40 150 H216 L246 190 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 150 L30 190 M100 150 L90 190 M156 150 L166 190 M206 150 L226 190\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"10\" y=\"186\" width=\"236\" height=\"12\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "driftwood_boat",
+    "name": "Little Boat",
+    "category": "decor",
+    "size": {
+      "w": 70,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M14 160 H242 L210 220 H46 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 160 V30\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M136 40 L216 140 H136 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 60 L60 140 H120 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 190 C90 180 160 180 196 190\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M0 236 C40 224 80 244 128 232 C176 222 216 244 256 232\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"8\"/></svg>"
+  },
+  {
+    "id": "palm_leaf_fan",
+    "name": "Palm Leaf Fan",
+    "category": "toy",
+    "size": {
+      "w": 12,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        190
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"120\" y=\"140\" width=\"16\" height=\"96\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 150 C60 140 30 90 40 30 C70 60 90 80 128 150 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 150 C100 90 110 40 128 14 C146 40 156 90 128 150 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 150 C196 140 226 90 216 30 C186 60 166 80 128 150 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "seagull_toy",
+    "name": "Seagull",
+    "category": "toy",
+    "size": {
+      "w": 14,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        228
+      ],
+      "grip": [
+        120,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"120\" cy=\"150\" rx=\"80\" ry=\"46\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"110\" r=\"34\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M206 112 L240 120 L206 130 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"186\" cy=\"102\" r=\"6\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 140 C60 90 100 70 140 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 196 V226 M140 196 V226\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "toy_lighthouse",
+    "name": "Toy Lighthouse",
+    "category": "toy",
+    "size": {
+      "w": 12,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M90 230 L106 70 H150 L166 230 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M98 180 H158 M102 130 H154\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"96\" y=\"40\" width=\"64\" height=\"34\" rx=\"8\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 40 L128 8 L166 40 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"226\" width=\"104\" height=\"14\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"56\" r=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bucket_and_spade",
+    "name": "Bucket and Spade",
+    "category": "toy",
+    "size": {
+      "w": 14,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        110,
+        50
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M50 100 H170 L156 230 H64 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"110\" cy=\"100\" rx=\"60\" ry=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 100 C60 40 160 40 160 100\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M196 40 V180\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M176 180 H216 L206 236 H186 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cosy_hammock",
+    "name": "Hammock",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M14 30 V236 M242 30 V236\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 60 L60 140 M242 60 L196 140\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M50 130 C90 210 166 210 206 130 C166 160 90 160 50 130 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 156 C110 176 146 176 176 156\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "crab_toy",
+    "name": "Crab Toy",
+    "category": "toy",
+    "size": {
+      "w": 12,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        228
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"160\" rx=\"70\" ry=\"44\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"50\" cy=\"110\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"206\" cy=\"110\" r=\"26\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 130 L90 150 M186 130 L166 150 M70 190 L40 210 M80 200 L60 226 M186 190 L216 210 M176 200 L196 226\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"140\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"146\" cy=\"140\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M116 166 Q128 178 140 166\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "starfish_pillow",
+    "name": "Starfish Pillow",
+    "category": "decor",
+    "size": {
+      "w": 18,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        222
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 26 C140 26 150 90 156 96 C166 100 228 92 230 104 C232 116 176 144 172 152 C170 162 200 214 190 222 C180 230 136 190 128 190 C120 190 76 230 66 222 C56 214 86 162 84 152 C80 144 24 116 26 104 C28 92 90 100 100 96 C106 90 116 26 128 26 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"130\" r=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"110\" cy=\"80\" rx=\"10\" ry=\"5\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "lemonade_glass",
+    "name": "Lemonade",
+    "category": "drink",
+    "size": {
+      "w": 6,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        226
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 40 H186 L170 226 H86 Z\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 90 H180 L170 226 H86 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"60\" r=\"30\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"60\" r=\"16\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M140 20 L120 160\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"130\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"146\" cy=\"170\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "velvet_sofa",
+    "name": "Velvet Sofa",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ],
+      "seat": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M30 80 C30 40 226 40 226 80 V130 H30 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"100\" width=\"46\" height=\"110\" rx=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"200\" y=\"100\" width=\"46\" height=\"110\" rx=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"130\" width=\"176\" height=\"40\" rx=\"14\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"170\" width=\"216\" height=\"40\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 60 V120 M166 60 V120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"90\" cy=\"80\" r=\"5\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"166\" cy=\"80\" r=\"5\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"72\" r=\"5\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 210 V236 M216 210 V236\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "garden_fountain",
+    "name": "Garden Fountain",
+    "category": "garden",
+    "size": {
+      "w": 70,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"220\" rx=\"110\" ry=\"20\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"214\" rx=\"96\" ry=\"12\" fill=\"#7fd1ff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"110\" width=\"24\" height=\"104\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"110\" rx=\"60\" ry=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"106\" rx=\"48\" ry=\"8\" fill=\"#7fd1ff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 100 C120 60 128 40 128 30 C128 40 136 60 128 100 M128 70 C100 70 90 90 86 104 M128 70 C156 70 166 90 170 104\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"26\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "rose_vase",
+    "name": "Rose Vase",
+    "category": "decor",
+    "size": {
+      "w": 14,
+      "h": 26
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M90 236 C70 190 90 150 108 140 H148 C166 150 186 190 166 236 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 140 C100 100 90 80 80 60 M128 140 V50 M146 140 C156 100 166 80 176 60\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"80\" cy=\"56\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"44\" r=\"24\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"56\" r=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 56 m-10 0 a10 10 0 1 0 10 -10 M128 44 m-12 0 a12 12 0 1 0 12 -12 M176 56 m-10 0 a10 10 0 1 0 10 -10\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "gift_cabinet",
+    "name": "Gift Cabinet",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "top": [
+        128,
+        20
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"40\" y=\"20\" width=\"176\" height=\"216\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"36\" width=\"144\" height=\"80\" rx=\"8\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"130\" width=\"144\" height=\"90\" rx=\"8\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"70\" width=\"40\" height=\"46\" rx=\"6\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 70 V116 M76 90 H116\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"140\" y=\"80\" width=\"40\" height=\"36\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"180\" r=\"22\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"170\" width=\"44\" height=\"50\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 36 V220\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "tea_table",
+    "name": "Tea Table",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "top": [
+        128,
+        90
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"100\" rx=\"110\" ry=\"20\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 110 L50 236 M196 110 L206 236 M128 110 V230\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"230\" rx=\"30\" ry=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 90 H156 L150 70 H106 Z\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"84\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cat_bell_toy",
+    "name": "Cat Bell Toy",
+    "category": "toy",
+    "size": {
+      "w": 8,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        208
+      ],
+      "grip": [
+        128,
+        40
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 10 V80\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M80 170 C80 100 176 100 176 170 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"166\" width=\"116\" height=\"20\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"196\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"90\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"108\" cy=\"130\" rx=\"8\" ry=\"14\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "window_seat",
+    "name": "Window Seat",
+    "category": "furniture",
+    "size": {
+      "w": 80,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"30\" y=\"20\" width=\"196\" height=\"120\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"34\" width=\"168\" height=\"92\" rx=\"6\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 34 V126 M44 80 H212\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"20\" y=\"150\" width=\"216\" height=\"30\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"180\" width=\"196\" height=\"56\" rx=\"8\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"136\" width=\"60\" height=\"24\" rx=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "star_map",
+    "name": "Star Map",
+    "category": "decor",
+    "size": {
+      "w": 40,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        200
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"30\" width=\"228\" height=\"170\" rx=\"10\" fill=\"{{outline}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"40\" width=\"208\" height=\"150\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"70\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"110\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"80\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"190\" cy=\"140\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"160\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"70\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 70 L100 110 L150 80 M100 110 L80 160 M150 80 L190 140\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"190\" cy=\"110\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "moon_cookie",
+    "name": "Moon Cookie",
+    "category": "food",
+    "size": {
+      "w": 8,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        226
+      ],
+      "grip": [
+        110,
+        150
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M190 40 C110 30 50 90 60 160 C70 220 150 240 200 200 C140 200 100 150 110 100 C116 70 150 46 190 40 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"120\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"180\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"86\" cy=\"160\" r=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M170 120 L176 136 L192 138 L180 148 L184 164 L170 156 L156 164 L160 148 L148 138 L164 136 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pumpkin_planter",
+    "name": "Pumpkin Planter",
+    "category": "halloween",
+    "size": {
+      "w": 24,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        234
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"170\" rx=\"100\" ry=\"64\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 120 C80 170 90 210 100 230 M166 120 C176 170 166 210 156 230 M128 110 V232\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M100 110 C90 60 70 40 50 40 M128 106 V30 M156 110 C166 60 186 40 206 40\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"50\" cy=\"40\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"26\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"206\" cy=\"40\" r=\"12\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "costume_rack",
+    "name": "Costume Rack",
+    "category": "halloween",
+    "size": {
+      "w": 60,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        228
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M30 30 V226 M226 30 V226 M30 30 H226\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M50 50 L80 40 L110 50 L120 160 H40 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 20 L80 40 L100 20 Z\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M130 50 C130 40 180 40 190 50 L200 170 H120 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"70\" r=\"14\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"154\" cy=\"68\" r=\"3\" fill=\"#3a2a2a\"/><circle cx=\"166\" cy=\"68\" r=\"3\" fill=\"#3a2a2a\"/><path d=\"M14 226 H60 M196 226 H242\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "candy_bowl",
+    "name": "Candy Bowl",
+    "category": "halloween",
+    "size": {
+      "w": 14,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        188
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M20 120 C20 210 236 210 236 120 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"54\" y=\"102\" width=\"32\" height=\"16\" rx=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"92\" width=\"32\" height=\"16\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"134\" y=\"96\" width=\"32\" height=\"16\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"174\" y=\"104\" width=\"32\" height=\"16\" rx=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"114\" y=\"112\" width=\"32\" height=\"16\" rx=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"106\" cy=\"156\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"150\" cy=\"156\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M114 174 Q128 188 142 174\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "trick_or_treat_bag",
+    "name": "Trick-or-Treat Bag",
+    "category": "halloween",
+    "size": {
+      "w": 10,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M90 70 C90 20 166 20 166 70\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M60 70 H196 L210 230 H46 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 120 L112 106 L128 120 Z\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 120 L144 106 L160 120 Z\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 170 L114 160 L128 170 L142 160 L156 170\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "spider_web_banner",
+    "name": "Spider Web Banner",
+    "category": "halloween",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        192
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M10 40 C70 80 186 80 246 40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 60 L80 60 L60 130 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 64 L130 64 L110 140 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M140 60 L180 60 L160 130 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M190 64 L230 64 L210 140 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 120 V170\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"180\" r=\"12\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"195\" cy=\"178\" r=\"2\" fill=\"#3a2a2a\"/><circle cx=\"205\" cy=\"178\" r=\"2\" fill=\"#3a2a2a\"/></svg>"
+  },
+  {
+    "id": "moon_lantern",
+    "name": "Moon Lantern",
+    "category": "halloween",
+    "size": {
+      "w": 16,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 0 V40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"40\" width=\"96\" height=\"20\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"60\" width=\"116\" height=\"140\" rx=\"30\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 90 C110 90 96 140 120 170 C90 160 86 110 110 92 C122 86 136 86 150 90 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"200\" width=\"96\" height=\"20\" rx=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pumpkin_pie",
+    "name": "Pumpkin Pie",
+    "category": "food",
+    "size": {
+      "w": 12,
+      "h": 5
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"128\" cy=\"180\" rx=\"110\" ry=\"30\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"166\" rx=\"96\" ry=\"22\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"160\" r=\"12\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"156\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 166 L128 150 L196 166\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 180 C80 192 176 192 216 180\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "leaf_canopy",
+    "name": "Leaf Canopy",
+    "category": "decor",
+    "size": {
+      "w": 80,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"60\" cy=\"120\" r=\"50\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"90\" r=\"60\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"120\" r=\"50\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"150\" r=\"40\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"150\" r=\"40\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 160 V236\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"90\" cy=\"100\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"110\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "diamond_kite",
+    "name": "Kite",
+    "category": "toy",
+    "size": {
+      "w": 16,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        230
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 10 L210 100 L128 190 L46 100 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 10 V190 M46 100 H210\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 10 L210 100 H128 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 190 C110 210 146 220 128 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M120 210 L136 216 L124 222 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "marshmallow_cloud",
+    "name": "Marshmallow Cloud",
+    "category": "decor",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"70\" cy=\"150\" r=\"44\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"124\" r=\"56\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"190\" cy=\"150\" r=\"44\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"150\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"108\" cy=\"150\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"148\" cy=\"150\" r=\"6\" fill=\"#3a2a2a\"/><path d=\"M114 172 Q128 186 142 172\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"90\" cy=\"172\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"166\" cy=\"172\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "donut_slide",
+    "name": "Donut Slide",
+    "category": "garden",
+    "size": {
+      "w": 90,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"60\" width=\"16\" height=\"176\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"60\" width=\"16\" height=\"176\" rx=\"6\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"50\" width=\"66\" height=\"16\" rx=\"6\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M86 60 C150 70 190 160 236 226\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"120\" r=\"30\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"120\" r=\"12\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"200\" r=\"24\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"200\" r=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "candy_heart",
+    "name": "Candy Heart",
+    "category": "food",
+    "size": {
+      "w": 6,
+      "h": 5
+    },
+    "anchors": {
+      "base": [
+        128,
+        210
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 210 C60 160 20 120 40 76 C60 36 110 46 128 86 C146 46 196 36 216 76 C236 120 196 160 128 210 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 110 H166 M100 140 H156\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"80\" cy=\"80\" rx=\"12\" ry=\"6\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "toffee_bench",
+    "name": "Toffee Bench",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "seat": [
+        128,
+        130
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"130\" width=\"228\" height=\"40\" rx=\"16\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"90\" width=\"208\" height=\"30\" rx=\"12\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 170 V236 M216 170 V236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"60\" cy=\"150\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"150\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"150\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "fizzy_drink",
+    "name": "Fizzy Drink",
+    "category": "drink",
+    "size": {
+      "w": 6,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        236
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"80\" y=\"60\" width=\"96\" height=\"176\" rx=\"24\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"60\" width=\"96\" height=\"40\" rx=\"20\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M140 60 L170 10\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"140\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"136\" cy=\"170\" r=\"6\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"120\" cy=\"200\" r=\"5\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"130\" r=\"5\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"120\" width=\"64\" height=\"50\" rx=\"10\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "rubber_duck",
+    "name": "Rubber Duck",
+    "category": "toy",
+    "size": {
+      "w": 8,
+      "h": 7
+    },
+    "anchors": {
+      "base": [
+        128,
+        220
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><ellipse cx=\"120\" cy=\"170\" rx=\"90\" ry=\"50\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"170\" cy=\"100\" r=\"40\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 100 L240 110 L200 122 Z\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"178\" cy=\"92\" r=\"6\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 150 C40 120 80 120 100 150 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"80\" rx=\"10\" ry=\"5\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "leash_hook",
+    "name": "Leash Hook",
+    "category": "decor",
+    "size": {
+      "w": 30,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        216
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"20\" y=\"60\" width=\"216\" height=\"30\" rx=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"110\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 110 C50 150 70 170 60 200\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"60\" cy=\"206\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"110\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 110 C118 150 138 170 128 200\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"206\" r=\"10\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"110\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M196 110 C186 150 206 170 196 200\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"196\" cy=\"206\" r=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "butterfly_net",
+    "name": "Butterfly Net",
+    "category": "toy",
+    "size": {
+      "w": 10,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        200
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M128 236 V110\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"70\" r=\"56\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"70\" r=\"56\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"10\"/><path d=\"M76 80 C80 140 176 140 180 80\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 84 C90 150 166 150 180 84\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "hamster_ball",
+    "name": "Hamster Ball",
+    "category": "toy",
+    "size": {
+      "w": 10,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        226
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"128\" cy=\"130\" r=\"96\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 130 H216\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"160\" r=\"30\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"108\" cy=\"136\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"148\" cy=\"136\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"118\" cy=\"154\" r=\"4\" fill=\"#3a2a2a\"/><circle cx=\"138\" cy=\"154\" r=\"4\" fill=\"#3a2a2a\"/><ellipse cx=\"90\" cy=\"70\" rx=\"20\" ry=\"10\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "candy_cane_arch",
+    "name": "Candy Cane Arch",
+    "category": "decor",
+    "size": {
+      "w": 80,
+      "h": 80
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M40 236 V100 C40 20 216 20 216 100 V236\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"22\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 236 V100 C40 20 216 20 216 100 V236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M30 200 L50 190 M30 150 L50 140 M36 100 L56 96 M206 96 L226 100 M206 140 L226 150 M206 190 L226 200\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"40\" r=\"14\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "yarn_ball",
+    "name": "Yarn Ball",
+    "category": "toy",
+    "size": {
+      "w": 8,
+      "h": 7
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        140
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"128\" cy=\"140\" r=\"80\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 110 C100 140 156 120 200 150 M70 170 C120 190 170 170 196 120 M100 70 C80 120 110 180 150 214\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M196 190 C226 210 236 236 210 240\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
   }
 ]
