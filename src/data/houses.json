@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "rosy_cottage",
+    "name": "Rosy Cottage",
+    "style": "cottage",
+    "roof": "gable",
+    "exterior": {
+      "walls": "#ffe3ef",
+      "roof": "#c2557a",
+      "door": "#7fd1c7",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 455,
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 455
+          }
+        ],
+        "items": [
+          {
+            "item": "pool_water_slide_cocoa",
+            "x": 105
+          },
+          {
+            "item": "cute_potted_plant_lilac",
+            "x": 203
+          },
+          {
+            "item": "zoo_bird_aviary_lilac",
+            "x": 281
+          },
+          {
+            "item": "glitter_fountain_sky",
+            "x": 387
+          }
+        ]
+      },
+      {
+        "name": "Downstairs",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#cfd8e8",
+        "width": 735,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 422
+          },
+          {
+            "type": "living",
+            "width": 313
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "post_counter_lemon",
+            "x": 162
+          },
+          {
+            "item": "bar_counter_lemon",
+            "x": 271
+          },
+          {
+            "item": "cosy_armchair_lilac",
+            "x": 357
+          },
+          {
+            "item": "cute_pizza_slice_berry",
+            "x": 162,
+            "y": 45
+          },
+          {
+            "item": "snowflake_lamp_sky",
+            "x": 482
+          },
+          {
+            "item": "cloud_star_lamp_lilac",
+            "x": 529
+          },
+          {
+            "item": "round_sofa_teal",
+            "x": 622
+          },
+          {
+            "item": "platform_clock_lilac",
+            "x": 493,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Upstairs",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#d9b38c",
+        "width": 945,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 432
+          },
+          {
+            "type": "bathroom",
+            "width": 513
+          }
+        ],
+        "items": [
+          {
+            "item": "canopy_bed_mint",
+            "x": 80
+          },
+          {
+            "item": "hospital_bed_sky",
+            "x": 189
+          },
+          {
+            "item": "snowflake_lamp_lemon",
+            "x": 278
+          },
+          {
+            "item": "school_cozy_rug_lemon",
+            "x": 350
+          },
+          {
+            "item": "salon_mirror_lemon",
+            "x": 80,
+            "y": 75
+          },
+          {
+            "item": "pool_towel_rack_lemon",
+            "x": 537
+          },
+          {
+            "item": "bubble_bathtub_peach",
+            "x": 688
+          },
+          {
+            "item": "bird_bath_lemon",
+            "x": 783
+          },
+          {
+            "item": "zoo_duck_pond_sky",
+            "x": 853
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mint_modern",
+    "name": "Mint Modern",
+    "style": "modern",
+    "roof": "flat",
+    "exterior": {
+      "walls": "#e6fff6",
+      "roof": "#2f7d68",
+      "door": "#ffd36e",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#c9a27a",
+        "width": 897,
+        "rooms": [
+          {
+            "type": "living",
+            "width": 510
+          },
+          {
+            "type": "kitchen",
+            "width": 387
+          }
+        ],
+        "items": [
+          {
+            "item": "cozy_bookshelf_peach",
+            "x": 96
+          },
+          {
+            "item": "daycare_toy_piano_sky",
+            "x": 186
+          },
+          {
+            "item": "cat_tree_lilac",
+            "x": 235
+          },
+          {
+            "item": "rocking_chair_lilac",
+            "x": 289
+          },
+          {
+            "item": "round_sofa_gold",
+            "x": 393
+          },
+          {
+            "item": "station_clock_sky",
+            "x": 78,
+            "y": 75
+          },
+          {
+            "item": "cute_fridge_mint",
+            "x": 575
+          },
+          {
+            "item": "postcard_display_table_lemon",
+            "x": 671
+          },
+          {
+            "item": "theme_park_game_counter_lilac",
+            "x": 797
+          },
+          {
+            "item": "milk_bottle_lilac",
+            "x": 671,
+            "y": 31
+          }
+        ]
+      },
+      {
+        "name": "Top Floor",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#cfd8e8",
+        "width": 938,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 287
+          },
+          {
+            "type": "kids_room",
+            "width": 253
+          },
+          {
+            "type": "bathroom",
+            "width": 398
+          }
+        ],
+        "items": [
+          {
+            "item": "optician_lamp_lilac",
+            "x": 45
+          },
+          {
+            "item": "cloud_star_lamp_mint",
+            "x": 83
+          },
+          {
+            "item": "hospital_bed_lemon",
+            "x": 151
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 223
+          },
+          {
+            "item": "backpack_shelf_lilac",
+            "x": 352
+          },
+          {
+            "item": "bone_toy_lilac",
+            "x": 403
+          },
+          {
+            "item": "toy_box_mint",
+            "x": 441
+          },
+          {
+            "item": "cute_snowball_mint",
+            "x": 485
+          },
+          {
+            "item": "pool_towel_rack_lemon",
+            "x": 645
+          },
+          {
+            "item": "cute_waterpark_towel_strawberry",
+            "x": 756
+          },
+          {
+            "item": "octopus_tube_lemon",
+            "x": 803
+          },
+          {
+            "item": "bird_bath_strawberry",
+            "x": 845
+          },
+          {
+            "item": "salon_comb_sky",
+            "x": 880
+          },
+          {
+            "item": "salon_mirror_mint",
+            "x": 620,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparkle_mansion",
+    "name": "Sparkle Mansion",
+    "style": "mansion",
+    "roof": "hip",
+    "exterior": {
+      "walls": "#fff3d6",
+      "roof": "#b58a2e",
+      "door": "#c2557a",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Pool Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1050,
+        "rooms": [
+          {
+            "type": "pool",
+            "width": 539
+          },
+          {
+            "type": "garden",
+            "width": 511
+          }
+        ],
+        "items": [
+          {
+            "item": "bus_stop_umbrella_lilac",
+            "x": 75
+          },
+          {
+            "item": "waterpark_swim_ring_mint",
+            "x": 153
+          },
+          {
+            "item": "pool_drink_cart_sky",
+            "x": 263
+          },
+          {
+            "item": "zoo_duck_pond_lemon",
+            "x": 378
+          },
+          {
+            "item": "pool_ring_float_lemon",
+            "x": 468
+          },
+          {
+            "item": "monkey_swing_cocoa",
+            "x": 627
+          },
+          {
+            "item": "cute_potted_plant_gold",
+            "x": 713
+          },
+          {
+            "item": "pool_water_slide_lemon",
+            "x": 821
+          },
+          {
+            "item": "moon_cloud_swing_lemon",
+            "x": 927
+          },
+          {
+            "item": "tire_swing_mint",
+            "x": 983
+          }
+        ]
+      },
+      {
+        "name": "Grand Hall",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e8d2b8",
+        "width": 694,
+        "rooms": [
+          {
+            "type": "living",
+            "width": 320
+          },
+          {
+            "type": "kitchen",
+            "width": 374
+          }
+        ],
+        "items": [
+          {
+            "item": "cozy_bookshelf_sage",
+            "x": 96
+          },
+          {
+            "item": "cosy_armchair_lemon",
+            "x": 201
+          },
+          {
+            "item": "optician_lamp_lemon",
+            "x": 258
+          },
+          {
+            "item": "station_clock_sky",
+            "x": 78,
+            "y": 75
+          },
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 385
+          },
+          {
+            "item": "postcard_display_table_strawberry",
+            "x": 477
+          },
+          {
+            "item": "hospital_comfort_chair_strawberry",
+            "x": 563
+          },
+          {
+            "item": "police_station_cosy_chair_mint",
+            "x": 623
+          }
+        ]
+      },
+      {
+        "name": "Bedrooms",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#e8d2b8",
+        "width": 1164,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 390
+          },
+          {
+            "type": "teen_room",
+            "width": 395
+          },
+          {
+            "type": "bathroom",
+            "width": 379
+          }
+        ],
+        "items": [
+          {
+            "item": "snowflake_lamp_strawberry",
+            "x": 60
+          },
+          {
+            "item": "soft_blanket_mint",
+            "x": 119
+          },
+          {
+            "item": "optician_lamp_mint",
+            "x": 166
+          },
+          {
+            "item": "cloud_star_lamp_mint",
+            "x": 205
+          },
+          {
+            "item": "hospital_bed_strawberry",
+            "x": 268
+          },
+          {
+            "item": "teddy_bear_toy_chocolate",
+            "x": 335
+          },
+          {
+            "item": "snowflake_lamp_sky",
+            "x": 450
+          },
+          {
+            "item": "reception_desk_strawberry",
+            "x": 546
+          },
+          {
+            "item": "optician_lamp_strawberry",
+            "x": 622
+          },
+          {
+            "item": "hospital_bed_lilac",
+            "x": 701
+          },
+          {
+            "item": "pool_towel_rack_sky",
+            "x": 890
+          },
+          {
+            "item": "cute_waterpark_towel_strawberry",
+            "x": 998
+          },
+          {
+            "item": "octopus_tube_lemon",
+            "x": 1055
+          },
+          {
+            "item": "bird_bath_sky",
+            "x": 1102
+          },
+          {
+            "item": "makeup_mirror_mint",
+            "x": 854,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Playroom Attic",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#c9a27a",
+        "width": 662,
+        "rooms": [
+          {
+            "type": "playroom",
+            "width": 209
+          },
+          {
+            "type": "nursery",
+            "width": 453
+          }
+        ],
+        "items": [
+          {
+            "item": "rocking_horse_lemon",
+            "x": 50
+          },
+          {
+            "item": "cute_balloon_lemon",
+            "x": 93
+          },
+          {
+            "item": "school_easel_chalkboard_lilac",
+            "x": 121
+          },
+          {
+            "item": "paint_roller_strawberry",
+            "x": 155
+          },
+          {
+            "item": "daycare_changing_table_mint",
+            "x": 274
+          },
+          {
+            "item": "petting_bunny_lemon",
+            "x": 335
+          },
+          {
+            "item": "baby_cot_butter",
+            "x": 399
+          },
+          {
+            "item": "daycare_baby_crib_lilac",
+            "x": 495
+          },
+          {
+            "item": "baby_slide_sky",
+            "x": 586
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seashell_beach_house",
+    "name": "Seashell Beach House",
+    "style": "beach",
+    "roof": "hip",
+    "exterior": {
+      "walls": "#e3f2ff",
+      "roof": "#7fc4ff",
+      "door": "#ff9f43",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Beach Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 548,
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 548
+          }
+        ],
+        "items": [
+          {
+            "item": "water_slide_tower_strawberry",
+            "x": 95
+          },
+          {
+            "item": "bird_bath_lilac",
+            "x": 194
+          },
+          {
+            "item": "round_tree_plant_rainbow",
+            "x": 292
+          },
+          {
+            "item": "mall_cute_fountain_lilac",
+            "x": 406
+          },
+          {
+            "item": "cloud_swing_lilac",
+            "x": 473
+          }
+        ]
+      },
+      {
+        "name": "Downstairs",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 1141,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 365
+          },
+          {
+            "type": "living",
+            "width": 376
+          },
+          {
+            "type": "bathroom",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "police_station_snack_table_mint",
+            "x": 131
+          },
+          {
+            "item": "theme_park_game_counter_cocoa",
+            "x": 216
+          },
+          {
+            "item": "office_chair_lemon",
+            "x": 309
+          },
+          {
+            "item": "cocoa_mug_lilac",
+            "x": 131,
+            "y": 25
+          },
+          {
+            "item": "round_sofa_coral",
+            "x": 465
+          },
+          {
+            "item": "card_table_strawberry",
+            "x": 582
+          },
+          {
+            "item": "cosy_fireplace_lemon",
+            "x": 660
+          },
+          {
+            "item": "daycare_picture_books_mint",
+            "x": 582,
+            "y": 25
+          },
+          {
+            "item": "platform_clock_lilac",
+            "x": 436,
+            "y": 75
+          },
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 846
+          },
+          {
+            "item": "cute_waterpark_towel_mint",
+            "x": 948
+          },
+          {
+            "item": "zoo_duck_pond_strawberry",
+            "x": 1025
+          },
+          {
+            "item": "salon_comb_sky",
+            "x": 1093
+          }
+        ]
+      },
+      {
+        "name": "Sunny Bedroom",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#e6c3d6",
+        "width": 400,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "soft_blanket_sky",
+            "x": 118
+          },
+          {
+            "item": "snowflake_lamp_mint",
+            "x": 171
+          },
+          {
+            "item": "hospital_bed_cocoa",
+            "x": 266
+          },
+          {
+            "item": "makeup_mirror_sky",
+            "x": 69,
+            "y": 75
+          },
+          {
+            "item": "salon_mirror_lilac",
+            "x": 158,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cosy_cabin",
+    "name": "Cosy Cabin",
+    "style": "cabin",
+    "roof": "gable",
+    "exterior": {
+      "walls": "#d9b38c",
+      "roof": "#7a4a2a",
+      "door": "#3fa66b",
+      "trim": "#fff3d6"
+    },
+    "floors": [
+      {
+        "name": "Cabin",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#d9b38c",
+        "width": 1056,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 254
+          },
+          {
+            "type": "living",
+            "width": 271
+          },
+          {
+            "type": "bedroom",
+            "width": 270
+          },
+          {
+            "type": "bathroom",
+            "width": 261
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "post_counter_mint",
+            "x": 159
+          },
+          {
+            "item": "snowflake_lamp_strawberry",
+            "x": 314
+          },
+          {
+            "item": "daycare_toy_piano_mint",
+            "x": 364
+          },
+          {
+            "item": "cute_potted_plant_lilac",
+            "x": 407
+          },
+          {
+            "item": "cosy_armchair_mint",
+            "x": 455
+          },
+          {
+            "item": "snowflake_lamp_sky",
+            "x": 585
+          },
+          {
+            "item": "cloud_star_lamp_mint",
+            "x": 636
+          },
+          {
+            "item": "hospital_bed_sky",
+            "x": 704
+          },
+          {
+            "item": "makeup_mirror_mint",
+            "x": 594,
+            "y": 75
+          },
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 900
+          },
+          {
+            "item": "bird_bath_sky",
+            "x": 1000
+          },
+          {
+            "item": "makeup_mirror_sky",
+            "x": 864,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dream_castle",
+    "name": "Dream Castle",
+    "style": "castle",
+    "roof": "tower",
+    "exterior": {
+      "walls": "#f1e9ff",
+      "roof": "#7b4fa0",
+      "door": "#ff8fb8",
+      "trim": "#ffd36e"
+    },
+    "floors": [
+      {
+        "name": "Courtyard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "pool_water_slide_mint",
+            "x": 105
+          },
+          {
+            "item": "cute_bird_feeder_strawberry",
+            "x": 208
+          },
+          {
+            "item": "moon_cloud_swing_strawberry",
+            "x": 252
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 298
+          },
+          {
+            "item": "hospital_flower_vase_strawberry",
+            "x": 332
+          }
+        ]
+      },
+      {
+        "name": "Throne Hall",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#cfd8e8",
+        "width": 814,
+        "rooms": [
+          {
+            "type": "living",
+            "width": 293
+          },
+          {
+            "type": "kitchen",
+            "width": 521
+          }
+        ],
+        "items": [
+          {
+            "item": "round_sofa_coral",
+            "x": 100
+          },
+          {
+            "item": "pet_bed_lilac",
+            "x": 200
+          },
+          {
+            "item": "cloud_star_lamp_lilac",
+            "x": 247
+          },
+          {
+            "item": "station_clock_lilac",
+            "x": 78,
+            "y": 75
+          },
+          {
+            "item": "cute_fridge_mint",
+            "x": 358
+          },
+          {
+            "item": "dining_table_set_strawberry",
+            "x": 445
+          },
+          {
+            "item": "daycare_high_chair_sky",
+            "x": 527
+          },
+          {
+            "item": "salon_chair_mint",
+            "x": 586
+          },
+          {
+            "item": "kitchen_table_peach",
+            "x": 666
+          },
+          {
+            "item": "rocking_chair_cocoa",
+            "x": 748
+          }
+        ]
+      },
+      {
+        "name": "Royal Bedrooms",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e8d2b8",
+        "width": 776,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 300
+          },
+          {
+            "type": "kids_room",
+            "width": 210
+          },
+          {
+            "type": "bathroom",
+            "width": 266
+          }
+        ],
+        "items": [
+          {
+            "item": "hospital_bed_mint",
+            "x": 75
+          },
+          {
+            "item": "pet_bed_strawberry",
+            "x": 159
+          },
+          {
+            "item": "hospital_bedside_lamp_lilac",
+            "x": 206
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 242
+          },
+          {
+            "item": "mall_toy_shelf_lemon",
+            "x": 366
+          },
+          {
+            "item": "pool_beach_ball_mint",
+            "x": 434
+          },
+          {
+            "item": "rocket_toy_lemon",
+            "x": 465
+          },
+          {
+            "item": "school_lunchbox_shelf_lemon",
+            "x": 366,
+            "y": 82
+          },
+          {
+            "item": "pool_towel_rack_lilac",
+            "x": 615
+          },
+          {
+            "item": "bird_bath_strawberry",
+            "x": 717
+          },
+          {
+            "item": "makeup_mirror_mint",
+            "x": 579,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lemon_apartment",
+    "name": "Lemon Apartment",
+    "style": "apartment",
+    "roof": "flat",
+    "exterior": {
+      "walls": "#fff7d1",
+      "roof": "#a07a12",
+      "door": "#7fc4ff",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Flat",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e8d2b8",
+        "width": 1097,
+        "rooms": [
+          {
+            "type": "living",
+            "width": 299
+          },
+          {
+            "type": "kitchen",
+            "width": 246
+          },
+          {
+            "type": "bedroom",
+            "width": 283
+          },
+          {
+            "type": "bathroom",
+            "width": 269
+          }
+        ],
+        "items": [
+          {
+            "item": "cat_tree_sky",
+            "x": 50
+          },
+          {
+            "item": "soft_blanket_strawberry",
+            "x": 101
+          },
+          {
+            "item": "cloud_sofa_lilac",
+            "x": 192
+          },
+          {
+            "item": "cute_fridge_lemon",
+            "x": 364
+          },
+          {
+            "item": "post_counter_strawberry",
+            "x": 461
+          },
+          {
+            "item": "croissant_lemon",
+            "x": 461,
+            "y": 45
+          },
+          {
+            "item": "cute_cupcake_pistachio",
+            "x": 467,
+            "y": 45
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 603
+          },
+          {
+            "item": "soft_blanket_mint",
+            "x": 663
+          },
+          {
+            "item": "canopy_bed_sky",
+            "x": 738
+          },
+          {
+            "item": "pool_towel_rack_cocoa",
+            "x": 933
+          },
+          {
+            "item": "bird_bath_sky",
+            "x": 1033
+          },
+          {
+            "item": "salon_mirror_sky",
+            "x": 908,
+            "y": 75
+          },
+          {
+            "item": "makeup_mirror_mint",
+            "x": 997,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sunny_farmhouse",
+    "name": "Sunny Farmhouse",
+    "style": "farmhouse",
+    "roof": "gable",
+    "exterior": {
+      "walls": "#fff0e6",
+      "roof": "#c4502a",
+      "door": "#3fa66b",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Farmyard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "cat_tree_sky",
+            "x": 50
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 100
+          },
+          {
+            "item": "station_bench_strawberry",
+            "x": 182
+          },
+          {
+            "item": "cute_potted_plant_lemon",
+            "x": 268
+          },
+          {
+            "item": "chocolate_fountain_mint",
+            "x": 320
+          }
+        ]
+      },
+      {
+        "name": "Farm Kitchen",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e6c3d6",
+        "width": 776,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 364
+          },
+          {
+            "type": "living",
+            "width": 412
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "goldfish_bowl_strawberry",
+            "x": 127
+          },
+          {
+            "item": "police_station_cosy_chair_lemon",
+            "x": 172
+          },
+          {
+            "item": "bar_counter_strawberry",
+            "x": 270
+          },
+          {
+            "item": "round_sofa_coral",
+            "x": 464
+          },
+          {
+            "item": "cloud_star_lamp_lilac",
+            "x": 559
+          },
+          {
+            "item": "cosy_armchair_lilac",
+            "x": 603
+          },
+          {
+            "item": "daycare_toy_piano_mint",
+            "x": 648
+          },
+          {
+            "item": "card_table_lilac",
+            "x": 707
+          },
+          {
+            "item": "station_clock_mint",
+            "x": 442,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Bedrooms",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 1155,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 370
+          },
+          {
+            "type": "nursery",
+            "width": 388
+          },
+          {
+            "type": "bathroom",
+            "width": 397
+          }
+        ],
+        "items": [
+          {
+            "item": "canopy_bed_lilac",
+            "x": 80
+          },
+          {
+            "item": "soft_blanket_mint",
+            "x": 154
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 201
+          },
+          {
+            "item": "cloud_star_lamp_strawberry",
+            "x": 231
+          },
+          {
+            "item": "school_cozy_rug_sky",
+            "x": 288
+          },
+          {
+            "item": "baby_elephant_strawberry",
+            "x": 455
+          },
+          {
+            "item": "daycare_soft_blocks_sky",
+            "x": 530
+          },
+          {
+            "item": "daycare_floor_mobile_sky",
+            "x": 579
+          },
+          {
+            "item": "daycare_baby_crib_cocoa",
+            "x": 670
+          },
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 863
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 1015
+          },
+          {
+            "item": "bird_bath_mint",
+            "x": 1103
+          },
+          {
+            "item": "salon_mirror_lilac",
+            "x": 838,
+            "y": 75
+          },
+          {
+            "item": "makeup_mirror_lilac",
+            "x": 927,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leafy_treehouse",
+    "name": "Leafy Treehouse",
+    "style": "treehouse",
+    "roof": "thatch",
+    "exterior": {
+      "walls": "#c9a27a",
+      "roof": "#3fa66b",
+      "door": "#ff8fb8",
+      "trim": "#e6fff2"
+    },
+    "floors": [
+      {
+        "name": "Tree Room",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 1085,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 367
+          },
+          {
+            "type": "bedroom",
+            "width": 318
+          },
+          {
+            "type": "bathroom",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "goldfish_bowl_strawberry",
+            "x": 122
+          },
+          {
+            "item": "daycare_changing_table_lemon",
+            "x": 184
+          },
+          {
+            "item": "espresso_machine_lemon",
+            "x": 241
+          },
+          {
+            "item": "daycare_high_chair_sky",
+            "x": 300
+          },
+          {
+            "item": "hospital_bed_mint",
+            "x": 442
+          },
+          {
+            "item": "cloud_star_lamp_sky",
+            "x": 507
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 540
+          },
+          {
+            "item": "school_cozy_rug_sky",
+            "x": 603
+          },
+          {
+            "item": "pool_towel_rack_strawberry",
+            "x": 790
+          },
+          {
+            "item": "zoo_duck_pond_sky",
+            "x": 921
+          },
+          {
+            "item": "bird_bath_lemon",
+            "x": 987
+          },
+          {
+            "item": "salon_comb_lemon",
+            "x": 1029
+          },
+          {
+            "item": "makeup_mirror_lilac",
+            "x": 754,
+            "y": 75
+          },
+          {
+            "item": "salon_mirror_strawberry",
+            "x": 843,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Lookout",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#cfd8e8",
+        "width": 400,
+        "rooms": [
+          {
+            "type": "kids_room",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "backpack_shelf_lemon",
+            "x": 65
+          },
+          {
+            "item": "bouncy_ball_toy_ocean",
+            "x": 122
+          },
+          {
+            "item": "teddy_bear_toy_rainbow",
+            "x": 152
+          },
+          {
+            "item": "rocket_toy_strawberry",
+            "x": 184
+          },
+          {
+            "item": "hospital_toy_bear_strawberry",
+            "x": 210
+          },
+          {
+            "item": "pool_beach_ball_lilac",
+            "x": 246
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pumpkin_cottage",
+    "name": "Pumpkin Cottage",
+    "style": "spooky_cute",
+    "roof": "gable",
+    "exterior": {
+      "walls": "#ffd6a5",
+      "roof": "#7b4fa0",
+      "door": "#3d2457",
+      "trim": "#8ce99a"
+    },
+    "floors": [
+      {
+        "name": "Pumpkin Patch",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 400
+          }
+        ],
+        "items": [
+          {
+            "item": "lipstick_display_spooky",
+            "x": 60
+          },
+          {
+            "item": "bouncy_ball_toy_pumpkin",
+            "x": 102
+          },
+          {
+            "item": "bird_bath_lemon",
+            "x": 134
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 174
+          }
+        ]
+      },
+      {
+        "name": "Spooky Kitchen",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#c9a27a",
+        "width": 778,
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 467
+          },
+          {
+            "type": "living",
+            "width": 311
+          }
+        ],
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "goldfish_bowl_sky",
+            "x": 128
+          },
+          {
+            "item": "bus_stop_timetable_sky",
+            "x": 174
+          },
+          {
+            "item": "parcel_pile_spooky",
+            "x": 234
+          },
+          {
+            "item": "daycare_high_chair_spooky",
+            "x": 290
+          },
+          {
+            "item": "grand_piano_spooky",
+            "x": 379
+          },
+          {
+            "item": "balloon_stand_spooky",
+            "x": 537
+          },
+          {
+            "item": "goldfish_bowl_spooky",
+            "x": 602
+          },
+          {
+            "item": "optician_lamp_lemon",
+            "x": 633
+          },
+          {
+            "item": "coaster_place_sticker_spooky",
+            "x": 669
+          },
+          {
+            "item": "cosy_armchair_mint",
+            "x": 715
+          }
+        ]
+      },
+      {
+        "name": "Cosy Attic",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e8d2b8",
+        "width": 822,
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 408
+          },
+          {
+            "type": "bathroom",
+            "width": 414
+          }
+        ],
+        "items": [
+          {
+            "item": "big_fish_tank_spooky",
+            "x": 100
+          },
+          {
+            "item": "friendly_bat_lemon",
+            "x": 192
+          },
+          {
+            "item": "snowflake_lamp_lemon",
+            "x": 244
+          },
+          {
+            "item": "hospital_bed_spooky",
+            "x": 325
+          },
+          {
+            "item": "salon_mirror_spooky",
+            "x": 80,
+            "y": 75
+          },
+          {
+            "item": "fire_station_ladder_spooky",
+            "x": 463
+          },
+          {
+            "item": "cute_waterpark_towel_lemon",
+            "x": 520
+          },
+          {
+            "item": "bubble_bathtub_gold",
+            "x": 610
+          },
+          {
+            "item": "hay_bales_spooky",
+            "x": 717
+          },
+          {
+            "item": "bird_bath_lilac",
+            "x": 764
+          }
+        ]
+      }
+    ]
+  }
+]

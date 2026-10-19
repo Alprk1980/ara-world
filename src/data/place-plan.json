@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "post_office",
+    "name": "Post Box Place",
+    "emoji": "📮",
+    "district": "downtown",
+    "hidden": false,
+    "tags": [
+      "post_office",
+      "outdoor"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Post Yard (outdoor)"
+    ],
+    "things": [
+      "post box",
+      "gift box",
+      "parcel shelf",
+      "stamp machine",
+      "letter bag",
+      "delivery van",
+      "parcel crane",
+      "postcard table",
+      "balloon",
+      "parcel belt"
+    ],
+    "note": "In the post box place every day you get a gift."
+  },
+  {
+    "id": "train_station",
+    "name": "Train Station",
+    "emoji": "🚂",
+    "district": "travel",
+    "hidden": false,
+    "tags": [
+      "station",
+      "outdoor"
+    ],
+    "floors": [
+      "Ticket Hall",
+      "Platform (outdoor)",
+      "Snack Corner"
+    ],
+    "things": [
+      "train",
+      "ticket machine",
+      "bench",
+      "clock",
+      "luggage trolley",
+      "platform sign",
+      "snack cart",
+      "steam whistle",
+      "balloon",
+      "map board"
+    ],
+    "note": "There's also trains and buses."
+  },
+  {
+    "id": "bus_station",
+    "name": "Bus Stop",
+    "emoji": "🚌",
+    "district": "travel",
+    "hidden": false,
+    "tags": [
+      "station",
+      "outdoor"
+    ],
+    "floors": [
+      "Roadside Stop (outdoor)",
+      "Cozy Shelter"
+    ],
+    "things": [
+      "bus",
+      "bench",
+      "timetable",
+      "shelter",
+      "bus stop sign",
+      "umbrella",
+      "snack machine",
+      "lost-and-found basket",
+      "balloon",
+      "bird feeder"
+    ],
+    "note": "There's also trains and buses."
+  },
+  {
+    "id": "kingdom_in_the_clouds",
+    "name": "Kingdom in the Clouds",
+    "emoji": "☁️",
+    "district": "sky",
+    "hidden": true,
+    "tags": [
+      "clouds",
+      "fancy",
+      "garden"
+    ],
+    "floors": [
+      "Cloud Gate (outdoor)",
+      "Cloud Palace",
+      "Star Garden (outdoor)"
+    ],
+    "things": [
+      "cloud castle",
+      "rainbow bridge",
+      "cotton-candy tree",
+      "star lamp",
+      "moon swing",
+      "cloud sofa",
+      "floating teacup",
+      "cloud throne",
+      "glitter fountain",
+      "cloud key"
+    ],
+    "note": "Kingdom in the clouds."
+  },
+  {
+    "id": "snowboarding_place",
+    "name": "Snowboarding Place",
+    "emoji": "🏂",
+    "district": "nature",
+    "hidden": false,
+    "tags": [
+      "snow",
+      "sport",
+      "outdoor"
+    ],
+    "floors": [
+      "Base Lodge",
+      "Slopes (outdoor)",
+      "Snow Garden (outdoor)"
+    ],
+    "things": [
+      "snowboard",
+      "sled",
+      "snowman",
+      "snowball",
+      "cocoa mug",
+      "ski lift",
+      "snowflake",
+      "snow castle",
+      "snowflake lamp",
+      "snowboard rack"
+    ],
+    "note": "Snowboarding place."
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "emoji": "🏫",
+    "district": "downtown",
+    "tags": [
+      "school",
+      "kids_room",
+      "outdoor"
+    ],
+    "floors": [
+      "Playground (outdoor)",
+      "Main Hall",
+      "Classrooms"
+    ],
+    "things": [
+      "backpack hook",
+      "lunchbox shelf",
+      "pencil case",
+      "water bottle",
+      "uniform rack",
+      "reading nook",
+      "toy blocks",
+      "chalkboard",
+      "teacher desk",
+      "cozy rug",
+      "wall clock",
+      "snack table"
+    ],
+    "note": "Schools/daycares."
+  },
+  {
+    "id": "daycare",
+    "name": "Daycare",
+    "emoji": "🍼",
+    "district": "care",
+    "tags": [
+      "daycare",
+      "nursery",
+      "baby",
+      "kids_room"
+    ],
+    "floors": [
+      "Garden (outdoor)",
+      "Playroom",
+      "Nursery Room"
+    ],
+    "things": [
+      "baby crib",
+      "soft blocks",
+      "stuffed bunny",
+      "high chair",
+      "changing table",
+      "toy piano",
+      "play mat",
+      "picture books",
+      "snack cup",
+      "mobile",
+      "rocking chair",
+      "soft rug"
+    ],
+    "note": "Schools/daycares."
+  },
+  {
+    "id": "hospital",
+    "name": "Friendly Hospital",
+    "emoji": "🏥",
+    "district": "care",
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery"
+    ],
+    "floors": [
+      "Reception",
+      "Care Room",
+      "Rooftop Garden (outdoor)"
+    ],
+    "things": [
+      "toy bear",
+      "heart-shaped balloon",
+      "bandage box",
+      "stethoscope",
+      "pillow",
+      "juice cup",
+      "snack tray",
+      "bedside lamp",
+      "comfort chair",
+      "flower vase",
+      "wall clock",
+      "tiny wheelchair"
+    ],
+    "note": "Important places."
+  },
+  {
+    "id": "fire_station",
+    "name": "Fire Station",
+    "emoji": "🚒",
+    "district": "downtown",
+    "tags": [
+      "fire_station",
+      "outdoor",
+      "pet"
+    ],
+    "floors": [
+      "Garage (outdoor)",
+      "Break Room",
+      "Command Room"
+    ],
+    "things": [
+      "fire truck",
+      "hose reel",
+      "helmet stand",
+      "ladder",
+      "alarm bell",
+      "pet doghouse",
+      "treat bowl",
+      "water bucket",
+      "radio",
+      "tool cabinet",
+      "snack table",
+      "cosy couch",
+      "wall map"
+    ],
+    "note": "Important places."
+  },
+  {
+    "id": "police_station",
+    "name": "Police Station",
+    "emoji": "🚓",
+    "district": "downtown",
+    "tags": [
+      "police",
+      "pet",
+      "outdoor"
+    ],
+    "floors": [
+      "Patrol Yard (outdoor)",
+      "Front Desk",
+      "Dog Corner"
+    ],
+    "things": [
+      "police car",
+      "badge",
+      "magnifying glass",
+      "cute doghouse",
+      "treat bowl",
+      "leash",
+      "paw print mat",
+      "radio",
+      "snack table",
+      "cosy chair",
+      "wall clock",
+      "flower pot"
+    ],
+    "note": "Important places."
+  },
+  {
+    "id": "pools",
+    "name": "Pools",
+    "emoji": "🏊",
+    "district": "fun",
+    "tags": [
+      "pool",
+      "outdoor",
+      "cafe"
+    ],
+    "floors": [
+      "Pool Deck (outdoor)",
+      "Snack Corner",
+      "Play Terrace (outdoor)"
+    ],
+    "things": [
+      "inflatable flamingo",
+      "pool ladder",
+      "float ring",
+      "water slide",
+      "pool noodle",
+      "towel rack",
+      "drink cart",
+      "ice cream cone",
+      "sun umbrella",
+      "beach ball",
+      "pool sign",
+      "water cannon"
+    ],
+    "note": "Pools"
+  },
+  {
+    "id": "zoo",
+    "name": "Zoo",
+    "emoji": "🦁",
+    "district": "nature",
+    "tags": [
+      "zoo",
+      "pet",
+      "farm",
+      "outdoor"
+    ],
+    "floors": [
+      "Animal Meadow (outdoor)",
+      "Petting Corner (outdoor)",
+      "Zoo Café"
+    ],
+    "things": [
+      "bunny pen",
+      "duck pond",
+      "goat feeder",
+      "petting bunny",
+      "monkey swing",
+      "bird aviary",
+      "animal water trough",
+      "zoo map",
+      "picnic table",
+      "fruit basket",
+      "hay bale",
+      "fence post"
+    ],
+    "note": "zoos"
+  },
+  {
+    "id": "aquarium",
+    "name": "Water Animal Zoo",
+    "emoji": "🐙",
+    "district": "nature",
+    "tags": [
+      "aquarium",
+      "zoo",
+      "waterpark"
+    ],
+    "floors": [
+      "Main Tank",
+      "Tunnel Tank",
+      "Touch Pool",
+      "Ocean Café"
+    ],
+    "things": [
+      "jellyfish light",
+      "penguin tank",
+      "octopus tube",
+      "fish feeder",
+      "coral rock",
+      "seaweed",
+      "dolphin tank",
+      "turtle shell",
+      "sea turtle",
+      "underwater telescope",
+      "bubble machine",
+      "starfish"
+    ],
+    "note": "water animal zoo"
+  },
+  {
+    "id": "theme_park",
+    "name": "Theme Park",
+    "emoji": "🎡",
+    "district": "fun",
+    "tags": [
+      "theme_park",
+      "outdoor",
+      "sweets",
+      "party"
+    ],
+    "floors": [
+      "Main Plaza (outdoor)",
+      "Ride Terrace (outdoor)",
+      "Snack Street",
+      "Festival Hall"
+    ],
+    "things": [
+      "carousel horse",
+      "candy apple",
+      "balloon stand",
+      "photo flash",
+      "game counter",
+      "popcorn machine",
+      "ice cream cone",
+      "balloon",
+      "ticket stamp",
+      "prize shelf",
+      "playground slide",
+      "sticker"
+    ],
+    "note": "theme park"
+  },
+  {
+    "id": "rollercoaster_place",
+    "name": "Rollercoaster Place",
+    "emoji": "🎢",
+    "district": "fun",
+    "tags": [
+      "theme_park",
+      "outdoor",
+      "sport"
+    ],
+    "floors": [
+      "Coaster Plaza (outdoor)",
+      "Track View Deck (outdoor)",
+      "Snack Corner",
+      "Gift Corner"
+    ],
+    "things": [
+      "rollercoaster car",
+      "coaster track",
+      "safety buckle",
+      "photo flash",
+      "candy apple",
+      "balloon",
+      "snack tray",
+      "gift bag",
+      "sticker",
+      "ticket stamp",
+      "balloon arch",
+      "speed sign"
+    ],
+    "note": "rollercoaster place"
+  },
+  {
+    "id": "waterpark",
+    "name": "Waterpark",
+    "emoji": "💦",
+    "district": "fun",
+    "tags": [
+      "waterpark",
+      "pool",
+      "outdoor"
+    ],
+    "floors": [
+      "Splash Plaza (outdoor)",
+      "Wave Pool (outdoor)",
+      "Lockers & Snacks"
+    ],
+    "things": [
+      "wave pool",
+      "lazy river",
+      "water slide",
+      "splash pad",
+      "pool ladder",
+      "beach ball",
+      "water cannon",
+      "swim ring",
+      "towel",
+      "snack stand",
+      "fountain",
+      "water jet",
+      "drinking fountain",
+      "sun lounger",
+      "ice cream cone",
+      "floatie",
+      "pool noodle",
+      "umbrella",
+      "locker"
+    ],
+    "note": "waterpark"
+  },
+  {
+    "id": "airport",
+    "name": "Airport",
+    "emoji": "✈️",
+    "district": "travel",
+    "tags": [
+      "airport",
+      "vip",
+      "fancy"
+    ],
+    "floors": [
+      "Check-In Hall",
+      "First Class Lounge",
+      "VIP Lounge",
+      "Departure Deck (outdoor)"
+    ],
+    "things": [
+      "plane",
+      "boarding pass",
+      "suitcase",
+      "luggage cart",
+      "coffee machine",
+      "pretzel",
+      "snack tray",
+      "gift shop counter",
+      "map",
+      "passport stamp",
+      "boarding gate",
+      "window seat",
+      "taxiway sign",
+      "first class seat",
+      "VIP sofa",
+      "champagne glass",
+      "globe",
+      "clock",
+      "conveyor belt"
+    ],
+    "note": "Airport with planes, VIP lounge and first class."
+  },
+  {
+    "id": "malls",
+    "name": "Mall",
+    "emoji": "🛍️",
+    "district": "shopping",
+    "tags": [
+      "mall",
+      "shop"
+    ],
+    "floors": [
+      "Fountain Plaza",
+      "Shop Row",
+      "Food Court",
+      "Rooftop Garden (outdoor)"
+    ],
+    "things": [
+      "shopping cart",
+      "shopping bag",
+      "clothes rack",
+      "shoe box",
+      "toy shelf",
+      "fountain",
+      "escalator",
+      "food court table",
+      "donut",
+      "ice cream cone",
+      "juice box",
+      "gift box",
+      "balloon",
+      "map",
+      "ticket",
+      "cash register",
+      "price tag",
+      "stroller",
+      "pet stroller",
+      "pencil case",
+      "backpack",
+      "lunchbox",
+      "water bottle"
+    ],
+    "note": "Malls."
+  },
+  {
+    "id": "places_to_eat",
+    "name": "Food Street",
+    "emoji": "🍽️",
+    "district": "downtown",
+    "tags": [
+      "restaurant",
+      "cafe",
+      "sweets"
+    ],
+    "floors": [
+      "Food Row",
+      "Sweet Corner"
+    ],
+    "things": [
+      "burger",
+      "pizza slice",
+      "french fries",
+      "hot dog",
+      "ice cream cone",
+      "donut",
+      "cupcake",
+      "cake stand",
+      "coffee machine",
+      "hot chocolate",
+      "croissant",
+      "sandwich",
+      "soup bowl",
+      "noodle pot",
+      "juice box",
+      "straw",
+      "napkin",
+      "menu board",
+      "plate",
+      "fork",
+      "spoon",
+      "candy jar",
+      "lollipop",
+      "cookie"
+    ],
+    "note": "Lots of places to eat, shop, play and much more."
+  },
+  {
+    "id": "sports_arena",
+    "name": "Sports Arena",
+    "emoji": "🏅",
+    "district": "fun",
+    "tags": [
+      "sport",
+      "outdoor"
+    ],
+    "floors": [
+      "Main Field (outdoor)",
+      "Track (outdoor)",
+      "Gear Area"
+    ],
+    "things": [
+      "basketball hoop",
+      "soccer ball",
+      "tennis racket",
+      "badminton shuttle",
+      "jump rope",
+      "cone",
+      "goal post",
+      "track barrier",
+      "medal",
+      "trophy",
+      "scoreboard",
+      "whistle",
+      "stopwatch",
+      "water bottle",
+      "gym mat",
+      "yoga mat",
+      "hockey stick",
+      "ping pong paddle",
+      "ping pong ball",
+      "balance beam",
+      "trampoline",
+      "climbing wall"
+    ],
+    "note": "Sport play: sports arena."
+  },
+  {
+    "id": "football_stadium",
+    "name": "Football Stadium",
+    "emoji": "⚽",
+    "district": "fun",
+    "hidden": false,
+    "tags": [
+      "sport",
+      "football",
+      "outdoor",
+      "wall",
+      "party"
+    ],
+    "floors": [
+      "Field (outdoor)",
+      "Stands (outdoor)",
+      "Clubhouse"
+    ],
+    "things": [
+      "football",
+      "goal",
+      "trophy",
+      "team banner",
+      "scoreboard",
+      "bench",
+      "water cooler",
+      "mascot plush",
+      "cones",
+      "ball rack",
+      "first aid kit",
+      "drinking fountain"
+    ],
+    "note": "Football stadium."
+  },
+  {
+    "id": "school_shopping_place",
+    "name": "School Shopping",
+    "emoji": "🎒",
+    "district": "shopping",
+    "hidden": false,
+    "tags": [
+      "school",
+      "shop"
+    ],
+    "floors": [
+      "Ground Floor",
+      "School Corner"
+    ],
+    "things": [
+      "backpack",
+      "lunchbox",
+      "pencil case",
+      "water bottle",
+      "uniform rack",
+      "notebook",
+      "ruler",
+      "eraser",
+      "glue stick",
+      "crayon box",
+      "scissors",
+      "pencil sharpener",
+      "name tag",
+      "lunch bag",
+      "school bell",
+      "display shelf"
+    ],
+    "note": "School shopping place: backpacks, lunchboxes, pencil cases, bottles, uniform and other school stuff."
+  },
+  {
+    "id": "old_people_home",
+    "name": "Old People Home",
+    "emoji": "🛋️",
+    "district": "care",
+    "hidden": false,
+    "tags": [
+      "elder_home",
+      "elder",
+      "cosy",
+      "vip"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Sunroom (outdoor)",
+      "Roof Garden (outdoor)"
+    ],
+    "things": [
+      "rocking chair",
+      "armchair",
+      "card table",
+      "puzzle",
+      "photo frame",
+      "tea cup",
+      "soft blanket",
+      "radio",
+      "flower vase",
+      "book",
+      "wall clock",
+      "walking cane",
+      "cozy lamp",
+      "memory jar",
+      "potted plant"
+    ],
+    "note": "There's an old people home. To go to different floors swipe up or down. VIP stuff for free."
+  },
+  {
+    "id": "supermarket",
+    "name": "Supermarket",
+    "emoji": "🛒",
+    "district": "shopping",
+    "hidden": false,
+    "tags": [
+      "supermarket",
+      "shop",
+      "kitchen"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Food Hall",
+      "Checkout Corner"
+    ],
+    "things": [
+      "shopping trolley",
+      "fruit basket",
+      "milk carton",
+      "bread loaf",
+      "cereal box",
+      "apple",
+      "banana",
+      "cheese wedge",
+      "juice box",
+      "egg carton",
+      "grocery bag",
+      "shelf",
+      "scale",
+      "basket",
+      "watermelon",
+      "cookie jar",
+      "snack bag",
+      "checkout counter"
+    ],
+    "note": "Supermarkets."
+  },
+  {
+    "id": "eye_opticians",
+    "name": "Eye Opticians",
+    "emoji": "👓",
+    "district": "shopping",
+    "hidden": false,
+    "tags": [
+      "optician",
+      "shop",
+      "wall"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Lens Corner"
+    ],
+    "things": [
+      "glasses display",
+      "sunglasses",
+      "reading glasses",
+      "eye chart",
+      "mirror",
+      "lens case",
+      "optician lamp",
+      "trial frame",
+      "contact lens box",
+      "eye drop bottle",
+      "cat glasses",
+      "frame shelf",
+      "polishing cloth",
+      "chart poster"
+    ],
+    "note": "Eye opticians."
+  },
+  {
+    "id": "hair_dressers",
+    "name": "Hair Dressers",
+    "emoji": "💇",
+    "district": "shopping",
+    "tags": [
+      "salon",
+      "fancy",
+      "cosy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Styling Loft"
+    ],
+    "things": [
+      "salon chair",
+      "mirror",
+      "hair dryer",
+      "comb",
+      "scissors",
+      "hair clips",
+      "color swatches",
+      "product shelf",
+      "towel cart",
+      "cosy armchair",
+      "waiting table",
+      "water bottle",
+      "hair ribbon",
+      "mannequin head",
+      "shampoo bottle",
+      "brush"
+    ],
+    "note": "Hair dressers."
+  },
+  {
+    "id": "makeup_shop",
+    "name": "Makeup Shop",
+    "emoji": "💄",
+    "district": "shopping",
+    "tags": [
+      "makeup",
+      "shop",
+      "fancy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Mirror Loft"
+    ],
+    "things": [
+      "lipstick display",
+      "eyeshadow palette",
+      "makeup mirror",
+      "brush set",
+      "powder compact",
+      "lip balm",
+      "blush pot",
+      "nail polish rack",
+      "tissue box",
+      "cosy stool",
+      "ribbon counter",
+      "sample tray",
+      "perfume bottle",
+      "glitter jar",
+      "mirror light",
+      "velvet bag"
+    ],
+    "note": "Makeup shops. Makeup."
+  },
+  {
+    "id": "hotels",
+    "name": "Hotels",
+    "emoji": "🏨",
+    "district": "travel",
+    "tags": [
+      "hotel",
+      "vip",
+      "fancy",
+      "cosy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Guest Rooms",
+      "Rooftop Garden (outdoor)"
+    ],
+    "things": [
+      "front desk",
+      "key card",
+      "welcome mat",
+      "cosy armchair",
+      "suitcase",
+      "pillow",
+      "bed with canopy",
+      "night lamp",
+      "bathrobe",
+      "slippers",
+      "teapot",
+      "snack tray",
+      "mini fridge",
+      "balcony plant",
+      "cloud balloon",
+      "rooftop slide",
+      "cloud lamp",
+      "bell desk"
+    ],
+    "note": "Hotels."
+  },
+  {
+    "id": "sweets_shop",
+    "name": "Sweets Shop",
+    "emoji": "🍭",
+    "district": "shopping",
+    "tags": [
+      "sweets",
+      "shop",
+      "party",
+      "birthday"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Candy Loft"
+    ],
+    "things": [
+      "candy jars",
+      "lollipop stand",
+      "cupcake",
+      "donut",
+      "chocolate bar",
+      "gummy bears",
+      "cotton candy machine",
+      "sweet counter",
+      "tasting spoons",
+      "sprinkle jar",
+      "cookie",
+      "macaron",
+      "candy cane",
+      "treasure chest",
+      "ribbon",
+      "sugar heart"
+    ],
+    "note": "Sweets shops."
+  },
+  {
+    "id": "toy_shop",
+    "name": "Toy Shop",
+    "emoji": "🧸",
+    "district": "shopping",
+    "tags": [
+      "toys",
+      "shop",
+      "kids_room",
+      "party"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Play Loft"
+    ],
+    "things": [
+      "teddy bear",
+      "dollhouse",
+      "building blocks",
+      "rocking horse",
+      "train set",
+      "bouncy balls",
+      "puzzle",
+      "plush bunny",
+      "toy kitchen",
+      "toy car",
+      "balloon",
+      "crayons",
+      "music box",
+      "treasure chest",
+      "puppet",
+      "toy phone"
+    ],
+    "note": "Toy shops."
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "emoji": "🍝",
+    "district": "downtown",
+    "tags": [
+      "restaurant",
+      "cafe",
+      "fancy",
+      "cosy",
+      "outdoor"
+    ],
+    "floors": [
+      "Dining Room",
+      "Patio (outdoor)"
+    ],
+    "things": [
+      "pizza oven",
+      "cake stand",
+      "menu chalkboard",
+      "cosy booth",
+      "juice rack",
+      "candle",
+      "salad bowl",
+      "chocolate fountain",
+      "flower vase",
+      "gift box"
+    ],
+    "note": "Restaurant"
+  },
+  {
+    "id": "offices",
+    "name": "Offices",
+    "emoji": "🏢",
+    "district": "downtown",
+    "tags": [
+      "office",
+      "cosy",
+      "fancy"
+    ],
+    "floors": [
+      "Front Desk",
+      "Open Office",
+      "Roof Garden (outdoor)"
+    ],
+    "things": [
+      "desk",
+      "computer",
+      "chair",
+      "filing cabinet",
+      "plant",
+      "whiteboard",
+      "coffee machine",
+      "bookshelf",
+      "printer",
+      "cushion"
+    ],
+    "note": "Offices"
+  },
+  {
+    "id": "vets",
+    "name": "Vets",
+    "emoji": "🐾",
+    "district": "care",
+    "tags": [
+      "vet",
+      "pet",
+      "cosy",
+      "outdoor"
+    ],
+    "floors": [
+      "Reception",
+      "Exam Room",
+      "Play Yard (outdoor)"
+    ],
+    "things": [
+      "stethoscope",
+      "pet bed",
+      "treat jar",
+      "bone toy",
+      "grooming table",
+      "toy mouse",
+      "water bowl",
+      "tiny hat",
+      "bandage roll",
+      "fish tank"
+    ],
+    "note": "Vets"
+  },
+  {
+    "id": "cafe",
+    "name": "Cafe",
+    "emoji": "☕",
+    "district": "shopping",
+    "tags": [
+      "cafe",
+      "cosy",
+      "outdoor"
+    ],
+    "floors": [
+      "Counter",
+      "Seating Area",
+      "Garden (outdoor)"
+    ],
+    "things": [
+      "espresso machine",
+      "cake stand",
+      "hot chocolate",
+      "croissant",
+      "cosy armchair",
+      "chalkboard menu",
+      "milk bottle",
+      "cookie jar",
+      "flower pot",
+      "cup stack"
+    ],
+    "note": "Cafes"
+  },
+  {
+    "id": "pub",
+    "name": "Pub",
+    "emoji": "🍹",
+    "district": "downtown",
+    "tags": [
+      "pub",
+      "cosy",
+      "outdoor"
+    ],
+    "floors": [
+      "Bar",
+      "Snug",
+      "Garden (outdoor)"
+    ],
+    "things": [
+      "punch tap",
+      "pretzel bowl",
+      "cosy sofa",
+      "board game",
+      "candle",
+      "guitar",
+      "juice jug",
+      "snack basket",
+      "photo wall",
+      "plant"
+    ],
+    "note": "Pub"
+  },
+  {
+    "id": "stables",
+    "name": "Stables",
+    "emoji": "🐴",
+    "district": "nature",
+    "hidden": false,
+    "tags": [
+      "stable",
+      "pet",
+      "outdoor",
+      "farm",
+      "cosy"
+    ],
+    "floors": [
+      "Stable (outdoor)",
+      "Hay Loft",
+      "Tack Room",
+      "Pony Field (outdoor)"
+    ],
+    "things": [
+      "stable door",
+      "hay bale",
+      "saddle",
+      "horse blanket",
+      "bucket",
+      "carrot",
+      "apple",
+      "brush",
+      "fence",
+      "watering trough",
+      "little pony",
+      "lead rope",
+      "stable lamp",
+      "straw basket"
+    ],
+    "note": "Stables."
+  },
+  {
+    "id": "pet_shop",
+    "name": "Pet Shop",
+    "emoji": "🐾",
+    "district": "shopping",
+    "hidden": false,
+    "tags": [
+      "pet_shop",
+      "pet",
+      "shop",
+      "outdoor",
+      "cosy"
+    ],
+    "floors": [
+      "Shop Floor",
+      "Aquarium Corner",
+      "Play Yard (outdoor)"
+    ],
+    "things": [
+      "pet cage",
+      "rabbit",
+      "hamster",
+      "goldfish bowl",
+      "cat tree",
+      "dog bowl",
+      "birdcage",
+      "puppy bed",
+      "kitten bed",
+      "leash",
+      "treat jar",
+      "pet brush",
+      "toy mouse",
+      "plant stand",
+      "litter box",
+      "pet scale",
+      "pet tent",
+      "water fountain"
+    ],
+    "note": "Pet shop."
+  },
+  {
+    "id": "paint_shop",
+    "name": "Paint Shop",
+    "emoji": "🎨",
+    "district": "shopping",
+    "hidden": false,
+    "tags": [
+      "paint_shop",
+      "shop",
+      "wall",
+      "cosy"
+    ],
+    "floors": [
+      "Shop Floor",
+      "Drying Room",
+      "Mural Wall (outdoor)"
+    ],
+    "things": [
+      "paint cans",
+      "paintbrush",
+      "palette",
+      "easel",
+      "wall mural",
+      "color swatches",
+      "paint roller",
+      "sponge",
+      "color mixing bowl",
+      "wall sticker",
+      "crayon",
+      "stencil",
+      "little ladder",
+      "paint pot",
+      "drying rack",
+      "canvas",
+      "mural frame"
+    ],
+    "note": "Paint shop."
+  },
+  {
+    "id": "secret_garden",
+    "name": "Secret Garden",
+    "emoji": "🌈",
+    "district": "nature",
+    "hidden": true,
+    "tags": [
+      "garden",
+      "outdoor",
+      "cosy",
+      "birthday"
+    ],
+    "floors": [
+      "Garden Path (outdoor)",
+      "Flower Meadow (outdoor)",
+      "Secret Nook"
+    ],
+    "things": [
+      "flower bed",
+      "butterfly",
+      "garden bench",
+      "treasure chest",
+      "balloon",
+      "picnic basket",
+      "fairy lamp",
+      "mushroom stool",
+      "secret gate",
+      "star path",
+      "tea set",
+      "gift box"
+    ],
+    "note": "Hidden places."
+  },
+  {
+    "id": "cloud_swing_set",
+    "name": "Cloud Swing",
+    "emoji": "☁️",
+    "district": "sky",
+    "hidden": true,
+    "tags": [
+      "clouds",
+      "outdoor",
+      "cosy",
+      "party"
+    ],
+    "floors": [
+      "Cloud Platform (outdoor)",
+      "Swing Meadow (outdoor)",
+      "Star Deck (outdoor)"
+    ],
+    "things": [
+      "cloud swing",
+      "star lantern",
+      "rainbow slide",
+      "moon hammock",
+      "cotton candy cloud",
+      "cloud bench",
+      "sky flower",
+      "twinkle lamp",
+      "soft pillow",
+      "balloon",
+      "tiny cloud ladder",
+      "music box"
+    ],
+    "note": "Hidden places."
+  },
+  {
+    "id": "secret_beach_house",
+    "name": "Secret Beach House",
+    "emoji": "🏖️",
+    "district": "homes",
+    "hidden": true,
+    "tags": [
+      "beach",
+      "living",
+      "garden",
+      "cosy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Sun Deck (outdoor)",
+      "Rooftop Garden (outdoor)"
+    ],
+    "things": [
+      "sandcastle",
+      "beach ball",
+      "seashell basket",
+      "picnic table",
+      "sun umbrella",
+      "deck chair",
+      "coconut drink",
+      "starfish",
+      "driftwood bench",
+      "beach tricycle",
+      "ice cream cone",
+      "shell wind chime"
+    ],
+    "note": "Beach houses."
+  },
+  {
+    "id": "secret_mansion",
+    "name": "Secret Mansion",
+    "emoji": "🏰",
+    "district": "homes",
+    "hidden": true,
+    "tags": [
+      "fancy",
+      "living",
+      "bedroom",
+      "garden",
+      "cosy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Bedrooms",
+      "Attic Playroom",
+      "Rooftop Garden (outdoor)"
+    ],
+    "things": [
+      "grand piano",
+      "crystal chandelier",
+      "cushioned sofa",
+      "fireplace",
+      "picture frames",
+      "rose vase",
+      "toy horse",
+      "bookshelf",
+      "chocolate fountain",
+      "garden fountain",
+      "garden gnome",
+      "swing set"
+    ],
+    "note": "Mansions."
+  },
+  {
+    "id": "secret_beach",
+    "name": "Secret Beach",
+    "emoji": "🌊",
+    "district": "nature",
+    "hidden": true,
+    "tags": [
+      "beach",
+      "outdoor",
+      "garden",
+      "cosy"
+    ],
+    "floors": [
+      "Shore (outdoor)",
+      "Dune Path (outdoor)",
+      "Palm Grove (outdoor)"
+    ],
+    "things": [
+      "hidden shell",
+      "message in bottle",
+      "starfish",
+      "beach blanket",
+      "ice cream cone",
+      "sandcastle",
+      "driftwood boat",
+      "palm leaf fan",
+      "seagull toy",
+      "toy lighthouse",
+      "treasure chest",
+      "rainbow umbrella"
+    ],
+    "note": "Hidden places. All free."
+  },
+  {
+    "id": "starry_observatory",
+    "name": "Starry Observatory",
+    "emoji": "🔭",
+    "district": "sky",
+    "hidden": true,
+    "tags": [
+      "clouds",
+      "outdoor",
+      "fancy",
+      "cosy"
+    ],
+    "floors": [
+      "Telescope Deck (outdoor)",
+      "Star Lounge",
+      "Moon Balcony (outdoor)"
+    ],
+    "things": [
+      "telescope",
+      "star map",
+      "moon cookie",
+      "teacup",
+      "plush rabbit",
+      "cloud cushion",
+      "starry lantern",
+      "rocket toy",
+      "globe",
+      "starfish",
+      "star projector",
+      "cosy blanket"
+    ],
+    "note": "Kingdom in the clouds."
+  },
+  {
+    "id": "halloween_house",
+    "name": "Halloween House",
+    "emoji": "🎃",
+    "district": "fun",
+    "hidden": true,
+    "tags": [
+      "halloween",
+      "cosy",
+      "garden",
+      "party"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Pumpkin Porch (outdoor)",
+      "Candy Loft"
+    ],
+    "things": [
+      "pumpkin planter",
+      "costume rack",
+      "candy bowl",
+      "teddy bat",
+      "ghost plush",
+      "trick-or-treat bag",
+      "candy apples",
+      "spider web banner",
+      "moon lantern",
+      "pumpkin pie",
+      "cocoa cup",
+      "tiny broom"
+    ],
+    "note": "Pets. Halloween stuff."
+  },
+  {
+    "id": "mansion",
+    "name": "Mansion",
+    "emoji": "🏰",
+    "district": "homes",
+    "tags": [
+      "living",
+      "garden",
+      "fancy",
+      "cosy"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Garden (outdoor)",
+      "Rooftop (outdoor)"
+    ],
+    "things": [
+      "grand piano",
+      "velvet sofa",
+      "chandelier",
+      "marble fountain",
+      "gift cabinet",
+      "tea table",
+      "picture frame",
+      "cat bell",
+      "bookshelf",
+      "window seat",
+      "silver candelabra",
+      "potted palm"
+    ],
+    "note": "Mansions."
+  },
+  {
+    "id": "beach_house",
+    "name": "Beach House",
+    "emoji": "🏖️",
+    "district": "homes",
+    "tags": [
+      "beach",
+      "garden",
+      "cosy",
+      "outdoor"
+    ],
+    "floors": [
+      "Ground Floor",
+      "Deck (outdoor)",
+      "Garden (outdoor)"
+    ],
+    "things": [
+      "beach ball",
+      "sandcastle mold",
+      "seashell basket",
+      "hammock",
+      "towel rack",
+      "crab toy",
+      "starfish pillow",
+      "lemonade",
+      "picnic basket",
+      "parasol",
+      "swing",
+      "driftwood bench"
+    ],
+    "note": "Beach houses."
+  },
+  {
+    "id": "secret_treehouse",
+    "name": "Secret Treehouse",
+    "emoji": "🌳",
+    "district": "nature",
+    "hidden": true,
+    "tags": [
+      "garden",
+      "kids_room",
+      "outdoor"
+    ],
+    "floors": [
+      "Platform (outdoor)",
+      "Leaf Loft (outdoor)"
+    ],
+    "things": [
+      "treehouse ladder",
+      "leaf canopy",
+      "bird feeder",
+      "teddy bear",
+      "kite",
+      "lantern",
+      "blanket",
+      "magnifying glass",
+      "treasure chest",
+      "swing"
+    ],
+    "note": "Hidden places."
+  },
+  {
+    "id": "secret_candy_cave",
+    "name": "Secret Candy Cave",
+    "emoji": "🍭",
+    "district": "fun",
+    "hidden": true,
+    "tags": [
+      "sweets",
+      "party",
+      "outdoor"
+    ],
+    "floors": [
+      "Candy Cave (outdoor)",
+      "Gumdrop Loft (outdoor)"
+    ],
+    "things": [
+      "gumdrop mound",
+      "candy cane arch",
+      "lollipop tree",
+      "chocolate fountain",
+      "marshmallow cloud",
+      "donut slide",
+      "sprinkle jar",
+      "candy heart",
+      "toffee bench",
+      "fizzy drink"
+    ],
+    "note": "Hidden places."
+  },
+  {
+    "id": "secret_pet_garden",
+    "name": "Secret Pet Garden",
+    "emoji": "🐾",
+    "district": "nature",
+    "hidden": true,
+    "tags": [
+      "pet",
+      "garden",
+      "farm"
+    ],
+    "floors": [
+      "Garden (outdoor)",
+      "Pond (outdoor)"
+    ],
+    "things": [
+      "rubber duck",
+      "pet bowl",
+      "kitten toy",
+      "puppy bone",
+      "bird feeder",
+      "flower bed",
+      "pet bed",
+      "leash hook",
+      "butterfly net",
+      "hamster ball"
+    ],
+    "note": "Pets."
+  }
+]

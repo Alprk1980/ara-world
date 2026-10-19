@@ -1,0 +1,20 @@
+You are creating the starter townsfolk of ARA World, a cosy cute life-sim game for a young girl. They wait in the
+people bar for her to play with. Make {{count}} people. {{ask}}
+
+Each person:
+{"id": "snake_case", "name": "Name (2-12 letters)", "age": "<age>", "skin": "<skin tone>",
+ "hair": {"template": "<hair template id>", "colour": "#rrggbb"}, "eyes": "#rrggbb",
+ "outfit": {"top": "<item id>", "bottom": "<item id>", "socks": "<item id>", "shoes": "<item id>",
+            "hat": "<item id>", "glasses": "<item id>", "bag": "<item id>"}}
+
+- age: one of {{ages}}. Mix ages: families with babies, toddlers, kids, teens, adults and grandparents.
+- skin: one of {{skins}}. A good mix of skin tones.
+- hair.template: one of {{hairs}}. Natural or fun hair colours.
+- outfit: a "dress", OR a "top" and a "bottom"; plus any of socks, shoes, hat, glasses, bag. Each slot uses an item
+  of that kind, and the item must suit the age (some items list who can wear them). Clothes by slot:
+{{wearables}}
+- Give them friendly, diverse names. Nobody scary.
+
+Ids already taken: {{existing}}
+
+Answer with ONLY a JSON array.

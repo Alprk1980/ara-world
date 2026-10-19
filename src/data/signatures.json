@@ -1,0 +1,354 @@
+{
+  "post_counter": [
+    "post_office"
+  ],
+  "big_post_box": [
+    "post_office"
+  ],
+  "parcel_pile": [
+    "post_office"
+  ],
+  "steam_train": [
+    "train_station"
+  ],
+  "ticket_booth": [
+    "train_station"
+  ],
+  "platform_clock": [
+    "train_station",
+    "bus_station"
+  ],
+  "bus_shelter": [
+    "bus_station"
+  ],
+  "ticket_machine": [
+    "bus_station"
+  ],
+  "school_desk": [
+    "school"
+  ],
+  "blackboard": [
+    "school",
+    "daycare"
+  ],
+  "globe_stand": [
+    "school",
+    "starry_observatory"
+  ],
+  "playpen": [
+    "daycare"
+  ],
+  "toy_box": [
+    "daycare",
+    "secret_treehouse"
+  ],
+  "baby_slide": [
+    "daycare",
+    "secret_treehouse"
+  ],
+  "hospital_bed": [
+    "hospital"
+  ],
+  "reception_desk": [
+    "hospital",
+    "vets"
+  ],
+  "first_aid_box": [
+    "hospital"
+  ],
+  "fire_engine": [
+    "fire_station"
+  ],
+  "fire_pole": [
+    "fire_station"
+  ],
+  "fire_hydrant": [
+    "fire_station",
+    "police_station"
+  ],
+  "police_desk": [
+    "police_station"
+  ],
+  "traffic_cone": [
+    "police_station",
+    "sports_arena"
+  ],
+  "checkout_till": [
+    "supermarket"
+  ],
+  "shopping_trolley": [
+    "supermarket"
+  ],
+  "hotel_front_desk": [
+    "hotels"
+  ],
+  "canopy_bed": [
+    "hotels",
+    "secret_mansion",
+    "mansion"
+  ],
+  "luggage_trolley": [
+    "hotels",
+    "airport"
+  ],
+  "office_desk": [
+    "offices"
+  ],
+  "office_chair": [
+    "offices"
+  ],
+  "police_car": [
+    "police_station"
+  ],
+  "fruit_stand": [
+    "supermarket",
+    "places_to_eat"
+  ],
+  "water_cooler": [
+    "offices",
+    "hospital"
+  ],
+  "pool_water": [
+    "pools"
+  ],
+  "diving_board": [
+    "pools",
+    "waterpark"
+  ],
+  "pool_lounger": [
+    "pools",
+    "secret_beach",
+    "beach_house"
+  ],
+  "water_slide_tower": [
+    "waterpark"
+  ],
+  "splash_bucket": [
+    "waterpark"
+  ],
+  "friendly_lion": [
+    "zoo"
+  ],
+  "tall_giraffe": [
+    "zoo"
+  ],
+  "baby_elephant": [
+    "zoo"
+  ],
+  "jellyfish_tank": [
+    "aquarium"
+  ],
+  "ferris_wheel": [
+    "theme_park"
+  ],
+  "carousel": [
+    "theme_park"
+  ],
+  "candy_floss_cart": [
+    "theme_park",
+    "malls"
+  ],
+  "coaster_car": [
+    "rollercoaster_place"
+  ],
+  "coaster_loop": [
+    "rollercoaster_place"
+  ],
+  "big_airplane": [
+    "airport"
+  ],
+  "check_in_desk": [
+    "airport"
+  ],
+  "first_class_seat": [
+    "airport"
+  ],
+  "clothes_rack": [
+    "malls",
+    "school_shopping_place"
+  ],
+  "mannequin": [
+    "malls"
+  ],
+  "shopping_bags": [
+    "malls"
+  ],
+  "backpack_shelf": [
+    "school_shopping_place"
+  ],
+  "food_truck": [
+    "places_to_eat",
+    "theme_park"
+  ],
+  "ice_cream_cart": [
+    "places_to_eat",
+    "theme_park",
+    "secret_beach"
+  ],
+  "pizza_oven": [
+    "restaurant",
+    "places_to_eat"
+  ],
+  "menu_board": [
+    "restaurant",
+    "pub",
+    "places_to_eat"
+  ],
+  "basketball_hoop": [
+    "sports_arena"
+  ],
+  "gold_trophy": [
+    "sports_arena",
+    "football_stadium"
+  ],
+  "football_goal": [
+    "football_stadium"
+  ],
+  "scoreboard": [
+    "football_stadium",
+    "sports_arena"
+  ],
+  "stadium_seats": [
+    "football_stadium"
+  ],
+  "snowboard": [
+    "snowboarding_place"
+  ],
+  "ski_lift_chair": [
+    "snowboarding_place"
+  ],
+  "cosy_igloo": [
+    "snowboarding_place"
+  ],
+  "cloud_throne": [
+    "kingdom_in_the_clouds"
+  ],
+  "rainbow_arch": [
+    "kingdom_in_the_clouds",
+    "cloud_swing_set"
+  ],
+  "crystal_castle": [
+    "kingdom_in_the_clouds",
+    "secret_mansion"
+  ],
+  "bar_counter": [
+    "pub"
+  ],
+  "cosy_fireplace": [
+    "pub",
+    "old_people_home"
+  ],
+  "dartboard": [
+    "pub"
+  ],
+  "horse_stall": [
+    "stables",
+    "secret_pet_garden"
+  ],
+  "hay_bales": [
+    "stables",
+    "secret_pet_garden"
+  ],
+  "little_pony": [
+    "stables"
+  ],
+  "big_fish_tank": [
+    "aquarium"
+  ],
+  "happy_dolphin": [
+    "aquarium",
+    "secret_beach"
+  ],
+  "dining_table_set": [
+    "restaurant"
+  ],
+  "sandcastle": [
+    "secret_beach",
+    "beach_house",
+    "secret_beach_house"
+  ],
+  "beach_umbrella": [
+    "secret_beach",
+    "beach_house",
+    "secret_beach_house",
+    "pools"
+  ],
+  "pretty_seashell": [
+    "secret_beach",
+    "beach_house",
+    "secret_beach_house"
+  ],
+  "grand_piano": [
+    "secret_mansion",
+    "mansion",
+    "hotels"
+  ],
+  "chandelier": [
+    "secret_mansion",
+    "mansion",
+    "hotels",
+    "kingdom_in_the_clouds"
+  ],
+  "big_telescope": [
+    "starry_observatory"
+  ],
+  "witch_cauldron": [
+    "halloween_house"
+  ],
+  "friendly_bat": [
+    "halloween_house"
+  ],
+  "rope_ladder": [
+    "secret_treehouse"
+  ],
+  "tire_swing": [
+    "secret_treehouse",
+    "secret_garden"
+  ],
+  "lollipop_tree": [
+    "secret_candy_cave"
+  ],
+  "gumdrop_mound": [
+    "secret_candy_cave"
+  ],
+  "chocolate_fountain": [
+    "secret_candy_cave",
+    "secret_mansion"
+  ],
+  "dog_house": [
+    "secret_pet_garden",
+    "vets",
+    "pet_shop"
+  ],
+  "bird_bath": [
+    "secret_pet_garden",
+    "secret_garden"
+  ],
+  "garden_gate": [
+    "secret_garden"
+  ],
+  "fairy_house": [
+    "secret_garden",
+    "secret_treehouse"
+  ],
+  "mushroom_stool": [
+    "secret_garden",
+    "secret_candy_cave"
+  ],
+  "cloud_swing": [
+    "cloud_swing_set"
+  ],
+  "croissant": [
+    "cafe"
+  ],
+  "cosy_hoodie": [
+    "malls"
+  ],
+  "rocket_toy": [
+    "starry_observatory",
+    "toy_shop"
+  ],
+  "candy_bucket": [
+    "halloween_house"
+  ]
+}

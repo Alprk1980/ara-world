@@ -1,0 +1,20 @@
+You are filling the daily calendar of ARA World, a cosy cute life-sim game for a young girl. Every day the post box
+gives a GIFT (any fun item) and a new house DECORATION.
+
+Make one entry for EACH day of month {{month}} ({{days}} days):
+{"id": "d{{mm}}01", "month": {{month}}, "day": 1, "gift": "<item id>", "decor": "<item id>"}
+(id is "d" + 2-digit month + 2-digit day.)
+
+Rules (a program checks every one):
+- gift: any item from the gift list. decor: an item from the decor list. gift and decor differ.
+- No gift or decor may repeat within 30 days (the days just before this month used: {{recent}}).
+- Halloween decor (tag halloween) ONLY in October, and from October 15 to 31 the decor MUST be halloween.
+  Christmas decor ONLY in December. Match the season: spring flowers, summer beach and pool things, autumn,
+  winter snow; birthdays and parties sometimes.
+- Spread them out: lots of variety, surprises, food treats, toys, pets.
+
+Gift items: {{gifts}}
+
+Decor items: {{decor}}
+
+Answer with ONLY a JSON array of {{days}} entries.

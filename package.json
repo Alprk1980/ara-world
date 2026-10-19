@@ -1,0 +1,33 @@
+{
+  "name": "ara-world",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run",
+    "validate": "node tools/validate-data.ts",
+    "check": "tsc --noEmit && vitest run && node tools/validate-data.ts",
+    "gen": "node tools/qwen-gen.ts",
+    "sheet": "node tools/contact-sheet.ts",
+    "e2e": "node tools/smoke.ts && node tools/play-test.ts"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "pixi.js": "^8.22.0"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^26.6.5",
+    "fast-xml-parser": "^5.11.2",
+    "playwright": "^1.64.1",
+    "svg-path-bbox": "^2.1.0",
+    "typescript": "^7.0.2",
+    "undici": "^8.12.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5"
+  }
+}

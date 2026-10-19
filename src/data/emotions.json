@@ -1,0 +1,18 @@
+[
+  { "id": "happy", "emoji": "😊", "name": "Happy", "face": { "eyes": "happy", "mouth": "smile", "brows": 0.3, "blush": true, "tears": false }, "motion": "bounce", "sound": "giggle", "seconds": 3 },
+  { "id": "laughing", "emoji": "😂", "name": "Laughing", "face": { "eyes": "happy", "mouth": "grin", "brows": 0.5, "blush": true, "tears": true }, "motion": "shake", "sound": "giggle", "seconds": 3 },
+  { "id": "love", "emoji": "😍", "name": "In Love", "face": { "eyes": "hearts", "mouth": "grin", "brows": 0.4, "blush": true, "tears": false }, "motion": "sway", "sound": "ooh", "seconds": 4 },
+  { "id": "excited", "emoji": "🤩", "name": "Excited", "face": { "eyes": "stars", "mouth": "open", "brows": 0.8, "blush": true, "tears": false }, "motion": "jump", "sound": "cheer", "seconds": 3 },
+  { "id": "silly", "emoji": "😜", "name": "Silly", "face": { "eyes": "wink", "mouth": "tongue", "brows": 0.2, "blush": false, "tears": false }, "motion": "wiggle", "sound": "giggle", "seconds": 3 },
+  { "id": "surprised", "emoji": "😮", "name": "Surprised", "face": { "eyes": "wide", "mouth": "o", "brows": 1, "blush": false, "tears": false }, "motion": "jump", "sound": "gasp", "seconds": 2 },
+  { "id": "sleepy", "emoji": "😴", "name": "Sleepy", "face": { "eyes": "sleepy", "mouth": "o", "brows": -0.2, "blush": false, "tears": false }, "motion": "droop", "sound": "yawn", "seconds": 5 },
+  { "id": "sad", "emoji": "🥺", "name": "Sad", "face": { "eyes": "sad", "mouth": "wobbly", "brows": -0.8, "blush": false, "tears": false }, "motion": "droop", "sound": "sigh", "seconds": 4 },
+  { "id": "crying", "emoji": "😢", "name": "Crying", "face": { "eyes": "closed", "mouth": "frown", "brows": -1, "blush": true, "tears": true }, "motion": "shake", "sound": "sniff", "seconds": 4 },
+  { "id": "cross", "emoji": "😠", "name": "Cross", "face": { "eyes": "angry", "mouth": "frown", "brows": -1, "blush": true, "tears": false }, "motion": "shake", "sound": "hmph", "seconds": 3 },
+  { "id": "scared", "emoji": "😨", "name": "A Bit Scared", "face": { "eyes": "wide", "mouth": "wobbly", "brows": -0.6, "blush": false, "tears": false }, "motion": "shiver", "sound": "gasp", "seconds": 3 },
+  { "id": "cold", "emoji": "🥶", "name": "Cold", "face": { "eyes": "closed", "mouth": "wobbly", "brows": -0.4, "blush": true, "tears": false }, "motion": "shiver", "sound": "brr", "seconds": 4 },
+  { "id": "proud", "emoji": "😎", "name": "Cool", "face": { "eyes": "happy", "mouth": "smile", "brows": 0.6, "blush": false, "tears": false }, "motion": "sway", "sound": "ooh", "seconds": 3 },
+  { "id": "shy", "emoji": "😳", "name": "Shy", "face": { "eyes": "open", "mouth": "flat", "brows": 0.2, "blush": true, "tears": false }, "motion": "sway", "sound": "ooh", "seconds": 3 },
+  { "id": "yummy", "emoji": "😋", "name": "Yummy", "face": { "eyes": "happy", "mouth": "tongue", "brows": 0.3, "blush": true, "tears": false }, "motion": "bounce", "sound": "giggle", "seconds": 3 },
+  { "id": "kiss", "emoji": "😘", "name": "Kiss", "face": { "eyes": "wink", "mouth": "kiss", "brows": 0.3, "blush": true, "tears": false }, "motion": "bounce", "sound": "kiss", "seconds": 3 }
+]

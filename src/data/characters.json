@@ -1,0 +1,207 @@
+[
+  {
+    "id": "ava",
+    "name": "Ava",
+    "age": "adult",
+    "skin": "#f9cfb4",
+    "eyes": "#3a6ea5",
+    "hair": {
+      "template": "feathered_pixie_hair",
+      "colour": "#8b5e3c"
+    },
+    "outfit": {
+      "top": "button_collar_shirt_gold",
+      "bottom": "grandma_floral_skirt_pumpkin",
+      "shoes": "teen_star_high_tops_lemon",
+      "socks": "grandpa_patch_socks_pumpkin"
+    }
+  },
+  {
+    "id": "mia",
+    "name": "Mia",
+    "age": "adult",
+    "skin": "#efb995",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "space_buns_hair",
+      "colour": "#ffffff"
+    },
+    "outfit": {
+      "top": "puff_sleeve_blouse_lavender",
+      "bottom": "grandpa_corduroy_trousers_pumpkin",
+      "shoes": "teen_star_high_tops_berry",
+      "socks": "grandpa_patch_socks_sage"
+    }
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "age": "kid",
+    "skin": "#ffe3d3",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "side_puff_hair",
+      "colour": "#e8c07d"
+    },
+    "outfit": {
+      "dress": "grandma_apron_dress_cocoa",
+      "shoes": "mary_jane_shoes_mint",
+      "socks": "mochi_dot_socks_sage"
+    }
+  },
+  {
+    "id": "nia",
+    "name": "Nia",
+    "age": "baby",
+    "skin": "#efb995",
+    "eyes": "#5a3825",
+    "hair": {
+      "template": "low_ponytail_hair",
+      "colour": "#ffffff"
+    },
+    "outfit": {
+      "dress": "daisy_hem_dress_mint",
+      "shoes": "baby_bunny_slippers_lilac",
+      "socks": "striped_socks_strawberry",
+      "hat": "mushroom_cap_hat_lilac"
+    }
+  },
+  {
+    "id": "freya",
+    "name": "Freya",
+    "age": "elder",
+    "skin": "#8d5535",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "side_puff_hair",
+      "colour": "#ffffff"
+    },
+    "outfit": {
+      "top": "grandma_cardigan_cocoa",
+      "bottom": "grandpa_corduroy_trousers_christmas",
+      "shoes": "grandpa_clogs_sage",
+      "socks": "grandpa_patch_socks_christmas",
+      "glasses": "grandma_oval_glasses_strawberry"
+    }
+  },
+  {
+    "id": "isla",
+    "name": "Isla",
+    "age": "adult",
+    "skin": "#4a2a19",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "side_puff_hair",
+      "colour": "#b0b0b0"
+    },
+    "outfit": {
+      "top": "button_collar_shirt_sky",
+      "bottom": "grandma_floral_skirt_gold",
+      "shoes": "grandma_patch_sneakers_pearl",
+      "socks": "grandpa_patch_socks_gold"
+    }
+  },
+  {
+    "id": "zara",
+    "name": "Zara",
+    "age": "teen",
+    "skin": "#b87650",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "crown_braid_hair",
+      "colour": "#d94f2b"
+    },
+    "outfit": {
+      "top": "button_collar_shirt_lemon",
+      "bottom": "petal_wrap_skirt_lemon",
+      "shoes": "teen_lace_up_boots_rainbow",
+      "socks": "teen_moon_star_socks_strawberry"
+    }
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia",
+    "age": "toddler",
+    "skin": "#ffe3d3",
+    "eyes": "#3a6ea5",
+    "hair": {
+      "template": "curly_afro_hair",
+      "colour": "#d94f2b"
+    },
+    "outfit": {
+      "dress": "party_bow_dress_strawberry",
+      "shoes": "baby_berry_moccasins_sky",
+      "socks": "baby_heart_socks_lilac"
+    }
+  },
+  {
+    "id": "amara",
+    "name": "Amara",
+    "age": "kid",
+    "skin": "#b87650",
+    "eyes": "#3a6ea5",
+    "hair": {
+      "template": "curly_twin_tails_hair",
+      "colour": "#c68642"
+    },
+    "outfit": {
+      "top": "bunny_pocket_top_rainbow",
+      "bottom": "bubble_dot_shorts_christmas",
+      "shoes": "baby_daisy_slides_sky",
+      "socks": "kid_paw_socks_rainbow",
+      "hat": "kid_watermelon_cap_lilac"
+    }
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "age": "teen",
+    "skin": "#8d5535",
+    "eyes": "#3fa66b",
+    "hair": {
+      "template": "low_ponytail_hair",
+      "colour": "#5a3825"
+    },
+    "outfit": {
+      "top": "candy_stripe_tee_christmas",
+      "bottom": "petal_wrap_skirt_lilac",
+      "shoes": "teen_lace_up_boots_beach",
+      "socks": "teen_moon_star_socks_gold"
+    }
+  },
+  {
+    "id": "leila",
+    "name": "Leila",
+    "age": "elder",
+    "skin": "#f9cfb4",
+    "eyes": "#3a2a2a",
+    "hair": {
+      "template": "curly_twin_tails_hair",
+      "colour": "#b0b0b0"
+    },
+    "outfit": {
+      "top": "grandma_cardigan_cocoa",
+      "bottom": "grandma_floral_skirt_berry",
+      "shoes": "grandpa_clogs_sage",
+      "socks": "grandpa_patch_socks_sage",
+      "glasses": "grandma_oval_glasses_lemon"
+    }
+  },
+  {
+    "id": "aisha",
+    "name": "Aisha",
+    "age": "adult",
+    "skin": "#8d5535",
+    "eyes": "#5a3825",
+    "hair": {
+      "template": "side_braid_hair",
+      "colour": "#b0b0b0"
+    },
+    "outfit": {
+      "top": "button_collar_shirt_gold",
+      "bottom": "grandpa_corduroy_trousers_chocolate",
+      "shoes": "grandpa_clogs_pumpkin",
+      "socks": "grandpa_patch_socks_pumpkin"
+    }
+  }
+]

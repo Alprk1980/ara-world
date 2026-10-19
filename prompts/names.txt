@@ -1,0 +1,8 @@
+Make {{count}} first names for people and pets in ARA World, a cosy life-sim game for a young girl.
+A diverse mix from many cultures, easy for a child to read, 2-12 letters, letters only. {{ask}}
+
+Each entry: {"id": "lowercase_name", "name": "Name"}
+
+Names already used: {{existing}}
+
+Answer with ONLY a JSON array.

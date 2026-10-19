@@ -1,0 +1,35 @@
+You are designing house blueprints for ARA World, a cosy cute life-sim game for a young girl. Players pick a house
+with the hammer and choose "furnished" or "empty". Seen from the side like a dollhouse; swipe up/down for floors.
+
+Make {{count}} house blueprints. {{ask}}
+
+Each house:
+{"id": "snake_case", "name": "Cute Name", "style": "<style>", "roof": "<roof>",
+ "exterior": {"walls": "#rrggbb", "roof": "#rrggbb", "door": "#rrggbb", "trim": "#rrggbb"},
+ "floors": [
+   {"name": "Ground Floor", "outdoor": false, "wall": "#rrggbb", "ground": "#rrggbb", "width": 600,
+    "rooms": [{"type": "kitchen", "width": 300}, {"type": "living", "width": 300}],
+    "items": [{"item": "<item id>", "x": 80}, {"item": "<item id>", "x": 80, "y": 40}]}
+ ]}
+
+Rules (a program checks every one):
+- style: one of {{styles}}. roof: one of {{roofs}}.
+- floors: 1-3 floors (mansion or castle: up to 4; a mansion has at least 2 indoor floors). Bottom to top.
+  A garden is a floor with "outdoor": true whose rooms are only "garden" or "pool" (gardens have pools, kids stuff
+  and fun stuff); put it as the first floor (ground) or leave it out.
+- rooms: types from {{rooms}}, left to right; widths at least 100 and they must ADD UP EXACTLY to the floor width.
+  Every house has a kitchen, a bedroom and a bathroom somewhere indoors.
+- width: 240-1200. An adult person is 100 units tall; indoor walls are 160 tall.
+- items: this is the FURNISHED version. 4-20 items per floor, only ids from the list below, placed inside the right
+  room (a room spans from the sum of the widths before it). "x" is the item's centre; it must fit inside the floor.
+  Floor-standing things must not overlap each other much. Small things go ON furniture with "y" = its top height.
+  Wall things get a "y" up the wall. y + height under 160 indoors (400 outdoors).
+- Make each house different and charming: colour schemes that suit the style, cosy details, toys in kids' rooms,
+  a cot in a nursery, a comfy chair for grandparents.
+
+Items you can use (id: category, w x h, extras):
+{{items}}
+
+Ids already taken: {{existing}}
+
+Answer with ONLY a JSON array.

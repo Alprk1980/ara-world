@@ -1,0 +1,57 @@
+You are drawing art for ARA World, a cosy, cute life-sim game for a young girl (like Toca Life World / Avatar World).
+Style: flat vector, chunky rounded shapes, soft curves, a thick friendly outline, simple and instantly recognizable at
+small size on a tablet. Happy and gentle, never scary (even Halloween things are cute).
+
+Make {{count}} templates. Draw these: {{ask}}
+
+A template is one SVG drawing whose colours are SLOTS, so the game can repaint it in many colourways:
+- fill/stroke may only be: {{main}} (biggest area), {{trim}} (second colour), {{accent}} (small details),
+  {{outline}} (outline strokes), none, #ffffff (shine/highlights), #3a2a2a (eyes), #cdeeff (glass, windows),
+  #7fd1ff (water).
+- Use {{outline}} as the stroke on the main shapes with stroke-width="6" and stroke-linejoin="round".
+- Allowed elements ONLY: svg, g, path, rect, circle, ellipse, polygon, polyline, line.
+- Allowed attributes ONLY: xmlns, viewBox, d, x, y, width, height, rx, ry, cx, cy, r, points, x1, y1, x2, y2, fill,
+  stroke, stroke-width, stroke-linecap, stroke-linejoin, opacity, fill-opacity, fill-rule. NO transform, NO text,
+  NO gradients, NO style attribute. Every shape needs a fill (a slot or none).
+- The root is <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">, under 4000 characters, at most 60 shapes.
+- Everything stays inside 0..256.
+
+Two families of templates:
+
+1. WEARABLES ({{wearables}}): drawn to fill a body "slot frame" (the 256x256 canvas IS the slot), front view.
+   No size, no anchors. Must cover at least half of the frame in both width and height.
+   - hair: the head is a circle centred (128,140) radius 90. Draw hair around/over the top of that circle;
+     it may hang down the sides to y=256. Keep the face area x 75-181, y 125-215 clear.
+   - top: the torso. Neck at top centre, shoulders at y=20 spanning x 20-236, hem at y=240. Short sleeves may
+     reach the top corners. Front view, symmetric.
+   - bottom: waist at y=0..30 across x 40-216, down to ankles at y=256. Trousers split into two legs below y=110
+     (left leg x 40-124, right leg x 132-216). Skirts and shorts are one shape and end higher.
+   - dress: shoulders at y=10 (x 40-216) down to the hem (y 200-256), flaring out.
+   - socks: a pair. Left sock x 20-118, right sock x 138-236, from y=0 (top) to y=250 (toes pointing outwards).
+   - shoes: a pair seen from the front-side. Left shoe x 10-120, right shoe x 136-246, soles flat at y=240,
+     shoes start around y=110.
+   - hat: sits on top of a head; the bottom edge (brim) is around y=200-240 and spans x 20-236.
+   - glasses: two lenses centred at (78,128) and (178,128), joined by a bridge, arms going out to the edges.
+   - bag: a bag seen from the front, filling the frame.
+
+2. OBJECTS ({{objects}}): drawn standing on the ground or held, front view, centred,
+   longest side filling at least 60% of the canvas (ideally 80%+), resting on the bottom of the canvas around y=230-250.
+   - "size": {"w": number, "h": number} = real size in world units where an adult person is 100 tall.
+     Size ranges for h by category: {{sizes}}.
+   - "anchors": points [x, y] inside the drawing. Required per category: {{anchors}}.
+     base = bottom centre where it rests on the floor (y at the bottom edge of the drawing).
+     grip = where a hand holds it. Optional: seat (where a person sits, for chairs/sofas/beds/swings),
+     top (a surface where small things can be put, for tables/shelves/counters).
+
+Ids already taken (do not reuse): {{existing}}
+
+Answer with ONLY a JSON array, no commentary. Each entry:
+{"id": "snake_case_id", "name": "Short Name", "category": "<one category>", "size": {...}, "anchors": {...}, "svg": "<svg ...>...</svg>"}
+(Wearables leave out size and anchors.)
+
+Example object:
+{"id": "cupcake_swirl", "name": "Swirl Cupcake", "category": "food", "size": {"w": 8, "h": 9},
+ "anchors": {"base": [128, 236], "grip": [128, 196]},
+ "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M62 140 L84 236 H172 L194 140 Z\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M52 144 C40 96 88 70 128 76 C168 70 216 96 204 144 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"52\" r=\"18\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\"/><ellipse cx=\"96\" cy=\"106\" rx=\"12\" ry=\"7\" fill=\"#ffffff\" opacity=\"0.7\"/></svg>"}
+
+Inside the JSON string, escape double quotes as \" . Make each drawing charming and clearly that thing.

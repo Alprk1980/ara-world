@@ -1,0 +1,8391 @@
+[
+  {
+    "id": "post_office",
+    "name": "Post Box Place",
+    "emoji": "📮",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e6c3d6",
+        "width": 907,
+        "items": [
+          {
+            "item": "parcel_shelf_cocoa",
+            "x": 95
+          },
+          {
+            "item": "cute_gift_box_sky",
+            "x": 186
+          },
+          {
+            "item": "cute_parcel_belt_mint",
+            "x": 303
+          },
+          {
+            "item": "hospital_heart_balloon_lemon",
+            "x": 421
+          },
+          {
+            "item": "big_post_box_lemon",
+            "x": 462
+          },
+          {
+            "item": "parcel_pile_sky",
+            "x": 517
+          },
+          {
+            "item": "postcard_display_table_lilac",
+            "x": 601
+          },
+          {
+            "item": "cute_balloon_lemon",
+            "x": 677
+          },
+          {
+            "item": "post_counter_sky",
+            "x": 750
+          },
+          {
+            "item": "post_stamp_machine_mint",
+            "x": 819
+          },
+          {
+            "item": "cute_post_box_sky",
+            "x": 851
+          }
+        ],
+        "hidden": [
+          {
+            "x": 95,
+            "y": 40,
+            "reveal": {
+              "place": "kingdom_in_the_clouds"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Post Yard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 828,
+        "items": [
+          {
+            "item": "balloon_stand_lemon",
+            "x": 70
+          },
+          {
+            "item": "cute_gift_box_strawberry",
+            "x": 138
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 184
+          },
+          {
+            "item": "hospital_heart_balloon_sky",
+            "x": 233
+          },
+          {
+            "item": "parcel_crane_strawberry",
+            "x": 317
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 404
+          },
+          {
+            "item": "cute_delivery_van_strawberry",
+            "x": 504
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 613
+          },
+          {
+            "item": "big_post_box_sky",
+            "x": 651
+          },
+          {
+            "item": "parcel_pile_strawberry",
+            "x": 698
+          },
+          {
+            "item": "post_stamp_machine_lilac",
+            "x": 740
+          },
+          {
+            "item": "cute_post_box_lilac",
+            "x": 776
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "train_station",
+    "name": "Train Station",
+    "emoji": "🚂",
+    "district": "travel",
+    "floors": [
+      {
+        "name": "Ticket Hall",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e8d2b8",
+        "width": 779,
+        "items": [
+          {
+            "item": "station_ticket_machine_cocoa",
+            "x": 65
+          },
+          {
+            "item": "train_set_lilac",
+            "x": 130
+          },
+          {
+            "item": "balloon_stand_lemon",
+            "x": 196
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 256
+          },
+          {
+            "item": "station_snack_cart_lilac",
+            "x": 333
+          },
+          {
+            "item": "station_steam_whistle_lilac",
+            "x": 409
+          },
+          {
+            "item": "ticket_booth_cocoa",
+            "x": 463
+          },
+          {
+            "item": "cute_balloon_mint",
+            "x": 514
+          },
+          {
+            "item": "station_bench_strawberry",
+            "x": 599
+          },
+          {
+            "item": "zoo_map_board_lemon",
+            "x": 700
+          },
+          {
+            "item": "platform_clock_strawberry",
+            "x": 71,
+            "y": 75
+          },
+          {
+            "item": "station_clock_lemon",
+            "x": 160,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1182,
+        "items": [
+          {
+            "item": "cute_airplane_sky",
+            "x": 137
+          },
+          {
+            "item": "train_set_sky",
+            "x": 274
+          },
+          {
+            "item": "cute_station_train_lilac",
+            "x": 382
+          },
+          {
+            "item": "hospital_heart_balloon_mint",
+            "x": 486
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 540
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 592
+          },
+          {
+            "item": "balloon_stand_sky",
+            "x": 649
+          },
+          {
+            "item": "station_steam_whistle_sky",
+            "x": 707
+          },
+          {
+            "item": "steam_train_lemon",
+            "x": 886
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 1054
+          },
+          {
+            "item": "zoo_map_board_strawberry",
+            "x": 1114
+          },
+          {
+            "item": "station_platform_sign_strawberry",
+            "x": 100,
+            "y": 120
+          },
+          {
+            "item": "station_map_board_sky",
+            "x": 250,
+            "y": 120
+          },
+          {
+            "item": "airport_map_board_lemon",
+            "x": 400,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Snack Corner",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#cfd8e8",
+        "width": 737,
+        "items": [
+          {
+            "item": "station_ticket_machine_lilac",
+            "x": 65
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 123
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 178
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 233
+          },
+          {
+            "item": "station_snack_cart_lemon",
+            "x": 308
+          },
+          {
+            "item": "cute_balloon_lemon",
+            "x": 386
+          },
+          {
+            "item": "ticket_booth_lilac",
+            "x": 445
+          },
+          {
+            "item": "zoo_map_board_strawberry",
+            "x": 526
+          },
+          {
+            "item": "station_bench_lilac",
+            "x": 629
+          },
+          {
+            "item": "station_clock_lemon",
+            "x": 78,
+            "y": 75
+          },
+          {
+            "item": "platform_clock_lemon",
+            "x": 167,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bus_station",
+    "name": "Bus Stop",
+    "emoji": "🚌",
+    "district": "travel",
+    "floors": [
+      {
+        "name": "Roadside Stop",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1157,
+        "items": [
+          {
+            "item": "bus_stop_shelter_sky",
+            "x": 120
+          },
+          {
+            "item": "hospital_heart_balloon_strawberry",
+            "x": 236
+          },
+          {
+            "item": "bus_stop_umbrella_strawberry",
+            "x": 302
+          },
+          {
+            "item": "cute_bird_feeder_strawberry",
+            "x": 364
+          },
+          {
+            "item": "bus_stop_snack_machine_lemon",
+            "x": 427
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 489
+          },
+          {
+            "item": "cute_stop_bus_lemon",
+            "x": 639
+          },
+          {
+            "item": "lost_found_basket_lilac",
+            "x": 799
+          },
+          {
+            "item": "ticket_machine_lemon",
+            "x": 843
+          },
+          {
+            "item": "bus_shelter_strawberry",
+            "x": 933
+          },
+          {
+            "item": "station_bench_strawberry",
+            "x": 1061
+          }
+        ]
+      },
+      {
+        "name": "Cozy Shelter",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 1134,
+        "items": [
+          {
+            "item": "pool_sun_umbrella_lemon",
+            "x": 114
+          },
+          {
+            "item": "cute_bird_feeder_lemon",
+            "x": 225
+          },
+          {
+            "item": "bus_stop_shelter_mint",
+            "x": 342
+          },
+          {
+            "item": "hospital_heart_balloon_mint",
+            "x": 449
+          },
+          {
+            "item": "bus_stop_umbrella_strawberry",
+            "x": 517
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 579
+          },
+          {
+            "item": "balloon_stand_lemon",
+            "x": 641
+          },
+          {
+            "item": "cute_balloon_sky",
+            "x": 697
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 742
+          },
+          {
+            "item": "lost_found_basket_lilac",
+            "x": 804
+          },
+          {
+            "item": "bus_stop_snack_machine_strawberry",
+            "x": 864
+          },
+          {
+            "item": "bus_shelter_lemon",
+            "x": 967
+          },
+          {
+            "item": "bus_stop_timetable_strawberry",
+            "x": 1063
+          },
+          {
+            "item": "platform_clock_lilac",
+            "x": 71,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kingdom_in_the_clouds",
+    "name": "Kingdom in the Clouds",
+    "emoji": "☁️",
+    "district": "sky",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Cloud Gate",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 1180,
+        "items": [
+          {
+            "item": "cotton_candy_tree_sky",
+            "x": 107
+          },
+          {
+            "item": "cloud_star_lamp_lilac",
+            "x": 203
+          },
+          {
+            "item": "crystal_castle_sky",
+            "x": 275
+          },
+          {
+            "item": "chandelier_strawberry",
+            "x": 364
+          },
+          {
+            "item": "cloud_castle_lilac",
+            "x": 457
+          },
+          {
+            "item": "moon_cloud_swing_lemon",
+            "x": 535
+          },
+          {
+            "item": "rainbow_arch_lilac",
+            "x": 643
+          },
+          {
+            "item": "cloud_sofa_mint",
+            "x": 799
+          },
+          {
+            "item": "rainbow_cloud_bridge_sky",
+            "x": 936
+          },
+          {
+            "item": "cloud_throne_lilac",
+            "x": 1038
+          },
+          {
+            "item": "glitter_fountain_mint",
+            "x": 1112
+          }
+        ]
+      },
+      {
+        "name": "Cloud Palace",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#cfd8e8",
+        "width": 1062,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 108
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 206
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 306
+          },
+          {
+            "item": "rainbow_arch_sky",
+            "x": 416
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 526
+          },
+          {
+            "item": "rainbow_cloud_bridge_strawberry",
+            "x": 617
+          },
+          {
+            "item": "chandelier_mint",
+            "x": 724
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 775
+          },
+          {
+            "item": "moon_cloud_swing_mint",
+            "x": 816
+          },
+          {
+            "item": "glitter_fountain_mint",
+            "x": 876
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 966
+          },
+          {
+            "item": "floating_cloud_teacup_sky",
+            "x": 966,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Star Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 937,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "cloud_star_lamp_sky",
+            "x": 108
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 203
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 290
+          },
+          {
+            "item": "cloud_castle_mint",
+            "x": 356
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 436
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 467
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 498
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 573
+          },
+          {
+            "item": "chandelier_strawberry",
+            "x": 654
+          },
+          {
+            "item": "cloud_sofa_mint",
+            "x": 762
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 865
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "snowboarding_place",
+    "name": "Snowboarding Place",
+    "emoji": "🏂",
+    "district": "nature",
+    "floors": [
+      {
+        "name": "Base Lodge",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#e6c3d6",
+        "width": 966,
+        "items": [
+          {
+            "item": "snowboard_rack_sky",
+            "x": 100
+          },
+          {
+            "item": "cute_snowball_strawberry",
+            "x": 185
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 235
+          },
+          {
+            "item": "cozy_sled_strawberry",
+            "x": 291
+          },
+          {
+            "item": "snow_castle_mint",
+            "x": 384
+          },
+          {
+            "item": "cute_snowflake_mint",
+            "x": 478
+          },
+          {
+            "item": "snowflake_lamp_sky",
+            "x": 547
+          },
+          {
+            "item": "pool_flamingo_float_lemon",
+            "x": 611
+          },
+          {
+            "item": "ski_lift_chair_lemon",
+            "x": 683
+          },
+          {
+            "item": "cosy_igloo_sky",
+            "x": 772
+          },
+          {
+            "item": "cute_snowman_mint",
+            "x": 861
+          },
+          {
+            "item": "cocoa_mug_strawberry",
+            "x": 911
+          },
+          {
+            "item": "snowboard_mint",
+            "x": 67,
+            "y": 75
+          },
+          {
+            "item": "cute_snowboard_mint",
+            "x": 143,
+            "y": 75
+          }
+        ],
+        "hidden": [
+          {
+            "x": 100,
+            "y": 40,
+            "reveal": {
+              "place": "secret_garden"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Slopes",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f4f8ff",
+        "width": 821,
+        "items": [
+          {
+            "item": "snowboard_rack_sky",
+            "x": 100
+          },
+          {
+            "item": "cute_snowball_mint",
+            "x": 191
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 240
+          },
+          {
+            "item": "cozy_sled_strawberry",
+            "x": 299
+          },
+          {
+            "item": "cute_ski_lift_strawberry",
+            "x": 368
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 421
+          },
+          {
+            "item": "snowflake_lamp_sky",
+            "x": 469
+          },
+          {
+            "item": "cute_snowflake_strawberry",
+            "x": 531
+          },
+          {
+            "item": "ski_lift_chair_lemon",
+            "x": 595
+          },
+          {
+            "item": "pool_flamingo_float_lemon",
+            "x": 658
+          },
+          {
+            "item": "cosy_igloo_strawberry",
+            "x": 737
+          },
+          {
+            "item": "snowboard_sky",
+            "x": 67,
+            "y": 120
+          },
+          {
+            "item": "cute_snowboard_strawberry",
+            "x": 143,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Snow Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f4f8ff",
+        "width": 937,
+        "items": [
+          {
+            "item": "snowboard_rack_lemon",
+            "x": 100
+          },
+          {
+            "item": "cute_snowball_lemon",
+            "x": 188
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 234
+          },
+          {
+            "item": "cozy_sled_mint",
+            "x": 297
+          },
+          {
+            "item": "snow_castle_mint",
+            "x": 384
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 465
+          },
+          {
+            "item": "cute_ski_lift_sky",
+            "x": 524
+          },
+          {
+            "item": "cute_snowflake_sky",
+            "x": 594
+          },
+          {
+            "item": "ski_lift_chair_strawberry",
+            "x": 669
+          },
+          {
+            "item": "pool_flamingo_float_lemon",
+            "x": 736
+          },
+          {
+            "item": "cosy_igloo_lemon",
+            "x": 817
+          },
+          {
+            "item": "cocoa_mug_lemon",
+            "x": 882
+          },
+          {
+            "item": "cute_snowboard_sky",
+            "x": 69,
+            "y": 120
+          },
+          {
+            "item": "snowboard_lilac",
+            "x": 145,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "emoji": "🏫",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Playground",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 488,
+        "items": [
+          {
+            "item": "school_uniform_rack_strawberry",
+            "x": 75
+          },
+          {
+            "item": "globe_stand_lemon",
+            "x": 149
+          },
+          {
+            "item": "teacher_desk_strawberry",
+            "x": 224
+          },
+          {
+            "item": "school_desk_strawberry",
+            "x": 318
+          },
+          {
+            "item": "blackboard_mint",
+            "x": 395
+          },
+          {
+            "item": "school_zip_pencil_case_strawberry",
+            "x": 224,
+            "y": 66
+          },
+          {
+            "item": "school_reading_nook_strawberry",
+            "x": 318,
+            "y": 35
+          },
+          {
+            "item": "school_toy_blocks_lilac",
+            "x": 238,
+            "y": 66
+          },
+          {
+            "item": "school_easel_chalkboard_lilac",
+            "x": 330,
+            "y": 35
+          },
+          {
+            "item": "school_water_bottle_mint",
+            "x": 230,
+            "y": 66
+          },
+          {
+            "item": "school_backpack_hook_lemon",
+            "x": 334,
+            "y": 35
+          },
+          {
+            "item": "school_lunchbox_shelf_lilac",
+            "x": 239,
+            "y": 66
+          },
+          {
+            "item": "zipper_pencil_case_rainbow",
+            "x": 333,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "Main Hall",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#e8d2b8",
+        "width": 897,
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 123
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 179
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 229
+          },
+          {
+            "item": "teacher_desk_sky",
+            "x": 304
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 390
+          },
+          {
+            "item": "blackboard_lilac",
+            "x": 456
+          },
+          {
+            "item": "single_cozy_bed_rainbow",
+            "x": 609
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 789
+          },
+          {
+            "item": "school_cozy_rug_lilac",
+            "x": 304,
+            "y": 66
+          },
+          {
+            "item": "school_water_bottle_lemon",
+            "x": 310,
+            "y": 66
+          },
+          {
+            "item": "zipper_pencil_case_gold",
+            "x": 318,
+            "y": 66
+          },
+          {
+            "item": "school_zip_pencil_case_sky",
+            "x": 317,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Classrooms",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e6c3d6",
+        "width": 742,
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 127
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 172
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 231
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 328
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 416
+          },
+          {
+            "item": "school_desk_lemon",
+            "x": 465
+          },
+          {
+            "item": "single_cozy_bed_rainbow",
+            "x": 605
+          },
+          {
+            "item": "school_easel_chalkboard_sky",
+            "x": 465,
+            "y": 35
+          },
+          {
+            "item": "school_lunchbox_shelf_lilac",
+            "x": 481,
+            "y": 35
+          },
+          {
+            "item": "school_backpack_hook_mint",
+            "x": 481,
+            "y": 35
+          },
+          {
+            "item": "school_reading_nook_mint",
+            "x": 482,
+            "y": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "daycare",
+    "name": "Daycare",
+    "emoji": "🍼",
+    "district": "care",
+    "floors": [
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 681,
+        "items": [
+          {
+            "item": "daycare_floor_mobile_sky",
+            "x": 60
+          },
+          {
+            "item": "daycare_toy_piano_mint",
+            "x": 106
+          },
+          {
+            "item": "daycare_high_chair_lemon",
+            "x": 152
+          },
+          {
+            "item": "daycare_soft_blocks_mint",
+            "x": 205
+          },
+          {
+            "item": "blackboard_strawberry",
+            "x": 277
+          },
+          {
+            "item": "toy_box_lemon",
+            "x": 352
+          },
+          {
+            "item": "baby_slide_lemon",
+            "x": 410
+          },
+          {
+            "item": "stuffed_bunny_daycare_lilac",
+            "x": 463
+          },
+          {
+            "item": "playpen_cocoa",
+            "x": 528
+          },
+          {
+            "item": "daycare_picture_books_lilac",
+            "x": 590
+          },
+          {
+            "item": "daycare_snack_cup_lilac",
+            "x": 627
+          }
+        ]
+      },
+      {
+        "name": "Playroom",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e6c3d6",
+        "width": 1095,
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "daycare_play_mat_cocoa",
+            "x": 217
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 354
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 397
+          },
+          {
+            "item": "daycare_changing_table_mint",
+            "x": 460
+          },
+          {
+            "item": "toy_box_lilac",
+            "x": 530
+          },
+          {
+            "item": "daycare_floor_mobile_lilac",
+            "x": 587
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 647
+          },
+          {
+            "item": "baby_cot_plum",
+            "x": 720
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 792
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 882
+          },
+          {
+            "item": "daycare_baby_crib_mint",
+            "x": 1012
+          }
+        ]
+      },
+      {
+        "name": "Nursery Room",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e8d2b8",
+        "width": 1170,
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "daycare_toy_piano_lilac",
+            "x": 124
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 169
+          },
+          {
+            "item": "daycare_play_mat_mint",
+            "x": 314
+          },
+          {
+            "item": "daycare_high_chair_sky",
+            "x": 460
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 508
+          },
+          {
+            "item": "baby_cot_ocean",
+            "x": 576
+          },
+          {
+            "item": "sitting_cat_sky",
+            "x": 647
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 736
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 829
+          },
+          {
+            "item": "baby_slide_mint",
+            "x": 888
+          },
+          {
+            "item": "single_cozy_bed_rainbow",
+            "x": 1032
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hospital",
+    "name": "Friendly Hospital",
+    "emoji": "🏥",
+    "district": "care",
+    "floors": [
+      {
+        "name": "Reception",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#cfd8e8",
+        "width": 707,
+        "items": [
+          {
+            "item": "hospital_comfort_chair_mint",
+            "x": 58
+          },
+          {
+            "item": "hospital_bandage_box_mint",
+            "x": 108
+          },
+          {
+            "item": "hospital_bed_lilac",
+            "x": 176
+          },
+          {
+            "item": "cute_stethoscope_lilac",
+            "x": 236
+          },
+          {
+            "item": "water_cooler_lemon",
+            "x": 272
+          },
+          {
+            "item": "hospital_heart_balloon_mint",
+            "x": 302
+          },
+          {
+            "item": "reception_desk_cocoa",
+            "x": 380
+          },
+          {
+            "item": "hospital_toy_bear_lemon",
+            "x": 452
+          },
+          {
+            "item": "hospital_bedside_lamp_cocoa",
+            "x": 494
+          },
+          {
+            "item": "hospital_cute_pillow_cocoa",
+            "x": 550
+          },
+          {
+            "item": "teddy_bear_toy_chocolate",
+            "x": 598
+          },
+          {
+            "item": "hospital_flower_vase_lemon",
+            "x": 645
+          },
+          {
+            "item": "hospital_juice_cup_strawberry",
+            "x": 380,
+            "y": 37
+          },
+          {
+            "item": "hospital_snack_tray_lilac",
+            "x": 389,
+            "y": 37
+          }
+        ],
+        "hidden": [
+          {
+            "x": 58,
+            "y": 35,
+            "reveal": {
+              "place": "cloud_swing_set"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Care Room",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 734,
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "hospital_bandage_box_sky",
+            "x": 128
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 175
+          },
+          {
+            "item": "first_aid_box_mint",
+            "x": 225
+          },
+          {
+            "item": "baby_cot_plum",
+            "x": 293
+          },
+          {
+            "item": "cute_stethoscope_strawberry",
+            "x": 359
+          },
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 448
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 533
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 564
+          },
+          {
+            "item": "hospital_toy_bear_lemon",
+            "x": 607
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 649
+          },
+          {
+            "item": "hospital_snack_tray_sky",
+            "x": 677
+          }
+        ]
+      },
+      {
+        "name": "Rooftop Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 755,
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 115
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 162
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 222
+          },
+          {
+            "item": "baby_cot_butter",
+            "x": 289
+          },
+          {
+            "item": "hospital_flower_vase_lemon",
+            "x": 358
+          },
+          {
+            "item": "water_cooler_mint",
+            "x": 402
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 441
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 498
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 561
+          },
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 651
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fire_station",
+    "name": "Fire Station",
+    "emoji": "🚒",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Garage",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1049,
+        "items": [
+          {
+            "item": "cute_fire_truck_lemon",
+            "x": 172
+          },
+          {
+            "item": "fire_station_water_bucket_lilac",
+            "x": 339
+          },
+          {
+            "item": "fire_station_ladder_lilac",
+            "x": 380
+          },
+          {
+            "item": "fire_hydrant_lemon",
+            "x": 429
+          },
+          {
+            "item": "fire_pole_mint",
+            "x": 470
+          },
+          {
+            "item": "fire_station_alarm_bell_lemon",
+            "x": 514
+          },
+          {
+            "item": "fire_engine_lemon",
+            "x": 672
+          },
+          {
+            "item": "pool_ladder_sky",
+            "x": 838
+          },
+          {
+            "item": "fire_station_tool_cabinet_lilac",
+            "x": 898
+          },
+          {
+            "item": "fire_station_hose_reel_lilac",
+            "x": 973
+          },
+          {
+            "item": "fire_station_treat_bowl_strawberry",
+            "x": 898,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Break Room",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#cfd8e8",
+        "width": 718,
+        "items": [
+          {
+            "item": "fire_pole_lemon",
+            "x": 43
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 75
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 121
+          },
+          {
+            "item": "fire_station_radio_lilac",
+            "x": 170
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 271
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 363
+          },
+          {
+            "item": "fire_station_tool_cabinet_mint",
+            "x": 418
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 475
+          },
+          {
+            "item": "fire_station_pet_doghouse_sky",
+            "x": 544
+          },
+          {
+            "item": "fire_station_helmet_stand_sky",
+            "x": 608
+          },
+          {
+            "item": "pool_ladder_sky",
+            "x": 657
+          },
+          {
+            "item": "fire_station_treat_bowl_strawberry",
+            "x": 418,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Command Room",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#c9a27a",
+        "width": 817,
+        "items": [
+          {
+            "item": "fire_station_ladder_lilac",
+            "x": 55
+          },
+          {
+            "item": "fire_station_radio_mint",
+            "x": 110
+          },
+          {
+            "item": "fire_pole_sky",
+            "x": 150
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 182
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 234
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 287
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 383
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 480
+          },
+          {
+            "item": "fire_station_tool_cabinet_lilac",
+            "x": 541
+          },
+          {
+            "item": "fire_station_alarm_bell_sky",
+            "x": 614
+          },
+          {
+            "item": "fire_station_pet_doghouse_strawberry",
+            "x": 686
+          },
+          {
+            "item": "fire_station_helmet_stand_lilac",
+            "x": 759
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "police_station",
+    "name": "Police Station",
+    "emoji": "🚓",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Patrol Yard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1006,
+        "items": [
+          {
+            "item": "police_patrol_car_strawberry",
+            "x": 160
+          },
+          {
+            "item": "traffic_cone_lilac",
+            "x": 307
+          },
+          {
+            "item": "wooden_chair_lilac",
+            "x": 349
+          },
+          {
+            "item": "fire_station_radio_strawberry",
+            "x": 398
+          },
+          {
+            "item": "police_car_strawberry",
+            "x": 514
+          },
+          {
+            "item": "fire_hydrant_mint",
+            "x": 628
+          },
+          {
+            "item": "hospital_comfort_chair_strawberry",
+            "x": 683
+          },
+          {
+            "item": "police_station_dog_leash_lilac",
+            "x": 735
+          },
+          {
+            "item": "fire_station_pet_doghouse_strawberry",
+            "x": 803
+          },
+          {
+            "item": "police_station_snack_table_strawberry",
+            "x": 875
+          },
+          {
+            "item": "police_station_doghouse_mint",
+            "x": 931
+          }
+        ]
+      },
+      {
+        "name": "Front Desk",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#d9b38c",
+        "width": 774,
+        "items": [
+          {
+            "item": "standing_horse_cocoa",
+            "x": 100
+          },
+          {
+            "item": "police_station_paw_mat_strawberry",
+            "x": 219
+          },
+          {
+            "item": "daycare_high_chair_lemon",
+            "x": 298
+          },
+          {
+            "item": "police_station_badge_mint",
+            "x": 349
+          },
+          {
+            "item": "rocking_chair_lilac",
+            "x": 391
+          },
+          {
+            "item": "police_magnifying_glass_lilac",
+            "x": 439
+          },
+          {
+            "item": "police_station_cosy_chair_mint",
+            "x": 484
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 529
+          },
+          {
+            "item": "salon_chair_strawberry",
+            "x": 571
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 624
+          },
+          {
+            "item": "police_desk_lemon",
+            "x": 685
+          },
+          {
+            "item": "fire_station_treat_bowl_strawberry",
+            "x": 685,
+            "y": 37
+          }
+        ]
+      },
+      {
+        "name": "Dog Corner",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#d9b38c",
+        "width": 725,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "police_station_paw_mat_lilac",
+            "x": 136
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 257
+          },
+          {
+            "item": "police_station_badge_lemon",
+            "x": 347
+          },
+          {
+            "item": "rocking_chair_sky",
+            "x": 396
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 439
+          },
+          {
+            "item": "salon_chair_mint",
+            "x": 476
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 521
+          },
+          {
+            "item": "police_desk_strawberry",
+            "x": 594
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 667
+          },
+          {
+            "item": "fire_station_treat_bowl_strawberry",
+            "x": 594,
+            "y": 37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pools",
+    "name": "Pools",
+    "emoji": "🏊",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Pool Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#7fd1ff",
+        "width": 1196,
+        "items": [
+          {
+            "item": "pool_sun_umbrella_cocoa",
+            "x": 114
+          },
+          {
+            "item": "pool_noodle_mint",
+            "x": 256
+          },
+          {
+            "item": "pool_water_slide_cocoa",
+            "x": 384
+          },
+          {
+            "item": "pool_beach_ball_sky",
+            "x": 485
+          },
+          {
+            "item": "pool_towel_rack_cocoa",
+            "x": 584
+          },
+          {
+            "item": "pool_lounger_lemon",
+            "x": 701
+          },
+          {
+            "item": "pool_drink_cart_cocoa",
+            "x": 816
+          },
+          {
+            "item": "pool_water_lilac",
+            "x": 1026
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 816,
+            "y": 65
+          }
+        ],
+        "hidden": [
+          {
+            "x": 114,
+            "y": 40,
+            "reveal": {
+              "place": "secret_beach_house"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Snack Corner",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#e8d2b8",
+        "width": 1170,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 123
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 173
+          },
+          {
+            "item": "pool_lounger_sky",
+            "x": 243
+          },
+          {
+            "item": "pool_towel_rack_cocoa",
+            "x": 365
+          },
+          {
+            "item": "pool_beach_ball_lilac",
+            "x": 472
+          },
+          {
+            "item": "beach_umbrella_mint",
+            "x": 533
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 594
+          },
+          {
+            "item": "diving_board_lilac",
+            "x": 667
+          },
+          {
+            "item": "pool_water_sky",
+            "x": 847
+          },
+          {
+            "item": "pool_ring_float_strawberry",
+            "x": 1018
+          },
+          {
+            "item": "pool_ladder_mint",
+            "x": 1077
+          },
+          {
+            "item": "cute_ice_cream_cone_chocolate",
+            "x": 1112
+          }
+        ]
+      },
+      {
+        "name": "Play Terrace",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#7fd1ff",
+        "width": 1166,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "pool_noodle_lilac",
+            "x": 150
+          },
+          {
+            "item": "pool_sun_umbrella_lilac",
+            "x": 289
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 397
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 445
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 502
+          },
+          {
+            "item": "pool_towel_rack_lilac",
+            "x": 605
+          },
+          {
+            "item": "pool_water_mint",
+            "x": 827
+          },
+          {
+            "item": "diving_board_lemon",
+            "x": 1017
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 1099
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zoo",
+    "name": "Zoo",
+    "emoji": "🦁",
+    "district": "nature",
+    "floors": [
+      {
+        "name": "Animal Meadow",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 997,
+        "items": [
+          {
+            "item": "tall_giraffe_lemon",
+            "x": 60
+          },
+          {
+            "item": "petting_bunny_mint",
+            "x": 106
+          },
+          {
+            "item": "monkey_swing_mint",
+            "x": 182
+          },
+          {
+            "item": "animal_water_trough_strawberry",
+            "x": 278
+          },
+          {
+            "item": "zoo_bird_aviary_lilac",
+            "x": 368
+          },
+          {
+            "item": "goat_feeder_lemon",
+            "x": 461
+          },
+          {
+            "item": "baby_elephant_lemon",
+            "x": 541
+          },
+          {
+            "item": "zoo_duck_pond_lilac",
+            "x": 648
+          },
+          {
+            "item": "zoo_map_board_lemon",
+            "x": 736
+          },
+          {
+            "item": "zoo_picnic_table_lilac",
+            "x": 835
+          },
+          {
+            "item": "friendly_lion_lemon",
+            "x": 923
+          },
+          {
+            "item": "zoo_fruit_basket_sky",
+            "x": 835,
+            "y": 43
+          }
+        ]
+      },
+      {
+        "name": "Petting Corner",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1046,
+        "items": [
+          {
+            "item": "zoo_bird_aviary_sky",
+            "x": 85
+          },
+          {
+            "item": "petting_bunny_strawberry",
+            "x": 157
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 213
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 260
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 358
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 451
+          },
+          {
+            "item": "baby_elephant_strawberry",
+            "x": 526
+          },
+          {
+            "item": "animal_water_trough_strawberry",
+            "x": 617
+          },
+          {
+            "item": "friendly_lion_strawberry",
+            "x": 693
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 753
+          },
+          {
+            "item": "bunny_pen_sky",
+            "x": 812
+          },
+          {
+            "item": "goat_feeder_strawberry",
+            "x": 887
+          },
+          {
+            "item": "zoo_duck_pond_sky",
+            "x": 966
+          }
+        ]
+      },
+      {
+        "name": "Zoo Café",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#d9b38c",
+        "width": 1023,
+        "items": [
+          {
+            "item": "monkey_swing_cocoa",
+            "x": 88
+          },
+          {
+            "item": "petting_bunny_sky",
+            "x": 170
+          },
+          {
+            "item": "zoo_bird_aviary_lemon",
+            "x": 250
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 323
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 368
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 415
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 506
+          },
+          {
+            "item": "animal_water_trough_strawberry",
+            "x": 612
+          },
+          {
+            "item": "baby_elephant_lemon",
+            "x": 699
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 779
+          },
+          {
+            "item": "zoo_duck_pond_strawberry",
+            "x": 849
+          },
+          {
+            "item": "bunny_pen_lemon",
+            "x": 941
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aquarium",
+    "name": "Water Animal Zoo",
+    "emoji": "🐙",
+    "district": "nature",
+    "floors": [
+      {
+        "name": "Main Tank",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#d9b38c",
+        "width": 790,
+        "items": [
+          {
+            "item": "cute_seaweed_strawberry",
+            "x": 58
+          },
+          {
+            "item": "turtle_shell_mint",
+            "x": 108
+          },
+          {
+            "item": "big_fish_tank_sky",
+            "x": 198
+          },
+          {
+            "item": "coral_rock_strawberry",
+            "x": 294
+          },
+          {
+            "item": "penguin_tank_lemon",
+            "x": 371
+          },
+          {
+            "item": "cute_sea_turtle_lemon",
+            "x": 461
+          },
+          {
+            "item": "jellyfish_tank_mint",
+            "x": 515
+          },
+          {
+            "item": "fish_feeder_lilac",
+            "x": 554
+          },
+          {
+            "item": "octopus_tube_lilac",
+            "x": 595
+          },
+          {
+            "item": "happy_dolphin_lilac",
+            "x": 670
+          },
+          {
+            "item": "underwater_telescope_sky",
+            "x": 727
+          }
+        ]
+      },
+      {
+        "name": "Tunnel Tank",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e8d2b8",
+        "width": 978,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "turtle_shell_mint",
+            "x": 107
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 197
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 289
+          },
+          {
+            "item": "big_fish_tank_strawberry",
+            "x": 383
+          },
+          {
+            "item": "coral_rock_strawberry",
+            "x": 475
+          },
+          {
+            "item": "jellyfish_light_strawberry",
+            "x": 527
+          },
+          {
+            "item": "cute_sea_turtle_lilac",
+            "x": 589
+          },
+          {
+            "item": "octopus_tube_lemon",
+            "x": 643
+          },
+          {
+            "item": "fish_feeder_lilac",
+            "x": 691
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 786
+          },
+          {
+            "item": "happy_dolphin_strawberry",
+            "x": 894
+          }
+        ]
+      },
+      {
+        "name": "Touch Pool",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#c9a27a",
+        "width": 1046,
+        "items": [
+          {
+            "item": "cute_seaweed_strawberry",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 113
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 159
+          },
+          {
+            "item": "coral_rock_sky",
+            "x": 217
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 312
+          },
+          {
+            "item": "fish_feeder_lilac",
+            "x": 413
+          },
+          {
+            "item": "big_fish_tank_strawberry",
+            "x": 510
+          },
+          {
+            "item": "happy_dolphin_strawberry",
+            "x": 623
+          },
+          {
+            "item": "jellyfish_tank_lilac",
+            "x": 689
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 790
+          },
+          {
+            "item": "jellyfish_light_lilac",
+            "x": 885
+          },
+          {
+            "item": "underwater_telescope_lilac",
+            "x": 938
+          },
+          {
+            "item": "octopus_tube_sky",
+            "x": 984
+          }
+        ]
+      },
+      {
+        "name": "Ocean Café",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e8d2b8",
+        "width": 1001,
+        "items": [
+          {
+            "item": "cute_seaweed_mint",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 114
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 157
+          },
+          {
+            "item": "coral_rock_strawberry",
+            "x": 213
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 310
+          },
+          {
+            "item": "fish_feeder_sky",
+            "x": 400
+          },
+          {
+            "item": "big_fish_tank_lilac",
+            "x": 497
+          },
+          {
+            "item": "happy_dolphin_sky",
+            "x": 622
+          },
+          {
+            "item": "jellyfish_light_mint",
+            "x": 692
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 795
+          },
+          {
+            "item": "octopus_tube_mint",
+            "x": 890
+          },
+          {
+            "item": "underwater_telescope_sky",
+            "x": 945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "theme_park",
+    "name": "Theme Park",
+    "emoji": "🎡",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Main Plaza",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1145,
+        "items": [
+          {
+            "item": "ferris_wheel_sky",
+            "x": 130
+          },
+          {
+            "item": "theme_park_ticket_stamp_lemon",
+            "x": 250
+          },
+          {
+            "item": "carousel_lemon",
+            "x": 344
+          },
+          {
+            "item": "cute_photo_flash_sky",
+            "x": 453
+          },
+          {
+            "item": "balloon_stand_lemon",
+            "x": 517
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 580
+          },
+          {
+            "item": "food_truck_sky",
+            "x": 699
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 826
+          },
+          {
+            "item": "theme_park_game_counter_strawberry",
+            "x": 901
+          },
+          {
+            "item": "theme_park_popcorn_machine_strawberry",
+            "x": 1000
+          },
+          {
+            "item": "carousel_horse_sky",
+            "x": 1068
+          },
+          {
+            "item": "cute_ice_cream_cone_chocolate",
+            "x": 901,
+            "y": 75
+          }
+        ],
+        "hidden": [
+          {
+            "x": 517,
+            "y": 40,
+            "reveal": {
+              "place": "secret_mansion"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ride Terrace",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1169,
+        "items": [
+          {
+            "item": "carousel_mint",
+            "x": 110
+          },
+          {
+            "item": "theme_park_ticket_stamp_mint",
+            "x": 212
+          },
+          {
+            "item": "theme_park_prize_shelf_mint",
+            "x": 284
+          },
+          {
+            "item": "hospital_heart_balloon_lemon",
+            "x": 367
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 418
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 461
+          },
+          {
+            "item": "balloon_stand_sky",
+            "x": 523
+          },
+          {
+            "item": "cute_small_car_gold",
+            "x": 597
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 705
+          },
+          {
+            "item": "theme_park_popcorn_machine_lemon",
+            "x": 818
+          },
+          {
+            "item": "food_truck_sky",
+            "x": 952
+          },
+          {
+            "item": "ice_cream_cart_sky",
+            "x": 1098
+          },
+          {
+            "item": "candy_apple_sky",
+            "x": 284,
+            "y": 118
+          }
+        ]
+      },
+      {
+        "name": "Snack Street",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#c9a27a",
+        "width": 843,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "theme_park_ticket_stamp_lemon",
+            "x": 110
+          },
+          {
+            "item": "balloon_stand_sky",
+            "x": 166
+          },
+          {
+            "item": "cute_photo_flash_mint",
+            "x": 225
+          },
+          {
+            "item": "theme_park_prize_shelf_mint",
+            "x": 296
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 372
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 466
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 557
+          },
+          {
+            "item": "candy_floss_cart_mint",
+            "x": 603
+          },
+          {
+            "item": "cute_balloon_lemon",
+            "x": 653
+          },
+          {
+            "item": "ice_cream_cart_lemon",
+            "x": 704
+          },
+          {
+            "item": "theme_park_popcorn_machine_strawberry",
+            "x": 781
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 296,
+            "y": 118
+          },
+          {
+            "item": "candy_apple_sky",
+            "x": 302,
+            "y": 118
+          }
+        ]
+      },
+      {
+        "name": "Festival Hall",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#e6c3d6",
+        "width": 980,
+        "items": [
+          {
+            "item": "carousel_strawberry",
+            "x": 110
+          },
+          {
+            "item": "theme_park_ticket_stamp_lemon",
+            "x": 211
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 263
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 309
+          },
+          {
+            "item": "theme_park_prize_shelf_lilac",
+            "x": 389
+          },
+          {
+            "item": "cute_balloon_lilac",
+            "x": 465
+          },
+          {
+            "item": "balloon_stand_sky",
+            "x": 534
+          },
+          {
+            "item": "candy_floss_cart_lemon",
+            "x": 615
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 731
+          },
+          {
+            "item": "theme_park_game_counter_mint",
+            "x": 877
+          },
+          {
+            "item": "cute_ice_cream_cone_peach",
+            "x": 389,
+            "y": 118
+          },
+          {
+            "item": "candy_apple_strawberry",
+            "x": 877,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rollercoaster_place",
+    "name": "Rollercoaster Place",
+    "emoji": "🎢",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Coaster Plaza",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1117,
+        "items": [
+          {
+            "item": "coaster_loop_lilac",
+            "x": 140
+          },
+          {
+            "item": "coaster_safety_buckle_mint",
+            "x": 265
+          },
+          {
+            "item": "coaster_loop_track_mint",
+            "x": 392
+          },
+          {
+            "item": "theme_park_ticket_stamp_lilac",
+            "x": 517
+          },
+          {
+            "item": "balloon_stand_mint",
+            "x": 581
+          },
+          {
+            "item": "coaster_place_sticker_strawberry",
+            "x": 642
+          },
+          {
+            "item": "coaster_car_strawberry",
+            "x": 719
+          },
+          {
+            "item": "hospital_heart_balloon_sky",
+            "x": 803
+          },
+          {
+            "item": "pool_flamingo_float_strawberry",
+            "x": 842
+          },
+          {
+            "item": "cute_photo_flash_sky",
+            "x": 888
+          },
+          {
+            "item": "rollercoaster_car_strawberry",
+            "x": 943
+          },
+          {
+            "item": "cute_balloon_mint",
+            "x": 1002
+          },
+          {
+            "item": "candy_apple_mint",
+            "x": 1028
+          },
+          {
+            "item": "hospital_snack_tray_strawberry",
+            "x": 1060
+          }
+        ]
+      },
+      {
+        "name": "Track View Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1143,
+        "items": [
+          {
+            "item": "coaster_loop_lilac",
+            "x": 140
+          },
+          {
+            "item": "coaster_safety_buckle_lilac",
+            "x": 272
+          },
+          {
+            "item": "coaster_loop_track_lilac",
+            "x": 390
+          },
+          {
+            "item": "theme_park_ticket_stamp_strawberry",
+            "x": 513
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 556
+          },
+          {
+            "item": "coaster_place_sticker_lilac",
+            "x": 601
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 700
+          },
+          {
+            "item": "hospital_heart_balloon_sky",
+            "x": 799
+          },
+          {
+            "item": "pool_flamingo_float_strawberry",
+            "x": 846
+          },
+          {
+            "item": "cute_photo_flash_sky",
+            "x": 887
+          },
+          {
+            "item": "cute_small_car_gold",
+            "x": 931
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 980
+          },
+          {
+            "item": "rollercoaster_car_lilac",
+            "x": 1037
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 1097
+          }
+        ]
+      },
+      {
+        "name": "Snack Corner",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 655,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "coaster_safety_buckle_mint",
+            "x": 104
+          },
+          {
+            "item": "balloon_stand_strawberry",
+            "x": 166
+          },
+          {
+            "item": "theme_park_ticket_stamp_strawberry",
+            "x": 222
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 310
+          },
+          {
+            "item": "coaster_place_sticker_lilac",
+            "x": 397
+          },
+          {
+            "item": "pool_flamingo_float_strawberry",
+            "x": 442
+          },
+          {
+            "item": "cute_photo_flash_lilac",
+            "x": 490
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 514
+          },
+          {
+            "item": "hospital_heart_balloon_sky",
+            "x": 544
+          },
+          {
+            "item": "candy_apple_sky",
+            "x": 566
+          },
+          {
+            "item": "hospital_snack_tray_lilac",
+            "x": 598
+          }
+        ]
+      },
+      {
+        "name": "Gift Corner",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#d9b38c",
+        "width": 653,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "coaster_safety_buckle_strawberry",
+            "x": 108
+          },
+          {
+            "item": "balloon_stand_lemon",
+            "x": 163
+          },
+          {
+            "item": "coaster_place_sticker_lilac",
+            "x": 233
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 330
+          },
+          {
+            "item": "cute_photo_flash_lemon",
+            "x": 427
+          },
+          {
+            "item": "pool_flamingo_float_strawberry",
+            "x": 465
+          },
+          {
+            "item": "hospital_heart_balloon_mint",
+            "x": 502
+          },
+          {
+            "item": "cute_balloon_strawberry",
+            "x": 542
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 568
+          },
+          {
+            "item": "candy_apple_mint",
+            "x": 598
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "waterpark",
+    "name": "Waterpark",
+    "emoji": "💦",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Splash Plaza",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#7fd1ff",
+        "width": 1200,
+        "items": [
+          {
+            "item": "water_slide_tower_lemon",
+            "x": 95
+          },
+          {
+            "item": "waterpark_swim_ring_strawberry",
+            "x": 199
+          },
+          {
+            "item": "splash_bucket_lemon",
+            "x": 274
+          },
+          {
+            "item": "cute_waterpark_towel_lilac",
+            "x": 346
+          },
+          {
+            "item": "pool_water_slide_sky",
+            "x": 448
+          },
+          {
+            "item": "pool_beach_ball_strawberry",
+            "x": 555
+          },
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 652
+          },
+          {
+            "item": "water_cannon_mint",
+            "x": 755
+          },
+          {
+            "item": "wave_pool_sky",
+            "x": 898
+          },
+          {
+            "item": "pool_ladder_mint",
+            "x": 1040
+          },
+          {
+            "item": "diving_board_lilac",
+            "x": 1117
+          }
+        ]
+      },
+      {
+        "name": "Wave Pool",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#7fd1ff",
+        "width": 1157,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "waterpark_swim_ring_sky",
+            "x": 123
+          },
+          {
+            "item": "waterpark_snack_stand_lemon",
+            "x": 199
+          },
+          {
+            "item": "cute_waterpark_towel_strawberry",
+            "x": 270
+          },
+          {
+            "item": "lazy_river_mint",
+            "x": 407
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 540
+          },
+          {
+            "item": "diving_board_sky",
+            "x": 603
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 676
+          },
+          {
+            "item": "waterpark_splash_pad_sky",
+            "x": 831
+          },
+          {
+            "item": "bubble_bathtub_ocean",
+            "x": 1044
+          }
+        ]
+      },
+      {
+        "name": "Lockers & Snacks",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#cfd8e8",
+        "width": 1130,
+        "items": [
+          {
+            "item": "splash_bucket_lemon",
+            "x": 65
+          },
+          {
+            "item": "cute_waterpark_towel_lilac",
+            "x": 126
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 180
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 228
+          },
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 331
+          },
+          {
+            "item": "pool_beach_ball_lemon",
+            "x": 429
+          },
+          {
+            "item": "wave_pool_mint",
+            "x": 561
+          },
+          {
+            "item": "water_cannon_strawberry",
+            "x": 700
+          },
+          {
+            "item": "waterpark_snack_stand_mint",
+            "x": 777
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 842
+          },
+          {
+            "item": "lazy_river_cocoa",
+            "x": 979
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "airport",
+    "name": "Airport",
+    "emoji": "✈️",
+    "district": "travel",
+    "floors": [
+      {
+        "name": "Check-In Hall",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 766,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "passport_stamp_lemon",
+            "x": 104
+          },
+          {
+            "item": "airport_gift_shop_counter_strawberry",
+            "x": 190
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 266
+          },
+          {
+            "item": "airport_coffee_machine_sky",
+            "x": 312
+          },
+          {
+            "item": "check_in_desk_mint",
+            "x": 409
+          },
+          {
+            "item": "zoo_map_board_strawberry",
+            "x": 503
+          },
+          {
+            "item": "first_class_seat_lilac",
+            "x": 580
+          },
+          {
+            "item": "airport_carry_suitcase_mint",
+            "x": 647
+          },
+          {
+            "item": "luggage_trolley_lemon",
+            "x": 700
+          },
+          {
+            "item": "hospital_snack_tray_mint",
+            "x": 190,
+            "y": 69
+          },
+          {
+            "item": "airport_boarding_pass_sky",
+            "x": 409,
+            "y": 39
+          }
+        ],
+        "hidden": [
+          {
+            "x": 58,
+            "y": 40,
+            "reveal": {
+              "place": "secret_beach"
+            }
+          }
+        ]
+      },
+      {
+        "name": "First Class Lounge",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#e6c3d6",
+        "width": 781,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "passport_stamp_lemon",
+            "x": 104
+          },
+          {
+            "item": "airport_gift_shop_counter_lemon",
+            "x": 190
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 272
+          },
+          {
+            "item": "airport_coffee_machine_lilac",
+            "x": 329
+          },
+          {
+            "item": "check_in_desk_strawberry",
+            "x": 424
+          },
+          {
+            "item": "zoo_map_board_mint",
+            "x": 521
+          },
+          {
+            "item": "luggage_trolley_sky",
+            "x": 590
+          },
+          {
+            "item": "airport_carry_suitcase_mint",
+            "x": 649
+          },
+          {
+            "item": "first_class_seat_mint",
+            "x": 717
+          },
+          {
+            "item": "airport_boarding_pass_mint",
+            "x": 190,
+            "y": 69
+          }
+        ]
+      },
+      {
+        "name": "VIP Lounge",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#d9b38c",
+        "width": 696,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "passport_stamp_lemon",
+            "x": 104
+          },
+          {
+            "item": "airport_gift_shop_counter_lemon",
+            "x": 187
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 265
+          },
+          {
+            "item": "airport_coffee_machine_mint",
+            "x": 321
+          },
+          {
+            "item": "check_in_desk_lemon",
+            "x": 410
+          },
+          {
+            "item": "zoo_map_board_lilac",
+            "x": 500
+          },
+          {
+            "item": "first_class_seat_sky",
+            "x": 564
+          },
+          {
+            "item": "airport_carry_suitcase_sky",
+            "x": 625
+          },
+          {
+            "item": "airport_boarding_pass_mint",
+            "x": 187,
+            "y": 69
+          },
+          {
+            "item": "hospital_snack_tray_strawberry",
+            "x": 410,
+            "y": 39
+          }
+        ]
+      },
+      {
+        "name": "Departure Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 935,
+        "items": [
+          {
+            "item": "big_airplane_mint",
+            "x": 220
+          },
+          {
+            "item": "passport_stamp_sky",
+            "x": 434
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 479
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 529
+          },
+          {
+            "item": "airport_gift_shop_counter_cocoa",
+            "x": 610
+          },
+          {
+            "item": "airport_luggage_cart_sky",
+            "x": 726
+          },
+          {
+            "item": "zoo_map_board_strawberry",
+            "x": 806
+          },
+          {
+            "item": "luggage_trolley_lilac",
+            "x": 866
+          },
+          {
+            "item": "airport_boarding_pass_sky",
+            "x": 610,
+            "y": 69
+          },
+          {
+            "item": "airport_map_board_lemon",
+            "x": 100,
+            "y": 120
+          },
+          {
+            "item": "station_map_board_sky",
+            "x": 250,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "malls",
+    "name": "Mall",
+    "emoji": "🛍️",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Fountain Plaza",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#d9b38c",
+        "width": 1050,
+        "items": [
+          {
+            "item": "mall_escalator_sky",
+            "x": 132
+          },
+          {
+            "item": "mall_shoe_box_strawberry",
+            "x": 261
+          },
+          {
+            "item": "mall_clothes_rack_mint",
+            "x": 353
+          },
+          {
+            "item": "shopping_bags_strawberry",
+            "x": 442
+          },
+          {
+            "item": "mannequin_lilac",
+            "x": 486
+          },
+          {
+            "item": "clothes_rack_lilac",
+            "x": 554
+          },
+          {
+            "item": "mall_toy_shelf_strawberry",
+            "x": 635
+          },
+          {
+            "item": "candy_floss_cart_lemon",
+            "x": 712
+          },
+          {
+            "item": "glitter_fountain_lilac",
+            "x": 782
+          },
+          {
+            "item": "mall_cute_fountain_sky",
+            "x": 862
+          },
+          {
+            "item": "mall_food_court_table_mint",
+            "x": 951
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 635,
+            "y": 82
+          },
+          {
+            "item": "pink_donut_sky",
+            "x": 951,
+            "y": 59
+          }
+        ]
+      },
+      {
+        "name": "Shop Row",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e6c3d6",
+        "width": 991,
+        "items": [
+          {
+            "item": "mall_clothes_rack_lemon",
+            "x": 87
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 163
+          },
+          {
+            "item": "mall_escalator_mint",
+            "x": 293
+          },
+          {
+            "item": "clothes_rack_sky",
+            "x": 441
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 523
+          },
+          {
+            "item": "candy_floss_cart_sky",
+            "x": 597
+          },
+          {
+            "item": "mannequin_mint",
+            "x": 658
+          },
+          {
+            "item": "mall_food_court_table_mint",
+            "x": 731
+          },
+          {
+            "item": "mall_toy_shelf_lilac",
+            "x": 835
+          },
+          {
+            "item": "glitter_fountain_lilac",
+            "x": 915
+          },
+          {
+            "item": "pink_donut_lilac",
+            "x": 731,
+            "y": 59
+          }
+        ]
+      },
+      {
+        "name": "Food Court",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#e6c3d6",
+        "width": 878,
+        "items": [
+          {
+            "item": "mall_escalator_strawberry",
+            "x": 132
+          },
+          {
+            "item": "mall_shoe_box_sky",
+            "x": 258
+          },
+          {
+            "item": "mall_clothes_rack_mint",
+            "x": 347
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 424
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 473
+          },
+          {
+            "item": "mall_food_court_table_mint",
+            "x": 557
+          },
+          {
+            "item": "mall_toy_shelf_strawberry",
+            "x": 656
+          },
+          {
+            "item": "candy_floss_cart_lilac",
+            "x": 735
+          },
+          {
+            "item": "glitter_fountain_lemon",
+            "x": 808
+          },
+          {
+            "item": "cute_ice_cream_cone_peach",
+            "x": 557,
+            "y": 59
+          },
+          {
+            "item": "pink_donut_strawberry",
+            "x": 656,
+            "y": 82
+          }
+        ]
+      },
+      {
+        "name": "Rooftop Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 868,
+        "items": [
+          {
+            "item": "mall_escalator_strawberry",
+            "x": 132
+          },
+          {
+            "item": "mall_shoe_box_lilac",
+            "x": 265
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 328
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 374
+          },
+          {
+            "item": "mall_shopping_cart_mint",
+            "x": 432
+          },
+          {
+            "item": "shopping_bags_lilac",
+            "x": 488
+          },
+          {
+            "item": "mall_cute_fountain_lilac",
+            "x": 540
+          },
+          {
+            "item": "cute_small_car_gold",
+            "x": 611
+          },
+          {
+            "item": "candy_floss_cart_sky",
+            "x": 675
+          },
+          {
+            "item": "clothes_rack_lemon",
+            "x": 757
+          },
+          {
+            "item": "pink_donut_lemon",
+            "x": 813
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "places_to_eat",
+    "name": "Food Street",
+    "emoji": "🍽️",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Food Row",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 442,
+        "items": [
+          {
+            "item": "airport_coffee_machine_strawberry",
+            "x": 61
+          },
+          {
+            "item": "cake_stand_lilac",
+            "x": 121
+          },
+          {
+            "item": "pizza_oven_mint",
+            "x": 177
+          },
+          {
+            "item": "fruit_stand_strawberry",
+            "x": 271
+          },
+          {
+            "item": "ice_cream_cart_lilac",
+            "x": 359
+          },
+          {
+            "item": "cute_cupcake_blueberry",
+            "x": 121,
+            "y": 22
+          },
+          {
+            "item": "pink_donut_strawberry",
+            "x": 271,
+            "y": 47
+          },
+          {
+            "item": "hot_chocolate_mint",
+            "x": 125,
+            "y": 22
+          },
+          {
+            "item": "cute_pizza_slice_berry",
+            "x": 279,
+            "y": 47
+          },
+          {
+            "item": "cute_ice_cream_cone_peach",
+            "x": 130,
+            "y": 22
+          },
+          {
+            "item": "menu_board_sky",
+            "x": 80,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Sweet Corner",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#cfd8e8",
+        "width": 538,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 128
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 181
+          },
+          {
+            "item": "cake_stand_lilac",
+            "x": 236
+          },
+          {
+            "item": "airport_coffee_machine_lilac",
+            "x": 288
+          },
+          {
+            "item": "ice_cream_cart_lilac",
+            "x": 369
+          },
+          {
+            "item": "pizza_oven_sky",
+            "x": 458
+          },
+          {
+            "item": "cute_ice_cream_cone_chocolate",
+            "x": 236,
+            "y": 22
+          },
+          {
+            "item": "hot_chocolate_lilac",
+            "x": 241,
+            "y": 22
+          },
+          {
+            "item": "cute_pizza_slice_gold",
+            "x": 244,
+            "y": 22
+          },
+          {
+            "item": "cute_cupcake_blueberry",
+            "x": 242,
+            "y": 22
+          },
+          {
+            "item": "menu_board_lemon",
+            "x": 80,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sports_arena",
+    "name": "Sports Arena",
+    "emoji": "🏅",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Main Field",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "basketball_hoop_mint",
+            "x": 50
+          },
+          {
+            "item": "traffic_cone_lemon",
+            "x": 93
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 143
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 192
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 231
+          },
+          {
+            "item": "gold_trophy_lemon",
+            "x": 274
+          },
+          {
+            "item": "cute_ice_cream_cone_peach",
+            "x": 301
+          },
+          {
+            "item": "scoreboard_lilac",
+            "x": 120,
+            "y": 120
+          }
+        ],
+        "hidden": [
+          {
+            "x": 93,
+            "y": 11,
+            "reveal": {
+              "place": "starry_observatory"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Track",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "basketball_hoop_strawberry",
+            "x": 50
+          },
+          {
+            "item": "traffic_cone_lilac",
+            "x": 93
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 140
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 193
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 231
+          },
+          {
+            "item": "gold_trophy_lemon",
+            "x": 275
+          },
+          {
+            "item": "cute_ice_cream_cone_chocolate",
+            "x": 305
+          },
+          {
+            "item": "scoreboard_mint",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Gear Area",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "basketball_hoop_lilac",
+            "x": 50
+          },
+          {
+            "item": "traffic_cone_mint",
+            "x": 96
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 141
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 190
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 237
+          },
+          {
+            "item": "gold_trophy_lemon",
+            "x": 279
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 315
+          },
+          {
+            "item": "scoreboard_lilac",
+            "x": 120,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "football_stadium",
+    "name": "Football Stadium",
+    "emoji": "⚽",
+    "district": "fun",
+    "floors": [
+      {
+        "name": "Field",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 760,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 102
+          },
+          {
+            "item": "football_goal_strawberry",
+            "x": 202
+          },
+          {
+            "item": "soccer_football_lemon",
+            "x": 311
+          },
+          {
+            "item": "station_bench_cocoa",
+            "x": 395
+          },
+          {
+            "item": "gold_trophy_sky",
+            "x": 483
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 528
+          },
+          {
+            "item": "stadium_seats_lilac",
+            "x": 626
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 702
+          },
+          {
+            "item": "scoreboard_strawberry",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Stands",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 748,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "soccer_football_mint",
+            "x": 113
+          },
+          {
+            "item": "football_goal_lilac",
+            "x": 213
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 308
+          },
+          {
+            "item": "station_bench_sky",
+            "x": 386
+          },
+          {
+            "item": "gold_trophy_lemon",
+            "x": 471
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 508
+          },
+          {
+            "item": "stadium_seats_lilac",
+            "x": 605
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 690
+          },
+          {
+            "item": "scoreboard_lemon",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Clubhouse",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#c9a27a",
+        "width": 762,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "soccer_football_strawberry",
+            "x": 108
+          },
+          {
+            "item": "football_goal_mint",
+            "x": 217
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 312
+          },
+          {
+            "item": "station_bench_mint",
+            "x": 400
+          },
+          {
+            "item": "gold_trophy_lilac",
+            "x": 484
+          },
+          {
+            "item": "pool_flamingo_float_mint",
+            "x": 528
+          },
+          {
+            "item": "stadium_seats_lemon",
+            "x": 618
+          },
+          {
+            "item": "cute_ice_cream_cone_chocolate",
+            "x": 704
+          },
+          {
+            "item": "scoreboard_strawberry",
+            "x": 120,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school_shopping_place",
+    "name": "School Shopping",
+    "emoji": "🎒",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#e8d2b8",
+        "width": 420,
+        "items": [
+          {
+            "item": "school_uniform_rack_sky",
+            "x": 75
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 135
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 189
+          },
+          {
+            "item": "clothes_rack_lilac",
+            "x": 258
+          },
+          {
+            "item": "backpack_shelf_mint",
+            "x": 339
+          },
+          {
+            "item": "cute_lunchbox_lemon",
+            "x": 339,
+            "y": 80
+          },
+          {
+            "item": "school_backpack_hook_lemon",
+            "x": 355,
+            "y": 80
+          },
+          {
+            "item": "zipper_pencil_case_rainbow",
+            "x": 354,
+            "y": 80
+          },
+          {
+            "item": "school_water_bottle_lilac",
+            "x": 345,
+            "y": 80
+          },
+          {
+            "item": "school_lunchbox_shelf_strawberry",
+            "x": 355,
+            "y": 80
+          },
+          {
+            "item": "school_zip_pencil_case_lilac",
+            "x": 353,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "School Corner",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#e8d2b8",
+        "width": 427,
+        "items": [
+          {
+            "item": "school_uniform_rack_sky",
+            "x": 75
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 144
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 193
+          },
+          {
+            "item": "clothes_rack_lilac",
+            "x": 266
+          },
+          {
+            "item": "backpack_shelf_lilac",
+            "x": 343
+          },
+          {
+            "item": "school_lunchbox_shelf_lilac",
+            "x": 343,
+            "y": 80
+          },
+          {
+            "item": "school_water_bottle_lilac",
+            "x": 349,
+            "y": 80
+          },
+          {
+            "item": "school_zip_pencil_case_lilac",
+            "x": 356,
+            "y": 80
+          },
+          {
+            "item": "school_backpack_hook_sky",
+            "x": 359,
+            "y": 80
+          },
+          {
+            "item": "zipper_pencil_case_cocoa",
+            "x": 358,
+            "y": 80
+          },
+          {
+            "item": "cute_lunchbox_sky",
+            "x": 355,
+            "y": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_people_home",
+    "name": "Old People Home",
+    "emoji": "🛋️",
+    "district": "care",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#d9b38c",
+        "width": 551,
+        "items": [
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 38
+          },
+          {
+            "item": "jigsaw_puzzle_lemon",
+            "x": 60
+          },
+          {
+            "item": "cosy_fireplace_lemon",
+            "x": 127
+          },
+          {
+            "item": "soft_blanket_strawberry",
+            "x": 192
+          },
+          {
+            "item": "rocking_chair_mint",
+            "x": 237
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 284
+          },
+          {
+            "item": "cosy_armchair_lemon",
+            "x": 329
+          },
+          {
+            "item": "fire_station_radio_lilac",
+            "x": 376
+          },
+          {
+            "item": "hospital_flower_vase_lemon",
+            "x": 420
+          },
+          {
+            "item": "card_table_mint",
+            "x": 477
+          },
+          {
+            "item": "tea_cup_mint",
+            "x": 477,
+            "y": 25
+          }
+        ],
+        "hidden": [
+          {
+            "x": 127,
+            "y": 40,
+            "reveal": {
+              "place": "halloween_house"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sunroom",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 565,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "jigsaw_puzzle_strawberry",
+            "x": 109
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 137
+          },
+          {
+            "item": "soft_blanket_lilac",
+            "x": 170
+          },
+          {
+            "item": "cosy_fireplace_lemon",
+            "x": 243
+          },
+          {
+            "item": "fire_station_radio_sky",
+            "x": 310
+          },
+          {
+            "item": "rocking_chair_cocoa",
+            "x": 358
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 396
+          },
+          {
+            "item": "cosy_armchair_sky",
+            "x": 437
+          },
+          {
+            "item": "hospital_flower_vase_sky",
+            "x": 487
+          },
+          {
+            "item": "tea_cup_mint",
+            "x": 512
+          }
+        ]
+      },
+      {
+        "name": "Roof Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 589,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "jigsaw_puzzle_strawberry",
+            "x": 105
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 135
+          },
+          {
+            "item": "soft_blanket_sky",
+            "x": 164
+          },
+          {
+            "item": "cosy_fireplace_strawberry",
+            "x": 228
+          },
+          {
+            "item": "fire_station_radio_lilac",
+            "x": 293
+          },
+          {
+            "item": "rocking_chair_sky",
+            "x": 346
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 396
+          },
+          {
+            "item": "cosy_armchair_lemon",
+            "x": 441
+          },
+          {
+            "item": "card_table_lemon",
+            "x": 512
+          },
+          {
+            "item": "tea_cup_lilac",
+            "x": 512,
+            "y": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "supermarket",
+    "name": "Supermarket",
+    "emoji": "🛒",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#c9a27a",
+        "width": 585,
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 128
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 173
+          },
+          {
+            "item": "shopping_trolley_strawberry",
+            "x": 236
+          },
+          {
+            "item": "kitchen_table_plum",
+            "x": 317
+          },
+          {
+            "item": "checkout_till_cocoa",
+            "x": 414
+          },
+          {
+            "item": "fruit_stand_sky",
+            "x": 508
+          },
+          {
+            "item": "candy_apple_mint",
+            "x": 317,
+            "y": 66
+          },
+          {
+            "item": "cute_juice_box_royal",
+            "x": 414,
+            "y": 34
+          },
+          {
+            "item": "zoo_fruit_basket_lilac",
+            "x": 508,
+            "y": 47
+          },
+          {
+            "item": "cute_apple_berry",
+            "x": 324,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Food Hall",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 591,
+        "items": [
+          {
+            "item": "cute_fridge_mint",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 124
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 174
+          },
+          {
+            "item": "shopping_trolley_lilac",
+            "x": 238
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 323
+          },
+          {
+            "item": "checkout_till_cocoa",
+            "x": 416
+          },
+          {
+            "item": "fruit_stand_strawberry",
+            "x": 504
+          },
+          {
+            "item": "cute_apple_lemon",
+            "x": 323,
+            "y": 66
+          },
+          {
+            "item": "cute_juice_box_ocean",
+            "x": 416,
+            "y": 34
+          },
+          {
+            "item": "zoo_fruit_basket_lemon",
+            "x": 504,
+            "y": 47
+          },
+          {
+            "item": "candy_apple_mint",
+            "x": 329,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Checkout Corner",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e8d2b8",
+        "width": 569,
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 123
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 166
+          },
+          {
+            "item": "shopping_trolley_lilac",
+            "x": 227
+          },
+          {
+            "item": "kitchen_table_plum",
+            "x": 304
+          },
+          {
+            "item": "checkout_till_sky",
+            "x": 400
+          },
+          {
+            "item": "fruit_stand_lemon",
+            "x": 488
+          },
+          {
+            "item": "zoo_fruit_basket_sky",
+            "x": 304,
+            "y": 66
+          },
+          {
+            "item": "candy_apple_lemon",
+            "x": 400,
+            "y": 34
+          },
+          {
+            "item": "cute_juice_box_ocean",
+            "x": 488,
+            "y": 47
+          },
+          {
+            "item": "cute_apple_blueberry",
+            "x": 311,
+            "y": 66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eye_opticians",
+    "name": "Eye Opticians",
+    "emoji": "👓",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#c9a27a",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "lens_case_sky",
+            "x": 109
+          },
+          {
+            "item": "optician_lamp_strawberry",
+            "x": 136
+          },
+          {
+            "item": "eye_drop_bottle_lilac",
+            "x": 171
+          },
+          {
+            "item": "glasses_display_lilac",
+            "x": 213
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 260
+          },
+          {
+            "item": "makeup_mirror_strawberry",
+            "x": 69,
+            "y": 75
+          },
+          {
+            "item": "salon_mirror_strawberry",
+            "x": 158,
+            "y": 75
+          },
+          {
+            "item": "eye_chart_strawberry",
+            "x": 253,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Lens Corner",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#cfd8e8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "lens_case_lemon",
+            "x": 99
+          },
+          {
+            "item": "optician_lamp_lemon",
+            "x": 131
+          },
+          {
+            "item": "eye_drop_bottle_lemon",
+            "x": 163
+          },
+          {
+            "item": "glasses_display_mint",
+            "x": 199
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 248
+          },
+          {
+            "item": "eye_chart_sky",
+            "x": 75,
+            "y": 75
+          },
+          {
+            "item": "salon_mirror_lemon",
+            "x": 170,
+            "y": 75
+          },
+          {
+            "item": "makeup_mirror_sky",
+            "x": 259,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hair_dressers",
+    "name": "Hair Dressers",
+    "emoji": "💇",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#c9a27a",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 107
+          },
+          {
+            "item": "product_shelf_strawberry",
+            "x": 153
+          },
+          {
+            "item": "color_swatches_mint",
+            "x": 207
+          },
+          {
+            "item": "salon_chair_sky",
+            "x": 249
+          },
+          {
+            "item": "cosy_armchair_cocoa",
+            "x": 309
+          },
+          {
+            "item": "hair_dryer_lemon",
+            "x": 153,
+            "y": 60
+          },
+          {
+            "item": "salon_comb_sky",
+            "x": 162,
+            "y": 60
+          },
+          {
+            "item": "cute_lipstick_lemon",
+            "x": 155,
+            "y": 60
+          },
+          {
+            "item": "salon_mirror_lemon",
+            "x": 80,
+            "y": 75
+          },
+          {
+            "item": "makeup_mirror_strawberry",
+            "x": 169,
+            "y": 75
+          }
+        ],
+        "hidden": [
+          {
+            "x": 58,
+            "y": 40,
+            "reveal": {
+              "place": "secret_treehouse"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Styling Loft",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#cfd8e8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 111
+          },
+          {
+            "item": "product_shelf_sky",
+            "x": 153
+          },
+          {
+            "item": "color_swatches_lemon",
+            "x": 210
+          },
+          {
+            "item": "salon_chair_mint",
+            "x": 252
+          },
+          {
+            "item": "cosy_armchair_sky",
+            "x": 303
+          },
+          {
+            "item": "cute_lipstick_lemon",
+            "x": 153,
+            "y": 60
+          },
+          {
+            "item": "hair_dryer_mint",
+            "x": 161,
+            "y": 60
+          },
+          {
+            "item": "salon_comb_lemon",
+            "x": 162,
+            "y": 60
+          },
+          {
+            "item": "makeup_mirror_lilac",
+            "x": 69,
+            "y": 75
+          },
+          {
+            "item": "salon_mirror_sky",
+            "x": 158,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "makeup_shop",
+    "name": "Makeup Shop",
+    "emoji": "💄",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 111
+          },
+          {
+            "item": "lipstick_display_mint",
+            "x": 158
+          },
+          {
+            "item": "nail_polish_rack_lilac",
+            "x": 217
+          },
+          {
+            "item": "eyeshadow_palette_strawberry",
+            "x": 158,
+            "y": 37
+          },
+          {
+            "item": "brush_set_strawberry",
+            "x": 163,
+            "y": 37
+          },
+          {
+            "item": "cute_lipstick_strawberry",
+            "x": 161,
+            "y": 37
+          },
+          {
+            "item": "makeup_mirror_mint",
+            "x": 69,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Mirror Loft",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 108
+          },
+          {
+            "item": "lipstick_display_lemon",
+            "x": 164
+          },
+          {
+            "item": "nail_polish_rack_mint",
+            "x": 222
+          },
+          {
+            "item": "cute_lipstick_strawberry",
+            "x": 164,
+            "y": 37
+          },
+          {
+            "item": "eyeshadow_palette_mint",
+            "x": 170,
+            "y": 37
+          },
+          {
+            "item": "brush_set_sky",
+            "x": 169,
+            "y": 37
+          },
+          {
+            "item": "makeup_mirror_lemon",
+            "x": 69,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotels",
+    "name": "Hotels",
+    "emoji": "🏨",
+    "district": "travel",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#e8d2b8",
+        "width": 812,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 103
+          },
+          {
+            "item": "canopy_bed_lilac",
+            "x": 176
+          },
+          {
+            "item": "hospital_cute_pillow_lilac",
+            "x": 265
+          },
+          {
+            "item": "elder_walking_stick_gold",
+            "x": 304
+          },
+          {
+            "item": "cosy_armchair_lilac",
+            "x": 351
+          },
+          {
+            "item": "grand_piano_lilac",
+            "x": 437
+          },
+          {
+            "item": "chandelier_strawberry",
+            "x": 517
+          },
+          {
+            "item": "airport_carry_suitcase_strawberry",
+            "x": 575
+          },
+          {
+            "item": "hotel_front_desk_strawberry",
+            "x": 665
+          },
+          {
+            "item": "luggage_trolley_mint",
+            "x": 748
+          }
+        ]
+      },
+      {
+        "name": "Guest Rooms",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#c9a27a",
+        "width": 806,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 103
+          },
+          {
+            "item": "canopy_bed_lilac",
+            "x": 179
+          },
+          {
+            "item": "hospital_cute_pillow_strawberry",
+            "x": 265
+          },
+          {
+            "item": "elder_walking_stick_gold",
+            "x": 306
+          },
+          {
+            "item": "chandelier_lemon",
+            "x": 357
+          },
+          {
+            "item": "grand_piano_cocoa",
+            "x": 446
+          },
+          {
+            "item": "cosy_armchair_cocoa",
+            "x": 521
+          },
+          {
+            "item": "airport_carry_suitcase_sky",
+            "x": 587
+          },
+          {
+            "item": "hotel_front_desk_lilac",
+            "x": 669
+          },
+          {
+            "item": "luggage_trolley_strawberry",
+            "x": 746
+          }
+        ]
+      },
+      {
+        "name": "Rooftop Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 843,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 107
+          },
+          {
+            "item": "canopy_bed_strawberry",
+            "x": 186
+          },
+          {
+            "item": "hospital_cute_pillow_cocoa",
+            "x": 276
+          },
+          {
+            "item": "elder_walking_stick_gold",
+            "x": 327
+          },
+          {
+            "item": "chandelier_lilac",
+            "x": 376
+          },
+          {
+            "item": "airport_carry_suitcase_sky",
+            "x": 444
+          },
+          {
+            "item": "cosy_armchair_strawberry",
+            "x": 504
+          },
+          {
+            "item": "grand_piano_strawberry",
+            "x": 584
+          },
+          {
+            "item": "hotel_front_desk_mint",
+            "x": 689
+          },
+          {
+            "item": "luggage_trolley_sky",
+            "x": 777
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sweets_shop",
+    "name": "Sweets Shop",
+    "emoji": "🍭",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#cfd8e8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "candy_jars_lemon",
+            "x": 111
+          },
+          {
+            "item": "lollipop_stand_mint",
+            "x": 146
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 182
+          },
+          {
+            "item": "gummy_bears_strawberry",
+            "x": 209
+          },
+          {
+            "item": "chocolate_bar_lilac",
+            "x": 238
+          },
+          {
+            "item": "cute_cupcake_chocolate",
+            "x": 268
+          },
+          {
+            "item": "pink_donut_strawberry",
+            "x": 297
+          }
+        ],
+        "hidden": [
+          {
+            "x": 58,
+            "y": 40,
+            "reveal": {
+              "place": "secret_candy_cave"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Candy Loft",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "candy_jars_sky",
+            "x": 110
+          },
+          {
+            "item": "lollipop_stand_sky",
+            "x": 155
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 197
+          },
+          {
+            "item": "pink_donut_lemon",
+            "x": 225
+          },
+          {
+            "item": "gummy_bears_sky",
+            "x": 253
+          },
+          {
+            "item": "chocolate_bar_lemon",
+            "x": 282
+          },
+          {
+            "item": "cute_cupcake_pistachio",
+            "x": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toy_shop",
+    "name": "Toy Shop",
+    "emoji": "🧸",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e6c3d6",
+        "width": 514,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "jigsaw_puzzle_sky",
+            "x": 111
+          },
+          {
+            "item": "dollhouse_lemon",
+            "x": 149
+          },
+          {
+            "item": "bouncy_ball_toy_royal",
+            "x": 185
+          },
+          {
+            "item": "teddy_bear_toy_rainbow",
+            "x": 224
+          },
+          {
+            "item": "train_set_sky",
+            "x": 272
+          },
+          {
+            "item": "rocking_horse_strawberry",
+            "x": 320
+          },
+          {
+            "item": "building_blocks_sky",
+            "x": 367
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 401
+          },
+          {
+            "item": "plush_bunny_strawberry",
+            "x": 438
+          },
+          {
+            "item": "rocket_toy_lilac",
+            "x": 467
+          }
+        ]
+      },
+      {
+        "name": "Play Loft",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#e6c3d6",
+        "width": 936,
+        "items": [
+          {
+            "item": "cute_fridge_strawberry",
+            "x": 65
+          },
+          {
+            "item": "jigsaw_puzzle_lilac",
+            "x": 118
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 163
+          },
+          {
+            "item": "bouncy_ball_toy_peach",
+            "x": 212
+          },
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 294
+          },
+          {
+            "item": "building_blocks_sky",
+            "x": 379
+          },
+          {
+            "item": "dollhouse_lilac",
+            "x": 425
+          },
+          {
+            "item": "train_set_lilac",
+            "x": 471
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 605
+          },
+          {
+            "item": "plush_bunny_strawberry",
+            "x": 729
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 760
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 795
+          },
+          {
+            "item": "rocking_horse_sky",
+            "x": 841
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 881
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "emoji": "🍝",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Dining Room",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#c9a27a",
+        "width": 558,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "cute_gift_box_lilac",
+            "x": 118
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 173
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 228
+          },
+          {
+            "item": "pizza_oven_lemon",
+            "x": 284
+          },
+          {
+            "item": "cake_stand_lilac",
+            "x": 351
+          },
+          {
+            "item": "dining_table_set_cocoa",
+            "x": 425
+          },
+          {
+            "item": "hospital_flower_vase_lemon",
+            "x": 501
+          },
+          {
+            "item": "menu_board_mint",
+            "x": 80,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Patio",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 551,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "cute_gift_box_lemon",
+            "x": 121
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 173
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 224
+          },
+          {
+            "item": "pizza_oven_lilac",
+            "x": 284
+          },
+          {
+            "item": "cake_stand_sky",
+            "x": 348
+          },
+          {
+            "item": "dining_table_set_mint",
+            "x": 423
+          },
+          {
+            "item": "hospital_flower_vase_lilac",
+            "x": 489
+          },
+          {
+            "item": "menu_board_sky",
+            "x": 80,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "offices",
+    "name": "Offices",
+    "emoji": "🏢",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Front Desk",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#e8d2b8",
+        "width": 980,
+        "items": [
+          {
+            "item": "cozy_bookshelf_peach",
+            "x": 96
+          },
+          {
+            "item": "cute_potted_plant_lilac",
+            "x": 194
+          },
+          {
+            "item": "teacher_desk_lemon",
+            "x": 270
+          },
+          {
+            "item": "office_chair_lemon",
+            "x": 357
+          },
+          {
+            "item": "airport_coffee_machine_lemon",
+            "x": 418
+          },
+          {
+            "item": "salon_chair_lilac",
+            "x": 477
+          },
+          {
+            "item": "wooden_chair_strawberry",
+            "x": 532
+          },
+          {
+            "item": "police_station_cosy_chair_mint",
+            "x": 593
+          },
+          {
+            "item": "daycare_high_chair_sky",
+            "x": 662
+          },
+          {
+            "item": "rocking_chair_sky",
+            "x": 725
+          },
+          {
+            "item": "hospital_comfort_chair_sky",
+            "x": 790
+          },
+          {
+            "item": "water_cooler_mint",
+            "x": 839
+          },
+          {
+            "item": "office_desk_lemon",
+            "x": 900
+          }
+        ],
+        "hidden": [
+          {
+            "x": 96,
+            "y": 40,
+            "reveal": {
+              "place": "secret_pet_garden"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Open Office",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#c9a27a",
+        "width": 848,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 107
+          },
+          {
+            "item": "teacher_desk_lemon",
+            "x": 186
+          },
+          {
+            "item": "cute_potted_plant_mint",
+            "x": 266
+          },
+          {
+            "item": "wooden_chair_sky",
+            "x": 303
+          },
+          {
+            "item": "office_chair_strawberry",
+            "x": 344
+          },
+          {
+            "item": "airport_coffee_machine_lemon",
+            "x": 408
+          },
+          {
+            "item": "salon_chair_strawberry",
+            "x": 472
+          },
+          {
+            "item": "hospital_comfort_chair_mint",
+            "x": 535
+          },
+          {
+            "item": "police_station_cosy_chair_strawberry",
+            "x": 596
+          },
+          {
+            "item": "water_cooler_lemon",
+            "x": 648
+          },
+          {
+            "item": "rocking_chair_sky",
+            "x": 689
+          },
+          {
+            "item": "office_desk_cocoa",
+            "x": 772
+          }
+        ]
+      },
+      {
+        "name": "Roof Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 887,
+        "items": [
+          {
+            "item": "round_tree_plant_cocoa",
+            "x": 106
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 204
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 260
+          },
+          {
+            "item": "cute_potted_plant_mint",
+            "x": 310
+          },
+          {
+            "item": "wooden_chair_lemon",
+            "x": 356
+          },
+          {
+            "item": "office_chair_strawberry",
+            "x": 407
+          },
+          {
+            "item": "daycare_high_chair_mint",
+            "x": 460
+          },
+          {
+            "item": "salon_chair_mint",
+            "x": 518
+          },
+          {
+            "item": "hospital_comfort_chair_lilac",
+            "x": 580
+          },
+          {
+            "item": "police_station_cosy_chair_strawberry",
+            "x": 639
+          },
+          {
+            "item": "office_desk_sky",
+            "x": 713
+          },
+          {
+            "item": "water_cooler_sky",
+            "x": 772
+          },
+          {
+            "item": "rocking_chair_cocoa",
+            "x": 817
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vets",
+    "name": "Vets",
+    "emoji": "🐾",
+    "district": "care",
+    "floors": [
+      {
+        "name": "Reception",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#d9b38c",
+        "width": 712,
+        "items": [
+          {
+            "item": "standing_horse_cocoa",
+            "x": 100
+          },
+          {
+            "item": "water_bowl_lemon",
+            "x": 190
+          },
+          {
+            "item": "dog_house_sky",
+            "x": 233
+          },
+          {
+            "item": "bone_toy_strawberry",
+            "x": 284
+          },
+          {
+            "item": "reception_desk_sky",
+            "x": 359
+          },
+          {
+            "item": "pet_bed_lilac",
+            "x": 447
+          },
+          {
+            "item": "grooming_table_sky",
+            "x": 512
+          },
+          {
+            "item": "treat_jar_strawberry",
+            "x": 560
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 594
+          },
+          {
+            "item": "cute_stethoscope_sky",
+            "x": 625
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 654
+          }
+        ]
+      },
+      {
+        "name": "Exam Room",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#cfd8e8",
+        "width": 792,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "water_bowl_lemon",
+            "x": 100
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 185
+          },
+          {
+            "item": "bone_toy_lemon",
+            "x": 272
+          },
+          {
+            "item": "dog_house_sky",
+            "x": 319
+          },
+          {
+            "item": "pet_bed_strawberry",
+            "x": 389
+          },
+          {
+            "item": "reception_desk_lilac",
+            "x": 475
+          },
+          {
+            "item": "treat_jar_sky",
+            "x": 538
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 573
+          },
+          {
+            "item": "cute_stethoscope_mint",
+            "x": 604
+          },
+          {
+            "item": "grooming_table_cocoa",
+            "x": 657
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 705
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 739
+          }
+        ]
+      },
+      {
+        "name": "Play Yard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 671,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "water_bowl_lilac",
+            "x": 109
+          },
+          {
+            "item": "standing_horse_gold",
+            "x": 195
+          },
+          {
+            "item": "bone_toy_sky",
+            "x": 290
+          },
+          {
+            "item": "reception_desk_mint",
+            "x": 366
+          },
+          {
+            "item": "treat_jar_mint",
+            "x": 429
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 457
+          },
+          {
+            "item": "pet_bed_lemon",
+            "x": 504
+          },
+          {
+            "item": "sitting_cat_sky",
+            "x": 555
+          },
+          {
+            "item": "cute_stethoscope_lemon",
+            "x": 590
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cafe",
+    "name": "Cafe",
+    "emoji": "☕",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Counter",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 120
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 164
+          },
+          {
+            "item": "cake_stand_lilac",
+            "x": 211
+          },
+          {
+            "item": "cosy_armchair_lemon",
+            "x": 261
+          },
+          {
+            "item": "espresso_machine_sky",
+            "x": 314
+          },
+          {
+            "item": "croissant_lilac",
+            "x": 211,
+            "y": 22
+          },
+          {
+            "item": "hot_chocolate_lilac",
+            "x": 215,
+            "y": 22
+          },
+          {
+            "item": "milk_bottle_strawberry",
+            "x": 215,
+            "y": 22
+          }
+        ]
+      },
+      {
+        "name": "Seating Area",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 126
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 169
+          },
+          {
+            "item": "cake_stand_mint",
+            "x": 228
+          },
+          {
+            "item": "cosy_armchair_sky",
+            "x": 277
+          },
+          {
+            "item": "espresso_machine_lilac",
+            "x": 326
+          },
+          {
+            "item": "milk_bottle_strawberry",
+            "x": 228,
+            "y": 22
+          },
+          {
+            "item": "croissant_lemon",
+            "x": 235,
+            "y": 22
+          },
+          {
+            "item": "hot_chocolate_strawberry",
+            "x": 233,
+            "y": 22
+          }
+        ]
+      },
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 123
+          },
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 166
+          },
+          {
+            "item": "cake_stand_sky",
+            "x": 224
+          },
+          {
+            "item": "cosy_armchair_sky",
+            "x": 267
+          },
+          {
+            "item": "espresso_machine_strawberry",
+            "x": 312
+          },
+          {
+            "item": "hot_chocolate_mint",
+            "x": 65,
+            "y": 150
+          },
+          {
+            "item": "milk_bottle_lilac",
+            "x": 224,
+            "y": 22
+          },
+          {
+            "item": "croissant_lilac",
+            "x": 72,
+            "y": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pub",
+    "name": "Pub",
+    "emoji": "🍹",
+    "district": "downtown",
+    "floors": [
+      {
+        "name": "Bar",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#d9b38c",
+        "width": 704,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 102
+          },
+          {
+            "item": "round_sofa_butter",
+            "x": 189
+          },
+          {
+            "item": "cute_potted_plant_mint",
+            "x": 288
+          },
+          {
+            "item": "cosy_fireplace_lilac",
+            "x": 352
+          },
+          {
+            "item": "bar_counter_mint",
+            "x": 459
+          },
+          {
+            "item": "cloud_sofa_strawberry",
+            "x": 598
+          },
+          {
+            "item": "dartboard_lemon",
+            "x": 72,
+            "y": 75
+          },
+          {
+            "item": "menu_board_lemon",
+            "x": 164,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Snug",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#e6c3d6",
+        "width": 697,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 103
+          },
+          {
+            "item": "round_sofa_coral",
+            "x": 193
+          },
+          {
+            "item": "cute_potted_plant_lilac",
+            "x": 284
+          },
+          {
+            "item": "cosy_fireplace_sky",
+            "x": 350
+          },
+          {
+            "item": "bar_counter_lilac",
+            "x": 456
+          },
+          {
+            "item": "cloud_sofa_strawberry",
+            "x": 595
+          },
+          {
+            "item": "menu_board_mint",
+            "x": 80,
+            "y": 75
+          },
+          {
+            "item": "dartboard_lilac",
+            "x": 172,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 873,
+        "items": [
+          {
+            "item": "round_tree_plant_rainbow",
+            "x": 106
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 202
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 250
+          },
+          {
+            "item": "cute_potted_plant_gold",
+            "x": 310
+          },
+          {
+            "item": "cosy_fireplace_mint",
+            "x": 381
+          },
+          {
+            "item": "bar_counter_cocoa",
+            "x": 490
+          },
+          {
+            "item": "round_sofa_butter",
+            "x": 627
+          },
+          {
+            "item": "cloud_sofa_mint",
+            "x": 770
+          },
+          {
+            "item": "menu_board_lemon",
+            "x": 80,
+            "y": 120
+          },
+          {
+            "item": "dartboard_sky",
+            "x": 172,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stables",
+    "name": "Stables",
+    "emoji": "🐴",
+    "district": "nature",
+    "floors": [
+      {
+        "name": "Stable",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 737,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "fire_station_water_bucket_strawberry",
+            "x": 105
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 196
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 289
+          },
+          {
+            "item": "horse_stall_strawberry",
+            "x": 364
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 439
+          },
+          {
+            "item": "little_pony_lemon",
+            "x": 496
+          },
+          {
+            "item": "hay_bales_lemon",
+            "x": 576
+          },
+          {
+            "item": "candy_apple_lemon",
+            "x": 622
+          },
+          {
+            "item": "cute_apple_berry",
+            "x": 653
+          },
+          {
+            "item": "brush_set_mint",
+            "x": 683
+          }
+        ]
+      },
+      {
+        "name": "Hay Loft",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e8d2b8",
+        "width": 767,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "fire_station_water_bucket_lilac",
+            "x": 101
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 186
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 279
+          },
+          {
+            "item": "horse_stall_mint",
+            "x": 354
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 437
+          },
+          {
+            "item": "little_pony_strawberry",
+            "x": 500
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 556
+          },
+          {
+            "item": "hay_bales_mint",
+            "x": 607
+          },
+          {
+            "item": "brush_set_sky",
+            "x": 651
+          },
+          {
+            "item": "cute_apple_mint",
+            "x": 681
+          },
+          {
+            "item": "candy_apple_strawberry",
+            "x": 712
+          }
+        ]
+      },
+      {
+        "name": "Tack Room",
+        "outdoor": false,
+        "wall": "#e8f7e4",
+        "ground": "#e8d2b8",
+        "width": 764,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "fire_station_water_bucket_sky",
+            "x": 106
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 197
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 291
+          },
+          {
+            "item": "horse_stall_lilac",
+            "x": 358
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 431
+          },
+          {
+            "item": "little_pony_lemon",
+            "x": 490
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 556
+          },
+          {
+            "item": "hay_bales_sky",
+            "x": 605
+          },
+          {
+            "item": "cute_apple_berry",
+            "x": 650
+          },
+          {
+            "item": "candy_apple_lilac",
+            "x": 681
+          },
+          {
+            "item": "brush_set_lemon",
+            "x": 710
+          }
+        ]
+      },
+      {
+        "name": "Pony Field",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 728,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "fire_station_water_bucket_lemon",
+            "x": 102
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 195
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 286
+          },
+          {
+            "item": "horse_stall_lilac",
+            "x": 353
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 426
+          },
+          {
+            "item": "little_pony_sky",
+            "x": 489
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 552
+          },
+          {
+            "item": "hay_bales_sky",
+            "x": 603
+          },
+          {
+            "item": "cute_apple_mint",
+            "x": 642
+          },
+          {
+            "item": "candy_apple_sky",
+            "x": 673
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pet_shop",
+    "name": "Pet Shop",
+    "emoji": "🐾",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Shop Floor",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#e6c3d6",
+        "width": 621,
+        "items": [
+          {
+            "item": "standing_horse_gold",
+            "x": 100
+          },
+          {
+            "item": "pet_rabbit_sky",
+            "x": 188
+          },
+          {
+            "item": "cat_tree_mint",
+            "x": 223
+          },
+          {
+            "item": "hamster_lemon",
+            "x": 258
+          },
+          {
+            "item": "dog_house_mint",
+            "x": 303
+          },
+          {
+            "item": "goldfish_bowl_strawberry",
+            "x": 359
+          },
+          {
+            "item": "pet_cage_mint",
+            "x": 397
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 446
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 480
+          },
+          {
+            "item": "police_station_dog_leash_lemon",
+            "x": 520
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 563
+          }
+        ]
+      },
+      {
+        "name": "Aquarium Corner",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#e6c3d6",
+        "width": 707,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "hamster_lilac",
+            "x": 110
+          },
+          {
+            "item": "standing_horse_rainbow",
+            "x": 205
+          },
+          {
+            "item": "pet_rabbit_mint",
+            "x": 295
+          },
+          {
+            "item": "cat_tree_cocoa",
+            "x": 336
+          },
+          {
+            "item": "goldfish_bowl_lemon",
+            "x": 379
+          },
+          {
+            "item": "dog_house_sky",
+            "x": 433
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 483
+          },
+          {
+            "item": "pet_cage_sky",
+            "x": 527
+          },
+          {
+            "item": "police_station_dog_leash_strawberry",
+            "x": 569
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 607
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 651
+          }
+        ]
+      },
+      {
+        "name": "Play Yard",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 643,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "hamster_strawberry",
+            "x": 99
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 191
+          },
+          {
+            "item": "pet_rabbit_lilac",
+            "x": 276
+          },
+          {
+            "item": "cat_tree_strawberry",
+            "x": 308
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 347
+          },
+          {
+            "item": "dog_house_strawberry",
+            "x": 397
+          },
+          {
+            "item": "police_station_dog_leash_mint",
+            "x": 454
+          },
+          {
+            "item": "pet_cage_lemon",
+            "x": 497
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 544
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 582
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paint_shop",
+    "name": "Paint Shop",
+    "emoji": "🎨",
+    "district": "shopping",
+    "floors": [
+      {
+        "name": "Shop Floor",
+        "outdoor": false,
+        "wall": "#f6ecff",
+        "ground": "#e8d2b8",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "paint_cans_strawberry",
+            "x": 115
+          },
+          {
+            "item": "color_swatches_strawberry",
+            "x": 153
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 192
+          },
+          {
+            "item": "paint_roller_lemon",
+            "x": 214
+          },
+          {
+            "item": "eyeshadow_palette_strawberry",
+            "x": 243
+          },
+          {
+            "item": "paintbrush_sky",
+            "x": 271
+          },
+          {
+            "item": "school_easel_chalkboard_strawberry",
+            "x": 304
+          },
+          {
+            "item": "paint_palette_strawberry",
+            "x": 340
+          }
+        ]
+      },
+      {
+        "name": "Drying Room",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#cfd8e8",
+        "width": 402,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "paint_cans_lemon",
+            "x": 117
+          },
+          {
+            "item": "color_swatches_lemon",
+            "x": 151
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 194
+          },
+          {
+            "item": "paintbrush_strawberry",
+            "x": 219
+          },
+          {
+            "item": "paint_palette_sky",
+            "x": 248
+          },
+          {
+            "item": "school_easel_chalkboard_lemon",
+            "x": 284
+          },
+          {
+            "item": "eyeshadow_palette_strawberry",
+            "x": 319
+          },
+          {
+            "item": "paint_roller_mint",
+            "x": 348
+          }
+        ]
+      },
+      {
+        "name": "Mural Wall",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "paint_cans_strawberry",
+            "x": 112
+          },
+          {
+            "item": "color_swatches_strawberry",
+            "x": 148
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 183
+          },
+          {
+            "item": "school_easel_chalkboard_lilac",
+            "x": 213
+          },
+          {
+            "item": "paint_roller_sky",
+            "x": 247
+          },
+          {
+            "item": "eyeshadow_palette_lemon",
+            "x": 276
+          },
+          {
+            "item": "paintbrush_mint",
+            "x": 304
+          },
+          {
+            "item": "paint_palette_mint",
+            "x": 333
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_garden",
+    "name": "Secret Garden",
+    "emoji": "🌈",
+    "district": "nature",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Garden Path",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 820,
+        "items": [
+          {
+            "item": "balloon_stand_mint",
+            "x": 70
+          },
+          {
+            "item": "mushroom_stool_lilac",
+            "x": 139
+          },
+          {
+            "item": "tire_swing_lilac",
+            "x": 185
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 234
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 325
+          },
+          {
+            "item": "hospital_heart_balloon_sky",
+            "x": 413
+          },
+          {
+            "item": "garden_gate_lemon",
+            "x": 476
+          },
+          {
+            "item": "cute_balloon_lilac",
+            "x": 526
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 581
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 638
+          },
+          {
+            "item": "bird_bath_lilac",
+            "x": 673
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 712
+          },
+          {
+            "item": "fairy_house_strawberry",
+            "x": 762
+          }
+        ]
+      },
+      {
+        "name": "Flower Meadow",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 775,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "mushroom_stool_sky",
+            "x": 111
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 210
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 305
+          },
+          {
+            "item": "tire_swing_mint",
+            "x": 355
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 399
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 429
+          },
+          {
+            "item": "cute_balloon_sky",
+            "x": 461
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 533
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 606
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 658
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 720
+          }
+        ]
+      },
+      {
+        "name": "Secret Nook",
+        "outdoor": false,
+        "wall": "#fff0e6",
+        "ground": "#c9a27a",
+        "width": 894,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "mushroom_stool_mint",
+            "x": 114
+          },
+          {
+            "item": "balloon_stand_lilac",
+            "x": 178
+          },
+          {
+            "item": "hospital_heart_balloon_strawberry",
+            "x": 243
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 343
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 437
+          },
+          {
+            "item": "garden_gate_mint",
+            "x": 494
+          },
+          {
+            "item": "cute_balloon_mint",
+            "x": 546
+          },
+          {
+            "item": "elder_walking_stick_lemon",
+            "x": 572
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 603
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 674
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 750
+          },
+          {
+            "item": "fairy_house_lilac",
+            "x": 791
+          },
+          {
+            "item": "bird_bath_lemon",
+            "x": 841
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cloud_swing_set",
+    "name": "Cloud Swing",
+    "emoji": "☁️",
+    "district": "sky",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Cloud Platform",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 793,
+        "items": [
+          {
+            "item": "cotton_candy_tree_sky",
+            "x": 107
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 210
+          },
+          {
+            "item": "cloud_swing_strawberry",
+            "x": 263
+          },
+          {
+            "item": "hospital_heart_balloon_lemon",
+            "x": 314
+          },
+          {
+            "item": "balloon_stand_strawberry",
+            "x": 375
+          },
+          {
+            "item": "cute_balloon_sky",
+            "x": 441
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 494
+          },
+          {
+            "item": "moon_cloud_swing_lilac",
+            "x": 560
+          },
+          {
+            "item": "rainbow_arch_lilac",
+            "x": 676
+          }
+        ]
+      },
+      {
+        "name": "Swing Meadow",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 782,
+        "items": [
+          {
+            "item": "cotton_candy_tree_strawberry",
+            "x": 107
+          },
+          {
+            "item": "hospital_heart_balloon_lilac",
+            "x": 207
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 256
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 305
+          },
+          {
+            "item": "cloud_swing_mint",
+            "x": 358
+          },
+          {
+            "item": "cute_balloon_lemon",
+            "x": 411
+          },
+          {
+            "item": "balloon_stand_lilac",
+            "x": 469
+          },
+          {
+            "item": "moon_cloud_swing_sky",
+            "x": 548
+          },
+          {
+            "item": "rainbow_arch_mint",
+            "x": 663
+          }
+        ]
+      },
+      {
+        "name": "Star Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 791,
+        "items": [
+          {
+            "item": "cotton_candy_tree_strawberry",
+            "x": 107
+          },
+          {
+            "item": "hospital_heart_balloon_mint",
+            "x": 207
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 261
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 313
+          },
+          {
+            "item": "cloud_swing_lemon",
+            "x": 361
+          },
+          {
+            "item": "cute_balloon_mint",
+            "x": 410
+          },
+          {
+            "item": "balloon_stand_sky",
+            "x": 478
+          },
+          {
+            "item": "moon_cloud_swing_mint",
+            "x": 553
+          },
+          {
+            "item": "rainbow_arch_lilac",
+            "x": 664
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_beach_house",
+    "name": "Secret Beach House",
+    "emoji": "🏖️",
+    "district": "homes",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e8d2b8",
+        "width": 972,
+        "items": [
+          {
+            "item": "pool_sun_umbrella_cocoa",
+            "x": 114
+          },
+          {
+            "item": "pretty_seashell_lilac",
+            "x": 223
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 311
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 403
+          },
+          {
+            "item": "beach_umbrella_lemon",
+            "x": 464
+          },
+          {
+            "item": "sandcastle_lilac",
+            "x": 536
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 572
+          },
+          {
+            "item": "pool_beach_ball_strawberry",
+            "x": 605
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 688
+          },
+          {
+            "item": "sitting_cat_cocoa",
+            "x": 758
+          },
+          {
+            "item": "zoo_picnic_table_strawberry",
+            "x": 836
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 916
+          }
+        ]
+      },
+      {
+        "name": "Sun Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 1073,
+        "items": [
+          {
+            "item": "pool_sun_umbrella_lilac",
+            "x": 114
+          },
+          {
+            "item": "pretty_seashell_strawberry",
+            "x": 223
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 263
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 306
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 403
+          },
+          {
+            "item": "pool_beach_ball_mint",
+            "x": 502
+          },
+          {
+            "item": "beach_umbrella_sky",
+            "x": 561
+          },
+          {
+            "item": "sandcastle_lilac",
+            "x": 627
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 664
+          },
+          {
+            "item": "sitting_cat_sky",
+            "x": 695
+          },
+          {
+            "item": "kitchen_table_peach",
+            "x": 774
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 842
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 890
+          },
+          {
+            "item": "zoo_picnic_table_strawberry",
+            "x": 986
+          }
+        ]
+      },
+      {
+        "name": "Rooftop Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 996,
+        "items": [
+          {
+            "item": "pool_sun_umbrella_strawberry",
+            "x": 114
+          },
+          {
+            "item": "pretty_seashell_lemon",
+            "x": 222
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 264
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 316
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 406
+          },
+          {
+            "item": "sandcastle_mint",
+            "x": 510
+          },
+          {
+            "item": "beach_umbrella_lilac",
+            "x": 571
+          },
+          {
+            "item": "pool_beach_ball_mint",
+            "x": 638
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 675
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 716
+          },
+          {
+            "item": "kitchen_table_teal",
+            "x": 786
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 864
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 926
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_mansion",
+    "name": "Secret Mansion",
+    "emoji": "🏰",
+    "district": "homes",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#d9b38c",
+        "width": 1200,
+        "items": [
+          {
+            "item": "cozy_bookshelf_butter",
+            "x": 96
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 185
+          },
+          {
+            "item": "crystal_castle_mint",
+            "x": 251
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 330
+          },
+          {
+            "item": "canopy_bed_lilac",
+            "x": 406
+          },
+          {
+            "item": "single_cozy_bed_rainbow",
+            "x": 570
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 757
+          },
+          {
+            "item": "chandelier_strawberry",
+            "x": 866
+          },
+          {
+            "item": "grand_piano_cocoa",
+            "x": 956
+          },
+          {
+            "item": "baby_cot_sage",
+            "x": 1058
+          },
+          {
+            "item": "chocolate_fountain_mint",
+            "x": 1135
+          }
+        ]
+      },
+      {
+        "name": "Bedrooms",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#d9b38c",
+        "width": 983,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 106
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 199
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 301
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 340
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 373
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 445
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 612
+          },
+          {
+            "item": "baby_cot_plum",
+            "x": 761
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 882
+          },
+          {
+            "item": "cute_lipstick_lemon",
+            "x": 445,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Attic Playroom",
+        "outdoor": false,
+        "wall": "#fff3d6",
+        "ground": "#d9b38c",
+        "width": 1132,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 105
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 200
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 294
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 326
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 367
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 436
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 594
+          },
+          {
+            "item": "grand_piano_strawberry",
+            "x": 756
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 873
+          },
+          {
+            "item": "chocolate_fountain_sky",
+            "x": 969
+          },
+          {
+            "item": "baby_cot_butter",
+            "x": 1046
+          },
+          {
+            "item": "cute_lipstick_lemon",
+            "x": 436,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Rooftop Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1059,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 109
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 199
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 291
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 323
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 364
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 445
+          },
+          {
+            "item": "single_cozy_bed_rainbow",
+            "x": 608
+          },
+          {
+            "item": "baby_cot_ocean",
+            "x": 766
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 882
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 988
+          },
+          {
+            "item": "cute_lipstick_lilac",
+            "x": 445,
+            "y": 66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_beach",
+    "name": "Secret Beach",
+    "emoji": "🌊",
+    "district": "nature",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Shore",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 875,
+        "items": [
+          {
+            "item": "standing_horse_cocoa",
+            "x": 100
+          },
+          {
+            "item": "pretty_seashell_mint",
+            "x": 194
+          },
+          {
+            "item": "beach_umbrella_lemon",
+            "x": 249
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 303
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 326
+          },
+          {
+            "item": "sandcastle_strawberry",
+            "x": 372
+          },
+          {
+            "item": "ice_cream_cart_lemon",
+            "x": 443
+          },
+          {
+            "item": "pool_lounger_cocoa",
+            "x": 530
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 609
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 659
+          },
+          {
+            "item": "happy_dolphin_strawberry",
+            "x": 718
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 786
+          },
+          {
+            "item": "cute_ice_cream_cone_peach",
+            "x": 817
+          }
+        ]
+      },
+      {
+        "name": "Dune Path",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 856,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "pretty_seashell_mint",
+            "x": 109
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 200
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 292
+          },
+          {
+            "item": "beach_umbrella_mint",
+            "x": 345
+          },
+          {
+            "item": "sandcastle_lemon",
+            "x": 412
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 454
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 483
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 555
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 636
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 695
+          },
+          {
+            "item": "happy_dolphin_lemon",
+            "x": 776
+          },
+          {
+            "item": "cute_ice_cream_cone_sky",
+            "x": 555,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Palm Grove",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 833,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "pretty_seashell_strawberry",
+            "x": 100
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 184
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 275
+          },
+          {
+            "item": "beach_umbrella_strawberry",
+            "x": 336
+          },
+          {
+            "item": "sandcastle_sky",
+            "x": 405
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 442
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 470
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 549
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 630
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 687
+          },
+          {
+            "item": "happy_dolphin_mint",
+            "x": 760
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "starry_observatory",
+    "name": "Starry Observatory",
+    "emoji": "🔭",
+    "district": "sky",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Telescope Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 109
+          },
+          {
+            "item": "big_telescope_lemon",
+            "x": 160
+          },
+          {
+            "item": "rocket_toy_mint",
+            "x": 203
+          },
+          {
+            "item": "underwater_telescope_mint",
+            "x": 241
+          },
+          {
+            "item": "globe_stand_sky",
+            "x": 286
+          },
+          {
+            "item": "floating_cloud_teacup_sky",
+            "x": 315
+          }
+        ]
+      },
+      {
+        "name": "Star Lounge",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#c9a27a",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 102
+          },
+          {
+            "item": "big_telescope_strawberry",
+            "x": 147
+          },
+          {
+            "item": "rocket_toy_sky",
+            "x": 196
+          },
+          {
+            "item": "underwater_telescope_lemon",
+            "x": 226
+          },
+          {
+            "item": "globe_stand_mint",
+            "x": 264
+          },
+          {
+            "item": "floating_cloud_teacup_strawberry",
+            "x": 289
+          }
+        ]
+      },
+      {
+        "name": "Moon Balcony",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#ffffff",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 113
+          },
+          {
+            "item": "big_telescope_lilac",
+            "x": 164
+          },
+          {
+            "item": "rocket_toy_lemon",
+            "x": 205
+          },
+          {
+            "item": "underwater_telescope_sky",
+            "x": 245
+          },
+          {
+            "item": "globe_stand_strawberry",
+            "x": 280
+          },
+          {
+            "item": "floating_cloud_teacup_mint",
+            "x": 309
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "halloween_house",
+    "name": "Halloween House",
+    "emoji": "🎃",
+    "district": "fun",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#eae3ff",
+        "ground": "#e6c3d6",
+        "width": 533,
+        "items": [
+          {
+            "item": "cute_fridge_pumpkin",
+            "x": 65
+          },
+          {
+            "item": "friendly_bat_mint",
+            "x": 120
+          },
+          {
+            "item": "floor_lamp_halloween",
+            "x": 169
+          },
+          {
+            "item": "candy_bucket_strawberry",
+            "x": 219
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 241
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 275
+          },
+          {
+            "item": "witch_cauldron_lilac",
+            "x": 318
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 358
+          },
+          {
+            "item": "cute_ghost_plush_sky",
+            "x": 397
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 447
+          },
+          {
+            "item": "candy_apple_mint",
+            "x": 478
+          }
+        ]
+      },
+      {
+        "name": "Pumpkin Porch",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 928,
+        "items": [
+          {
+            "item": "cute_fridge_pumpkin",
+            "x": 65
+          },
+          {
+            "item": "candy_bucket_lilac",
+            "x": 115
+          },
+          {
+            "item": "floor_lamp_halloween",
+            "x": 159
+          },
+          {
+            "item": "big_rose_bloom_spooky",
+            "x": 206
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 298
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 394
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 435
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 473
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 548
+          },
+          {
+            "item": "single_cozy_bed_spooky",
+            "x": 705
+          },
+          {
+            "item": "cute_small_car_spooky",
+            "x": 853
+          }
+        ]
+      },
+      {
+        "name": "Candy Loft",
+        "outdoor": false,
+        "wall": "#e6fff2",
+        "ground": "#c9a27a",
+        "width": 951,
+        "items": [
+          {
+            "item": "cute_fridge_pumpkin",
+            "x": 65
+          },
+          {
+            "item": "friendly_bat_sky",
+            "x": 130
+          },
+          {
+            "item": "floor_lamp_halloween",
+            "x": 176
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 219
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 308
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 410
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 442
+          },
+          {
+            "item": "cute_ghost_plush_pearl",
+            "x": 483
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 563
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 635
+          },
+          {
+            "item": "single_cozy_bed_spooky",
+            "x": 760
+          },
+          {
+            "item": "witch_cauldron_lilac",
+            "x": 891
+          },
+          {
+            "item": "candy_apple_sky",
+            "x": 563,
+            "y": 66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mansion",
+    "name": "Mansion",
+    "emoji": "🏰",
+    "district": "homes",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#e3f6ff",
+        "ground": "#e6c3d6",
+        "width": 957,
+        "items": [
+          {
+            "item": "cozy_bookshelf_peach",
+            "x": 96
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 180
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 230
+          },
+          {
+            "item": "sitting_cat_sky",
+            "x": 282
+          },
+          {
+            "item": "canopy_bed_lemon",
+            "x": 363
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 445
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 543
+          },
+          {
+            "item": "chandelier_lemon",
+            "x": 656
+          },
+          {
+            "item": "elder_walking_stick_lemon",
+            "x": 709
+          },
+          {
+            "item": "grand_piano_lilac",
+            "x": 772
+          },
+          {
+            "item": "kitchen_table_plum",
+            "x": 873
+          }
+        ]
+      },
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1021,
+        "items": [
+          {
+            "item": "cozy_bookshelf_plum",
+            "x": 96
+          },
+          {
+            "item": "big_rose_bloom_gold",
+            "x": 181
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 224
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 278
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 377
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 473
+          },
+          {
+            "item": "canopy_bed_lilac",
+            "x": 546
+          },
+          {
+            "item": "chandelier_lemon",
+            "x": 640
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 691
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 737
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 823
+          },
+          {
+            "item": "grand_piano_mint",
+            "x": 933
+          }
+        ]
+      },
+      {
+        "name": "Rooftop",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1009,
+        "items": [
+          {
+            "item": "cozy_bookshelf_peach",
+            "x": 96
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 178
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 221
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 271
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 364
+          },
+          {
+            "item": "sitting_puppy_sky",
+            "x": 466
+          },
+          {
+            "item": "canopy_bed_sky",
+            "x": 538
+          },
+          {
+            "item": "chandelier_lilac",
+            "x": 626
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 675
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 718
+          },
+          {
+            "item": "kitchen_table_ocean",
+            "x": 805
+          },
+          {
+            "item": "grand_piano_lilac",
+            "x": 914
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beach_house",
+    "name": "Beach House",
+    "emoji": "🏖️",
+    "district": "homes",
+    "floors": [
+      {
+        "name": "Ground Floor",
+        "outdoor": false,
+        "wall": "#ffe3ef",
+        "ground": "#d9b38c",
+        "width": 936,
+        "items": [
+          {
+            "item": "pool_towel_rack_mint",
+            "x": 105
+          },
+          {
+            "item": "pretty_seashell_mint",
+            "x": 201
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 294
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 389
+          },
+          {
+            "item": "beach_umbrella_sky",
+            "x": 451
+          },
+          {
+            "item": "pool_beach_ball_lilac",
+            "x": 514
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 552
+          },
+          {
+            "item": "sandcastle_strawberry",
+            "x": 589
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 672
+          },
+          {
+            "item": "pool_lounger_strawberry",
+            "x": 774
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 839
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 882
+          }
+        ]
+      },
+      {
+        "name": "Deck",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 919,
+        "items": [
+          {
+            "item": "floor_lamp_chocolate",
+            "x": 58
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 102
+          },
+          {
+            "item": "pool_towel_rack_sky",
+            "x": 193
+          },
+          {
+            "item": "sandcastle_lemon",
+            "x": 305
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 411
+          },
+          {
+            "item": "pool_beach_ball_mint",
+            "x": 509
+          },
+          {
+            "item": "beach_umbrella_sky",
+            "x": 566
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 625
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 663
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 698
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 766
+          },
+          {
+            "item": "cute_small_car_lemon",
+            "x": 851
+          }
+        ]
+      },
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#f6e3b4",
+        "width": 833,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "pretty_seashell_mint",
+            "x": 109
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 204
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 292
+          },
+          {
+            "item": "beach_umbrella_lilac",
+            "x": 356
+          },
+          {
+            "item": "sandcastle_lemon",
+            "x": 430
+          },
+          {
+            "item": "elder_walking_stick_mint",
+            "x": 469
+          },
+          {
+            "item": "pool_beach_ball_lilac",
+            "x": 511
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 582
+          },
+          {
+            "item": "sitting_cat_mint",
+            "x": 657
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 712
+          },
+          {
+            "item": "sitting_puppy_lemon",
+            "x": 773
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_treehouse",
+    "name": "Secret Treehouse",
+    "emoji": "🌳",
+    "district": "nature",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Platform",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 845,
+        "items": [
+          {
+            "item": "monkey_swing_lilac",
+            "x": 88
+          },
+          {
+            "item": "soft_blanket_strawberry",
+            "x": 170
+          },
+          {
+            "item": "rope_ladder_strawberry",
+            "x": 209
+          },
+          {
+            "item": "police_magnifying_glass_mint",
+            "x": 243
+          },
+          {
+            "item": "garden_swing_set_gold",
+            "x": 335
+          },
+          {
+            "item": "big_rose_bloom_strawberry",
+            "x": 428
+          },
+          {
+            "item": "tire_swing_sky",
+            "x": 478
+          },
+          {
+            "item": "cute_bird_feeder_mint",
+            "x": 522
+          },
+          {
+            "item": "moon_cloud_swing_strawberry",
+            "x": 568
+          },
+          {
+            "item": "toy_box_strawberry",
+            "x": 621
+          },
+          {
+            "item": "fairy_house_sky",
+            "x": 671
+          },
+          {
+            "item": "teddy_bear_toy_gold",
+            "x": 719
+          },
+          {
+            "item": "baby_slide_sky",
+            "x": 779
+          }
+        ]
+      },
+      {
+        "name": "Leaf Loft",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1040,
+        "items": [
+          {
+            "item": "cute_fridge_lemon",
+            "x": 65
+          },
+          {
+            "item": "big_rose_bloom_lemon",
+            "x": 125
+          },
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 179
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 232
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 327
+          },
+          {
+            "item": "sitting_puppy_lilac",
+            "x": 427
+          },
+          {
+            "item": "elder_walking_stick_strawberry",
+            "x": 462
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 576
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 736
+          },
+          {
+            "item": "bubble_bathtub_lilac",
+            "x": 862
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 969
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_candy_cave",
+    "name": "Secret Candy Cave",
+    "emoji": "🍭",
+    "district": "fun",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Candy Cave",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "lollipop_tree_mint",
+            "x": 55
+          },
+          {
+            "item": "mushroom_stool_sky",
+            "x": 106
+          },
+          {
+            "item": "floor_lamp_gold",
+            "x": 158
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 204
+          },
+          {
+            "item": "chocolate_fountain_sky",
+            "x": 250
+          },
+          {
+            "item": "gumdrop_mound_strawberry",
+            "x": 312
+          }
+        ]
+      },
+      {
+        "name": "Gumdrop Loft",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 400,
+        "items": [
+          {
+            "item": "floor_lamp_rainbow",
+            "x": 58
+          },
+          {
+            "item": "mushroom_stool_cocoa",
+            "x": 112
+          },
+          {
+            "item": "lollipop_tree_sky",
+            "x": 153
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 197
+          },
+          {
+            "item": "chocolate_fountain_mint",
+            "x": 240
+          },
+          {
+            "item": "gumdrop_mound_mint",
+            "x": 306
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "secret_pet_garden",
+    "name": "Secret Pet Garden",
+    "emoji": "🐾",
+    "district": "nature",
+    "hidden": true,
+    "floors": [
+      {
+        "name": "Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 754,
+        "items": [
+          {
+            "item": "standing_horse_cocoa",
+            "x": 100
+          },
+          {
+            "item": "pet_bed_lemon",
+            "x": 202
+          },
+          {
+            "item": "horse_stall_mint",
+            "x": 279
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 344
+          },
+          {
+            "item": "dog_house_strawberry",
+            "x": 396
+          },
+          {
+            "item": "cute_bird_feeder_lemon",
+            "x": 449
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 503
+          },
+          {
+            "item": "sitting_cat_berry",
+            "x": 552
+          },
+          {
+            "item": "bird_bath_mint",
+            "x": 589
+          },
+          {
+            "item": "sitting_puppy_mint",
+            "x": 631
+          },
+          {
+            "item": "hay_bales_strawberry",
+            "x": 686
+          }
+        ]
+      },
+      {
+        "name": "Pond",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 908,
+        "items": [
+          {
+            "item": "floor_lamp_gold",
+            "x": 58
+          },
+          {
+            "item": "pet_bed_lemon",
+            "x": 124
+          },
+          {
+            "item": "standing_horse_cocoa",
+            "x": 221
+          },
+          {
+            "item": "cute_bird_feeder_lilac",
+            "x": 317
+          },
+          {
+            "item": "horse_stall_sky",
+            "x": 382
+          },
+          {
+            "item": "big_rose_bloom_mint",
+            "x": 453
+          },
+          {
+            "item": "elder_walking_stick_lilac",
+            "x": 486
+          },
+          {
+            "item": "sitting_cat_lilac",
+            "x": 521
+          },
+          {
+            "item": "kitchen_table_sage",
+            "x": 588
+          },
+          {
+            "item": "sitting_puppy_strawberry",
+            "x": 668
+          },
+          {
+            "item": "cute_small_car_mint",
+            "x": 725
+          },
+          {
+            "item": "hay_bales_strawberry",
+            "x": 792
+          },
+          {
+            "item": "bird_bath_lilac",
+            "x": 847
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+You are making the emotions for ARA World, a cosy cute life-sim game for a young girl. When she taps a person a wheel
+of emojis pops up; tapping one makes the person feel it: their face changes, they move, and a little sound plays.
+
+Make {{count}} emotions. {{ask}}
+
+Each emotion:
+{"id": "snake_case", "emoji": "one emoji", "name": "Name", "face": {"eyes": "<eyes>", "mouth": "<mouth>",
+ "brows": -1 to 1, "blush": true/false, "tears": true/false}, "motion": "<motion>", "sound": "<sound>", "seconds": 1-6}
+
+- eyes: one of {{eyes}}
+- mouth: one of {{mouths}}
+- brows: -1 = worried/cross, 0 = relaxed, 1 = raised (surprised).
+- motion: one of {{motions}}
+- sound: one of {{sounds}}
+- Cover happy, laughing, love, excited, silly, surprised, sleepy, sad, crying, cross, scared (gentle), cold, proud,
+  shy, yummy, cool. Each emoji only once. Gentle and cute, even the sad ones.
+
+Ids already taken: {{existing}}
+
+Answer with ONLY a JSON array.

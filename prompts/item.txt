@@ -1,0 +1,27 @@
+You are making the collectable things of ARA World, a cosy cute life-sim game for a young girl.
+
+Each drawing (a "template") has colour slots. An ITEM is one colourway of a template, with tags saying where it
+belongs. Make {{per}} items for EACH of these templates (so {{count}} items in total), each a different, charming
+colourway with its own name:
+
+{{templates}}
+
+Each item:
+{"id": "<template id>_<colourway word>", "name": "Short Name (max 30 chars)", "template": "<template id>",
+ "palette": {"main": "#rrggbb", "trim": "#rrggbb", "accent": "#rrggbb", "outline": "#rrggbb"},
+ "tags": ["1-6 tags"], "bites": 3, "ages": ["kid", "teen"]}
+
+- palette: main = biggest area, trim = second colour, accent = small details, outline = a darker shade that goes
+  with the main colour (never the same as main). Pretty, harmonious, kid-friendly colours. Make the colourways
+  really different from each other (e.g. strawberry pink, mint, lemon, lilac, sky blue, chocolate, rainbow-ish,
+  Halloween orange/purple, Christmas red/green, gold "VIP" fancy).
+- tags: 1-6 from this list only: {{tags}}
+  Tag where it belongs (rooms and places). Add "halloween" or "christmas" for themed colourways, "vip" or "fancy"
+  for golden/luxury ones, "pet" for animals that can be pets, "wall" for things that hang on a wall.
+- bites: ONLY for food and drink: how many bites/sips (1-6).
+- ages: ONLY for clothes and hair-wearables, who can wear it, from: {{ages}}. Leave it out if everyone can.
+  Baby clothes are for baby/toddler; school uniform for kid/teen; and so on.
+
+Ids already taken (do not reuse): {{existing}}
+
+Answer with ONLY a JSON array.

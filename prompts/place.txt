@@ -1,0 +1,35 @@
+You are laying out a place in ARA World, a cosy cute life-sim game for a young girl (like Toca Life World).
+Each place is seen from the side like a dollhouse; players swipe up/down between floors and drag everything around.
+
+The place to lay out:
+{{plan}}
+
+Make exactly 1 entry for this place:
+{"id": "{{id}}", "name": "...", "emoji": "...", "district": "...", "hidden": ..., "floors": [
+  {"name": "Ground Floor", "outdoor": false, "wall": "#rrggbb", "ground": "#rrggbb", "width": 600,
+   "items": [{"item": "<item id>", "x": 120}, {"item": "<item id>", "x": 120, "y": 42}],
+   "hidden": [{"x": 300, "y": 60, "reveal": {"item": "<item id>"}}]}
+]}
+
+Rules (a program checks every one):
+- Use the floors from the plan, bottom to top. "outdoor": true for floors marked (outdoor) (they get sky and
+  weather; height 400), otherwise false (indoor walls are 160 tall).
+- wall: a soft pretty wall colour; ground: the floor colour (wood, tiles, carpet, grass, snow, sand...).
+- width: 240-1200 units. An adult person is 100 units tall. Give big places wide floors (700-1100).
+- items: 6-20 per floor, only ids from the list below. "x" is the CENTRE of the item; the item must fit inside
+  0..width (x - w/2 >= 0 and x + w/2 <= width).
+- Floor-standing things (no "y") must not overlap each other much: leave space between them (their x ranges may
+  touch but must not cover each other by more than 40% of the smaller one).
+- To put a small thing ON a table/counter/shelf, give it "y" = that furniture's top height (listed as "top=") and
+  the same x as the furniture. Wall things (tag wall) get a "y" up the wall (e.g. 70-120). y + item height must stay
+  under 160 indoors (400 outdoors).
+- No clothes on floors (people wear clothes).
+- hidden: 0-2 secret tap spots per floor, at an interesting spot (behind a plant, under a bed, in a cupboard).
+  Each reveals an item ({"item": id}) or leads to a hidden place ({"place": id}). Hidden places you may lead to:
+  {{hiddenPlaces}}
+- Make each floor feel full, fun and alive, with a clear theme, a few surprises and things to eat and play with.
+
+Items you can use (id: category, w x h, extras):
+{{items}}
+
+Answer with ONLY a JSON array containing the one place.

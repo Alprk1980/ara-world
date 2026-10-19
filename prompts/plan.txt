@@ -1,0 +1,31 @@
+You are helping plan ARA World, a cosy life-sim game (like Toca Life World) designed by a young girl. Her notes:
+
+{{notes}}
+
+Plan the PLACES of the town. Make {{count}} place entries. {{ask}}
+
+Every place her notes name must get an entry: snowboarding place, schools, daycares, "important places" (hospital,
+fire station, police station), pools, zoo, water animal zoo (aquarium), theme park, rollercoaster place, waterpark,
+airport (planes, VIP lounge, first class), malls, places to eat, sports arena, football stadium, post box place
+(use id "post_office"), school shopping place, old people home, supermarket, eye opticians, hair dressers, makeup
+shop, kingdom in the clouds (hidden), hotels, sweets shop, toy shop, restaurant, offices, vets, cafe, pub, stables,
+pet shop, paint shop, train station (id "train_station"), bus stop (id "bus_station"), plus a few hidden places.
+Places already planned (do not repeat): {{existing}}
+
+Each entry:
+{"id": "snake_case", "name": "Short Name", "emoji": "one emoji", "district": "<district>",
+ "hidden": true (only for hidden places), "tags": ["item tags"], "floors": ["Ground Floor", ...],
+ "things": ["8-24 short names of things to draw for this place"], "note": "the words from her notes"}
+
+- district: one of {{districts}}. Hidden places use "sky" or the district they hide in.
+- tags: 1-6 from this list only: {{tags}}
+- floors: 1-4 names, bottom to top (players swipe up and down). Mark outdoor areas with "(outdoor)", e.g.
+  "Slopes (outdoor)". Big places (mall, hotel, airport, hospital, school, theme park) use 3-4 floors.
+- things: concrete objects a child would love to find and play with there, drawn as cute flat art. Furniture,
+  props, food, toys, animals, vehicles. NOT people, NOT clothes worn on the body (a "uniform rack" is fine),
+  NOT rooms or buildings. Examples for a cafe: "espresso machine", "cake stand", "hot chocolate", "croissant",
+  "cosy armchair", "chalkboard menu".
+- Keep everything happy and gentle: the hospital is friendly, the police station has a cute dog, nothing scary.
+- VIP things are free in this game (no money anywhere).
+
+Answer with ONLY a JSON array.
