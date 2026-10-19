@@ -3,7 +3,7 @@ import { Container, type Application } from 'pixi.js';
 import type { SceneStack } from './scenes.ts';
 import { Hud } from '../ui/hud.ts';
 import { TitleScene } from '../ui/title.ts';
-import { MapScene } from '../ui/map.ts';
+import { MapScene } from '../ui/iso-map.ts';
 import { PeopleBar } from '../ui/people-bar.ts';
 import { EmojiWheel } from '../ui/emoji-wheel.ts';
 import { CreatorScene } from '../ui/creator.ts';
@@ -223,6 +223,8 @@ export class Game {
     // Sky and the make/people/hammer tools belong to the world; the creator and builder only need back.
     const inWorld = top?.name === 'map' || top instanceof PlaceScene;
     for (const b of [this.hud.extras, this.hud.create, this.hud.people, this.hud.build]) b.visible = inWorld;
+    // The town map is home: there is nowhere to go back to from it.
+    this.hud.back.visible = top?.name !== 'map';
     this.emojis.close();
     this.wardrobe.hide();
     this.panel.hide();
