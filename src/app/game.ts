@@ -12,6 +12,12 @@ import { SkyControls, WeatherLayer } from '../ui/sky.ts';
 import { Toast } from '../ui/toast.ts';
 import { PostBox } from '../ui/postbox.ts';
 import { Wardrobe } from '../ui/wardrobe.ts';
+import { Panel } from '../ui/panel.ts';
+import { templateThumb, itemThumb } from '../ui/creator.ts';
+import { contentsOf, containerOf } from '../world/behaviours.ts';
+import type { Thing } from '../world/state.ts';
+import { templates, items } from '../data/index.ts';
+import { Graphics } from 'pixi.js';
 import { TravelPicker, destinations } from '../ui/travel.ts';
 import type { Person } from '../world/state.ts';
 import { playSound } from '../ui/sound.ts';
@@ -34,6 +40,7 @@ export class Game {
   readonly toast: Toast;
   readonly postbox: PostBox;
   readonly wardrobe = new Wardrobe();
+  readonly panel = new Panel();
   readonly travelPicker = new TravelPicker();
   private overlay = new Container();
   private musicButton: Container | null = null;
@@ -61,7 +68,7 @@ export class Game {
     drawMusic();
     this.musicButton = music;
     this.hud.extras.addChild(music);
-    this.overlay.addChild(this.weather.view, this.postbox.view, this.peopleBar.view, this.hud.view, this.wardrobe.view, this.travelPicker.view, this.emojis.view, this.toast.view);
+    this.overlay.addChild(this.weather.view, this.postbox.view, this.peopleBar.view, this.hud.view, this.wardrobe.view, this.panel.view, this.travelPicker.view, this.emojis.view, this.toast.view);
     app.stage.addChild(this.overlay);
     stack.onChange(() => this.onSceneChange());
     app.ticker.add((t) => {
@@ -99,6 +106,7 @@ export class Game {
   back(): void {
     if (this.emojis.open) return this.emojis.close();
     if (this.wardrobe.open) return this.wardrobe.hide();
+    if (this.panel.open) return this.panel.hide();
     if (this.travelPicker.open) return this.travelPicker.hide();
     if (this.peopleBar.open) return this.peopleBar.toggle();
     if (this.stack.depth > 2) this.stack.pop();
@@ -128,6 +136,53 @@ export class Game {
       // Travel swaps the place instead of stacking, so back still returns to the map.
       this.stack.replace(new PlaceScene(this, to));
     });
+  }
+
+  /** Open a fridge, toy box, cookie jar...: tap something inside to take it out. */
+  openContainer(thing: Thing, take: (itemId: string) => void): void {
+    const c = containerOf(thing.item);
+    if (!c) return;
+    const inside = contentsOf(thing.item, thing.uid);
+    this.panel.show(`${c.emoji} ${items.get(thing.item)?.name ?? 'Inside'}`, () => inside.map((id) => ({
+      draw: () => itemThumb(id, 84),
+      onTap: () => {
+        take(id);
+        playSound('pop');
+      },
+    })));
+  }
+
+  /** The salon: pick a new hairstyle and colour for someone in the chair. */
+  openHair(rig: Rig): void {
+    const p = rig.person;
+    const colours = ['#2b1d14', '#5a3825', '#8b5e3c', '#c68642', '#e8c07d', '#f5e1a4', '#d94f2b', '#b0b0b0', '#ffffff', '#ff8fb8', '#b197fc', '#74c0fc', '#8ce99a'];
+    const swatches = () => {
+      const row = new Container();
+      colours.forEach((col, i) => {
+        const s = new Graphics().circle(0, 0, 16).fill(col).stroke({ color: col === p.hair.colour ? 0xff4f8b : 0x5a3d4f, width: col === p.hair.colour ? 5 : 2 });
+        s.position.set(20 + (i % 13) * 38, 18);
+        s.eventMode = 'static';
+        s.on('pointertap', () => {
+          p.hair.colour = col;
+          rig.draw();
+          persist(this.world);
+          this.panel.refresh();
+        });
+        row.addChild(s);
+      });
+      return row;
+    };
+    this.panel.show(`💇 ${p.name}'s new look`, () => [...templates.values()].filter((t) => t.category === 'hair').map((t) => ({
+      selected: t.id === p.hair.template,
+      draw: () => templateThumb(t.id, { main: p.hair.colour, outline: '#3a2a2a' }, 84),
+      onTap: () => {
+        p.hair.template = t.id;
+        rig.draw();
+        playSound('tada');
+        persist(this.world);
+        this.panel.refresh();
+      },
+    })), { extra: swatches, side: (rig.getGlobalPosition().x > this.app.screen.width / 2 ? 'left' : 'right') });
   }
 
   /** Open the wardrobe for someone in the room. */
@@ -170,6 +225,7 @@ export class Game {
     for (const b of [this.hud.extras, this.hud.create, this.hud.people, this.hud.build]) b.visible = inWorld;
     this.emojis.close();
     this.wardrobe.hide();
+    this.panel.hide();
     this.travelPicker.hide();
     this.peopleBar.refresh();
     this.postbox.refresh();
@@ -187,6 +243,7 @@ export class Game {
     this.toast.layout(w, h);
     this.postbox.layout(w, h);
     this.wardrobe.layout(w, h);
+    this.panel.layout(w, h);
     this.travelPicker.layout(w, h);
   }
 }

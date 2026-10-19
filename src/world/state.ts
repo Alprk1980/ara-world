@@ -8,9 +8,11 @@ import { load, save } from '../app/save.ts';
 export const WEATHERS = ['sunny', 'rain', 'snow', 'wind', 'rainbow', 'cloudy'] as const;
 export type Weather = (typeof WEATHERS)[number];
 
-export type Person = Character & { kind: 'person'; at?: { place: string; floor: number; x: number; y: number }; holding?: string; bitesLeft?: number };
+export type Person = Character & { kind: 'person'; at?: { place: string; floor: number; x: number; y: number }; holding?: string; bitesLeft?: number; makeup?: Makeup };
+/** Makeup on a face: colours for lips, cheeks and eyelids, and glitter. */
+export type Makeup = { lips?: string; blush?: string; eyes?: string; glitter?: boolean };
 export type Pet = { kind: 'pet'; id: string; name: string; item: string; at?: { place: string; floor: number; x: number; y: number } };
-export type Thing = Placed & { uid: string; y: number; bitesLeft?: number };
+export type Thing = Placed & { uid: string; y: number; bitesLeft?: number; /** Switched on (lamps, TVs). */ on?: boolean };
 export type Lot = { house: string; variant: number; furnished: boolean };
 
 export type World = {

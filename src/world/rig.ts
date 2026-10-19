@@ -231,6 +231,11 @@ export class Rig extends Container {
       const tilt = f.eyes === 'angry' ? er * 0.9 : -f.brows * er * 0.4;
       g.moveTo(side * (ex + er), by).lineTo(side * (ex - er), by + tilt).stroke({ color: ink, width: er * 0.4, cap: 'round' });
     }
+    // Makeup from the makeup shop: eyeshadow above the eyes, blush on the cheeks, glitter sparkles.
+    const mk = this.person.makeup;
+    if (mk?.eyes) for (const side of [-1, 1]) g.ellipse(side * ex, ey - er * 1.1, er * 1.5, er * 0.7).fill({ color: hexNum(mk.eyes), alpha: 0.55 });
+    if (mk?.blush) for (const side of [-1, 1]) g.ellipse(side * b.headR * 0.55, ey + b.headR * 0.32, b.headR * 0.2, b.headR * 0.12).fill({ color: hexNum(mk.blush), alpha: 0.65 });
+    if (mk?.glitter) for (const [x, y] of [[-0.6, 0.15], [0.62, 0.2], [-0.45, 0.45], [0.5, 0.48]]) star(g, x * b.headR, ey + y * b.headR, b.headR * 0.07, 0xffe066);
     if (f.blush) for (const side of [-1, 1]) g.ellipse(side * b.headR * 0.55, ey + b.headR * 0.32, b.headR * 0.17, b.headR * 0.1).fill({ color: 0xff7aa8, alpha: 0.6 });
     if (f.tears) for (const side of [-1, 1]) g.ellipse(side * ex + side * er * 0.4, ey + er * 2.4, er * 0.45, er * 0.75).fill(0x7cc8ff);
     const my = headCy + b.headR * 0.5, mw = b.headR * 0.32;
@@ -250,6 +255,8 @@ export class Rig extends Container {
       case 'kiss': heart(g, mw * 0.1, my + mw * 0.2, mw * 0.7, 0xff4f8b); break;
       default: g.moveTo(-mw, my).quadraticCurveTo(0, my + mw * 1.1, mw, my).stroke({ color: ink, width: er * 0.5, cap: 'round' });
     }
+    // Lipstick: a soft coloured smile over the mouth.
+    if (mk?.lips) g.ellipse(0, my + mw * 0.35, mw * 0.75, mw * 0.32).fill({ color: hexNum(mk.lips), alpha: 0.75 });
     if (this.chewing > 0) g.ellipse(0, my + mw * 0.2, mw * 0.5, mw * (0.2 + 0.3 * Math.abs(Math.sin(this.chewing * 14)))).fill(ink);
   }
 
@@ -301,6 +308,14 @@ export class Rig extends Container {
   }
 
   private chewing = 0;
+  /** Rocking on a swing, hammock or rocking horse. */
+  swinging = false;
+  private swingT = 0;
+
+  /** Redraw the face (after makeup changes). */
+  refreshFace(): void {
+    this.drawFace();
+  }
   // Idle life: blinking, breathing, sleeping.
   private blinkIn = 1 + Math.random() * 3;
   private blinking = 0;
@@ -344,6 +359,13 @@ export class Rig extends Container {
     if (!this.emotion) {
       // Breathe, blink now and then, and drift a z z z while asleep.
       this.idleT += dt;
+      if (this.swinging) {
+        this.swingT += dt;
+        this.body.rotation = Math.sin(this.swingT * 2.6) * 0.18;
+      } else if (this.swingT) {
+        this.swingT = 0;
+        this.body.rotation = 0;
+      }
       this.body.scale.set(1, 1 + Math.sin(this.idleT * 2.2) * 0.012);
       if (this.blinking > 0) {
         this.blinking -= dt;

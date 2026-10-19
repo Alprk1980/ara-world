@@ -7,9 +7,11 @@ import { categoryOf, houses, items, places } from '../data/index.ts';
 import { anchorOffset, itemSize, itemSprite } from '../art/geometry.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { dressFloor } from '../art/room-dressing.ts';
-import { DISTRICT_AWNING } from '../art/house-art.ts';
+import { themeFor } from '../art/themes.ts';
 import { label, roundButton } from '../ui/kit.ts';
 import { playSound } from '../ui/sound.ts';
+import { COOKS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, is, makeupKind } from './behaviours.ts';
+import { emotions } from '../data/index.ts';
 import { Rig } from './rig.ts';
 import { floorsOf, persist, thingsOn, uid, type Person, type Thing } from './state.ts';
 import type { Game } from '../app/game.ts';
@@ -98,24 +100,16 @@ export class PlaceScene implements Scene {
   private buildFloor(f: Floor, i: number): Container {
     const c = new Container();
     const H = f.outdoor ? OUTDOOR_HEIGHT : WALL_HEIGHT;
-    const bg = new Graphics();
-    if (f.outdoor) {
-      const night = this.game.world.sky.night;
-      bg.rect(-200, -H - 200, f.width + 400, H + 200).fill(night ? 0x1d2350 : 0xbfe6ff);
-    } else {
-      bg.rect(-200, -H - 30, f.width + 400, H + 30 + GROUND).fill(hexNum(shade(f.wall, -0.08)));
-      bg.rect(0, -H, f.width, H).fill(hexNum(f.wall));
-      // A skirting line and a ceiling line make it read as a room.
-      bg.rect(0, -6, f.width, 6).fill(hexNum(shade(f.wall, -0.15)));
-      bg.rect(0, -H - 6, f.width, 6).fill(hexNum(shade(f.wall, -0.2)));
-    }
-    bg.rect(f.outdoor ? -200 : 0, 0, f.width + (f.outdoor ? 400 : 0), GROUND).fill(hexNum(f.ground));
-    c.addChild(bg);
-    // Wallpaper, windows, a sign, floor pattern (or sky, hills and a fence outdoors).
+    // The backdrop is themed by place and floor name (src/art/themes.ts): walls, windows, floor, or outdoor scenery.
     const place = places.get(this.placeId);
+    const lot = this.game.world.lots[this.placeId];
+    const theme = themeFor(this.placeId, f.name, !!f.outdoor, lot ? houses.get(lot.house)?.style : undefined);
+    const surround = new Graphics();
+    if (!f.outdoor) surround.rect(-200, -H - 30, f.width + 400, H + 30 + GROUND).fill(hexNum(shade(theme.wall, -0.12)));
+    c.addChild(surround);
     c.addChild(dressFloor(f, {
       seed: `${this.placeId}:${i}`,
-      accent: DISTRICT_AWNING[place?.district ?? 'homes'] ?? '#ff8fb8',
+      theme,
       night: this.game.world.sky.night,
       sign: place && i === 0 ? { emoji: place.emoji, name: place.name } : undefined,
     }));
@@ -147,11 +141,14 @@ export class PlaceScene implements Scene {
     // Night: the room dims and lights glow (drawn every frame so they follow lamps that are moved).
     if (this.game.world.sky.night) {
       const dark = new Graphics().rect(-200, -H - 200, f.width + 400, H + 200 + GROUND).fill({ color: 0x1d2350, alpha: f.outdoor ? 0.25 : 0.38 });
-      const glows = new Graphics();
-      glows.label = 'glows';
-      dark.eventMode = glows.eventMode = 'none';
-      c.addChild(dark, glows);
+      dark.eventMode = 'none';
+      c.addChild(dark);
     }
+    // Glows and screens (lights at night, anything switched on), drawn every frame.
+    const glows = new Graphics();
+    glows.label = 'glows';
+    glows.eventMode = 'none';
+    c.addChild(glows);
     return c;
   }
 
@@ -171,14 +168,23 @@ export class PlaceScene implements Scene {
 
   /** Glows around lights at night, following where the lights are now. */
   private drawGlows(): void {
-    if (!this.game.world.sky.night) return;
+    const night = this.game.world.sky.night, now = performance.now() / 1000;
     this.floorViews.forEach((v, i) => {
       const g = v.getChildByLabel('glows') as Graphics | null;
       if (!g) return;
       g.clear();
       for (const t of thingsOn(this.game.world, this.placeId, i)) {
-        if (!LIGHT.test(items.get(t.item)?.template ?? '')) continue;
-        const h = itemSize(t.item).h;
+        const tplId = items.get(t.item)?.template ?? '';
+        const h = itemSize(t.item).h, w = itemSize(t.item).w;
+        // A switched-on screen shows a little cartoon: colour bars that shift.
+        if (t.on && SCREENS.test(tplId)) {
+          const sw = w * 0.6, sh = h * 0.35, sx = t.x - sw / 2, sy = -t.y - h * 0.72;
+          const cols = [0xff8fb8, 0xffd36e, 0x7fd1c7, 0xb197fc];
+          for (let k = 0; k < 4; k++) g.rect(sx + (sw / 4) * k, sy, sw / 4, sh).fill({ color: cols[(k + Math.floor(now * 2)) % 4], alpha: 0.85 });
+          g.circle(t.x + Math.sin(now * 3) * sw * 0.3, sy + sh / 2, sh * 0.2).fill(0xffffff);
+          continue;
+        }
+        if (!(night && LIGHT.test(tplId)) && !(t.on && SWITCHES.test(tplId))) continue;
         // A soft halo around the top of the light: a few rings fading outwards.
         const r = Math.min(40, Math.max(16, h * 0.3)), cy = -t.y - h * 0.78;
         for (const [k, a] of [[1.6, 0.12], [1.25, 0.18], [0.9, 0.26]] as const) g.circle(t.x, cy, r * k).fill({ color: 0xffc94d, alpha: a });
@@ -213,7 +219,7 @@ export class PlaceScene implements Scene {
     const height = rig.geo.height;
     rig.hitArea = new Rectangle(-rig.geo.b.torsoW * 0.8, -height, rig.geo.b.torsoW * 1.6, height);
     // Someone left sitting (or sleeping) stays that way when you come back.
-    if (person.at && person.at.y > 4) this.settlePerson(person, rig);
+    if (person.at && person.at.y > 4) this.settlePerson(person, rig, false);
     let downAt = 0, downX = 0, downY = 0;
     rig.on('pointerdown', (e) => {
       e.stopPropagation();
@@ -352,7 +358,13 @@ export class PlaceScene implements Scene {
         d.sprite.position.set(d.thing.x, -d.thing.y);
         this.bounce(d.sprite);
         playSound(categoryOf(d.thing.item) === 'animal' ? 'giggle' : 'pop');
-        if (WARDROBE.test(items.get(d.thing.item)?.template ?? '')) this.openWardrobeNear(d.thing.x, d.floor);
+        const t = d.thing, fl = d.floor;
+        if (WARDROBE.test(items.get(t.item)?.template ?? '')) this.openWardrobeNear(t.x, fl);
+        else if (containerOf(t.item)) this.game.openContainer(t, (id) => this.addThing({ item: id, x: clamp(t.x + itemSize(t.item).w / 2 + 12, 10, this.floorData[fl].width - 10), y: 0, uid: uid() }, fl));
+        else if (SWITCHES.test(items.get(t.item)?.template ?? '')) {
+          t.on = !t.on;
+          persist(this.game.world);
+        }
         return;
       }
       this.dropThing(d.thing, d.sprite, d.floor);
@@ -379,8 +391,27 @@ export class PlaceScene implements Scene {
   private dropThing(t: Thing, s: Sprite, floor: number): void {
     const cat = categoryOf(t.item);
     const f = this.floorData[floor];
+    // Makeup dropped on a face shows on it; the makeup itself lands beside them.
+    const mk = makeupKind(t.item);
+    if (mk) {
+      for (const person of this.game.world.people) {
+        const rig = this.rigs.get(person.id);
+        if (!rig || person.at?.floor !== floor) continue;
+        const headY = person.at.y - rig.geo.headCy, r = rig.geo.b.headR;
+        if (Math.abs(t.x - person.at.x) < r * 1.6 && Math.abs(t.y - headY) < r * 1.8) {
+          const colour = items.get(t.item)?.palette.main ?? '#ff8fb8';
+          person.makeup = { ...person.makeup, ...(mk === 'glitter' ? { glitter: true } : { [mk]: colour }) };
+          rig.refreshFace();
+          this.sparkle(this.floorViews[floor], person.at.x, -headY);
+          playSound('kiss');
+          t.x = person.at.x + r * 2;
+          t.y = 0;
+          break;
+        }
+      }
+    }
     // Onto a person: holdable things go to the hand; food dropped on the mouth gets eaten.
-    if (HOLDABLE.has(cat)) {
+    if (HOLDABLE.has(cat) && !mk) {
       for (const person of this.game.world.people) {
         const rig = this.rigs.get(person.id);
         if (!rig || person.at?.floor !== floor) continue;
@@ -403,6 +434,39 @@ export class PlaceScene implements Scene {
     const onWall = items.get(t.item)?.tags.includes('wall') && t.y > 10;
     if (!onWall) t.y = this.surfaceBelow(t.x, t.y, floor, t);
     s.position.set(t.x, -t.y);
+    // Food on a cooker cooks: steam, a ding, and it's fresh to eat again.
+    if (EDIBLE.has(cat)) {
+      const cooker = thingsOn(this.game.world, this.placeId, floor).find((o) => o !== t && is(COOKS, o.item) && Math.abs(o.x - t.x) < itemSize(o.item).w / 2 + 4 && t.y <= o.y + itemSize(o.item).h);
+      if (cooker) {
+        t.bitesLeft = undefined;
+        this.puff(floor, t.x, t.y + itemSize(t.item).h, 0xffffff, 7);
+        playSound('tada');
+      }
+    }
+  }
+
+  /** A little burst of rising puffs (steam, bubbles). */
+  private puff(floor: number, x: number, y: number, color: number, n: number): void {
+    const layer = this.floorViews[floor];
+    for (let i = 0; i < n; i++) {
+      const b = new Graphics().circle(0, 0, 3 + Math.random() * 4).fill({ color, alpha: 0.85 }).stroke({ color: 0x9ad0ff, width: color === 0xffffff ? 0 : 1 });
+      b.position.set(x + (Math.random() - 0.5) * 20, -y);
+      layer.addChild(b);
+      let t = -i * 0.08;
+      const tick = (dt: number) => {
+        t += dt;
+        if (b.destroyed) return this.updates.delete(tick);
+        if (t < 0) return;
+        b.y -= dt * 40;
+        b.x += Math.sin(t * 6 + i) * dt * 10;
+        b.alpha = Math.max(0, 1 - t / 1.4);
+        if (t > 1.4) {
+          this.updates.delete(tick);
+          b.destroy();
+        }
+      };
+      this.updates.add(tick);
+    }
   }
 
   /** Height of the highest table-top (a 'top' anchor) under x that is below y, else the floor. */
@@ -419,23 +483,36 @@ export class PlaceScene implements Scene {
     return best;
   }
 
-  private settlePerson(person: Person, rig: Rig): void {
+  private settlePerson(person: Person, rig: Rig, dropped = true): void {
     const at = person.at!;
     const f = this.floorData[at.floor];
     at.x = clamp(at.x, 8, f.width - 8);
     // Sit on a seat if dropped near one, else stand on the floor.
     let y = 0;
     let bed = false;
+    let on: Thing | null = null;
     for (const o of thingsOn(this.game.world, this.placeId, at.floor)) {
-      const seat = anchorOffset(o.item, 'seat');
+      // Baths, swings and salon chairs work even without a seat point: sit about halfway up.
+      const special = is(SPLASH, o.item) || is(SWINGS, o.item) || is(SALON, o.item);
+      const seat = anchorOffset(o.item, 'seat') ?? (special ? { x: 0, y: -itemSize(o.item).h * 0.45 } : null);
       if (seat && Math.abs(o.x + seat.x - at.x) < 14 && at.y > 4) {
         at.x = o.x + seat.x;
         y = o.y - seat.y - rig.geo.b.legH * 0.6;
-        bed = BED.test(items.get(o.item)?.template ?? '');
+        bed = BED.test(items.get(o.item)?.template ?? '') && !is(SWINGS, o.item);
+        on = o;
         break;
       }
     }
     rig.asleep = bed;
+    rig.swinging = !!on && is(SWINGS, on.item);
+    if (on && dropped && is(SPLASH, on.item)) {
+      // Splash! Bubbles and a happy wiggle.
+      this.puff(at.floor, at.x, y + rig.geo.height * 0.4, 0xe3f6ff, 10);
+      const happy = emotions.find((e) => e.id === 'happy');
+      if (happy) rig.feel(happy);
+      playSound('giggle');
+    }
+    if (on && dropped && is(SALON, on.item)) this.game.openHair(rig);
     // Sleepers lie down along the bed (only the drawing turns; the saved spot stays the seat).
     rig.rotation = bed ? -Math.PI / 2 : 0;
     at.y = Math.max(0, y);

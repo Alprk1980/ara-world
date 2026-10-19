@@ -216,6 +216,55 @@ try {
   check('travelling takes them (and you) to the new place', travelled === '__test2 / __test2', travelled);
   await shot('9-travelled');
 
+  // Things that do stuff: fridge opens, TV switches on, oven cooks, lipstick shows, bath bubbles, swing swings, salon.
+  const doStuff = await inPage<Record<string, string | boolean>>(`
+    const find = (re) => [...data.items.keys()].find((id) => re.test(data.items.get(id).template));
+    const ids = { fridge: find(/fridge/), tv: find(/tv|computer/), oven: find(/oven|stove/), lips: find(/lipstick|lip_balm/), salon: find(/salon_chair/), bath: find(/bath/), swing: find(/swing|hammock/), food: find(/cupcake|croissant|pizza/) };
+    const floorItems = [['fridge', 60], ['tv', 200], ['oven', 330], ['salon', 470], ['bath', 640], ['swing', 820]].filter(([k]) => ids[k]).map(([k, x]) => ({ item: ids[k], x }));
+    data.places.set('__test3', { id: '__test3', name: 'Doing Room', emoji: '🧪', district: 'downtown', floors: [{ name: 'Room', wall: '#ffe3ef', ground: '#d9b38c', width: 1000, items: floorItems }] });
+    const p = ara.world.people.find((p) => p.id === '__tester');
+    p.at = { place: '__test3', floor: 0, x: 900, y: 0 };
+    ara.stack.replace(new (ara.place.constructor)(ara, '__test3'));
+    const scene = ara.place;
+    const things = st.thingsOn(ara.world, '__test3', 0);
+    const thing = (k) => things.find((t) => t.item === ids[k]);
+    const out = {};
+    // Fridge: opening shows food.
+    if (thing('fridge')) { ara.openContainer(thing('fridge'), () => {}); out.fridgeOpens = ara.panel.open; ara.panel.hide(); }
+    // TV: a tap switches it on.
+    if (thing('tv')) { const t = thing('tv'); t.on = !t.on; out.tvOn = !!t.on; }
+    // Oven: food dropped on it cooks (bites reset).
+    if (thing('oven') && ids.food) {
+      const o = thing('oven');
+      const f = { item: ids.food, x: o.x, y: 10, uid: 'cookme', bitesLeft: 1 };
+      things.push(f);
+      scene.dropThing(f, new (await import('/src/dev/pixi.ts')).Sprite(), 0);
+      out.cooked = f.bitesLeft === undefined;
+    }
+    // Lipstick on her face.
+    const rig = scene.rigs.get('__tester');
+    if (ids.lips) {
+      const t = { item: ids.lips, x: p.at.x, y: p.at.y - rig.geo.headCy, uid: 'lips' };
+      things.push(t);
+      scene.dropThing(t, new (await import('/src/dev/pixi.ts')).Sprite(), 0);
+      out.lipstick = !!p.makeup?.lips;
+    }
+    // Bath: put her in it.
+    if (thing('bath')) { p.at.x = thing('bath').x; p.at.y = 20; scene.settlePerson(p, rig); out.inBath = p.at.y > 0; }
+    // Swing.
+    if (thing('swing')) { p.at.x = thing('swing').x; p.at.y = 20; scene.settlePerson(p, rig); out.swinging = rig.swinging; }
+    // Salon chair opens the hair panel.
+    if (thing('salon')) { p.at.x = thing('salon').x; p.at.y = 20; scene.settlePerson(p, rig); out.salon = ara.panel.open; }
+    st.persist(ara.world);
+    return { ...out, have: Object.entries(ids).filter(([, v]) => v).map(([k]) => k).join(',') };
+  `);
+  console.log(`  (things found: ${doStuff.have})`);
+  for (const [k, label] of [['fridgeOpens', 'tapping a fridge opens it'], ['tvOn', 'tapping a TV switches it on'], ['cooked', 'food on the oven cooks'], ['lipstick', 'lipstick dropped on a face shows'], ['inBath', 'someone put in the bath sits in it'], ['swinging', 'someone on a swing swings'], ['salon', 'the salon chair opens the hair panel']] as const)
+    if (k in doStuff) check(label, doStuff[k] === true);
+  await shot('10-doing-room');
+  await inPage(`ara.panel.hide(); ara.stack.replace(new (ara.place.constructor)(ara, '__test2'));`);
+  await inPage(`const p = ara.world.people.find((p) => p.id === '__tester'); p.at = { place: '__test2', floor: 0, x: 80, y: 0 }; st.persist(ara.world);`);
+
   // Close and reopen: the world is still there.
   await page.waitForTimeout(800);
   await page.reload();

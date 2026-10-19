@@ -36,7 +36,7 @@ for (const t of list) {
 ${t.category === 'shoes' || t.category === 'socks' ? 'It is a pair, drawn as two.' : ''}
 Answer with only JSON: {"sees": "what you see, a few words", "recognizable": true if a child would recognise it as a ${t.name}, "cute": 1-5, "broken": true if it looks glitchy, cut off or messy}`;
   // Blind first: what does it look like without being told? A guess sharing no word with the name is a lead.
-  const blind = (await chat([{ role: 'user', content: [{ type: 'text', text: "This is a flat cartoon drawing for a children's game (all drawings use the same pink and yellow test colours). What object is it? Answer with only 1-4 words." }, { type: 'image_url', image_url: { url: image } }] }], { model: VISION_MODEL, maxTokens: 30, temperature: 0 })).replace(/[^a-zA-Z ]/g, ' ').trim().toLowerCase();
+  const blind = (await chat([{ role: 'user', content: [{ type: 'text', text: "This is a flat cartoon drawing for a children's game (all drawings use the same pink and yellow test colours). What object is it? Answer with only 1-4 words." }, { type: 'image_url', image_url: { url: image } }] }], { model: VISION_MODEL, maxTokens: 8000, temperature: 0 })).replace(/[^a-zA-Z ]/g, ' ').trim().toLowerCase();
   // Same kind of thing? Cheap spelling check here ("t shirt" ~ "tshirt"); leftovers go to the big model in one batch.
   const squash = (x: string) => x.toLowerCase().replace(/[^a-z]/g, '');
   const tokens = (x: string) =>
@@ -46,7 +46,7 @@ Answer with only JSON: {"sees": "what you see, a few words", "recognizable": tru
   const guessMatches = tokens(`${t.name} ${t.id}`).some((w) => squash(blind).includes(w)) || tokens(blind).some((w) => squash(t.name).includes(w));
   let verdict: Verdict | null = null;
   for (let attempt = 0; attempt < 2 && !verdict; attempt++) {
-    const reply = await chat([{ role: 'user', content: [{ type: 'text', text: question }, { type: 'image_url', image_url: { url: image } }] }], { model: VISION_MODEL, maxTokens: 300, temperature: 0.2 });
+    const reply = await chat([{ role: 'user', content: [{ type: 'text', text: question }, { type: 'image_url', image_url: { url: image } }] }], { model: VISION_MODEL, maxTokens: 8000, temperature: 0.2 });
     const v = parseJson(reply, 'object');
     if (verdictErrors(v).length === 0) verdict = v as Verdict;
   }

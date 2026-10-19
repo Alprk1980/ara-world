@@ -6,7 +6,7 @@ import { Agent, setGlobalDispatcher } from 'undici';
 setGlobalDispatcher(new Agent({ headersTimeout: 0, bodyTimeout: 0, connectTimeout: 30_000 }));
 export const BASE = (process.env.LLM_URL ?? 'http://100.66.95.17:1234/v1').replace(/\/$/, '');
 export const MODEL = process.env.LLM_MODEL ?? 'qwen/qwen3.8-27b';
-export const VISION_MODEL = process.env.LLM_VISION_MODEL ?? 'qwen/qwen2.5-vl-7b';
+export const VISION_MODEL = process.env.LLM_VISION_MODEL ?? 'qwen/qwen3.8-27b';
 
 export type Message = { role: 'system' | 'user' | 'assistant'; content: string | unknown[] };
 
