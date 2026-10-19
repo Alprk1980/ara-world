@@ -9214,5 +9214,81 @@
       ]
     },
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"128\" cy=\"140\" r=\"80\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 110 C100 140 156 120 200 150 M70 170 C120 190 170 170 196 120 M100 70 C80 120 110 180 150 214\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M196 190 C226 210 236 236 210 240\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "wheelchair",
+    "name": "Wheelchair",
+    "category": "furniture",
+    "size": {
+      "w": 40,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ],
+      "seat": [
+        128,
+        116
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><circle cx=\"96\" cy=\"180\" r=\"56\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"180\" r=\"56\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\"/><path d=\"M96 124 V236 M40 180 H152 M56 140 L136 220 M136 140 L56 220\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"206\" cy=\"222\" r=\"16\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"110\" width=\"120\" height=\"30\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"30\" width=\"30\" height=\"96\" rx=\"12\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 140 L206 210 M180 40 L222 40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"90\" cy=\"116\" rx=\"20\" ry=\"5\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "walking_frame",
+    "name": "Walking Frame",
+    "category": "elder",
+    "size": {
+      "w": 24,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M50 236 V70 M206 236 V70 M50 70 C50 40 206 40 206 70 M50 150 H206\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"60\" width=\"30\" height=\"26\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"186\" y=\"60\" width=\"30\" height=\"26\" rx=\"10\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"50\" cy=\"230\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"206\" cy=\"230\" r=\"10\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bar_stool",
+    "name": "Bar Stool",
+    "category": "furniture",
+    "size": {
+      "w": 20,
+      "h": 36
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ],
+      "seat": [
+        128,
+        80
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"M70 80 C70 50 186 50 186 80 C186 100 70 100 70 80 Z\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 96 V210\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M80 236 L128 200 L176 236\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"170\" rx=\"40\" ry=\"10\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "pool_table",
+    "name": "Pool Table",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        238
+      ],
+      "top": [
+        128,
+        90
+      ]
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><rect x=\"14\" y=\"90\" width=\"228\" height=\"40\" rx=\"14\" fill=\"{{main}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"98\" width=\"204\" height=\"24\" rx=\"8\" fill=\"{{accent}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 130 V236 M216 130 V236 M128 130 V200\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"70\" cy=\"108\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"108\" r=\"8\" fill=\"{{trim}}\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"108\" r=\"8\" fill=\"#3a2a2a\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"196\" cy=\"110\" r=\"8\" fill=\"#ffffff\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 70 L170 96\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
   }
 ]

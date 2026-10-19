@@ -82,6 +82,32 @@ function agesFor(id: string): string[] | undefined {
   return undefined;
 }
 
+/** Real-world colours for vehicles and landmarks that should look right (a red fire engine, a blue police car). */
+const CLASSIC: [RegExp, Item['palette']][] = [
+  [/fire_(engine|truck)/, { main: '#e63946', trim: '#ffffff', accent: '#ffd36e', outline: '#7a1d26' }],
+  [/police_(car|patrol_car)/, { main: '#3a6ea5', trim: '#ffffff', accent: '#ffd36e', outline: '#1d3a5f' }],
+  [/bus$|city_bus|cute_stop_bus/, { main: '#ffd36e', trim: '#ffffff', accent: '#3a6ea5', outline: '#8a6a12' }],
+  [/steam_train|train$/, { main: '#e63946', trim: '#3a3a3a', accent: '#ffd36e', outline: '#5a1d26' }],
+  [/airplane/, { main: '#ffffff', trim: '#3a6ea5', accent: '#e63946', outline: '#2f4f7a' }],
+  [/ambulance/, { main: '#ffffff', trim: '#e63946', accent: '#ffd36e', outline: '#7a1d26' }],
+];
+
+/** Add the classic colourway for vehicles that have one (kept separate so existing items are untouched). */
+function addClassics(items: Item[]): number {
+  let n = 0;
+  for (const t of templates) {
+    const hit = CLASSIC.find(([re]) => re.test(t.id));
+    if (!hit || items.some((i) => i.id === `${t.id.slice(0, 38)}_classic`)) continue;
+    const base = items.find((i) => i.template === t.id);
+    const it: Item = { id: `${t.id.slice(0, 38)}_classic`, name: t.name.slice(0, 30), template: t.id, palette: { ...hit[1] }, tags: base?.tags.length ? base.tags : ['station'] };
+    if (itemErrors(it, [...items, it], tById).length === 0) {
+      items.push(it);
+      n++;
+    }
+  }
+  return n;
+}
+
 function makeItems(): void {
   const items = load<Item>(FILES.item);
   const covered = new Set(items.map((i) => i.template));
@@ -115,8 +141,9 @@ function makeItems(): void {
       added++;
     }
   }
+  const classics = addClassics(items);
   save(FILES.item, items);
-  console.log(`items: +${added} (${failed} rejected), ${items.length} total`);
+  console.log(`items: +${added} (${failed} rejected), +${classics} classic colourways, ${items.length} total`);
 }
 
 // ---------------------------------------------------------------- layouts
@@ -225,11 +252,11 @@ function makePlaces(): void {
     // Borrow only generic things (not another place's own drawings), and seasonal colours only where they belong.
     const seasonalOk = (i: Item) => p.tags.includes('halloween') ? true : !i.tags.includes('halloween') && !i.tags.includes('christmas');
     // Signature pieces first (one colourway each, in a random order), then the rest of the place's own things.
-    const sig = shuffle(all.filter((i) => SIGS[i.template]?.includes(p.id) && seasonalOk(i)).map((i) => i.id));
+    const sig = shuffle(all.filter((i) => SIGS[i.template]?.includes(p.id) && seasonalOk(i)).map((i) => i.id)).sort((x, y) => Number(y.endsWith('_classic')) - Number(x.endsWith('_classic')));
     const own = [...sig, ...shuffle(all.filter((i) => linked.has(i.template) && !SIGS[i.template]?.includes(p.id) && seasonalOk(i)).map((i) => i.id))];
     // Places with few drawings of their own may borrow tagged things from other places.
     const borrow = new Set(own.map((id) => c.items.get(id)!.template)).size < 4;
-    const tagged = shuffle(all.filter((i) => !linked.has(i.template) && (borrow || !ownedElsewhere.has(i.template)) && i.tags.some((t) => tags.has(t)) && seasonalOk(i)).map((i) => i.id));
+    const tagged = shuffle(all.filter((i) => !linked.has(i.template) && (borrow || !ownedElsewhere.has(i.template)) && i.tags.some((t) => tags.has(t)) && seasonalOk(i) && !/lamp|light/.test(i.template)).map((i) => i.id));
     // A little generic greenery only: plants, never lamps or random decor.
     const general = shuffle(all.filter((i) => catOf(c, i.id) === 'plant' && !ownedElsewhere.has(i.template) && seasonalOk(i)).map((i) => i.id)).slice(0, 2);
     const floors: Floor[] = [];
@@ -247,7 +274,9 @@ function makePlaces(): void {
       const ownTemplates = [...new Set(own.map((id) => c.items.get(id)!.template))];
       const mine = own.filter((id) => ownTemplates.indexOf(c.items.get(id)!.template) % n === fi);
       const rotate = <T>(a: T[]) => a.slice(fi * 5).concat(a.slice(0, fi * 5));
-      const indoorOk = (id: string) => outdoor || catOf(c, id) !== 'vehicle';
+      // Vehicles stay outdoors; fireplaces, sofas, beds, fridges and the like stay indoors.
+      const INDOOR_ONLY = /fireplace|sofa|bed|fridge|bath|wardrobe|dresser|piano|cabinet|lamp|tv|computer|printer|desk|counter|shelf|armchair|sink|bookshelf|cot/;
+      const indoorOk = (id: string) => (outdoor ? !INDOOR_ONLY.test(c.items.get(id)!.template) : catOf(c, id) !== 'vehicle');
       // A floor's own share first, then the place's other things (other colourways), then tagged, then general.
       const others = shuffle(own.filter((id) => !mine.includes(id)));
       // Signature pieces on every floor first (they make the place what it is), then this floor's share of the

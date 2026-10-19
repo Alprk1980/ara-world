@@ -59162,5 +59162,632 @@
       "farm",
       "toys"
     ]
+  },
+  {
+    "id": "wheelchair_strawberry",
+    "name": "Strawberry Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffe0ec",
+      "accent": "#ffd36e",
+      "outline": "#9c3d64"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_mint",
+    "name": "Mint Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#8fe3c8",
+      "trim": "#e6fff6",
+      "accent": "#ff9fb8",
+      "outline": "#2f7d68"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_lemon",
+    "name": "Lemon Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#ffe066",
+      "trim": "#fff7d1",
+      "accent": "#7fb8ff",
+      "outline": "#a07a12"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_sky",
+    "name": "Sky Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#7fc4ff",
+      "trim": "#e3f2ff",
+      "accent": "#ffd36e",
+      "outline": "#2f5f8f"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_lilac",
+    "name": "Lilac Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#c3a6ff",
+      "trim": "#f1e9ff",
+      "accent": "#ff9fb8",
+      "outline": "#5f4799"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_cocoa",
+    "name": "Cocoa Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#b07a54",
+      "trim": "#f2dcc6",
+      "accent": "#ff8fb8",
+      "outline": "#5c3a22"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder",
+      "living"
+    ]
+  },
+  {
+    "id": "wheelchair_spooky",
+    "name": "Spooky Wheelchair",
+    "template": "wheelchair",
+    "palette": {
+      "main": "#ff9f43",
+      "trim": "#7b4fa0",
+      "accent": "#8ce99a",
+      "outline": "#3d2457"
+    },
+    "tags": [
+      "halloween",
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "walking_frame_strawberry",
+    "name": "Strawberry Walking Frame",
+    "template": "walking_frame",
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffe0ec",
+      "accent": "#ffd36e",
+      "outline": "#9c3d64"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "walking_frame_mint",
+    "name": "Mint Walking Frame",
+    "template": "walking_frame",
+    "palette": {
+      "main": "#8fe3c8",
+      "trim": "#e6fff6",
+      "accent": "#ff9fb8",
+      "outline": "#2f7d68"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "walking_frame_lemon",
+    "name": "Lemon Walking Frame",
+    "template": "walking_frame",
+    "palette": {
+      "main": "#ffe066",
+      "trim": "#fff7d1",
+      "accent": "#7fb8ff",
+      "outline": "#a07a12"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "walking_frame_sky",
+    "name": "Sky Walking Frame",
+    "template": "walking_frame",
+    "palette": {
+      "main": "#7fc4ff",
+      "trim": "#e3f2ff",
+      "accent": "#ffd36e",
+      "outline": "#2f5f8f"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "walking_frame_lilac",
+    "name": "Lilac Walking Frame",
+    "template": "walking_frame",
+    "palette": {
+      "main": "#c3a6ff",
+      "trim": "#f1e9ff",
+      "accent": "#ff9fb8",
+      "outline": "#5f4799"
+    },
+    "tags": [
+      "hospital",
+      "baby",
+      "nursery",
+      "elder_home",
+      "elder"
+    ]
+  },
+  {
+    "id": "bar_stool_strawberry",
+    "name": "Strawberry Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffe0ec",
+      "accent": "#ffd36e",
+      "outline": "#9c3d64"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_mint",
+    "name": "Mint Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#8fe3c8",
+      "trim": "#e6fff6",
+      "accent": "#ff9fb8",
+      "outline": "#2f7d68"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_lemon",
+    "name": "Lemon Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#ffe066",
+      "trim": "#fff7d1",
+      "accent": "#7fb8ff",
+      "outline": "#a07a12"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_sky",
+    "name": "Sky Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#7fc4ff",
+      "trim": "#e3f2ff",
+      "accent": "#ffd36e",
+      "outline": "#2f5f8f"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_lilac",
+    "name": "Lilac Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#c3a6ff",
+      "trim": "#f1e9ff",
+      "accent": "#ff9fb8",
+      "outline": "#5f4799"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_cocoa",
+    "name": "Cocoa Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#b07a54",
+      "trim": "#f2dcc6",
+      "accent": "#ff8fb8",
+      "outline": "#5c3a22"
+    },
+    "tags": [
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "bar_stool_spooky",
+    "name": "Spooky Bar Stool",
+    "template": "bar_stool",
+    "palette": {
+      "main": "#ff9f43",
+      "trim": "#7b4fa0",
+      "accent": "#8ce99a",
+      "outline": "#3d2457"
+    },
+    "tags": [
+      "halloween",
+      "restaurant",
+      "cafe",
+      "pub",
+      "living"
+    ]
+  },
+  {
+    "id": "pool_table_strawberry",
+    "name": "Strawberry Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffe0ec",
+      "accent": "#ffd36e",
+      "outline": "#9c3d64"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_mint",
+    "name": "Mint Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#8fe3c8",
+      "trim": "#e6fff6",
+      "accent": "#ff9fb8",
+      "outline": "#2f7d68"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_lemon",
+    "name": "Lemon Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#ffe066",
+      "trim": "#fff7d1",
+      "accent": "#7fb8ff",
+      "outline": "#a07a12"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_sky",
+    "name": "Sky Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#7fc4ff",
+      "trim": "#e3f2ff",
+      "accent": "#ffd36e",
+      "outline": "#2f5f8f"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_lilac",
+    "name": "Lilac Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#c3a6ff",
+      "trim": "#f1e9ff",
+      "accent": "#ff9fb8",
+      "outline": "#5f4799"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_cocoa",
+    "name": "Cocoa Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#b07a54",
+      "trim": "#f2dcc6",
+      "accent": "#ff8fb8",
+      "outline": "#5c3a22"
+    },
+    "tags": [
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "pool_table_spooky",
+    "name": "Spooky Pool Table",
+    "template": "pool_table",
+    "palette": {
+      "main": "#ff9f43",
+      "trim": "#7b4fa0",
+      "accent": "#8ce99a",
+      "outline": "#3d2457"
+    },
+    "tags": [
+      "halloween",
+      "hotel",
+      "pub",
+      "living",
+      "garden"
+    ]
+  },
+  {
+    "id": "city_bus_classic",
+    "name": "City Bus",
+    "template": "city_bus",
+    "palette": {
+      "main": "#ffd36e",
+      "trim": "#ffffff",
+      "accent": "#3a6ea5",
+      "outline": "#8a6a12"
+    },
+    "tags": [
+      "school",
+      "daycare",
+      "mall",
+      "supermarket",
+      "cafe",
+      "station"
+    ]
+  },
+  {
+    "id": "cute_station_train_classic",
+    "name": "Cute Station Train",
+    "template": "cute_station_train",
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3a3a3a",
+      "accent": "#ffd36e",
+      "outline": "#5a1d26"
+    },
+    "tags": [
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "cute_stop_bus_classic",
+    "name": "Cute Stop Bus",
+    "template": "cute_stop_bus",
+    "palette": {
+      "main": "#ffd36e",
+      "trim": "#ffffff",
+      "accent": "#3a6ea5",
+      "outline": "#8a6a12"
+    },
+    "tags": [
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "cute_fire_truck_classic",
+    "name": "Fire Truck",
+    "template": "cute_fire_truck",
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffffff",
+      "accent": "#ffd36e",
+      "outline": "#7a1d26"
+    },
+    "tags": [
+      "fire_station",
+      "pet",
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "police_patrol_car_classic",
+    "name": "Police Car",
+    "template": "police_patrol_car",
+    "palette": {
+      "main": "#3a6ea5",
+      "trim": "#ffffff",
+      "accent": "#ffd36e",
+      "outline": "#1d3a5f"
+    },
+    "tags": [
+      "police",
+      "pet",
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "cute_airplane_classic",
+    "name": "Cute Airplane",
+    "template": "cute_airplane",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#3a6ea5",
+      "accent": "#e63946",
+      "outline": "#2f4f7a"
+    },
+    "tags": [
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "steam_train_classic",
+    "name": "Steam Train",
+    "template": "steam_train",
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3a3a3a",
+      "accent": "#ffd36e",
+      "outline": "#5a1d26"
+    },
+    "tags": [
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "fire_engine_classic",
+    "name": "Fire Engine",
+    "template": "fire_engine",
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffffff",
+      "accent": "#ffd36e",
+      "outline": "#7a1d26"
+    },
+    "tags": [
+      "fire_station",
+      "pet",
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "police_car_classic",
+    "name": "Police Car",
+    "template": "police_car",
+    "palette": {
+      "main": "#3a6ea5",
+      "trim": "#ffffff",
+      "accent": "#ffd36e",
+      "outline": "#1d3a5f"
+    },
+    "tags": [
+      "police",
+      "pet",
+      "station",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "big_airplane_classic",
+    "name": "Airplane",
+    "template": "big_airplane",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#3a6ea5",
+      "accent": "#e63946",
+      "outline": "#2f4f7a"
+    },
+    "tags": [
+      "airport",
+      "vip",
+      "station",
+      "outdoor"
+    ]
   }
 ]

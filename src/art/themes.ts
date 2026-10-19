@@ -55,7 +55,7 @@ export function themeFor(placeId: string, floorName: string, outdoor: boolean, h
   const set = new Set<string>(outdoor ? OUTDOOR : INDOOR);
   let kind = BY_NAME.find(([re, k]) => re.test(floorName) && set.has(k))?.[1];
   // Places with a strong outdoor identity keep it over a generic floor name (a zoo meadow is savanna, not a garden).
-  const strong = new Set(['savanna', 'farm', 'beach', 'snow', 'sky', 'candy', 'spooky', 'night']);
+  const strong = new Set(['savanna', 'farm', 'beach', 'snow', 'sky', 'candy', 'spooky', 'night', 'city', 'rails', 'runway']);
   if (outdoor && kind === 'garden' && strong.has(PLACE_OUTDOOR[placeId] ?? '')) kind = PLACE_OUTDOOR[placeId];
   if (!kind) {
     if (houseStyle) kind = outdoor ? (houseStyle === 'beach' ? 'beach' : houseStyle === 'spooky_cute' ? 'spooky' : houseStyle === 'farmhouse' ? 'farm' : 'garden') : houseStyle === 'mansion' || houseStyle === 'castle' ? 'fancy' : houseStyle === 'spooky_cute' ? 'spooky' : houseStyle === 'cabin' || houseStyle === 'treehouse' ? 'barn' : 'home';

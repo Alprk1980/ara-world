@@ -283,6 +283,13 @@ function outdoor(g: Graphics, c: Container, W: number, d: Dressing, h: number): 
     }
     case 'snow': {
       for (let x = -40; x < W + 40; x += 160) g.poly([x, 0, x + 90, -180 - ((x * 7) % 60), x + 180, 0]).fill(N('#c9d8ee')).poly([x + 60, -120 - ((x * 7) % 40), x + 90, -180 - ((x * 7) % 60), x + 120, -120 - ((x * 7) % 40)]).fill(0xffffff);
+      // A big snowy slope to ride down, with ski tracks and flags.
+      g.poly([-200, 0, W * 0.7, -190, W * 0.75, -185, W + 200, 0]).fill(0xffffff);
+      for (let k = 0; k < 3; k++) g.moveTo(W * (0.66 - k * 0.04), -170 + k * 6).quadraticCurveTo(W * (0.45 - k * 0.05), -100, W * (0.2 - k * 0.04), -6).stroke({ color: 0xc9d8ee, width: 3 });
+      for (let k = 0; k < 5; k++) {
+        const fx = W * (0.62 - k * 0.11), fy = -166 + k * 33;
+        g.rect(fx - 1, fy - 22, 2, 22).fill(0x6b6b6b).poly([fx + 1, fy - 22, fx + 14, fy - 17, fx + 1, fy - 12]).fill(k % 2 ? 0xff6b6b : 0x3a6ea5);
+      }
       for (let x = 20; x < W; x += 90) pine(g, x, 0.8 + ((x * 3) % 5) / 10);
       break;
     }
@@ -295,9 +302,14 @@ function outdoor(g: Graphics, c: Container, W: number, d: Dressing, h: number): 
     }
     case 'pool': {
       for (let x = 0; x < W; x += 22) for (let y = -60; y < -10; y += 22) g.rect(x + 1, y + 1, 20, 20).fill(N('#dff4ff'));
-      g.rect(0, -36, W, 28).fill(N('#7fd1ff'));
-      for (let x = 10; x < W; x += 50) g.moveTo(x, -24).quadraticCurveTo(x + 12, -30, x + 24, -24).stroke({ color: 0xffffff, width: 2 });
-      for (let x = 80; x < W; x += 260) umbrella(g, x, -60);
+      // A wide pool of water with rolling waves, a slide and a lifeguard chair.
+      g.rect(0, -90, W, 84).fill(N('#7fd1ff')).rect(0, -94, W, 6).fill(0xffffff);
+      for (let y = -80; y < -10; y += 16) for (let x = ((y / 16) % 2 ? 0 : 25); x < W; x += 50) g.moveTo(x, y).quadraticCurveTo(x + 12, y - 7, x + 24, y).stroke({ color: 0xffffff, width: 2.5, alpha: 0.85 });
+      const sx = W * 0.82;
+      g.rect(sx, -230, 10, 140).fill(0xffffff).rect(sx + 40, -230, 10, 140).fill(0xffffff).rect(sx - 4, -236, 58, 10).fill(N('#ff8fb8'));
+      g.moveTo(sx, -226).bezierCurveTo(sx - 80, -220, sx - 40, -120, sx - 140, -92).stroke({ color: N('#ffd36e'), width: 16, cap: 'round' });
+      g.rect(W * 0.12, -170, 6, 80).fill(0xffffff).rect(W * 0.12 + 30, -170, 6, 80).fill(0xffffff).roundRect(W * 0.12 - 6, -176, 48, 16, 4).fill(N('#e63946'));
+      for (let x = 80; x < W * 0.7; x += 260) umbrella(g, x, -100);
       break;
     }
     case 'city': case 'rails': case 'rooftop': {

@@ -820,5 +820,22 @@
   ],
   "lens_case": [
     "eye_opticians"
+  ],
+  "wheelchair": [
+    "old_people_home",
+    "hospital"
+  ],
+  "walking_frame": [
+    "old_people_home",
+    "hospital"
+  ],
+  "bar_stool": [
+    "pub",
+    "restaurant"
+  ],
+  "pool_table": [
+    "pub",
+    "hotels",
+    "mansion"
   ]
 }
