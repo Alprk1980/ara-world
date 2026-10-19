@@ -219,7 +219,8 @@ function makePlaces(): void {
   for (const p of plan) {
     // Items drawn for this place first, then items tagged for it, then a few general plants and decor.
     const linked = new Set(templates.filter((t) => placesOf(t).some((q) => q.id === p.id)).map((t) => t.id));
-    const tags = new Set(p.tags.filter((t) => !BROAD.has(t)));
+    // Borrow by the place's main tag only (secondary tags like "pet" or "cosy" pulled in the wrong things).
+    const tags = new Set(p.tags.filter((t) => !BROAD.has(t) && !['pet', 'living', 'garden', 'kids_room', 'baby', 'nursery'].includes(t)).slice(0, 1));
 
     // Borrow only generic things (not another place's own drawings), and seasonal colours only where they belong.
     const seasonalOk = (i: Item) => p.tags.includes('halloween') ? true : !i.tags.includes('halloween') && !i.tags.includes('christmas');
@@ -229,7 +230,8 @@ function makePlaces(): void {
     // Places with few drawings of their own may borrow tagged things from other places.
     const borrow = new Set(own.map((id) => c.items.get(id)!.template)).size < 4;
     const tagged = shuffle(all.filter((i) => !linked.has(i.template) && (borrow || !ownedElsewhere.has(i.template)) && i.tags.some((t) => tags.has(t)) && seasonalOk(i)).map((i) => i.id));
-    const general = shuffle(all.filter((i) => ['plant', 'decor'].includes(catOf(c, i.id)) && !ownedElsewhere.has(i.template) && seasonalOk(i)).map((i) => i.id));
+    // A little generic greenery only: plants, never lamps or random decor.
+    const general = shuffle(all.filter((i) => catOf(c, i.id) === 'plant' && !ownedElsewhere.has(i.template) && seasonalOk(i)).map((i) => i.id)).slice(0, 2);
     const floors: Floor[] = [];
     const usedHere = new Set<string>();
     p.floors.forEach((fname, fi) => {
@@ -248,8 +250,14 @@ function makePlaces(): void {
       const indoorOk = (id: string) => outdoor || catOf(c, id) !== 'vehicle';
       // A floor's own share first, then the place's other things (other colourways), then tagged, then general.
       const others = shuffle(own.filter((id) => !mine.includes(id)));
-      const pool = [...mine.filter(prefer), ...mine, ...others.filter(prefer), ...others, ...rotate(tagged).filter(prefer), ...rotate(tagged), ...rotate(general)].filter(indoorOk);
-      const { items, width } = layFloor(c, pool, outdoor, 11 + Math.floor(rand() * 4), 1200, usedHere);
+      // Signature pieces on every floor first (they make the place what it is), then this floor's share of the
+      // place's own things, then its other things, then borrowed and a little greenery. Fewer, fitting things beat
+      // a full floor of fillers.
+      const sigHere = sig.filter((id) => prefer(id) && indoorOk(id));
+      const pool = [...sigHere, ...mine.filter(prefer), ...mine, ...others.filter(prefer), ...others, ...rotate(tagged).filter(prefer), ...rotate(tagged), ...general].filter(indoorOk);
+      const fitting = new Set([...sig, ...own, ...tagged].map((id) => c.items.get(id)!.template)).size;
+      const want = Math.max(6, Math.min(12, fitting + 1));
+      const { items, width } = layFloor(c, pool, outdoor, want, 1200, new Set([...usedHere].filter((t) => !sig.some((id) => c.items.get(id)!.template === t))));
       // Only the place's own things are kept to one floor; generic things may repeat.
       for (const it of items) if (ownTemplates.includes(c.items.get(it.item)!.template)) usedHere.add(c.items.get(it.item)!.template);
       floors.push({ name, outdoor, wall: outdoor ? '#bfe6ff' : pick(WALLS), ground: groundFor(fname, p, outdoor), width, items });
