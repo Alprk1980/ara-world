@@ -9,6 +9,7 @@ import { emotionErrors, EYES, MOUTHS, MOTIONS, SOUNDS, type Emotion } from '../s
 import { dailyErrors, type Daily } from '../schemas/daily.ts';
 import { planErrors, type PlanEntry } from '../schemas/plan.ts';
 import { checkSvg } from '../schemas/svg.ts';
+import { realStyleErrors } from '../schemas/style-real.ts';
 import { AGE_GROUPS, OBJECT_CATEGORIES, REQUIRED_ANCHORS, SIZE_BOUNDS, WEARABLE_CATEGORIES, isWearable } from '../schemas/vocab.ts';
 
 export type Entry = { id: string } & Record<string, unknown>;
@@ -19,6 +20,8 @@ export type Kind = {
   /** Extra {{name}} values for the prompt, computed from the shipped data and the --ask text. */
   vars?: (ask: string) => Record<string, string>;
 };
+
+const realSamples = () => JSON.parse(readFileSync('prompts/style-real.json', 'utf8')) as { templates: Template[]; items: Item[] };
 
 export const load = <T = Entry>(file: string): T[] => (existsSync(file) ? (JSON.parse(readFileSync(file, 'utf8')) as T[]) : []);
 
@@ -72,6 +75,29 @@ export const KINDS: Record<string, Kind> = {
     data: FILES.plan,
     errors: (e, all) => planErrors(as<PlanEntry>(e), as<PlanEntry[]>(all)),
     vars: () => ({ notes: readFileSync('prompts/notes.txt', 'utf8'), districts: DISTRICTS.join(', '), tags: ITEM_TAGS.join(', ') }),
+  },
+  // Realistic-style trials: kept apart from the game's data (prompts/style-real-qwen.json) until the look is chosen.
+  'template-real': {
+    prompt: 'prompts/template-real.txt',
+    data: 'prompts/style-real-qwen.json',
+    errors: (e, all) => {
+      const taken = [...load<Template>(FILES.template), ...realSamples().templates, ...as<Template[]>(all)];
+      return [...templateErrors(as<Template>(e), taken), ...realStyleErrors(as<Template & { palette?: Record<string, string> }>(e))];
+    },
+    vars: () => {
+      const s = realSamples();
+      const ex = ['real_tshirt', 'real_apple'].map((id) => {
+        const t = s.templates.find((x) => x.id === id)!;
+        return JSON.stringify({ ...t, palette: s.items.find((i) => i.id === id)!.palette });
+      });
+      return {
+        objects: OBJECT_CATEGORIES.join(', '),
+        anchors: Object.entries(REQUIRED_ANCHORS).map(([c, a]) => `${c}: ${a.join(' + ')}`).join('; '),
+        sizes: Object.entries(SIZE_BOUNDS).map(([c, b]) => `${c} ${b.min}-${b.max}`).join(', '),
+        examples: ex.join('\n'),
+        existing: [...load<Template>(FILES.template), ...s.templates].map((t) => t.id).filter((id) => id.startsWith('real_')).join(', '),
+      };
+    },
   },
   template: {
     prompt: 'prompts/template.txt',

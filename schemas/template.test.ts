@@ -28,6 +28,14 @@ describe('templateErrors', () => {
     const t2 = { ...cupcake, svg: cupcake.svg.replace('{{trim}}', '#ff0000') };
     expect(templateErrors(t2).join('\n')).toMatch(/fill="#ff0000" is not allowed/);
   });
+  it('allows shading gradients whose colours are slots or fixed colours', () => {
+    const defs = '<defs><linearGradient id="sh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/><stop offset="1" stop-color="{{trim}}"/></linearGradient></defs>';
+    const shaded = { ...cupcake, svg: cupcake.svg.replace('viewBox="0 0 256 256">', `viewBox="0 0 256 256">${defs}`).replace('fill="{{trim}}"', 'fill="url(#sh)"') };
+    expect(templateErrors(shaded)).toEqual([]);
+    expect(templateErrors({ ...shaded, svg: shaded.svg.replace('stop-color="{{trim}}"', 'stop-color="#ff0000"') }).join()).toMatch(/stop-color="#ff0000" is not allowed/);
+    expect(templateErrors({ ...shaded, svg: shaded.svg.replace('url(#sh)', 'url(#nope)') }).join()).toMatch(/points at no gradient/);
+    expect(templateErrors({ ...shaded, svg: shaded.svg.replace('fill="url(#sh)"', 'fill="url(http://x.com/a)"') }).join()).toMatch(/is not allowed/);
+  });
   it('rejects scripts, transforms and bad XML', () => {
     expect(templateErrors({ ...cupcake, svg: '<svg viewBox="0 0 256 256"><script/></svg>' }).join()).toMatch(/<script> is not allowed/);
     expect(templateErrors({ ...cupcake, svg: cupcake.svg.replace('<circle', '<circle transform="scale(2)"') }).join()).toMatch(/"transform"/);

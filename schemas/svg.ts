@@ -1,5 +1,6 @@
 // Strict checks for model-written SVG: a small allowlist of shapes and attributes,
-// colours only from slots, and a bounding box we can measure.
+// colours only from slots, and a bounding box we can measure. Gradients are allowed for soft shading, but their
+// stop colours are slots or fixed colours too, so every drawing can still be repainted.
 import { XMLParser } from 'fast-xml-parser';
 import { svgPathBbox } from 'svg-path-bbox';
 import { COLOR_SLOTS, FIXED_COLORS } from './vocab.ts';
@@ -7,15 +8,18 @@ import { COLOR_SLOTS, FIXED_COLORS } from './vocab.ts';
 export type Box = { minX: number; minY: number; maxX: number; maxY: number };
 
 const SHAPES = ['path', 'rect', 'circle', 'ellipse', 'polygon', 'polyline', 'line'];
-const ELEMENTS = new Set(['g', ...SHAPES]);
+const GRADIENTS = ['defs', 'linearGradient', 'radialGradient', 'stop'];
+const ELEMENTS = new Set(['g', ...SHAPES, ...GRADIENTS]);
 const ATTRS = new Set([
   'xmlns', 'viewBox', 'd', 'x', 'y', 'width', 'height', 'rx', 'ry', 'cx', 'cy', 'r', 'points',
   'x1', 'y1', 'x2', 'y2', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin',
   'opacity', 'fill-opacity', 'fill-rule',
+  // gradients
+  'id', 'offset', 'stop-color', 'stop-opacity', 'fx', 'fy', 'gradientUnits',
 ]);
 const PAINTS = new Set<string>([...COLOR_SLOTS.map((s) => `{{${s}}}`), ...FIXED_COLORS]);
-export const MAX_SVG_BYTES = 4096;
-const MAX_ELEMENTS = 60;
+export const MAX_SVG_BYTES = 6144;
+const MAX_ELEMENTS = 80;
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '', preserveOrder: true, allowBooleanAttributes: true });
 
@@ -69,7 +73,8 @@ export function checkSvg(svg: unknown): { errors: string[]; box: Box | null; slo
   if (root[':@']?.viewBox !== '0 0 256 256') errors.push('svg: viewBox must be exactly "0 0 256 256"');
 
   let box: Box | null = null;
-  let count = 0;
+  let count = 0, shapes = 0;
+  const ids = new Set<string>(), refs = new Set<string>();
   const walk = (children: Node[]) => {
     for (const child of children) {
       if ('#text' in child) {
@@ -83,15 +88,23 @@ export function checkSvg(svg: unknown): { errors: string[]; box: Box | null; slo
         continue;
       }
       count++;
+      if (tag === 'stop' && attrs['stop-color'] === undefined) errors.push('svg: <stop> needs a stop-color (a slot or a fixed colour)');
       for (const [k, v] of Object.entries(attrs)) {
         if (!ATTRS.has(k)) errors.push(`svg: attribute "${k}" on <${tag}> is not allowed`);
-        if (k === 'fill' || k === 'stroke') {
-          if (!PAINTS.has(v)) errors.push(`svg: ${k}="${v}" is not allowed (use ${[...PAINTS].join(', ')})`);
+        if (k === 'id') {
+          if (!/^[a-zA-Z][\w-]{0,15}$/.test(v)) errors.push(`svg: id "${v}" should be a short name`);
+          ids.add(v);
+        }
+        const url = /^url\(#([\w-]+)\)$/.exec(v);
+        if ((k === 'fill' || k === 'stroke') && url) refs.add(url[1]);
+        else if (k === 'fill' || k === 'stroke' || k === 'stop-color') {
+          if (!PAINTS.has(v) || (k === 'stop-color' && v === 'none')) errors.push(`svg: ${k}="${v}" is not allowed (use ${[...PAINTS].join(', ')}${k === 'stop-color' ? '' : ', or url(#gradient)'})`);
           const m = /^\{\{(\w+)\}\}$/.exec(v);
           if (m) slots.add(m[1]);
         }
       }
       if (SHAPES.includes(tag)) {
+        shapes++;
         if (attrs.fill === undefined && tag !== 'line' && tag !== 'polyline') errors.push(`svg: <${tag}> needs a fill (a slot or none)`);
         const b = shapeBox(tag, attrs);
         if (typeof b === 'string') errors.push(`svg: ${b}`);
@@ -102,7 +115,8 @@ export function checkSvg(svg: unknown): { errors: string[]; box: Box | null; slo
     }
   };
   walk(root.svg as Node[]);
-  if (count === 0) errors.push('svg: draws nothing');
+  for (const r of refs) if (!ids.has(r)) errors.push(`svg: url(#${r}) points at no gradient`);
+  if (shapes === 0) errors.push('svg: draws nothing');
   if (count > MAX_ELEMENTS) errors.push(`svg: ${count} elements, limit ${MAX_ELEMENTS}`);
   if (box !== null) {
     const b: Box = box;

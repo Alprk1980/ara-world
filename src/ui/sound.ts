@@ -1,5 +1,20 @@
 // Little synthesized sounds (no audio files): one short tune per sound tag from the emotion data.
+// The ⚙️ menu can turn them off (saved apart from the world).
+import { load, save } from '../app/save.ts';
+
 let ctx: AudioContext | null = null;
+let on = true;
+void load('sounds', true).then((v) => (on = v));
+
+export function soundsOn(): boolean {
+  return on;
+}
+
+export async function toggleSounds(): Promise<boolean> {
+  on = !on;
+  await save('sounds', on);
+  return on;
+}
 
 const TUNES: Record<string, { notes: number[]; wave: OscillatorType; step: number }> = {
   giggle: { notes: [880, 988, 880, 1047], wave: 'triangle', step: 0.07 },
@@ -19,7 +34,7 @@ const TUNES: Record<string, { notes: number[]; wave: OscillatorType; step: numbe
 
 export function playSound(tag: string): void {
   const tune = TUNES[tag];
-  if (!tune) return;
+  if (!tune || !on) return;
   try {
     ctx ??= new AudioContext();
     const t0 = ctx.currentTime;

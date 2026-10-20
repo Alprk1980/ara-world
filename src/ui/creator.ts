@@ -1,4 +1,5 @@
 // "On top right corner you can make people, pets and clothes. Lots of tops, bottoms, socks, shoes, dresses and much more."
+// The 🖍️ Draw tab opens the draw pad (draw.ts), where a drawing becomes a real thing in the game.
 import { Container, Graphics, Sprite } from 'pixi.js';
 import type { Scene } from '../app/scenes.ts';
 import type { Game } from '../app/game.ts';
@@ -13,6 +14,7 @@ import { persist, uid, type Person } from '../world/state.ts';
 import { COLORS, label, pillButton } from './kit.ts';
 import { ScrollGrid, type Cell } from './scroll-grid.ts';
 import { playSound } from './sound.ts';
+import { DrawScene } from './draw.ts';
 
 const SWATCHES = ['#ff8fb8', '#ff4f8b', '#e63946', '#ff9f43', '#ffd36e', '#fff3b0', '#8ce99a', '#3fa66b', '#7fd1c7', '#74c0fc', '#3a6ea5', '#b197fc', '#7b4fa0', '#ffffff', '#c9c9c9', '#3a3a3a', '#8b5e3c', '#f4d6c6'];
 const HAIR_COLOURS = ['#2b1d14', '#5a3825', '#8b5e3c', '#c68642', '#e8c07d', '#f5e1a4', '#d94f2b', '#b0b0b0', '#ffffff', '#ff8fb8', '#b197fc', '#74c0fc'];
@@ -68,16 +70,20 @@ export class CreatorScene implements Scene {
   private drawTabs(): void {
     const { w } = this.size;
     this.tabs.removeChildren();
+    const tw = Math.min(180, (w * 0.62 - 40) / 4);
     (['people', 'pets', 'clothes'] as Tab[]).forEach((t, i) => {
       const b = pillButton({ people: '🧍 People', pets: '🐶 Pets', clothes: '👗 Clothes' }[t], () => {
         this.tab = t;
         this.section = t === 'people' ? 'age' : t === 'pets' ? 'pet' : 'template';
         this.drawTabs();
         this.show();
-      }, 180, 60, t === this.tab ? COLORS.pink : 0xd9a3bb);
-      b.position.set(w * 0.36 + 110 + i * 195, 66);
+      }, tw - 8, 60, t === this.tab ? COLORS.pink : 0xd9a3bb);
+      b.position.set(w * 0.36 + 20 + tw / 2 + i * tw, 66);
       this.tabs.addChild(b);
     });
+    const draw = pillButton('🖍️ Draw', () => this.game.stack.push(new DrawScene(this.game)), tw - 8, 60, 0xb197fc);
+    draw.position.set(w * 0.36 + 20 + tw / 2 + 3 * tw, 66);
+    this.tabs.addChild(draw);
   }
 
   private show(): void {

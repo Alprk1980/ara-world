@@ -1,8 +1,9 @@
 // The saved world: who is where, what has been moved, built, found and claimed.
 import type { Character } from '../../schemas/character.ts';
 import type { Item } from '../../schemas/item.ts';
+import type { Template } from '../../schemas/template.ts';
 import type { Floor, Placed } from '../../schemas/place.ts';
-import { characters, houses, items, places } from '../data/index.ts';
+import { characters, houses, items, places, templates } from '../data/index.ts';
 import { load, save } from '../app/save.ts';
 
 export const WEATHERS = ['sunny', 'rain', 'snow', 'wind', 'rainbow', 'cloudy'] as const;
@@ -29,8 +30,10 @@ export type World = {
   /** Decorations from the daily calendar waiting in the post box to be placed. */
   inbox: string[];
   sky: { night: boolean; weather: Weather };
-  /** Clothes made in the creator. */
+  /** Clothes made in the creator, and the items made from drawings. */
   custom: Item[];
+  /** Templates drawn in the 🖍️ draw pad. */
+  drawings: Template[];
 };
 
 const KEY = 'world';
@@ -50,6 +53,7 @@ export function freshWorld(): World {
     inbox: [],
     sky: { night: false, weather: 'sunny' },
     custom: [],
+    drawings: [],
   };
 }
 
@@ -57,6 +61,8 @@ export async function loadWorld(): Promise<World> {
   const w = await load<World | null>(KEY, null);
   if (!w || w.version !== 1) return freshWorld();
   w.custom ??= [];
+  w.drawings ??= [];
+  for (const t of w.drawings) templates.set(t.id, t);
   for (const it of w.custom) items.set(it.id, it);
   // Starter characters added by later content updates join the people bar.
   for (const c of characters.values()) if (!w.people.some((p) => p.id === c.id)) w.people.push({ ...structuredClone(c), kind: 'person' });
@@ -68,6 +74,14 @@ let timer: ReturnType<typeof setTimeout> | undefined;
 export function persist(w: World): void {
   clearTimeout(timer);
   timer = setTimeout(() => save(KEY, w), 400);
+}
+
+/** Throw the saved world away and save a fresh one (any save still waiting is cancelled first). */
+export async function resetWorld(): Promise<World> {
+  clearTimeout(timer);
+  const w = freshWorld();
+  await save(KEY, w);
+  return w;
 }
 
 /** The floors of a place id, which may be a built house on a lot. */

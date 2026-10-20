@@ -9,6 +9,8 @@ import { houses, places } from '../data/index.ts';
 import { exteriorFor } from '../art/house-art.ts';
 import { themeFor } from '../art/themes.ts';
 import { hexNum, shade } from '../art/color.ts';
+import { drawBuilding } from './map-buildings.ts';
+import { DESIGNS, OPEN, designFor, houseDesign } from './map-designs.ts';
 import { COLORS, label } from './kit.ts';
 import { playSound } from './sound.ts';
 
@@ -47,23 +49,9 @@ const SPOTS: Record<string, [number, number]> = {
   // up in the sky (floating above the countryside)
   kingdom_in_the_clouds: [20, 6], cloud_swing_set: [25, 4],
 };
-/** Always drawn as open-air plots: rides, pools, pitches, the zoo, the slopes, beaches and gardens. */
-const OPEN = new Set(['theme_park', 'rollercoaster_place', 'waterpark', 'pools', 'zoo', 'football_stadium', 'snowboarding_place', 'secret_beach', 'secret_garden', 'secret_pet_garden', 'secret_candy_cave']);
 const FLOATING = new Set(['kingdom_in_the_clouds', 'cloud_swing_set']);
 const BIG = new Set(['zoo', 'airport', 'football_stadium', 'theme_park', 'malls', 'school', 'hospital']);
 const LOTS: [number, number][] = [[4, 28], [7, 28], [10, 28], [13, 28], [4, 31], [7, 31], [10, 31], [13, 31], [4, 34], [7, 34], [10, 34], [13, 34]];
-/** Building shapes for particular places (others: houses for homes and care, shops elsewhere). */
-const SHAPES: Record<string, 'house' | 'shop' | 'hall' | 'tower'> = {
-  offices: 'tower', hotels: 'tower', hospital: 'tower', fire_station: 'hall', malls: 'hall', supermarket: 'hall', airport: 'hall',
-  train_station: 'hall', school: 'hall', aquarium: 'hall', sports_arena: 'hall', old_people_home: 'house', daycare: 'house', vets: 'house',
-  mansion: 'house', beach_house: 'house', secret_mansion: 'house', secret_beach_house: 'house', halloween_house: 'house',
-  post_office: 'shop', police_station: 'shop', bus_station: 'shop', restaurant: 'shop', pub: 'house', stables: 'house',
-};
-const DISTRICT_COLOURS: Record<string, { wall: string; roof: string }> = {
-  homes: { wall: '#ffe3ef', roof: '#e05a7a' }, downtown: { wall: '#e3f0ff', roof: '#3a6ea5' }, shopping: { wall: '#fff3d6', roof: '#ff9f43' },
-  fun: { wall: '#f1e9ff', roof: '#b197fc' }, nature: { wall: '#e6fff2', roof: '#3fa66b' }, travel: { wall: '#e3f6ff', roof: '#2f9e8f' },
-  care: { wall: '#fff0f0', roof: '#ff6b6b' }, sky: { wall: '#ffffff', roof: '#ffd36e' },
-};
 const AREAS: { name: string; x: number; y: number }[] = [
   { name: '🏔️ Snowy Mountain', x: 8, y: 7 }, { name: '🌾 Countryside', x: 20, y: 6 }, { name: '✈️ Airport', x: 31, y: 7 },
   { name: '🦁 Wild Side', x: 8, y: 19 }, { name: '⛲ Town Square', x: 20, y: 18 }, { name: '🛍️ High Street', x: 31, y: 18 },
@@ -291,8 +279,8 @@ export class MapScene implements Scene {
     const floating = FLOATING.has(p.id);
     c.position.set(base.x, base.y - (floating ? 260 : 0));
     if (BIG.has(p.id)) c.scale.set(1.25);
-    const look = DISTRICT_COLOURS[p.district] ?? DISTRICT_COLOURS.downtown;
-    let wall = look.wall, roof = look.roof, door = '#7fd1c7', emoji = '🏠', name = '';
+    let design;
+    let emoji = '🏠', name = '';
     const open = () => {
       if (this.drag?.moved) return;
       playSound('pop');
@@ -315,11 +303,9 @@ export class MapScene implements Scene {
         tappable(c, new Polygon([0, -TH - 40, TW, 0, 0, TH, -TW, 0]), () => !this.drag?.moved && this.game.build(p.id));
         return c;
       }
-      const ex = exteriorFor(house, lot.variant);
-      [wall, roof, door] = [ex.walls, ex.roof, ex.door];
       emoji = '🏡';
       name = house.name;
-      p.floors = Math.max(1, house.floors.filter((f) => !f.outdoor).length);
+      design = houseDesign(house.style, exteriorFor(house, lot.variant), Math.max(1, house.floors.filter((f) => !f.outdoor).length));
       // A little garden with a picket fence around the house.
       g.poly([0, -TH, TW, 0, 0, TH, -TW, 0]).fill(0xa8e889);
       for (let k = 0; k <= 8; k++) g.rect(-TW + k * 12 - 1.5, k * 6 - 12, 3, 12).fill(0xffffff);
@@ -328,20 +314,19 @@ export class MapScene implements Scene {
       emoji = pl.emoji;
       name = pl.name;
       const outdoorShare = pl.floors.filter((f) => f.outdoor).length / pl.floors.length;
-      if ((OPEN.has(p.id) || (outdoorShare > 0.5 && !SHAPES[p.id])) && !floating) {
+      if ((OPEN.has(p.id) || (outdoorShare > 0.5 && !DESIGNS[p.id])) && !floating) {
         openAir(g, themeFor(pl.id, pl.floors.find((f) => f.outdoor)!.name, true).kind, this.night);
         this.sign(base.x, base.y - 80 * c.scale.y, emoji, name);
         tappable(c, new Polygon([0, -TH - 100, TW, 0, 0, TH, -TW, 0]), open);
         return c;
       }
+      design = designFor(p.id, p.district, emoji, p.floors);
     }
-    const style = SHAPES[p.id] ?? (p.kind === 'lot' || p.district === 'homes' || p.district === 'care' ? 'house' : 'shop');
-    const floors = Math.min(4, Math.max(1, p.floors)) + (style === 'tower' ? 2 : 0);
-    const wide = style === 'hall' ? 0.95 : style === 'tower' ? 0.6 : 0.78;
-    const bw = TW * wide, bh = TH * wide, hgt = 34 + floors * 24;
-    building(g, { bw, bh, hgt, floors, wall, roof, door, style, lit: this.night });
-    this.sign(base.x, base.y - (floating ? 260 : 0) - (hgt + (style === 'house' ? 50 : 16)) * c.scale.y, emoji, name);
-    tappable(c, new Polygon([-bw, bh, -bw, -hgt - 90, bw, -hgt - 90, bw, bh, 0, bh + 8]), open);
+    const { c: b, height } = drawBuilding(design, this.night);
+    c.addChild(b);
+    // The sign shows the emoji unless the building already wears it on its roof.
+    this.sign(base.x, base.y - (floating ? 260 : 0) - (height + 14) * c.scale.y, design.prop ? '' : emoji, name);
+    tappable(c, new Polygon([-TW * 1.05, TH * 0.6, -TW * 1.05, -height - 50, TW * 1.05, -height - 50, TW * 1.05, TH * 0.6, 0, TH + 8]), open);
     return c;
   }
 
@@ -457,6 +442,15 @@ export class MapScene implements Scene {
     this.world.y = Math.min(Math.max(this.world.y, Math.min(minY, maxY)), Math.max(minY, maxY));
   }
 
+  /** Centre the view on a grid spot (used by the screenshot tools). */
+  lookAt(gx: number, gy: number, zoom = this.zoom): void {
+    this.zoom = Math.max(0.3, Math.min(1.6, zoom));
+    this.world.scale.set(this.zoom);
+    const q = iso(gx, gy);
+    this.world.position.set(this.screen.w / 2 - q.x * this.zoom, this.screen.h / 2 - (q.y - 60) * this.zoom);
+    this.clamp();
+  }
+
   onSky(): void {
     this.layout(this.screen.w, this.screen.h);
   }
@@ -496,43 +490,6 @@ export class MapScene implements Scene {
 }
 
 // ---------------------------------------------------------------- drawing pieces
-type BuildingLook = { bw: number; bh: number; hgt: number; floors: number; wall: string; roof: string; door: string; style: string; lit: boolean };
-
-function building(g: Graphics, b: BuildingLook): void {
-  const { bw, bh, hgt, floors, wall, roof, door, style } = b;
-  g.ellipse(0, 6, bw, bh * 0.9).fill({ color: 0x000000, alpha: 0.12 });
-  const edge = { color: hexNum(shade(wall, -0.5)), width: 2 };
-  g.poly([-bw, 0, 0, bh, 0, bh - hgt, -bw, -hgt]).fill(hexNum(shade(wall, -0.12))).stroke(edge);
-  g.poly([0, bh, bw, 0, bw, -hgt, 0, bh - hgt]).fill(hexNum(wall)).stroke(edge);
-  const lit = b.lit ? 0xfff3b0 : 0xcdeeff;
-  for (let f = 0; f < floors; f++) {
-    const y0 = -24 - f * 24;
-    for (const t of [0.3, 0.7]) {
-      const lx = -bw + bw * t, ly = bh * t + y0;
-      g.poly([lx - 7, ly - 3.5, lx + 7, ly + 3.5, lx + 7, ly + 15.5, lx - 7, ly + 8.5]).fill(lit);
-      if (f > 0 || t > 0.5) {
-        const rx = bw * t, ry = bh * (1 - t) + y0;
-        g.poly([rx - 7, ry + 3.5, rx + 7, ry - 3.5, rx + 7, ry + 8.5, rx - 7, ry + 15.5]).fill(lit);
-      }
-    }
-  }
-  const dx = bw * 0.3, dy = bh * 0.7;
-  g.poly([dx - 9, dy + 4.5, dx + 9, dy - 4.5, dx + 9, dy - 30, dx - 9, dy - 21]).fill(hexNum(door)).stroke({ color: hexNum(shade(door, -0.4)), width: 2 });
-  if (style === 'shop' || style === 'hall')
-    for (let k = 0; k < 5; k++) {
-      const x1 = dx - 22 + k * 9;
-      g.poly([x1, dy - 19 - (k * 9) / 2, x1 + 9, dy - 19 - ((k + 1) * 9) / 2, x1 + 13, dy - 11 - ((k + 1) * 9) / 2, x1 + 4, dy - 11 - (k * 9) / 2]).fill(k % 2 ? 0xffffff : hexNum(roof));
-    }
-  if (style === 'house') {
-    g.poly([-bw - 6, -hgt + 2, 0, bh - hgt + 4, 0, -hgt - 40]).fill(hexNum(roof)).stroke({ color: hexNum(shade(roof, -0.4)), width: 2 });
-    g.poly([0, bh - hgt + 4, bw + 6, -hgt + 2, 0, -hgt - 40]).fill(hexNum(shade(roof, -0.15))).stroke({ color: hexNum(shade(roof, -0.4)), width: 2 });
-  } else {
-    g.poly([-bw, -hgt, 0, bh - hgt, bw, -hgt, 0, -bh - hgt]).fill(hexNum(shade(roof, 0.25))).stroke({ color: hexNum(shade(roof, -0.3)), width: 3 });
-    g.poly([-bw * 0.6, -hgt, 0, bh * 0.6 - hgt, bw * 0.6, -hgt, 0, -bh * 0.6 - hgt]).fill(hexNum(roof));
-    if (style === 'tower') g.rect(-3, -bh - hgt - 30, 6, 30).fill(0x9aa3ad).circle(0, -bh - hgt - 32, 5).fill(0xff6b6b);
-  }
-}
-
 function openAir(g: Graphics, kind: string, night: boolean): void {
   const plot = (col: number) => g.poly([0, -TH * 0.95, TW * 0.95, 0, 0, TH * 0.95, -TW * 0.95, 0]).fill(col).stroke({ color: 0xffffff, width: 2, alpha: 0.6 });
   switch (kind) {

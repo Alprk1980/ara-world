@@ -33,7 +33,7 @@ async function chatOnce(messages: Message[], opts: { model?: string; maxTokens?:
       model: opts.model ?? MODEL,
       messages,
       temperature: opts.temperature ?? 0.7,
-      max_tokens: opts.maxTokens ?? 24000,
+      max_tokens: opts.maxTokens ?? Number(process.env.LLM_MAX_TOKENS ?? 24000),
     }),
   });
   if (!res.ok) throw new Error(`model: HTTP ${res.status} ${await res.text()}`);

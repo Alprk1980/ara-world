@@ -25,9 +25,25 @@ try {
   });
   await page.waitForTimeout(500);
   await page.screenshot({ path: 'out/map/whole.png' });
+  // Close-ups of every neighbourhood, with the secret places found, by day and by night.
+  const areas: [string, number, number][] = [['north', 14, 6], ['airport', 30, 9], ['west', 8, 21], ['square', 20, 20], ['high-street', 31, 19], ['homes', 9, 33], ['care', 20, 31], ['fun', 31, 32]];
+  await page.evaluate(() => {
+    const a = (window as any).ara;
+    a.world.found.push('secret_treehouse', 'secret_mansion', 'secret_beach_house', 'starry_observatory', 'kingdom_in_the_clouds', 'cloud_swing_set', 'secret_garden', 'secret_beach', 'secret_pet_garden', 'secret_candy_cave');
+    a.stack.top.layout(innerWidth, innerHeight);
+  });
+  for (const night of [false, true]) {
+    await page.evaluate((n) => (window as any).ara.setSky(n), night);
+    await page.waitForTimeout(300);
+    for (const [name, gx, gy] of areas) {
+      if (night && !['square', 'high-street'].includes(name)) continue;
+      await page.evaluate(([x, y]) => (window as any).ara.stack.top.lookAt(x, y, 1.1), [gx, gy]);
+      await page.waitForTimeout(150);
+      await page.screenshot({ path: `out/map/${name}${night ? '-night' : ''}.png` });
+    }
+  }
   await page.evaluate(() => (window as any).ara.setSky(true));
   await page.waitForTimeout(600);
-  await page.screenshot({ path: 'out/map/night.png' });
 } finally {
   await browser.close();
   await server.close();

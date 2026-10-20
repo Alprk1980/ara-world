@@ -20,12 +20,13 @@ import { templates, items } from '../data/index.ts';
 import { Graphics } from 'pixi.js';
 import { TravelPicker, destinations } from '../ui/travel.ts';
 import type { Person } from '../world/state.ts';
-import { playSound } from '../ui/sound.ts';
+import { playSound, soundsOn, toggleSounds } from '../ui/sound.ts';
+import { Menu } from '../ui/menu.ts';
 import { musicOn, startMusic, toggleMusic } from '../ui/music.ts';
 import { roundButton } from '../ui/kit.ts';
 import { PlaceScene } from '../world/place-scene.ts';
 import type { Rig } from '../world/rig.ts';
-import { loadWorld, persist, type World } from '../world/state.ts';
+import { loadWorld, persist, resetWorld, type World } from '../world/state.ts';
 import { places } from '../data/index.ts';
 
 export class Game {
@@ -43,12 +44,13 @@ export class Game {
   readonly panel = new Panel();
   readonly travelPicker = new TravelPicker();
   private overlay = new Container();
-  private musicButton: Container | null = null;
+  private musicButton = new Container();
+  readonly menu: Menu;
 
   constructor(app: Application, stack: SceneStack) {
     this.app = app;
     this.stack = stack;
-    this.hud = new Hud({ back: () => this.back(), create: () => this.create(), people: () => this.peopleBar.toggle(), build: () => this.build() });
+    this.hud = new Hud({ back: () => this.back(), settings: () => this.menu.show(), create: () => this.create(), people: () => this.peopleBar.toggle(), build: () => this.build() });
     this.peopleBar = new PeopleBar(this);
     this.emojis = new EmojiWheel();
     this.weather = new WeatherLayer();
@@ -57,18 +59,25 @@ export class Game {
     this.postbox = new PostBox(this);
     this.hud.extras.addChild(this.sky.view);
     // Music on/off, next to the sky buttons.
-    const music = new Container();
-    const drawMusic = () => {
-      music.removeChildren();
-      music.addChild(roundButton(musicOn() ? '🎵' : '🔇', async () => {
+    this.drawMusic();
+    this.hud.extras.addChild(this.musicButton);
+    this.menu = new Menu({
+      music: musicOn,
+      toggleMusic: async () => {
         await toggleMusic();
-        drawMusic();
-      }, 70));
-    };
-    drawMusic();
-    this.musicButton = music;
-    this.hud.extras.addChild(music);
-    this.overlay.addChild(this.weather.view, this.postbox.view, this.peopleBar.view, this.hud.view, this.wardrobe.view, this.panel.view, this.travelPicker.view, this.emojis.view, this.toast.view);
+        this.drawMusic();
+      },
+      sounds: soundsOn,
+      toggleSounds: async () => void (await toggleSounds()),
+      title: () => {
+        while (this.stack.depth > 1) this.stack.pop();
+      },
+      reset: async () => {
+        await resetWorld();
+        location.reload();
+      },
+    });
+    this.overlay.addChild(this.weather.view, this.postbox.view, this.peopleBar.view, this.hud.view, this.wardrobe.view, this.panel.view, this.travelPicker.view, this.emojis.view, this.toast.view, this.menu.view);
     app.stage.addChild(this.overlay);
     stack.onChange(() => this.onSceneChange());
     app.ticker.add((t) => {
@@ -88,6 +97,14 @@ export class Game {
     this.layout();
   }
 
+  private drawMusic(): void {
+    this.musicButton.removeChildren().forEach((c) => c.destroy({ children: true }));
+    this.musicButton.addChild(roundButton(musicOn() ? '🎵' : '🔇', async () => {
+      await toggleMusic();
+      this.drawMusic();
+    }, 70));
+  }
+
   play(): void {
     void startMusic();
     this.stack.push(new MapScene(this));
@@ -104,6 +121,7 @@ export class Game {
   }
 
   back(): void {
+    if (this.menu.open) return this.menu.hide();
     if (this.emojis.open) return this.emojis.close();
     if (this.wardrobe.open) return this.wardrobe.hide();
     if (this.panel.open) return this.panel.hide();
@@ -225,6 +243,8 @@ export class Game {
     for (const b of [this.hud.extras, this.hud.create, this.hud.people, this.hud.build]) b.visible = inWorld;
     // The town map is home: there is nowhere to go back to from it.
     this.hud.back.visible = top?.name !== 'map';
+    this.hud.settings.visible = top?.name === 'map';
+    this.menu.hide();
     this.emojis.close();
     this.wardrobe.hide();
     this.panel.hide();
@@ -240,7 +260,8 @@ export class Game {
     this.stack.relayout();
     this.hud.layout(w, h);
     this.sky.layout(w);
-    this.musicButton?.position.set(w - 386, 56);
+    this.musicButton.position.set(w - 386, 56);
+    this.menu.layout(w, h);
     this.peopleBar.layout(w, h);
     this.toast.layout(w, h);
     this.postbox.layout(w, h);

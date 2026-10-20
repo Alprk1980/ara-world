@@ -8,7 +8,7 @@ import { unitsPerCanvas } from '../art/geometry.ts';
 import { items, templates } from '../data/index.ts';
 import type { Person } from './state.ts';
 
-type Body = { headR: number; torsoH: number; torsoW: number; legH: number; legW: number };
+type Body = { headR: number; torsoH: number; torsoW: number; legH: number; legW: number; armW?: number; neckH?: number };
 const BODIES: Record<string, Body> = {
   baby: { headR: 12, torsoH: 12, torsoW: 18, legH: 9, legW: 6 },
   toddler: { headR: 13, torsoH: 15, torsoW: 20, legH: 13, legW: 7 },
@@ -17,17 +17,35 @@ const BODIES: Record<string, Body> = {
   adult: { headR: 16, torsoH: 28, torsoW: 30, legH: 38, legW: 10 },
   elder: { headR: 16, torsoH: 27, torsoW: 31, legH: 35, legW: 10 },
 };
+/**
+ * The realistic style, in the body shape the user's daughter drew (2026-10-20): a square head a little wider than
+ * tall, a short neck, a straight torso with the arms hanging flat at its sides, and the legs as one long block split
+ * down the middle. headR is half the head's width; legW is one leg's width.
+ */
+const REAL_BODIES: Record<string, Body> = {
+  baby: { headR: 8, neckH: 1.2, torsoH: 11, torsoW: 10, armW: 4, legH: 11, legW: 5.5 },
+  toddler: { headR: 8.5, neckH: 1.8, torsoH: 13, torsoW: 11, armW: 4.6, legH: 20, legW: 6.5 },
+  kid: { headR: 8.5, neckH: 2.4, torsoH: 17, torsoW: 12.5, armW: 5.5, legH: 36, legW: 7.5 },
+  teen: { headR: 9.5, neckH: 3, torsoH: 22, torsoW: 15, armW: 6.5, legH: 47, legW: 9 },
+  adult: { headR: 10, neckH: 3, torsoH: 25, torsoW: 17, armW: 7, legH: 52, legW: 10 },
+  elder: { headR: 10, neckH: 2.6, torsoH: 24, torsoW: 18, armW: 7, legH: 46, legW: 10 },
+};
+/** Half the height of the square head, as a share of headR (half its width). */
+const HEAD_H = 0.83;
+export type RigStyle = 'cute' | 'real';
 const FOOT_H = 4;
 
 export type Frame = { x: number; y: number; w: number; h: number };
 
 /** Geometry of a body: key points and the slot frame for each wearable category (see prompts/template.txt). */
-export function bodyGeometry(age: string) {
-  const b = BODIES[age] ?? BODIES.kid;
+export function bodyGeometry(age: string, style: RigStyle = 'cute') {
+  const real = style === 'real';
+  const b = (real ? REAL_BODIES : BODIES)[age] ?? BODIES.kid;
   const hipY = -b.legH;
   const shoulderY = hipY - b.torsoH;
-  const headCy = shoulderY - b.headR * 0.85;
-  const hipW = b.torsoW * 0.85;
+  const headCy = real ? shoulderY - (b.neckH ?? 2) - b.headR * HEAD_H : shoulderY - b.headR * 0.85;
+  const hipW = real ? b.legW * 2 : b.torsoW * 0.85;
+  const armW = b.armW ?? b.legW * 0.75, armH = b.torsoH * 1.12;
   const eyeDist = b.headR * 0.7;
   const frames: Record<string, Frame> = {};
   {
@@ -55,8 +73,8 @@ export function bodyGeometry(age: string) {
     frames.hair = { x: -(128 / 256) * s, y: headCy - (140 / 256) * s, w: s, h: s };
   }
   {
-    const w = (b.headR * 2.4 * 256) / 216, h = w;
-    frames.hat = { x: -w / 2, y: headCy - b.headR * 0.45 - (220 / 256) * h, w, h };
+    const w = (b.headR * (real ? 2.6 : 2.4) * 256) / 216, h = w;
+    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.72 : 0.45) - (220 / 256) * h, w, h };
   }
   {
     const w = (eyeDist * 256) / 100, h = w;
@@ -64,9 +82,9 @@ export function bodyGeometry(age: string) {
   }
   {
     const s = b.torsoH * 0.8;
-    frames.bag = { x: b.torsoW * 0.35, y: hipY - s * 0.8, w: s, h: s };
+    frames.bag = { x: real ? b.torsoW / 2 + armW * 0.5 : b.torsoW * 0.35, y: hipY - s * 0.8, w: s, h: s };
   }
-  return { b, hipY, shoulderY, headCy, hipW, eyeDist, frames, height: -(headCy - b.headR) };
+  return { b, hipY, shoulderY, headCy, hipW, eyeDist, armW, armH, frames, height: -(headCy - b.headR * (real ? HEAD_H : 1)) };
 }
 
 const LAYERS = ['bag', 'socks', 'shoes', 'bottom', 'top', 'dress', 'hair', 'glasses', 'hat'] as const;
@@ -74,9 +92,14 @@ const NEUTRAL: Emotion['face'] = { eyes: 'open', mouth: 'smile', brows: 0, blush
 
 export class Rig extends Container {
   readonly person: Person;
+  readonly style: RigStyle;
   readonly geo: ReturnType<typeof bodyGeometry>;
   private body = new Container();
+  /** Layers, bottom to top: bag, body (legs, torso, neck), clothes, arms with their sleeves, head, face, then hair,
+   * glasses and hat. Each piece of clothing is its own layer, in dressing order. */
   private skin = new Graphics();
+  private armL = new Graphics();
+  private head = new Graphics();
   private face = new Graphics();
   private armR = new Graphics();
   private wear = new Map<string, Sprite>();
@@ -89,10 +112,11 @@ export class Rig extends Container {
   private reachTarget = 0;
   private onBite: (() => void) | null = null;
 
-  constructor(person: Person) {
+  constructor(person: Person, style: RigStyle = 'cute') {
     super();
     this.person = person;
-    this.geo = bodyGeometry(person.age);
+    this.style = style;
+    this.geo = bodyGeometry(person.age, style);
     this.addChild(this.body);
     this.draw();
   }
@@ -103,33 +127,67 @@ export class Rig extends Container {
     this.wear.clear();
     const p = this.person, { b, hipY, shoulderY, headCy } = this.geo;
     const skin = hexNum(p.skin), line = hexNum(shade(p.skin, -0.45));
-    const back = new Container(), front = new Container();
-    this.body.addChild(back, this.skin, front, this.armR, this.face);
-    // Bag behind the body.
+    const back = new Container(), clothes = new Container();
+    this.body.addChild(back, this.skin, clothes, this.armL, this.armR, this.head, this.face);
+    // 1. The bag hangs behind.
     this.addWear('bag', back);
-    this.skin.clear();
-    const stroke = { color: line, width: 1.6 };
-    // Legs and feet.
-    for (const side of [-1, 1]) {
-      this.skin.roundRect(side * (b.legW * 0.55) - b.legW / 2, hipY - 2, b.legW, b.legH + 2, b.legW / 2).fill(skin).stroke(stroke);
+    // 2. The body.
+    for (const g of [this.skin, this.armL, this.head]) g.clear();
+    if (this.style === 'real') this.drawRealSkin();
+    else {
+      const stroke = { color: line, width: 1.6 };
+      for (const side of [-1, 1]) {
+        this.skin.roundRect(side * (b.legW * 0.55) - b.legW / 2, hipY - 2, b.legW, b.legH + 2, b.legW / 2).fill(skin).stroke(stroke);
+      }
+      this.skin.roundRect(-b.torsoW / 2, shoulderY, b.torsoW, b.torsoH + 2, b.torsoW * 0.3).fill(skin).stroke(stroke);
+      this.armL.roundRect(-b.torsoW / 2 - b.legW * 0.7, shoulderY + 2, b.legW * 0.75, b.torsoH * 0.95, b.legW * 0.4).fill(skin).stroke(stroke);
+      this.armL.circle(-b.torsoW / 2 - b.legW * 0.33, shoulderY + b.torsoH, b.legW * 0.5).fill(skin).stroke(stroke);
+      for (const side of [-1, 1]) this.head.circle(side * b.headR * 0.98, headCy + b.headR * 0.1, b.headR * 0.22).fill(skin).stroke(stroke);
+      this.head.circle(0, headCy, b.headR).fill(skin).stroke(stroke);
     }
-    // Torso, left arm, neck, head, ears.
-    this.skin.roundRect(-b.torsoW / 2, shoulderY, b.torsoW, b.torsoH + 2, b.torsoW * 0.3).fill(skin).stroke(stroke);
-    this.skin.roundRect(-b.torsoW / 2 - b.legW * 0.7, shoulderY + 2, b.legW * 0.75, b.torsoH * 0.95, b.legW * 0.4).fill(skin).stroke(stroke);
-    this.skin.circle(-b.torsoW / 2 - b.legW * 0.33, shoulderY + b.torsoH, b.legW * 0.5).fill(skin).stroke(stroke);
-    for (const side of [-1, 1]) this.skin.circle(side * b.headR * 0.98, headCy + b.headR * 0.1, b.headR * 0.22).fill(skin).stroke(stroke);
-    this.skin.circle(0, headCy, b.headR).fill(skin).stroke(stroke);
-    for (const slot of ['socks', 'shoes', 'bottom', 'top', 'dress'] as const) this.addWear(slot, front);
-    // Short sleeves on the left arm in the top's colour (the right arm draws its own in drawArm).
+    // 3. Clothes, one at a time in dressing order: socks, shoes, then trousers or a skirt, a top, a dress.
+    for (const slot of ['socks', 'shoes', 'bottom', 'top', 'dress'] as const) this.addWear(slot, clothes);
+    // 4. The arms over the clothes, each with its sleeve (the right arm draws its own in drawArm, as it moves).
     const sl = this.sleeve();
     if (sl) {
-      const sleeves = new Graphics().roundRect(-b.torsoW / 2 - b.legW * 0.78, shoulderY + 1, b.legW * 0.9, b.torsoH * 0.42, b.legW * 0.4).fill(sl.fill).stroke({ color: sl.line, width: 1.6 });
-      front.addChild(sleeves);
+      // Realistic sleeves hug the arm; the cute ones are puffy.
+      if (this.style === 'real') blockArm(this.armL, -b.torsoW / 2 - this.geo.armW - 0.3, shoulderY, this.geo.armW + 0.6, this.geo.armH * 0.3, -1, sl.fill, null, { color: sl.line, width: 0.9 });
+      else this.armL.roundRect(-b.torsoW / 2 - b.legW * 0.78, shoulderY + 1, b.legW * 0.9, b.torsoH * 0.42, b.legW * 0.4).fill(sl.fill).stroke({ color: sl.line, width: 1.6 });
     }
     this.drawArm();
+    // 5. The face on the head, then hair, glasses and hat.
     this.drawFace();
     for (const slot of ['hair', 'glasses', 'hat'] as const) this.addWear(slot, this.body);
     if (this.held) this.body.addChild(this.held);
+  }
+
+  /** Realistic skin in the blocky shape: square blocks, even shading on both sides, a thin outline. */
+  private drawRealSkin(): void {
+    const p = this.person, { b, hipY, shoulderY, headCy, hipW, armW, armH } = this.geo;
+    const g = this.skin;
+    const skin = hexNum(p.skin), dark = hexNum(shade(p.skin, -0.16)), light = hexNum(shade(p.skin, 0.14));
+    const stroke = { color: hexNum(shade(p.skin, -0.38)), width: 0.9 };
+    // A block, shaded the same on both sides so it looks even.
+    const block = (x: number, y: number, w: number, h: number, r: number) => {
+      g.roundRect(x, y, w, h, r).fill(skin);
+      g.rect(x + w * 0.04, y + r, w * 0.12, h - r * 2).fill({ color: dark, alpha: 0.35 }).rect(x + w * 0.84, y + r, w * 0.12, h - r * 2).fill({ color: dark, alpha: 0.35 });
+      g.roundRect(x, y, w, h, r).stroke(stroke);
+    };
+    // Legs: one block with a line down the middle.
+    block(-hipW / 2, hipY - 1, hipW, b.legH + 1, 0.8);
+    g.moveTo(0, hipY + b.legH * 0.12).lineTo(0, 0).stroke(stroke);
+    // Neck and torso.
+    const neckH = b.neckH ?? 2;
+    block(-b.torsoW * 0.24, shoulderY - neckH - 1, b.torsoW * 0.48, neckH + 2, 0.3);
+    block(-b.torsoW / 2, shoulderY, b.torsoW, b.torsoH + 1, 0.8);
+    // The left arm (the right one swings, in drawRealArm), shaped the same: curved at the shoulder, square below.
+    blockArm(this.armL, -b.torsoW / 2 - armW, shoulderY, armW, armH, -1, skin, dark, stroke);
+    // The square head (its own layer, above the collar), with a soft highlight across the top.
+    const hw = b.headR, hh = b.headR * HEAD_H, hg = this.head;
+    hg.roundRect(-hw, headCy - hh, hw * 2, hh * 2, hw * 0.08).fill(skin);
+    hg.rect(-hw * 0.92, headCy - hh + 1, hw * 0.24, hh * 2 - 2).fill({ color: dark, alpha: 0.35 }).rect(hw * 0.68, headCy - hh + 1, hw * 0.24, hh * 2 - 2).fill({ color: dark, alpha: 0.35 });
+    hg.roundRect(-hw, headCy - hh, hw * 2, hh * 2, hw * 0.08).stroke(stroke);
+    hg.roundRect(-hw * 0.55, headCy - hh * 0.88, hw * 1.1, hh * 0.2, hh * 0.1).fill({ color: light, alpha: 0.5 });
   }
 
   private addWear(slot: (typeof LAYERS)[number], into: Container): void {
@@ -158,16 +216,17 @@ export class Rig extends Container {
     });
   }
 
-  /** The colours of the sleeves, from the top or dress being worn. */
+  /** The colours of the sleeves, from the top or dress being worn (realistic dresses are sleeveless). */
   private sleeve(): { fill: number; line: number } | null {
+    if (this.style === 'real' && !this.person.outfit.top) return null;
     const it = items.get(this.person.outfit.top ?? this.person.outfit.dress ?? '');
     return it ? { fill: hexNum(it.palette.main), line: hexNum(it.palette.outline) } : null;
   }
 
   /** Right hand position for the current reach (down at the side → up at the mouth). */
   handPos(): { x: number; y: number } {
-    const { b, shoulderY, headCy } = this.geo;
-    const down = { x: b.torsoW / 2 + b.legW * 0.33, y: shoulderY + b.torsoH };
+    const { b, shoulderY, headCy, armW, armH } = this.geo;
+    const down = this.style === 'real' ? { x: b.torsoW / 2 + armW / 2, y: shoulderY + armH - armW * 0.5 } : { x: b.torsoW / 2 + b.legW * 0.33, y: shoulderY + b.torsoH };
     const mouth = { x: b.headR * 0.35, y: headCy + b.headR * 0.55 };
     const k = this.reach;
     return { x: down.x + (mouth.x - down.x) * k, y: down.y + (mouth.y - down.y) * k };
@@ -178,10 +237,13 @@ export class Rig extends Container {
   }
 
   private drawArm(): void {
+    if (this.style === 'real') return this.drawRealArm();
     const { b, shoulderY } = this.geo;
     const skin = hexNum(this.person.skin), line = hexNum(shade(this.person.skin, -0.45));
     const sh = { x: b.torsoW / 2 - b.legW * 0.1, y: shoulderY + 4 };
     const h = this.handPos();
+    this.armR.position.set(0, 0);
+    this.armR.rotation = 0;
     this.armR.clear()
       .moveTo(sh.x, sh.y).lineTo(h.x, h.y).stroke({ color: line, width: b.legW * 0.75 + 3, cap: 'round' })
       .moveTo(sh.x, sh.y).lineTo(h.x, h.y).stroke({ color: skin, width: b.legW * 0.75, cap: 'round' })
@@ -196,11 +258,33 @@ export class Rig extends Container {
     if (this.held && this.heldId) this.placeHeld();
   }
 
+  /** The right arm in the blocky shape: the same shape as the left, turning at the shoulder to reach the mouth. */
+  private drawRealArm(): void {
+    const { b, shoulderY, armW } = this.geo;
+    const skin = hexNum(this.person.skin), dark = hexNum(shade(this.person.skin, -0.16));
+    const stroke = { color: hexNum(shade(this.person.skin, -0.38)), width: 0.9 };
+    // Pivot at the top middle of the arm; draw it hanging down, then turn it towards the hand.
+    const pivot = { x: b.torsoW / 2 + armW / 2, y: shoulderY };
+    const h = this.handPos();
+    const len = Math.hypot(h.x - pivot.x, h.y - pivot.y) + armW * 0.5;
+    const g = this.armR.clear();
+    g.position.set(pivot.x, pivot.y);
+    g.rotation = Math.atan2(-(h.x - pivot.x), h.y - pivot.y);
+    blockArm(g, -armW / 2, 0, armW, len, 1, skin, dark, stroke);
+    const sl = this.sleeve();
+    if (sl) blockArm(g, -armW / 2 - 0.3, 0, armW + 0.6, this.geo.armH * 0.3, 1, sl.fill, null, { color: sl.line, width: 0.9 });
+    if (this.held && this.heldId) this.placeHeld();
+  }
+
   private drawFace(): void {
     const base = this.emotion?.face ?? NEUTRAL;
     const f = !this.emotion && (this.sleeping || this.blinking > 0) ? { ...base, eyes: 'closed' } : base;
     const { b, headCy } = this.geo;
     const g = this.face.clear();
+    if (this.style === 'real' && (f.eyes === 'open' || f.eyes === 'closed') && (f.mouth === 'smile' || f.mouth === 'flat' || f.mouth === 'grin')) {
+      this.drawRealFace(g, f);
+      return;
+    }
     const ink = 0x3a2a2a, er = b.headR * 0.13;
     const ey = headCy + b.headR * 0.05, ex = b.headR * 0.35;
     const eye = (x: number, kind: string) => {
@@ -258,6 +342,51 @@ export class Rig extends Container {
     // Lipstick: a soft coloured smile over the mouth.
     if (mk?.lips) g.ellipse(0, my + mw * 0.35, mw * 0.75, mw * 0.32).fill({ color: hexNum(mk.lips), alpha: 0.75 });
     if (this.chewing > 0) g.ellipse(0, my + mw * 0.2, mw * 0.5, mw * (0.2 + 0.3 * Math.abs(Math.sin(this.chewing * 14)))).fill(ink);
+  }
+
+  /** A realistic face: almond eyes with coloured irises and lashes, brows in the hair colour, a nose and lips. */
+  private drawRealFace(g: Graphics, f: Emotion['face']): void {
+    const p = this.person, { b, headCy } = this.geo;
+    const r = b.headR, ey = headCy + r * 0.02, ex = r * 0.36, ew = r * 0.2, eh = r * 0.12;
+    const ink = 0x2a1d1a, skinDark = hexNum(shade(p.skin, -0.3));
+    for (const side of [-1, 1]) {
+      const x = side * ex;
+      if (f.eyes === 'closed' || this.sleeping) {
+        g.moveTo(x - ew, ey).quadraticCurveTo(x, ey + eh * 1.2, x + ew, ey).stroke({ color: ink, width: r * 0.05, cap: 'round' });
+        continue;
+      }
+      g.moveTo(x - ew, ey).quadraticCurveTo(x, ey - eh * 1.6, x + ew, ey).quadraticCurveTo(x, ey + eh * 1.3, x - ew, ey).fill(0xffffff);
+      g.circle(x + side * r * 0.01, ey, eh * 0.95).fill(hexNum(p.eyes)).circle(x + side * r * 0.01, ey, eh * 0.45).fill(ink);
+      g.circle(x - eh * 0.35, ey - eh * 0.35, eh * 0.28).fill(0xffffff);
+      // Upper lid and lashes.
+      g.moveTo(x - ew * 1.08, ey + eh * 0.1).quadraticCurveTo(x, ey - eh * 1.75, x + ew * 1.12, ey - eh * 0.1).stroke({ color: ink, width: r * 0.055, cap: 'round' });
+      g.moveTo(x + side * ew * 1.05, ey - eh * 0.2).lineTo(x + side * ew * 1.32, ey - eh * 0.6).stroke({ color: ink, width: r * 0.04, cap: 'round' });
+      g.moveTo(x - ew * 0.8, ey + eh * 0.9).quadraticCurveTo(x, ey + eh * 1.35, x + ew * 0.8, ey + eh * 0.9).stroke({ color: skinDark, width: r * 0.025, alpha: 0.6 });
+    }
+    // Brows in a darker hair colour, gently arched.
+    const brow = hexNum(shade(p.hair.colour, -0.25));
+    for (const side of [-1, 1]) {
+      const x = side * ex, y = ey - eh * 2.6 - f.brows * r * 0.05;
+      g.moveTo(x - side * ew * 1.1, y + r * 0.03).quadraticCurveTo(x, y - r * 0.06, x + side * ew * 1.15, y + r * 0.02).stroke({ color: brow, width: r * 0.07, cap: 'round' });
+    }
+    // Nose: a soft shadow line and nostrils.
+    g.moveTo(r * 0.02, ey + eh * 1.2).quadraticCurveTo(r * 0.12, ey + r * 0.3, r * 0.03, ey + r * 0.36).stroke({ color: skinDark, width: r * 0.04, cap: 'round', alpha: 0.7 });
+    g.ellipse(-r * 0.07, ey + r * 0.37, r * 0.035, r * 0.02).ellipse(r * 0.08, ey + r * 0.37, r * 0.035, r * 0.02).fill({ color: skinDark, alpha: 0.6 });
+    // Lips.
+    const lipBase = mix(p.skin, '#c0505a', 0.5);
+    const lips = hexNum(p.makeup?.lips ?? lipBase), my = headCy + r * 0.56, mw = r * 0.24;
+    if (f.mouth === 'grin') g.moveTo(-mw, my - r * 0.02).quadraticCurveTo(0, my + r * 0.22, mw, my - r * 0.02).closePath().fill(0xffffff).stroke({ color: lips, width: r * 0.05 });
+    else {
+      const up = f.mouth === 'smile' ? r * 0.05 : 0;
+      g.moveTo(-mw, my - up).quadraticCurveTo(-mw * 0.4, my - r * 0.08, 0, my - r * 0.04).quadraticCurveTo(mw * 0.4, my - r * 0.08, mw, my - up)
+        .quadraticCurveTo(0, my + r * 0.04 + up, -mw, my - up).fill(hexNum(shade(lipBase, -0.1)));
+      g.moveTo(-mw * 0.92, my - up * 0.8).quadraticCurveTo(0, my + r * 0.1 + up, mw * 0.92, my - up * 0.8).quadraticCurveTo(0, my + r * 0.16 + up, -mw * 0.92, my - up * 0.8).fill(lips);
+      g.ellipse(-mw * 0.25, my + r * 0.06, mw * 0.2, r * 0.02).fill({ color: 0xffffff, alpha: 0.35 });
+    }
+    // A little warmth in the cheeks, and any makeup.
+    const mk = p.makeup;
+    for (const side of [-1, 1]) g.ellipse(side * r * 0.5, ey + r * 0.3, r * 0.16, r * 0.09).fill({ color: hexNum(mk?.blush ?? '#ff8a8a'), alpha: mk?.blush ? 0.55 : 0.16 });
+    if (mk?.eyes) for (const side of [-1, 1]) g.ellipse(side * ex, ey - eh * 1.3, ew * 1.1, eh * 0.7).fill({ color: hexNum(mk.eyes), alpha: 0.45 });
   }
 
   feel(e: Emotion): void {
@@ -421,4 +550,27 @@ function star(g: Graphics, x: number, y: number, s: number, color: number): void
     pts.push(x + Math.cos(a) * r, y + Math.sin(a) * r);
   }
   g.poly(pts).fill(color);
+}
+
+/**
+ * An arm (or a sleeve) in the blocky shape: a rectangle with the outer shoulder corner curved and the other corners
+ * nearly square. side -1 is the left arm (curve at the top left), 1 the right.
+ */
+function blockArm(g: Graphics, x: number, y: number, w: number, h: number, side: -1 | 1, fill: number, shadeCol: number | null, stroke: { color: number; width: number }): Graphics {
+  const R = Math.min(w * 0.7, h / 2), r = Math.min(w * 0.18, h / 4);
+  const [tl, tr] = side < 0 ? [R, r] : [r, R];
+  const path = () =>
+    g.moveTo(x + tl, y).lineTo(x + w - tr, y).quadraticCurveTo(x + w, y, x + w, y + tr).lineTo(x + w, y + h - r).quadraticCurveTo(x + w, y + h, x + w - r, y + h)
+      .lineTo(x + r, y + h).quadraticCurveTo(x, y + h, x, y + h - r).lineTo(x, y + tl).quadraticCurveTo(x, y, x + tl, y).closePath();
+  path().fill(fill);
+  if (shadeCol !== null) g.rect(x + w * 0.06, y + R, w * 0.16, h - R - r).fill({ color: shadeCol, alpha: 0.35 }).rect(x + w * 0.78, y + R, w * 0.16, h - R - r).fill({ color: shadeCol, alpha: 0.35 });
+  path().stroke(stroke);
+  return g;
+}
+
+/** Blend two #rrggbb colours (k = 0 gives a, 1 gives b). */
+function mix(a: string, b: string, k: number): string {
+  const pa = parseInt(a.slice(1), 16), pb = parseInt(b.slice(1), 16);
+  const ch = (sh: number) => Math.round(((pa >> sh) & 255) * (1 - k) + ((pb >> sh) & 255) * k);
+  return `#${((ch(16) << 16) | (ch(8) << 8) | ch(0)).toString(16).padStart(6, '0')}`;
 }
