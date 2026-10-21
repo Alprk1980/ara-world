@@ -29,7 +29,7 @@ A template is one SVG drawing whose colours are SLOTS, so the game can repaint i
 - Also give "palette": the item's real-world colours {"main","trim","accent","outline"} as #rrggbb (outline is a dark
   shade of main, not black).
 
-The people have a BLOCKY body (like the girl drew): a square head, a straight torso with the arms flat at its sides,
+The people have a BLOCKY body (like the girl drew): a round head, a straight torso with the arms flat at its sides,
 and the legs as one long block split down the middle. Clothes are front view, straight and SYMMETRIC, cut to it:
 - top: fills the torso exactly, a rectangle x 20-236, shoulders at y 18, hem at y 240, with a neckline at top centre
   (x 76-180). NO sleeves (the arms get sleeves in the top's colour automatically).
@@ -39,7 +39,8 @@ and the legs as one long block split down the middle. Clothes are front view, st
   (y 200-250). Sleeveless.
 - socks: two straight tubes, x 22-126 and x 130-234, from y 0 to y 250, with a cuff at the top.
 - shoes: two shoes seen from the FRONT, toes towards you, x 40-126 and x 130-216, from about y 112 to soles at y 242.
-- hair: the head is a SQUARE x 38-218, y 65-215; draw hair over the top of it and down its sides, keeping the face
+- hair: the head is a soft OVAL, nearly round, x 38-218, y 55-225 (centre 128,140); draw hair over the top of it
+  and down its sides, keeping the face
   (x 75-181, y 105-215) clear.
 - hat: sits on top of the square head; brim around y 200-240 spanning x 20-236. glasses: lenses centred (78,128) and
   (178,128). bag: a bag seen from the front, filling the frame.

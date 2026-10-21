@@ -45,6 +45,8 @@ try {
   await ara((a) => a.create());
   await shot('5-creator');
   await ara((a) => a.back());
+  // Back out to the town map: there the hammer builds a house (in a place it is build mode).
+  await ara((a) => a.back());
   await ara((a) => a.build());
   await shot('6-builder');
   // Pick lot 1 and see the house list, then build the first house furnished and go in.

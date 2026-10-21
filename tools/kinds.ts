@@ -35,6 +35,7 @@ export const FILES = {
   emotion: 'src/data/emotions.json',
   daily: 'src/data/daily.json',
   names: 'src/data/names.json',
+  templateReal: 'src/data/templates-real.json',
 };
 
 const templates = () => new Map(load<Template>(FILES.template).map((t) => [t.id, t]));
@@ -76,6 +77,48 @@ export const KINDS: Record<string, Kind> = {
     errors: (e, all) => planErrors(as<PlanEntry>(e), as<PlanEntry[]>(all)),
     vars: () => ({ notes: readFileSync('prompts/notes.txt', 'utf8'), districts: DISTRICTS.join(', '), tags: ITEM_TAGS.join(', ') }),
   },
+  // Redraw a game template in the realistic style. Same id, name, category, size and anchors as the original, so
+  // every item and layout keeps working; kept in its own file until the realistic look is switched on.
+  'template-redraw': {
+    prompt: 'prompts/template-redraw.txt',
+    data: FILES.templateReal,
+    errors: (e, all) => {
+      const t = as<Template & { palette?: Record<string, string> }>(e);
+      const orig = load<Template>(FILES.template).find((o) => o.id === t.id);
+      if (!orig) return [`${t.id}: keep the original id (it must be one of the game's templates)`];
+      const out = [...templateErrors(t, as<Template[]>(all)), ...realStyleErrors(t)];
+      if (t.category !== orig.category) out.push(`${t.id}: category must stay "${orig.category}"`);
+      if (orig.size) {
+        const near = (a: number, b: number) => Math.abs(a - b) <= b * 0.15;
+        if (!t.size || !near(t.size.w, orig.size.w) || !near(t.size.h, orig.size.h)) out.push(`${t.id}: size must stay ${JSON.stringify(orig.size)} (within 15%)`);
+        for (const k of Object.keys(orig.anchors ?? {})) if (!t.anchors?.[k]) out.push(`${t.id}: keep the anchor "${k}"`);
+      }
+      return out;
+    },
+    vars: (ask) => {
+      const s = realSamples();
+      const id = ask.trim().split(/[\s,]+/)[0];
+      const orig = load<Template>(FILES.template).find((o) => o.id === id);
+      if (!orig) throw new Error(`no template "${id}"`);
+      // Examples: Claude's sample of the same category, and one other.
+      const same = s.templates.find((t) => t.category === orig.category);
+      const ids = [...new Set([same?.id, isWearable(orig.category) ? 'real_apple' : 'real_tshirt'].filter(Boolean) as string[])];
+      const ex = ids.map((x) => JSON.stringify({ ...s.templates.find((t) => t.id === x)!, palette: s.items.find((i) => i.id === x)!.palette }));
+      const uses = load<Item>(FILES.item).filter((it) => it.template === id).slice(0, 3).map((it) => it.name);
+      return {
+        target: [
+          `id "${orig.id}", name "${orig.name}", category "${orig.category}"`,
+          orig.size ? `size ${JSON.stringify(orig.size)} (keep it), anchors ${JSON.stringify(orig.anchors)} (keep the same anchor names, placed on your drawing)` : 'a wearable: no size, no anchors',
+          uses.length ? `in the game it is used for: ${uses.join(', ')}` : '',
+          `today's (cute, flat) drawing, for what it shows (do not copy its style): ${orig.svg}`,
+        ].filter(Boolean).join('\n'),
+        objects: OBJECT_CATEGORIES.join(', '),
+        sizes: Object.entries(SIZE_BOUNDS).map(([c, b]) => `${c} ${b.min}-${b.max}`).join(', '),
+        anchors: Object.entries(REQUIRED_ANCHORS).map(([c, a]) => `${c}: ${a.join(' + ')}`).join('; '),
+        examples: ex.join('\n'),
+      };
+    },
+  },
   // Realistic-style trials: kept apart from the game's data (prompts/style-real-qwen.json) until the look is chosen.
   'template-real': {
     prompt: 'prompts/template-real.txt',
@@ -84,9 +127,12 @@ export const KINDS: Record<string, Kind> = {
       const taken = [...load<Template>(FILES.template), ...realSamples().templates, ...as<Template[]>(all)];
       return [...templateErrors(as<Template>(e), taken), ...realStyleErrors(as<Template & { palette?: Record<string, string> }>(e))];
     },
-    vars: () => {
+    vars: (ask) => {
       const s = realSamples();
-      const ex = ['real_tshirt', 'real_apple'].map((id) => {
+      // Show examples of the categories asked for (e.g. "(hair)"), topped up with a top and an object.
+      const asked = s.templates.filter((t) => ask.includes(`(${t.category})`)).map((t) => t.id);
+      const ids = [...new Set([...asked, 'real_tshirt', 'real_apple'])].slice(0, 2);
+      const ex = ids.map((id) => {
         const t = s.templates.find((x) => x.id === id)!;
         return JSON.stringify({ ...t, palette: s.items.find((i) => i.id === id)!.palette });
       });

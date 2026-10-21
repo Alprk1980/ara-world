@@ -5,7 +5,7 @@ import { KINDS } from './kinds.ts';
 // Placeholders the generator fills itself; colour slots stay in the template prompt on purpose.
 const GENERIC = ['count', 'ask', 'existing'];
 const SLOTS = ['main', 'trim', 'accent', 'outline'];
-const ASKS: Record<string, string> = { item: 'a,b', daily: '10' };
+const ASKS: Record<string, string> = { item: 'a,b', daily: '10', 'template-redraw': 'star_tshirt' };
 
 describe('prompts', () => {
   for (const [name, kind] of Object.entries(KINDS)) {

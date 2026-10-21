@@ -187,8 +187,8 @@ try {
   if (asleep !== null) check('someone put on a bed falls asleep', asleep);
   await shot('8-asleep');
 
-  // Drag a thing onto the bin: it is tidied away.
-  await inPage(`ara.setSky(false);`);
+  // In build mode (the bin is only there while building), drag a thing onto the bin: it is tidied away.
+  await inPage(`ara.setSky(false); ara.place.setBuilding(true); ara.panel.hide();`);
   const binTest = await inPage<{ from: { x: number; y: number }; bin: { x: number; y: number }; n: number } | null>(`
     const scene = ara.place;
     const things = st.thingsOn(ara.world, '__test', 1);
@@ -202,6 +202,7 @@ try {
     const n = await inPage<number>(`return st.thingsOn(ara.world, '__test', 1).length;`);
     check('dropping a thing on the bin tidies it away', n === binTest.n - 1, `${binTest.n} → ${n} things`);
   }
+  await inPage(`ara.place.setBuilding(false);`);
 
   // Get on a vehicle: pick a destination and go there.
   const travelled = await inPage<string>(`

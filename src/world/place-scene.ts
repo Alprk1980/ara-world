@@ -1,4 +1,7 @@
-// A place: floors stacked like a dollhouse (swipe up/down), things to drag anywhere, people to tap and feed.
+// A place: floors stacked like a dollhouse (swipe up/down), things to play with, people to tap and feed.
+// Rooms are locked while playing: small things (food, toys, makeup...) and people can be moved, but furniture and
+// decorations stay put, and nothing can be binned. Build mode (the 🔨 in a place) unlocks everything and opens a
+// catalogue of things to decorate with.
 import { Container, Graphics, Rectangle, Sprite, type FederatedPointerEvent } from 'pixi.js';
 import type { Scene } from '../app/scenes.ts';
 import type { Floor } from '../../schemas/place.ts';
@@ -8,7 +11,8 @@ import { anchorOffset, itemSize, itemSprite } from '../art/geometry.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { dressFloor } from '../art/room-dressing.ts';
 import { themeFor } from '../art/themes.ts';
-import { label, roundButton } from '../ui/kit.ts';
+import { COLORS, label, pillButton, roundButton } from '../ui/kit.ts';
+import { itemThumb } from '../ui/creator.ts';
 import { playSound } from '../ui/sound.ts';
 import { COOKS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, is, makeupKind } from './behaviours.ts';
 import { emotions } from '../data/index.ts';
@@ -20,6 +24,18 @@ const GROUND = 24;
 const GAP = 70;
 const HOLDABLE = new Set(['food', 'drink', 'toy', 'school', 'makeup', 'sport']);
 const EDIBLE = new Set(['food', 'drink']);
+/** What can be moved while playing (outside build mode): small things you hold, and animals. */
+const PLAYABLE = new Set([...HOLDABLE, 'animal']);
+/** The build-mode catalogue: tabs of things to decorate with. */
+export const CATALOGUE: { label: string; cats: string[] }[] = [
+  { label: '🛋️ Furniture', cats: ['furniture'] },
+  { label: '🖼️ Decor', cats: ['decor'] },
+  { label: '🌷 Plants', cats: ['plant', 'garden'] },
+  { label: '🧸 Toys', cats: ['toy', 'sport'] },
+  { label: '🍰 Food', cats: ['food', 'drink'] },
+  { label: '🎃 Party', cats: ['halloween'] },
+  { label: '✨ More', cats: ['baby', 'elder', 'school', 'makeup', 'vehicle', 'animal'] },
+];
 /** Things that light up at night (by template id). */
 const LIGHT = /lamp|light|lantern|candle|chandelier|torch|neon/;
 /** Things you can sleep on (by template id). */
@@ -50,8 +66,13 @@ export class PlaceScene implements Scene {
   private drag: Drag | null = null;
   private indicator = new Container();
   private title = label('', 30);
-  /** Shown while dragging a thing: drop it here to tidy it away. */
+  /** Shown while dragging a thing in build mode: drop it here to tidy it away. */
   private bin = roundButton('🗑️', () => {}, 96, 0xffe3ef);
+  /** Build mode: everything can be moved or binned, and the catalogue adds new things. */
+  building = false;
+  private buildBar = new Container();
+  private tab = 0;
+  private toldLocked = false;
 
   constructor(game: Game, placeId: string) {
     this.game = game;
@@ -61,7 +82,8 @@ export class PlaceScene implements Scene {
     this.view.eventMode = 'static';
     this.bin.visible = false;
     this.bin.eventMode = 'none';
-    this.view.addChild(this.cam, this.indicator, this.title, this.bin);
+    this.buildBar.visible = false;
+    this.view.addChild(this.cam, this.indicator, this.title, this.bin, this.buildBar);
     let top = 0;
     this.floorData.forEach((f, i) => {
       this.floorTop.push(top);
@@ -202,9 +224,10 @@ export class PlaceScene implements Scene {
       e.stopPropagation();
       const p = this.toFloor(e, floor);
       this.drag = { kind: 'thing', thing: t, sprite: s, floor, dx: t.x - p.x, dy: t.y - p.y, gx: e.global.x, gy: e.global.y, at: performance.now() };
+      if (!this.canMove(t)) return;
       s.parent?.addChild(s);
       s.scale.set(s.scale.x * 1.08);
-      this.bin.visible = true;
+      this.bin.visible = this.building;
     });
     return s;
   }
@@ -321,6 +344,15 @@ export class PlaceScene implements Scene {
     }
     const p = this.toFloor(e, d.floor);
     if (d.kind === 'thing') {
+      // Locked furniture doesn't move; say how to move it the first time someone tries.
+      if (!this.canMove(d.thing)) {
+        if (!this.toldLocked && Math.hypot(e.global.x - d.gx, e.global.y - d.gy) > 24) {
+          this.toldLocked = true;
+          this.game.toast.show('Tap 🔨 to move furniture and decorate');
+          this.bounce(d.sprite);
+        }
+        return;
+      }
       d.thing.x = p.x + d.dx;
       d.thing.y = p.y + d.dy;
       d.sprite.position.set(d.thing.x, -d.thing.y);
@@ -343,8 +375,9 @@ export class PlaceScene implements Scene {
     }
     this.bin.visible = false;
     if (d.kind === 'thing') {
-      d.sprite.scale.set(d.sprite.scale.x / 1.08);
-      if (Math.hypot(e.global.x - this.bin.x, e.global.y - this.bin.y) < 60) {
+      const movable = this.canMove(d.thing);
+      if (movable) d.sprite.scale.set(d.sprite.scale.x / 1.08);
+      if (this.building && Math.hypot(e.global.x - this.bin.x, e.global.y - this.bin.y) < 60) {
         this.removeThing(d.thing, d.floor);
         this.sparkle(this.floorViews[d.floor], d.thing.x, -d.thing.y);
         d.sprite.destroy();
@@ -367,6 +400,7 @@ export class PlaceScene implements Scene {
         }
         return;
       }
+      if (!movable) return;
       this.dropThing(d.thing, d.sprite, d.floor);
     } else {
       if (this.game.overPeopleBar(e.global)) {
@@ -590,6 +624,64 @@ export class PlaceScene implements Scene {
   }
   private updates = new Set<(dt: number) => void>();
 
+  /** Whether a thing can be moved right now: anything in build mode, otherwise only small things and animals. */
+  canMove(t: Thing): boolean {
+    return this.building || PLAYABLE.has(categoryOf(t.item));
+  }
+
+  /** Turn build mode on or off (the 🔨 in a place). */
+  setBuilding(on: boolean): void {
+    this.building = on;
+    this.buildBar.visible = on;
+    if (on) this.showCatalogue();
+    else this.game.panel.hide();
+    this.drawBuildBar();
+    playSound('pop');
+  }
+
+  private drawBuildBar(): void {
+    this.buildBar.removeChildren().forEach((c) => c.destroy({ children: true }));
+    if (!this.building) return;
+    const { w, h } = this.screen;
+    const text = label('🔨 Build mode: drag anything · 🗑️ to remove', 20, 0xffffff);
+    const bw = text.width + 40;
+    text.position.set(w / 2, 86);
+    this.buildBar.addChild(new Graphics().roundRect(w / 2 - bw / 2, 66, bw, 40, 20).fill({ color: 0x7b4fa0, alpha: 0.9 }), text);
+    // The catalogue button sits at the bottom, beside where the bin shows while dragging.
+    const add = pillButton('🛍️ Add things', () => this.showCatalogue(), 210, 64, 0xb197fc);
+    add.position.set(w / 2 + 60, h - 70);
+    this.buildBar.addChild(add);
+  }
+
+  /** The catalogue of things to decorate with, by tab; tapping one puts it in the room. */
+  showCatalogue(): void {
+    const tab = CATALOGUE[this.tab];
+    const list = [...items.values()].filter((it) => tab.cats.includes(categoryOf(it.id)) && !it.id.startsWith('drawn_preview'));
+    this.game.panel.show(`${tab.label} (${list.length})`, () => list.map((it) => ({
+      draw: () => itemThumb(it.id, 84),
+      onTap: () => {
+        // It lands in the part of the room you can see beside the catalogue.
+        this.spawnAt(it.id, { x: this.screen.w * 0.76, y: this.screen.h * 0.45 });
+        playSound('pop');
+      },
+    })), {
+      side: 'left',
+      cell: 96,
+      extra: () => {
+        const row = new Container();
+        CATALOGUE.forEach((c, i) => {
+          const b = pillButton(c.label, () => {
+            this.tab = i;
+            this.showCatalogue();
+          }, 128, 40, i === this.tab ? COLORS.pink : 0xd9a3bb);
+          b.position.set(66 + (i % 4) * 134, 22 + Math.floor(i / 4) * 46);
+          row.addChild(b);
+        });
+        return row;
+      },
+    });
+  }
+
   goFloor(i: number): void {
     if (i < 0 || i >= this.floorData.length || i === this.floor) return;
     this.floor = i;
@@ -636,6 +728,7 @@ export class PlaceScene implements Scene {
     this.title.position.set(w / 2, 36);
     this.bin.position.set(w / 2 - 150, h - 70);
     this.drawIndicator();
+    this.drawBuildBar();
   }
 
   update(dt: number): void {

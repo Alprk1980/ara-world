@@ -30,8 +30,8 @@ const REAL_BODIES: Record<string, Body> = {
   adult: { headR: 10, neckH: 3, torsoH: 25, torsoW: 17, armW: 7, legH: 52, legW: 10 },
   elder: { headR: 10, neckH: 2.6, torsoH: 24, torsoW: 18, armW: 7, legH: 46, legW: 10 },
 };
-/** Half the height of the square head, as a share of headR (half its width). */
-const HEAD_H = 0.83;
+/** Half the height of the head (a soft oval, nearly round), as a share of headR (half its width). */
+const HEAD_H = 0.95;
 export type RigStyle = 'cute' | 'real';
 const FOOT_H = 4;
 
@@ -74,7 +74,7 @@ export function bodyGeometry(age: string, style: RigStyle = 'cute') {
   }
   {
     const w = (b.headR * (real ? 2.6 : 2.4) * 256) / 216, h = w;
-    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.72 : 0.45) - (220 / 256) * h, w, h };
+    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.84 : 0.45) - (220 / 256) * h, w, h };
   }
   {
     const w = (eyeDist * 256) / 100, h = w;
@@ -182,12 +182,13 @@ export class Rig extends Container {
     block(-b.torsoW / 2, shoulderY, b.torsoW, b.torsoH + 1, 0.8);
     // The left arm (the right one swings, in drawRealArm), shaped the same: curved at the shoulder, square below.
     blockArm(this.armL, -b.torsoW / 2 - armW, shoulderY, armW, armH, -1, skin, dark, stroke);
-    // The square head (its own layer, above the collar), with a soft highlight across the top.
+    // The head is a soft oval, nearly round (its own layer, above the collar), so hair sits on it naturally. The rim
+    // is shaded evenly all round, with a soft highlight on top.
     const hw = b.headR, hh = b.headR * HEAD_H, hg = this.head;
-    hg.roundRect(-hw, headCy - hh, hw * 2, hh * 2, hw * 0.08).fill(skin);
-    hg.rect(-hw * 0.92, headCy - hh + 1, hw * 0.24, hh * 2 - 2).fill({ color: dark, alpha: 0.35 }).rect(hw * 0.68, headCy - hh + 1, hw * 0.24, hh * 2 - 2).fill({ color: dark, alpha: 0.35 });
-    hg.roundRect(-hw, headCy - hh, hw * 2, hh * 2, hw * 0.08).stroke(stroke);
-    hg.roundRect(-hw * 0.55, headCy - hh * 0.88, hw * 1.1, hh * 0.2, hh * 0.1).fill({ color: light, alpha: 0.5 });
+    hg.ellipse(0, headCy, hw, hh).fill(dark);
+    hg.ellipse(0, headCy - hh * 0.04, hw * 0.86, hh * 0.9).fill(skin);
+    hg.ellipse(0, headCy - hh * 0.62, hw * 0.5, hh * 0.18).fill({ color: light, alpha: 0.5 });
+    hg.ellipse(0, headCy, hw, hh).stroke(stroke);
   }
 
   private addWear(slot: (typeof LAYERS)[number], into: Container): void {

@@ -1,0 +1,64 @@
+You are drawing art for ARA World, a life-sim game for a young girl (like Toca Life World / Avatar World), in its new
+REALISTIC style: real-world shapes, proportions and colours (wood looks like wood, denim like denim, food like food),
+soft light from the top left with shading and shine, thin outlines, and a soft shadow on the ground under objects.
+Clean and readable at small size on a tablet. Never scary.
+
+REDRAW this one existing game template in the realistic style. Keep what it IS, its id, name and category; draw it
+fresh as the real-world thing:
+{{target}}
+
+A template is one SVG drawing whose colours are SLOTS, so the game can repaint it:
+- fill/stroke/stop-color may only be: {{main}} (biggest area), {{trim}} (second colour), {{accent}} (small details),
+  {{outline}} (outline strokes), none, #ffffff (shine), #3a2a2a (dark: eyes, shadows), #cdeeff (glass), #7fd1ff (water).
+- HOW TO SHADE (this is what makes it realistic): paint a shape in its slot colour, then draw the SAME shape again on
+  top with a light gradient, which also carries the thin outline. Put these gradients in <defs> and use the ones you need:
+    <linearGradient id="L" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.42"/><stop offset="0.42" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.58" stop-color="#3a2a2a" stop-opacity="0"/><stop offset="1" stop-color="#3a2a2a" stop-opacity="0.34"/></linearGradient>   (lit top left, shaded bottom right)
+    <linearGradient id="S" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a2a2a" stop-opacity="0.28"/><stop offset="0.16" stop-color="#3a2a2a" stop-opacity="0"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.14"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.14"/><stop offset="0.84" stop-color="#3a2a2a" stop-opacity="0"/><stop offset="1" stop-color="#3a2a2a" stop-opacity="0.28"/></linearGradient>   (even on both sides: use for CLOTHES)
+    <linearGradient id="V" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.38"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#3a2a2a" stop-opacity="0.3"/></linearGradient>   (lit on top: rims, bands, cushions)
+    <radialGradient id="R" cx="0.38" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.32" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#3a2a2a" stop-opacity="0.42"/></radialGradient>   (round things: fruit, balls, heads)
+  Example of one shaded shape:
+    <path d="M..." fill="{{main}}"/><path d="M..." fill="url(#L)" stroke="{{outline}}" stroke-width="2.5" stroke-linejoin="round"/>
+- Outlines are THIN: stroke="{{outline}}" with stroke-width 1.5 to 2.5 (never more than 3.5).
+- Add realistic detail with thin lines and low-opacity shapes: seams and stitching in {{trim}}, folds as #3a2a2a at
+  opacity 0.1-0.2, shine as #ffffff at opacity 0.3-0.5, texture lines (wood grain, knit ribs, straw weave).
+- Objects get a soft ground shadow first: <ellipse cx="128" cy="244" rx="..." ry="5" fill="#3a2a2a" opacity="0.16"/>
+- Allowed elements ONLY: svg, defs, linearGradient, radialGradient, stop, g, path, rect, circle, ellipse, polygon,
+  polyline, line. Allowed attributes ONLY: xmlns, viewBox, d, x, y, width, height, rx, ry, cx, cy, r, points, x1, y1,
+  x2, y2, fill, stroke, stroke-width, stroke-linecap, stroke-linejoin, opacity, fill-opacity, fill-rule, id, offset,
+  stop-color, stop-opacity, fx, fy, gradientUnits. NO transform, NO text, NO style attribute. Every shape needs a fill.
+- The root is <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">, under 6000 characters, at most 80
+  elements. Everything stays inside 0..256.
+- Also give "palette": the item's real-world colours {"main","trim","accent","outline"} as #rrggbb (outline is a dark
+  shade of main, not black).
+
+The people have a BLOCKY body (like the girl drew): a round head, a straight torso with the arms flat at its sides,
+and the legs as one long block split down the middle. Clothes are front view, straight and SYMMETRIC, cut to it:
+- top: fills the torso exactly, a rectangle x 20-236, shoulders at y 18, hem at y 240, with a neckline at top centre
+  (x 76-180). NO sleeves (the arms get sleeves in the top's colour automatically).
+- bottom: trousers, shorts and skirts are ONE block x 40-216 from the waistband (y 4-26) down; trousers to y 250 with a
+  seam line down the middle from y 110; shorts end around y 120; skirts usually end around the knee (y 130-170) and may flare a little (x 30-226).
+- dress: bodice fills x 40-216 from y 14 down to the waist at y 120, then the skirt flares to x 22-234 at the hem
+  (y 200-250). Sleeveless.
+- socks: two straight tubes, x 22-126 and x 130-234, from y 0 to y 250, with a cuff at the top.
+- shoes: two shoes seen from the FRONT, toes towards you, x 40-126 and x 130-216, from about y 112 to soles at y 242.
+- hair: the head is a soft OVAL, nearly round, x 38-218, y 55-225 (centre 128,140); draw hair over the top of it
+  and down its sides, keeping the face
+  (x 75-181, y 105-215) clear.
+- hat: sits on top of the square head; brim around y 200-240 spanning x 20-236. glasses: lenses centred (78,128) and
+  (178,128). bag: a bag seen from the front, filling the frame.
+Wearables have no size and no anchors, and must cover at least half of the frame in both width and height.
+
+Objects ({{objects}}): front view (a three-quarter view for chairs, tables and beds, so they look as wide as they
+really are), centred, longest side 80%+ of the canvas, standing on the bottom around y 236-246.
+- "size": {"w": number, "h": number} = real size in world units where an adult person is 100 tall.
+  Size ranges for h by category: {{sizes}}.
+- "anchors": points [x, y] inside the drawing. Required per category: {{anchors}}.
+  base = bottom centre where it rests (y at the bottom edge of the drawing, the ground shadow may be just below);
+  grip = where a hand holds it; optional seat (chairs, sofas, beds) and top (tables, shelves).
+
+Two examples in this style (one wearable, one object):
+{{examples}}
+
+Answer with ONLY a JSON array, no commentary. Each entry:
+{"id": "<the same id>", "name": "<the same name>", "category": "<one category>", "size": {...}, "anchors": {...}, "palette": {...}, "svg": "<svg ...>...</svg>"}
+(Wearables leave out size and anchors.) Inside the JSON string, escape double quotes as \" .

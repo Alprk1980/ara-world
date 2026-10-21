@@ -123,6 +123,39 @@ try {
     await page.waitForTimeout(1500);
     await page.screenshot({ path: 'out/style/qwen.png' });
     console.log(`-> out/style/qwen.png (${qwen.length} from Qwen)`);
+    // Hairstyles on people: Claude's long hair first, then each of Qwen's, in different colours and outfits.
+    const hairs = ['real_long_hair', ...qwen.filter((t: any) => t.category === 'hair').map((t: any) => t.id)];
+    if (hairs.length > 1) {
+      await page.setViewportSize({ width: Math.max(1000, hairs.length * 260 + 40), height: 520 });
+      await page.evaluate(async (hairs) => {
+        const imp = (p: string) => import(/* @vite-ignore */ p);
+        const { Container, Graphics, Text } = await imp('/src/dev/pixi.ts');
+        const data = await imp('/src/data/index.ts');
+        const { Rig } = await imp('/src/world/rig.ts');
+        const app = (window as any).ara.app;
+        for (const c of app.stage.children) c.visible = false;
+        const sheet = new Container();
+        sheet.addChild(new Graphics().rect(0, 0, hairs.length * 260 + 40, 520).fill(0xfff6f9));
+        const colours = ['#6b4226', '#2b1d14', '#e8c07d', '#d94f2b', '#8b5e3c', '#3a2a2a', '#c68642'];
+        const skins = ['#f1c7a5', '#c68863', '#8d5535', '#efb995'];
+        const outfits = [{ top: 'real_tshirt', bottom: 'real_jeans', shoes: 'real_sneakers' }, { dress: 'real_sundress', socks: 'real_socks', shoes: 'real_sneakers' }];
+        hairs.forEach((h: string, i: number) => {
+          const person = { kind: 'person', id: `h${i}`, name: 'h', age: i % 2 ? 'teen' : 'kid', skin: skins[i % skins.length], eyes: '#3a6ea5', hair: { template: h, colour: colours[i % colours.length] }, outfit: outfits[i % 2] };
+          const rig = new Rig(person, 'real');
+          rig.scale.set(3.8);
+          rig.position.set(150 + i * 260, 440);
+          const name = data.templates.get(h)?.name ?? h;
+          const t = new Text({ text: `${i ? 'Qwen' : 'Claude'}: ${name}`, style: { fontSize: 16, fill: 0x5a3d4f, fontFamily: 'Fredoka, sans-serif' } });
+          t.anchor.set(0.5, 0);
+          t.position.set(rig.x, 456);
+          sheet.addChild(rig, t);
+        });
+        app.stage.addChild(sheet);
+      }, hairs);
+      await page.waitForTimeout(1500);
+      await page.screenshot({ path: 'out/style/hair.png' });
+      console.log(`-> out/style/hair.png (${hairs.length - 1} hairstyles from Qwen)`);
+    }
   }
 } finally {
   await browser.close();

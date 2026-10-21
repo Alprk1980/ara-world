@@ -30,3 +30,11 @@ describe('realStyleErrors', () => {
     expect(realStyleErrors({ ...tee, palette: pal(tee.id), svg: tee.svg.replace('M20 24', 'M4 24') }).join()).toMatch(/fills the torso/);
   });
 });
+
+describe('Qwen redraws (src/data/templates-real.json)', () => {
+  it('each keeps its original id, category, size and anchors and passes the realistic checks', async () => {
+    const { KINDS } = await import('../../tools/kinds.ts');
+    const redraws = JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as (Template & { id: string })[];
+    for (const t of redraws) expect(KINDS['template-redraw'].errors(t, redraws), t.id).toEqual([]);
+  });
+});

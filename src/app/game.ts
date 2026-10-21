@@ -136,6 +136,12 @@ export class Game {
 
   /** The hammer: pick a lot (or use the given one), pick a house, choose furnished or empty. */
   build(lotId?: string): void {
+    const place = this.place;
+    if (place && lotId === undefined) {
+      place.setBuilding(!place.building);
+      this.hud.setBuilding(place.building);
+      return;
+    }
     if (!(this.stack.top instanceof BuilderScene)) this.stack.push(new BuilderScene(this, lotId));
   }
 
@@ -241,6 +247,7 @@ export class Game {
     // Sky and the make/people/hammer tools belong to the world; the creator and builder only need back.
     const inWorld = top?.name === 'map' || top instanceof PlaceScene;
     for (const b of [this.hud.extras, this.hud.create, this.hud.people, this.hud.build]) b.visible = inWorld;
+    this.hud.setBuilding(this.place?.building ?? false);
     // The town map is home: there is nowhere to go back to from it.
     this.hud.back.visible = top?.name !== 'map';
     this.hud.settings.visible = top?.name === 'map';
