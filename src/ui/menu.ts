@@ -136,10 +136,11 @@ function holdButton(text: string, w: number, h: number, onDone: () => void): Con
   fill.mask = mask;
   const t = label(text, h * 0.4, COLORS.white);
   c.addChild(bg, fill, mask, t);
-  let held = 0, holding = false, done = false;
-  const tick = (tk: Ticker) => {
+  // Timed by the clock, not by summed frame times (the ticker caps each frame, so a slow device would never finish).
+  let held = 0, since = 0, holding = false, done = false;
+  const tick = () => {
     if (!holding || done) return;
-    held = Math.min(HOLD, held + tk.deltaMS / 1000);
+    held = Math.min(HOLD, (performance.now() - since) / 1000);
     fill.clear().rect(-w / 2, -h / 2, (w * held) / HOLD, h).fill({ color: 0x7a1010, alpha: 0.6 });
     if (held >= HOLD) {
       done = true;
@@ -156,7 +157,10 @@ function holdButton(text: string, w: number, h: number, onDone: () => void): Con
     fill.clear();
   };
   makeTappable(c, () => stop());
-  c.on('pointerdown', () => (holding = true));
+  c.on('pointerdown', () => {
+    holding = true;
+    since = performance.now();
+  });
   c.on('pointerupoutside', stop);
   c.on('pointerleave', stop);
   return c;

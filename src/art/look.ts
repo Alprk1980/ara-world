@@ -11,9 +11,11 @@ let look: RigStyle = 'cute';
 
 export const currentLook = (): RigStyle => look;
 
-/** Read the saved look and apply it; call once before anything is drawn. */
+/** Read the saved look and apply it; call once before anything is drawn. ?look=real (or cute) in the address
+ * overrides it without saving, for previews and the e2e tests. */
 export async function initLook(): Promise<void> {
-  applyLook(await load<RigStyle>('look', 'cute'));
+  const asked = new URLSearchParams(location.search).get('look');
+  applyLook(asked === 'real' || asked === 'cute' ? asked : await load<RigStyle>('look', 'cute'));
 }
 
 export function applyLook(next: RigStyle): void {

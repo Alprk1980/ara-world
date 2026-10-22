@@ -55,7 +55,7 @@ const tapHammer = async () => {
 };
 
 try {
-  await page.goto('http://localhost:5191/');
+  await page.goto(`http://localhost:5191/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate((id) => {
     const a = (window as any).ara;

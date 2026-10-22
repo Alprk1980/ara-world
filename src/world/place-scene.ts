@@ -531,7 +531,11 @@ export class PlaceScene implements Scene {
       const seat = anchorOffset(o.item, 'seat') ?? (special ? { x: 0, y: -itemSize(o.item).h * 0.45 } : null);
       if (seat && Math.abs(o.x + seat.x - at.x) < 14 && at.y > 4) {
         at.x = o.x + seat.x;
-        y = o.y - seat.y - rig.geo.b.legH * 0.6;
+        // Hips on the seat. The realistic body is seen from the front with straight legs, so sitting shows as the
+        // legs hanging down in front of the seat (nearly their whole length below it); the cute body tucks them up.
+        y = o.y - seat.y - rig.geo.b.legH * (rig.style === 'real' ? 0.92 : 0.6);
+        // A low seat or a bath can be shallower than long legs: they still sit, just above the floor, so it sticks.
+        y = Math.max(y, o.y + 5);
         bed = BED.test(items.get(o.item)?.template ?? '') && !is(SWINGS, o.item);
         on = o;
         break;
