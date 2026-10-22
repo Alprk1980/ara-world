@@ -3,6 +3,7 @@ import { Rectangle, Sprite } from 'pixi.js';
 import { checkSvg, type Box } from '../../schemas/svg.ts';
 import { items, templates } from '../data/index.ts';
 import { RASTER_SCALE, textureFor } from './textures.ts';
+import { hasOpenArt, openId } from './look.ts';
 
 const boxes = new Map<string, Box>();
 
@@ -40,7 +41,8 @@ export function itemSize(itemId: string): { w: number; h: number } {
   return t?.size ?? { w: 20, h: 20 };
 }
 
-export function itemSprite(itemId: string): Sprite {
+/** A sprite for an item, sized and pivoted by its template; open shows its open drawing if it has one. */
+export function itemSprite(itemId: string, open = false): Sprite {
   const s = new Sprite();
   const it = items.get(itemId);
   const t = it ? templates.get(it.template) : undefined;
@@ -52,8 +54,17 @@ export function itemSprite(itemId: string): Sprite {
   // Touch only the drawing, not the transparent canvas around it (or big things swallow swipes).
   const b = templateBox(t.id), R = RASTER_SCALE, pad = 4;
   s.hitArea = new Rectangle((b.minX - pad) * R, (b.minY - pad) * R, (b.maxX - b.minX + pad * 2) * R, (b.maxY - b.minY + pad * 2) * R);
-  textureFor(t.id, it.palette).then((tex) => {
+  showOpen(s, itemId, open);
+  return s;
+}
+
+/** Show an item's open or closed drawing. The open one is drawn on the same canvas, so the scale, pivot and touch
+ * area from the closed one still fit. */
+export function showOpen(s: Sprite, itemId: string, open: boolean): void {
+  const it = items.get(itemId);
+  if (!it) return;
+  const id = open && hasOpenArt(it.template) ? openId(it.template) : it.template;
+  textureFor(id, it.palette).then((tex) => {
     if (!s.destroyed) s.texture = tex;
   });
-  return s;
 }

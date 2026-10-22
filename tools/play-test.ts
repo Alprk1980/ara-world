@@ -264,6 +264,38 @@ try {
     if (k in doStuff) check(label, doStuff[k] === true);
   await shot('10-doing-room');
 
+  // Opening: in the realistic look a fridge has an open drawing; a real tap opens it (and shows what's inside), a
+  // second tap shuts it.
+  const fridgeAt = await inPage<{ x: number; y: number } | null>(`
+    const look = await import('/src/art/look.ts');
+    const t = st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template));
+    if (!t || !look.hasOpenArt(data.items.get(t.item).template)) return null;
+    ara.panel.hide();
+    ara.place.camYTarget = ara.place.floorTop?.[0] ?? 0;
+    ara.place.cam.x = ara.place.clampCamX(-t.x + 590);
+    const p = ara.place.floorViews[0].toGlobal({ x: t.x, y: -t.y - 60 });
+    return { x: p.x, y: p.y };
+  `);
+  if (fridgeAt) {
+    await page.waitForTimeout(400);
+    const at = await inPage<{ x: number; y: number }>(`
+      const t = st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template));
+      const p = ara.place.floorViews[0].toGlobal({ x: t.x, y: -t.y - 60 });
+      return { x: p.x, y: p.y };
+    `);
+    const openNow = () => inPage<boolean>(`return !!st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template)).open;`);
+    await page.mouse.click(at.x, at.y);
+    await page.waitForTimeout(400);
+    const opened = await openNow(), panel = await inPage<boolean>('return ara.panel.open;');
+    await shot('10b-fridge-open');
+    check('tapping a fridge opens its door (open drawing)', opened, `open ${opened}`);
+    check('an opened fridge shows what is inside', panel);
+    await inPage('ara.panel.hide();');
+    await page.mouse.click(at.x, at.y);
+    await page.waitForTimeout(300);
+    check('tapping it again shuts it', !(await openNow()));
+  }
+
   // Riding: someone dropped on a horse sits on its back, and rides along when the horse is moved.
   const ride = await inPage<Record<string, string | boolean>>(`
     const horse = [...data.items.keys()].find((id) => /standing_horse|little_pony/.test(data.items.get(id).template));

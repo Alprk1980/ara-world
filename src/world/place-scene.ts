@@ -7,7 +7,8 @@ import type { Scene } from '../app/scenes.ts';
 import type { Floor } from '../../schemas/place.ts';
 import { WALL_HEIGHT, OUTDOOR_HEIGHT } from '../../schemas/place.ts';
 import { categoryOf, houses, items, places } from '../data/index.ts';
-import { anchorOffset, itemSize, itemSprite } from '../art/geometry.ts';
+import { anchorOffset, itemSize, itemSprite, showOpen } from '../art/geometry.ts';
+import { hasOpenArt } from '../art/look.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { dressFloor } from '../art/room-dressing.ts';
 import { themeFor } from '../art/themes.ts';
@@ -215,7 +216,7 @@ export class PlaceScene implements Scene {
   }
 
   private thingView(t: Thing, floor: number): Sprite {
-    const s = itemSprite(t.item);
+    const s = itemSprite(t.item, !!t.open);
     s.position.set(t.x, -t.y);
     s.eventMode = 'static';
     s.cursor = 'grab';
@@ -393,8 +394,15 @@ export class PlaceScene implements Scene {
         this.bounce(d.sprite);
         playSound(categoryOf(d.thing.item) === 'animal' ? 'giggle' : 'pop');
         const t = d.thing, fl = d.floor;
+        const takeOut = (id: string) => this.addThing({ item: id, x: clamp(t.x + itemSize(t.item).w / 2 + 12, 10, this.floorData[fl].width - 10), y: 0, uid: uid() }, fl);
         if (WARDROBE.test(items.get(t.item)?.template ?? '')) this.openWardrobeNear(t.x, fl);
-        else if (containerOf(t.item)) this.game.openContainer(t, (id) => this.addThing({ item: id, x: clamp(t.x + itemSize(t.item).w / 2 + 12, 10, this.floorData[fl].width - 10), y: 0, uid: uid() }, fl));
+        else if (hasOpenArt(items.get(t.item)?.template ?? '')) {
+          // Things with an open drawing open and shut with a tap; opening a container shows what's inside.
+          t.open = !t.open;
+          showOpen(d.sprite, t.item, t.open);
+          persist(this.game.world);
+          if (t.open && containerOf(t.item)) this.game.openContainer(t, takeOut);
+        } else if (containerOf(t.item)) this.game.openContainer(t, takeOut);
         else if (SWITCHES.test(items.get(t.item)?.template ?? '')) {
           t.on = !t.on;
           persist(this.game.world);
