@@ -1,10 +1,11 @@
 // Screenshots of the town map: the whole island zoomed out, and a close view, by day and by night.
-//   node tools/map-shot.ts
+//   node tools/map-shot.ts            (LOOK=real for the realistic look, into out/map-real/)
 import { mkdirSync } from 'node:fs';
 import { chromium } from 'playwright';
 import { createServer } from 'vite';
 
-mkdirSync('out/map', { recursive: true });
+const real = process.env.LOOK === 'real', dir = real ? 'out/map-real' : 'out/map';
+mkdirSync(dir, { recursive: true });
 const server = await createServer({ server: { port: 5195, strictPort: true, hmr: false, watch: null }, logLevel: 'error' });
 await server.listen();
 const browser = await chromium.launch();
@@ -14,9 +15,13 @@ page.on('pageerror', (e) => errors.push(e.message));
 try {
   await page.goto('http://localhost:5195/');
   await page.waitForFunction(() => 'ara' in window);
+  // The look is a saved setting: write it, then reload so the game starts in it.
+  await page.evaluate(async (look) => (await import(/* @vite-ignore */ '/src/app/save.ts' as string)).save('look', look), real ? 'real' : 'cute');
+  await page.reload();
+  await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   await page.waitForTimeout(800);
-  await page.screenshot({ path: 'out/map/close.png' });
+  await page.screenshot({ path: `${dir}/close.png` });
   await page.evaluate(() => {
     const m = (window as any).ara.stack.top;
     m.setZoom(0.3, { x: 590, y: 410 });
@@ -24,7 +29,7 @@ try {
     m.clamp();
   });
   await page.waitForTimeout(500);
-  await page.screenshot({ path: 'out/map/whole.png' });
+  await page.screenshot({ path: `${dir}/whole.png` });
   // Close-ups of every neighbourhood, with the secret places found, by day and by night.
   const areas: [string, number, number][] = [['north', 14, 6], ['airport', 30, 9], ['west', 8, 21], ['square', 20, 20], ['high-street', 31, 19], ['homes', 9, 33], ['care', 20, 31], ['fun', 31, 32]];
   await page.evaluate(() => {
@@ -39,7 +44,7 @@ try {
       if (night && !['square', 'high-street'].includes(name)) continue;
       await page.evaluate(([x, y]) => (window as any).ara.stack.top.lookAt(x, y, 1.1), [gx, gy]);
       await page.waitForTimeout(150);
-      await page.screenshot({ path: `out/map/${name}${night ? '-night' : ''}.png` });
+      await page.screenshot({ path: `${dir}/${name}${night ? '-night' : ''}.png` });
     }
   }
   await page.evaluate(() => (window as any).ara.setSky(true));
@@ -48,4 +53,4 @@ try {
   await browser.close();
   await server.close();
 }
-console.log(errors.length ? `errors: ${errors.join(' | ')}` : 'map shots in out/map/');
+console.log(errors.length ? `errors: ${errors.join(' | ')}` : `map shots in ${dir}/`);

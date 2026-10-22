@@ -91,6 +91,25 @@ export function ring(cx: number, cy: number, rx: number, ry: number, k: number, 
 /** A star with k points. */
 export const star = (cx: number, cy: number, r: number, k = 5, inner = 0.45) => ring(cx, cy, r, r, k * 2, (i) => (i % 2 ? inner : 1));
 
+/** Move and scale an absolute path (M L C Q Z only), drawn round (0, 0), to (dx, dy) at size k; flip mirrors it. */
+export function place(d: string, dx: number, dy: number, k: number, flip = false): string {
+  return d.replace(/([MLCQ])([^MLCQZ]*)/g, (_, cmd: string, args: string) => {
+    const v = args.trim().split(/[\s,]+/).filter(Boolean).map(Number);
+    return cmd + v.map((x, i) => n(i % 2 === 0 ? dx + (flip ? -x : x) * k : dy + x * k)).join(' ') + ' ';
+  }).replace(/\s+Z/g, ' Z').trim();
+}
+/** A prancing carousel horse facing right, body centred on (cx, cy): body, legs, mane, tail and saddle. */
+export function horse(cx: number, cy: number, k: number, body = M, mane = T, saddle = A): string {
+  const at = (d: string) => place(d, cx, cy, k);
+  const w = Math.max(3, 9 * k);
+  return s(at('M-50 -4 C-72 0 -76 22 -66 36'), O, w + 4) + s(at('M-50 -4 C-72 0 -76 22 -66 36'), mane, w) +
+    s(at('M28 18 L32 46 L44 60 M-24 18 L-20 48 L-32 60'), O, w + 3) + s(at('M28 18 L32 46 L44 60 M-24 18 L-20 48 L-32 60'), body, w) +
+    P(at('M-50 -6 C-50 -26 -20 -26 10 -24 C24 -24 30 -30 36 -44 L44 -62 C48 -70 58 -72 64 -66 L84 -48 C88 -44 86 -38 80 -38 L66 -40 C60 -30 56 -14 52 0 C50 18 30 24 10 24 L-30 24 C-46 24 -50 12 -50 -6 Z'), body, 'L', 2) +
+    s(at('M40 14 L56 38 L50 58 M-36 16 L-52 38 L-46 58'), O, w + 3) + s(at('M40 14 L56 38 L50 58 M-36 16 L-52 38 L-46 58'), body, w) +
+    s(at('M42 -60 C34 -50 28 -36 26 -24'), mane, w * 1.1) + P(at('M-20 -24 C-14 -34 14 -34 20 -24 L18 -10 L-18 -10 Z'), saddle, 'V', 1.5) +
+    dot(cx + 60 * k, cy - 58 * k, Math.max(2, 4 * k), K);
+}
+
 // ---- furniture and fittings (shared by the redraw files)
 export const WATER = '#7fd1ff';
 export const bar = (d: string, col: string, w: number) => s(d, O, w + 4) + s(d, col, w);

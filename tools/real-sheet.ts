@@ -1,6 +1,7 @@
 // Quick look at the realistic redraws without a browser: a grid of each drawing in its own colours.
 //
-//   node tools/real-sheet.ts [category,category] [--ids a,b]   -> out/style/real-sheet.png
+//   node tools/real-sheet.ts [category,category] [--ids a,b] [--items]   -> out/style/real-sheet.png
+// --items paints each drawing in the first game item's colours instead of its own real-world palette.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { Resvg } from '@resvg/resvg-js';
 import { paint } from '../src/art/render.ts';
@@ -8,12 +9,14 @@ import { paint } from '../src/art/render.ts';
 const args = process.argv.slice(2);
 const ids = args.includes('--ids') ? args[args.indexOf('--ids') + 1].split(',') : null;
 const cats = args[0] && !args[0].startsWith('--') ? args[0].split(',') : null;
+const itemPal = new Map<string, Record<string, string>>();
+if (args.includes('--items')) for (const it of JSON.parse(readFileSync('src/data/items.json', 'utf8')) as { template: string; palette: Record<string, string> }[]) if (!itemPal.has(it.template)) itemPal.set(it.template, it.palette);
 const all = JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as { id: string; category: string; palette: Record<string, string>; svg: string }[];
 const list = all.filter((t) => (ids ? ids.includes(t.id) : !cats || cats.includes(t.category)));
 const cols = Math.min(8, list.length), cell = 200;
 const rows = Math.ceil(list.length / cols);
 const cells = list.map((t, i) => {
-  const inner = paint(t.svg, t.palette).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
+  const inner = paint(t.svg, itemPal.get(t.id) ?? t.palette).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
   // Gradient ids repeat between drawings; give each cell its own.
   const own = inner.replace(/id="(\w+)"/g, `id="$1_${i}"`).replace(/url\(#(\w+)\)/g, `url(#$1_${i})`);
   const x = (i % cols) * cell, y = Math.floor(i / cols) * cell;
