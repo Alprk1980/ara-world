@@ -315,7 +315,7 @@ export class MapScene implements Scene {
       name = pl.name;
       const outdoorShare = pl.floors.filter((f) => f.outdoor).length / pl.floors.length;
       if ((OPEN.has(p.id) || (outdoorShare > 0.5 && !DESIGNS[p.id])) && !floating) {
-        openAir(g, themeFor(pl.id, pl.floors.find((f) => f.outdoor)!.name, true).kind, this.night);
+        openAir(g, themeFor(pl.id, pl.floors.find((f) => f.outdoor)!.name, true).kind, this.night, pl.id);
         this.sign(base.x, base.y - 80 * c.scale.y, emoji, name);
         tappable(c, new Polygon([0, -TH - 100, TW, 0, 0, TH, -TW, 0]), open);
         return c;
@@ -490,7 +490,7 @@ export class MapScene implements Scene {
 }
 
 // ---------------------------------------------------------------- drawing pieces
-function openAir(g: Graphics, kind: string, night: boolean): void {
+function openAir(g: Graphics, kind: string, night: boolean, id = ''): void {
   const plot = (col: number) => g.poly([0, -TH * 0.95, TW * 0.95, 0, 0, TH * 0.95, -TW * 0.95, 0]).fill(col).stroke({ color: 0xffffff, width: 2, alpha: 0.6 });
   switch (kind) {
     case 'beach':
@@ -520,6 +520,15 @@ function openAir(g: Graphics, kind: string, night: boolean): void {
       break;
     case 'fun':
       plot(0xffd6ec);
+      if (id === 'rollercoaster_place') {
+        // A coaster rather than another big wheel: a loop on its supports, the track running off it, and a car.
+        for (const x of [-50, -10, 30]) g.rect(x - 2, -60, 4, 60 + (x + 50) * 0.1).fill(0xb8bec4);
+        g.moveTo(-80, 8).quadraticCurveTo(-60, -20, -30, -30).stroke({ color: 0xe03131, width: 6 });
+        g.circle(-10, -72, 36).stroke({ color: 0xe03131, width: 6 });
+        g.moveTo(10, -42).quadraticCurveTo(50, -10, 80, -14).stroke({ color: 0xe03131, width: 6 });
+        g.roundRect(44, -30, 26, 14, 4).fill(0xffd36e).stroke({ color: 0x5a3d4f, width: 2 });
+        break;
+      }
       g.circle(-10, -70, 46).stroke({ color: 0xb197fc, width: 5 });
       for (let k = 0; k < 8; k++) g.moveTo(-10, -70).lineTo(-10 + Math.cos((k * Math.PI) / 4) * 46, -70 + Math.sin((k * Math.PI) / 4) * 46).stroke({ color: 0xb197fc, width: 2 });
       for (let k = 0; k < 8; k++) g.roundRect(-10 + Math.cos((k * Math.PI) / 4) * 46 - 6, -70 + Math.sin((k * Math.PI) / 4) * 46 - 4, 12, 9, 3).fill([0xff8fb8, 0xffd36e, 0x7fd1c7][k % 3]);

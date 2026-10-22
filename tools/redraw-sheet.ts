@@ -53,7 +53,7 @@ try {
     const imp = (p: string) => import(/* @vite-ignore */ p);
     const { Container, Graphics } = await imp('/src/dev/pixi.ts');
     const data = await imp('/src/data/index.ts');
-    // Hair: Claude's sample and Qwen's trial hairstyles.
+    // Hair: the redrawn hairstyles, or else Claude's sample and Qwen's trial ones.
     for (const t of [...samples.templates, ...trials]) data.templates.set(t.id, t);
     const { Rig } = await imp('/src/world/rig.ts');
     const app = (window as any).ara.app;
@@ -67,7 +67,7 @@ try {
     const pick = (cat: string, i: number) => (by[cat]?.length ? by[cat][i % by[cat].length] : undefined);
     const sheet = new Container();
     sheet.addChild(new Graphics().rect(0, 0, 1800, 1000).fill(0xfff6f9));
-    const hairs = ['real_long_hair', ...trials.filter((t: any) => t.category === 'hair').map((t: any) => t.id)], skins = ['#f1c7a5', '#c68863', '#8d5535', '#efb995'], hairCol = ['#6b4226', '#2b1d14', '#e8c07d', '#d94f2b'];
+    const hairs = by.hair?.length ? by.hair : ['real_long_hair', ...trials.filter((t: any) => t.category === 'hair').map((t: any) => t.id)], skins = ['#f1c7a5', '#c68863', '#8d5535', '#efb995'], hairCol = ['#6b4226', '#2b1d14', '#e8c07d', '#d94f2b'];
     for (let i = 0; i < 16; i++) {
       const dress = i % 3 === 2;
       const outfit: Record<string, string | undefined> = dress ? { dress: pick('dress', i), socks: pick('socks', i), shoes: pick('shoes', i), hat: i % 2 ? pick('hat', i) : undefined, bag: pick('bag', i) } : { top: pick('top', i), bottom: pick('bottom', i), shoes: pick('shoes', i + 3), glasses: i % 4 === 1 ? pick('glasses', i) : undefined, hat: i % 4 === 3 ? pick('hat', i + 5) : undefined };

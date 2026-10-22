@@ -1,4 +1,5 @@
-// Drive the ⚙️ menu with real taps: toggle sounds, open reset, check a quick tap does nothing, hold to reset, and
+// Drive the ⚙️ menu with real taps: toggle sounds, open reset, check a quick tap does nothing, hold to reset, switch
+// the look to realistic and back, and
 // check the world comes back fresh while the settings are kept. Screenshots go to out/menu/.
 //
 //   node tools/menu-test.ts
@@ -43,7 +44,7 @@ const tap = async (text: string) => {
 };
 
 try {
-  await page.goto('http://localhost:5196/');
+  await page.goto(`http://localhost:5196/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   // Make the world different from a fresh one: a built house and a found secret.
@@ -92,6 +93,28 @@ try {
   await tap('⚙️');
   await tap('Title screen');
   check(await page.evaluate(() => (window as any).ara.stack.top?.name === 'title'), '"title screen" goes back to the title');
+  // The look: switching to realistic reloads into it (people in the realistic body, redrawn templates), and back.
+  const lookNow = () => page.evaluate(async () => {
+    const look = await import(/* @vite-ignore */ '/src/art/look.ts' as string);
+    const data = await import(/* @vite-ignore */ '/src/data/index.ts' as string);
+    return { look: look.currentLook(), sofa: data.templates.get('round_sofa').svg.includes('url(#') };
+  });
+  if (!process.env.LOOK) {
+    await page.evaluate(() => (window as any).ara.play());
+    await tap('⚙️');
+    await Promise.all([page.waitForEvent('load'), tap('Look: Cute')]);
+    await page.waitForFunction(() => 'ara' in window && (window as any).ara.world);
+    await page.waitForTimeout(300);
+    const real = await lookNow();
+    check(real.look === 'real' && real.sofa, `"Look" switches to realistic and swaps in the redraws (${real.look})`);
+    await page.evaluate(() => (window as any).ara.play());
+    await tap('⚙️');
+    await Promise.all([page.waitForEvent('load'), tap('Look: Realistic')]);
+    await page.waitForFunction(() => 'ara' in window && (window as any).ara.world);
+    await page.waitForTimeout(300);
+    const cute = await lookNow();
+    check(cute.look === 'cute' && !cute.sofa, `and back to cute (${cute.look})`);
+  }
 } finally {
   await browser.close();
   await server.close();

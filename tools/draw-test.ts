@@ -59,7 +59,7 @@ const stroke = async (pts: [number, number][]) => {
 const circle = (cx: number, cy: number, r: number, n = 28): [number, number][] => Array.from({ length: n + 1 }, (_, i) => [cx + Math.cos((i / n) * 6.283) * r, cy + Math.sin((i / n) * 6.283) * r]);
 
 try {
-  await page.goto('http://localhost:5194/');
+  await page.goto(`http://localhost:5194/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => {
     const a = (window as any).ara;

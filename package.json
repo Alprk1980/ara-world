@@ -12,6 +12,7 @@
     "check": "tsc --noEmit && vitest run && node tools/validate-data.ts",
     "gen": "node tools/qwen-gen.ts",
     "sheet": "node tools/contact-sheet.ts",
+    "e2e:real": "LOOK=real npm run e2e",
     "e2e": "node tools/smoke.ts && node tools/play-test.ts && node tools/menu-test.ts && node tools/draw-test.ts && node tools/build-test.ts"
   },
   "dependencies": {

@@ -40,7 +40,7 @@ const drag = async (from: { x: number; y: number }, to: { x: number; y: number }
 };
 
 try {
-  await page.goto('http://localhost:5196/');
+  await page.goto(`http://localhost:5196/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
   await page.waitForFunction(() => 'ara' in window);
   // Build the test place from real items: a table (top), a seat, food, a drink, decor.
   const setup = await inPage<{ ok: boolean; picks: Record<string, string | null> }>(`
