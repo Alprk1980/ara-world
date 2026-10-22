@@ -1,6 +1,6 @@
 // What things do, by what they are (template id). The notes ask for lots to do in every place; these rules make
-// fridges open, ovens cook, lamps and TVs switch on, baths bubble, swings swing, salon chairs restyle hair, and
-// makeup show on faces.
+// fridges open, ovens cook, lamps and TVs switch on, baths bubble, swings swing, salon chairs restyle hair,
+// horses and elephants can be ridden, and makeup show on faces.
 import { categoryOf, items, templates } from '../data/index.ts';
 
 const tpl = (itemId: string) => items.get(itemId)?.template ?? '';
@@ -46,6 +46,11 @@ export const SCREENS = /tv|television|computer|screen|monitor/;
 export const SPLASH = /bath|tub|shower|pool_water|jacuzzi|hot_tub|splash|fountain/;
 /** Things that rock or swing when someone sits on them. */
 export const SWINGS = /swing|hammock|rocking|carousel|ferris|seesaw|cradle/;
+/** Animals (and toy horses) people can ride: dropped on one, they sit on its back and ride along when it moves. */
+export const MOUNTS = /standing_horse|little_pony|baby_elephant|tall_giraffe|friendly_lion|happy_dolphin|cute_sea_turtle|rocking_horse|unicorn|camel|donkey/;
+/** Where a ride's back is, as a share of its height (for drawings without a seat point). */
+const MOUNT_BACK: [RegExp, number][] = [[/elephant/, 0.82], [/giraffe/, 0.5], [/dolphin|turtle/, 0.72], [/pony/, 0.58], [/.*/, 0.62]];
+export const mountBack = (itemId: string) => MOUNT_BACK.find(([re]) => re.test(tpl(itemId)))![1];
 /** Salon chairs: sitting there opens the hairstyle panel. */
 export const SALON = /salon_chair|barber|styling_chair/;
 /** Makeup that shows on a face when dropped on it, and where. */

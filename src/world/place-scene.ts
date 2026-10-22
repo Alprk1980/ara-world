@@ -14,7 +14,7 @@ import { themeFor } from '../art/themes.ts';
 import { COLORS, label, pillButton, roundButton } from '../ui/kit.ts';
 import { itemThumb } from '../ui/creator.ts';
 import { playSound } from '../ui/sound.ts';
-import { COOKS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, is, makeupKind } from './behaviours.ts';
+import { COOKS, MOUNTS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, is, makeupKind, mountBack } from './behaviours.ts';
 import { emotions } from '../data/index.ts';
 import { Rig } from './rig.ts';
 import { floorsOf, persist, thingsOn, uid, type Person, type Thing } from './state.ts';
@@ -219,7 +219,7 @@ export class PlaceScene implements Scene {
     s.position.set(t.x, -t.y);
     s.eventMode = 'static';
     s.cursor = 'grab';
-    if (categoryOf(t.item) === 'animal') this.animals.push({ t, s, phase: Math.random() * 6 });
+    if (categoryOf(t.item) === 'animal' || is(MOUNTS, t.item)) this.animals.push({ t, s, phase: Math.random() * 6, floor });
     s.on('pointerdown', (e) => {
       e.stopPropagation();
       const p = this.toFloor(e, floor);
@@ -356,6 +356,7 @@ export class PlaceScene implements Scene {
       d.thing.x = p.x + d.dx;
       d.thing.y = p.y + d.dy;
       d.sprite.position.set(d.thing.x, -d.thing.y);
+      this.carryRiders(d.thing, d.floor);
     } else {
       d.person.at!.x = p.x + d.dx;
       d.person.at!.y = p.y + d.dy;
@@ -468,6 +469,7 @@ export class PlaceScene implements Scene {
     const onWall = items.get(t.item)?.tags.includes('wall') && t.y > 10;
     if (!onWall) t.y = this.surfaceBelow(t.x, t.y, floor, t);
     s.position.set(t.x, -t.y);
+    this.carryRiders(t, floor);
     // Food on a cooker cooks: steam, a ding, and it's fresh to eat again.
     if (EDIBLE.has(cat)) {
       const cooker = thingsOn(this.game.world, this.placeId, floor).find((o) => o !== t && is(COOKS, o.item) && Math.abs(o.x - t.x) < itemSize(o.item).w / 2 + 4 && t.y <= o.y + itemSize(o.item).h);
@@ -517,6 +519,38 @@ export class PlaceScene implements Scene {
     return best;
   }
 
+  /** Where someone sits on a thing, relative to its base: its seat point, or for baths, swings, salon chairs and
+   * rides without one, a spot partway up (a ride's back). */
+  private seatOf(o: Thing): { x: number; y: number } | null {
+    const seat = anchorOffset(o.item, 'seat');
+    if (seat) return seat;
+    if (is(MOUNTS, o.item)) return { x: 0, y: -itemSize(o.item).h * mountBack(o.item) };
+    if (is(SPLASH, o.item) || is(SWINGS, o.item) || is(SALON, o.item)) return { x: 0, y: -itemSize(o.item).h * 0.45 };
+    return null;
+  }
+
+  /** Feet height for someone sitting on a seat. Hips go on the seat. The realistic body is seen from the front with
+   * straight legs, so sitting (or riding) shows as the legs hanging down in front (nearly their whole length below
+   * the seat); the cute body tucks them up. A low seat or a bath can be shallower than long legs: they still sit,
+   * just above the floor, so it sticks. */
+  private sitY(o: Thing, seat: { x: number; y: number }, rig: Rig): number {
+    return Math.max(o.y - seat.y - rig.geo.b.legH * (rig.style === 'real' ? 0.92 : 0.6), o.y + 5);
+  }
+
+  /** Riders go wherever their ride goes. */
+  private carryRiders(t: Thing, floor: number, hop = 0): void {
+    if (!is(MOUNTS, t.item)) return;
+    const seat = this.seatOf(t)!;
+    for (const p of this.game.world.people) {
+      if (p.at?.on !== t.uid || p.at.floor !== floor) continue;
+      const rig = this.rigs.get(p.id);
+      if (!rig || (this.drag?.kind === 'person' && this.drag.person === p)) continue;
+      p.at.x = t.x + seat.x;
+      p.at.y = this.sitY(t, seat, rig);
+      rig.position.set(p.at.x, -p.at.y - hop);
+    }
+  }
+
   private settlePerson(person: Person, rig: Rig, dropped = true): void {
     const at = person.at!;
     const f = this.floorData[at.floor];
@@ -525,17 +559,15 @@ export class PlaceScene implements Scene {
     let y = 0;
     let bed = false;
     let on: Thing | null = null;
+    at.on = undefined;
     for (const o of thingsOn(this.game.world, this.placeId, at.floor)) {
-      // Baths, swings and salon chairs work even without a seat point: sit about halfway up.
-      const special = is(SPLASH, o.item) || is(SWINGS, o.item) || is(SALON, o.item);
-      const seat = anchorOffset(o.item, 'seat') ?? (special ? { x: 0, y: -itemSize(o.item).h * 0.45 } : null);
-      if (seat && Math.abs(o.x + seat.x - at.x) < 14 && at.y > 4) {
+      const seat = this.seatOf(o);
+      // Rides are wide: anywhere over the animal's back will do.
+      const reach = is(MOUNTS, o.item) ? Math.max(14, itemSize(o.item).w * 0.35) : 14;
+      if (seat && Math.abs(o.x + seat.x - at.x) < reach && at.y > 4) {
         at.x = o.x + seat.x;
-        // Hips on the seat. The realistic body is seen from the front with straight legs, so sitting shows as the
-        // legs hanging down in front of the seat (nearly their whole length below it); the cute body tucks them up.
-        y = o.y - seat.y - rig.geo.b.legH * (rig.style === 'real' ? 0.92 : 0.6);
-        // A low seat or a bath can be shallower than long legs: they still sit, just above the floor, so it sticks.
-        y = Math.max(y, o.y + 5);
+        y = this.sitY(o, seat, rig);
+        if (is(MOUNTS, o.item)) at.on = o.uid;
         bed = BED.test(items.get(o.item)?.template ?? '') && !is(SWINGS, o.item);
         on = o;
         break;
@@ -564,7 +596,7 @@ export class PlaceScene implements Scene {
     if (i >= 0) list.splice(i, 1);
   }
 
-  private animals: { t: Thing; s: Sprite; phase: number }[] = [];
+  private animals: { t: Thing; s: Sprite; phase: number; floor: number }[] = [];
 
   /** A vehicle standing at x on a floor, if any. */
   private vehicleAt(x: number, floor: number): Thing | null {
@@ -748,7 +780,9 @@ export class PlaceScene implements Scene {
       if (a.s.destroyed || this.drag?.kind === 'thing' && this.drag.sprite === a.s) continue;
       const k = now * 2 + a.phase;
       a.s.rotation = Math.sin(k * 1.7) * 0.04;
-      a.s.y = -a.t.y - Math.max(0, Math.sin(k)) ** 8 * 4;
+      const hop = Math.max(0, Math.sin(k)) ** 8 * 4;
+      a.s.y = -a.t.y - hop;
+      this.carryRiders(a.t, a.floor, hop);
     }
     this.drawGlows();
     for (const u of this.updates) u(dt);
