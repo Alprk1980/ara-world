@@ -71,6 +71,26 @@ export function wheel(cx: number, cy: number, r: number): string {
   return out + s(`M${n(cx - r * 0.75)} ${n(cy - r * 0.45)} C${n(cx - r * 0.5)} ${n(cy - r * 0.85)} ${n(cx)} ${n(cy - r * 0.95)} ${n(cx + r * 0.3)} ${n(cy - r * 0.88)}`, W, 2, 0.3);
 }
 
+/** A pointed leaf (or blade of grass, petal, flame) from (x0, y0) to its tip at (x1, y1), w wide at its middle; bend
+ * pushes the middle sideways (a share of the length). */
+export function blade(x0: number, y0: number, x1: number, y1: number, w: number, bend = 0): string {
+  const dx = x1 - x0, dy = y1 - y0, len = Math.hypot(dx, dy) || 1;
+  const nx = -dy / len, ny = dx / len;
+  const mx = (x0 + x1) / 2 + nx * bend * len, my = (y0 + y1) / 2 + ny * bend * len;
+  return `M${n(x0)} ${n(y0)} Q${n(mx + nx * w)} ${n(my + ny * w)} ${n(x1)} ${n(y1)} Q${n(mx - nx * w)} ${n(my - ny * w)} ${n(x0)} ${n(y0)} Z`;
+}
+/** Points round an ellipse, as an SVG path through them (for stars, gears, scalloped edges): r(i) gives the radius
+ * scale of point i of k. */
+export function ring(cx: number, cy: number, rx: number, ry: number, k: number, r: (i: number) => number = () => 1, turn = -Math.PI / 2): string {
+  const pts = Array.from({ length: k }, (_, i) => {
+    const a = turn + (i / k) * Math.PI * 2;
+    return `${n(cx + Math.cos(a) * rx * r(i))} ${n(cy + Math.sin(a) * ry * r(i))}`;
+  });
+  return `M${pts.join(' L')} Z`;
+}
+/** A star with k points. */
+export const star = (cx: number, cy: number, r: number, k = 5, inner = 0.45) => ring(cx, cy, r, r, k * 2, (i) => (i % 2 ? inner : 1));
+
 // ---- redraws: Claude's realistic versions of the game's templates (user's OK, 2026-10-22, in place of Qwen)
 export type Pal = { main: string; trim: string; accent: string; outline: string };
 export const pal = (main: string, trim: string, accent: string, outline: string): Pal => ({ main, trim, accent, outline });
