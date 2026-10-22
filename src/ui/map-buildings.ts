@@ -3,7 +3,8 @@
 // has a design saying what it looks like (src/ui/map-designs.ts); new places fall back to a building in their
 // district's colours. Coordinates: u runs down-right, v down-left, z up, in tiles (u, v) and pixels (z); the plot is
 // u, v in -1..1 around its centre.
-import { Container, Graphics } from 'pixi.js';
+import { Container, FillGradient, Graphics } from 'pixi.js';
+import { currentLook } from '../art/look.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { label } from './kit.ts';
 
@@ -105,13 +106,51 @@ class Kit {
     this.night = night;
     this.trim = d.trim ?? '#ffffff';
     this.glass = night ? 0xfff3b0 : 0xcdeeff;
+    this.real = currentLook() === 'real';
   }
+  /** The realistic look: softer outlines, light from above on every wall, courses of siding or brick, tiled roofs
+   * and glass that reflects the sky. */
+  real: boolean;
 
   has(e: Extra): boolean {
     return this.d.extras?.includes(e) ?? false;
   }
   edge(col: string, width = 2) {
-    return { color: hexNum(shade(col, -0.5)), width, join: 'round' as const };
+    return this.real ? { color: hexNum(shade(col, -0.42)), width: width * 0.6, join: 'round' as const } : { color: hexNum(shade(col, -0.5)), width, join: 'round' as const };
+  }
+  /** Realistic finish on a wall face: courses (siding or brick) following the face, and light falling from above. */
+  private finish(b: Box, face: Face, wall: string): void {
+    const [a0, a1] = this.span(b, face);
+    const brick = this.has('checker') || this.has('beams') ? false : (hexNum(wall) >> 16) > 0xb0 && ((hexNum(wall) >> 8) & 255) < 0xb0;
+    const line = { color: hexNum(shade(wall, -0.3)), width: 0.6, alpha: 0.35 };
+    for (let z = b.z0 + 4, r = 0; z < b.z1 - 1; z += brick ? 4 : 5, r++) {
+      this.g.moveTo(...this.on(b, face, a0, z)).lineTo(...this.on(b, face, a1, z)).stroke(line);
+      if (brick) for (let a = a0 + ((r % 2) * 0.06) + 0.06; a < a1; a += 0.12) this.g.moveTo(...this.on(b, face, a, z)).lineTo(...this.on(b, face, a, z + 4)).stroke(line);
+    }
+    const shadeFace = new FillGradient({ type: 'linear', start: { x: 0, y: 0 }, end: { x: 0, y: 1 }, colorStops: [{ offset: 0, color: 'rgba(255,255,255,0.14)' }, { offset: 0.55, color: 'rgba(255,255,255,0)' }, { offset: 1, color: 'rgba(58,42,42,0.24)' }] });
+    this.g.poly(flat(this.on(b, face, a0, b.z0), this.on(b, face, a1, b.z0), this.on(b, face, a1, b.z1), this.on(b, face, a0, b.z1))).fill(shadeFace);
+  }
+  /** Tiles on a roof plane: rows parallel to the eaves (eave a-b, ridge d-c). */
+  private tiles(a: Pt, b: Pt, c: Pt, d: Pt, col: string): void {
+    if (!this.real) return;
+    const line = { color: hexNum(shade(col, -0.35)), width: 0.7, alpha: 0.5 };
+    for (let t = 0.14; t < 1; t += 0.14) {
+      const p = [a[0] + (d[0] - a[0]) * t, a[1] + (d[1] - a[1]) * t], q = [b[0] + (c[0] - b[0]) * t, b[1] + (c[1] - b[1]) * t];
+      this.g.moveTo(p[0], p[1]).lineTo(q[0], q[1]).stroke(line);
+    }
+    const sheen = new FillGradient({ type: 'linear', start: { x: 0, y: 0 }, end: { x: 0, y: 1 }, colorStops: [{ offset: 0, color: 'rgba(255,255,255,0.18)' }, { offset: 1, color: 'rgba(58,42,42,0.12)' }] });
+    this.g.poly(flat(a, b, c, d)).fill(sheen);
+  }
+  /** Glass: a sky reflection across the top of the pane and a sill below it. */
+  private glaze(b: Box, face: Face, at: number, half: number, z0: number, z1: number): void {
+    if (!this.real) return;
+    if (this.night) this.g.poly(flat(this.on(b, face, at - half, z0), this.on(b, face, at + half, z0), this.on(b, face, at + half, z1), this.on(b, face, at - half, z1))).fill({ color: 0xffc94d, alpha: 0.35 });
+    else {
+      const sky = new FillGradient({ type: 'linear', start: { x: 0, y: 0 }, end: { x: 0, y: 1 }, colorStops: [{ offset: 0, color: 'rgba(255,255,255,0.65)' }, { offset: 0.5, color: 'rgba(143,200,240,0.35)' }, { offset: 1, color: 'rgba(40,70,110,0.35)' }] });
+      this.g.poly(flat(this.on(b, face, at - half, z0), this.on(b, face, at + half, z0), this.on(b, face, at + half, z1), this.on(b, face, at - half, z1))).fill(sky);
+    }
+    this.g.moveTo(...this.on(b, face, at, z0)).lineTo(...this.on(b, face, at, z1)).stroke({ color: hexNum(this.trim), width: 0.8, alpha: 0.9 });
+    this.g.moveTo(...this.on(b, face, at - half * 1.25, z0 - 1, 0.01)).lineTo(...this.on(b, face, at + half * 1.25, z0 - 1, 0.01)).stroke({ color: 0xffffff, width: 1.6 });
   }
   /** A point on the left (v = v1) or right (u = u1) face of a box; `at` runs along u on the left face, v on the right. */
   on(b: Box, face: Face, at: number, z: number, out = 0): Pt {
@@ -131,6 +170,7 @@ class Kit {
     const e = this.edge(wall);
     this.g.poly(flat(P(u0, v1, z0), P(u1, v1, z0), P(u1, v1, z1), P(u0, v1, z1))).fill(hexNum(shade(wall, -0.12))).stroke(e);
     this.g.poly(flat(P(u1, v1, z0), P(u1, v0, z0), P(u1, v0, z1), P(u1, v1, z1))).fill(hexNum(wall)).stroke(e);
+    if (this.real && z1 - z0 > 10) for (const face of ['L', 'R'] as Face[]) this.finish(b, face, wall);
     if (top) this.g.poly(flat(P(u0, v0, z1), P(u1, v0, z1), P(u1, v1, z1), P(u0, v1, z1))).fill(hexNum(top)).stroke(e);
   }
 
@@ -179,9 +219,11 @@ class Kit {
         if (style === 'round') {
           const [x, y] = this.on(b, face, at, z + 7);
           this.g.circle(x, y, 6).fill(this.glass).stroke({ color: hexNum(this.trim), width: 1.5 });
+          if (this.real) this.g.circle(x - 1.5, y - 1.5, 2.5).fill({ color: 0xffffff, alpha: this.night ? 0.2 : 0.6 });
         } else {
           const half = Math.min(0.13, step * 0.28), h = style === 'tall' ? 16 : 12;
           this.pane(b, face, at, half, z, z + h, this.glass, this.trim);
+          this.glaze(b, face, at, half, z, z + h);
         }
       }
     }
@@ -201,6 +243,10 @@ class Kit {
     this.g.poly(flat(P(u0, v0, z1), P(u1, v0, z1), P(u1, v1, z1), P(u0, v1, z1))).fill(hexNum(shade(col, 0.25))).stroke(e);
     const iu = (u1 - u0) * 0.08, iv = (v1 - v0) * 0.08;
     this.g.poly(flat(P(u0 + iu, v0 + iv, z1), P(u1 - iu, v0 + iv, z1), P(u1 - iu, v1 - iv, z1), P(u0 + iu, v1 - iv, z1))).fill(hexNum(col));
+    if (this.real) for (let k = 0; k < 30; k++) {
+      const [x, y] = P(u0 + iu + ((u1 - u0 - 2 * iu) * ((k * 37) % 100)) / 100, v0 + iv + ((v1 - v0 - 2 * iv) * ((k * 61) % 100)) / 100, z1);
+      this.g.circle(x, y, 0.9).fill({ color: k % 2 ? 0xffffff : 0x3a2a2a, alpha: 0.25 });
+    }
     return () => z1;
   }
 
@@ -213,12 +259,14 @@ class Kit {
       this.g.poly(flat(P(u0 - o, m, z + rh), P(u1 + o, m, z + rh), P(u1 + o, v0 - o, z - 4), P(u0 - o, v0 - o, z - 4))).fill(hexNum(shade(col, -0.25))).stroke(e);
       this.g.poly(flat(P(u1, v1, z), P(u1, v0, z), P(u1, m, z + rh))).fill(hexNum(endWall)).stroke(this.edge(endWall));
       this.g.poly(flat(P(u0 - o, v1 + o, z - 4), P(u1 + o, v1 + o, z - 4), P(u1 + o, m, z + rh), P(u0 - o, m, z + rh))).fill(hexNum(col)).stroke(e);
+      this.tiles(P(u0 - o, v1 + o, z - 4), P(u1 + o, v1 + o, z - 4), P(u1 + o, m, z + rh), P(u0 - o, m, z + rh), col);
       return (_u, v) => z + rh * (1 - Math.min(1, Math.abs(v - m) / ((v1 - v0) / 2)));
     }
     const m = (u0 + u1) / 2;
     this.g.poly(flat(P(m, v0 - o, z + rh), P(m, v1 + o, z + rh), P(u0 - o, v1 + o, z - 4), P(u0 - o, v0 - o, z - 4))).fill(hexNum(shade(col, -0.25))).stroke(e);
     this.g.poly(flat(P(u0, v1, z), P(u1, v1, z), P(m, v1, z + rh))).fill(hexNum(shade(endWall, -0.12))).stroke(this.edge(endWall));
     this.g.poly(flat(P(u1 + o, v1 + o, z - 4), P(u1 + o, v0 - o, z - 4), P(m, v0 - o, z + rh), P(m, v1 + o, z + rh))).fill(hexNum(shade(col, -0.1))).stroke(e);
+    this.tiles(P(u1 + o, v1 + o, z - 4), P(u1 + o, v0 - o, z - 4), P(m, v0 - o, z + rh), P(m, v1 + o, z + rh), col);
     return (u) => z + rh * (1 - Math.min(1, Math.abs(u - m) / ((u1 - u0) / 2)));
   }
 
@@ -234,6 +282,7 @@ class Kit {
     this.g.poly(flat(A, D, a)).fill(hexNum(shade(col, -0.25))).stroke(e);
     this.g.poly(flat(D, C, c, a)).fill(hexNum(col)).stroke(e);
     this.g.poly(flat(C, B, c)).fill(hexNum(shade(col, -0.12))).stroke(e);
+    this.tiles(D, C, c, a, col);
     return (u, v) => z + rh * (1 - Math.min(1, Math.max(0, Math.max(Math.abs(u - cu) - (hu - r), Math.abs(v - cv) - (hv - r)) / r)));
   }
 
