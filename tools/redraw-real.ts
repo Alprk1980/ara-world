@@ -6,7 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import type { Template } from '../schemas/template.ts';
 
-const ORDER = ['top', 'bottom', 'dress', 'shoes', 'socks', 'hat', 'bag', 'glasses', 'food', 'drink', 'toy', 'makeup', 'school', 'sport', 'baby', 'elder', 'animal', 'plant', 'halloween', 'garden', 'vehicle', 'furniture', 'decor'];
+const ORDER = ['top', 'bottom', 'dress', 'shoes', 'socks', 'hat', 'hair', 'bag', 'glasses', 'food', 'drink', 'toy', 'makeup', 'school', 'sport', 'baby', 'elder', 'animal', 'plant', 'halloween', 'garden', 'vehicle', 'furniture', 'decor'];
 const args = process.argv.slice(2);
 const opt = (n: string) => (args.includes(n) ? args[args.indexOf(n) + 1] : undefined);
 const only = opt('--only')?.split(',');

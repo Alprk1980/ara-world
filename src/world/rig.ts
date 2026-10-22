@@ -7,6 +7,7 @@ import { shade, hexNum } from '../art/color.ts';
 import { unitsPerCanvas } from '../art/geometry.ts';
 import { items, templates } from '../data/index.ts';
 import type { Person } from './state.ts';
+import { currentLook } from '../art/look.ts';
 
 type Body = { headR: number; torsoH: number; torsoW: number; legH: number; legW: number; armW?: number; neckH?: number };
 const BODIES: Record<string, Body> = {
@@ -112,7 +113,7 @@ export class Rig extends Container {
   private reachTarget = 0;
   private onBite: (() => void) | null = null;
 
-  constructor(person: Person, style: RigStyle = 'cute') {
+  constructor(person: Person, style: RigStyle = currentLook()) {
     super();
     this.person = person;
     this.style = style;
