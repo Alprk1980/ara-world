@@ -88,6 +88,8 @@ export function bodyGeometry(age: string, style: RigStyle = 'cute') {
   return { b, hipY, shoulderY, headCy, hipW, eyeDist, armW, armH, frames, height: -(headCy - b.headR * (real ? HEAD_H : 1)) };
 }
 
+/** Tops with no sleeves, and the dresses (all-in-ones) that have them. */
+const SLEEVELESS = new Set(['cami_top']), SLEEVED = new Set(['cosy_onesie', 'baby_swaddle']);
 const LAYERS = ['bag', 'socks', 'shoes', 'bottom', 'top', 'dress', 'hair', 'glasses', 'hat'] as const;
 const NEUTRAL: Emotion['face'] = { eyes: 'open', mouth: 'smile', brows: 0, blush: false, tears: false };
 
@@ -220,8 +222,10 @@ export class Rig extends Container {
 
   /** The colours of the sleeves, from the top or dress being worn (realistic dresses are sleeveless). */
   private sleeve(): { fill: number; line: number } | null {
-    if (this.style === 'real' && !this.person.outfit.top) return null;
-    const it = items.get(this.person.outfit.top ?? this.person.outfit.dress ?? '');
+    const { top, dress } = this.person.outfit;
+    if (top && SLEEVELESS.has(items.get(top)?.template ?? '')) return null;
+    if (this.style === 'real' && !top && !SLEEVED.has(items.get(dress ?? '')?.template ?? '')) return null;
+    const it = items.get(top ?? dress ?? '');
     return it ? { fill: hexNum(it.palette.main), line: hexNum(it.palette.outline) } : null;
   }
 

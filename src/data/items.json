@@ -59789,5 +59789,1786 @@
       "station",
       "outdoor"
     ]
+  },
+  {
+    "id": "leaf_jumper_green",
+    "name": "Green Leaf Jumper",
+    "palette": {
+      "main": "#4f8f3e",
+      "trim": "#a8d672",
+      "accent": "#2f5f24",
+      "outline": "#244a1b"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_cream",
+    "name": "Cream Leaf Jumper",
+    "palette": {
+      "main": "#efe6d2",
+      "trim": "#7fb35a",
+      "accent": "#4f7d36",
+      "outline": "#8a7a5a"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_navy",
+    "name": "Navy Leaf Jumper",
+    "palette": {
+      "main": "#2f3f66",
+      "trim": "#8cc26a",
+      "accent": "#d8e8b0",
+      "outline": "#1a2440"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_rust",
+    "name": "Autumn Leaf Jumper",
+    "palette": {
+      "main": "#b8562e",
+      "trim": "#f2b33d",
+      "accent": "#7a3a1a",
+      "outline": "#5e2a12"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_pink",
+    "name": "Pink Leaf Jumper",
+    "palette": {
+      "main": "#e9a3b6",
+      "trim": "#8cc26a",
+      "accent": "#4f7d36",
+      "outline": "#9a5a6c"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "striped_button_top_orange",
+    "name": "Orange & Pink Stripe Top",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#9a4a1a"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_blue",
+    "name": "Blue Stripe Top",
+    "palette": {
+      "main": "#4a7fc0",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#24406a"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_mint",
+    "name": "Mint Stripe Top",
+    "palette": {
+      "main": "#7fd0b0",
+      "trim": "#fff4d6",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_lemon",
+    "name": "Lemon Stripe Top",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_berry",
+    "name": "Berry Stripe Top",
+    "palette": {
+      "main": "#a8326e",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#5a1236"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "cami_top_purple",
+    "name": "Purple Cami",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#d8c2f0",
+      "accent": "#f5a3c0",
+      "outline": "#4a2a70"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_white",
+    "name": "White Cami",
+    "palette": {
+      "main": "#f7f5f0",
+      "trim": "#e6d8c2",
+      "accent": "#f5a3c0",
+      "outline": "#8a8070"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_black",
+    "name": "Black Cami",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#6a6a78",
+      "accent": "#c84a6a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_coral",
+    "name": "Coral Cami",
+    "palette": {
+      "main": "#f27a6a",
+      "trim": "#ffd2c8",
+      "accent": "#ffffff",
+      "outline": "#8a3024"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_sage",
+    "name": "Sage Cami",
+    "palette": {
+      "main": "#9cb88a",
+      "trim": "#e4efd6",
+      "accent": "#f5d34a",
+      "outline": "#4a6a3a"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "scoop_tee_teal",
+    "name": "Teal Scoop Tee",
+    "palette": {
+      "main": "#2fa8a0",
+      "trim": "#a8e2dc",
+      "accent": "#f5d34a",
+      "outline": "#155a56"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_white",
+    "name": "White Scoop Tee",
+    "palette": {
+      "main": "#f7f6f2",
+      "trim": "#dcdcd6",
+      "accent": "#7fa8d0",
+      "outline": "#8a8a84"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_grey",
+    "name": "Grey Marl Tee",
+    "palette": {
+      "main": "#a0a4aa",
+      "trim": "#d6d8dc",
+      "accent": "#f28c3a",
+      "outline": "#55585e"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_red",
+    "name": "Red Scoop Tee",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#f5a3a3",
+      "accent": "#ffffff",
+      "outline": "#6a1616"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_yellow",
+    "name": "Sunny Scoop Tee",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#fff0b0",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "bib_top_blue",
+    "name": "Blue Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#5a9be0",
+      "accent": "#d6ecff",
+      "outline": "#3a5a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_pink",
+    "name": "Pink Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#f28cb0",
+      "accent": "#ffe0ec",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_yellow",
+    "name": "Duckling Bib Top",
+    "palette": {
+      "main": "#fff6d6",
+      "trim": "#f5c842",
+      "accent": "#ffffff",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_green",
+    "name": "Mint Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#6ac29a",
+      "accent": "#e0f5ea",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "polo_top_white",
+    "name": "White Polo",
+    "palette": {
+      "main": "#f7f6f2",
+      "trim": "#e2e0da",
+      "accent": "#3a6ab0",
+      "outline": "#8a8a84"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_navy",
+    "name": "Navy School Polo",
+    "palette": {
+      "main": "#2a3a66",
+      "trim": "#3a4c80",
+      "accent": "#ffffff",
+      "outline": "#141c36"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_red",
+    "name": "Red Polo",
+    "palette": {
+      "main": "#c83a3a",
+      "trim": "#e05454",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_green",
+    "name": "Bottle Green Polo",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#3f8a60",
+      "accent": "#f5d34a",
+      "outline": "#143022"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_sky",
+    "name": "Sky Polo",
+    "palette": {
+      "main": "#8ac4ec",
+      "trim": "#b8dcf5",
+      "accent": "#ffffff",
+      "outline": "#3a6a8a"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "white_front_cardigan_blue",
+    "name": "Blue Cardigan",
+    "palette": {
+      "main": "#3a6ec0",
+      "trim": "#ffffff",
+      "accent": "#f5d34a",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_red",
+    "name": "Red Cardigan",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#ffffff",
+      "accent": "#f5d34a",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_grey",
+    "name": "Grey Cardigan",
+    "palette": {
+      "main": "#8a8e96",
+      "trim": "#ffffff",
+      "accent": "#3a3a40",
+      "outline": "#46484e"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_lilac",
+    "name": "Lilac Cardigan",
+    "palette": {
+      "main": "#b49ad6",
+      "trim": "#fff4f8",
+      "accent": "#f28cb0",
+      "outline": "#5a3a80"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_mustard",
+    "name": "Mustard Cardigan",
+    "palette": {
+      "main": "#d6a43a",
+      "trim": "#fff6e0",
+      "accent": "#6a4a1a",
+      "outline": "#6a4a10"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "aline_skirt_green",
+    "name": "Green Skirt",
+    "palette": {
+      "main": "#4f8f3e",
+      "trim": "#3f7a30",
+      "accent": "#a8d672",
+      "outline": "#244a1b"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_denim",
+    "name": "Denim Skirt",
+    "palette": {
+      "main": "#4a6ea0",
+      "trim": "#3a5a86",
+      "accent": "#e0a040",
+      "outline": "#22344e"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_red",
+    "name": "Red Skirt",
+    "palette": {
+      "main": "#c83a3a",
+      "trim": "#a82a2a",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_plum",
+    "name": "Plum Skirt",
+    "palette": {
+      "main": "#6a3a6a",
+      "trim": "#5a2a5a",
+      "accent": "#f5a3c0",
+      "outline": "#2e122e"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_camel",
+    "name": "Camel Skirt",
+    "palette": {
+      "main": "#c89a62",
+      "trim": "#b0844e",
+      "accent": "#5a3a1a",
+      "outline": "#5e4224"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "striped_trousers_orange",
+    "name": "Orange & Pink Stripe Trousers",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#9a4a1a"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_blue",
+    "name": "Blue Stripe Trousers",
+    "palette": {
+      "main": "#4a7fc0",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#24406a"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_mint",
+    "name": "Mint Stripe Trousers",
+    "palette": {
+      "main": "#7fd0b0",
+      "trim": "#fff4d6",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_lemon",
+    "name": "Lemon Stripe Trousers",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_berry",
+    "name": "Berry Stripe Trousers",
+    "palette": {
+      "main": "#a8326e",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#5a1236"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "split_skirt_black",
+    "name": "Black Split Skirt",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#3a3a42",
+      "accent": "#c8a24a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_navy",
+    "name": "Navy Split Skirt",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#33446e",
+      "accent": "#d6d6e0",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_grey",
+    "name": "Grey Split Skirt",
+    "palette": {
+      "main": "#7a7e86",
+      "trim": "#8e929a",
+      "accent": "#2a2a30",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_wine",
+    "name": "Wine Split Skirt",
+    "palette": {
+      "main": "#6a1e2e",
+      "trim": "#7e2a3a",
+      "accent": "#e0b060",
+      "outline": "#30080f"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "side_stripe_trousers_black",
+    "name": "Black Stripe Trousers",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#ffffff",
+      "accent": "#9a9aa6",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_navy",
+    "name": "Navy Track Trousers",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#f5d34a",
+      "accent": "#9aa6c8",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_red",
+    "name": "Red Track Trousers",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#ffffff",
+      "accent": "#f5a3a3",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_green",
+    "name": "Green Track Trousers",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#ffffff",
+      "accent": "#a8d6b8",
+      "outline": "#143022"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_pink",
+    "name": "Pink Track Trousers",
+    "palette": {
+      "main": "#e486a6",
+      "trim": "#ffffff",
+      "accent": "#ffd2e0",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "rainbow_tier_dress_rainbow",
+    "name": "Rainbow Tier Dress",
+    "palette": {
+      "main": "#e84a6a",
+      "trim": "#f5c842",
+      "accent": "#4ab0e0",
+      "outline": "#7a1a30"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_sunset",
+    "name": "Sunset Tier Dress",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#a8326e",
+      "outline": "#7a3010"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_ocean",
+    "name": "Ocean Tier Dress",
+    "palette": {
+      "main": "#2fa8a0",
+      "trim": "#8ac4ec",
+      "accent": "#2f4f9a",
+      "outline": "#155a56"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_garden",
+    "name": "Garden Tier Dress",
+    "palette": {
+      "main": "#6ac25a",
+      "trim": "#f5e04a",
+      "accent": "#f28cb0",
+      "outline": "#2f6a24"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_berry",
+    "name": "Berry Tier Dress",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#f28cb0",
+      "accent": "#f5c842",
+      "outline": "#4a2a70"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "cosy_onesie_red",
+    "name": "Red Onesie",
+    "palette": {
+      "main": "#d6343a",
+      "trim": "#f5e6d8",
+      "accent": "#f5c842",
+      "outline": "#6a1216"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_grey",
+    "name": "Grey Onesie",
+    "palette": {
+      "main": "#9a9ea6",
+      "trim": "#f0f0f2",
+      "accent": "#f28cb0",
+      "outline": "#4a4c52"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_pink",
+    "name": "Pink Onesie",
+    "palette": {
+      "main": "#f2a0bc",
+      "trim": "#ffffff",
+      "accent": "#8a5cc0",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_navy",
+    "name": "Starry Onesie",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#f5e04a",
+      "accent": "#f5e04a",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_mint",
+    "name": "Mint Onesie",
+    "palette": {
+      "main": "#8ad6b8",
+      "trim": "#ffffff",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "baby_swaddle_pink",
+    "name": "Pink Swaddle",
+    "palette": {
+      "main": "#f5c2d2",
+      "trim": "#fff0f4",
+      "accent": "#e486a6",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_blue",
+    "name": "Blue Swaddle",
+    "palette": {
+      "main": "#a8d0f0",
+      "trim": "#eef7ff",
+      "accent": "#5a9be0",
+      "outline": "#3a5a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_lemon",
+    "name": "Lemon Swaddle",
+    "palette": {
+      "main": "#f5e08a",
+      "trim": "#fffbe6",
+      "accent": "#e0a040",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_mint",
+    "name": "Mint Swaddle",
+    "palette": {
+      "main": "#a8e2c8",
+      "trim": "#f0fff8",
+      "accent": "#4ab08a",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_lilac",
+    "name": "Lilac Swaddle",
+    "palette": {
+      "main": "#cdb8ec",
+      "trim": "#f8f2ff",
+      "accent": "#8a5cc0",
+      "outline": "#5a3a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_cream",
+    "name": "Cream Swaddle",
+    "palette": {
+      "main": "#efe4d0",
+      "trim": "#fffaf0",
+      "accent": "#c89a62",
+      "outline": "#7a6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "blue_shorts_blue",
+    "name": "Blue Shorts",
+    "palette": {
+      "main": "#4a7ec8",
+      "trim": "#3a66a8",
+      "accent": "#e0a040",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_white",
+    "name": "White Shorts",
+    "palette": {
+      "main": "#f4f2ec",
+      "trim": "#e2dfd6",
+      "accent": "#a8a49a",
+      "outline": "#8a8678"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_pink",
+    "name": "Pink Shorts",
+    "palette": {
+      "main": "#f2a0bc",
+      "trim": "#e486a6",
+      "accent": "#ffffff",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_khaki",
+    "name": "Khaki Shorts",
+    "palette": {
+      "main": "#a89a6a",
+      "trim": "#948656",
+      "accent": "#5a4a2a",
+      "outline": "#4e4428"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_black",
+    "name": "Black Shorts",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#3a3a42",
+      "accent": "#9a9aa6",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
   }
 ]

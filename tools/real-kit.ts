@@ -231,3 +231,40 @@ function fitAnchors(orig: NonNullable<Template['anchors']>, text: string): Templ
   }
   return out as Template['anchors'];
 }
+
+// ---- brand-new things (not redraws): the template goes into templates.json and templates-real.json alike, with its
+// colourways as items. Re-running replaces them by id.
+export type Colourway = { id: string; name: string; palette: Pal; tags: string[]; ages?: string[] };
+export type NewThing = { id: string; name: string; category: string; size?: Template['size']; anchors?: Template['anchors']; palette: Pal; body: string; items: Colourway[] };
+
+export function commitNew(list: NewThing[], label: string): number {
+  const base = JSON.parse(readFileSync('src/data/templates.json', 'utf8')) as Template[];
+  const real = JSON.parse(readFileSync(REAL_FILE, 'utf8')) as (Template & { palette: Pal })[];
+  const items = JSON.parse(readFileSync('src/data/items.json', 'utf8')) as { id: string; template: string }[];
+  const errors: string[] = [];
+  let ok = 0;
+  const put = <T extends { id: string }>(arr: T[], x: T) => {
+    const i = arr.findIndex((o) => o.id === x.id);
+    if (i >= 0) arr[i] = x;
+    else arr.push(x);
+  };
+  for (const n of list) {
+    const text = svg(n.body);
+    const t: Template = { id: n.id, name: n.name, category: n.category, ...(n.size ? { size: n.size, anchors: n.anchors } : {}), svg: text };
+    const errs = KINDS.template.errors(t as unknown as Entry, base.filter((o) => o.id !== t.id) as unknown as Entry[]);
+    if (errs.length) {
+      errors.push(...errs);
+      continue;
+    }
+    ok++;
+    put(base, t);
+    put(real, { ...t, palette: n.palette });
+    for (const it of n.items) put(items, { ...it, template: n.id } as never);
+  }
+  writeFileSync('src/data/templates.json', `${JSON.stringify(base, null, 2)}\n`);
+  writeFileSync(REAL_FILE, `${JSON.stringify(real, null, 2)}\n`);
+  writeFileSync('src/data/items.json', `${JSON.stringify(items, null, 2)}\n`);
+  console.log(`${label}: ${ok} of ${list.length} templates added, with their colourways (check with npm run validate)`);
+  for (const x of errors) console.log(`  ✗ ${x}`);
+  return errors.length;
+}
