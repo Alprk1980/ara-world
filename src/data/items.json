@@ -61570,5 +61570,685 @@
       "elder"
     ],
     "template": "blue_shorts"
+  },
+  {
+    "id": "painted_stool_red",
+    "name": "Red Stool",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#b02a2a",
+      "accent": "#f2e6d0",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_yellow",
+    "name": "Yellow Stool",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#d6a82a",
+      "accent": "#ffffff",
+      "outline": "#7a5a10"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_blue",
+    "name": "Blue Stool",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#2a64a8",
+      "accent": "#ffffff",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_green",
+    "name": "Green Stool",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#3a8a46",
+      "accent": "#ffffff",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_pink",
+    "name": "Pink Stool",
+    "palette": {
+      "main": "#f28cb0",
+      "trim": "#d66e94",
+      "accent": "#ffffff",
+      "outline": "#7a2e4a"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_purple",
+    "name": "Purple Stool",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#6e44a0",
+      "accent": "#ffffff",
+      "outline": "#3a2060"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_orange",
+    "name": "Orange Stool",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#d4702a",
+      "accent": "#ffffff",
+      "outline": "#7a3a10"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_wood",
+    "name": "Wooden Stool",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#8a5a34",
+      "accent": "#f2e6d0",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "double_bed_blue",
+    "name": "Blue Double Bed",
+    "palette": {
+      "main": "#7aa6c9",
+      "trim": "#f4f2ee",
+      "accent": "#8a5a34",
+      "outline": "#2f5a80"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_pink",
+    "name": "Pink Double Bed",
+    "palette": {
+      "main": "#f2b0c4",
+      "trim": "#ffffff",
+      "accent": "#f4e8ee",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_grey",
+    "name": "Grey Double Bed",
+    "palette": {
+      "main": "#9aa0a8",
+      "trim": "#f4f2ee",
+      "accent": "#46484e",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_green",
+    "name": "Sage Double Bed",
+    "palette": {
+      "main": "#9cb88a",
+      "trim": "#f8f4ea",
+      "accent": "#c8a87a",
+      "outline": "#4a6a3a"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_yellow",
+    "name": "Sunny Double Bed",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#f2f2f2",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_purple",
+    "name": "Purple Double Bed",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#f4eefa",
+      "accent": "#3a2a4a",
+      "outline": "#3a2060"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_gold",
+    "name": "Royal Double Bed",
+    "palette": {
+      "main": "#a8263a",
+      "trim": "#f4e6c8",
+      "accent": "#d6a43a",
+      "outline": "#50101a"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "painted_cot_white",
+    "name": "White Cot",
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#a8d5e2",
+      "accent": "#f5c2d2",
+      "outline": "#6a7880"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_pink",
+    "name": "Pink Cot",
+    "palette": {
+      "main": "#f5b8cc",
+      "trim": "#ffffff",
+      "accent": "#f5e08a",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_blue",
+    "name": "Blue Cot",
+    "palette": {
+      "main": "#8ac4ec",
+      "trim": "#ffffff",
+      "accent": "#f5e08a",
+      "outline": "#3a6a8a"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_mint",
+    "name": "Mint Cot",
+    "palette": {
+      "main": "#9ee0c4",
+      "trim": "#ffffff",
+      "accent": "#f5a3c0",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_wood",
+    "name": "Wooden Cot",
+    "palette": {
+      "main": "#c89a62",
+      "trim": "#f4ecdc",
+      "accent": "#a8d5e2",
+      "outline": "#5e4224"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_grey",
+    "name": "Grey Cot",
+    "palette": {
+      "main": "#a0a4aa",
+      "trim": "#f4f2ee",
+      "accent": "#f5d34a",
+      "outline": "#46484e"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "round_table_wood",
+    "name": "Wooden Round Table",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#8a5a34",
+      "accent": "#f2f2f2",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_white",
+    "name": "White Round Table",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#d6d2ca",
+      "accent": "#9a9a9a",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_red",
+    "name": "Red Round Table",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#3a3a3a",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_blue",
+    "name": "Blue Round Table",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#e8e8e8",
+      "accent": "#ffffff",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_yellow",
+    "name": "Yellow Round Table",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#7a5a10"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_green",
+    "name": "Green Round Table",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#f2f2f2",
+      "accent": "#ffffff",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_black",
+    "name": "Black Round Table",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#c0a060",
+      "accent": "#ffffff",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "tall_fridge_steel",
+    "name": "Steel Fridge",
+    "palette": {
+      "main": "#d8dce0",
+      "trim": "#a0a6ac",
+      "accent": "#3a3a40",
+      "outline": "#5a6068"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_white",
+    "name": "White Fridge",
+    "palette": {
+      "main": "#f6f6f4",
+      "trim": "#c8ccd0",
+      "accent": "#9ac4e0",
+      "outline": "#7a7e84"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_black",
+    "name": "Black Fridge",
+    "palette": {
+      "main": "#2e3036",
+      "trim": "#5a5e66",
+      "accent": "#7fd1ff",
+      "outline": "#0c0e12"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_red",
+    "name": "Red Retro Fridge",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_mint",
+    "name": "Mint Retro Fridge",
+    "palette": {
+      "main": "#a8e2cc",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#3a6a58"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_pink",
+    "name": "Pink Fridge",
+    "palette": {
+      "main": "#f5b8cc",
+      "trim": "#ffffff",
+      "accent": "#f4f4f4",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_blue",
+    "name": "Blue Fridge",
+    "palette": {
+      "main": "#7ab0e0",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#2f5a80"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "jail_cell_grey",
+    "name": "Jail Cell",
+    "palette": {
+      "main": "#5a6068",
+      "trim": "#c8c4bc",
+      "accent": "#d6a43a",
+      "outline": "#24282e"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
+  },
+  {
+    "id": "jail_cell_blue",
+    "name": "Blue Jail Cell",
+    "palette": {
+      "main": "#2f4f80",
+      "trim": "#c8d0dc",
+      "accent": "#d6a43a",
+      "outline": "#142440"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
+  },
+  {
+    "id": "jail_cell_black",
+    "name": "Black Jail Cell",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#d8d2c4",
+      "accent": "#c0c0c8",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
   }
 ]
