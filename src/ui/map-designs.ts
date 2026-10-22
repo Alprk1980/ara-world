@@ -80,6 +80,7 @@ export function houseDesign(style: string, ex: { walls: string; roof: string; do
     case 'castle': return { ...base, body: 'castle', floors: Math.min(2, floors) };
     case 'beach': return { ...base, body: 'stilts', windows: 'round', extras: ['palm'] };
     case 'modern': return { ...base, body: 'shop', top: 'flat', extras: ['glass', 'rooftrees'] };
+    case 'townhouse': return { ...base, body: 'tower', floors: Math.max(1, Math.min(5, floors - 2)), extras: ['balconies', 'garage', 'flowers'] };
     case 'apartment': return { ...base, body: 'tower', floors: Math.min(3, floors), extras: ['balconies'] };
     case 'cabin': return { ...base, body: 'house', extras: ['beams', 'chimney', 'smoke'] };
     case 'farmhouse': return { ...base, body: 'house', extras: ['chimney', 'haybales'] };

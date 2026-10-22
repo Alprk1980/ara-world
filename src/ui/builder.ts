@@ -11,7 +11,7 @@ import { COLORS, label, pillButton } from './kit.ts';
 import { ScrollGrid, type Cell } from './scroll-grid.ts';
 import { playSound } from './sound.ts';
 
-const STYLE_EMOJI: Record<string, string> = { cottage: '🏡', modern: '🏢', mansion: '🏰', beach: '🏖️', cabin: '🪵', castle: '👑', apartment: '🏬', farmhouse: '🌾', treehouse: '🌳', spooky_cute: '🎃' };
+const STYLE_EMOJI: Record<string, string> = { cottage: '🏡', modern: '🏢', mansion: '🏰', beach: '🏖️', cabin: '🪵', castle: '👑', apartment: '🏬', farmhouse: '🌾', treehouse: '🌳', spooky_cute: '🎃', townhouse: '🏙️' };
 
 export class BuilderScene implements Scene {
   readonly name = 'builder';

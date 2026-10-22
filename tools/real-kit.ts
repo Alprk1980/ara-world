@@ -250,7 +250,10 @@ export function commitNew(list: NewThing[], label: string): number {
   };
   for (const n of list) {
     const text = svg(n.body);
-    const t: Template = { id: n.id, name: n.name, category: n.category, ...(n.size ? { size: n.size, anchors: n.anchors } : {}), svg: text };
+    // The game scales a drawing by its height; its width in the world follows from the drawing's shape.
+    const box = checkSvg(text).box;
+    const size = n.size && box ? { w: Math.round((n.size.h * (box.maxX - box.minX)) / (box.maxY - box.minY)), h: n.size.h } : n.size;
+    const t: Template = { id: n.id, name: n.name, category: n.category, ...(size ? { size, anchors: n.anchors } : {}), svg: text };
     const errs = KINDS.template.errors(t as unknown as Entry, base.filter((o) => o.id !== t.id) as unknown as Entry[]);
     if (errs.length) {
       errors.push(...errs);

@@ -331,254 +331,290 @@
         "outdoor": true,
         "wall": "#bfe6ff",
         "ground": "#8ce99a",
-        "width": 1003,
-        "rooms": [
-          {
-            "type": "pool",
-            "width": 467
-          },
-          {
-            "type": "garden",
-            "width": 536
-          }
-        ],
+        "width": 1004,
         "items": [
           {
-            "item": "beach_umbrella_strawberry",
-            "x": 65
+            "item": "beach_umbrella_sky",
+            "x": 59
           },
           {
             "item": "pool_lounger_lilac",
-            "x": 144
+            "x": 151
           },
           {
-            "item": "donut_slide_strawberry",
-            "x": 237
+            "item": "pool_lounger_sky",
+            "x": 243
           },
           {
-            "item": "zoo_duck_pond_sky",
-            "x": 330
+            "item": "heated_pool_blue",
+            "x": 382
           },
           {
-            "item": "pool_ladder_lilac",
-            "x": 405
+            "item": "bbq_grill_black",
+            "x": 554
           },
           {
-            "item": "water_slide_tower_strawberry",
-            "x": 562
+            "item": "long_garden_table_wood",
+            "x": 662
           },
           {
-            "item": "sitting_puppy_strawberry",
-            "x": 660
+            "item": "waterpark_snack_stand_strawberry",
+            "x": 778
           },
           {
-            "item": "station_bench_cocoa",
-            "x": 740
+            "item": "pool_drink_cart_strawberry",
+            "x": 907
+          }
+        ],
+        "rooms": [
+          {
+            "type": "pool",
+            "width": 495
           },
           {
-            "item": "garden_bench_strawberry",
-            "x": 843
+            "type": "garden",
+            "width": 509
+          }
+        ]
+      },
+      {
+        "name": "Kids Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1009,
+        "items": [
+          {
+            "item": "garden_treehouse_wood",
+            "x": 123
+          },
+          {
+            "item": "garden_swing_set_strawberry",
+            "x": 319
+          },
+          {
+            "item": "rainbow_slide_strawberry",
+            "x": 456
+          },
+          {
+            "item": "sandbox_wood",
+            "x": 549
+          },
+          {
+            "item": "waterpark_splash_pad_strawberry",
+            "x": 765
           },
           {
             "item": "baby_slide_lilac",
-            "x": 928
+            "x": 947
+          }
+        ],
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 611
+          },
+          {
+            "type": "pool",
+            "width": 398
+          }
+        ]
+      },
+      {
+        "name": "Garage & Game Room",
+        "wall": "#e8e4dc",
+        "ground": "#9aa3ad",
+        "width": 794,
+        "items": [
+          {
+            "item": "garage_door_white",
+            "x": 67
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 159
+          },
+          {
+            "item": "fire_station_tool_cabinet_strawberry",
+            "x": 244
+          },
+          {
+            "item": "arcade_machine_blue",
+            "x": 366
+          },
+          {
+            "item": "arcade_machine_red",
+            "x": 449
+          },
+          {
+            "item": "pool_table_strawberry",
+            "x": 546
+          },
+          {
+            "item": "velvet_sofa_strawberry",
+            "x": 663
+          },
+          {
+            "item": "painted_stool_purple",
+            "x": 749
+          }
+        ],
+        "rooms": [
+          {
+            "type": "garage",
+            "width": 311
+          },
+          {
+            "type": "game_room",
+            "width": 483
           }
         ]
       },
       {
         "name": "Grand Hall",
-        "outdoor": false,
         "wall": "#fff3d6",
-        "ground": "#e6c3d6",
-        "width": 880,
+        "ground": "#c9a27a",
+        "width": 804,
+        "items": [
+          {
+            "item": "round_sofa_coral",
+            "x": 94
+          },
+          {
+            "item": "round_table_white",
+            "x": 220
+          },
+          {
+            "item": "velvet_sofa_strawberry",
+            "x": 326
+          },
+          {
+            "item": "big_window_white",
+            "x": 204,
+            "y": 62
+          },
+          {
+            "item": "tall_fridge_steel",
+            "x": 470
+          },
+          {
+            "item": "kitchen_table_peach",
+            "x": 577
+          },
+          {
+            "item": "painted_stool_red",
+            "x": 661
+          },
+          {
+            "item": "painted_stool_yellow",
+            "x": 710
+          },
+          {
+            "item": "painted_stool_blue",
+            "x": 759
+          }
+        ],
         "rooms": [
           {
             "type": "living",
-            "width": 489
+            "width": 408
           },
           {
             "type": "kitchen",
-            "width": 391
-          }
-        ],
-        "items": [
-          {
-            "item": "round_sofa_butter",
-            "x": 100
-          },
-          {
-            "item": "daycare_toy_piano_lilac",
-            "x": 187
-          },
-          {
-            "item": "cloud_sofa_mint",
-            "x": 275
-          },
-          {
-            "item": "velvet_sofa_cocoa",
-            "x": 403
-          },
-          {
-            "item": "cute_fridge_strawberry",
-            "x": 554
-          },
-          {
-            "item": "espresso_machine_lemon",
-            "x": 613
-          },
-          {
-            "item": "theme_park_game_counter_cocoa",
-            "x": 702
-          },
-          {
-            "item": "juice_tap_lemon",
-            "x": 783
-          },
-          {
-            "item": "wheelchair_lilac",
-            "x": 821
-          },
-          {
-            "item": "moon_cookie_lemon",
-            "x": 702,
-            "y": 75
+            "width": 396
           }
         ]
       },
       {
         "name": "Bedrooms",
-        "outdoor": false,
-        "wall": "#e6fff2",
+        "wall": "#f3e6ff",
         "ground": "#c9a27a",
-        "width": 1053,
+        "width": 771,
+        "items": [
+          {
+            "item": "double_bed_gold",
+            "x": 70
+          },
+          {
+            "item": "round_table_black",
+            "x": 172
+          },
+          {
+            "item": "big_window_white",
+            "x": 119,
+            "y": 62
+          },
+          {
+            "item": "canopy_bed_strawberry",
+            "x": 312
+          },
+          {
+            "item": "arcade_machine_purple",
+            "x": 415
+          },
+          {
+            "item": "tinted_glass_shower_smoke",
+            "x": 544
+          },
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 674
+          }
+        ],
         "rooms": [
           {
             "type": "bedroom",
-            "width": 311
+            "width": 238
           },
           {
             "type": "teen_room",
-            "width": 380
+            "width": 239
           },
           {
             "type": "bathroom",
-            "width": 362
-          }
-        ],
-        "items": [
-          {
-            "item": "hospital_bed_lilac",
-            "x": 75
-          },
-          {
-            "item": "cloud_star_lamp_strawberry",
-            "x": 146
-          },
-          {
-            "item": "hospital_bedside_lamp_strawberry",
-            "x": 179
-          },
-          {
-            "item": "horse_blanket_mint",
-            "x": 238
-          },
-          {
-            "item": "optician_lamp_sky",
-            "x": 356
-          },
-          {
-            "item": "cloud_star_lamp_lilac",
-            "x": 388
-          },
-          {
-            "item": "hospital_bedside_lamp_strawberry",
-            "x": 426
-          },
-          {
-            "item": "single_cozy_bed_rainbow",
-            "x": 551
-          },
-          {
-            "item": "makeup_mirror_lemon",
-            "x": 380,
-            "y": 75
-          },
-          {
-            "item": "bubble_bathtub_gold",
-            "x": 786
-          },
-          {
-            "item": "rubber_duck_strawberry",
-            "x": 868
-          },
-          {
-            "item": "bird_bath_lilac",
-            "x": 902
-          },
-          {
-            "item": "zoo_duck_pond_mint",
-            "x": 970
+            "width": 294
           }
         ]
       },
       {
         "name": "Playroom Attic",
-        "outdoor": false,
         "wall": "#ffe3ef",
         "ground": "#e8d2b8",
-        "width": 564,
+        "width": 479,
+        "items": [
+          {
+            "item": "mall_toy_shelf_strawberry",
+            "x": 60
+          },
+          {
+            "item": "train_set_strawberry",
+            "x": 133
+          },
+          {
+            "item": "painted_stool_green",
+            "x": 184
+          },
+          {
+            "item": "painted_cot_pink",
+            "x": 281
+          },
+          {
+            "item": "daycare_changing_table_strawberry",
+            "x": 366
+          },
+          {
+            "item": "daycare_soft_blocks_strawberry",
+            "x": 435
+          }
+        ],
         "rooms": [
           {
             "type": "playroom",
-            "width": 250
+            "width": 229
           },
           {
             "type": "nursery",
-            "width": 314
-          }
-        ],
-        "items": [
-          {
-            "item": "mall_toy_shelf_lilac",
-            "x": 66
-          },
-          {
-            "item": "toy_car_sky",
-            "x": 123
-          },
-          {
-            "item": "paint_cans_strawberry",
-            "x": 161
-          },
-          {
-            "item": "train_set_mint",
-            "x": 198
-          },
-          {
-            "item": "paint_palette_lilac",
-            "x": 66,
-            "y": 82
-          },
-          {
-            "item": "paint_sponge_lilac",
-            "x": 71,
-            "y": 82
-          },
-          {
-            "item": "daycare_changing_table_cocoa",
-            "x": 315
-          },
-          {
-            "item": "stadium_mascot_plush_sky",
-            "x": 378
-          },
-          {
-            "item": "daycare_baby_crib_lemon",
-            "x": 442
-          },
-          {
-            "item": "daycare_soft_blocks_sky",
-            "x": 510
+            "width": 250
           }
         ]
       }
@@ -1628,6 +1664,336 @@
             "item": "salon_mirror_strawberry",
             "x": 675,
             "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "six_floor_house",
+    "name": "Six Floor House",
+    "style": "townhouse",
+    "roof": "flat",
+    "exterior": {
+      "walls": "#f4efe6",
+      "roof": "#3a3a40",
+      "door": "#3a6ec0",
+      "trim": "#ffffff"
+    },
+    "floors": [
+      {
+        "name": "Back Garden",
+        "outdoor": true,
+        "wall": "#d4f4ff",
+        "ground": "#7fd890",
+        "width": 598,
+        "items": [
+          {
+            "item": "garden_swing_set_strawberry",
+            "x": 99
+          },
+          {
+            "item": "bbq_grill_red",
+            "x": 231
+          },
+          {
+            "item": "long_garden_table_white",
+            "x": 339
+          },
+          {
+            "item": "sandbox_green",
+            "x": 444
+          },
+          {
+            "item": "garden_bench_strawberry",
+            "x": 531
+          }
+        ],
+        "rooms": [
+          {
+            "type": "garden",
+            "width": 598
+          }
+        ]
+      },
+      {
+        "name": "Front Room & Garage",
+        "wall": "#ffe9d6",
+        "ground": "#c9a27a",
+        "width": 688,
+        "items": [
+          {
+            "item": "velvet_sofa_strawberry",
+            "x": 74
+          },
+          {
+            "item": "round_table_wood",
+            "x": 180
+          },
+          {
+            "item": "big_window_wood",
+            "x": 123,
+            "y": 62
+          },
+          {
+            "item": "mall_toy_shelf_strawberry",
+            "x": 306
+          },
+          {
+            "item": "daycare_soft_blocks_strawberry",
+            "x": 376
+          },
+          {
+            "item": "painted_stool_orange",
+            "x": 424
+          },
+          {
+            "item": "garage_door_blue",
+            "x": 536
+          },
+          {
+            "item": "cute_small_car_strawberry",
+            "x": 628
+          }
+        ],
+        "rooms": [
+          {
+            "type": "living",
+            "width": 246
+          },
+          {
+            "type": "playroom",
+            "width": 223
+          },
+          {
+            "type": "garage",
+            "width": 219
+          }
+        ]
+      },
+      {
+        "name": "Snack Bar & Kids Room",
+        "wall": "#fbe9dc",
+        "ground": "#b98a5e",
+        "width": 703,
+        "items": [
+          {
+            "item": "tall_fridge_pink",
+            "x": 62
+          },
+          {
+            "item": "station_snack_cart_strawberry",
+            "x": 174
+          },
+          {
+            "item": "bar_stool_strawberry",
+            "x": 258
+          },
+          {
+            "item": "painted_stool_pink",
+            "x": 304
+          },
+          {
+            "item": "painted_stool_yellow",
+            "x": 353
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 522
+          },
+          {
+            "item": "painted_stool_blue",
+            "x": 658
+          }
+        ],
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 398
+          },
+          {
+            "type": "kids_room",
+            "width": 305
+          }
+        ]
+      },
+      {
+        "name": "Guest Room & Lounge",
+        "wall": "#eef2f7",
+        "ground": "#c9a27a",
+        "width": 634,
+        "items": [
+          {
+            "item": "double_bed_green",
+            "x": 70
+          },
+          {
+            "item": "round_table_white",
+            "x": 172
+          },
+          {
+            "item": "cloud_sofa_strawberry",
+            "x": 327
+          },
+          {
+            "item": "round_table_blue",
+            "x": 448
+          },
+          {
+            "item": "big_window_white",
+            "x": 376,
+            "y": 62
+          },
+          {
+            "item": "balcony_railing_white",
+            "x": 570
+          }
+        ],
+        "rooms": [
+          {
+            "type": "bedroom",
+            "width": 238
+          },
+          {
+            "type": "living",
+            "width": 276
+          },
+          {
+            "type": "balcony",
+            "width": 120
+          }
+        ]
+      },
+      {
+        "name": "Kids Bedroom",
+        "wall": "#e6fff2",
+        "ground": "#d9b38c",
+        "width": 774,
+        "items": [
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 89
+          },
+          {
+            "item": "painted_stool_green",
+            "x": 190
+          },
+          {
+            "item": "single_cozy_bed_chocolate",
+            "x": 359
+          },
+          {
+            "item": "painted_stool_red",
+            "x": 495
+          },
+          {
+            "item": "double_bed_pink",
+            "x": 576
+          },
+          {
+            "item": "balcony_railing_grey",
+            "x": 710
+          }
+        ],
+        "rooms": [
+          {
+            "type": "bathroom",
+            "width": 235
+          },
+          {
+            "type": "kids_room",
+            "width": 419
+          },
+          {
+            "type": "balcony",
+            "width": 120
+          }
+        ]
+      },
+      {
+        "name": "Master Bedroom",
+        "wall": "#f3e6ff",
+        "ground": "#c9a27a",
+        "width": 581,
+        "items": [
+          {
+            "item": "tinted_glass_shower_smoke",
+            "x": 67
+          },
+          {
+            "item": "bubble_bathtub_gold",
+            "x": 197
+          },
+          {
+            "item": "double_bed_purple",
+            "x": 364
+          },
+          {
+            "item": "round_table_black",
+            "x": 466
+          },
+          {
+            "item": "painted_stool_purple",
+            "x": 536
+          },
+          {
+            "item": "big_window_black",
+            "x": 438,
+            "y": 62
+          }
+        ],
+        "rooms": [
+          {
+            "type": "bathroom",
+            "width": 294
+          },
+          {
+            "type": "bedroom",
+            "width": 287
+          }
+        ]
+      },
+      {
+        "name": "Top Kitchen",
+        "wall": "#fff6e0",
+        "ground": "#e8d2b8",
+        "width": 437,
+        "items": [
+          {
+            "item": "tall_fridge_steel",
+            "x": 62
+          },
+          {
+            "item": "kitchen_table_peach",
+            "x": 169
+          },
+          {
+            "item": "painted_stool_red",
+            "x": 253
+          },
+          {
+            "item": "painted_stool_blue",
+            "x": 302
+          },
+          {
+            "item": "round_table_yellow",
+            "x": 371
+          },
+          {
+            "item": "big_window_white",
+            "x": 146,
+            "y": 60
+          },
+          {
+            "item": "big_window_white",
+            "x": 291,
+            "y": 60
+          }
+        ],
+        "rooms": [
+          {
+            "type": "kitchen",
+            "width": 437
           }
         ]
       }

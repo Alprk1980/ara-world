@@ -62250,5 +62250,726 @@
       "police"
     ],
     "template": "jail_cell"
+  },
+  {
+    "id": "heated_pool_blue",
+    "name": "Heated Pool",
+    "palette": {
+      "main": "#3aa0d8",
+      "trim": "#f4f2ee",
+      "accent": "#e03131",
+      "outline": "#1e5a80"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_turquoise",
+    "name": "Turquoise Heated Pool",
+    "palette": {
+      "main": "#2fc0c0",
+      "trim": "#e8e0d0",
+      "accent": "#e03131",
+      "outline": "#14606a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_deep",
+    "name": "Deep Blue Heated Pool",
+    "palette": {
+      "main": "#2a5fb0",
+      "trim": "#d8d4cc",
+      "accent": "#f59f00",
+      "outline": "#14305a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_stone",
+    "name": "Stone Heated Pool",
+    "palette": {
+      "main": "#4ab0d0",
+      "trim": "#b8b0a2",
+      "accent": "#e03131",
+      "outline": "#2a5a6a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "bbq_grill_black",
+    "name": "Black BBQ",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#9aa0a8",
+      "accent": "#c0604a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_red",
+    "name": "Red BBQ",
+    "palette": {
+      "main": "#c0302a",
+      "trim": "#a0a6ac",
+      "accent": "#b85a3a",
+      "outline": "#4a0e0a"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_green",
+    "name": "Green BBQ",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#a0a6ac",
+      "accent": "#b85a3a",
+      "outline": "#123020"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_steel",
+    "name": "Steel BBQ",
+    "palette": {
+      "main": "#9aa0a8",
+      "trim": "#5a5e66",
+      "accent": "#b85a3a",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "long_garden_table_wood",
+    "name": "Long Garden Table",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#f4f2ee",
+      "accent": "#e86a5a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_white",
+    "name": "White Garden Table",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#ffffff",
+      "accent": "#4a8fd8",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_grey",
+    "name": "Grey Garden Table",
+    "palette": {
+      "main": "#8a8e96",
+      "trim": "#f4f2ee",
+      "accent": "#f5c842",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_teak",
+    "name": "Teak Garden Table",
+    "palette": {
+      "main": "#8a5a34",
+      "trim": "#f8f0e0",
+      "accent": "#4fa85a",
+      "outline": "#3a2010"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "garden_treehouse_wood",
+    "name": "Treehouse",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#4f9a45",
+      "accent": "#c4502a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_blue",
+    "name": "Blue Roof Treehouse",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#5aa64e",
+      "accent": "#2f6ab0",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_pink",
+    "name": "Pink Treehouse",
+    "palette": {
+      "main": "#f2b0c4",
+      "trim": "#5aa64e",
+      "accent": "#c84a7a",
+      "outline": "#7a3a4e"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_autumn",
+    "name": "Autumn Treehouse",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#e08a2a",
+      "accent": "#7a3a1a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "sandbox_wood",
+    "name": "Sandbox",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#ecd49a",
+      "accent": "#e03131",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_green",
+    "name": "Green Sandbox",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#ecd49a",
+      "accent": "#f5c842",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_blue",
+    "name": "Blue Sandbox",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#ecd49a",
+      "accent": "#f28cb0",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_red",
+    "name": "Red Sandbox",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#ecd49a",
+      "accent": "#3a7ec8",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "garage_door_white",
+    "name": "White Garage Door",
+    "palette": {
+      "main": "#e8e6e0",
+      "trim": "#b0583a",
+      "accent": "#3a3a40",
+      "outline": "#6a6860"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_grey",
+    "name": "Grey Garage Door",
+    "palette": {
+      "main": "#7a7e86",
+      "trim": "#c8c0b4",
+      "accent": "#2a2a30",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_wood",
+    "name": "Wooden Garage Door",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#d8d0c4",
+      "accent": "#3a3a40",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_blue",
+    "name": "Blue Garage Door",
+    "palette": {
+      "main": "#3a6ec0",
+      "trim": "#b0583a",
+      "accent": "#f4f4f4",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_red",
+    "name": "Red Garage Door",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#e0dcd4",
+      "accent": "#f4f4f4",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "arcade_machine_blue",
+    "name": "Arcade Machine",
+    "palette": {
+      "main": "#2f3a8a",
+      "trim": "#f5c842",
+      "accent": "#e8406a",
+      "outline": "#141a44"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_red",
+    "name": "Red Arcade Machine",
+    "palette": {
+      "main": "#b8202a",
+      "trim": "#f5c842",
+      "accent": "#3aa0e8",
+      "outline": "#4a080e"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_black",
+    "name": "Black Arcade Machine",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#4ae0c0",
+      "accent": "#f028a0",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_purple",
+    "name": "Purple Arcade Machine",
+    "palette": {
+      "main": "#6a2aa0",
+      "trim": "#f5e04a",
+      "accent": "#4ae0c0",
+      "outline": "#2a0a44"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "big_window_white",
+    "name": "Big Window",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_wood",
+    "name": "Wood Frame Window",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_black",
+    "name": "Black Frame Window",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_sunset",
+    "name": "Sunset Window",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#f5a86a",
+      "accent": "#a8326e",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "tinted_glass_shower_smoke",
+    "name": "Tinted Glass Shower",
+    "palette": {
+      "main": "#e8eef2",
+      "trim": "#a8b0b8",
+      "accent": "#3a4a5a",
+      "outline": "#5a6068"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_bronze",
+    "name": "Bronze Glass Shower",
+    "palette": {
+      "main": "#efe8de",
+      "trim": "#c8a46a",
+      "accent": "#6a4a2a",
+      "outline": "#6a5a48"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_blue",
+    "name": "Blue Glass Shower",
+    "palette": {
+      "main": "#e6f0f8",
+      "trim": "#a8b0b8",
+      "accent": "#2a5a8a",
+      "outline": "#4a5a6a"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_black",
+    "name": "Black Glass Shower",
+    "palette": {
+      "main": "#d8d8dc",
+      "trim": "#2a2a30",
+      "accent": "#1a1a20",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "balcony_railing_grey",
+    "name": "Balcony Railing",
+    "palette": {
+      "main": "#4a4e56",
+      "trim": "#cdeeff",
+      "accent": "#e8407a",
+      "outline": "#1a1c20"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_white",
+    "name": "White Balcony Railing",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#cdeeff",
+      "accent": "#f5c842",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_black",
+    "name": "Black Balcony Railing",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#cdeeff",
+      "accent": "#b197fc",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_wood",
+    "name": "Wooden Balcony Railing",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#cdeeff",
+      "accent": "#e8407a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
   }
 ]
