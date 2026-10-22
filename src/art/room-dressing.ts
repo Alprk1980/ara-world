@@ -5,6 +5,8 @@ import type { Floor } from '../../schemas/place.ts';
 import { WALL_HEIGHT, OUTDOOR_HEIGHT } from '../../schemas/place.ts';
 import { hexNum, shade } from './color.ts';
 import type { Theme } from './themes.ts';
+import { currentLook } from './look.ts';
+import { dressFloorReal } from './room-real.ts';
 
 export type Dressing = { seed: string; theme: Theme; night: boolean; sign?: { emoji: string; name: string } };
 
@@ -19,6 +21,8 @@ const label = (text: string, size: number, fill = 0xffffff) =>
   new Text({ text, style: { fontFamily: 'Fredoka, sans-serif', fontSize: size, fontWeight: '600', fill } });
 
 export function dressFloor(f: Floor, d: Dressing): Container {
+  // The realistic look has its own painted backdrops for the same themes (src/art/room-real.ts).
+  if (currentLook() === 'real') return dressFloorReal(f.width, d, hash(d.seed));
   const c = new Container();
   c.eventMode = 'none';
   const g = new Graphics();

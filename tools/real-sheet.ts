@@ -2,6 +2,7 @@
 //
 //   node tools/real-sheet.ts [category,category] [--ids a,b] [--items]   -> out/style/real-sheet.png
 // --items paints each drawing in the first game item's colours instead of its own real-world palette.
+// --open shows each drawing that opens, closed then open (src/data/templates-open.json).
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { Resvg } from '@resvg/resvg-js';
 import { paint } from '../src/art/render.ts';
@@ -12,7 +13,14 @@ const cats = args[0] && !args[0].startsWith('--') ? args[0].split(',') : null;
 const itemPal = new Map<string, Record<string, string>>();
 if (args.includes('--items')) for (const it of JSON.parse(readFileSync('src/data/items.json', 'utf8')) as { template: string; palette: Record<string, string> }[]) if (!itemPal.has(it.template)) itemPal.set(it.template, it.palette);
 const all = JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as { id: string; category: string; palette: Record<string, string>; svg: string }[];
-const list = all.filter((t) => (ids ? ids.includes(t.id) : !cats || cats.includes(t.category)));
+let list = all.filter((t) => (ids ? ids.includes(t.id) : !cats || cats.includes(t.category)));
+if (args.includes('--open')) {
+  const opens = JSON.parse(readFileSync('src/data/templates-open.json', 'utf8')) as { id: string; svg: string }[];
+  list = opens.flatMap((o) => {
+    const c = all.find((t) => t.id === o.id)!;
+    return [c, { ...c, id: `${c.id} (open)`, svg: o.svg }];
+  });
+}
 const cols = Math.min(8, list.length), cell = 200;
 const rows = Math.ceil(list.length / cols);
 const cells = list.map((t, i) => {

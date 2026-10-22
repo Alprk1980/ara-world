@@ -1,5 +1,5 @@
 // Interaction test with real pointer input: in a temporary test place built from real items, drag food onto a
-// person, tap them for the emoji wheel, eat, sit them on a seat, swipe up a floor. Screenshots in out/play-test/.
+// person, tap them for the emoji wheel, eat, sit them on a seat, swipe up a floor, ride a horse. Screenshots in out/play-test/.
 // The test place lives only in the page; nothing is written to src/data.
 //
 //   node tools/play-test.ts
@@ -263,6 +263,64 @@ try {
   for (const [k, label] of [['fridgeOpens', 'tapping a fridge opens it'], ['tvOn', 'tapping a TV switches it on'], ['cooked', 'food on the oven cooks'], ['lipstick', 'lipstick dropped on a face shows'], ['inBath', 'someone put in the bath sits in it'], ['swinging', 'someone on a swing swings'], ['salon', 'the salon chair opens the hair panel']] as const)
     if (k in doStuff) check(label, doStuff[k] === true);
   await shot('10-doing-room');
+
+  // Opening: in the realistic look a fridge has an open drawing; a real tap opens it (and shows what's inside), a
+  // second tap shuts it.
+  const fridgeAt = await inPage<{ x: number; y: number } | null>(`
+    const look = await import('/src/art/look.ts');
+    const t = st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template));
+    if (!t || !look.hasOpenArt(data.items.get(t.item).template)) return null;
+    ara.panel.hide();
+    ara.place.camYTarget = ara.place.floorTop?.[0] ?? 0;
+    ara.place.cam.x = ara.place.clampCamX(-t.x + 590);
+    const p = ara.place.floorViews[0].toGlobal({ x: t.x, y: -t.y - 60 });
+    return { x: p.x, y: p.y };
+  `);
+  if (fridgeAt) {
+    await page.waitForTimeout(400);
+    const at = await inPage<{ x: number; y: number }>(`
+      const t = st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template));
+      const p = ara.place.floorViews[0].toGlobal({ x: t.x, y: -t.y - 60 });
+      return { x: p.x, y: p.y };
+    `);
+    const openNow = () => inPage<boolean>(`return !!st.thingsOn(ara.world, '__test3', 0).find((t) => /fridge/.test(data.items.get(t.item).template)).open;`);
+    await page.mouse.click(at.x, at.y);
+    await page.waitForTimeout(400);
+    const opened = await openNow(), panel = await inPage<boolean>('return ara.panel.open;');
+    await shot('10b-fridge-open');
+    check('tapping a fridge opens its door (open drawing)', opened, `open ${opened}`);
+    check('an opened fridge shows what is inside', panel);
+    await inPage('ara.panel.hide();');
+    await page.mouse.click(at.x, at.y);
+    await page.waitForTimeout(300);
+    check('tapping it again shuts it', !(await openNow()));
+  }
+
+  // Riding: someone dropped on a horse sits on its back, and rides along when the horse is moved.
+  const ride = await inPage<Record<string, string | boolean>>(`
+    const horse = [...data.items.keys()].find((id) => /standing_horse|little_pony/.test(data.items.get(id).template));
+    if (!horse) return { none: true };
+    ara.panel.hide();
+    data.places.set('__test4', { id: '__test4', name: 'Riding Field', emoji: '🐴', district: 'downtown', floors: [{ name: 'Field', outdoor: true, wall: '#bfe6ff', ground: '#8ce99a', width: 900, items: [{ item: horse, x: 300 }] }] });
+    const p = ara.world.people.find((p) => p.id === '__tester');
+    p.holding = undefined;
+    p.at = { place: '__test4', floor: 0, x: 600, y: 0 };
+    ara.stack.replace(new (ara.place.constructor)(ara, '__test4'));
+    const scene = ara.place, rig = scene.rigs.get('__tester');
+    const h = st.thingsOn(ara.world, '__test4', 0)[0];
+    p.at.x = h.x + 10; p.at.y = 40;
+    scene.settlePerson(p, rig);
+    const mounted = p.at.on === h.uid && p.at.y > 5;
+    // Move the horse along: the rider comes too.
+    h.x = 600;
+    scene.dropThing(h, scene.floorViews[0].getChildByLabel('things').children.find((c) => c.position.x === 300) ?? new (await import('/src/dev/pixi.ts')).Sprite(), 0);
+    return { mounted, rode: p.at.on === h.uid && Math.abs(p.at.x - 600) < 40, x: Math.round(p.at.x) };
+  `);
+  if (!ride.none) {
+    check('someone dropped on a horse rides it', ride.mounted === true);
+    check('the rider goes where the horse goes', ride.rode === true, `rider x ${ride.x}`);
+    await shot('11-riding');
+  }
   await inPage(`ara.panel.hide(); ara.stack.replace(new (ara.place.constructor)(ara, '__test2'));`);
   await inPage(`const p = ara.world.people.find((p) => p.id === '__tester'); p.at = { place: '__test2', floor: 0, x: 80, y: 0 }; st.persist(ara.world);`);
 

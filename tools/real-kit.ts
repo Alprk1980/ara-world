@@ -137,7 +137,8 @@ export type Pal = { main: string; trim: string; accent: string; outline: string 
 export const pal = (main: string, trim: string, accent: string, outline: string): Pal => ({ main, trim, accent, outline });
 export type Redraw = { id: string; palette: Pal; body: string; anchors?: Template['anchors'] };
 /** A redraw of template `id`: its body (svg() adds the root and lights) and real-world colours. Anchors default to the
- * original's names, with base moved to the bottom of the new drawing and the rest kept inside it. */
+ * original's names, with base moved to the bottom of the new drawing and the rest kept inside it; any given here
+ * are added or replace those (a seat on a horse's back). */
 export const rd = (id: string, palette: Pal, body: string, anchors?: Template['anchors']): Redraw => ({ id, palette, body, anchors });
 
 const REAL_FILE = 'src/data/templates-real.json';
@@ -155,7 +156,7 @@ export function commitReal(list: Redraw[], label: string): number {
       continue;
     }
     const text = svg(r.body);
-    const t: Template & { palette: Pal } = { id: o.id, name: o.name, category: o.category, ...(o.size ? { size: o.size, anchors: r.anchors ?? fitAnchors(o.anchors ?? {}, text) } : {}), palette: r.palette, svg: text };
+    const t: Template & { palette: Pal } = { id: o.id, name: o.name, category: o.category, ...(o.size ? { size: o.size, anchors: { ...fitAnchors(o.anchors ?? {}, text), ...r.anchors } } : {}), palette: r.palette, svg: text };
     const pool = [...shipped.filter((x) => x.id !== t.id), t] as unknown as Entry[];
     const errs = KINDS['template-redraw'].errors(t as unknown as Entry, pool);
     if (errs.length) {
