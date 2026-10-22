@@ -2,6 +2,7 @@
 //
 //   node tools/real-sheet.ts [category,category] [--ids a,b] [--items]   -> out/style/real-sheet.png
 // --items paints each drawing in the first game item's colours instead of its own real-world palette.
+// --cell 400 draws each one bigger.
 // --open shows each drawing that opens, closed then open (src/data/templates-open.json).
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { Resvg } from '@resvg/resvg-js';
@@ -21,7 +22,7 @@ if (args.includes('--open')) {
     return [c, { ...c, id: `${c.id} (open)`, svg: o.svg }];
   });
 }
-const cols = Math.min(8, list.length), cell = 200;
+const cell = args.includes('--cell') ? Number(args[args.indexOf('--cell') + 1]) : 200, cols = Math.min(Math.max(1, Math.floor(1600 / cell)), list.length);
 const rows = Math.ceil(list.length / cols);
 const cells = list.map((t, i) => {
   const inner = paint(t.svg, itemPal.get(t.id) ?? t.palette).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
