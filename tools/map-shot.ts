@@ -15,9 +15,6 @@ page.on('pageerror', (e) => errors.push(e.message));
 try {
   await page.goto('http://localhost:5195/');
   await page.waitForFunction(() => 'ara' in window);
-  // The look is a saved setting: write it, then reload so the game starts in it.
-  await page.reload();
-  await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   await page.waitForTimeout(800);
   await page.screenshot({ path: `${dir}/close.png` });

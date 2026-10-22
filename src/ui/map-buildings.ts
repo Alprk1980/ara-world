@@ -13,11 +13,13 @@ export const EXTRAS = [
   // on the walls (under the windows)
   'stripes', 'beams', 'checker', 'rainbow', 'splashes', 'glass',
   // on the walls (over the windows)
-  'clock', 'cross', 'awning', 'garage', 'balconies', 'columns', 'ivy', 'fishes',
+  'clock', 'cross', 'awning', 'garage', 'balconies', 'columns', 'ivy', 'fishes', 'curtains',
   // on the roof
   'chimney', 'smoke', 'flag', 'siren', 'antenna', 'helipad', 'rooftrees', 'pool', 'belltower', 'atrium', 'weathervane', 'bunting', 'stars',
   // behind the building
-  'hosetower', 'witchtower',
+  'hosetower', 'witchtower', 'backgarden',
+  // on the sign above the door
+  'rainbowsign',
   // on the ground in front
   'kennel', 'trolleys', 'patio', 'palm', 'haybales', 'pumpkins', 'postbox', 'barberpole', 'benches', 'surfboard', 'flowers', 'fence', 'sunroom', 'bats',
 ] as const;
@@ -224,6 +226,12 @@ class Kit {
           const half = Math.min(0.13, step * 0.28), h = style === 'tall' ? 16 : 12;
           this.pane(b, face, at, half, z, z + h, this.glass, this.trim);
           this.glaze(b, face, at, half, z, z + h);
+          if (this.has('curtains')) {
+            // Curtains drawn back to each side, tied in the middle, and a pelmet across the top.
+            const col = hexNum(this.trim);
+            for (const s of [-1, 1]) this.g.poly(flat(this.on(b, face, at + s * half, z + h), this.on(b, face, at + s * half * 0.35, z + h), this.on(b, face, at + s * half * 0.78, z + h * 0.45), this.on(b, face, at + s * half, z + 1))).fill(col).stroke(this.edge(this.trim, 1));
+            this.pane(b, face, at, half * 1.12, z + h - 2.5, z + h + 1, col, shade(this.trim, -0.4));
+          }
         }
       }
     }
@@ -740,9 +748,24 @@ function tinyTree(k: Kit, [x, y]: Pt, s = 1): void {
   k.g.rect(x - 2 * s, y - 14 * s, 4 * s, 14 * s).fill(0x8a5a3c).circle(x, y - 20 * s, 10 * s).fill(0x3fa66b);
 }
 
-const BACK: Extra[] = ['hosetower', 'witchtower'];
+const BACK: Extra[] = ['hosetower', 'witchtower', 'backgarden'];
 
 function backExtra(k: Kit, e: Extra, b: Box): void {
+  if (e === 'backgarden') {
+    // A big garden behind: mown lawn round the back of the plot and tall trees over the roof line.
+    const lawn = 0x9ee07e, stripe = { color: 0x7cc862, width: 4, alpha: 0.7 };
+    k.g.poly(flat(P(-1, -1), P(1, -1), P(1, b.v0), P(b.u0, b.v0), P(b.u0, 1), P(-1, 1))).fill(lawn);
+    for (let i = 1; i < 6; i++) k.g.moveTo(...P(-1 + i * 0.33, -1)).lineTo(...P(-1 + i * 0.33, b.v0)).stroke(stripe);
+    // A hedge round the back, a sandpit and a swing.
+    k.g.poly(flat(P(-0.98, 0.98, 0), P(-0.98, -0.98, 0), P(0.98, -0.98, 0), P(0.98, -0.98, 7), P(-0.98, -0.98, 7), P(-0.98, 0.98, 7))).fill(0x3f8f45).stroke({ color: 0x2b6a30, width: 1 });
+    const [sx, sy] = P(-0.8, 0.72);
+    k.g.ellipse(sx, sy, 18, 9).fill(0xe8d29a).stroke({ color: 0xb5835a, width: 2 });
+    const [wx, wy] = P(-0.82, 0.12);
+    k.g.moveTo(wx - 14, wy).lineTo(wx - 8, wy - 26).lineTo(wx + 8, wy - 26).lineTo(wx + 14, wy).stroke({ color: 0xd63a3a, width: 2.5 });
+    k.g.moveTo(wx - 3, wy - 26).lineTo(wx - 3, wy - 9).moveTo(wx + 3, wy - 26).lineTo(wx + 3, wy - 9).stroke({ color: 0x5a5f6a, width: 1 }).rect(wx - 5, wy - 10, 10, 2.5).fill(0xf59f00);
+    for (const [u, v, s] of [[-0.9, -0.9, 1.9], [-0.9, -0.3, 1.5], [-0.3, -0.9, 1.5], [0.45, -0.88, 1.3]]) tinyTree(k, P(u, v), s);
+    return;
+  }
   if (e === 'hosetower') {
     const t: Box = { u0: b.u0, u1: b.u0 + 0.38, v0: b.v0, v1: b.v0 + 0.38, z0: 0, z1: b.z1 + 56 };
     k.box(t, k.d.wall, shade(k.d.roof, 0.2));
@@ -929,9 +952,10 @@ function frontExtra(k: Kit, e: Extra, a: Anchors): void {
       break;
     case 'fence':
       for (let i = 0; i <= 10; i++) {
-        for (const [x, y] of [P(-0.98 + i * 0.196, 0.98), P(0.98, 0.98 - i * 0.196)]) g.rect(x - 1.5, y - 12, 3, 12).fill(0xffffff);
+        // Wooden posts and two rails.
+        for (const [x, y] of [P(-0.98 + i * 0.196, 0.98), P(0.98, 0.98 - i * 0.196)]) g.roundRect(x - 2, y - 13, 4, 13, 1).fill(0xb5835a).stroke({ color: 0x6b4a2f, width: 0.8 });
       }
-      g.poly(flat(P(-0.98, 0.98, 8), P(0.98, 0.98, 8), P(0.98, -0.98, 8)), false).stroke({ color: 0xffffff, width: 2 });
+      for (const z of [4, 9]) g.poly(flat(P(-0.98, 0.98, z), P(0.98, 0.98, z), P(0.98, -0.98, z)), false).stroke({ color: 0x9a6a3e, width: 2 });
       break;
     default:
       groundExtra(k, e, k.spot(a), a);
@@ -993,14 +1017,28 @@ export function drawBuilding(d: MapDesign, night: boolean): { c: Container; heig
   if (d.extras?.includes('fence')) frontExtra(k, 'fence', { b, surf: () => 0, door: 'R', doorAt: 0, flatTop: false });
   for (const e of d.extras ?? []) if (BACK.includes(e)) backExtra(k, e, b);
   const a = def.draw(k, b);
-  for (const e of d.extras ?? []) if (!BACK.includes(e) && e !== 'fence' && !['stripes', 'beams', 'checker', 'rainbow', 'splashes', 'glass'].includes(e)) frontExtra(k, e, a);
+  for (const e of d.extras ?? []) if (!BACK.includes(e) && e !== 'fence' && !['stripes', 'beams', 'checker', 'rainbow', 'splashes', 'glass', 'curtains', 'rainbowsign'].includes(e)) frontExtra(k, e, a);
   if (d.sign) {
     const [a0, a1] = k.span(a.b, a.door);
     const [x, y] = k.on(a.b, a.door, a.door === 'L' ? a.doorAt : Math.max(a0 + 0.3, Math.min(a1 - 0.3, a.doorAt)), a.b.z0 + (d.extras?.includes('awning') ? 46 : 40));
-    const t = label(d.sign, 11, 0xffffff);
-    k.g.roundRect(x - t.width / 2 - 5, y - 8, t.width + 10, 16, 4).fill(hexNum(shade(k.trim === '#ffffff' ? d.roof : k.trim, -0.1))).stroke({ color: 0xffffff, width: 1.5 });
-    t.position.set(x, y);
-    c.addChild(t);
+    if (d.extras?.includes('rainbowsign')) {
+      // Big letters, each its own colour of the rainbow, on a white board.
+      const cols = [0xe03131, 0xf76707, 0xf59f00, 0x2f9e44, 0x1c7ed6, 0x7048e8];
+      const letters = [...d.sign].map((ch, i) => label(ch, 13, cols[i % cols.length]));
+      const w = letters.reduce((s, l) => s + l.width, 0);
+      k.g.roundRect(x - w / 2 - 6, y - 10, w + 12, 20, 5).fill(0xffffff).stroke({ color: 0x9aa3ad, width: 1.5 });
+      let lx = x - w / 2;
+      for (const l of letters) {
+        l.position.set(lx + l.width / 2, y);
+        lx += l.width;
+        c.addChild(l);
+      }
+    } else {
+      const t = label(d.sign, 11, 0xffffff);
+      k.g.roundRect(x - t.width / 2 - 5, y - 8, t.width + 10, 16, 4).fill(hexNum(shade(k.trim === '#ffffff' ? d.roof : k.trim, -0.1))).stroke({ color: 0xffffff, width: 1.5 });
+      t.position.set(x, y);
+      c.addChild(t);
+    }
   }
   let height = -c.getLocalBounds().minY;
   if (d.prop) {
