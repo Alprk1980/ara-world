@@ -5312,5 +5312,673 @@
       "outline": "#7a5a00"
     },
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"90\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"70\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"70\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"186\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"186\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"42\" r=\"11\" fill=\"#ffffff\" opacity=\"0.5\"/><circle cx=\"186\" cy=\"42\" r=\"11\" fill=\"#ffffff\" opacity=\"0.5\"/><path d=\"M64 236 C50 196 60 150 90 138 L166 138 C196 150 206 196 192 236 Z\" fill=\"{{trim}}\"/><path d=\"M64 236 C50 196 60 150 90 138 L166 138 C196 150 206 196 192 236 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 146 L128 230\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M128 166 L132.8 177.4 L145.1 178.4 L135.7 186.5 L138.6 198.6 L128 192.1 L117.4 198.6 L120.3 186.5 L110.9 178.4 L123.2 177.4 Z\" fill=\"{{accent}}\"/><path d=\"M128 166 L132.8 177.4 L145.1 178.4 L135.7 186.5 L138.6 198.6 L128 192.1 L117.4 198.6 L120.3 186.5 L110.9 178.4 L123.2 177.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"40\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"{{main}}\"/><ellipse cx=\"40\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"216\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"{{main}}\"/><ellipse cx=\"216\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"90\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"{{main}}\"/><ellipse cx=\"90\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"166\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"{{main}}\"/><ellipse cx=\"166\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"90\" rx=\"62\" ry=\"62\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"90\" rx=\"62\" ry=\"62\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"108\" rx=\"26\" ry=\"18\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"108\" rx=\"26\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"106\" cy=\"82\" r=\"7\" fill=\"#3a2a2a\"/><circle cx=\"103.55\" cy=\"79.55\" r=\"2.66\" fill=\"#ffffff\"/><circle cx=\"150\" cy=\"82\" r=\"7\" fill=\"#3a2a2a\"/><circle cx=\"147.55\" cy=\"79.55\" r=\"2.66\" fill=\"#ffffff\"/><ellipse cx=\"128\" cy=\"100\" rx=\"9\" ry=\"6\" fill=\"#3a2a2a\"/><ellipse cx=\"128\" cy=\"100\" rx=\"9\" ry=\"6\" fill=\"url(#R)\"/><path d=\"M120 112 C124 118 132 118 136 112\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"136\" width=\"96\" height=\"14\" rx=\"7\" fill=\"{{accent}}\"/><rect x=\"80\" y=\"136\" width=\"96\" height=\"14\" rx=\"7\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "garden_swing_set",
+    "name": "Garden Swing Set",
+    "category": "garden",
+    "size": {
+      "w": 150,
+      "h": 120
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        118,
+        184
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#e63946",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M20 242 L56 62 L92 242 M164 242 L200 62 L236 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 242 L56 62 L92 242 M164 242 L200 62 L236 242\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M44 64 L212 64\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M44 64 L212 64\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M100 68 L100 184 M136 68 L136 184 M150 68 L150 150 M186 68 L186 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"90\" y=\"182\" width=\"56\" height=\"12\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"90\" y=\"182\" width=\"56\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"148\" width=\"56\" height=\"12\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"140\" y=\"148\" width=\"56\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M52 70 L200 70\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "cute_bird_feeder",
+    "name": "Cute Bird Feeder",
+    "category": "garden",
+    "size": {
+      "w": 18,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#c94f3a",
+      "accent": "#e8c86a",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"50\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"120\" y=\"120\" width=\"16\" height=\"122\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"120\" y=\"120\" width=\"16\" height=\"122\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M48 64 L128 16 L208 64 L196 74 L128 34 L60 74 Z\" fill=\"{{trim}}\"/><path d=\"M48 64 L128 16 L208 64 L196 74 L128 34 L60 74 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"68\" y=\"70\" width=\"120\" height=\"64\" rx=\"4\" fill=\"#cdeeff\"/><rect x=\"68\" y=\"70\" width=\"120\" height=\"64\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"68\" y=\"70\" width=\"10\" height=\"64\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"68\" y=\"70\" width=\"10\" height=\"64\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"178\" y=\"70\" width=\"10\" height=\"64\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"178\" y=\"70\" width=\"10\" height=\"64\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M78 110 C98 100 158 100 178 110 L178 134 L78 134 Z\" fill=\"{{accent}}\"/><rect x=\"56\" y=\"132\" width=\"144\" height=\"12\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"56\" y=\"132\" width=\"144\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"170\" cy=\"108\" rx=\"18\" ry=\"13\" fill=\"#ffffff\"/><ellipse cx=\"170\" cy=\"108\" rx=\"18\" ry=\"13\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"184\" cy=\"98\" rx=\"9\" ry=\"9\" fill=\"#ffffff\"/><ellipse cx=\"184\" cy=\"98\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M192 98 L200 100 L192 103 Z\" fill=\"{{accent}}\"/><circle cx=\"186\" cy=\"96\" r=\"2.5\" fill=\"#3a2a2a\"/><circle cx=\"185.125\" cy=\"95.125\" r=\"0.95\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "id": "penguin_tank",
+    "name": "Penguin Tank",
+    "category": "garden",
+    "size": {
+      "w": 96,
+      "h": 92
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#3d6a99",
+      "trim": "#f2f2f2",
+      "accent": "#ff8c1a",
+      "outline": "#1f3a5a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"12\" y=\"20\" width=\"232\" height=\"214\" rx=\"10\" fill=\"{{main}}\"/><rect x=\"12\" y=\"20\" width=\"232\" height=\"214\" rx=\"10\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"32\" width=\"208\" height=\"186\" rx=\"6\" fill=\"#7fd1ff\"/><rect x=\"24\" y=\"32\" width=\"208\" height=\"186\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 170 L90 150 L150 160 L232 150 L232 218 L24 218 Z\" fill=\"{{trim}}\"/><path d=\"M24 170 L90 150 L150 160 L232 150 L232 218 L24 218 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"80\" cy=\"120\" rx=\"20\" ry=\"32\" fill=\"#3a2a2a\"/><ellipse cx=\"80\" cy=\"120\" rx=\"20\" ry=\"32\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"80\" cy=\"126\" rx=\"13\" ry=\"24\" fill=\"{{trim}}\"/><ellipse cx=\"80\" cy=\"126\" rx=\"13\" ry=\"24\" fill=\"url(#R)\"/><circle cx=\"75\" cy=\"102\" r=\"2.5\" fill=\"#3a2a2a\"/><circle cx=\"74.125\" cy=\"101.125\" r=\"0.95\" fill=\"#ffffff\"/><circle cx=\"85\" cy=\"102\" r=\"2.5\" fill=\"#3a2a2a\"/><circle cx=\"84.125\" cy=\"101.125\" r=\"0.95\" fill=\"#ffffff\"/><path d=\"M76 108 L84 108 L80 114 Z\" fill=\"{{accent}}\"/><ellipse cx=\"170\" cy=\"112\" rx=\"20\" ry=\"32\" fill=\"#3a2a2a\"/><ellipse cx=\"170\" cy=\"112\" rx=\"20\" ry=\"32\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"170\" cy=\"118\" rx=\"13\" ry=\"24\" fill=\"{{trim}}\"/><ellipse cx=\"170\" cy=\"118\" rx=\"13\" ry=\"24\" fill=\"url(#R)\"/><circle cx=\"165\" cy=\"94\" r=\"2.5\" fill=\"#3a2a2a\"/><circle cx=\"164.125\" cy=\"93.125\" r=\"0.95\" fill=\"#ffffff\"/><circle cx=\"175\" cy=\"94\" r=\"2.5\" fill=\"#3a2a2a\"/><circle cx=\"174.125\" cy=\"93.125\" r=\"0.95\" fill=\"#ffffff\"/><path d=\"M166 100 L174 100 L170 106 Z\" fill=\"{{accent}}\"/><path d=\"M36 46 L36 200\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><rect x=\"8\" y=\"228\" width=\"240\" height=\"14\" rx=\"5\" fill=\"{{main}}\"/><rect x=\"8\" y=\"228\" width=\"240\" height=\"14\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "coral_rock",
+    "name": "Coral Rock",
+    "category": "garden",
+    "size": {
+      "w": 28,
+      "h": 32
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#ff7f6b",
+      "trim": "#b5a58a",
+      "accent": "#ffd23f",
+      "outline": "#8a3a2c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"100\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 242 C24 210 40 190 70 186 C80 166 110 160 132 170 C150 156 186 160 196 180 C222 184 236 210 228 242 Z\" fill=\"{{trim}}\"/><path d=\"M30 242 C24 210 40 190 70 186 C80 166 110 160 132 170 C150 156 186 160 196 180 C222 184 236 210 228 242 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 186 L80 110 L56 70 M80 110 L104 64 M84 140 L48 120\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 186 L80 110 L56 70 M80 110 L104 64 M84 140 L48 120\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160 176 L170 96 L150 40 M170 96 L200 54 M166 130 L206 116\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160 176 L170 96 L150 40 M170 96 L200 54 M166 130 L206 116\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"56\" cy=\"68\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"56\" cy=\"68\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"104\" cy=\"62\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"104\" cy=\"62\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"48\" cy=\"120\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"48\" cy=\"120\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"38\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"150\" cy=\"38\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"200\" cy=\"52\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"200\" cy=\"52\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"206\" cy=\"116\" rx=\"9\" ry=\"9\" fill=\"{{main}}\"/><ellipse cx=\"206\" cy=\"116\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"210\" r=\"5\" fill=\"#3a2a2a\" opacity=\"0.2\"/><circle cx=\"150\" cy=\"220\" r=\"5\" fill=\"#3a2a2a\" opacity=\"0.2\"/><circle cx=\"70\" cy=\"220\" r=\"5\" fill=\"#3a2a2a\" opacity=\"0.2\"/><ellipse cx=\"128.0078995609705\" cy=\"186.0800031453162\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"128.0078995609705\" cy=\"186.0800031453162\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"137.43680541093113\" cy=\"192.94171557303426\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"137.43680541093113\" cy=\"192.94171557303426\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"133.82503217217567\" cy=\"204.0296575389688\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"133.82503217217567\" cy=\"204.0296575389688\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"122.16367309044008\" cy=\"204.0214517516935\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"122.16367309044008\" cy=\"204.0214517516935\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"118.5675079986375\" cy=\"192.92843775185457\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"118.5675079986375\" cy=\"192.92843775185457\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"196\" rx=\"5.76\" ry=\"5.76\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"196\" rx=\"5.76\" ry=\"5.76\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "waterpark_splash_pad",
+    "name": "Splash Pad",
+    "category": "garden",
+    "size": {
+      "w": 260,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#ffd23f",
+      "accent": "#ff8fb8",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"222\" rx=\"118\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"222\" rx=\"118\" ry=\"22\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"220\" rx=\"104\" ry=\"16\" fill=\"#7fd1ff\"/><ellipse cx=\"128\" cy=\"220\" rx=\"104\" ry=\"16\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 218 C60 212 80 224 100 218 M156 226 C176 220 196 232 216 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><ellipse cx=\"60\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"{{trim}}\"/><ellipse cx=\"60\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 214 C50 200 46 194 42 196 M60 214 C70 200 74 194 78 196\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><ellipse cx=\"128\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 214 C118 200 114 194 110 196 M128 214 C138 200 142 194 146 196\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><ellipse cx=\"196\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"{{trim}}\"/><ellipse cx=\"196\" cy=\"220\" rx=\"9\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M196 214 C186 200 182 194 178 196 M196 214 C206 200 210 194 214 196\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>"
+  },
+  {
+    "id": "baby_slide",
+    "name": "Little Slide",
+    "category": "garden",
+    "size": {
+      "w": 60,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffd23f",
+      "accent": "#3d7dd8",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"30\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"86\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"86\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"110\" width=\"62\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"34\" y=\"110\" width=\"62\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"150\" width=\"62\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"34\" y=\"150\" width=\"62\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"190\" width=\"62\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"34\" y=\"190\" width=\"62\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"66\" width=\"84\" height=\"16\" rx=\"5\" fill=\"{{main}}\"/><rect x=\"24\" y=\"66\" width=\"84\" height=\"16\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 70 L120 70 C170 70 190 210 236 214 L246 214 L246 238 L230 238 C176 234 156 100 112 96 L96 96 Z\" fill=\"{{main}}\"/><path d=\"M96 70 L120 70 C170 70 190 210 236 214 L246 214 L246 238 L230 238 C176 234 156 100 112 96 L96 96 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M116 82 C164 84 180 222 236 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "pool_water",
+    "name": "Swimming Pool",
+    "category": "garden",
+    "size": {
+      "w": 260,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#3d9dd8",
+      "trim": "#ffffff",
+      "accent": "#7fd1ff",
+      "outline": "#1f5a80"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><path d=\"M10 214 L246 214 L246 240 C246 244 244 244 240 244 L16 244 C12 244 10 244 10 240 Z\" fill=\"{{trim}}\"/><path d=\"M10 214 L246 214 L246 240 C246 244 244 244 240 244 L16 244 C12 244 10 244 10 240 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"208\" width=\"224\" height=\"30\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"208\" width=\"224\" height=\"30\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 216 C50 212 70 220 90 216 C110 212 130 220 150 216 C170 212 190 220 210 216 M40 228 C60 224 80 232 100 228 M140 228 C160 224 180 232 200 228\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.55\"/></svg>"
+  },
+  {
+    "id": "diving_board",
+    "name": "Diving Board",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"16\" y=\"200\" width=\"230\" height=\"44\" rx=\"4\" fill=\"#7fd1ff\"/><rect x=\"16\" y=\"200\" width=\"230\" height=\"44\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 218 C170 212 190 224 210 218 M180 226 C200 220 220 232 240 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M34 200 L34 92 M70 200 L70 92\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 200 L34 92 M70 200 L70 92\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 112 L70 112\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 112 L70 112\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 140 L70 140\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 140 L70 140\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 168 L70 168\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 168 L70 168\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 84 L82 84 L82 120 L22 120 Z\" fill=\"{{main}}\"/><path d=\"M22 84 L82 84 L82 120 L22 120 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 88 L236 66 C242 66 244 74 238 76 L80 104 Z\" fill=\"{{accent}}\"/><path d=\"M80 88 L236 66 C242 66 244 74 238 76 L80 104 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M84 92 L232 72\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M14 84 L14 40 L34 40\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 84 L14 40 L34 40\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "water_slide_tower",
+    "name": "Water Slide Tower",
+    "category": "garden",
+    "size": {
+      "w": 130,
+      "h": 180
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"86\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"50\" y=\"50\" width=\"12\" height=\"192\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"50\" y=\"50\" width=\"12\" height=\"192\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"50\" width=\"12\" height=\"192\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"116\" y=\"50\" width=\"12\" height=\"192\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"40\" width=\"86\" height=\"16\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"44\" y=\"40\" width=\"86\" height=\"16\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 28 L134 28 L120 12 L54 12 Z\" fill=\"{{accent}}\"/><path d=\"M40 28 L134 28 L120 12 L54 12 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M56 100 L122 70\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M56 150 L122 120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M56 200 L122 170\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 52 C210 60 212 110 150 120 C90 130 96 180 160 190 C200 196 206 230 212 236\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"26\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 52 C210 60 212 110 150 120 C90 130 96 180 160 190 C200 196 206 230 212 236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"22\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M130 46 C200 56 204 104 150 112\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><ellipse cx=\"210\" cy=\"238\" rx=\"24\" ry=\"6\" fill=\"#7fd1ff\"/><ellipse cx=\"210\" cy=\"238\" rx=\"24\" ry=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "splash_bucket",
+    "name": "Splash Bucket",
+    "category": "garden",
+    "size": {
+      "w": 70,
+      "h": 150
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"50\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"118\" y=\"40\" width=\"20\" height=\"202\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"118\" y=\"40\" width=\"20\" height=\"202\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 44 L92 30\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 44 L92 30\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M76 32 L120 32 L112 84 L84 84 Z\" fill=\"{{main}}\"/><path d=\"M76 32 L120 32 L112 84 L84 84 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"98\" cy=\"32\" rx=\"22\" ry=\"6\" fill=\"{{main}}\"/><ellipse cx=\"98\" cy=\"32\" rx=\"22\" ry=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M86 84 C80 110 84 140 92 160 L104 160 C110 140 112 110 106 84 Z\" fill=\"#7fd1ff\" opacity=\"0.8\"/><ellipse cx=\"92\" cy=\"176\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"92\" cy=\"176\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><ellipse cx=\"80\" cy=\"196\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"80\" cy=\"196\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><ellipse cx=\"104\" cy=\"200\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"104\" cy=\"200\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><ellipse cx=\"86\" cy=\"222\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"86\" cy=\"222\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><ellipse cx=\"110\" cy=\"224\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"110\" cy=\"224\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><rect x=\"96\" y=\"230\" width=\"64\" height=\"14\" rx=\"5\" fill=\"{{accent}}\"/><rect x=\"96\" y=\"230\" width=\"64\" height=\"14\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M124 50 L124 228\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "ferris_wheel",
+    "name": "Ferris Wheel",
+    "category": "garden",
+    "size": {
+      "w": 200,
+      "h": 220
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#3d7dd8",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M128 118 L70 240 M128 118 L186 240\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 118 L70 240 M128 118 L186 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"116\" r=\"100\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"12\"/><circle cx=\"128\" cy=\"116\" r=\"100\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\"/><path d=\"M128 116 L228 116 M128 116 L198.73882691671997 186.6825181105366 M128 116 L128.0796326710733 215.99996829318346 M128 116 L57.37383551799948 186.79509086484322 M128 116 L28.00012682724605 116.15926529164868 M128 116 L57.148690080772724 45.43023393315232 M128 116 L127.76110218877184 16.000285361228208 M128 116 L198.5133229008423 45.092515955778325\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"214\" y=\"116\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"214\" y=\"116\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"184.73882691671997\" y=\"186.6825181105366\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"184.73882691671997\" y=\"186.6825181105366\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"114.07963267107331\" y=\"215.99996829318346\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"114.07963267107331\" y=\"215.99996829318346\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"43.37383551799948\" y=\"186.79509086484322\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"43.37383551799948\" y=\"186.79509086484322\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14.00012682724605\" y=\"116.15926529164868\" width=\"28\" height=\"22\" rx=\"6\" fill=\"#ffffff\"/><rect x=\"14.00012682724605\" y=\"116.15926529164868\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"43.148690080772724\" y=\"45.43023393315232\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"43.148690080772724\" y=\"45.43023393315232\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"113.76110218877184\" y=\"16.000285361228208\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"113.76110218877184\" y=\"16.000285361228208\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"184.5133229008423\" y=\"45.092515955778325\" width=\"28\" height=\"22\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"184.5133229008423\" y=\"45.092515955778325\" width=\"28\" height=\"22\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"116\" rx=\"14\" ry=\"14\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"116\" rx=\"14\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"232\" width=\"144\" height=\"10\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"56\" y=\"232\" width=\"144\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "carousel",
+    "name": "Carousel",
+    "category": "garden",
+    "size": {
+      "w": 160,
+      "h": 150
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M10 84 L128 26 L246 84 Z\" fill=\"{{main}}\"/><path d=\"M10 84 L128 26 L246 84 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M10 84 L40 84 L128 26 Z M70 84 L100 84 L128 26 Z M128 26 L156 84 L186 84 Z M128 26 L216 84 L246 84 Z\" fill=\"{{trim}}\" opacity=\"0.9\"/><path d=\"M10 84 C26 96 40 96 54 84 C68 96 82 96 96 84 C110 96 124 96 138 84 C152 96 166 96 180 84 C194 96 208 96 222 84 C232 92 240 92 246 84\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"128\" cy=\"24\" r=\"8\" fill=\"{{accent}}\"/><path d=\"M36 92 L36 214\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M36 92 L36 214\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M92 92 L92 214\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M92 92 L92 214\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M164 92 L164 214\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M164 92 L164 214\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M220 92 L220 214\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M220 92 L220 214\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"16\" y=\"212\" width=\"224\" height=\"30\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"16\" y=\"212\" width=\"224\" height=\"30\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"36\" cy=\"156\" rx=\"22\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"36\" cy=\"156\" rx=\"22\" ry=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"54\" cy=\"142\" rx=\"8\" ry=\"8\" fill=\"#ffffff\"/><ellipse cx=\"54\" cy=\"142\" rx=\"8\" ry=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"92\" cy=\"140\" rx=\"22\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"92\" cy=\"140\" rx=\"22\" ry=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"110\" cy=\"126\" rx=\"8\" ry=\"8\" fill=\"#ffffff\"/><ellipse cx=\"110\" cy=\"126\" rx=\"8\" ry=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"164\" cy=\"150\" rx=\"22\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"164\" cy=\"150\" rx=\"22\" ry=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"182\" cy=\"136\" rx=\"8\" ry=\"8\" fill=\"#ffffff\"/><ellipse cx=\"182\" cy=\"136\" rx=\"8\" ry=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"220\" cy=\"160\" rx=\"22\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"220\" cy=\"160\" rx=\"22\" ry=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"238\" cy=\"146\" rx=\"8\" ry=\"8\" fill=\"#ffffff\"/><ellipse cx=\"238\" cy=\"146\" rx=\"8\" ry=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 226 L232 226\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "coaster_loop",
+    "name": "Coaster Loop",
+    "category": "garden",
+    "size": {
+      "w": 220,
+      "h": 200
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#c0c6cc",
+      "accent": "#ffd23f",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><circle cx=\"140\" cy=\"118\" r=\"72\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"16\"/><circle cx=\"140\" cy=\"118\" r=\"72\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\"/><path d=\"M10 236 C60 236 90 210 110 186 M246 210 C220 210 196 196 180 180\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M10 236 C60 236 90 210 110 186 M246 210 C220 210 196 196 180 180\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"35\" y=\"228\" width=\"10\" height=\"14\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"35\" y=\"228\" width=\"10\" height=\"14\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"75\" y=\"206\" width=\"10\" height=\"36\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"75\" y=\"206\" width=\"10\" height=\"36\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"105\" y=\"190\" width=\"10\" height=\"52\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"105\" y=\"190\" width=\"10\" height=\"52\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"171\" y=\"190\" width=\"10\" height=\"52\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"171\" y=\"190\" width=\"10\" height=\"52\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"207\" y=\"206\" width=\"10\" height=\"36\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"207\" y=\"206\" width=\"10\" height=\"36\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"135\" y=\"46\" width=\"10\" height=\"196\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"135\" y=\"46\" width=\"10\" height=\"196\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"216\" width=\"40\" height=\"18\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"26\" y=\"216\" width=\"40\" height=\"18\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"196\" width=\"36\" height=\"18\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"70\" y=\"196\" width=\"36\" height=\"18\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"36\" cy=\"236\" r=\"5\" fill=\"#3a2a2a\"/><circle cx=\"56\" cy=\"236\" r=\"5\" fill=\"#3a2a2a\"/></svg>"
+  },
+  {
+    "id": "basketball_hoop",
+    "name": "Basketball Hoop",
+    "category": "garden",
+    "size": {
+      "w": 40,
+      "h": 130
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#ff7b1a",
+      "accent": "#ffffff",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"40\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"118\" y=\"60\" width=\"14\" height=\"182\" rx=\"5\" fill=\"{{main}}\"/><rect x=\"118\" y=\"60\" width=\"14\" height=\"182\" rx=\"5\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"230\" width=\"42\" height=\"12\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"104\" y=\"230\" width=\"42\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"12\" width=\"70\" height=\"52\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"94\" y=\"12\" width=\"70\" height=\"52\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"114\" y=\"30\" width=\"30\" height=\"22\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"114\" y=\"30\" width=\"30\" height=\"22\" rx=\"2\" fill=\"url(#V)\"/><path d=\"M114 30 L144 30 L144 52 L114 52 Z\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"64\" rx=\"22\" ry=\"5\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\"/><path d=\"M108 66 L114 96 L142 96 L148 66 M114 96 L124 66 M142 96 L132 66 M118 82 L138 82\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>"
+  },
+  {
+    "id": "football_goal",
+    "name": "Football Goal",
+    "category": "garden",
+    "size": {
+      "w": 160,
+      "h": 90
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#c0c6cc",
+      "accent": "#7ed957",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><path d=\"M10 234 L246 234 L240 244 L16 244 Z\" fill=\"{{accent}}\"/><path d=\"M10 234 L246 234 L240 244 L16 244 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M26 124 L230 124 L230 234 L26 234 Z\" fill=\"#3a2a2a\" opacity=\"0.08\"/><path d=\"M38 124 L38 234 M50 124 L50 234 M62 124 L62 234 M74 124 L74 234 M86 124 L86 234 M98 124 L98 234 M110 124 L110 234 M122 124 L122 234 M134 124 L134 234 M146 124 L146 234 M158 124 L158 234 M170 124 L170 234 M182 124 L182 234 M194 124 L194 234 M206 124 L206 234 M218 124 L218 234 M26 136 L230 136 M26 148 L230 148 M26 160 L230 160 M26 172 L230 172 M26 184 L230 184 M26 196 L230 196 M26 208 L230 208 M26 220 L230 220\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><rect x=\"14\" y=\"112\" width=\"14\" height=\"126\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"14\" y=\"112\" width=\"14\" height=\"126\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"228\" y=\"112\" width=\"14\" height=\"126\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"228\" y=\"112\" width=\"14\" height=\"126\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"110\" width=\"228\" height=\"14\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"14\" y=\"110\" width=\"228\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "beach_umbrella",
+    "name": "Beach Umbrella",
+    "category": "garden",
+    "size": {
+      "w": 70,
+      "h": 95
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffffff",
+      "accent": "#c49a6c",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"86\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"124\" y=\"60\" width=\"8\" height=\"182\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"124\" y=\"60\" width=\"8\" height=\"182\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M42 100 C50 46 90 18 128 18 C166 18 206 46 214 100 C200 92 186 92 171 100 C156 92 142 92 128 100 C114 92 100 92 85 100 C70 92 56 92 42 100 Z\" fill=\"{{main}}\"/><path d=\"M42 100 C50 46 90 18 128 18 C166 18 206 46 214 100 C200 92 186 92 171 100 C156 92 142 92 128 100 C114 92 100 92 85 100 C70 92 56 92 42 100 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M85 100 C90 50 108 22 128 18 C116 40 112 70 114 98 C104 92 94 94 85 100 Z M171 100 C166 50 148 22 128 18 C140 40 144 70 142 98 C152 92 162 94 171 100 Z\" fill=\"{{trim}}\" opacity=\"0.9\"/><circle cx=\"128\" cy=\"16\" r=\"6\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"238\" rx=\"30\" ry=\"6\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"238\" rx=\"30\" ry=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "rope_ladder",
+    "name": "Rope Ladder",
+    "category": "garden",
+    "size": {
+      "w": 30,
+      "h": 120
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#9a6a3a",
+      "accent": "#3a3a3a",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"30\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M104 12 C102 90 106 170 104 238 M152 12 C154 90 150 170 152 238\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M104 12 C102 90 106 170 104 238 M152 12 C154 90 150 170 152 238\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"98\" y=\"40\" width=\"60\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"98\" y=\"40\" width=\"60\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"80\" width=\"60\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"98\" y=\"80\" width=\"60\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"120\" width=\"60\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"98\" y=\"120\" width=\"60\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"160\" width=\"60\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"98\" y=\"160\" width=\"60\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"200\" width=\"60\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"98\" y=\"200\" width=\"60\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 30 L106 34 M152 70 L150 74 M104 130 L106 134\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "tire_swing",
+    "name": "Tyre Swing",
+    "category": "garden",
+    "size": {
+      "w": 50,
+      "h": 110
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#3a3a3a",
+      "trim": "#c49a6c",
+      "accent": "#9a6a3a",
+      "outline": "#111111"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"50\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"76\" y=\"12\" width=\"104\" height=\"14\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"76\" y=\"12\" width=\"104\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 26 L112 170 M156 26 L144 170 M128 26 L128 168\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M100 26 L112 170 M156 26 L144 170 M128 26 L128 168\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"196\" rx=\"50\" ry=\"38\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"26\"/><ellipse cx=\"128\" cy=\"196\" rx=\"50\" ry=\"38\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"22\"/><ellipse cx=\"128\" cy=\"196\" rx=\"28\" ry=\"18\" fill=\"none\"/><ellipse cx=\"128\" cy=\"196\" rx=\"28\" ry=\"18\" fill=\"url(#R)\"/><path d=\"M86 176 C96 164 112 158 128 158\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "bird_bath",
+    "name": "Bird Bath",
+    "category": "garden",
+    "size": {
+      "w": 30,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#b8b0a0",
+      "trim": "#7fd1ff",
+      "accent": "#7ed957",
+      "outline": "#5a5448"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"76\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"56\" y=\"222\" width=\"144\" height=\"20\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"56\" y=\"222\" width=\"144\" height=\"20\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M108 222 L112 120 L144 120 L148 222 Z\" fill=\"{{main}}\"/><path d=\"M108 222 L112 120 L144 120 L148 222 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 140 L116 210\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/><path d=\"M52 92 L204 92 C204 120 172 128 128 128 C84 128 52 120 52 92 Z\" fill=\"{{main}}\"/><path d=\"M52 92 L204 92 C204 120 172 128 128 128 C84 128 52 120 52 92 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"92\" rx=\"76\" ry=\"14\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"92\" rx=\"76\" ry=\"14\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"92\" rx=\"64\" ry=\"9\" fill=\"#7fd1ff\"/><ellipse cx=\"128\" cy=\"92\" rx=\"64\" ry=\"9\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"176\" cy=\"74\" rx=\"16\" ry=\"11\" fill=\"{{accent}}\"/><ellipse cx=\"176\" cy=\"74\" rx=\"16\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"190\" cy=\"64\" rx=\"8\" ry=\"8\" fill=\"{{accent}}\"/><ellipse cx=\"190\" cy=\"64\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M197 64 L206 66 L197 69 Z\" fill=\"#ffffff\"/><circle cx=\"191\" cy=\"62\" r=\"2\" fill=\"#3a2a2a\"/><circle cx=\"190.3\" cy=\"61.3\" r=\"0.76\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "id": "garden_gate",
+    "name": "Secret Gate",
+    "category": "garden",
+    "size": {
+      "w": 70,
+      "h": 90
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#9a6a3a",
+      "accent": "#ffd23f",
+      "outline": "#5a5448"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"92\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"38\" y=\"24\" width=\"26\" height=\"218\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"38\" y=\"24\" width=\"26\" height=\"218\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"192\" y=\"24\" width=\"26\" height=\"218\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"192\" y=\"24\" width=\"26\" height=\"218\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"51\" cy=\"22\" rx=\"10\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"51\" cy=\"22\" rx=\"10\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"205\" cy=\"22\" rx=\"10\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"205\" cy=\"22\" rx=\"10\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 56 L86 46 L102 56 L102 226 L70 226 Z\" fill=\"{{main}}\"/><path d=\"M70 56 L86 46 L102 56 L102 226 L70 226 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M98 56 L114 46 L130 56 L130 226 L98 226 Z\" fill=\"{{main}}\"/><path d=\"M98 56 L114 46 L130 56 L130 226 L98 226 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M126 56 L142 46 L158 56 L158 226 L126 226 Z\" fill=\"{{main}}\"/><path d=\"M126 56 L142 46 L158 56 L158 226 L126 226 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M154 56 L170 46 L186 56 L186 226 L154 226 Z\" fill=\"{{main}}\"/><path d=\"M154 56 L170 46 L186 56 L186 226 L154 226 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"84\" width=\"128\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"64\" y=\"84\" width=\"128\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"184\" width=\"128\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"64\" y=\"184\" width=\"128\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"176\" cy=\"138\" rx=\"6\" ry=\"6\" fill=\"{{accent}}\"/><ellipse cx=\"176\" cy=\"138\" rx=\"6\" ry=\"6\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "inflatable_flamingo",
+    "name": "Flamingo Float",
+    "category": "garden",
+    "size": {
+      "w": 60,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#3a2a2a",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M20 200 C20 150 70 130 120 134 C170 138 236 150 236 194 C236 226 190 238 128 238 C70 238 20 230 20 200 Z\" fill=\"{{main}}\"/><path d=\"M20 200 C20 150 70 130 120 134 C170 138 236 150 236 194 C236 226 190 238 128 238 C70 238 20 230 20 200 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 160 C110 150 170 150 200 170 C170 166 110 168 70 160 Z\" fill=\"{{trim}}\"/><path d=\"M70 160 C110 150 170 150 200 170 C170 166 110 168 70 160 Z\" fill=\"url(#V)\"/><path d=\"M190 160 C216 120 210 80 186 60 C168 46 146 54 148 70\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M190 160 C216 120 210 80 186 60 C168 46 146 54 148 70\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"150\" cy=\"68\" rx=\"18\" ry=\"18\" fill=\"{{main}}\"/><ellipse cx=\"150\" cy=\"68\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M134 66 C120 66 112 76 114 90 C120 82 126 78 136 78 Z\" fill=\"{{accent}}\"/><path d=\"M134 66 C120 66 112 76 114 90 C120 82 126 78 136 78 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"152\" cy=\"62\" r=\"4\" fill=\"#3a2a2a\"/><circle cx=\"150.6\" cy=\"60.6\" r=\"1.52\" fill=\"#ffffff\"/><path d=\"M40 190 C60 170 100 160 140 160\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "wooden_fence",
+    "name": "Wooden Fence",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#9a6a3a",
+      "accent": "#7ed957",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"118\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"10\" y=\"176\" width=\"236\" height=\"12\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"176\" width=\"236\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"214\" width=\"236\" height=\"12\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"214\" width=\"236\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M12 170 L21 158 L30 170 L30 242 L12 242 Z\" fill=\"{{main}}\"/><path d=\"M12 170 L21 158 L30 170 L30 242 L12 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M48 170 L57 158 L66 170 L66 242 L48 242 Z\" fill=\"{{main}}\"/><path d=\"M48 170 L57 158 L66 170 L66 242 L48 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M84 170 L93 158 L102 170 L102 242 L84 242 Z\" fill=\"{{main}}\"/><path d=\"M84 170 L93 158 L102 170 L102 242 L84 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 170 L129 158 L138 170 L138 242 L120 242 Z\" fill=\"{{main}}\"/><path d=\"M120 170 L129 158 L138 170 L138 242 L120 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M156 170 L165 158 L174 170 L174 242 L156 242 Z\" fill=\"{{main}}\"/><path d=\"M156 170 L165 158 L174 170 L174 242 L156 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M192 170 L201 158 L210 170 L210 242 L192 242 Z\" fill=\"{{main}}\"/><path d=\"M192 170 L201 158 L210 170 L210 242 L192 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M226 170 L235 158 L244 170 L244 242 L226 242 Z\" fill=\"{{main}}\"/><path d=\"M226 170 L235 158 L244 170 L244 242 L226 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 244 Q30.9 231.9 24 222 Q23.1 234.1 30 244 Z\" fill=\"{{accent}}\"/><path d=\"M30 244 Q30.9 231.9 24 222 Q23.1 234.1 30 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M36 244 Q42.8 236.3 42 226 Q35.2 233.7 36 244 Z\" fill=\"{{accent}}\"/><path d=\"M36 244 Q42.8 236.3 42 226 Q35.2 233.7 36 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M102 244 Q102.9 231.9 96 222 Q95.1 234.1 102 244 Z\" fill=\"{{accent}}\"/><path d=\"M102 244 Q102.9 231.9 96 222 Q95.1 234.1 102 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M108 244 Q114.8 236.3 114 226 Q107.2 233.7 108 244 Z\" fill=\"{{accent}}\"/><path d=\"M108 244 Q114.8 236.3 114 226 Q107.2 233.7 108 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M174 244 Q174.9 231.9 168 222 Q167.1 234.1 174 244 Z\" fill=\"{{accent}}\"/><path d=\"M174 244 Q174.9 231.9 168 222 Q167.1 234.1 174 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 244 Q186.8 236.3 186 226 Q179.2 233.7 180 244 Z\" fill=\"{{accent}}\"/><path d=\"M180 244 Q186.8 236.3 186 226 Q179.2 233.7 180 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "star_stepping_stones",
+    "name": "Star Path",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#b8b0a0",
+      "accent": "#ffffff",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><path d=\"M36 218 L44.2 225.1 L62.6 226.3 L49.3 231.9 L52.5 239.7 L36 236 L19.5 239.7 L22.7 231.9 L9.4 226.3 L27.8 225.1 Z\" fill=\"{{main}}\"/><path d=\"M36 218 L44.2 225.1 L62.6 226.3 L49.3 231.9 L52.5 239.7 L36 236 L19.5 239.7 L22.7 231.9 L9.4 226.3 L27.8 225.1 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 214 L104.2 221.1 L122.6 222.3 L109.3 227.9 L112.5 235.7 L96 232 L79.5 235.7 L82.7 227.9 L69.4 222.3 L87.8 221.1 Z\" fill=\"{{trim}}\"/><path d=\"M96 214 L104.2 221.1 L122.6 222.3 L109.3 227.9 L112.5 235.7 L96 232 L79.5 235.7 L82.7 227.9 L69.4 222.3 L87.8 221.1 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M160 220 L168.2 227.1 L186.6 228.3 L173.3 233.9 L176.5 241.7 L160 238 L143.5 241.7 L146.7 233.9 L133.4 228.3 L151.8 227.1 Z\" fill=\"{{main}}\"/><path d=\"M160 220 L168.2 227.1 L186.6 228.3 L173.3 233.9 L176.5 241.7 L160 238 L143.5 241.7 L146.7 233.9 L133.4 228.3 L151.8 227.1 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M220 214 L228.2 221.1 L246.6 222.3 L233.3 227.9 L236.5 235.7 L220 232 L203.5 235.7 L206.7 227.9 L193.4 222.3 L211.8 221.1 Z\" fill=\"{{trim}}\"/><path d=\"M220 214 L228.2 221.1 L246.6 222.3 L233.3 227.9 L236.5 235.7 L220 232 L203.5 235.7 L206.7 227.9 L193.4 222.3 L211.8 221.1 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 224 L44 222\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/></svg>"
+  },
+  {
+    "id": "garden_fountain",
+    "name": "Garden Fountain",
+    "category": "garden",
+    "size": {
+      "w": 70,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#b8b0a0",
+      "trim": "#7fd1ff",
+      "accent": "#ffd23f",
+      "outline": "#5a5448"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 192 L242 192 L232 238 L24 238 Z\" fill=\"{{main}}\"/><path d=\"M14 192 L242 192 L232 238 L24 238 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"192\" rx=\"114\" ry=\"18\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"192\" rx=\"114\" ry=\"18\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"192\" rx=\"100\" ry=\"12\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"192\" rx=\"100\" ry=\"12\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"104\" width=\"24\" height=\"88\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"116\" y=\"104\" width=\"24\" height=\"88\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M64 102 L192 102 C192 122 164 128 128 128 C92 128 64 122 64 102 Z\" fill=\"{{main}}\"/><path d=\"M64 102 L192 102 C192 122 164 128 128 128 C92 128 64 122 64 102 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"102\" rx=\"64\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"102\" rx=\"64\" ry=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"122\" y=\"40\" width=\"12\" height=\"62\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"122\" y=\"40\" width=\"12\" height=\"62\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 38 C110 10 76 30 70 100 M128 38 C146 10 180 30 186 100\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><path d=\"M64 112 C50 140 36 160 32 190 M192 112 C206 140 220 160 224 190\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><ellipse cx=\"128\" cy=\"30\" rx=\"10\" ry=\"10\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"30\" rx=\"10\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "donut_slide",
+    "name": "Donut Slide",
+    "category": "garden",
+    "size": {
+      "w": 90,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#f2c89a",
+      "trim": "#ff8fb8",
+      "accent": "#7fd1ff",
+      "outline": "#8a5a2a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"66\" width=\"12\" height=\"176\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"30\" y=\"66\" width=\"12\" height=\"176\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"78\" y=\"66\" width=\"12\" height=\"176\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"78\" y=\"66\" width=\"12\" height=\"176\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"58\" width=\"72\" height=\"14\" rx=\"5\" fill=\"{{accent}}\"/><rect x=\"24\" y=\"58\" width=\"72\" height=\"14\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"160\" r=\"66\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"44\"/><circle cx=\"160\" cy=\"160\" r=\"66\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"40\"/><path d=\"M100 120 C110 100 140 88 170 92 C204 98 222 128 222 160\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"26\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"120\" y=\"110\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"{{accent}}\"/><rect x=\"120\" y=\"110\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"url(#V)\"/><rect x=\"150\" y=\"96\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"#ffffff\"/><rect x=\"150\" y=\"96\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"url(#V)\"/><rect x=\"190\" y=\"104\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"{{accent}}\"/><rect x=\"190\" y=\"104\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"url(#V)\"/><rect x=\"212\" y=\"130\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"#ffffff\"/><rect x=\"212\" y=\"130\" width=\"8\" height=\"3\" rx=\"1.5\" fill=\"url(#V)\"/><path d=\"M90 66 C120 66 120 100 110 110\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "zoo_bird_aviary",
+    "name": "Bird Aviary",
+    "category": "garden",
+    "size": {
+      "w": 110,
+      "h": 130
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ]
+    },
+    "palette": {
+      "main": "#2f6f4f",
+      "trim": "#c0c6cc",
+      "accent": "#ffd23f",
+      "outline": "#1a3f2c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 70 C30 30 80 12 128 12 C176 12 226 30 226 70 Z\" fill=\"{{main}}\"/><path d=\"M30 70 C30 30 80 12 128 12 C176 12 226 30 226 70 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M36 70 L220 70 L220 236 L36 236 Z\" fill=\"#cdeeff\" opacity=\"0.35\"/><path d=\"M44 70 L44 236 M61 70 L61 236 M78 70 L78 236 M95 70 L95 236 M112 70 L112 236 M129 70 L129 236 M146 70 L146 236 M163 70 L163 236 M180 70 L180 236 M197 70 L197 236 M214 70 L214 236 M36 120 L220 120 M36 176 L220 176\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"30\" y=\"64\" width=\"196\" height=\"10\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"64\" width=\"196\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"232\" width=\"196\" height=\"12\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"232\" width=\"196\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 150 L186 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 150 L186 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"108\" cy=\"140\" rx=\"14\" ry=\"10\" fill=\"{{accent}}\"/><ellipse cx=\"108\" cy=\"140\" rx=\"14\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"98\" cy=\"132\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"98\" cy=\"132\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"160\" cy=\"140\" rx=\"13\" ry=\"9\" fill=\"#ffffff\"/><ellipse cx=\"160\" cy=\"140\" rx=\"13\" ry=\"9\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"170\" cy=\"132\" rx=\"7\" ry=\"7\" fill=\"#ffffff\"/><ellipse cx=\"170\" cy=\"132\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "rainbow_arch",
+    "name": "Rainbow Arch",
+    "category": "garden",
+    "size": {
+      "w": 160,
+      "h": 90
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffd23f",
+      "accent": "#7ed957",
+      "outline": "#7a1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><path d=\"M18 232 A110 110 0 0 1 238 232\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M36 232 A92 92 0 0 1 220 232\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M54 232 A74 74 0 0 1 202 232\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M72 232 A56 56 0 0 1 184 232\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 232 A38 38 0 0 1 166 232\" fill=\"none\" stroke=\"#cdeeff\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"28\" cy=\"230\" rx=\"26\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"28\" cy=\"230\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"228\" cy=\"230\" rx=\"26\" ry=\"14\" fill=\"#ffffff\"/><ellipse cx=\"228\" cy=\"230\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"14\" cy=\"222\" rx=\"12\" ry=\"12\" fill=\"#ffffff\"/><ellipse cx=\"14\" cy=\"222\" rx=\"12\" ry=\"12\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"242\" cy=\"222\" rx=\"12\" ry=\"12\" fill=\"#ffffff\"/><ellipse cx=\"242\" cy=\"222\" rx=\"12\" ry=\"12\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 200 C60 150 100 130 128 128\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "cloud_swing",
+    "name": "Cloud Swing",
+    "category": "garden",
+    "size": {
+      "w": 60,
+      "h": 120
+    },
+    "anchors": {
+      "base": [
+        128,
+        246
+      ],
+      "seat": [
+        128,
+        176
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#ff8fb8",
+      "accent": "#cdeeff",
+      "outline": "#7a8ea8"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"56\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M88 12 L92 186 M168 12 L164 186\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M88 12 L92 186 M168 12 L164 186\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M86 24 L87.6 27.8 L91.7 28.1 L88.6 30.8 L89.5 34.9 L86 32.7 L82.5 34.9 L83.4 30.8 L80.3 28.1 L84.4 27.8 Z\" fill=\"{{trim}}\"/><path d=\"M86 24 L87.6 27.8 L91.7 28.1 L88.6 30.8 L89.5 34.9 L86 32.7 L82.5 34.9 L83.4 30.8 L80.3 28.1 L84.4 27.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M92 74 L93.6 77.8 L97.7 78.1 L94.6 80.8 L95.5 84.9 L92 82.7 L88.5 84.9 L89.4 80.8 L86.3 78.1 L90.4 77.8 Z\" fill=\"{{trim}}\"/><path d=\"M92 74 L93.6 77.8 L97.7 78.1 L94.6 80.8 L95.5 84.9 L92 82.7 L88.5 84.9 L89.4 80.8 L86.3 78.1 L90.4 77.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 124 L91.6 127.8 L95.7 128.1 L92.6 130.8 L93.5 134.9 L90 132.7 L86.5 134.9 L87.4 130.8 L84.3 128.1 L88.4 127.8 Z\" fill=\"{{trim}}\"/><path d=\"M90 124 L91.6 127.8 L95.7 128.1 L92.6 130.8 L93.5 134.9 L90 132.7 L86.5 134.9 L87.4 130.8 L84.3 128.1 L88.4 127.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M166 34 L167.6 37.8 L171.7 38.1 L168.6 40.8 L169.5 44.9 L166 42.7 L162.5 44.9 L163.4 40.8 L160.3 38.1 L164.4 37.8 Z\" fill=\"{{trim}}\"/><path d=\"M166 34 L167.6 37.8 L171.7 38.1 L168.6 40.8 L169.5 44.9 L166 42.7 L162.5 44.9 L163.4 40.8 L160.3 38.1 L164.4 37.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M164 94 L165.6 97.8 L169.7 98.1 L166.6 100.8 L167.5 104.9 L164 102.7 L160.5 104.9 L161.4 100.8 L158.3 98.1 L162.4 97.8 Z\" fill=\"{{trim}}\"/><path d=\"M164 94 L165.6 97.8 L169.7 98.1 L166.6 100.8 L167.5 104.9 L164 102.7 L160.5 104.9 L161.4 100.8 L158.3 98.1 L162.4 97.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M166 144 L167.6 147.8 L171.7 148.1 L168.6 150.8 L169.5 154.9 L166 152.7 L162.5 154.9 L163.4 150.8 L160.3 148.1 L164.4 147.8 Z\" fill=\"{{trim}}\"/><path d=\"M166 144 L167.6 147.8 L171.7 148.1 L168.6 150.8 L169.5 154.9 L166 152.7 L162.5 154.9 L163.4 150.8 L160.3 148.1 L164.4 147.8 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M72 214 C56 214 54 190 72 186 C74 170 96 166 106 176 C114 162 142 162 150 176 C162 166 184 172 184 188 C202 190 200 214 184 214 Z\" fill=\"{{main}}\"/><path d=\"M72 214 C56 214 54 190 72 186 C74 170 96 166 106 176 C114 162 142 162 150 176 C162 166 184 172 184 188 C202 190 200 214 184 214 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "flower_bed",
+    "name": "Flower Bed",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#7a5230",
+      "accent": "#ffd23f",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><rect x=\"10\" y=\"212\" width=\"236\" height=\"32\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"212\" width=\"236\" height=\"32\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"214\" rx=\"116\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"214\" rx=\"116\" ry=\"10\" fill=\"url(#R)\"/><path d=\"M30 214 L30 186\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M30 168 L37.3 177 L49 180.4 L41.8 189.4 L41.8 200.6 L30 197.2 L18.2 200.6 L18.2 189.4 L11 180.4 L22.7 177 Z\" fill=\"#ffffff\"/><path d=\"M30 168 L37.3 177 L49 180.4 L41.8 189.4 L41.8 200.6 L30 197.2 L18.2 200.6 L18.2 189.4 L11 180.4 L22.7 177 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"30\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"30\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M66 214 L66 172\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M66 154 L73.3 163 L85 166.4 L77.8 175.4 L77.8 186.6 L66 183.2 L54.2 186.6 L54.2 175.4 L47 166.4 L58.7 163 Z\" fill=\"{{main}}\"/><path d=\"M66 154 L73.3 163 L85 166.4 L77.8 175.4 L77.8 186.6 L66 183.2 L54.2 186.6 L54.2 175.4 L47 166.4 L58.7 163 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"66\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"66\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 214 L104 186\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M104 168 L111.3 177 L123 180.4 L115.8 189.4 L115.8 200.6 L104 197.2 L92.2 200.6 L92.2 189.4 L85 180.4 L96.7 177 Z\" fill=\"{{main}}\"/><path d=\"M104 168 L111.3 177 L123 180.4 L115.8 189.4 L115.8 200.6 L104 197.2 L92.2 200.6 L92.2 189.4 L85 180.4 L96.7 177 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"104\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"104\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M142 214 L142 172\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M142 154 L149.3 163 L161 166.4 L153.8 175.4 L153.8 186.6 L142 183.2 L130.2 186.6 L130.2 175.4 L123 166.4 L134.7 163 Z\" fill=\"#ffffff\"/><path d=\"M142 154 L149.3 163 L161 166.4 L153.8 175.4 L153.8 186.6 L142 183.2 L130.2 186.6 L130.2 175.4 L123 166.4 L134.7 163 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"142\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"142\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 214 L180 186\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M180 168 L187.3 177 L199 180.4 L191.8 189.4 L191.8 200.6 L180 197.2 L168.2 200.6 L168.2 189.4 L161 180.4 L172.7 177 Z\" fill=\"{{main}}\"/><path d=\"M180 168 L187.3 177 L199 180.4 L191.8 189.4 L191.8 200.6 L180 197.2 L168.2 200.6 L168.2 189.4 L161 180.4 L172.7 177 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"180\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"180\" cy=\"186\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M218 214 L218 172\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M218 154 L225.3 163 L237 166.4 L229.8 175.4 L229.8 186.6 L218 183.2 L206.2 186.6 L206.2 175.4 L199 166.4 L210.7 163 Z\" fill=\"{{main}}\"/><path d=\"M218 154 L225.3 163 L237 166.4 L229.8 175.4 L229.8 186.6 L218 183.2 L206.2 186.6 L206.2 175.4 L199 166.4 L210.7 163 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"218\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"{{accent}}\"/><ellipse cx=\"218\" cy=\"172\" rx=\"7\" ry=\"7\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "rainbow_slide",
+    "name": "Rainbow Slide",
+    "category": "garden",
+    "size": {
+      "w": 80,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffd23f",
+      "accent": "#7ed957",
+      "outline": "#7a1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"26\" y=\"60\" width=\"12\" height=\"182\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"26\" y=\"60\" width=\"12\" height=\"182\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"60\" width=\"12\" height=\"182\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"80\" y=\"60\" width=\"12\" height=\"182\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"100\" width=\"58\" height=\"8\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"30\" y=\"100\" width=\"58\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"140\" width=\"58\" height=\"8\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"30\" y=\"140\" width=\"58\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"180\" width=\"58\" height=\"8\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"30\" y=\"180\" width=\"58\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"50\" width=\"80\" height=\"16\" rx=\"5\" fill=\"{{main}}\"/><rect x=\"20\" y=\"50\" width=\"80\" height=\"16\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 58 C150 60 170 206 240 214\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 65 C150 67 170 212 240 220\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 72 C150 74 170 218 240 226\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 79 C150 81 170 224 240 232\" fill=\"none\" stroke=\"#7fd1ff\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 86 C150 88 170 230 240 238\" fill=\"none\" stroke=\"#cdeeff\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 54 C150 56 170 202 240 210 M96 92 C150 94 170 238 240 244\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
   }
 ]
