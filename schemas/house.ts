@@ -4,9 +4,9 @@ import { floorErrors, type Floor } from './place.ts';
 import type { Item } from './item.ts';
 import type { Template } from './template.ts';
 
-export const HOUSE_STYLES = ['cottage', 'modern', 'mansion', 'beach', 'cabin', 'castle', 'apartment', 'farmhouse', 'treehouse', 'spooky_cute'] as const;
+export const HOUSE_STYLES = ['cottage', 'modern', 'mansion', 'beach', 'cabin', 'castle', 'apartment', 'farmhouse', 'treehouse', 'spooky_cute', 'townhouse'] as const;
 export const ROOF_SHAPES = ['gable', 'flat', 'dome', 'tower', 'hip', 'thatch'] as const;
-export const ROOM_TYPES = ['kitchen', 'living', 'bedroom', 'bathroom', 'nursery', 'kids_room', 'teen_room', 'garden', 'playroom', 'pool'] as const;
+export const ROOM_TYPES = ['kitchen', 'living', 'bedroom', 'bathroom', 'nursery', 'kids_room', 'teen_room', 'garden', 'playroom', 'pool', 'garage', 'game_room', 'balcony'] as const;
 
 export type House = {
   id: string;
@@ -31,7 +31,8 @@ export function houseErrors(h: House, all: readonly House[], ctx: { items: Reado
   if (!(HOUSE_STYLES as readonly string[]).includes(h?.style)) err(`style: one of ${HOUSE_STYLES.join(', ')}`);
   if (!(ROOF_SHAPES as readonly string[]).includes(h?.roof)) err(`roof: one of ${ROOF_SHAPES.join(', ')}`);
   for (const k of ['walls', 'roof', 'door', 'trim'] as const) if (!HEX.test(h?.exterior?.[k] ?? '')) err(`exterior.${k}: #rrggbb`);
-  const maxFloors = h?.style === 'mansion' || h?.style === 'castle' ? 4 : 3;
+  // A townhouse is tall and thin: up to six floors and a garden (Ara's six-floor house).
+  const maxFloors = h?.style === 'townhouse' ? 7 : h?.style === 'mansion' || h?.style === 'castle' ? 6 : 3;
   if (!Array.isArray(h?.floors) || h.floors.length < 1 || h.floors.length > maxFloors) {
     err(`floors: 1-${maxFloors} for a ${h?.style}`);
     return out;

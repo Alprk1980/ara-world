@@ -1734,6 +1734,34 @@
             "y": 37
           }
         ]
+      },
+      {
+        "name": "Cells",
+        "wall": "#e3ecff",
+        "ground": "#c9d6e8",
+        "width": 594,
+        "items": [
+          {
+            "item": "jail_cell_grey",
+            "x": 80
+          },
+          {
+            "item": "jail_cell_blue",
+            "x": 214
+          },
+          {
+            "item": "jail_cell_grey",
+            "x": 348
+          },
+          {
+            "item": "police_desk_strawberry",
+            "x": 466
+          },
+          {
+            "item": "wooden_chair_strawberry",
+            "x": 545
+          }
+        ]
       }
     ]
   },
@@ -8224,52 +8252,76 @@
         ]
       },
       {
-        "name": "Garden",
+        "name": "Pool Garden",
         "outdoor": true,
         "wall": "#bfe6ff",
         "ground": "#8ce99a",
-        "width": 627,
+        "width": 1004,
         "items": [
           {
-            "item": "garden_fountain_mint",
-            "x": 65
+            "item": "beach_umbrella_sky",
+            "x": 59
           },
           {
-            "item": "cat_bell_toy_lilac",
-            "x": 116
+            "item": "pool_lounger_lilac",
+            "x": 151
           },
           {
-            "item": "window_seat_sky",
-            "x": 178
+            "item": "pool_lounger_sky",
+            "x": 243
           },
           {
-            "item": "big_rose_bloom_gold",
-            "x": 240
+            "item": "heated_pool_blue",
+            "x": 382
           },
           {
-            "item": "chandelier_mint",
-            "x": 284
+            "item": "bbq_grill_black",
+            "x": 554
           },
           {
-            "item": "rose_vase_lemon",
-            "x": 324
+            "item": "long_garden_table_wood",
+            "x": 662
           },
           {
-            "item": "garden_bench_lemon",
-            "x": 383
+            "item": "waterpark_snack_stand_strawberry",
+            "x": 778
           },
           {
-            "item": "tea_table_strawberry",
-            "x": 452
+            "item": "pool_drink_cart_strawberry",
+            "x": 907
+          }
+        ]
+      },
+      {
+        "name": "Kids Garden",
+        "outdoor": true,
+        "wall": "#bfe6ff",
+        "ground": "#8ce99a",
+        "width": 1009,
+        "items": [
+          {
+            "item": "garden_treehouse_wood",
+            "x": 123
           },
           {
-            "item": "pool_table_sky",
-            "x": 534
+            "item": "garden_swing_set_strawberry",
+            "x": 319
           },
           {
-            "item": "photo_frame_sky",
-            "x": 70,
-            "y": 120
+            "item": "rainbow_slide_strawberry",
+            "x": 456
+          },
+          {
+            "item": "sandbox_wood",
+            "x": 549
+          },
+          {
+            "item": "waterpark_splash_pad_strawberry",
+            "x": 765
+          },
+          {
+            "item": "baby_slide_lilac",
+            "x": 947
           }
         ]
       },

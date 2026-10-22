@@ -23,8 +23,9 @@ export function exteriorFor(h: House, variant: number): House['exterior'] {
 export function drawHouse(g: Graphics, h: House, variant: number, w: number): void {
   const ex = exteriorFor(h, variant);
   const indoor = h.floors.filter((f) => !f.outdoor).length || 1;
-  const floorH = w * 0.42;
-  const bodyW = h.style === 'mansion' || h.style === 'castle' ? w : w * 0.82;
+  // Tall houses are drawn squashed so they still fit their card.
+  const floorH = w * 0.42 * Math.min(1, 3 / indoor);
+  const bodyW = h.style === 'mansion' || h.style === 'castle' ? w : h.style === 'townhouse' ? w * 0.62 : w * 0.82;
   const x0 = -bodyW / 2, top = -floorH * indoor;
   const line = { color: hexNum(shade(ex.walls, -0.55)), width: Math.max(2, w * 0.025), join: 'round' as const };
   g.rect(x0, top, bodyW, floorH * indoor).fill(hexNum(ex.walls)).stroke(line);

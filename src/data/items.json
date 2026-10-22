@@ -59789,5 +59789,3187 @@
       "station",
       "outdoor"
     ]
+  },
+  {
+    "id": "leaf_jumper_green",
+    "name": "Green Leaf Jumper",
+    "palette": {
+      "main": "#4f8f3e",
+      "trim": "#a8d672",
+      "accent": "#2f5f24",
+      "outline": "#244a1b"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_cream",
+    "name": "Cream Leaf Jumper",
+    "palette": {
+      "main": "#efe6d2",
+      "trim": "#7fb35a",
+      "accent": "#4f7d36",
+      "outline": "#8a7a5a"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_navy",
+    "name": "Navy Leaf Jumper",
+    "palette": {
+      "main": "#2f3f66",
+      "trim": "#8cc26a",
+      "accent": "#d8e8b0",
+      "outline": "#1a2440"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_rust",
+    "name": "Autumn Leaf Jumper",
+    "palette": {
+      "main": "#b8562e",
+      "trim": "#f2b33d",
+      "accent": "#7a3a1a",
+      "outline": "#5e2a12"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "leaf_jumper_pink",
+    "name": "Pink Leaf Jumper",
+    "palette": {
+      "main": "#e9a3b6",
+      "trim": "#8cc26a",
+      "accent": "#4f7d36",
+      "outline": "#9a5a6c"
+    },
+    "tags": [
+      "garden",
+      "school",
+      "cosy",
+      "outdoor",
+      "kids_room"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "leaf_jumper"
+  },
+  {
+    "id": "striped_button_top_orange",
+    "name": "Orange & Pink Stripe Top",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#9a4a1a"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_blue",
+    "name": "Blue Stripe Top",
+    "palette": {
+      "main": "#4a7fc0",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#24406a"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_mint",
+    "name": "Mint Stripe Top",
+    "palette": {
+      "main": "#7fd0b0",
+      "trim": "#fff4d6",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_lemon",
+    "name": "Lemon Stripe Top",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "striped_button_top_berry",
+    "name": "Berry Stripe Top",
+    "palette": {
+      "main": "#a8326e",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#5a1236"
+    },
+    "tags": [
+      "school",
+      "kids_room",
+      "party",
+      "cosy",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_button_top"
+  },
+  {
+    "id": "cami_top_purple",
+    "name": "Purple Cami",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#d8c2f0",
+      "accent": "#f5a3c0",
+      "outline": "#4a2a70"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_white",
+    "name": "White Cami",
+    "palette": {
+      "main": "#f7f5f0",
+      "trim": "#e6d8c2",
+      "accent": "#f5a3c0",
+      "outline": "#8a8070"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_black",
+    "name": "Black Cami",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#6a6a78",
+      "accent": "#c84a6a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_coral",
+    "name": "Coral Cami",
+    "palette": {
+      "main": "#f27a6a",
+      "trim": "#ffd2c8",
+      "accent": "#ffffff",
+      "outline": "#8a3024"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "cami_top_sage",
+    "name": "Sage Cami",
+    "palette": {
+      "main": "#9cb88a",
+      "trim": "#e4efd6",
+      "accent": "#f5d34a",
+      "outline": "#4a6a3a"
+    },
+    "tags": [
+      "beach",
+      "outdoor",
+      "teen_room",
+      "party",
+      "pool"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "cami_top"
+  },
+  {
+    "id": "scoop_tee_teal",
+    "name": "Teal Scoop Tee",
+    "palette": {
+      "main": "#2fa8a0",
+      "trim": "#a8e2dc",
+      "accent": "#f5d34a",
+      "outline": "#155a56"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_white",
+    "name": "White Scoop Tee",
+    "palette": {
+      "main": "#f7f6f2",
+      "trim": "#dcdcd6",
+      "accent": "#7fa8d0",
+      "outline": "#8a8a84"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_grey",
+    "name": "Grey Marl Tee",
+    "palette": {
+      "main": "#a0a4aa",
+      "trim": "#d6d8dc",
+      "accent": "#f28c3a",
+      "outline": "#55585e"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_red",
+    "name": "Red Scoop Tee",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#f5a3a3",
+      "accent": "#ffffff",
+      "outline": "#6a1616"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "scoop_tee_yellow",
+    "name": "Sunny Scoop Tee",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#fff0b0",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "outdoor",
+      "school",
+      "beach",
+      "kids_room",
+      "sport"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "scoop_tee"
+  },
+  {
+    "id": "bib_top_blue",
+    "name": "Blue Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#5a9be0",
+      "accent": "#d6ecff",
+      "outline": "#3a5a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_pink",
+    "name": "Pink Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#f28cb0",
+      "accent": "#ffe0ec",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_yellow",
+    "name": "Duckling Bib Top",
+    "palette": {
+      "main": "#fff6d6",
+      "trim": "#f5c842",
+      "accent": "#ffffff",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "bib_top_green",
+    "name": "Mint Bib Top",
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#6ac29a",
+      "accent": "#e0f5ea",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "kitchen",
+      "cosy"
+    ],
+    "ages": [
+      "baby",
+      "toddler"
+    ],
+    "template": "bib_top"
+  },
+  {
+    "id": "polo_top_white",
+    "name": "White Polo",
+    "palette": {
+      "main": "#f7f6f2",
+      "trim": "#e2e0da",
+      "accent": "#3a6ab0",
+      "outline": "#8a8a84"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_navy",
+    "name": "Navy School Polo",
+    "palette": {
+      "main": "#2a3a66",
+      "trim": "#3a4c80",
+      "accent": "#ffffff",
+      "outline": "#141c36"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_red",
+    "name": "Red Polo",
+    "palette": {
+      "main": "#c83a3a",
+      "trim": "#e05454",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_green",
+    "name": "Bottle Green Polo",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#3f8a60",
+      "accent": "#f5d34a",
+      "outline": "#143022"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "polo_top_sky",
+    "name": "Sky Polo",
+    "palette": {
+      "main": "#8ac4ec",
+      "trim": "#b8dcf5",
+      "accent": "#ffffff",
+      "outline": "#3a6a8a"
+    },
+    "tags": [
+      "school",
+      "sport",
+      "office",
+      "outdoor",
+      "shop"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "polo_top"
+  },
+  {
+    "id": "white_front_cardigan_blue",
+    "name": "Blue Cardigan",
+    "palette": {
+      "main": "#3a6ec0",
+      "trim": "#ffffff",
+      "accent": "#f5d34a",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_red",
+    "name": "Red Cardigan",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#ffffff",
+      "accent": "#f5d34a",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_grey",
+    "name": "Grey Cardigan",
+    "palette": {
+      "main": "#8a8e96",
+      "trim": "#ffffff",
+      "accent": "#3a3a40",
+      "outline": "#46484e"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_lilac",
+    "name": "Lilac Cardigan",
+    "palette": {
+      "main": "#b49ad6",
+      "trim": "#fff4f8",
+      "accent": "#f28cb0",
+      "outline": "#5a3a80"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "white_front_cardigan_mustard",
+    "name": "Mustard Cardigan",
+    "palette": {
+      "main": "#d6a43a",
+      "trim": "#fff6e0",
+      "accent": "#6a4a1a",
+      "outline": "#6a4a10"
+    },
+    "tags": [
+      "school",
+      "cosy",
+      "elder",
+      "office",
+      "living"
+    ],
+    "ages": [
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "white_front_cardigan"
+  },
+  {
+    "id": "aline_skirt_green",
+    "name": "Green Skirt",
+    "palette": {
+      "main": "#4f8f3e",
+      "trim": "#3f7a30",
+      "accent": "#a8d672",
+      "outline": "#244a1b"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_denim",
+    "name": "Denim Skirt",
+    "palette": {
+      "main": "#4a6ea0",
+      "trim": "#3a5a86",
+      "accent": "#e0a040",
+      "outline": "#22344e"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_red",
+    "name": "Red Skirt",
+    "palette": {
+      "main": "#c83a3a",
+      "trim": "#a82a2a",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_plum",
+    "name": "Plum Skirt",
+    "palette": {
+      "main": "#6a3a6a",
+      "trim": "#5a2a5a",
+      "accent": "#f5a3c0",
+      "outline": "#2e122e"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "aline_skirt_camel",
+    "name": "Camel Skirt",
+    "palette": {
+      "main": "#c89a62",
+      "trim": "#b0844e",
+      "accent": "#5a3a1a",
+      "outline": "#5e4224"
+    },
+    "tags": [
+      "school",
+      "garden",
+      "outdoor",
+      "shop",
+      "cosy"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "aline_skirt"
+  },
+  {
+    "id": "striped_trousers_orange",
+    "name": "Orange & Pink Stripe Trousers",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#9a4a1a"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_blue",
+    "name": "Blue Stripe Trousers",
+    "palette": {
+      "main": "#4a7fc0",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#24406a"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_mint",
+    "name": "Mint Stripe Trousers",
+    "palette": {
+      "main": "#7fd0b0",
+      "trim": "#fff4d6",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_lemon",
+    "name": "Lemon Stripe Trousers",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#4a7fc0",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "striped_trousers_berry",
+    "name": "Berry Stripe Trousers",
+    "palette": {
+      "main": "#a8326e",
+      "trim": "#f5a3c0",
+      "accent": "#ffffff",
+      "outline": "#5a1236"
+    },
+    "tags": [
+      "kids_room",
+      "party",
+      "cosy",
+      "school",
+      "outdoor"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "striped_trousers"
+  },
+  {
+    "id": "split_skirt_black",
+    "name": "Black Split Skirt",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#3a3a42",
+      "accent": "#c8a24a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_navy",
+    "name": "Navy Split Skirt",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#33446e",
+      "accent": "#d6d6e0",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_grey",
+    "name": "Grey Split Skirt",
+    "palette": {
+      "main": "#7a7e86",
+      "trim": "#8e929a",
+      "accent": "#2a2a30",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "split_skirt_wine",
+    "name": "Wine Split Skirt",
+    "palette": {
+      "main": "#6a1e2e",
+      "trim": "#7e2a3a",
+      "accent": "#e0b060",
+      "outline": "#30080f"
+    },
+    "tags": [
+      "office",
+      "fancy",
+      "school",
+      "restaurant",
+      "shop"
+    ],
+    "ages": [
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "split_skirt"
+  },
+  {
+    "id": "side_stripe_trousers_black",
+    "name": "Black Stripe Trousers",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#ffffff",
+      "accent": "#9a9aa6",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_navy",
+    "name": "Navy Track Trousers",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#f5d34a",
+      "accent": "#9aa6c8",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_red",
+    "name": "Red Track Trousers",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#ffffff",
+      "accent": "#f5a3a3",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_green",
+    "name": "Green Track Trousers",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#ffffff",
+      "accent": "#a8d6b8",
+      "outline": "#143022"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "side_stripe_trousers_pink",
+    "name": "Pink Track Trousers",
+    "palette": {
+      "main": "#e486a6",
+      "trim": "#ffffff",
+      "accent": "#ffd2e0",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "sport",
+      "school",
+      "outdoor",
+      "teen_room",
+      "football"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "side_stripe_trousers"
+  },
+  {
+    "id": "rainbow_tier_dress_rainbow",
+    "name": "Rainbow Tier Dress",
+    "palette": {
+      "main": "#e84a6a",
+      "trim": "#f5c842",
+      "accent": "#4ab0e0",
+      "outline": "#7a1a30"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_sunset",
+    "name": "Sunset Tier Dress",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#f5a3c0",
+      "accent": "#a8326e",
+      "outline": "#7a3010"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_ocean",
+    "name": "Ocean Tier Dress",
+    "palette": {
+      "main": "#2fa8a0",
+      "trim": "#8ac4ec",
+      "accent": "#2f4f9a",
+      "outline": "#155a56"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_garden",
+    "name": "Garden Tier Dress",
+    "palette": {
+      "main": "#6ac25a",
+      "trim": "#f5e04a",
+      "accent": "#f28cb0",
+      "outline": "#2f6a24"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "rainbow_tier_dress_berry",
+    "name": "Berry Tier Dress",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#f28cb0",
+      "accent": "#f5c842",
+      "outline": "#4a2a70"
+    },
+    "tags": [
+      "party",
+      "birthday",
+      "beach",
+      "fancy",
+      "garden"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult"
+    ],
+    "template": "rainbow_tier_dress"
+  },
+  {
+    "id": "cosy_onesie_red",
+    "name": "Red Onesie",
+    "palette": {
+      "main": "#d6343a",
+      "trim": "#f5e6d8",
+      "accent": "#f5c842",
+      "outline": "#6a1216"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_grey",
+    "name": "Grey Onesie",
+    "palette": {
+      "main": "#9a9ea6",
+      "trim": "#f0f0f2",
+      "accent": "#f28cb0",
+      "outline": "#4a4c52"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_pink",
+    "name": "Pink Onesie",
+    "palette": {
+      "main": "#f2a0bc",
+      "trim": "#ffffff",
+      "accent": "#8a5cc0",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_navy",
+    "name": "Starry Onesie",
+    "palette": {
+      "main": "#26345a",
+      "trim": "#f5e04a",
+      "accent": "#f5e04a",
+      "outline": "#10162a"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "cosy_onesie_mint",
+    "name": "Mint Onesie",
+    "palette": {
+      "main": "#8ad6b8",
+      "trim": "#ffffff",
+      "accent": "#f28c8c",
+      "outline": "#2f7a5e"
+    },
+    "tags": [
+      "bedroom",
+      "cosy",
+      "nursery",
+      "kids_room",
+      "christmas"
+    ],
+    "ages": [
+      "baby",
+      "toddler",
+      "kid",
+      "teen"
+    ],
+    "template": "cosy_onesie"
+  },
+  {
+    "id": "baby_swaddle_pink",
+    "name": "Pink Swaddle",
+    "palette": {
+      "main": "#f5c2d2",
+      "trim": "#fff0f4",
+      "accent": "#e486a6",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_blue",
+    "name": "Blue Swaddle",
+    "palette": {
+      "main": "#a8d0f0",
+      "trim": "#eef7ff",
+      "accent": "#5a9be0",
+      "outline": "#3a5a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_lemon",
+    "name": "Lemon Swaddle",
+    "palette": {
+      "main": "#f5e08a",
+      "trim": "#fffbe6",
+      "accent": "#e0a040",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_mint",
+    "name": "Mint Swaddle",
+    "palette": {
+      "main": "#a8e2c8",
+      "trim": "#f0fff8",
+      "accent": "#4ab08a",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_lilac",
+    "name": "Lilac Swaddle",
+    "palette": {
+      "main": "#cdb8ec",
+      "trim": "#f8f2ff",
+      "accent": "#8a5cc0",
+      "outline": "#5a3a80"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "baby_swaddle_cream",
+    "name": "Cream Swaddle",
+    "palette": {
+      "main": "#efe4d0",
+      "trim": "#fffaf0",
+      "accent": "#c89a62",
+      "outline": "#7a6a50"
+    },
+    "tags": [
+      "baby",
+      "nursery",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "ages": [
+      "baby"
+    ],
+    "template": "baby_swaddle"
+  },
+  {
+    "id": "blue_shorts_blue",
+    "name": "Blue Shorts",
+    "palette": {
+      "main": "#4a7ec8",
+      "trim": "#3a66a8",
+      "accent": "#e0a040",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_white",
+    "name": "White Shorts",
+    "palette": {
+      "main": "#f4f2ec",
+      "trim": "#e2dfd6",
+      "accent": "#a8a49a",
+      "outline": "#8a8678"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_pink",
+    "name": "Pink Shorts",
+    "palette": {
+      "main": "#f2a0bc",
+      "trim": "#e486a6",
+      "accent": "#ffffff",
+      "outline": "#8a3a5a"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_khaki",
+    "name": "Khaki Shorts",
+    "palette": {
+      "main": "#a89a6a",
+      "trim": "#948656",
+      "accent": "#5a4a2a",
+      "outline": "#4e4428"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "blue_shorts_black",
+    "name": "Black Shorts",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#3a3a42",
+      "accent": "#9a9aa6",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "beach",
+      "pool",
+      "outdoor",
+      "sport",
+      "waterpark"
+    ],
+    "ages": [
+      "toddler",
+      "kid",
+      "teen",
+      "adult",
+      "elder"
+    ],
+    "template": "blue_shorts"
+  },
+  {
+    "id": "painted_stool_red",
+    "name": "Red Stool",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#b02a2a",
+      "accent": "#f2e6d0",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_yellow",
+    "name": "Yellow Stool",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#d6a82a",
+      "accent": "#ffffff",
+      "outline": "#7a5a10"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_blue",
+    "name": "Blue Stool",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#2a64a8",
+      "accent": "#ffffff",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_green",
+    "name": "Green Stool",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#3a8a46",
+      "accent": "#ffffff",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_pink",
+    "name": "Pink Stool",
+    "palette": {
+      "main": "#f28cb0",
+      "trim": "#d66e94",
+      "accent": "#ffffff",
+      "outline": "#7a2e4a"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_purple",
+    "name": "Purple Stool",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#6e44a0",
+      "accent": "#ffffff",
+      "outline": "#3a2060"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_orange",
+    "name": "Orange Stool",
+    "palette": {
+      "main": "#f28c3a",
+      "trim": "#d4702a",
+      "accent": "#ffffff",
+      "outline": "#7a3a10"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "painted_stool_wood",
+    "name": "Wooden Stool",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#8a5a34",
+      "accent": "#f2e6d0",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "kitchen",
+      "kids_room",
+      "cafe",
+      "daycare",
+      "school",
+      "living"
+    ],
+    "template": "painted_stool"
+  },
+  {
+    "id": "double_bed_blue",
+    "name": "Blue Double Bed",
+    "palette": {
+      "main": "#7aa6c9",
+      "trim": "#f4f2ee",
+      "accent": "#8a5a34",
+      "outline": "#2f5a80"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_pink",
+    "name": "Pink Double Bed",
+    "palette": {
+      "main": "#f2b0c4",
+      "trim": "#ffffff",
+      "accent": "#f4e8ee",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_grey",
+    "name": "Grey Double Bed",
+    "palette": {
+      "main": "#9aa0a8",
+      "trim": "#f4f2ee",
+      "accent": "#46484e",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_green",
+    "name": "Sage Double Bed",
+    "palette": {
+      "main": "#9cb88a",
+      "trim": "#f8f4ea",
+      "accent": "#c8a87a",
+      "outline": "#4a6a3a"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_yellow",
+    "name": "Sunny Double Bed",
+    "palette": {
+      "main": "#f5d34a",
+      "trim": "#ffffff",
+      "accent": "#f2f2f2",
+      "outline": "#8a6a10"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_purple",
+    "name": "Purple Double Bed",
+    "palette": {
+      "main": "#8a5cc0",
+      "trim": "#f4eefa",
+      "accent": "#3a2a4a",
+      "outline": "#3a2060"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "double_bed_gold",
+    "name": "Royal Double Bed",
+    "palette": {
+      "main": "#a8263a",
+      "trim": "#f4e6c8",
+      "accent": "#d6a43a",
+      "outline": "#50101a"
+    },
+    "tags": [
+      "bedroom",
+      "hotel",
+      "cosy",
+      "vip"
+    ],
+    "template": "double_bed"
+  },
+  {
+    "id": "painted_cot_white",
+    "name": "White Cot",
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#a8d5e2",
+      "accent": "#f5c2d2",
+      "outline": "#6a7880"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_pink",
+    "name": "Pink Cot",
+    "palette": {
+      "main": "#f5b8cc",
+      "trim": "#ffffff",
+      "accent": "#f5e08a",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_blue",
+    "name": "Blue Cot",
+    "palette": {
+      "main": "#8ac4ec",
+      "trim": "#ffffff",
+      "accent": "#f5e08a",
+      "outline": "#3a6a8a"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_mint",
+    "name": "Mint Cot",
+    "palette": {
+      "main": "#9ee0c4",
+      "trim": "#ffffff",
+      "accent": "#f5a3c0",
+      "outline": "#2f6a50"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_wood",
+    "name": "Wooden Cot",
+    "palette": {
+      "main": "#c89a62",
+      "trim": "#f4ecdc",
+      "accent": "#a8d5e2",
+      "outline": "#5e4224"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "painted_cot_grey",
+    "name": "Grey Cot",
+    "palette": {
+      "main": "#a0a4aa",
+      "trim": "#f4f2ee",
+      "accent": "#f5d34a",
+      "outline": "#46484e"
+    },
+    "tags": [
+      "nursery",
+      "baby",
+      "daycare",
+      "hospital",
+      "cosy"
+    ],
+    "template": "painted_cot"
+  },
+  {
+    "id": "round_table_wood",
+    "name": "Wooden Round Table",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#8a5a34",
+      "accent": "#f2f2f2",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_white",
+    "name": "White Round Table",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#d6d2ca",
+      "accent": "#9a9a9a",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_red",
+    "name": "Red Round Table",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#3a3a3a",
+      "accent": "#ffffff",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_blue",
+    "name": "Blue Round Table",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#e8e8e8",
+      "accent": "#ffffff",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_yellow",
+    "name": "Yellow Round Table",
+    "palette": {
+      "main": "#f5c842",
+      "trim": "#ffffff",
+      "accent": "#ffffff",
+      "outline": "#7a5a10"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_green",
+    "name": "Green Round Table",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#f2f2f2",
+      "accent": "#ffffff",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "round_table_black",
+    "name": "Black Round Table",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#c0a060",
+      "accent": "#ffffff",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "kitchen",
+      "living",
+      "cafe",
+      "restaurant",
+      "garden",
+      "daycare"
+    ],
+    "template": "round_table"
+  },
+  {
+    "id": "tall_fridge_steel",
+    "name": "Steel Fridge",
+    "palette": {
+      "main": "#d8dce0",
+      "trim": "#a0a6ac",
+      "accent": "#3a3a40",
+      "outline": "#5a6068"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_white",
+    "name": "White Fridge",
+    "palette": {
+      "main": "#f6f6f4",
+      "trim": "#c8ccd0",
+      "accent": "#9ac4e0",
+      "outline": "#7a7e84"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_black",
+    "name": "Black Fridge",
+    "palette": {
+      "main": "#2e3036",
+      "trim": "#5a5e66",
+      "accent": "#7fd1ff",
+      "outline": "#0c0e12"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_red",
+    "name": "Red Retro Fridge",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_mint",
+    "name": "Mint Retro Fridge",
+    "palette": {
+      "main": "#a8e2cc",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#3a6a58"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_pink",
+    "name": "Pink Fridge",
+    "palette": {
+      "main": "#f5b8cc",
+      "trim": "#ffffff",
+      "accent": "#f4f4f4",
+      "outline": "#8a4a5e"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "tall_fridge_blue",
+    "name": "Blue Fridge",
+    "palette": {
+      "main": "#7ab0e0",
+      "trim": "#e8e8e8",
+      "accent": "#f4f4f4",
+      "outline": "#2f5a80"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant",
+      "supermarket",
+      "shop"
+    ],
+    "template": "tall_fridge"
+  },
+  {
+    "id": "jail_cell_grey",
+    "name": "Jail Cell",
+    "palette": {
+      "main": "#5a6068",
+      "trim": "#c8c4bc",
+      "accent": "#d6a43a",
+      "outline": "#24282e"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
+  },
+  {
+    "id": "jail_cell_blue",
+    "name": "Blue Jail Cell",
+    "palette": {
+      "main": "#2f4f80",
+      "trim": "#c8d0dc",
+      "accent": "#d6a43a",
+      "outline": "#142440"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
+  },
+  {
+    "id": "jail_cell_black",
+    "name": "Black Jail Cell",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#d8d2c4",
+      "accent": "#c0c0c8",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "police"
+    ],
+    "template": "jail_cell"
+  },
+  {
+    "id": "heated_pool_blue",
+    "name": "Heated Pool",
+    "palette": {
+      "main": "#3aa0d8",
+      "trim": "#f4f2ee",
+      "accent": "#e03131",
+      "outline": "#1e5a80"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_turquoise",
+    "name": "Turquoise Heated Pool",
+    "palette": {
+      "main": "#2fc0c0",
+      "trim": "#e8e0d0",
+      "accent": "#e03131",
+      "outline": "#14606a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_deep",
+    "name": "Deep Blue Heated Pool",
+    "palette": {
+      "main": "#2a5fb0",
+      "trim": "#d8d4cc",
+      "accent": "#f59f00",
+      "outline": "#14305a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "heated_pool_stone",
+    "name": "Stone Heated Pool",
+    "palette": {
+      "main": "#4ab0d0",
+      "trim": "#b8b0a2",
+      "accent": "#e03131",
+      "outline": "#2a5a6a"
+    },
+    "tags": [
+      "pool",
+      "garden",
+      "vip",
+      "waterpark",
+      "outdoor"
+    ],
+    "template": "heated_pool"
+  },
+  {
+    "id": "bbq_grill_black",
+    "name": "Black BBQ",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#9aa0a8",
+      "accent": "#c0604a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_red",
+    "name": "Red BBQ",
+    "palette": {
+      "main": "#c0302a",
+      "trim": "#a0a6ac",
+      "accent": "#b85a3a",
+      "outline": "#4a0e0a"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_green",
+    "name": "Green BBQ",
+    "palette": {
+      "main": "#2f6a4a",
+      "trim": "#a0a6ac",
+      "accent": "#b85a3a",
+      "outline": "#123020"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "bbq_grill_steel",
+    "name": "Steel BBQ",
+    "palette": {
+      "main": "#9aa0a8",
+      "trim": "#5a5e66",
+      "accent": "#b85a3a",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "beach"
+    ],
+    "template": "bbq_grill"
+  },
+  {
+    "id": "long_garden_table_wood",
+    "name": "Long Garden Table",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#f4f2ee",
+      "accent": "#e86a5a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_white",
+    "name": "White Garden Table",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#ffffff",
+      "accent": "#4a8fd8",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_grey",
+    "name": "Grey Garden Table",
+    "palette": {
+      "main": "#8a8e96",
+      "trim": "#f4f2ee",
+      "accent": "#f5c842",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "long_garden_table_teak",
+    "name": "Teak Garden Table",
+    "palette": {
+      "main": "#8a5a34",
+      "trim": "#f8f0e0",
+      "accent": "#4fa85a",
+      "outline": "#3a2010"
+    },
+    "tags": [
+      "garden",
+      "party",
+      "outdoor",
+      "restaurant",
+      "kitchen"
+    ],
+    "template": "long_garden_table"
+  },
+  {
+    "id": "garden_treehouse_wood",
+    "name": "Treehouse",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#4f9a45",
+      "accent": "#c4502a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_blue",
+    "name": "Blue Roof Treehouse",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#5aa64e",
+      "accent": "#2f6ab0",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_pink",
+    "name": "Pink Treehouse",
+    "palette": {
+      "main": "#f2b0c4",
+      "trim": "#5aa64e",
+      "accent": "#c84a7a",
+      "outline": "#7a3a4e"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "garden_treehouse_autumn",
+    "name": "Autumn Treehouse",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#e08a2a",
+      "accent": "#7a3a1a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "kids_room",
+      "party"
+    ],
+    "template": "garden_treehouse"
+  },
+  {
+    "id": "sandbox_wood",
+    "name": "Sandbox",
+    "palette": {
+      "main": "#b5835a",
+      "trim": "#ecd49a",
+      "accent": "#e03131",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_green",
+    "name": "Green Sandbox",
+    "palette": {
+      "main": "#4fa85a",
+      "trim": "#ecd49a",
+      "accent": "#f5c842",
+      "outline": "#1e4a26"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_blue",
+    "name": "Blue Sandbox",
+    "palette": {
+      "main": "#3a7ec8",
+      "trim": "#ecd49a",
+      "accent": "#f28cb0",
+      "outline": "#16345e"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "sandbox_red",
+    "name": "Red Sandbox",
+    "palette": {
+      "main": "#d63a3a",
+      "trim": "#ecd49a",
+      "accent": "#3a7ec8",
+      "outline": "#5e1414"
+    },
+    "tags": [
+      "garden",
+      "daycare",
+      "outdoor",
+      "beach",
+      "school"
+    ],
+    "template": "sandbox"
+  },
+  {
+    "id": "garage_door_white",
+    "name": "White Garage Door",
+    "palette": {
+      "main": "#e8e6e0",
+      "trim": "#b0583a",
+      "accent": "#3a3a40",
+      "outline": "#6a6860"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_grey",
+    "name": "Grey Garage Door",
+    "palette": {
+      "main": "#7a7e86",
+      "trim": "#c8c0b4",
+      "accent": "#2a2a30",
+      "outline": "#3a3c42"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_wood",
+    "name": "Wooden Garage Door",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#d8d0c4",
+      "accent": "#3a3a40",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_blue",
+    "name": "Blue Garage Door",
+    "palette": {
+      "main": "#3a6ec0",
+      "trim": "#b0583a",
+      "accent": "#f4f4f4",
+      "outline": "#1e3a6a"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "garage_door_red",
+    "name": "Red Garage Door",
+    "palette": {
+      "main": "#b8323a",
+      "trim": "#e0dcd4",
+      "accent": "#f4f4f4",
+      "outline": "#5a1418"
+    },
+    "tags": [
+      "outdoor",
+      "wall",
+      "garden",
+      "fire_station"
+    ],
+    "template": "garage_door"
+  },
+  {
+    "id": "arcade_machine_blue",
+    "name": "Arcade Machine",
+    "palette": {
+      "main": "#2f3a8a",
+      "trim": "#f5c842",
+      "accent": "#e8406a",
+      "outline": "#141a44"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_red",
+    "name": "Red Arcade Machine",
+    "palette": {
+      "main": "#b8202a",
+      "trim": "#f5c842",
+      "accent": "#3aa0e8",
+      "outline": "#4a080e"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_black",
+    "name": "Black Arcade Machine",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#4ae0c0",
+      "accent": "#f028a0",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "arcade_machine_purple",
+    "name": "Purple Arcade Machine",
+    "palette": {
+      "main": "#6a2aa0",
+      "trim": "#f5e04a",
+      "accent": "#4ae0c0",
+      "outline": "#2a0a44"
+    },
+    "tags": [
+      "teen_room",
+      "theme_park",
+      "kids_room",
+      "mall",
+      "party"
+    ],
+    "template": "arcade_machine"
+  },
+  {
+    "id": "big_window_white",
+    "name": "Big Window",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_wood",
+    "name": "Wood Frame Window",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_black",
+    "name": "Black Frame Window",
+    "palette": {
+      "main": "#2a2a30",
+      "trim": "#8fc8f0",
+      "accent": "#4fa85a",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "big_window_sunset",
+    "name": "Sunset Window",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#f5a86a",
+      "accent": "#a8326e",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "wall",
+      "kitchen",
+      "living",
+      "bedroom",
+      "hotel"
+    ],
+    "template": "big_window"
+  },
+  {
+    "id": "tinted_glass_shower_smoke",
+    "name": "Tinted Glass Shower",
+    "palette": {
+      "main": "#e8eef2",
+      "trim": "#a8b0b8",
+      "accent": "#3a4a5a",
+      "outline": "#5a6068"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_bronze",
+    "name": "Bronze Glass Shower",
+    "palette": {
+      "main": "#efe8de",
+      "trim": "#c8a46a",
+      "accent": "#6a4a2a",
+      "outline": "#6a5a48"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_blue",
+    "name": "Blue Glass Shower",
+    "palette": {
+      "main": "#e6f0f8",
+      "trim": "#a8b0b8",
+      "accent": "#2a5a8a",
+      "outline": "#4a5a6a"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "tinted_glass_shower_black",
+    "name": "Black Glass Shower",
+    "palette": {
+      "main": "#d8d8dc",
+      "trim": "#2a2a30",
+      "accent": "#1a1a20",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "vip",
+      "fancy"
+    ],
+    "template": "tinted_glass_shower"
+  },
+  {
+    "id": "balcony_railing_grey",
+    "name": "Balcony Railing",
+    "palette": {
+      "main": "#4a4e56",
+      "trim": "#cdeeff",
+      "accent": "#e8407a",
+      "outline": "#1a1c20"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_white",
+    "name": "White Balcony Railing",
+    "palette": {
+      "main": "#f4f2ee",
+      "trim": "#cdeeff",
+      "accent": "#f5c842",
+      "outline": "#7a766e"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_black",
+    "name": "Black Balcony Railing",
+    "palette": {
+      "main": "#26262c",
+      "trim": "#cdeeff",
+      "accent": "#b197fc",
+      "outline": "#0c0c10"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
+  },
+  {
+    "id": "balcony_railing_wood",
+    "name": "Wooden Balcony Railing",
+    "palette": {
+      "main": "#a8774f",
+      "trim": "#cdeeff",
+      "accent": "#e8407a",
+      "outline": "#4a2c12"
+    },
+    "tags": [
+      "garden",
+      "outdoor",
+      "hotel",
+      "fancy",
+      "vip"
+    ],
+    "template": "balcony_railing"
   }
 ]

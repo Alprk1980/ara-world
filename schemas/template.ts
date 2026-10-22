@@ -15,6 +15,8 @@ export type Template = {
 
 /** How much of its slot frame a wearable must cover, so it reads at body size. */
 const WEARABLE_MIN_COVER = 0.5;
+/** Hats only need to be this tall (a share of the frame): a real hat is mostly crown and brim, not a tower. */
+const HAT_MIN_HEIGHT = 0.3;
 /** How much of the canvas an object's longest side must cover. */
 const OBJECT_MIN_FILL = 0.6;
 
@@ -42,8 +44,10 @@ export function templateErrors(t: Template, all: readonly Template[] = []): stri
     if (svg.box) {
       const w = (svg.box.maxX - svg.box.minX) / 256;
       const h = (svg.box.maxY - svg.box.minY) / 256;
-      if (w < WEARABLE_MIN_COVER || h < WEARABLE_MIN_COVER)
-        err(`a ${t.category} must fill its slot frame: covers ${Math.round(w * 100)}% wide x ${Math.round(h * 100)}% tall, needs at least ${WEARABLE_MIN_COVER * 100}% each`);
+      // A hat is wide, not tall: it covers the top of the head down to the forehead.
+      const minH = t.category === 'hat' ? HAT_MIN_HEIGHT : WEARABLE_MIN_COVER;
+      if (w < WEARABLE_MIN_COVER || h < minH)
+        err(`a ${t.category} must fill its slot frame: covers ${Math.round(w * 100)}% wide x ${Math.round(h * 100)}% tall, needs at least ${WEARABLE_MIN_COVER * 100}% wide and ${minH * 100}% tall`);
     }
     return out;
   }

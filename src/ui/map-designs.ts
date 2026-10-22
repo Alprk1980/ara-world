@@ -32,7 +32,8 @@ export const DESIGNS: Record<string, MapDesign> = {
   hotels: { body: 'tower', wall: '#fff3bf', roof: '#e8590c', trim: '#e8590c', floors: 4, extras: ['balconies', 'pool', 'flag'], sign: 'HOTEL' },
   // School and care
   school: { body: 'hall', wall: '#f4a582', roof: '#8a3b2a', trim: '#1c7ed6', floors: 2, extras: ['belltower', 'clock', 'flag'], sign: 'SCHOOL' },
-  daycare: { body: 'house', wall: '#fff9db', roof: '#ff6b6b', trim: '#4dabf7', windows: 'round', extras: ['rainbow', 'flowers'] },
+  // As the user's daughter drew it: a blue building, DAYCARE in rainbow letters, blue curtains, a wooden fence and a big garden behind.
+  daycare: { body: 'house', wall: '#4a8fd8', roof: '#2b5ea8', trim: '#a5d8ff', floors: 2, size: 0.85, sign: 'DAYCARE', extras: ['curtains', 'rainbowsign', 'fence', 'backgarden', 'flowers'] },
   hospital: { body: 'tower', wall: '#ffffff', roof: '#adb5bd', trim: '#e03131', floors: 2, size: 1.15, extras: ['cross', 'helipad'] },
   old_people_home: { body: 'bungalow', wall: '#fff0e6', roof: '#a0522d', trim: '#2f9e44', extras: ['sunroom', 'flowers', 'benches'] },
   vets: { body: 'house', wall: '#e6fcf5', roof: '#0ca678', trim: '#0ca678', extras: ['cross', 'kennel'], prop: '🐾' },
@@ -79,6 +80,7 @@ export function houseDesign(style: string, ex: { walls: string; roof: string; do
     case 'castle': return { ...base, body: 'castle', floors: Math.min(2, floors) };
     case 'beach': return { ...base, body: 'stilts', windows: 'round', extras: ['palm'] };
     case 'modern': return { ...base, body: 'shop', top: 'flat', extras: ['glass', 'rooftrees'] };
+    case 'townhouse': return { ...base, body: 'tower', floors: Math.max(1, Math.min(5, floors - 2)), extras: ['balconies', 'garage', 'flowers'] };
     case 'apartment': return { ...base, body: 'tower', floors: Math.min(3, floors), extras: ['balconies'] };
     case 'cabin': return { ...base, body: 'house', extras: ['beams', 'chimney', 'smoke'] };
     case 'farmhouse': return { ...base, body: 'house', extras: ['chimney', 'haybales'] };
