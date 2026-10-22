@@ -75,7 +75,7 @@ export function bodyGeometry(age: string, style: RigStyle = 'cute') {
   }
   {
     const w = (b.headR * (real ? 2.6 : 2.4) * 256) / 216, h = w;
-    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.84 : 0.45) - (220 / 256) * h, w, h };
+    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.5 : 0.45) - ((real ? 212 : 220) / 256) * h, w, h };
   }
   {
     const w = (eyeDist * 256) / 100, h = w;
