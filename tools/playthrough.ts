@@ -24,7 +24,7 @@ const step = (s: string) => {
 type Stats = { floors: { name: string; outdoor: boolean; width: number; things: number; missingArt: string[]; offFloor: string[] }[] };
 
 try {
-  await page.goto(`http://localhost:5198/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
+  await page.goto('http://localhost:5198/');
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   const placeIds: string[] = await page.evaluate(async () => [...(await import(/* @vite-ignore */ '/src/data/index.ts' as string)).places.keys()]);

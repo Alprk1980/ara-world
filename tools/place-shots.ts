@@ -1,6 +1,6 @@
 // Screenshots of chosen floors, for checking backdrops and things in them.
 //
-//   LOOK=real node tools/place-shots.ts hospital:0 zoo:1 ...   -> out/places/<id>-<floor>.png
+//   node tools/place-shots.ts hospital:0 zoo:1 ...   -> out/places/<id>-<floor>.png
 //   (night=1 for night time)
 import { mkdirSync } from 'node:fs';
 import { chromium } from 'playwright';
@@ -15,7 +15,7 @@ const page = await browser.newPage({ viewport: { width: 1180, height: 820 } });
 const errors: string[] = [];
 page.on('pageerror', (e) => errors.push(e.message));
 try {
-  await page.goto(`http://localhost:5193/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
+  await page.goto('http://localhost:5193/');
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   if (process.env.night) await page.evaluate(() => (window as any).ara.setSky(true));

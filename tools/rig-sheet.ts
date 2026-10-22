@@ -1,7 +1,7 @@
 // Render people wearing every hair (and the clothes that exist) in the real game renderer, to judge fit.
 //
 //   node tools/rig-sheet.ts [--out out/rigs.png] [--slot hair|top|bottom|dress|socks|shoes|hat|glasses|bag] [--heads]
-//   (--heads: close-ups of the head, for hats, hair and glasses; LOOK=real for the realistic look)
+//   (--heads: close-ups of the head, for hats, hair and glasses)
 import { mkdirSync } from 'node:fs';
 import { chromium } from 'playwright';
 import { createServer } from 'vite';
@@ -17,7 +17,7 @@ await server.listen();
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
 try {
-  await page.goto(`http://localhost:5197/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
+  await page.goto('http://localhost:5197/');
   await page.waitForFunction(() => 'ara' in window);
   const n = await page.evaluate(async ([slot, heads]) => {
     const imp = (p: string) => import(/* @vite-ignore */ p);

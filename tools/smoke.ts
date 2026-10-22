@@ -26,7 +26,7 @@ const ara = <T>(fn: (a: Ara, arg?: never) => T, arg?: unknown) =>
   page.evaluate(([src, x]) => new Function('a', 'arg', `return (${src})(a, arg)`)((window as unknown as { ara: unknown }).ara, x), [fn.toString(), arg] as const) as Promise<T>;
 
 try {
-  await page.goto(`http://localhost:5199/${process.env.LOOK ? `?look=${process.env.LOOK}` : ''}`);
+  await page.goto('http://localhost:5199/');
   await page.waitForFunction(() => 'ara' in window);
   await shot('1-title');
   await ara((a) => a.play());

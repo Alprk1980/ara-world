@@ -1,4 +1,4 @@
-// The ⚙️ settings menu: music, sounds, the cute or realistic look, back to the title, and resetting the world (behind a hold-to-confirm, so a
+// The ⚙️ settings menu: music, sounds, back to the title, and resetting the world (behind a hold-to-confirm, so a
 // stray tap can't wipe it). Settings are kept apart from the world, so a reset keeps them.
 import { Container, Graphics, Rectangle, Ticker } from 'pixi.js';
 import { COLORS, label, makeTappable, pillButton, roundButton } from './kit.ts';
@@ -8,8 +8,6 @@ export type MenuActions = {
   toggleMusic(): Promise<void>;
   sounds(): boolean;
   toggleSounds(): Promise<void>;
-  realistic(): boolean;
-  toggleLook(): Promise<void>;
   title(): void;
   reset(): Promise<void>;
 };
@@ -61,7 +59,7 @@ export class Menu {
     this.dim.clear().rect(0, 0, w, h).fill({ color: COLORS.plum, alpha: 0.45 });
     this.dim.hitArea = new Rectangle(0, 0, w, h);
     this.card.removeChildren().forEach((c) => c.destroy({ children: true }));
-    const cw = Math.min(520, w - 40), ch = Math.min(this.page === 'main' ? 646 : 500, h - 40);
+    const cw = Math.min(520, w - 40), ch = Math.min(this.page === 'main' ? 560 : 500, h - 40);
     this.card.position.set(w / 2, h / 2);
     this.card.hitArea = new Rectangle(-cw / 2, -ch / 2, cw, ch);
     this.card.addChild(new Graphics().roundRect(-cw / 2, -ch / 2, cw, ch, 34).fill(COLORS.cream).stroke({ color: COLORS.plum, width: 5 }));
@@ -93,7 +91,6 @@ export class Menu {
       await a.toggleSounds();
       this.draw();
     });
-    row(a.realistic() ? '📷 Look: Realistic' : '🧸 Look: Cute', COLORS.pink, () => void a.toggleLook());
     row('🌸 Title screen', COLORS.pink, () => {
       this.hide();
       a.title();
