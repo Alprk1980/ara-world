@@ -8384,5 +8384,1323 @@
       "outline": "#4a2c12"
     },
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"106\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"22\" y=\"50\" width=\"212\" height=\"192\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"22\" y=\"50\" width=\"212\" height=\"192\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"62\" width=\"188\" height=\"52\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"34\" y=\"124\" width=\"188\" height=\"52\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"34\" y=\"186\" width=\"188\" height=\"46\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"34\" y=\"114\" width=\"188\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"34\" y=\"114\" width=\"188\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"176\" width=\"188\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"34\" y=\"176\" width=\"188\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"66\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"{{accent}}\"/><ellipse cx=\"66\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"108\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"108\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"{{accent}}\"/><ellipse cx=\"150\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"192\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"192\" cy=\"92\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M58 136 L62.8 147.4 L75.1 148.4 L65.7 156.5 L68.6 168.6 L58 162.1 L47.4 168.6 L50.3 156.5 L40.9 148.4 L53.2 147.4 Z\" fill=\"{{trim}}\"/><path d=\"M58 136 L62.8 147.4 L75.1 148.4 L65.7 156.5 L68.6 168.6 L58 162.1 L47.4 168.6 L50.3 156.5 L40.9 148.4 L53.2 147.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M108 136 L112.8 147.4 L125.1 148.4 L115.7 156.5 L118.6 168.6 L108 162.1 L97.4 168.6 L100.3 156.5 L90.9 148.4 L103.2 147.4 Z\" fill=\"{{accent}}\"/><path d=\"M108 136 L112.8 147.4 L125.1 148.4 L115.7 156.5 L118.6 168.6 L108 162.1 L97.4 168.6 L100.3 156.5 L90.9 148.4 L103.2 147.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M158 136 L162.8 147.4 L175.1 148.4 L165.7 156.5 L168.6 168.6 L158 162.1 L147.4 168.6 L150.3 156.5 L140.9 148.4 L153.2 147.4 Z\" fill=\"{{trim}}\"/><path d=\"M158 136 L162.8 147.4 L175.1 148.4 L165.7 156.5 L168.6 168.6 L158 162.1 L147.4 168.6 L150.3 156.5 L140.9 148.4 L153.2 147.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M204 136 L208.8 147.4 L221.1 148.4 L211.7 156.5 L214.6 168.6 L204 162.1 L193.4 168.6 L196.3 156.5 L186.9 148.4 L199.2 147.4 Z\" fill=\"{{accent}}\"/><path d=\"M204 136 L208.8 147.4 L221.1 148.4 L211.7 156.5 L214.6 168.6 L204 162.1 L193.4 168.6 L196.3 156.5 L186.9 148.4 L199.2 147.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"60\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"60\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"196\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"196\" cy=\"212\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M14 50 L242 50 L232 20 L24 20 Z\" fill=\"{{trim}}\"/><path d=\"M14 50 L242 50 L232 20 L24 20 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "mall_clothes_rack",
+    "name": "Clothes Rack",
+    "category": "furniture",
+    "size": {
+      "w": 113,
+      "h": 150
+    },
+    "anchors": {
+      "base": [
+        128,
+        246
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#e63946",
+      "accent": "#3d7dd8",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><linearGradient id=\"S\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.16\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"0.4\" stop-color=\"#ffffff\" stop-opacity=\"0.14\"/><stop offset=\"0.6\" stop-color=\"#ffffff\" stop-opacity=\"0.14\"/><stop offset=\"0.84\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"88\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M48 30 L48 230 M208 30 L208 230 M40 30 L216 30\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M48 30 L48 230 M208 30 L208 230 M40 30 L216 30\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"30\" y=\"228\" width=\"44\" height=\"12\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"228\" width=\"44\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"182\" y=\"228\" width=\"44\" height=\"12\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"182\" y=\"228\" width=\"44\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M72 32 L72 44\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M58 44 L86 44 L90 170 L54 170 Z\" fill=\"{{trim}}\"/><path d=\"M58 44 L86 44 L90 170 L54 170 Z\" fill=\"url(#S)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M66 44 L72 56 L78 44 Z\" fill=\"#3a2a2a\" opacity=\"0.25\"/><path d=\"M110 32 L110 44\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M96 44 L124 44 L128 170 L92 170 Z\" fill=\"{{accent}}\"/><path d=\"M96 44 L124 44 L128 170 L92 170 Z\" fill=\"url(#S)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 44 L110 56 L116 44 Z\" fill=\"#3a2a2a\" opacity=\"0.25\"/><path d=\"M148 32 L148 44\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M134 44 L162 44 L166 170 L130 170 Z\" fill=\"#ffffff\"/><path d=\"M134 44 L162 44 L166 170 L130 170 Z\" fill=\"url(#S)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M142 44 L148 56 L154 44 Z\" fill=\"#3a2a2a\" opacity=\"0.25\"/><path d=\"M186 32 L186 44\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M172 44 L200 44 L204 170 L168 170 Z\" fill=\"{{trim}}\"/><path d=\"M172 44 L200 44 L204 170 L168 170 Z\" fill=\"url(#S)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 44 L186 56 L192 44 Z\" fill=\"#3a2a2a\" opacity=\"0.25\"/></svg>"
+  },
+  {
+    "id": "mall_toy_shelf",
+    "name": "Toy Shelf",
+    "category": "furniture",
+    "size": {
+      "w": 72,
+      "h": 84
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffd23f",
+      "accent": "#3d7dd8",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"28\" y=\"14\" width=\"200\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"28\" y=\"14\" width=\"200\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"26\" width=\"176\" height=\"62\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"40\" y=\"100\" width=\"176\" height=\"62\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"40\" y=\"174\" width=\"176\" height=\"54\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"40\" y=\"88\" width=\"176\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"40\" y=\"88\" width=\"176\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"162\" width=\"176\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"40\" y=\"162\" width=\"176\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"66\" cy=\"66\" rx=\"20\" ry=\"20\" fill=\"{{trim}}\"/><ellipse cx=\"66\" cy=\"66\" rx=\"20\" ry=\"20\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"50\" width=\"34\" height=\"38\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"98\" y=\"50\" width=\"34\" height=\"38\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M168 48 L172.8 59.4 L185.1 60.4 L175.7 68.5 L178.6 80.6 L168 74.1 L157.4 80.6 L160.3 68.5 L150.9 60.4 L163.2 59.4 Z\" fill=\"{{trim}}\"/><path d=\"M168 48 L172.8 59.4 L185.1 60.4 L175.7 68.5 L178.6 80.6 L168 74.1 L157.4 80.6 L160.3 68.5 L150.9 60.4 L163.2 59.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"52\" y=\"126\" width=\"46\" height=\"36\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"52\" y=\"126\" width=\"46\" height=\"36\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"134\" cy=\"140\" rx=\"20\" ry=\"20\" fill=\"{{accent}}\"/><ellipse cx=\"134\" cy=\"140\" rx=\"20\" ry=\"20\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"184\" cy=\"140\" rx=\"20\" ry=\"20\" fill=\"{{trim}}\"/><ellipse cx=\"184\" cy=\"140\" rx=\"20\" ry=\"20\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"190\" width=\"70\" height=\"38\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"50\" y=\"190\" width=\"70\" height=\"38\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M85 190 L85 228\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"132\" y=\"196\" width=\"70\" height=\"32\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"132\" y=\"196\" width=\"70\" height=\"32\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M167 196 L167 228\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "mall_escalator",
+    "name": "Mall Escalator",
+    "category": "furniture",
+    "size": {
+      "w": 203,
+      "h": 150
+    },
+    "anchors": {
+      "base": [
+        128,
+        246
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#3a3a3a",
+      "accent": "#7fd1ff",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M10 210 L60 210 L190 80 L246 80 L246 120 L200 120 L70 242 L10 242 Z\" fill=\"{{main}}\"/><path d=\"M10 210 L60 210 L190 80 L246 80 L246 120 L200 120 L70 242 L10 242 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 210 L74 210 M70.8 199.2 L84.8 199.2 M81.6 188.4 L95.6 188.4 M92.4 177.6 L106.4 177.6 M103.2 166.8 L117.2 166.8 M114 156 L128 156 M124.80000000000001 145.2 L138.8 145.2 M135.60000000000002 134.39999999999998 L149.60000000000002 134.39999999999998 M146.4 123.6 L160.4 123.6 M157.2 112.8 L171.2 112.8 M168 102 L182 102 M178.8 91.19999999999999 L192.8 91.19999999999999\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M10 184 L54 184 L184 54 L246 54\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M10 184 L54 184 L184 54 L246 54\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 190 L56 190 L186 60 L242 60 L242 76 L190 76 L60 206 L14 206 Z\" fill=\"#cdeeff\" fill-opacity=\"0.4\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/></svg>"
+  },
+  {
+    "id": "mall_food_court_table",
+    "name": "Mall Food Court Table",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 75
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        72
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#c0c6cc",
+      "accent": "#ff8c1a",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"80\" cy=\"58\" rx=\"14\" ry=\"14\" fill=\"{{accent}}\"/><ellipse cx=\"80\" cy=\"58\" rx=\"14\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"140\" y=\"50\" width=\"36\" height=\"22\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"140\" y=\"50\" width=\"36\" height=\"22\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M154 50 L160 30\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 70 L234 70 L246 82 L10 82 Z\" fill=\"{{main}}\"/><path d=\"M22 70 L234 70 L246 82 L10 82 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"82\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"82\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"96\" width=\"20\" height=\"130\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"118\" y=\"96\" width=\"20\" height=\"130\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 242 L196 242 L176 222 L80 222 Z\" fill=\"{{trim}}\"/><path d=\"M60 242 L196 242 L176 222 L80 222 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "product_shelf",
+    "name": "Product Shelf",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#ff8fb8",
+      "accent": "#3d7dd8",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"94\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"32\" y=\"14\" width=\"192\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"32\" y=\"14\" width=\"192\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"26\" width=\"168\" height=\"62\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"44\" y=\"100\" width=\"168\" height=\"62\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"44\" y=\"174\" width=\"168\" height=\"54\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"44\" y=\"88\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"88\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"162\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"162\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"52\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"52\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"48\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"84\" y=\"48\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"148\" y=\"48\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"148\" y=\"48\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"180\" y=\"56\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"52\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"52\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"122\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"84\" y=\"122\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"116\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"148\" y=\"122\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"148\" y=\"122\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"180\" y=\"130\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"52\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"52\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"196\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"84\" y=\"196\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"148\" y=\"196\" width=\"22\" height=\"40\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"148\" y=\"196\" width=\"22\" height=\"40\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"180\" y=\"204\" width=\"22\" height=\"32\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "lipstick_display",
+    "name": "Lipstick Display",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        114
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#c8102e",
+      "accent": "#d4af37",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M20 112 L236 112 L246 122 L10 122 Z\" fill=\"{{main}}\"/><path d=\"M20 112 L236 112 L246 122 L10 122 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"122\" width=\"236\" height=\"130\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"122\" width=\"236\" height=\"130\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"150\" width=\"196\" height=\"70\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"150\" width=\"196\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"28\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"28\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 76 L30 60 C30 54 42 50 42 56 L42 76 Z\" fill=\"{{trim}}\"/><path d=\"M30 76 L30 60 C30 54 42 50 42 56 L42 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"58\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"58\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 76 L60 60 C60 54 72 50 72 56 L72 76 Z\" fill=\"{{trim}}\"/><path d=\"M60 76 L60 60 C60 54 72 50 72 56 L72 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"88\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"88\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 76 L90 60 C90 54 102 50 102 56 L102 76 Z\" fill=\"{{trim}}\"/><path d=\"M90 76 L90 60 C90 54 102 50 102 56 L102 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"118\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 76 L120 60 C120 54 132 50 132 56 L132 76 Z\" fill=\"{{trim}}\"/><path d=\"M120 76 L120 60 C120 54 132 50 132 56 L132 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"148\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"148\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 76 L150 60 C150 54 162 50 162 56 L162 76 Z\" fill=\"{{trim}}\"/><path d=\"M150 76 L150 60 C150 54 162 50 162 56 L162 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"178\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"178\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 76 L180 60 C180 54 192 50 192 56 L192 76 Z\" fill=\"{{trim}}\"/><path d=\"M180 76 L180 60 C180 54 192 50 192 56 L192 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"208\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"208\" y=\"76\" width=\"16\" height=\"34\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M210 76 L210 60 C210 54 222 50 222 56 L222 76 Z\" fill=\"{{trim}}\"/><path d=\"M210 76 L210 60 C210 54 222 50 222 56 L222 76 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M44 186 L212 186\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "grooming_table",
+    "name": "Grooming Table",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 34
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        116
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M190 120 L190 34 L140 34 L140 60\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M190 120 L190 34 L140 34 L140 60\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"128\" y=\"60\" width=\"24\" height=\"10\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"128\" y=\"60\" width=\"24\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 116 L236 116 L246 126 L10 126 Z\" fill=\"{{main}}\"/><path d=\"M20 116 L236 116 L246 126 L10 126 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"126\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"126\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"116\" width=\"216\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"20\" y=\"116\" width=\"216\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 140 L50 240 M206 140 L206 240 M50 200 L206 200\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M50 140 L50 240 M206 140 L206 240 M50 200 L206 200\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"36\" y=\"234\" width=\"30\" height=\"8\" rx=\"3\" fill=\"#3a2a2a\"/><rect x=\"36\" y=\"234\" width=\"30\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"190\" y=\"234\" width=\"30\" height=\"8\" rx=\"3\" fill=\"#3a2a2a\"/><rect x=\"190\" y=\"234\" width=\"30\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cat_tree",
+    "name": "Cat Tree",
+    "category": "furniture",
+    "size": {
+      "w": 40,
+      "h": 90
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        26
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#e9d8c4",
+      "accent": "#ff8fb8",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"52\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"118\" y=\"40\" width=\"20\" height=\"90\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"118\" y=\"40\" width=\"20\" height=\"90\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"120\" width=\"20\" height=\"90\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"118\" y=\"120\" width=\"20\" height=\"90\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 60 L138 66 M118 80 L138 86 M118 140 L138 146 M118 160 L138 166 M118 180 L138 186\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/><rect x=\"78\" y=\"24\" width=\"100\" height=\"20\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"78\" y=\"24\" width=\"100\" height=\"20\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"82\" y=\"112\" width=\"92\" height=\"18\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"82\" y=\"112\" width=\"92\" height=\"18\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"216\" width=\"104\" height=\"26\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"76\" y=\"216\" width=\"104\" height=\"26\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 188 C150 168 178 166 178 188 L178 216 L150 216 Z\" fill=\"{{main}}\"/><path d=\"M150 188 C150 168 178 166 178 188 L178 216 L150 216 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"100\" cy=\"140\" rx=\"10\" ry=\"10\" fill=\"{{accent}}\"/><ellipse cx=\"100\" cy=\"140\" rx=\"10\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 130 L100 116\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "rocking_chair",
+    "name": "Rocking Chair",
+    "category": "furniture",
+    "size": {
+      "w": 45,
+      "h": 55
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#8b5a2b",
+      "trim": "#6b4423",
+      "accent": "#7d9d72",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"92\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M34 232 C80 248 176 248 222 232\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34 232 C80 248 176 248 222 232\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 20 L80 236 M186 20 L176 236\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 20 L80 236 M186 20 L176 236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"74\" y=\"40\" width=\"108\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"74\" y=\"40\" width=\"108\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"74\" y=\"68\" width=\"108\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"74\" y=\"68\" width=\"108\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"74\" y=\"96\" width=\"108\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"74\" y=\"96\" width=\"108\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 20 L180 20\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M76 20 L180 20\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M64 134 L192 134 L200 142 L56 142 Z\" fill=\"{{main}}\"/><path d=\"M64 134 L192 134 L200 142 L56 142 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"142\" width=\"144\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"56\" y=\"142\" width=\"144\" height=\"12\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"126\" width=\"116\" height=\"14\" rx=\"7\" fill=\"{{accent}}\"/><rect x=\"70\" y=\"126\" width=\"116\" height=\"14\" rx=\"7\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M56 150 L70 236 M200 150 L186 236\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M56 150 L70 236 M200 150 L186 236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "card_table",
+    "name": "Card Table",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        152
+      ]
+    },
+    "palette": {
+      "main": "#2f6f4f",
+      "trim": "#9a6a3a",
+      "accent": "#ffffff",
+      "outline": "#1a3f2c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"60\" y=\"126\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"60\" y=\"126\" width=\"20\" height=\"28\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"140\" r=\"4\" fill=\"#3a2a2a\" opacity=\"0.6\"/><rect x=\"90\" y=\"122\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"90\" y=\"122\" width=\"20\" height=\"28\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"136\" r=\"4\" fill=\"#3a2a2a\" opacity=\"0.6\"/><rect x=\"170\" y=\"126\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"170\" y=\"126\" width=\"20\" height=\"28\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"140\" r=\"4\" fill=\"#3a2a2a\" opacity=\"0.6\"/><path d=\"M22 150 L234 150 L246 162 L10 162 Z\" fill=\"{{trim}}\"/><path d=\"M22 150 L234 150 L246 162 L10 162 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"162\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"162\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 152 L232 152 L240 162 L16 162 Z\" fill=\"{{main}}\"/><path d=\"M24 152 L232 152 L240 162 L16 162 Z\" fill=\"url(#L)\"/><rect x=\"24\" y=\"174\" width=\"12\" height=\"68\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"24\" y=\"174\" width=\"12\" height=\"68\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"218\" y=\"174\" width=\"12\" height=\"68\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"218\" y=\"174\" width=\"12\" height=\"68\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "glasses_display",
+    "name": "Glasses Display",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#6f4e37",
+      "accent": "#3d7dd8",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"94\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"32\" y=\"14\" width=\"192\" height=\"228\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"32\" y=\"14\" width=\"192\" height=\"228\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"28\" width=\"168\" height=\"200\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><circle cx=\"74\" cy=\"54\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><circle cx=\"106\" cy=\"54\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><path d=\"M85 54 L95 54\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"150\" cy=\"54\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><circle cx=\"182\" cy=\"54\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><path d=\"M161 54 L171 54\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"74\" cy=\"104\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><circle cx=\"106\" cy=\"104\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><path d=\"M85 104 L95 104\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"150\" cy=\"104\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><circle cx=\"182\" cy=\"104\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><path d=\"M161 104 L171 104\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"74\" cy=\"154\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><circle cx=\"106\" cy=\"154\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><path d=\"M85 154 L95 154\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"150\" cy=\"154\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><circle cx=\"182\" cy=\"154\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><path d=\"M161 154 L171 154\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"74\" cy=\"204\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><circle cx=\"106\" cy=\"204\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{trim}}\" stroke-width=\"4\"/><path d=\"M85 204 L95 204\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"150\" cy=\"204\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><circle cx=\"182\" cy=\"204\" r=\"11\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{accent}}\" stroke-width=\"4\"/><path d=\"M161 204 L171 204\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"70\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"70\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"120\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"120\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"170\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"170\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"220\" width=\"168\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"44\" y=\"220\" width=\"168\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "post_counter",
+    "name": "Post Counter",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        132
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"150\" y=\"108\" width=\"40\" height=\"22\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"150\" y=\"108\" width=\"40\" height=\"22\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"112\" width=\"30\" height=\"18\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"60\" y=\"112\" width=\"30\" height=\"18\" rx=\"2\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"{{main}}\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 180 L132.2 190.2 L143.2 191.1 L134.8 198.2 L137.4 208.9 L128 203.2 L118.6 208.9 L121.2 198.2 L112.8 191.1 L123.8 190.2 Z\" fill=\"{{accent}}\"/><path d=\"M128 180 L132.2 190.2 L143.2 191.1 L134.8 198.2 L137.4 208.9 L128 203.2 L118.6 208.9 L121.2 198.2 L112.8 191.1 L123.8 190.2 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "ticket_booth",
+    "name": "Ticket Booth",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 85
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        152
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"86\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M40 50 L128 12 L216 50 Z\" fill=\"{{trim}}\"/><path d=\"M40 50 L128 12 L216 50 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 50 L70 50 L128 12 Z M100 50 L128 12 L156 50 Z M186 50 L216 50 L128 12 Z\" fill=\"{{main}}\" opacity=\"0.9\"/><rect x=\"50\" y=\"50\" width=\"156\" height=\"192\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"50\" y=\"50\" width=\"156\" height=\"192\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"70\" width=\"116\" height=\"80\" rx=\"6\" fill=\"#cdeeff\"/><rect x=\"70\" y=\"70\" width=\"116\" height=\"80\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 70 L128 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M66 150 L190 150 L196 156 L60 156 Z\" fill=\"{{trim}}\"/><path d=\"M66 150 L190 150 L196 156 L60 156 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"156\" width=\"136\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"60\" y=\"156\" width=\"136\" height=\"10\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"180\" width=\"96\" height=\"40\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"80\" y=\"180\" width=\"96\" height=\"40\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 194 L160 194 M96 206 L140 206\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "school_desk",
+    "name": "School Desk",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        68
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"150\" y=\"60\" width=\"50\" height=\"6\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"150\" y=\"60\" width=\"50\" height=\"6\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"54\" width=\"30\" height=\"12\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"70\" y=\"54\" width=\"30\" height=\"12\" rx=\"2\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M22 66 L234 66 L246 78 L10 78 Z\" fill=\"{{main}}\"/><path d=\"M22 66 L234 66 L246 78 L10 78 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"78\" width=\"236\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"78\" width=\"236\" height=\"12\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"90\" width=\"208\" height=\"40\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"24\" y=\"90\" width=\"208\" height=\"40\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M36 130 L28 242 M220 130 L228 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M36 130 L28 242 M220 130 L228 242\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "playpen",
+    "name": "Playpen",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        222
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#7fd1ff",
+      "accent": "#ff8fb8",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 222 L242 222 L242 236 L14 236 Z\" fill=\"{{accent}}\"/><path d=\"M14 222 L242 222 L242 236 L14 236 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"112\" width=\"236\" height=\"12\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"112\" width=\"236\" height=\"12\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"124\" width=\"224\" height=\"98\" fill=\"#ffffff\" fill-opacity=\"0.35\"/><path d=\"M22 124 L22 222 M37 124 L37 222 M52 124 L52 222 M67 124 L67 222 M82 124 L82 222 M97 124 L97 222 M112 124 L112 222 M127 124 L127 222 M142 124 L142 222 M157 124 L157 222 M172 124 L172 222 M187 124 L187 222 M202 124 L202 222 M217 124 L217 222 M232 124 L232 222\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"70\" cy=\"204\" rx=\"16\" ry=\"16\" fill=\"{{accent}}\"/><ellipse cx=\"70\" cy=\"204\" rx=\"16\" ry=\"16\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"190\" width=\"30\" height=\"30\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"160\" y=\"190\" width=\"30\" height=\"30\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"112\" width=\"14\" height=\"130\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"112\" width=\"14\" height=\"130\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"232\" y=\"112\" width=\"14\" height=\"130\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"232\" y=\"112\" width=\"14\" height=\"130\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "hospital_bed",
+    "name": "Hospital Bed",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 55
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        150
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#a8d5e2",
+      "accent": "#c0c6cc",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M24 108 L24 230 M232 150 L232 230\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 108 L24 230 M232 150 L232 230\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"14\" y=\"104\" width=\"22\" height=\"16\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"14\" y=\"104\" width=\"22\" height=\"16\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"170\" width=\"210\" height=\"22\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"30\" y=\"170\" width=\"210\" height=\"22\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"150\" width=\"202\" height=\"24\" rx=\"12\" fill=\"{{main}}\"/><rect x=\"34\" y=\"150\" width=\"202\" height=\"24\" rx=\"12\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 150 L236 150 L236 172 L90 172 Z\" fill=\"{{trim}}\"/><path d=\"M90 150 L236 150 L236 172 L90 172 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"38\" y=\"132\" width=\"60\" height=\"22\" rx=\"11\" fill=\"{{main}}\"/><rect x=\"38\" y=\"132\" width=\"60\" height=\"22\" rx=\"11\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"232\" r=\"10\" fill=\"#3a2a2a\"/><ellipse cx=\"40\" cy=\"232\" rx=\"5.5\" ry=\"5.5\" fill=\"{{trim}}\"/><ellipse cx=\"40\" cy=\"232\" rx=\"5.5\" ry=\"5.5\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"232\" r=\"1.7999999999999998\" fill=\"#3a2a2a\" opacity=\"0.5\"/><circle cx=\"220\" cy=\"232\" r=\"10\" fill=\"#3a2a2a\"/><ellipse cx=\"220\" cy=\"232\" rx=\"5.5\" ry=\"5.5\" fill=\"{{trim}}\"/><ellipse cx=\"220\" cy=\"232\" rx=\"5.5\" ry=\"5.5\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"220\" cy=\"232\" r=\"1.7999999999999998\" fill=\"#3a2a2a\" opacity=\"0.5\"/><path d=\"M40 192 L40 222 M220 192 L220 222\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 192 L40 222 M220 192 L220 222\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "reception_desk",
+    "name": "Reception Desk",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        144
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#3d7dd8",
+      "accent": "#c0c6cc",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"160\" y=\"112\" width=\"50\" height=\"30\" rx=\"3\" fill=\"#3a2a2a\"/><rect x=\"160\" y=\"112\" width=\"50\" height=\"30\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"116\" width=\"38\" height=\"22\" rx=\"2\" fill=\"#cdeeff\"/><rect x=\"166\" y=\"116\" width=\"38\" height=\"22\" rx=\"2\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 142 L236 142 L246 152 L10 152 Z\" fill=\"{{main}}\"/><path d=\"M20 142 L236 142 L246 152 L10 152 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"152\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"152\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"166\" width=\"224\" height=\"76\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"166\" width=\"224\" height=\"76\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"182\" width=\"196\" height=\"20\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"182\" width=\"196\" height=\"20\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 200 L216 200\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "police_desk",
+    "name": "Police Desk",
+    "category": "furniture",
+    "size": {
+      "w": 80,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        118
+      ]
+    },
+    "palette": {
+      "main": "#1f3d8a",
+      "trim": "#c49a6c",
+      "accent": "#ffd23f",
+      "outline": "#0f1f4a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"40\" y=\"90\" width=\"50\" height=\"26\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"40\" y=\"90\" width=\"50\" height=\"26\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M178 88 L181.7 96.9 L191.3 97.7 L184 103.9 L186.2 113.3 L178 108.3 L169.8 113.3 L172 103.9 L164.7 97.7 L174.3 96.9 Z\" fill=\"{{accent}}\"/><path d=\"M178 88 L181.7 96.9 L191.3 97.7 L184 103.9 L186.2 113.3 L178 108.3 L169.8 113.3 L172 103.9 L164.7 97.7 L174.3 96.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 116 L236 116 L246 126 L10 126 Z\" fill=\"{{main}}\"/><path d=\"M20 116 L236 116 L246 126 L10 126 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"126\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"126\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"140\" width=\"224\" height=\"102\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"16\" y=\"140\" width=\"224\" height=\"102\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"156\" width=\"196\" height=\"46\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"156\" width=\"196\" height=\"46\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 170 L133.3 182.7 L147 183.8 L136.6 192.8 L139.8 206.2 L128 199 L116.2 206.2 L119.4 192.8 L109 183.8 L122.7 182.7 Z\" fill=\"{{accent}}\"/><path d=\"M128 170 L133.3 182.7 L147 183.8 L136.6 192.8 L139.8 206.2 L128 199 L116.2 206.2 L119.4 192.8 L109 183.8 L122.7 182.7 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "checkout_till",
+    "name": "Checkout Till",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        190,
+        152
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#3a3a3a",
+      "accent": "#7ed957",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"40\" y=\"80\" width=\"80\" height=\"40\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"40\" y=\"80\" width=\"80\" height=\"40\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"86\" width=\"60\" height=\"18\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"50\" y=\"86\" width=\"60\" height=\"18\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"120\" width=\"100\" height=\"30\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"120\" width=\"100\" height=\"30\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M42 132 h12 M64 132 h12 M86 132 h12\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 150 L236 150 L246 160 L10 160 Z\" fill=\"{{main}}\"/><path d=\"M20 150 L236 150 L246 160 L10 160 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"160\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"160\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"174\" width=\"224\" height=\"68\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"174\" width=\"224\" height=\"68\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"160\" width=\"90\" height=\"6\" rx=\"2\" fill=\"#3a2a2a\"/><rect x=\"150\" y=\"160\" width=\"90\" height=\"6\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"0.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "hotel_front_desk",
+    "name": "Hotel Front Desk",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#8b5a2b",
+      "trim": "#d4af37",
+      "accent": "#f2f2f2",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"190\" cy=\"116\" rx=\"12\" ry=\"12\" fill=\"{{trim}}\"/><ellipse cx=\"190\" cy=\"116\" rx=\"12\" ry=\"12\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M190 104 L190 98\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"50\" y=\"112\" width=\"50\" height=\"16\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"50\" y=\"112\" width=\"50\" height=\"16\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 128 L236 128 L246 138 L10 138 Z\" fill=\"{{main}}\"/><path d=\"M20 128 L236 128 L246 138 L10 138 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"138\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"138\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"152\" width=\"224\" height=\"90\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"152\" width=\"224\" height=\"90\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"168\" width=\"196\" height=\"34\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"168\" width=\"196\" height=\"34\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 172 L226 172\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 190 L132.2 200.2 L143.2 201.1 L134.8 208.2 L137.4 218.9 L128 213.2 L118.6 218.9 L121.2 208.2 L112.8 201.1 L123.8 200.2 Z\" fill=\"{{trim}}\"/><path d=\"M128 190 L132.2 200.2 L143.2 201.1 L134.8 208.2 L137.4 218.9 L128 213.2 L118.6 218.9 L121.2 208.2 L112.8 201.1 L123.8 200.2 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "canopy_bed",
+    "name": "Canopy Bed",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 110
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        166
+      ]
+    },
+    "palette": {
+      "main": "#f2d0d6",
+      "trim": "#ffffff",
+      "accent": "#c49a6c",
+      "outline": "#8a4a5a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"106\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M32 20 L32 242 M224 20 L224 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M32 20 L32 242 M224 20 L224 242\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 14 L234 14 L234 34 L22 34 Z\" fill=\"{{main}}\"/><path d=\"M22 14 L234 14 L234 34 L22 34 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M34 34 C40 80 50 120 62 160 L44 160 C38 120 34 80 34 34 Z M222 34 C216 80 206 120 194 160 L212 160 C218 120 222 80 222 34 Z\" fill=\"{{main}}\"/><path d=\"M34 34 C40 80 50 120 62 160 L44 160 C38 120 34 80 34 34 Z M222 34 C216 80 206 120 194 160 L212 160 C218 120 222 80 222 34 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"36\" y=\"120\" width=\"22\" height=\"110\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"36\" y=\"120\" width=\"22\" height=\"110\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"184\" width=\"180\" height=\"30\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"40\" y=\"184\" width=\"180\" height=\"30\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"42\" y=\"166\" width=\"176\" height=\"24\" rx=\"12\" fill=\"{{trim}}\"/><rect x=\"42\" y=\"166\" width=\"176\" height=\"24\" rx=\"12\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 166 L218 166 L218 194 L90 194 Z\" fill=\"{{main}}\"/><path d=\"M90 166 L218 166 L218 194 L90 194 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"48\" y=\"150\" width=\"50\" height=\"20\" rx=\"10\" fill=\"{{trim}}\"/><rect x=\"48\" y=\"150\" width=\"50\" height=\"20\" rx=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "office_desk",
+    "name": "Office Desk",
+    "category": "furniture",
+    "size": {
+      "w": 80,
+      "h": 55
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#3a3a3a",
+      "accent": "#7fd1ff",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"100\" y=\"62\" width=\"70\" height=\"50\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"100\" y=\"62\" width=\"70\" height=\"50\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"106\" y=\"68\" width=\"58\" height=\"38\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"106\" y=\"68\" width=\"58\" height=\"38\" rx=\"2\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"126\" y=\"112\" width=\"18\" height=\"14\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"126\" y=\"112\" width=\"18\" height=\"14\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"124\" width=\"78\" height=\"6\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"96\" y=\"124\" width=\"78\" height=\"6\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 128 L236 128 L246 138 L10 138 Z\" fill=\"{{main}}\"/><path d=\"M20 128 L236 128 L246 138 L10 138 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"138\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"138\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"18\" y=\"152\" width=\"70\" height=\"90\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"18\" y=\"152\" width=\"70\" height=\"90\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 196 L82 196\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><rect x=\"220\" y=\"152\" width=\"18\" height=\"90\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"220\" y=\"152\" width=\"18\" height=\"90\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "office_chair",
+    "name": "Office Chair",
+    "category": "furniture",
+    "size": {
+      "w": 30,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        134
+      ]
+    },
+    "palette": {
+      "main": "#3a3a3a",
+      "trim": "#c0c6cc",
+      "accent": "#3d7dd8",
+      "outline": "#1a1a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"70\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"70\" y=\"20\" width=\"116\" height=\"110\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"70\" y=\"20\" width=\"116\" height=\"110\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"128\" width=\"16\" height=\"40\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"120\" y=\"128\" width=\"16\" height=\"40\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"132\" width=\"128\" height=\"28\" rx=\"10\" fill=\"{{main}}\"/><rect x=\"64\" y=\"132\" width=\"128\" height=\"28\" rx=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M64 150 L60 116 M192 150 L196 116\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M64 150 L60 116 M192 150 L196 116\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"120\" y=\"160\" width=\"16\" height=\"50\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"120\" y=\"160\" width=\"16\" height=\"50\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 210 L64 228 M128 210 L192 228 M128 210 L128 232\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 210 L64 228 M128 210 L192 228 M128 210 L128 232\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"64\" cy=\"234\" r=\"8\" fill=\"#3a2a2a\"/><ellipse cx=\"64\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"{{trim}}\"/><ellipse cx=\"64\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"64\" cy=\"234\" r=\"1.44\" fill=\"#3a2a2a\" opacity=\"0.5\"/><circle cx=\"128\" cy=\"234\" r=\"8\" fill=\"#3a2a2a\"/><ellipse cx=\"128\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"128\" cy=\"234\" r=\"1.44\" fill=\"#3a2a2a\" opacity=\"0.5\"/><circle cx=\"192\" cy=\"234\" r=\"8\" fill=\"#3a2a2a\"/><ellipse cx=\"192\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"{{trim}}\"/><ellipse cx=\"192\" cy=\"234\" rx=\"4.4\" ry=\"4.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"192\" cy=\"234\" r=\"1.44\" fill=\"#3a2a2a\" opacity=\"0.5\"/></svg>"
+  },
+  {
+    "id": "fruit_stand",
+    "name": "Fruit Stand",
+    "category": "furniture",
+    "size": {
+      "w": 80,
+      "h": 55
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        148
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#e63946",
+      "accent": "#ffd23f",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M24 82 L24 150 M232 82 L232 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 82 L24 150 M232 82 L232 150\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 82 L242 82 L232 104 L24 104 Z\" fill=\"{{trim}}\"/><path d=\"M14 82 L242 82 L232 104 L24 104 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 104 L44 114 L64 104 L84 114 L104 104 L124 114 L144 104 L164 114 L184 104 L204 114 L224 104 Z\" fill=\"#ffffff\"/><ellipse cx=\"40\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"{{trim}}\"/><ellipse cx=\"40\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"62\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"{{trim}}\"/><ellipse cx=\"62\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"86\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"{{accent}}\"/><ellipse cx=\"86\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"108\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"{{accent}}\"/><ellipse cx=\"108\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"140\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"#ffffff\"/><ellipse cx=\"140\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"162\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"{{trim}}\"/><ellipse cx=\"162\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"190\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"{{accent}}\"/><ellipse cx=\"190\" cy=\"136\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"212\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"{{accent}}\"/><ellipse cx=\"212\" cy=\"140\" rx=\"11\" ry=\"11\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M26 146 L230 146 L240 156 L16 156 Z\" fill=\"{{main}}\"/><path d=\"M26 146 L230 146 L240 156 L16 156 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"156\" width=\"224\" height=\"18\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"16\" y=\"156\" width=\"224\" height=\"18\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"174\" width=\"204\" height=\"68\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"26\" y=\"174\" width=\"204\" height=\"68\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 194 L226 194 M30 216 L226 216\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.2\"/></svg>"
+  },
+  {
+    "id": "pool_lounger",
+    "name": "Sun Lounger",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        100,
+        196
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#3d7dd8",
+      "accent": "#c0c6cc",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 196 L170 196 L230 148 L242 156 L184 210 L14 210 Z\" fill=\"{{main}}\"/><path d=\"M14 196 L170 196 L230 148 L242 156 L184 210 L14 210 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 198 L30 208 M60 198 L60 208 M90 198 L90 208 M120 198 L120 208 M150 198 L150 208 M190 178 L198 184 M212 160 L220 166\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><path d=\"M30 210 L24 240 M170 210 L178 240\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M30 210 L24 240 M170 210 L178 240\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "check_in_desk",
+    "name": "Check-In Desk",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        132
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"170\" y=\"100\" width=\"54\" height=\"30\" rx=\"3\" fill=\"#3a2a2a\"/><rect x=\"170\" y=\"100\" width=\"54\" height=\"30\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"176\" y=\"104\" width=\"42\" height=\"22\" rx=\"2\" fill=\"#cdeeff\"/><rect x=\"176\" y=\"104\" width=\"42\" height=\"22\" rx=\"2\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"112\" width=\"60\" height=\"18\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"112\" width=\"60\" height=\"18\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"{{main}}\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 186 L88 194 L96 184 L102 186 L96 198 L110 202 L108 206 L94 204 L84 216 L78 214 L82 202 L58 194 Z\" fill=\"{{accent}}\"/><path d=\"M60 186 L88 194 L96 184 L102 186 L96 198 L110 202 L108 206 L94 204 L84 216 L78 214 L82 202 L58 194 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "first_class_seat",
+    "name": "First Class Seat",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        146
+      ]
+    },
+    "palette": {
+      "main": "#3a3a46",
+      "trim": "#c0c6cc",
+      "accent": "#d4af37",
+      "outline": "#1a1a22"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"94\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M52 150 L52 28 C52 14 64 14 78 14 L178 14 C192 14 204 14 204 28 L204 150 Z\" fill=\"{{main}}\"/><path d=\"M52 150 L52 28 C52 14 64 14 78 14 L178 14 C192 14 204 14 204 28 L204 150 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"49\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"{{main}}\"/><ellipse cx=\"49\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"207\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"{{main}}\"/><ellipse cx=\"207\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"144\" width=\"128\" height=\"34\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"64\" y=\"144\" width=\"128\" height=\"34\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"38\" y=\"176\" width=\"180\" height=\"52\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"38\" y=\"176\" width=\"180\" height=\"52\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"44\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"200\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"200\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"86\" y=\"30\" width=\"84\" height=\"26\" rx=\"10\" fill=\"{{trim}}\"/><rect x=\"86\" y=\"30\" width=\"84\" height=\"26\" rx=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M62 140 L194 140\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "backpack_shelf",
+    "name": "Backpack Shelf",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 80
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#5a3a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"26\" y=\"14\" width=\"204\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"26\" y=\"14\" width=\"204\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"38\" y=\"26\" width=\"180\" height=\"96\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"38\" y=\"134\" width=\"180\" height=\"96\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"38\" y=\"122\" width=\"180\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"38\" y=\"122\" width=\"180\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"38\" y=\"230\" width=\"180\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"38\" y=\"230\" width=\"180\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 70 C50 50 120 50 120 70 L120 122 L50 122 Z\" fill=\"{{trim}}\"/><path d=\"M50 70 C50 50 120 50 120 70 L120 122 L50 122 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"92\" width=\"42\" height=\"24\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"64\" y=\"92\" width=\"42\" height=\"24\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 70 C128 50 198 50 198 70 L198 122 L128 122 Z\" fill=\"{{accent}}\"/><path d=\"M128 70 C128 50 198 50 198 70 L198 122 L128 122 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"142\" y=\"92\" width=\"42\" height=\"24\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"142\" y=\"92\" width=\"42\" height=\"24\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 178 C50 158 120 158 120 178 L120 230 L50 230 Z\" fill=\"{{accent}}\"/><path d=\"M50 178 C50 158 120 158 120 178 L120 230 L50 230 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"200\" width=\"42\" height=\"24\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"64\" y=\"200\" width=\"42\" height=\"24\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 178 C128 158 198 158 198 178 L198 230 L128 230 Z\" fill=\"{{trim}}\"/><path d=\"M128 178 C128 158 198 158 198 178 L198 230 L128 230 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"142\" y=\"200\" width=\"42\" height=\"24\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"142\" y=\"200\" width=\"42\" height=\"24\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "stadium_seats",
+    "name": "Stadium Seats",
+    "category": "furniture",
+    "size": {
+      "w": 120,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        186
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#c0c6cc",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"10\" y=\"200\" width=\"236\" height=\"42\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"200\" width=\"236\" height=\"42\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 196 L20 156 C20 146 62 146 62 156 L62 196 Z\" fill=\"{{main}}\"/><path d=\"M20 196 L20 156 C20 146 62 146 62 156 L62 196 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"16\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M78 196 L78 156 C78 146 120 146 120 156 L120 196 Z\" fill=\"{{main}}\"/><path d=\"M78 196 L78 156 C78 146 120 146 120 156 L120 196 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"74\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"74\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M136 196 L136 156 C136 146 178 146 178 156 L178 196 Z\" fill=\"{{main}}\"/><path d=\"M136 196 L136 156 C136 146 178 146 178 156 L178 196 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"132\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"132\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M194 196 L194 156 C194 146 236 146 236 156 L236 196 Z\" fill=\"{{main}}\"/><path d=\"M194 196 L194 156 C194 146 236 146 236 156 L236 196 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"190\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"190\" y=\"184\" width=\"50\" height=\"16\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bar_counter",
+    "name": "Bar Counter",
+    "category": "furniture",
+    "size": {
+      "w": 110,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        140
+      ]
+    },
+    "palette": {
+      "main": "#8b5a2b",
+      "trim": "#d4af37",
+      "accent": "#cdeeff",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M40 106 L60 106 L54 130 L46 130 Z\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><path d=\"M70 112 L90 112 L84 136 L76 136 Z\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><path d=\"M176 108 L196 108 L190 132 L182 132 Z\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><path d=\"M204 112 L224 112 L218 136 L210 136 Z\" fill=\"#cdeeff\" fill-opacity=\"0.6\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><path d=\"M20 138 L236 138 L246 148 L10 148 Z\" fill=\"{{main}}\"/><path d=\"M20 138 L236 138 L246 148 L10 148 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"148\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"148\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"162\" width=\"224\" height=\"80\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"162\" width=\"224\" height=\"80\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"178\" width=\"196\" height=\"24\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"178\" width=\"196\" height=\"24\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 180 L226 180\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M16 230 L240 230\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M16 230 L240 230\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "dining_table_set",
+    "name": "Dining Table",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        142
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#f2f2f2",
+      "accent": "#e63946",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"14\" y=\"130\" width=\"12\" height=\"112\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"14\" y=\"130\" width=\"12\" height=\"112\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"230\" y=\"130\" width=\"12\" height=\"112\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"230\" y=\"130\" width=\"12\" height=\"112\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 186 L48 186 L52 190 L20 190 Z\" fill=\"{{main}}\"/><path d=\"M24 186 L48 186 L52 190 L20 190 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"190\" width=\"32\" height=\"8\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"20\" y=\"190\" width=\"32\" height=\"8\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M208 186 L232 186 L236 190 L204 190 Z\" fill=\"{{main}}\"/><path d=\"M208 186 L232 186 L236 190 L204 190 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"204\" y=\"190\" width=\"32\" height=\"8\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"204\" y=\"190\" width=\"32\" height=\"8\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"100\" cy=\"136\" rx=\"20\" ry=\"6\" fill=\"{{trim}}\"/><ellipse cx=\"100\" cy=\"136\" rx=\"20\" ry=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"160\" cy=\"136\" rx=\"20\" ry=\"6\" fill=\"{{trim}}\"/><ellipse cx=\"160\" cy=\"136\" rx=\"20\" ry=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"124\" y=\"116\" width=\"8\" height=\"20\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"124\" y=\"116\" width=\"8\" height=\"20\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M56 140 L200 140 L210 150 L46 150 Z\" fill=\"{{main}}\"/><path d=\"M56 140 L200 140 L210 150 L46 150 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"46\" y=\"150\" width=\"164\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"46\" y=\"150\" width=\"164\" height=\"12\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"164\" width=\"10\" height=\"78\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"56\" y=\"164\" width=\"10\" height=\"78\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"188\" y=\"164\" width=\"10\" height=\"78\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"188\" y=\"164\" width=\"10\" height=\"78\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "grand_piano",
+    "name": "Grand Piano",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        64
+      ]
+    },
+    "palette": {
+      "main": "#1a1a1a",
+      "trim": "#ffffff",
+      "accent": "#d4af37",
+      "outline": "#000000"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 110 L120 62 L170 40 C210 30 244 60 236 100 L230 130 L30 130 Z\" fill=\"{{main}}\"/><path d=\"M30 110 L120 62 L170 40 C210 30 244 60 236 100 L230 130 L30 130 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 62 L150 110\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M120 62 L150 110\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"24\" y=\"126\" width=\"212\" height=\"40\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"24\" y=\"126\" width=\"212\" height=\"40\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"166\" width=\"120\" height=\"16\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"40\" y=\"166\" width=\"120\" height=\"16\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M48 166 L48 176 M56 166 L56 176 M64 166 L64 176 M72 166 L72 176 M80 166 L80 176 M88 166 L88 176 M96 166 L96 176 M104 166 L104 176 M112 166 L112 176 M120 166 L120 176 M128 166 L128 176 M136 166 L136 176 M144 166 L144 176 M152 166 L152 176\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 166 L40 242 M216 166 L216 242 M150 182 L150 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 166 L40 242 M216 166 L216 242 M150 182 L150 242\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"110\" y=\"220\" width=\"30\" height=\"8\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"110\" y=\"220\" width=\"30\" height=\"8\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "mushroom_stool",
+    "name": "Mushroom Stool",
+    "category": "furniture",
+    "size": {
+      "w": 20,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        30
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#f2ece4",
+      "accent": "#ffffff",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"80\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M88 236 L96 120 L160 120 L168 236 Z\" fill=\"{{trim}}\"/><path d=\"M88 236 L96 120 L160 120 L168 236 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M16 128 C16 60 66 16 128 16 C190 16 240 60 240 128 C200 140 56 140 16 128 Z\" fill=\"{{main}}\"/><path d=\"M16 128 C16 60 66 16 128 16 C190 16 240 60 240 128 C200 140 56 140 16 128 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"70\" cy=\"60\" rx=\"14\" ry=\"11.200000000000001\" fill=\"#ffffff\"/><ellipse cx=\"70\" cy=\"60\" rx=\"14\" ry=\"11.200000000000001\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"130\" cy=\"40\" rx=\"12\" ry=\"9.600000000000001\" fill=\"#ffffff\"/><ellipse cx=\"130\" cy=\"40\" rx=\"12\" ry=\"9.600000000000001\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"186\" cy=\"70\" rx=\"16\" ry=\"12.8\" fill=\"#ffffff\"/><ellipse cx=\"186\" cy=\"70\" rx=\"16\" ry=\"12.8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"104\" cy=\"96\" rx=\"10\" ry=\"8\" fill=\"#ffffff\"/><ellipse cx=\"104\" cy=\"96\" rx=\"10\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"160\" cy=\"108\" rx=\"9\" ry=\"7.2\" fill=\"#ffffff\"/><ellipse cx=\"160\" cy=\"108\" rx=\"9\" ry=\"7.2\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"44\" cy=\"104\" rx=\"8\" ry=\"6.4\" fill=\"#ffffff\"/><ellipse cx=\"44\" cy=\"104\" rx=\"8\" ry=\"6.4\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "sweet_counter",
+    "name": "Sweet Counter",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        132
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"92\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#cdeeff\" fill-opacity=\"0.5\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><circle cx=\"40\" cy=\"122\" r=\"5\" fill=\"{{accent}}\"/><circle cx=\"48\" cy=\"114\" r=\"5\" fill=\"{{accent}}\"/><circle cx=\"56\" cy=\"122\" r=\"5\" fill=\"{{accent}}\"/><rect x=\"80\" y=\"90\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#cdeeff\" fill-opacity=\"0.5\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><circle cx=\"90\" cy=\"120\" r=\"5\" fill=\"{{trim}}\"/><circle cx=\"98\" cy=\"112\" r=\"5\" fill=\"{{trim}}\"/><circle cx=\"106\" cy=\"120\" r=\"5\" fill=\"{{trim}}\"/><rect x=\"140\" y=\"92\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#cdeeff\" fill-opacity=\"0.5\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><circle cx=\"150\" cy=\"122\" r=\"5\" fill=\"{{accent}}\"/><circle cx=\"158\" cy=\"114\" r=\"5\" fill=\"{{accent}}\"/><circle cx=\"166\" cy=\"122\" r=\"5\" fill=\"{{accent}}\"/><rect x=\"190\" y=\"90\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#cdeeff\" fill-opacity=\"0.5\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"120\" r=\"5\" fill=\"#7fd1ff\"/><circle cx=\"208\" cy=\"112\" r=\"5\" fill=\"#7fd1ff\"/><circle cx=\"216\" cy=\"120\" r=\"5\" fill=\"#7fd1ff\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"{{main}}\"/><path d=\"M20 130 L236 130 L246 140 L10 140 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"140\" width=\"236\" height=\"14\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"154\" width=\"224\" height=\"88\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"30\" y=\"170\" width=\"196\" height=\"32\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 172 C60 182 90 162 120 172 C150 182 180 162 226 172\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "filing_cabinet",
+    "name": "Filing Cabinet",
+    "category": "furniture",
+    "size": {
+      "w": 30,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#3a3a3a",
+      "accent": "#ffffff",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"60\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"70\" y=\"14\" width=\"116\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"70\" y=\"14\" width=\"116\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"78\" y=\"20\" width=\"100\" height=\"50\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"78\" y=\"20\" width=\"100\" height=\"50\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"32\" width=\"36\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"110\" y=\"32\" width=\"36\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"48\" width=\"24\" height=\"12\" rx=\"1\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"48\" width=\"24\" height=\"12\" rx=\"1\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"0.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"78\" y=\"76\" width=\"100\" height=\"50\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"78\" y=\"76\" width=\"100\" height=\"50\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"88\" width=\"36\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"110\" y=\"88\" width=\"36\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"104\" width=\"24\" height=\"12\" rx=\"1\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"104\" width=\"24\" height=\"12\" rx=\"1\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"0.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"78\" y=\"132\" width=\"100\" height=\"50\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"78\" y=\"132\" width=\"100\" height=\"50\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"144\" width=\"36\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"110\" y=\"144\" width=\"36\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"160\" width=\"24\" height=\"12\" rx=\"1\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"160\" width=\"24\" height=\"12\" rx=\"1\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"0.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"78\" y=\"188\" width=\"100\" height=\"50\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"78\" y=\"188\" width=\"100\" height=\"50\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"200\" width=\"36\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"110\" y=\"200\" width=\"36\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"216\" width=\"24\" height=\"12\" rx=\"1\" fill=\"{{accent}}\"/><rect x=\"116\" y=\"216\" width=\"24\" height=\"12\" rx=\"1\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"0.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "garden_bench",
+    "name": "Garden Bench",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        174
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#3a3a3a",
+      "accent": "#7ed957",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M24 110 C24 180 24 200 20 240 M232 110 C232 180 232 200 236 240\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 110 C24 180 24 200 20 240 M232 110 C232 180 232 200 236 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"30\" y=\"116\" width=\"196\" height=\"14\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"116\" width=\"196\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"138\" width=\"196\" height=\"14\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"30\" y=\"138\" width=\"196\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M22 172 L234 172 L242 180 L14 180 Z\" fill=\"{{main}}\"/><path d=\"M22 172 L234 172 L242 180 L14 180 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"180\" width=\"228\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"14\" y=\"180\" width=\"228\" height=\"12\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 186 C40 200 40 220 34 240 M232 186 C216 200 216 220 222 240\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 186 C40 200 40 220 34 240 M232 186 C216 200 216 220 222 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "cloud_bench",
+    "name": "Cloud Bench",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        194
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#cdeeff",
+      "accent": "#ffd23f",
+      "outline": "#7a8ea8"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M43 193 C15.400000000000002 193 24.599999999999998 160.8 52.2 165.4 C85.5 128.6 128 128.6 136.5 151.6 C170.5 124 213 142.4 208.4 165.4 C236 165.4 236 193 213 193 Z\" fill=\"{{main}}\"/><path d=\"M43 193 C15.400000000000002 193 24.599999999999998 160.8 52.2 165.4 C85.5 128.6 128 128.6 136.5 151.6 C170.5 124 213 142.4 208.4 165.4 C236 165.4 236 193 213 193 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M28 229 C10 229 16 208 34 211 C78 187 128 187 138 202 C178 184 228 196 225 211 C243 211 243 229 228 229 Z\" fill=\"{{main}}\"/><path d=\"M28 229 C10 229 16 208 34 211 C78 187 128 187 138 202 C178 184 228 196 225 211 C243 211 243 229 228 229 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 150 L72.6 156.4 L79.5 156.9 L74.3 161.4 L75.9 168.1 L70 164.5 L64.1 168.1 L65.7 161.4 L60.5 156.9 L67.4 156.4 Z\" fill=\"{{accent}}\"/><path d=\"M70 150 L72.6 156.4 L79.5 156.9 L74.3 161.4 L75.9 168.1 L70 164.5 L64.1 168.1 L65.7 161.4 L60.5 156.9 L67.4 156.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M186 146 L188.6 152.4 L195.5 152.9 L190.3 157.4 L191.9 164.1 L186 160.5 L180.1 164.1 L181.7 157.4 L176.5 152.9 L183.4 152.4 Z\" fill=\"{{accent}}\"/><path d=\"M186 146 L188.6 152.4 L195.5 152.9 L190.3 157.4 L191.9 164.1 L186 160.5 L180.1 164.1 L181.7 157.4 L176.5 152.9 L183.4 152.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"40\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"204\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"204\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "driftwood_bench",
+    "name": "Driftwood Bench",
+    "category": "furniture",
+    "size": {
+      "w": 60,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        172
+      ]
+    },
+    "palette": {
+      "main": "#b8a088",
+      "trim": "#8a7058",
+      "accent": "#f2ece4",
+      "outline": "#5a4a3a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M10 176 C40 166 90 172 128 168 C170 164 220 170 246 178 L246 196 C210 202 160 196 128 200 C90 204 40 198 10 196 Z\" fill=\"{{main}}\"/><path d=\"M10 176 C40 166 90 172 128 168 C170 164 220 170 246 178 L246 196 C210 202 160 196 128 200 C90 204 40 198 10 196 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 184 C60 180 100 186 140 182 M150 190 C190 186 220 192 240 188\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.7\"/><path d=\"M30 196 L50 196 C56 214 48 232 54 242 L24 242 C30 230 24 214 30 196 Z\" fill=\"{{main}}\"/><path d=\"M30 196 L50 196 C56 214 48 232 54 242 L24 242 C30 230 24 214 30 196 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M206 198 L226 198 C232 216 224 232 230 242 L200 242 C206 230 200 216 206 198 Z\" fill=\"{{main}}\"/><path d=\"M206 198 L226 198 C232 216 224 232 230 242 L200 242 C206 230 200 216 206 198 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cosy_hammock",
+    "name": "Hammock",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        188
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#ffffff",
+      "accent": "#9a6a3a",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 120 L14 242 M242 120 L242 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 120 L14 242 M242 120 L242 242\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 128 L50 168 M242 128 L206 168\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 160 C70 226 186 226 216 160 C176 196 80 196 40 160 Z\" fill=\"{{main}}\"/><path d=\"M40 160 C70 226 186 226 216 160 C176 196 80 196 40 160 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 176 C90 204 166 204 196 176 M80 190 C110 210 146 210 176 190\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"56\" y=\"156\" width=\"40\" height=\"20\" rx=\"10\" fill=\"{{trim}}\"/><rect x=\"56\" y=\"156\" width=\"40\" height=\"20\" rx=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "velvet_sofa",
+    "name": "Velvet Sofa",
+    "category": "furniture",
+    "size": {
+      "w": 100,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        172
+      ]
+    },
+    "palette": {
+      "main": "#7b2d52",
+      "trim": "#d4af37",
+      "accent": "#e9a3c9",
+      "outline": "#3e1429"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M32 176 L32 142 C32 128 44 128 58 128 L198 128 C212 128 224 128 224 142 L224 176 Z\" fill=\"{{main}}\"/><path d=\"M32 176 L32 142 C32 128 44 128 58 128 L198 128 C212 128 224 128 224 142 L224 176 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"29\" cy=\"186\" rx=\"15\" ry=\"22.5\" fill=\"{{main}}\"/><ellipse cx=\"29\" cy=\"186\" rx=\"15\" ry=\"22.5\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"227\" cy=\"186\" rx=\"15\" ry=\"22.5\" fill=\"{{main}}\"/><ellipse cx=\"227\" cy=\"186\" rx=\"15\" ry=\"22.5\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"170\" width=\"168\" height=\"34\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"44\" y=\"170\" width=\"168\" height=\"34\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"18\" y=\"202\" width=\"220\" height=\"26\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"18\" y=\"202\" width=\"220\" height=\"26\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"24\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"220\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"220\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"64\" cy=\"150\" r=\"3\" fill=\"#3a2a2a\" opacity=\"0.3\"/><circle cx=\"128\" cy=\"150\" r=\"3\" fill=\"#3a2a2a\" opacity=\"0.3\"/><circle cx=\"192\" cy=\"150\" r=\"3\" fill=\"#3a2a2a\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "gift_cabinet",
+    "name": "Gift Cabinet",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#e63946",
+      "accent": "#ffd23f",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"86\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"46\" y=\"14\" width=\"164\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"46\" y=\"14\" width=\"164\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"58\" y=\"26\" width=\"140\" height=\"92\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"58\" y=\"132\" width=\"140\" height=\"92\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"58\" y=\"118\" width=\"140\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"58\" y=\"118\" width=\"140\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"58\" y=\"224\" width=\"140\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"58\" y=\"224\" width=\"140\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"66\" y=\"70\" width=\"50\" height=\"48\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"66\" y=\"70\" width=\"50\" height=\"48\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M91 70 L91 118\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"124\" y=\"84\" width=\"40\" height=\"34\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"124\" y=\"84\" width=\"40\" height=\"34\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M144 84 L144 118\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"170\" y=\"94\" width=\"24\" height=\"24\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"170\" y=\"94\" width=\"24\" height=\"24\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M182 94 L182 118\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"70\" y=\"186\" width=\"36\" height=\"38\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"70\" y=\"186\" width=\"36\" height=\"38\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M88 186 L88 224\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"114\" y=\"170\" width=\"60\" height=\"54\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"114\" y=\"170\" width=\"60\" height=\"54\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M144 170 L144 224\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/></svg>"
+  },
+  {
+    "id": "tea_table",
+    "name": "Tea Table",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        138
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#ffffff",
+      "accent": "#3d7dd8",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M100 108 C100 90 156 90 156 108 L150 136 L106 136 Z\" fill=\"{{trim}}\"/><path d=\"M100 108 C100 90 156 90 156 108 L150 136 L106 136 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M156 110 C176 110 176 128 154 128\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"128\" cy=\"92\" rx=\"16\" ry=\"4\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"92\" rx=\"16\" ry=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"86\" rx=\"5\" ry=\"5\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"86\" rx=\"5\" ry=\"5\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"60\" cy=\"132\" rx=\"20\" ry=\"5\" fill=\"{{trim}}\"/><ellipse cx=\"60\" cy=\"132\" rx=\"20\" ry=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"196\" cy=\"132\" rx=\"20\" ry=\"5\" fill=\"{{trim}}\"/><ellipse cx=\"196\" cy=\"132\" rx=\"20\" ry=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 136 L236 136 L246 146 L10 146 Z\" fill=\"{{main}}\"/><path d=\"M20 136 L236 136 L246 146 L10 146 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"146\" width=\"236\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"10\" y=\"146\" width=\"236\" height=\"12\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 158 C30 200 20 220 26 242 M226 158 C226 200 236 220 230 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M30 158 C30 200 20 220 26 242 M226 158 C226 200 236 220 230 242\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "window_seat",
+    "name": "Window Seat",
+    "category": "furniture",
+    "size": {
+      "w": 80,
+      "h": 70
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        152
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#7aa6c9",
+      "accent": "#ff9ec0",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"40\" width=\"196\" height=\"120\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"30\" y=\"40\" width=\"196\" height=\"120\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"52\" width=\"168\" height=\"100\" rx=\"3\" fill=\"#cdeeff\"/><rect x=\"44\" y=\"52\" width=\"168\" height=\"100\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 52 L128 152 M44 102 L212 102\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M60 64 L90 94 M150 64 L180 94\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/><rect x=\"14\" y=\"158\" width=\"228\" height=\"30\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"14\" y=\"158\" width=\"228\" height=\"30\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"24\" y=\"150\" width=\"208\" height=\"24\" rx=\"12\" fill=\"{{trim}}\"/><rect x=\"24\" y=\"150\" width=\"208\" height=\"24\" rx=\"12\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"124\" width=\"50\" height=\"34\" rx=\"16\" fill=\"{{accent}}\"/><rect x=\"40\" y=\"124\" width=\"50\" height=\"34\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"184\" width=\"216\" height=\"58\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"20\" y=\"184\" width=\"216\" height=\"58\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 188 L128 238\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/></svg>"
+  },
+  {
+    "id": "toffee_bench",
+    "name": "Toffee Bench",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        166
+      ]
+    },
+    "palette": {
+      "main": "#c87f3a",
+      "trim": "#f2d0a6",
+      "accent": "#ff8fb8",
+      "outline": "#5a3010"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"10\" y=\"164\" width=\"236\" height=\"36\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"10\" y=\"164\" width=\"236\" height=\"36\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 176 C60 170 90 182 120 176 C150 170 180 182 226 176\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M30 200 L70 200 L66 242 L34 242 Z M186 200 L226 200 L222 242 L190 242 Z\" fill=\"{{main}}\"/><path d=\"M30 200 L70 200 L66 242 L34 242 Z M186 200 L226 200 L222 242 L190 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "wheelchair",
+    "name": "Wheelchair",
+    "category": "furniture",
+    "size": {
+      "w": 40,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        126
+      ]
+    },
+    "palette": {
+      "main": "#3a3a3a",
+      "trim": "#c0c6cc",
+      "accent": "#3d7dd8",
+      "outline": "#1a1a1a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M70 20 L70 150 M70 26 L44 26\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 20 L70 150 M70 26 L44 26\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"76\" y=\"40\" width=\"22\" height=\"100\" rx=\"16\" fill=\"{{accent}}\"/><rect x=\"76\" y=\"40\" width=\"22\" height=\"100\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"176\" r=\"62\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"10\"/><circle cx=\"110\" cy=\"176\" r=\"62\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\"/><path d=\"M110 176 L166 176 M110 176 L138.00958017743594 224.49189023211807 M110 176 L82.01916363272184 224.50848169328333 M110 176 L54.00000983467148 176.03318859908558 M110 176 L81.9616858504427 127.52471826125468 M110 176 L137.9520827291799 127.47494388358646\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M76 130 L184 130 L190 136 L70 136 Z\" fill=\"{{main}}\"/><path d=\"M76 130 L184 130 L190 136 L70 136 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"136\" width=\"120\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"70\" y=\"136\" width=\"120\" height=\"10\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"76\" y=\"124\" width=\"114\" height=\"14\" rx=\"7\" fill=\"{{accent}}\"/><rect x=\"76\" y=\"124\" width=\"114\" height=\"14\" rx=\"7\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M190 140 L210 214 L230 214\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M190 140 L210 214 L230 214\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"210\" cy=\"230\" r=\"12\" fill=\"#3a2a2a\"/><ellipse cx=\"210\" cy=\"230\" rx=\"6.6000000000000005\" ry=\"6.6000000000000005\" fill=\"{{trim}}\"/><ellipse cx=\"210\" cy=\"230\" rx=\"6.6000000000000005\" ry=\"6.6000000000000005\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"210\" cy=\"230\" r=\"2.16\" fill=\"#3a2a2a\" opacity=\"0.5\"/><ellipse cx=\"110\" cy=\"176\" rx=\"8\" ry=\"8\" fill=\"{{trim}}\"/><ellipse cx=\"110\" cy=\"176\" rx=\"8\" ry=\"8\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "bar_stool",
+    "name": "Bar Stool",
+    "category": "furniture",
+    "size": {
+      "w": 20,
+      "h": 36
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#c0392b",
+      "trim": "#c0c6cc",
+      "accent": "#3a3a3a",
+      "outline": "#5a1a14"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"60\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"128\" cy=\"22\" rx=\"58\" ry=\"12\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"22\" rx=\"58\" ry=\"12\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"70\" y=\"22\" width=\"116\" height=\"18\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"70\" y=\"22\" width=\"116\" height=\"18\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"40\" width=\"16\" height=\"180\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"120\" y=\"40\" width=\"16\" height=\"180\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"150\" rx=\"40\" ry=\"9\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"7\"/><ellipse cx=\"128\" cy=\"150\" rx=\"40\" ry=\"9\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\"/><ellipse cx=\"128\" cy=\"232\" rx=\"58\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"232\" rx=\"58\" ry=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pool_table",
+    "name": "Pool Table",
+    "category": "furniture",
+    "size": {
+      "w": 90,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        146
+      ]
+    },
+    "palette": {
+      "main": "#2f8f4f",
+      "trim": "#8b5a2b",
+      "accent": "#ffffff",
+      "outline": "#1a4f2c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 144 L226 144 L246 166 L10 166 Z\" fill=\"{{main}}\"/><path d=\"M30 144 L226 144 L246 166 L10 166 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 144 L226 144 L246 166 L10 166 Z\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"70\" cy=\"152\" rx=\"6\" ry=\"6\" fill=\"#ffffff\"/><ellipse cx=\"70\" cy=\"152\" rx=\"6\" ry=\"6\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"154\" rx=\"6\" ry=\"6\" fill=\"{{accent}}\"/><ellipse cx=\"150\" cy=\"154\" rx=\"6\" ry=\"6\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"164\" cy=\"150\" rx=\"6\" ry=\"6\" fill=\"{{trim}}\"/><ellipse cx=\"164\" cy=\"150\" rx=\"6\" ry=\"6\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"178\" cy=\"156\" rx=\"6\" ry=\"6\" fill=\"#3a2a2a\"/><ellipse cx=\"178\" cy=\"156\" rx=\"6\" ry=\"6\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 140 L120 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 140 L120 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"10\" y=\"166\" width=\"236\" height=\"28\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"166\" width=\"236\" height=\"28\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"22\" y=\"194\" width=\"20\" height=\"48\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"22\" y=\"194\" width=\"20\" height=\"48\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"214\" y=\"194\" width=\"20\" height=\"48\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"214\" y=\"194\" width=\"20\" height=\"48\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"116\" y=\"194\" width=\"24\" height=\"26\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"116\" y=\"194\" width=\"24\" height=\"26\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cosy_armchair",
+    "name": "Cosy Armchair",
+    "category": "furniture",
+    "size": {
+      "w": 45,
+      "h": 45
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        146
+      ]
+    },
+    "palette": {
+      "main": "#c97b4a",
+      "trim": "#f2e3c6",
+      "accent": "#7d9d72",
+      "outline": "#5a3010"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M28 150 L28 34 C28 20 40 20 54 20 L202 20 C216 20 228 20 228 34 L228 150 Z\" fill=\"{{main}}\"/><path d=\"M28 150 L28 34 C28 20 40 20 54 20 L202 20 C216 20 228 20 228 34 L228 150 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"25\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"{{main}}\"/><ellipse cx=\"25\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"231\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"{{main}}\"/><ellipse cx=\"231\" cy=\"160\" rx=\"15\" ry=\"33.333333333333336\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"40\" y=\"144\" width=\"176\" height=\"34\" rx=\"16\" fill=\"{{trim}}\"/><rect x=\"40\" y=\"144\" width=\"176\" height=\"34\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"176\" width=\"228\" height=\"52\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"14\" y=\"176\" width=\"228\" height=\"52\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"20\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"224\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"224\" y=\"226\" width=\"12\" height=\"16\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"104\" width=\"40\" height=\"44\" rx=\"16\" fill=\"{{accent}}\"/><rect x=\"170\" y=\"104\" width=\"40\" height=\"44\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "salon_chair",
+    "name": "Salon Chair",
+    "category": "furniture",
+    "size": {
+      "w": 40,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "seat": [
+        128,
+        122
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#c0c6cc",
+      "accent": "#3a3a3a",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"80\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"70\" y=\"14\" width=\"116\" height=\"112\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"70\" y=\"14\" width=\"116\" height=\"112\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"12\" width=\"56\" height=\"18\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"100\" y=\"12\" width=\"56\" height=\"18\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"52\" cy=\"140\" rx=\"14\" ry=\"24\" fill=\"{{main}}\"/><ellipse cx=\"52\" cy=\"140\" rx=\"14\" ry=\"24\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"204\" cy=\"140\" rx=\"14\" ry=\"24\" fill=\"{{main}}\"/><ellipse cx=\"204\" cy=\"140\" rx=\"14\" ry=\"24\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"56\" y=\"118\" width=\"144\" height=\"34\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"56\" y=\"118\" width=\"144\" height=\"34\" rx=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"64\" y=\"148\" width=\"128\" height=\"20\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"64\" y=\"148\" width=\"128\" height=\"20\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"118\" y=\"166\" width=\"20\" height=\"52\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"118\" y=\"166\" width=\"20\" height=\"52\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"228\" rx=\"72\" ry=\"12\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"228\" rx=\"72\" ry=\"12\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 170 L90 200\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M110 170 L90 200\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+  },
+  {
+    "id": "juice_rack",
+    "name": "Juice Rack",
+    "category": "furniture",
+    "size": {
+      "w": 50,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#ff8c1a",
+      "accent": "#7ed957",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"14\" y=\"14\" width=\"228\" height=\"228\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"14\" y=\"14\" width=\"228\" height=\"228\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"26\" width=\"204\" height=\"96\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"26\" y=\"134\" width=\"204\" height=\"96\" rx=\"3\" fill=\"#3a2a2a\" opacity=\"0.28\"/><rect x=\"26\" y=\"122\" width=\"204\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"26\" y=\"122\" width=\"204\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"230\" width=\"204\" height=\"7\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"26\" y=\"230\" width=\"204\" height=\"7\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"34\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"34\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"46\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"67\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"67\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"79\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"100\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"100\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"112\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"133\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"133\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"145\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"166\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"166\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"178\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"199\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"199\" y=\"66\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"211\" cy=\"62\" r=\"6\" fill=\"#ffffff\"/><rect x=\"34\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"34\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"46\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/><rect x=\"67\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"67\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"79\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/><rect x=\"100\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"100\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"112\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/><rect x=\"133\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"133\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"145\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/><rect x=\"166\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"166\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"178\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/><rect x=\"199\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"199\" y=\"174\" width=\"24\" height=\"56\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"211\" cy=\"170\" r=\"6\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "id": "moon_hammock",
+    "name": "Moon Hammock",
+    "category": "furniture",
+    "size": {
+      "w": 70,
+      "h": 40
+    },
+    "anchors": {
+      "base": [
+        128,
+        226
+      ],
+      "seat": [
+        128,
+        190
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#cdeeff",
+      "accent": "#ffffff",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><path d=\"M20 112 L60 170 M236 112 L196 170\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 112 L60 170 M236 112 L196 170\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 100 L22.6 106.4 L29.5 106.9 L24.3 111.4 L25.9 118.1 L20 114.5 L14.1 118.1 L15.7 111.4 L10.5 106.9 L17.4 106.4 Z\" fill=\"{{main}}\"/><path d=\"M20 100 L22.6 106.4 L29.5 106.9 L24.3 111.4 L25.9 118.1 L20 114.5 L14.1 118.1 L15.7 111.4 L10.5 106.9 L17.4 106.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M236 100 L238.6 106.4 L245.5 106.9 L240.3 111.4 L241.9 118.1 L236 114.5 L230.1 118.1 L231.7 111.4 L226.5 106.9 L233.4 106.4 Z\" fill=\"{{main}}\"/><path d=\"M236 100 L238.6 106.4 L245.5 106.9 L240.3 111.4 L241.9 118.1 L236 114.5 L230.1 118.1 L231.7 111.4 L226.5 106.9 L233.4 106.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 160 C70 230 186 230 216 160 C176 200 80 200 40 160 Z\" fill=\"{{main}}\"/><path d=\"M40 160 C70 230 186 230 216 160 C176 200 80 200 40 160 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M68 227 C52.4 227 57.6 208.8 73.2 211.4 C98 190.6 128 190.6 134 203.6 C158 188 188 198.4 185.4 211.4 C201 211.4 201 227 188 227 Z\" fill=\"#ffffff\"/><path d=\"M68 227 C52.4 227 57.6 208.8 73.2 211.4 C98 190.6 128 190.6 134 203.6 C158 188 188 198.4 185.4 211.4 C201 211.4 201 227 188 227 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
   }
 ]

@@ -91,6 +91,28 @@ export function ring(cx: number, cy: number, rx: number, ry: number, k: number, 
 /** A star with k points. */
 export const star = (cx: number, cy: number, r: number, k = 5, inner = 0.45) => ring(cx, cy, r, r, k * 2, (i) => (i % 2 ? inner : 1));
 
+// ---- furniture and fittings (shared by the redraw files)
+export const WATER = '#7fd1ff';
+export const bar = (d: string, col: string, w: number) => s(d, O, w + 4) + s(d, col, w);
+// A table or counter: a top seen slightly from above (a lit strip), its front edge, and legs or a front panel.
+export const slab = (x0: number, x1: number, y: number, depth: number, thick: number, fill = M) =>
+  P(`M${x0 + depth} ${y} L${x1 - depth} ${y} L${x1} ${y + depth} L${x0} ${y + depth} Z`, fill, 'V', 2) + B(x0, y + depth, x1 - x0, thick, 3, fill, 'L', 2);
+export const legs = (xs: number[], top: number, bottom: number, w: number, fill = M) => xs.map((x) => B(x, top, w, bottom - top, 3, fill, 'H', 2)).join('');
+// A cushion: a soft rounded block, lit on top.
+export const cushion = (x: number, y: number, w: number, h: number, fill = T) => B(x, y, w, h, Math.min(16, h / 2), fill, 'V', 2);
+// Shelf rows inside a cabinet: dark backs with thin shelves.
+export const shelves = (x0: number, x1: number, ys: number[], fill = M) => ys.map((y) => B(x0, y, x1 - x0, 7, 2, fill, 'V', 1.5)).join('');
+export const back = (x: number, y: number, w: number, h: number) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="#3a2a2a" opacity="0.28"/>`;
+export const books = (x: number, y: number, n: number, cols = [T, A, W]) =>
+  Array.from({ length: n }, (_, i) => `<rect x="${x + i * 13}" y="${y - 30 - (i % 3) * 4}" width="11" height="${30 + (i % 3) * 4}" rx="2" fill="${cols[i % cols.length]}" stroke="${O}" stroke-width="1"/>`).join('');
+export const box = (x: number, y: number, w: number, h: number, fill = A) => B(x, y, w, h, 3, fill, 'L', 2) + s(`M${x + w / 2} ${y} L${x + w / 2} ${y + h}`, T, 3, 0.8);
+export const tyre = (cx: number, cy: number, r: number) => dot(cx, cy, r, K) + C(cx, cy, r * 0.55, T, 'H', 1.5) + dot(cx, cy, r * 0.18, K, 0.5);
+export const cloud = (cx: number, cy: number, w: number, h: number, fill = M) =>
+  P(`M${cx - w / 2} ${cy + h / 2} C${cx - w / 2 - h * 0.6} ${cy + h / 2} ${cx - w / 2 - h * 0.4} ${cy - h * 0.2} ${cx - w / 2 + h * 0.2} ${cy - h * 0.1} C${cx - w / 4} ${cy - h * 0.9} ${cx} ${cy - h * 0.9} ${cx + w * 0.05} ${cy - h * 0.4} C${cx + w / 4} ${cy - h} ${cx + w / 2} ${cy - h * 0.6} ${cx + w / 2 - h * 0.1} ${cy - h * 0.1} C${cx + w / 2 + h * 0.5} ${cy - h * 0.1} ${cx + w / 2 + h * 0.5} ${cy + h / 2} ${cx + w / 2} ${cy + h / 2} Z`, fill, 'R');
+export const ripple = (x0: number, x1: number, y: number) => s(Array.from({ length: Math.floor((x1 - x0) / 40) }, (_, i) => `M${x0 + i * 40} ${y + (i % 2) * 6} c10 -5 20 5 30 0`).join(' '), W, 3, 0.6);
+
+export const eye = (x: number, y: number, r = 6) => dot(x, y, r, K) + dot(x - r * 0.35, y - r * 0.35, r * 0.38, W);
+
 // ---- redraws: Claude's realistic versions of the game's templates (user's OK, 2026-10-22, in place of Qwen)
 export type Pal = { main: string; trim: string; accent: string; outline: string };
 export const pal = (main: string, trim: string, accent: string, outline: string): Pal => ({ main, trim, accent, outline });
