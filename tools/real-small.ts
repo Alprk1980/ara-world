@@ -1,7 +1,7 @@
 // Realistic redraws, by Claude: the last food and drink, elder and baby things, plants, and make-up.
 //
 //   node tools/real-small.ts
-import { A, B, C, E, G, K, M, O, P, T, W, blade, dot, f, ground, oval, pal, rd, ring, s, commitReal, type Redraw } from './real-kit.ts';
+import { A, B, C, E, G, K, M, O, P, T, W, blade, dot, f, ground, oval, pal, rd, s, commitReal, type Redraw } from './real-kit.ts';
 
 // A round cluster of leafy balls (tree canopies, cotton candy), lit from the top left.
 const puffs = (pts: number[][], fill = M) => pts.map(([x, y, r]) => C(x, y, r, fill, 'R', 2)).join('');
