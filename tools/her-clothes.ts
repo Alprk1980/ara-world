@@ -1,4 +1,4 @@
-// Clothes designed by Ara (her drawings), drawn realistic by Claude: a leaf jumper and a green skirt, a striped
+// Clothes the user's daughter designed (her drawings), drawn realistic by Claude: a leaf jumper and a green skirt, a striped
 // button top with striped trousers, a cami, a scoop tee, blue shorts, a strappy rainbow dress, a cosy onesie, baby
 // swaddles, a bib top, a polo, a cardigan with a white front, a split skirt and trousers with a stripe down the side.
 // Each comes in her colours first, then a few more.
@@ -242,4 +242,4 @@ const list: NewThing[] = [
   },
 ];
 
-process.exit(commitNew(list, "Ara's clothes") ? 1 : 0);
+process.exit(commitNew(list, 'her clothes') ? 1 : 0);

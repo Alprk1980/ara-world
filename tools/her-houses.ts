@@ -1,4 +1,4 @@
-// Ara's places, as data: the mansion's back garden (and its garage and game room), her six-floor house, and cells at
+// The places the user's daughter drew, as data: the mansion's back garden (and its garage and game room), her six-floor house, and cells at
 // the police station. Items are laid out left to right along each floor from their real widths, so nothing overlaps;
 // wall things (a big window) hang above. Re-running replaces these floors and houses.
 //

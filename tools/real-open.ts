@@ -175,7 +175,7 @@ const list: Open[] = [
       B(44, 140, 50, 22, 4, A, 'L', 1.5) + B(44, 132, 16, 14, 3, W, 'V', 1) + B(150, 146, 52, 16, 4, M, 'L', 1.5) + B(150, 132, 52, 16, 6, M, 'V', 1.5) +
       B(52, 210, 40, 6, 2, A, 'V', 1) + s('M58 216 L58 236 M86 216 L86 236', A, 3) + C(168, 196, 16, M, 'R', 1.5) + B(160, 210, 16, 26, 3, A, 'H', 1.5) + C(72, 116, 10, G, 'L', 1.5) +
       P('M226 96 L252 110 L252 242 L226 242 Z', M, 'H', 2) + B(234, 120, 12, 24, 2, G, 'L', 1)),
-  // Ara's furniture page: the tall fridge with both doors open, and the jail cell with its door swung open.
+  // From the furniture page the user's daughter drew: the tall fridge with both doors open, and the jail cell with its door swung open.
   op('tall_fridge',
     ground(128, 243, 110, 4) + B(48, 10, 160, 228, 14, M, 'H') + B(56, 18, 144, 172, 8, W, 'V', 1.5) + s('M58 62 L198 62 M58 106 L198 106 M58 150 L198 150', T, 3) +
       B(66, 34, 18, 26, 3, W, 'L', 1.5) + B(66, 30, 18, 6, 2, A, 'V', 1) + C(108, 50, 11, A, 'R', 1.5) + B(130, 40, 36, 20, 4, T, 'L', 1.5) + C(180, 52, 8, A, 'R', 1.5) +

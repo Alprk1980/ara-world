@@ -1,4 +1,4 @@
-// Things for the places Ara drew, drawn realistic by Claude: for the mansion's back garden a heated pool, a BBQ, a long
+// Things for the places the user's daughter drew, drawn realistic by Claude: for the mansion's back garden a heated pool, a BBQ, a long
 // garden table, a treehouse and a sandbox; a garage door (it rolls up) and an arcade machine for the garage and game
 // room; and for her six-floor house a big window, a tinted glass shower and a balcony railing.
 //
@@ -167,4 +167,4 @@ const list: NewThing[] = [
   },
 ];
 
-process.exit(commitNew(list, "Ara's places") ? 1 : 0);
+process.exit(commitNew(list, 'her places') ? 1 : 0);

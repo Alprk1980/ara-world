@@ -1,4 +1,4 @@
-// Furniture from Ara's furniture page ("all different colours"), drawn realistic by Claude: painted stools, a
+// Furniture from the furniture page the user's daughter drew ("all different colours"), drawn realistic by Claude: painted stools, a
 // double bed, a painted cot, a round table, a tall two-door fridge and a jail cell. The fridge and the cell open
 // (their open drawings are in tools/real-open.ts).
 //
@@ -112,4 +112,4 @@ const list: NewThing[] = [
   },
 ];
 
-process.exit(commitNew(list, "Ara's furniture") ? 1 : 0);
+process.exit(commitNew(list, 'her furniture') ? 1 : 0);
