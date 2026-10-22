@@ -4034,5 +4034,1283 @@
       "outline": "#5a0a0f"
     },
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"118\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M10 222 L10 160 C10 154 14 150 20 150 L176 150 L176 222 Z\" fill=\"{{main}}\"/><path d=\"M10 222 L10 160 C10 154 14 150 20 150 L176 150 L176 222 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M176 222 L176 144 L216 144 C228 144 236 150 240 162 L246 184 L246 222 Z\" fill=\"{{main}}\"/><path d=\"M176 222 L176 144 L216 144 C228 144 236 150 240 162 L246 184 L246 222 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"184\" y=\"152\" width=\"40\" height=\"30\" rx=\"4\" fill=\"#cdeeff\" stroke=\"{{outline}}\" stroke-width=\"1.5\"/><path d=\"M188 178 L202 156\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/><rect x=\"10\" y=\"140\" width=\"166\" height=\"8\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"10\" y=\"140\" width=\"166\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M22 140 L22 146 M60 140 L60 146 M100 140 L100 146 M140 140 L140 146\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"60\" cy=\"182\" rx=\"20\" ry=\"20\" fill=\"{{trim}}\"/><ellipse cx=\"60\" cy=\"182\" rx=\"20\" ry=\"20\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"60\" cy=\"182\" r=\"12\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" opacity=\"0.2\"/><rect x=\"92\" y=\"160\" width=\"36\" height=\"40\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"92\" y=\"160\" width=\"36\" height=\"40\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"132\" y=\"160\" width=\"36\" height=\"40\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"132\" y=\"160\" width=\"36\" height=\"40\" rx=\"4\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"10\" y=\"200\" width=\"236\" height=\"6\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"10\" y=\"200\" width=\"236\" height=\"6\" rx=\"2\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"196\" y=\"136\" width=\"20\" height=\"8\" rx=\"3\" fill=\"#ffffff\"/><rect x=\"196\" y=\"136\" width=\"20\" height=\"8\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"240\" cy=\"194\" rx=\"5\" ry=\"5\" fill=\"#ffffff\"/><ellipse cx=\"240\" cy=\"194\" rx=\"5\" ry=\"5\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"8\" y=\"212\" width=\"240\" height=\"12\" rx=\"5\" fill=\"{{trim}}\"/><rect x=\"8\" y=\"212\" width=\"240\" height=\"12\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"44\" cy=\"222\" r=\"19\" fill=\"#3a2a2a\"/><ellipse cx=\"44\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"{{trim}}\"/><ellipse cx=\"44\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"44\" cy=\"222\" r=\"3.8000000000000003\" fill=\"#3a2a2a\" opacity=\"0.5\"/><circle cx=\"144\" cy=\"222\" r=\"19\" fill=\"#3a2a2a\"/><ellipse cx=\"144\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"{{trim}}\"/><ellipse cx=\"144\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"144\" cy=\"222\" r=\"3.8000000000000003\" fill=\"#3a2a2a\" opacity=\"0.5\"/><circle cx=\"210\" cy=\"222\" r=\"19\" fill=\"#3a2a2a\"/><ellipse cx=\"210\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"{{trim}}\"/><ellipse cx=\"210\" cy=\"222\" rx=\"11.4\" ry=\"11.4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"210\" cy=\"222\" r=\"3.8000000000000003\" fill=\"#3a2a2a\" opacity=\"0.5\"/></svg>"
+  },
+  {
+    "id": "cute_lunchbox",
+    "name": "Cute Lunchbox",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        70
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"106\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M86 94 C86 62 170 62 170 94\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M86 94 C86 62 170 62 170 94\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"20\" y=\"92\" width=\"216\" height=\"152\" rx=\"14\" fill=\"{{main}}\"/><rect x=\"20\" y=\"92\" width=\"216\" height=\"152\" rx=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"92\" width=\"216\" height=\"40\" rx=\"14\" fill=\"{{main}}\"/><rect x=\"20\" y=\"92\" width=\"216\" height=\"40\" rx=\"14\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 132 L232 132\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/><rect x=\"112\" y=\"122\" width=\"32\" height=\"22\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"112\" y=\"122\" width=\"32\" height=\"22\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"154\" width=\"168\" height=\"70\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"44\" y=\"154\" width=\"168\" height=\"70\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 169 L133.3 181.7 L147 182.8 L136.6 191.8 L139.8 205.2 L128 198 L116.2 205.2 L119.4 191.8 L109 182.8 L122.7 181.7 Z\" fill=\"{{accent}}\"/><path d=\"M128 169 L133.3 181.7 L147 182.8 L136.6 191.8 L139.8 205.2 L128 198 L116.2 205.2 L119.4 191.8 L109 182.8 L122.7 181.7 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M34 104 L222 104\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "zipper_pencil_case",
+    "name": "Zipper Pencil Case",
+    "category": "school",
+    "size": {
+      "w": 24,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "palette": {
+      "main": "#7b3fa0",
+      "trim": "#ffd23f",
+      "accent": "#f2f2f2",
+      "outline": "#3e1f52"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 170 C14 140 30 128 60 128 L196 128 C226 128 242 140 242 170 L242 214 C242 232 228 242 206 242 L50 242 C28 242 14 232 14 214 Z\" fill=\"{{main}}\"/><path d=\"M14 170 C14 140 30 128 60 128 L196 128 C226 128 242 140 242 170 L242 214 C242 232 228 242 206 242 L50 242 C28 242 14 232 14 214 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M18 150 L238 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 147 L22 153 M30 147 L30 153 M38 147 L38 153 M46 147 L46 153 M54 147 L54 153 M62 147 L62 153 M70 147 L70 153 M78 147 L78 153 M86 147 L86 153 M94 147 L94 153 M102 147 L102 153 M110 147 L110 153 M118 147 L118 153 M126 147 L126 153 M134 147 L134 153 M142 147 L142 153 M150 147 L150 153 M158 147 L158 153 M166 147 L166 153 M174 147 L174 153 M182 147 L182 153 M190 147 L190 153 M198 147 L198 153 M206 147 L206 153 M214 147 L214 153 M222 147 L222 153 M230 147 L230 153\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><rect x=\"176\" y=\"146\" width=\"14\" height=\"12\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"176\" y=\"146\" width=\"14\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M178 158 L188 158 L190 190 C190 196 176 196 176 190 Z\" fill=\"{{accent}}\"/><path d=\"M178 158 L188 158 L190 190 C190 196 176 196 176 190 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M26 176 C60 186 196 186 230 176\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.2\"/></svg>"
+  },
+  {
+    "id": "school_backpack_hook",
+    "name": "Backpack Hook",
+    "category": "school",
+    "size": {
+      "w": 26,
+      "h": 36
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        70
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#9a6a3a",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><rect x=\"44\" y=\"12\" width=\"168\" height=\"26\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"44\" y=\"12\" width=\"168\" height=\"26\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"64\" cy=\"25\" r=\"4\" fill=\"#3a2a2a\" opacity=\"0.4\"/><circle cx=\"192\" cy=\"25\" r=\"4\" fill=\"#3a2a2a\" opacity=\"0.4\"/><path d=\"M128 38 L128 56 C128 66 140 66 140 56\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 38 L128 56 C128 66 140 66 140 56\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M98 86 C98 56 158 56 158 86\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M98 86 C98 56 158 56 158 86\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M62 110 C62 88 86 76 128 76 C170 76 194 88 194 110 L194 228 C194 238 186 244 176 244 L80 244 C70 244 62 238 62 228 Z\" fill=\"{{main}}\"/><path d=\"M62 110 C62 88 86 76 128 76 C170 76 194 88 194 110 L194 228 C194 238 186 244 176 244 L80 244 C70 244 62 238 62 228 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"84\" y=\"164\" width=\"88\" height=\"64\" rx=\"12\" fill=\"{{main}}\"/><rect x=\"84\" y=\"164\" width=\"88\" height=\"64\" rx=\"12\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 176 L166 176\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"122\" y=\"170\" width=\"12\" height=\"12\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"122\" y=\"170\" width=\"12\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M66 120 C90 104 166 104 190 120\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.7\"/><path d=\"M76 104 L74 220\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/></svg>"
+  },
+  {
+    "id": "school_lunchbox_shelf",
+    "name": "Lunchbox Shelf",
+    "category": "school",
+    "size": {
+      "w": 26,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        124
+      ],
+      "top": [
+        128,
+        16
+      ]
+    },
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#e63946",
+      "accent": "#3d7dd8",
+      "outline": "#6b4a2b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"14\" width=\"196\" height=\"228\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"30\" y=\"14\" width=\"196\" height=\"228\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"44\" y=\"28\" width=\"168\" height=\"92\" rx=\"4\" fill=\"#3a2a2a\"/><rect x=\"44\" y=\"28\" width=\"168\" height=\"92\" rx=\"4\" fill=\"url(#V)\"/><rect x=\"44\" y=\"132\" width=\"168\" height=\"96\" rx=\"4\" fill=\"#3a2a2a\"/><rect x=\"44\" y=\"132\" width=\"168\" height=\"96\" rx=\"4\" fill=\"url(#V)\"/><rect x=\"44\" y=\"28\" width=\"168\" height=\"92\" rx=\"4\" fill=\"#3a2a2a\" opacity=\"0.25\"/><rect x=\"44\" y=\"132\" width=\"168\" height=\"96\" rx=\"4\" fill=\"#3a2a2a\" opacity=\"0.25\"/><rect x=\"52\" y=\"62\" width=\"70\" height=\"56\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"52\" y=\"62\" width=\"70\" height=\"56\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M74 62 C74 46 100 46 100 62\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"132\" y=\"70\" width=\"70\" height=\"48\" rx=\"8\" fill=\"{{accent}}\"/><rect x=\"132\" y=\"70\" width=\"70\" height=\"48\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M154 70 C154 56 180 56 180 70\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"56\" y=\"170\" width=\"66\" height=\"56\" rx=\"8\" fill=\"{{accent}}\"/><rect x=\"56\" y=\"170\" width=\"66\" height=\"56\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"134\" y=\"166\" width=\"70\" height=\"60\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"134\" y=\"166\" width=\"70\" height=\"60\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"118\" width=\"196\" height=\"14\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"30\" y=\"118\" width=\"196\" height=\"14\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "school_zip_pencil_case",
+    "name": "Zip Pencil Case",
+    "category": "school",
+    "size": {
+      "w": 22,
+      "h": 9
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        200
+      ]
+    },
+    "palette": {
+      "main": "#2a9d8f",
+      "trim": "#ffd23f",
+      "accent": "#e63946",
+      "outline": "#14524a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"114\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"40\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"#ffffff\"/><rect x=\"40\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 150 L48 136 L56 150 Z\" fill=\"#ffffff\"/><rect x=\"70\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"70\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 150 L78 136 L86 150 Z\" fill=\"#ffffff\"/><rect x=\"100\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"100\" y=\"150\" width=\"16\" height=\"50\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 150 L108 136 L116 150 Z\" fill=\"#ffffff\"/><rect x=\"12\" y=\"170\" width=\"232\" height=\"72\" rx=\"16\" fill=\"{{main}}\"/><rect x=\"12\" y=\"170\" width=\"232\" height=\"72\" rx=\"16\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M16 186 L240 186\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 183 L20 189 M28 183 L28 189 M36 183 L36 189 M44 183 L44 189 M52 183 L52 189 M60 183 L60 189 M68 183 L68 189 M76 183 L76 189 M84 183 L84 189 M92 183 L92 189 M100 183 L100 189 M108 183 L108 189 M116 183 L116 189 M124 183 L124 189 M132 183 L132 189 M140 183 L140 189 M148 183 L148 189 M156 183 L156 189 M164 183 L164 189 M172 183 L172 189 M180 183 L180 189 M188 183 L188 189 M196 183 L196 189 M204 183 L204 189 M212 183 L212 189 M220 183 L220 189 M228 183 L228 189 M236 183 L236 189\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><rect x=\"196\" y=\"182\" width=\"18\" height=\"10\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"196\" y=\"182\" width=\"18\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 228 L232 228\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.2\"/></svg>"
+  },
+  {
+    "id": "school_water_bottle",
+    "name": "Water Bottle",
+    "category": "school",
+    "size": {
+      "w": 10,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"44\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"108\" y=\"12\" width=\"40\" height=\"24\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"108\" y=\"12\" width=\"40\" height=\"24\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"96\" y=\"34\" width=\"64\" height=\"30\" rx=\"8\" fill=\"{{accent}}\"/><rect x=\"96\" y=\"34\" width=\"64\" height=\"30\" rx=\"8\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M88 64 L168 64 C174 64 176 68 176 74 L176 230 C176 238 170 244 162 244 L94 244 C86 244 80 238 80 230 L80 74 C80 68 82 64 88 64 Z\" fill=\"{{main}}\"/><path d=\"M88 64 L168 64 C174 64 176 68 176 74 L176 230 C176 238 170 244 162 244 L94 244 C86 244 80 238 80 230 L80 74 C80 68 82 64 88 64 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"120\" width=\"96\" height=\"60\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"80\" y=\"120\" width=\"96\" height=\"60\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 134 L132.2 144.2 L143.2 145.1 L134.8 152.2 L137.4 162.9 L128 157.2 L118.6 162.9 L121.2 152.2 L112.8 145.1 L123.8 144.2 Z\" fill=\"{{accent}}\"/><path d=\"M128 134 L132.2 144.2 L143.2 145.1 L134.8 152.2 L137.4 162.9 L128 157.2 L118.6 162.9 L121.2 152.2 L112.8 145.1 L123.8 144.2 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M92 80 L92 228\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "school_reading_nook",
+    "name": "Reading Nook",
+    "category": "school",
+    "size": {
+      "w": 28,
+      "h": 32
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 240 C20 180 40 110 92 92 C130 80 186 92 212 130 C232 160 232 210 220 240 Z\" fill=\"{{main}}\"/><path d=\"M30 240 C20 180 40 110 92 92 C130 80 186 92 212 130 C232 160 232 210 220 240 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 170 C70 140 170 136 196 170 C200 200 190 226 180 240 L76 240 C66 220 56 196 60 170 Z\" fill=\"{{main}}\"/><path d=\"M60 170 C70 140 170 136 196 170 C200 200 190 226 180 240 L76 240 C66 220 56 196 60 170 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 104 C110 96 140 96 160 102\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/><path d=\"M96 150 L128 160 L128 196 L96 186 Z\" fill=\"{{trim}}\"/><path d=\"M96 150 L128 160 L128 196 L96 186 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M160 150 L128 160 L128 196 L160 186 Z\" fill=\"{{accent}}\"/><path d=\"M160 150 L128 160 L128 196 L160 186 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 162 L122 168 M134 168 L156 162\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><rect x=\"186\" y=\"196\" width=\"40\" height=\"48\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"186\" y=\"196\" width=\"40\" height=\"48\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"186\" y=\"196\" width=\"10\" height=\"48\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"186\" y=\"196\" width=\"10\" height=\"48\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"218\" y=\"200\" width=\"6\" height=\"40\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"218\" y=\"200\" width=\"6\" height=\"40\" rx=\"1\" fill=\"url(#V)\"/><rect x=\"196\" y=\"160\" width=\"30\" height=\"38\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"196\" y=\"160\" width=\"30\" height=\"38\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"196\" y=\"160\" width=\"10\" height=\"38\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"196\" y=\"160\" width=\"10\" height=\"38\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"218\" y=\"164\" width=\"6\" height=\"30\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"218\" y=\"164\" width=\"6\" height=\"30\" rx=\"1\" fill=\"url(#V)\"/></svg>"
+  },
+  {
+    "id": "school_toy_blocks",
+    "name": "Toy Blocks",
+    "category": "school",
+    "size": {
+      "w": 24,
+      "h": 22
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#3a2a2a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"14\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"14\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"26\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"26\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M50 193 L53.7 201.9 L63.3 202.7 L56 208.9 L58.2 218.3 L50 213.3 L41.8 218.3 L44 208.9 L36.7 202.7 L46.3 201.9 Z\" fill=\"{{main}}\"/><path d=\"M50 193 L53.7 201.9 L63.3 202.7 L56 208.9 L58.2 218.3 L50 213.3 L41.8 218.3 L44 208.9 L36.7 202.7 L46.3 201.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"92\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"92\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"104\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 193 L131.7 201.9 L141.3 202.7 L134 208.9 L136.2 218.3 L128 213.3 L119.8 218.3 L122 208.9 L114.7 202.7 L124.3 201.9 Z\" fill=\"{{trim}}\"/><path d=\"M128 193 L131.7 201.9 L141.3 202.7 L134 208.9 L136.2 218.3 L128 213.3 L119.8 218.3 L122 208.9 L114.7 202.7 L124.3 201.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"170\" y=\"172\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"182\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"182\" y=\"184\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M206 193 L209.7 201.9 L219.3 202.7 L212 208.9 L214.2 218.3 L206 213.3 L197.8 218.3 L200 208.9 L192.7 202.7 L202.3 201.9 Z\" fill=\"{{accent}}\"/><path d=\"M206 193 L209.7 201.9 L219.3 202.7 L212 208.9 L214.2 218.3 L206 213.3 L197.8 218.3 L200 208.9 L192.7 202.7 L202.3 201.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"53\" y=\"102\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"53\" y=\"102\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"65\" y=\"114\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"65\" y=\"114\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M89 123 L92.7 131.9 L102.3 132.7 L95 138.9 L97.2 148.3 L89 143.3 L80.8 148.3 L83 138.9 L75.7 132.7 L85.3 131.9 Z\" fill=\"{{accent}}\"/><path d=\"M89 123 L92.7 131.9 L102.3 132.7 L95 138.9 L97.2 148.3 L89 143.3 L80.8 148.3 L83 138.9 L75.7 132.7 L85.3 131.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"131\" y=\"102\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"131\" y=\"102\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"143\" y=\"114\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"143\" y=\"114\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M167 123 L170.7 131.9 L180.3 132.7 L173 138.9 L175.2 148.3 L167 143.3 L158.8 148.3 L161 138.9 L153.7 132.7 L163.3 131.9 Z\" fill=\"{{main}}\"/><path d=\"M167 123 L170.7 131.9 L180.3 132.7 L173 138.9 L175.2 148.3 L167 143.3 L158.8 148.3 L161 138.9 L153.7 132.7 L163.3 131.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"92\" y=\"32\" width=\"72\" height=\"70\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"92\" y=\"32\" width=\"72\" height=\"70\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"44\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"104\" y=\"44\" width=\"48\" height=\"46\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 53 L131.7 61.9 L141.3 62.7 L134 68.9 L136.2 78.3 L128 73.3 L119.8 78.3 L122 68.9 L114.7 62.7 L124.3 61.9 Z\" fill=\"{{trim}}\"/><path d=\"M128 53 L131.7 61.9 L141.3 62.7 L134 68.9 L136.2 78.3 L128 73.3 L119.8 78.3 L122 68.9 L114.7 62.7 L124.3 61.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "school_easel_chalkboard",
+    "name": "Easel Chalkboard",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 26
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        110
+      ]
+    },
+    "palette": {
+      "main": "#9a6a3a",
+      "trim": "#2f4f3f",
+      "accent": "#f2f2f2",
+      "outline": "#4a2c12"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"92\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M128 16 L50 240 M128 16 L206 240 M128 30 L128 230\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 16 L50 240 M128 16 L206 240 M128 30 L128 230\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"52\" y=\"44\" width=\"152\" height=\"126\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"52\" y=\"44\" width=\"152\" height=\"126\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"54\" width=\"132\" height=\"106\" rx=\"3\" fill=\"{{trim}}\"/><rect x=\"62\" y=\"54\" width=\"132\" height=\"106\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 84 C96 70 112 98 128 84 M78 120 L150 116 M86 140 L130 138\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><ellipse cx=\"166\" cy=\"96\" rx=\"14\" ry=\"14\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"3\"/><ellipse cx=\"166\" cy=\"96\" rx=\"14\" ry=\"14\" fill=\"url(#R)\"/><rect x=\"50\" y=\"168\" width=\"156\" height=\"12\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"50\" y=\"168\" width=\"156\" height=\"12\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"92\" y=\"162\" width=\"22\" height=\"7\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"92\" y=\"162\" width=\"22\" height=\"7\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "school_cozy_rug",
+    "name": "Cozy Rug",
+    "category": "school",
+    "size": {
+      "w": 64,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        206
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><path d=\"M48 176 L208 176 L244 236 L12 236 Z\" fill=\"{{main}}\"/><path d=\"M48 176 L208 176 L244 236 L12 236 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M66 186 L190 186 L214 226 L42 226 Z\" fill=\"{{trim}}\"/><path d=\"M66 186 L190 186 L214 226 L42 226 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 194 L160 194 L174 218 L82 218 Z\" fill=\"{{accent}}\"/><path d=\"M96 194 L160 194 L174 218 L82 218 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M14 236 L12 244 M22 236 L20 244 M30 236 L28 244 M38 236 L36 244 M46 236 L44 244 M54 236 L52 244 M62 236 L60 244 M70 236 L68 244 M78 236 L76 244 M86 236 L84 244 M94 236 L92 244 M102 236 L100 244 M110 236 L108 244 M118 236 L116 244 M126 236 L124 244 M134 236 L132 244 M142 236 L140 244 M150 236 L148 244 M158 236 L156 244 M166 236 L164 244 M174 236 L172 244 M182 236 L180 244 M190 236 L188 244 M198 236 L196 244 M206 236 L204 244 M214 236 L212 244 M222 236 L220 244 M230 236 L228 244 M238 236 L236 244 M246 236 L244 244\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M54 180 L202 180\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "daycare_picture_books",
+    "name": "Picture Books",
+    "category": "school",
+    "size": {
+      "w": 26,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        190
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#3a2a2a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"24\" y=\"212\" width=\"160\" height=\"30\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"24\" y=\"212\" width=\"160\" height=\"30\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"32\" y=\"182\" width=\"150\" height=\"30\" rx=\"4\" fill=\"{{trim}}\"/><rect x=\"32\" y=\"182\" width=\"150\" height=\"30\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"154\" width=\"166\" height=\"28\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"20\" y=\"154\" width=\"166\" height=\"28\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"180\" y=\"216\" width=\"4\" height=\"22\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"180\" y=\"216\" width=\"4\" height=\"22\" rx=\"1\" fill=\"url(#V)\"/><rect x=\"176\" y=\"186\" width=\"4\" height=\"22\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"176\" y=\"186\" width=\"4\" height=\"22\" rx=\"1\" fill=\"url(#V)\"/><rect x=\"180\" y=\"158\" width=\"4\" height=\"22\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"180\" y=\"158\" width=\"4\" height=\"22\" rx=\"1\" fill=\"url(#V)\"/><rect x=\"190\" y=\"102\" width=\"56\" height=\"140\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"190\" y=\"102\" width=\"56\" height=\"140\" rx=\"3\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"190\" y=\"102\" width=\"10\" height=\"140\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"190\" y=\"102\" width=\"10\" height=\"140\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"238\" y=\"106\" width=\"6\" height=\"132\" rx=\"1\" fill=\"#ffffff\"/><rect x=\"238\" y=\"106\" width=\"6\" height=\"132\" rx=\"1\" fill=\"url(#V)\"/><path d=\"M224 146 L227.7 154.9 L237.3 155.7 L230 161.9 L232.2 171.3 L224 166.3 L215.8 171.3 L218 161.9 L210.7 155.7 L220.3 154.9 Z\" fill=\"{{accent}}\"/><path d=\"M224 146 L227.7 154.9 L237.3 155.7 L230 161.9 L232.2 171.3 L224 166.3 L215.8 171.3 L218 161.9 L210.7 155.7 L220.3 154.9 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "airport_boarding_pass",
+    "name": "Boarding Pass",
+    "category": "school",
+    "size": {
+      "w": 14,
+      "h": 9
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        170
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"12\" y=\"96\" width=\"232\" height=\"144\" rx=\"10\" fill=\"{{main}}\"/><rect x=\"12\" y=\"96\" width=\"232\" height=\"144\" rx=\"10\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"12\" y=\"96\" width=\"232\" height=\"36\" rx=\"10\" fill=\"{{trim}}\"/><rect x=\"12\" y=\"96\" width=\"232\" height=\"36\" rx=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M180 100 L180 236\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/><path d=\"M180 106 L180 112 M180 120 L180 126 M180 210 L180 216\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M44 108 L72 116 L84 104 L90 106 L82 120 L98 124 L94 128 L80 126 L68 138 L62 136 L68 124 L42 116 Z\" fill=\"#ffffff\"/><path d=\"M44 108 L72 116 L84 104 L90 106 L82 120 L98 124 L94 128 L80 126 L68 138 L62 136 L68 124 L42 116 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 156 L120 156 M30 176 L150 176 M30 196 L100 196\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><path d=\"M190 150 L190 220 M193.6 150 L193.6 220 M197.2 150 L197.2 220 M200.8 150 L200.8 220 M204.4 150 L204.4 220 M208 150 L208 220 M211.6 150 L211.6 220 M215.2 150 L215.2 220 M218.8 150 L218.8 220 M222.4 150 L222.4 220 M226 150 L226 220 M229.6 150 L229.6 220 M233.2 150 L233.2 220 M236.8 150 L236.8 220\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.7\"/><rect x=\"30\" y=\"210\" width=\"40\" height=\"18\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"30\" y=\"210\" width=\"40\" height=\"18\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "paintbrush",
+    "name": "Paintbrush",
+    "category": "school",
+    "size": {
+      "w": 6,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "palette": {
+      "main": "#c0392b",
+      "trim": "#c0c6cc",
+      "accent": "#3d7dd8",
+      "outline": "#5a1a14"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"34\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M118 120 L138 120 L134 236 C134 242 122 242 122 236 Z\" fill=\"{{main}}\"/><path d=\"M118 120 L138 120 L134 236 C134 242 122 242 122 236 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"114\" y=\"82\" width=\"28\" height=\"42\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"114\" y=\"82\" width=\"28\" height=\"42\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M114 100 L142 100\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M114 84 C110 60 116 28 128 12 C140 28 146 60 142 84 Z\" fill=\"#3a2a2a\"/><path d=\"M114 84 C110 60 116 28 128 12 C140 28 146 60 142 84 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M118 46 C120 32 124 22 128 14 C132 22 136 32 138 46 Z\" fill=\"{{accent}}\"/><path d=\"M118 46 C120 32 124 22 128 14 C132 22 136 32 138 46 Z\" fill=\"url(#L)\"/><path d=\"M124 128 L122 228\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "paint_roller",
+    "name": "Paint Roller",
+    "category": "school",
+    "size": {
+      "w": 8,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        190
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#c0c6cc",
+      "accent": "#3a3a3a",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"40\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"64\" y=\"14\" width=\"128\" height=\"52\" rx=\"22\" fill=\"{{main}}\"/><rect x=\"64\" y=\"14\" width=\"128\" height=\"52\" rx=\"22\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M72 28 L184 28\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M78 50 L180 50\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.15\"/><path d=\"M192 40 L206 40 L206 96 L128 106 L128 130\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M192 40 L206 40 L206 96 L128 106 L128 130\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M116 130 L140 130 L138 240 C138 246 118 246 118 240 Z\" fill=\"{{accent}}\"/><path d=\"M116 130 L140 130 L138 240 C138 246 118 246 118 240 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M124 140 L124 232\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "paint_palette",
+    "name": "Paint Palette",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 9
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "palette": {
+      "main": "#d4a373",
+      "trim": "#e63946",
+      "accent": "#3d7dd8",
+      "outline": "#6b4a2b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"110\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 140 C24 96 70 68 132 70 C200 72 240 108 236 156 C232 200 196 236 136 238 C96 240 70 222 74 196 C78 174 104 178 104 160 C104 142 78 150 58 160 C40 168 32 156 30 140 Z M76 116 C66 116 60 124 62 132 C64 140 76 142 84 136 C90 128 86 116 76 116 Z\" fill=\"{{main}}\"/><path d=\"M30 140 C24 96 70 68 132 70 C200 72 240 108 236 156 C232 200 196 236 136 238 C96 240 70 222 74 196 C78 174 104 178 104 160 C104 142 78 150 58 160 C40 168 32 156 30 140 Z M76 116 C66 116 60 124 62 132 C64 140 76 142 84 136 C90 128 86 116 76 116 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 82 L121.5 84.8 L127.4 94 L120.6 102.5 L110 107 L97.7 103.8 L95 94 L98.5 84.8 Z\" fill=\"{{trim}}\"/><path d=\"M110 82 L121.5 84.8 L127.4 94 L120.6 102.5 L110 107 L97.7 103.8 L95 94 L98.5 84.8 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M154 79 L166.3 82.2 L169 92 L165.5 101.2 L154 105.9 L143.4 100.5 L137.8 92 L141.7 82.2 Z\" fill=\"{{accent}}\"/><path d=\"M154 79 L166.3 82.2 L169 92 L165.5 101.2 L154 105.9 L143.4 100.5 L137.8 92 L141.7 82.2 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M196 98.1 L206.6 103.5 L212.2 112 L208.3 121.8 L196 124 L184.5 121.2 L178.6 112 L185.4 103.5 Z\" fill=\"#3a2a2a\"/><path d=\"M196 98.1 L206.6 103.5 L212.2 112 L208.3 121.8 L196 124 L184.5 121.2 L178.6 112 L185.4 103.5 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M212 142 L223.5 144.8 L229.4 154 L222.6 162.5 L212 167 L199.7 163.8 L197 154 L200.5 144.8 Z\" fill=\"#ffffff\"/><path d=\"M212 142 L223.5 144.8 L229.4 154 L222.6 162.5 L212 167 L199.7 163.8 L197 154 L200.5 144.8 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M190 183 L202.3 186.2 L205 196 L201.5 205.2 L190 209.9 L179.4 204.5 L173.8 196 L177.7 186.2 Z\" fill=\"{{accent}}\"/><path d=\"M190 183 L202.3 186.2 L205 196 L201.5 205.2 L190 209.9 L179.4 204.5 L173.8 196 L177.7 186.2 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M146 198.1 L156.6 203.5 L162.2 212 L158.3 221.8 L146 224 L134.5 221.2 L128.6 212 L135.4 203.5 Z\" fill=\"#3a2a2a\"/><path d=\"M146 198.1 L156.6 203.5 L162.2 212 L158.3 221.8 L146 224 L134.5 221.2 L128.6 212 L135.4 203.5 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M116 184 L127.5 186.8 L133.4 196 L126.6 204.5 L116 209 L103.7 205.8 L101 196 L104.5 186.8 Z\" fill=\"{{trim}}\"/><path d=\"M116 184 L127.5 186.8 L133.4 196 L126.6 204.5 L116 209 L103.7 205.8 L101 196 L104.5 186.8 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M44 120 C60 96 90 82 120 80\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "school_shopping_lunchbox",
+    "name": "School Lunchbox",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        106
+      ]
+    },
+    "palette": {
+      "main": "#2a9d8f",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#14524a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M90 126 C90 104 166 104 166 126\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 126 C90 104 166 104 166 126\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"14\" y=\"124\" width=\"228\" height=\"118\" rx=\"14\" fill=\"{{main}}\"/><rect x=\"14\" y=\"124\" width=\"228\" height=\"118\" rx=\"14\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"124\" width=\"228\" height=\"34\" rx=\"14\" fill=\"{{main}}\"/><rect x=\"14\" y=\"124\" width=\"228\" height=\"34\" rx=\"14\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M18 158 L238 158\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/><rect x=\"108\" y=\"150\" width=\"40\" height=\"18\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"108\" y=\"150\" width=\"40\" height=\"18\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"60\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"60\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"196\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"{{trim}}\"/><ellipse cx=\"196\" cy=\"202\" rx=\"18\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "school_shopping_notebook",
+    "name": "Notebook",
+    "category": "school",
+    "size": {
+      "w": 20,
+      "h": 26
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#f2f2f2",
+      "accent": "#3d7dd8",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"94\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"48\" y=\"22\" width=\"166\" height=\"220\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"48\" y=\"22\" width=\"166\" height=\"220\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"42\" y=\"16\" width=\"170\" height=\"222\" rx=\"8\" fill=\"{{main}}\"/><rect x=\"42\" y=\"16\" width=\"170\" height=\"222\" rx=\"8\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M36 32 C30 32 30 42 48 42 M36 50 C30 50 30 60 48 60 M36 68 C30 68 30 78 48 78 M36 86 C30 86 30 96 48 96 M36 104 C30 104 30 114 48 114 M36 122 C30 122 30 132 48 132 M36 140 C30 140 30 150 48 150 M36 158 C30 158 30 168 48 168 M36 176 C30 176 30 186 48 186 M36 194 C30 194 30 204 48 204 M36 212 C30 212 30 222 48 222 M36 230 C30 230 30 240 48 240\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><rect x=\"80\" y=\"60\" width=\"110\" height=\"46\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"80\" y=\"60\" width=\"110\" height=\"46\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M92 76 L176 76 M92 90 L150 90\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M160 148 L165.8 162 L180.9 163.2 L169.4 173.1 L172.9 187.8 L160 179.9 L147.1 187.8 L150.6 173.1 L139.1 163.2 L154.2 162 Z\" fill=\"{{accent}}\"/><path d=\"M160 148 L165.8 162 L180.9 163.2 L169.4 173.1 L172.9 187.8 L160 179.9 L147.1 187.8 L150.6 173.1 L139.1 163.2 L154.2 162 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 30 L60 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/></svg>"
+  },
+  {
+    "id": "school_shopping_ruler",
+    "name": "Ruler",
+    "category": "school",
+    "size": {
+      "w": 29,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        218
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#3a3a3a",
+      "accent": "#e63946",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"118\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"10\" y=\"198\" width=\"236\" height=\"42\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"10\" y=\"198\" width=\"236\" height=\"42\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M18 198 L18 216 M26 198 L26 208 M34 198 L34 208 M42 198 L42 208 M50 198 L50 208 M58 198 L58 216 M66 198 L66 208 M74 198 L74 208 M82 198 L82 208 M90 198 L90 208 M98 198 L98 216 M106 198 L106 208 M114 198 L114 208 M122 198 L122 208 M130 198 L130 208 M138 198 L138 216 M146 198 L146 208 M154 198 L154 208 M162 198 L162 208 M170 198 L170 208 M178 198 L178 216 M186 198 L186 208 M194 198 L194 208 M202 198 L202 208 M210 198 L210 208 M218 198 L218 216 M226 198 L226 208 M234 198 L234 208 M242 198 L242 208\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M16 232 L240 232\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "school_shopping_eraser",
+    "name": "Cute Eraser",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        186
+      ]
+    },
+    "palette": {
+      "main": "#e9a3c9",
+      "trim": "#3d7dd8",
+      "accent": "#ffffff",
+      "outline": "#8a3b5c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M22 160 L58 130 L234 130 L234 206 L198 240 L22 240 Z\" fill=\"{{main}}\"/><path d=\"M22 160 L58 130 L234 130 L234 206 L198 240 L22 240 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M22 160 L198 160 L234 130\" fill=\"{{main}}\"/><path d=\"M22 160 L198 160 L234 130\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M198 160 L234 130 L234 206 L198 240 Z\" fill=\"{{main}}\"/><path d=\"M198 160 L234 130 L234 206 L198 240 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 160 L198 160 L198 240 L110 240 Z\" fill=\"{{trim}}\"/><path d=\"M110 160 L198 160 L198 240 L110 240 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M110 160 L146 130 L234 130 L198 160 Z\" fill=\"{{trim}}\"/><path d=\"M110 160 L146 130 L234 130 L198 160 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 172 L100 172\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "glue_stick",
+    "name": "Glue Stick",
+    "category": "school",
+    "size": {
+      "w": 4,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#7b3fa0",
+      "accent": "#ffd23f",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"40\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"92\" y=\"14\" width=\"72\" height=\"70\" rx=\"14\" fill=\"{{trim}}\"/><rect x=\"92\" y=\"14\" width=\"72\" height=\"70\" rx=\"14\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"88\" y=\"80\" width=\"80\" height=\"162\" rx=\"10\" fill=\"{{main}}\"/><rect x=\"88\" y=\"80\" width=\"80\" height=\"162\" rx=\"10\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"88\" y=\"120\" width=\"80\" height=\"70\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"88\" y=\"120\" width=\"80\" height=\"70\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 140 L156 140 M100 156 L144 156\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"92\" y=\"222\" width=\"72\" height=\"18\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"92\" y=\"222\" width=\"72\" height=\"18\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 92 L100 214\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "crayon_box",
+    "name": "Crayon Box",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 10
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"108\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"40\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"40\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 76 L51 56 L62 76 Z\" fill=\"{{accent}}\"/><path d=\"M40 76 L51 56 L62 76 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"72\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"72\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M72 94 L83 74 L94 94 Z\" fill=\"{{trim}}\"/><path d=\"M72 94 L83 74 L94 94 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"#3a2a2a\"/><rect x=\"104\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 76 L115 56 L126 76 Z\" fill=\"#3a2a2a\"/><path d=\"M104 76 L115 56 L126 76 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"136\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"{{main}}\"/><rect x=\"136\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M136 94 L147 74 L158 94 Z\" fill=\"{{main}}\"/><path d=\"M136 94 L147 74 L158 94 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"168\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"168\" y=\"74\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M168 76 L179 56 L190 76 Z\" fill=\"{{accent}}\"/><path d=\"M168 76 L179 56 L190 76 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"196\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"{{trim}}\"/><rect x=\"196\" y=\"92\" width=\"22\" height=\"100\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M196 94 L207 74 L218 94 Z\" fill=\"{{trim}}\"/><path d=\"M196 94 L207 74 L218 94 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 118 L232 118 L222 244 L34 244 Z\" fill=\"{{main}}\"/><path d=\"M24 118 L232 118 L222 244 L34 244 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 118 L232 118 L224 140 L32 140 Z\" fill=\"{{trim}}\"/><path d=\"M24 118 L232 118 L224 140 L32 140 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 162 L134.9 178.5 L152.7 180 L139.1 191.6 L143.3 209 L128 199.7 L112.7 209 L116.9 191.6 L103.3 180 L121.1 178.5 Z\" fill=\"{{trim}}\"/><path d=\"M128 162 L134.9 178.5 L152.7 180 L139.1 191.6 L143.3 209 L128 199.7 L112.7 209 L116.9 191.6 L103.3 180 L121.1 178.5 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "paint_sponge",
+    "name": "Paint Sponge",
+    "category": "school",
+    "size": {
+      "w": 8,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#e9a3c9",
+      "accent": "#3d7dd8",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M16 112 C16 86 28 74 56 74 L200 74 C228 74 240 86 240 112 L240 210 C240 232 226 242 200 242 L56 242 C30 242 16 232 16 210 Z\" fill=\"{{main}}\"/><path d=\"M16 112 C16 86 28 74 56 74 L200 74 C228 74 240 86 240 112 L240 210 C240 232 226 242 200 242 L56 242 C30 242 16 232 16 210 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M16 112 C16 86 28 74 56 74 L200 74 C228 74 240 86 240 112 L240 130 L16 130 Z\" fill=\"{{trim}}\"/><path d=\"M16 112 C16 86 28 74 56 74 L200 74 C228 74 240 86 240 112 L240 130 L16 130 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"50\" cy=\"160\" rx=\"9\" ry=\"7.2\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"90\" cy=\"190\" rx=\"7\" ry=\"5.6000000000000005\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"140\" cy=\"170\" rx=\"10\" ry=\"8\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"190\" cy=\"200\" rx=\"8\" ry=\"6.4\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"210\" cy=\"158\" rx=\"6\" ry=\"4.800000000000001\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"70\" cy=\"216\" rx=\"6\" ry=\"4.800000000000001\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"120\" cy=\"222\" rx=\"5\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.22\"/><ellipse cx=\"164\" cy=\"146\" rx=\"5\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.22\"/></svg>"
+  },
+  {
+    "id": "colour_mixing_bowl",
+    "name": "Colour Mixing Bowl",
+    "category": "school",
+    "size": {
+      "w": 12,
+      "h": 6
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#e63946",
+      "accent": "#3d7dd8",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"104\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M14 140 L242 140 C238 196 192 242 128 242 C64 242 18 196 14 140 Z\" fill=\"{{main}}\"/><path d=\"M14 140 L242 140 C238 196 192 242 128 242 C64 242 18 196 14 140 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"140\" rx=\"114\" ry=\"16\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"140\" rx=\"114\" ry=\"16\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"141\" rx=\"98\" ry=\"10\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"141\" rx=\"98\" ry=\"10\" fill=\"url(#R)\"/><path d=\"M128 136 C150 130 180 134 196 142 C176 146 150 146 128 136 Z\" fill=\"{{accent}}\"/><path d=\"M80 140 C100 132 120 150 150 140\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.7\"/><path d=\"M30 160 C50 200 90 222 128 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "soccer_football",
+    "name": "Cute Football",
+    "category": "sport",
+    "size": {
+      "w": 24,
+      "h": 24
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#3a2a2a",
+      "accent": "#ffd23f",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 98.4 L156.2 118.8 L145.4 152 L110.6 152 L99.8 118.8 Z M150.8 45.9 L135 67.6 L109.6 59.3 L109.6 32.5 L135 24.2 Z M213.1 124.3 L187.6 116 L187.6 89.2 L213.1 81 L228.9 102.6 Z M157.8 207.8 L157.8 181 L183.3 172.7 L199 194.4 L183.3 216.1 Z M61.3 181 L86.8 172.7 L102.6 194.4 L86.8 216.1 L61.3 207.8 Z M57 81 L72.7 102.6 L57 124.3 L31.5 116 L31.5 89.2 Z\" fill=\"{{trim}}\"/><path d=\"M128 98.36 L128 68.72 M156.18931514298836 118.84073628672655 L184.3786302859767 109.68147257345312 M145.4219548779489 151.97926371327344 L162.8439097558978 175.95852742654688 M110.5780451220511 151.97926371327344 L93.15609024410219 175.95852742654688 M99.81068485701164 118.84073628672657 L71.62136971402329 109.68147257345312\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "classic_soccer_ball",
+    "name": "Classic Soccer Ball",
+    "category": "sport",
+    "size": {
+      "w": 14,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        130
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#3a2a2a",
+      "accent": "#ffffff",
+      "outline": "#3a3a3a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"130\" rx=\"112\" ry=\"112\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"130\" rx=\"112\" ry=\"112\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 100.9 L155.7 121 L145.1 153.6 L110.9 153.6 L100.3 121 Z M150.4 49.4 L134.9 70.7 L109.9 62.5 L109.9 36.2 L134.9 28.1 Z M211.6 126.4 L186.6 118.2 L186.6 91.9 L211.6 83.8 L227.1 105.1 Z M157.3 208.4 L157.3 182.1 L182.3 173.9 L197.8 195.2 L182.3 216.5 Z M62.5 182.1 L87.5 173.9 L103 195.2 L87.5 216.5 L62.5 208.4 Z M58.2 83.8 L73.7 105.1 L58.2 126.4 L33.2 118.2 L33.2 91.9 Z\" fill=\"{{trim}}\"/><path d=\"M128 100.88 L128 71.75999999999999 M155.69476575451486 121.00142512380154 L183.38953150902975 112.00285024760306 M145.11630654675682 153.55857487619846 L162.23261309351363 177.11714975239693 M110.88369345324318 153.55857487619846 L93.76738690648637 177.11714975239693 M100.30523424548512 121.00142512380154 L72.61046849097025 112.00285024760308\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><ellipse cx=\"128\" cy=\"130\" rx=\"112\" ry=\"112\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pool_beach_ball",
+    "name": "Beach Ball",
+    "category": "sport",
+    "size": {
+      "w": 30,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3d7dd8",
+      "accent": "#ffd23f",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"#ffffff\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 14 C70 40 52 120 70 226 C40 206 14 170 14 128 C14 66 64 16 128 14 Z\" fill=\"{{main}}\"/><path d=\"M128 14 C186 40 204 120 186 226 C216 206 242 170 242 128 C242 66 192 16 128 14 Z\" fill=\"{{trim}}\"/><path d=\"M128 14 C110 60 104 160 116 242 C100 240 84 234 70 226 C52 120 70 40 128 14 Z\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"26\" rx=\"18\" ry=\"10\" fill=\"#ffffff\"/><ellipse cx=\"128\" cy=\"26\" rx=\"18\" ry=\"10\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "pool_ring_float",
+    "name": "Pool Ring Float",
+    "category": "sport",
+    "size": {
+      "w": 60,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        30
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><path d=\"M14 128 A114 114 0 1 0 242 128 A114 114 0 1 0 14 128 Z M76 128 A52 52 0 1 1 180 128 A52 52 0 1 1 76 128 Z\" fill=\"{{main}}\"/><path d=\"M14 128 A114 114 0 1 0 242 128 A114 114 0 1 0 14 128 Z M76 128 A52 52 0 1 1 180 128 A52 52 0 1 1 76 128 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 14 L128 76 M128 180 L128 242 M14 128 L76 128 M180 128 L242 128\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"26\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><path d=\"M56 60 C76 38 100 28 124 26\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "waterpark_swim_ring",
+    "name": "Swim Ring",
+    "category": "sport",
+    "size": {
+      "w": 55,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        240
+      ],
+      "grip": [
+        128,
+        180
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"240\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M12 208 A116 32 0 1 0 244 208 A116 32 0 1 0 12 208 Z M64 208 A64 12 0 1 1 192 208 A64 12 0 1 1 64 208 Z\" fill=\"{{main}}\"/><path d=\"M12 208 A116 32 0 1 0 244 208 A116 32 0 1 0 12 208 Z M64 208 A64 12 0 1 1 192 208 A64 12 0 1 1 64 208 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 186 L60 228 M216 186 L196 228 M128 176 L128 196 M128 222 L128 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"18\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><path d=\"M40 196 C80 182 176 182 216 196\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "pool_noodle",
+    "name": "Pool Noodle",
+    "category": "sport",
+    "size": {
+      "w": 80,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        216
+      ]
+    },
+    "palette": {
+      "main": "#7ed957",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#3a7a2a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M24 200 C80 194 176 194 232 200 C244 202 246 236 232 238 C176 232 80 232 24 238 C10 236 10 202 24 200 Z\" fill=\"{{main}}\"/><path d=\"M24 200 C80 194 176 194 232 200 C244 202 246 236 232 238 C176 232 80 232 24 238 C10 236 10 202 24 200 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"22\" cy=\"219\" rx=\"10\" ry=\"19\" fill=\"{{main}}\"/><ellipse cx=\"22\" cy=\"219\" rx=\"10\" ry=\"19\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"219\" r=\"5\" fill=\"#3a2a2a\" opacity=\"0.4\"/><path d=\"M30 206 C80 200 176 200 228 206\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "pool_flamingo_float",
+    "name": "Pool Flamingo",
+    "category": "sport",
+    "size": {
+      "w": 40,
+      "h": 52
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        190
+      ]
+    },
+    "palette": {
+      "main": "#ff8fb8",
+      "trim": "#ffffff",
+      "accent": "#3a2a2a",
+      "outline": "#9c4f60"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"92\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M38 196 A90 44 0 1 0 218 196 A90 44 0 1 0 38 196 Z M84 196 A44 16 0 1 1 172 196 A44 16 0 1 1 84 196 Z\" fill=\"{{main}}\"/><path d=\"M38 196 A90 44 0 1 0 218 196 A90 44 0 1 0 38 196 Z M84 196 A44 16 0 1 1 172 196 A44 16 0 1 1 84 196 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M166 168 C206 140 206 90 180 60 C160 36 130 40 126 62\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"26\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M166 168 C206 140 206 90 180 60 C160 36 130 40 126 62\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"21\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"124\" cy=\"60\" rx=\"22\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"124\" cy=\"60\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 60 C92 60 84 70 84 84 C92 78 98 74 106 74 Z\" fill=\"{{accent}}\"/><path d=\"M104 60 C92 60 84 70 84 84 C92 78 98 74 106 74 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 62 C96 66 92 72 90 80 C94 76 98 72 104 70 Z\" fill=\"#ffffff\"/><circle cx=\"126\" cy=\"54\" r=\"5\" fill=\"#3a2a2a\"/><circle cx=\"124.25\" cy=\"52.25\" r=\"1.9\" fill=\"#ffffff\"/><path d=\"M188 80 C198 100 196 130 180 150\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "pool_ladder",
+    "name": "Pool Ladder",
+    "category": "sport",
+    "size": {
+      "w": 36,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        60
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#7fd1ff",
+      "accent": "#ffffff",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><rect x=\"58\" y=\"200\" width=\"140\" height=\"44\" rx=\"6\" fill=\"#7fd1ff\"/><rect x=\"58\" y=\"200\" width=\"140\" height=\"44\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M70 214 C90 208 110 220 130 214 C150 208 170 220 190 214\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><path d=\"M78 244 L78 40 C78 16 104 14 106 36 M178 244 L178 40 C178 16 152 14 150 36\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"13\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M78 244 L78 40 C78 16 104 14 106 36 M178 244 L178 40 C178 16 152 14 150 36\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"90\" width=\"96\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"80\" y=\"90\" width=\"96\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"140\" width=\"96\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"80\" y=\"140\" width=\"96\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"190\" width=\"96\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"80\" y=\"190\" width=\"96\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M74 50 L74 236\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.5\"/></svg>"
+  },
+  {
+    "id": "water_cannon",
+    "name": "Water Cannon",
+    "category": "sport",
+    "size": {
+      "w": 35,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        110,
+        242
+      ],
+      "grip": [
+        110,
+        150
+      ]
+    },
+    "palette": {
+      "main": "#ffb703",
+      "trim": "#3d7dd8",
+      "accent": "#c0c6cc",
+      "outline": "#7a5200"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"110\" cy=\"242\" rx=\"90\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M70 242 L100 150 M150 242 L120 150\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70 242 L100 150 M150 242 L120 150\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M60 130 L180 86 C190 82 198 90 194 100 L188 114 L70 158 C58 162 54 140 60 130 Z\" fill=\"{{main}}\"/><path d=\"M60 130 L180 86 C190 82 198 90 194 100 L188 114 L70 158 C58 162 54 140 60 130 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"80\" y=\"140\" width=\"60\" height=\"26\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"80\" y=\"140\" width=\"60\" height=\"26\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"184\" y=\"80\" width=\"22\" height=\"40\" rx=\"6\" fill=\"{{trim}}\"/><rect x=\"184\" y=\"80\" width=\"22\" height=\"40\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M206 92 C230 90 246 70 244 46 C236 64 222 74 206 80 Z\" fill=\"#7fd1ff\"/><ellipse cx=\"230\" cy=\"32\" rx=\"6\" ry=\"6\" fill=\"#7fd1ff\"/><ellipse cx=\"230\" cy=\"32\" rx=\"6\" ry=\"6\" fill=\"url(#R)\"/><ellipse cx=\"218\" cy=\"56\" rx=\"5\" ry=\"5\" fill=\"#7fd1ff\"/><ellipse cx=\"218\" cy=\"56\" rx=\"5\" ry=\"5\" fill=\"url(#R)\"/><ellipse cx=\"244\" cy=\"60\" rx=\"4\" ry=\"4\" fill=\"#7fd1ff\"/><ellipse cx=\"244\" cy=\"60\" rx=\"4\" ry=\"4\" fill=\"url(#R)\"/><ellipse cx=\"110\" cy=\"146\" rx=\"10\" ry=\"10\" fill=\"{{accent}}\"/><ellipse cx=\"110\" cy=\"146\" rx=\"10\" ry=\"10\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cute_snowboard",
+    "name": "Cute Snowboard",
+    "category": "sport",
+    "size": {
+      "w": 18,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#ffd23f",
+      "accent": "#3a3a3a",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"40\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M94 40 C94 20 108 12 128 12 C148 12 162 20 162 40 L162 214 C162 234 148 242 128 242 C108 242 94 234 94 214 Z\" fill=\"{{main}}\"/><path d=\"M94 40 C94 20 108 12 128 12 C148 12 162 20 162 40 L162 214 C162 234 148 242 128 242 C108 242 94 234 94 214 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 110 C110 90 146 90 156 110 L156 150 C146 130 110 130 100 150 Z\" fill=\"{{trim}}\"/><path d=\"M100 110 C110 90 146 90 156 110 L156 150 C146 130 110 130 100 150 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"64\" width=\"60\" height=\"26\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"98\" y=\"64\" width=\"60\" height=\"26\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"172\" width=\"60\" height=\"26\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"98\" y=\"172\" width=\"60\" height=\"26\" rx=\"6\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M104 30 L104 226\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "snowboard",
+    "name": "Snowboard",
+    "category": "sport",
+    "size": {
+      "w": 14,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#f2f2f2",
+      "accent": "#3a3a3a",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"34\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M96 36 C96 18 108 12 128 12 C148 12 160 18 160 36 L160 218 C160 236 148 242 128 242 C108 242 96 236 96 218 Z\" fill=\"{{main}}\"/><path d=\"M96 36 C96 18 108 12 128 12 C148 12 160 18 160 36 L160 218 C160 236 148 242 128 242 C108 242 96 236 96 218 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M98 80 L158 120 M98 140 L158 180\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><rect x=\"100\" y=\"52\" width=\"56\" height=\"20\" rx=\"5\" fill=\"{{accent}}\"/><rect x=\"100\" y=\"52\" width=\"56\" height=\"20\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"186\" width=\"56\" height=\"20\" rx=\"5\" fill=\"{{accent}}\"/><rect x=\"100\" y=\"186\" width=\"56\" height=\"20\" rx=\"5\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M106 30 L106 224\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/></svg>"
+  },
+  {
+    "id": "cozy_sled",
+    "name": "Cosy Sled",
+    "category": "sport",
+    "size": {
+      "w": 38,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        176
+      ]
+    },
+    "palette": {
+      "main": "#b5651d",
+      "trim": "#e63946",
+      "accent": "#c0c6cc",
+      "outline": "#5a2e0c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M20 236 L210 236 C236 236 246 216 236 196 C230 184 216 186 216 198\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 236 L210 236 C236 236 246 216 236 196 C230 184 216 186 216 198\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"60\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"60\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"110\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"{{accent}}\"/><rect x=\"160\" y=\"200\" width=\"8\" height=\"36\" rx=\"2\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"172\" width=\"196\" height=\"30\" rx=\"6\" fill=\"{{main}}\"/><rect x=\"30\" y=\"172\" width=\"196\" height=\"30\" rx=\"6\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 184 L216 184\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.2\"/><path d=\"M220 176 C240 160 246 150 240 150\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"60\" y=\"150\" width=\"100\" height=\"24\" rx=\"8\" fill=\"{{trim}}\"/><rect x=\"60\" y=\"150\" width=\"100\" height=\"24\" rx=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "cute_tennis_racket",
+    "name": "Tennis Racket",
+    "category": "sport",
+    "size": {
+      "w": 32,
+      "h": 52
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        210
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#f2f2f2",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"36\" ry=\"3\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"128\" cy=\"78\" rx=\"64\" ry=\"70\" fill=\"#ffffff\" fill-opacity=\"0.15\"/><path d=\"M80 32 L80 124 M92 28 L92 128 M104 24 L104 132 M116 20 L116 136 M128 16 L128 140 M140 20 L140 136 M152 24 L152 132 M164 28 L164 128 M176 32 L176 124 M86 30 L170 30 M82 42 L174 42 M78 54 L178 54 M74 66 L182 66 M70 78 L186 78 M74 90 L182 90 M78 102 L178 102 M82 114 L174 114 M86 126 L170 126\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><ellipse cx=\"128\" cy=\"78\" rx=\"62\" ry=\"68\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"13\"/><ellipse cx=\"128\" cy=\"78\" rx=\"62\" ry=\"68\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"9\"/><path d=\"M110 142 L128 160 L146 142 L138 142 L128 152 L118 142 Z\" fill=\"{{main}}\"/><path d=\"M110 142 L128 160 L146 142 L138 142 L128 152 L118 142 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"120\" y=\"156\" width=\"16\" height=\"86\" rx=\"6\" fill=\"{{accent}}\"/><rect x=\"120\" y=\"156\" width=\"16\" height=\"86\" rx=\"6\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M120 176 L136 170 M120 188 L136 182 M120 200 L136 194 M120 212 L136 206 M120 224 L136 218\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/></svg>"
+  },
+  {
+    "id": "cute_badminton_shuttle",
+    "name": "Cute Badminton Shuttle",
+    "category": "sport",
+    "size": {
+      "w": 6,
+      "h": 8
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        210
+      ]
+    },
+    "palette": {
+      "main": "#f2f2f2",
+      "trim": "#c49a6c",
+      "accent": "#3d7dd8",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"50\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M50 18 L206 18 L156 186 L100 186 Z\" fill=\"{{main}}\"/><path d=\"M50 18 L206 18 L156 186 L100 186 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M62 22 L104 184 M84 22 L112 184 M106 22 L120 184 M128 22 L128 184 M150 22 L136 184 M172 22 L144 184 M194 22 L152 184\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><ellipse cx=\"128\" cy=\"18\" rx=\"78\" ry=\"8\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"18\" rx=\"78\" ry=\"8\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"98\" y=\"166\" width=\"60\" height=\"14\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"98\" y=\"166\" width=\"60\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M96 184 L160 184 C162 220 150 242 128 242 C106 242 94 220 96 184 Z\" fill=\"{{trim}}\"/><path d=\"M96 184 L160 184 C162 220 150 242 128 242 C106 242 94 220 96 184 Z\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "jump_rope",
+    "name": "Jump Rope",
+    "category": "sport",
+    "size": {
+      "w": 32,
+      "h": 28
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        52,
+        216
+      ]
+    },
+    "palette": {
+      "main": "#e63946",
+      "trim": "#ffd23f",
+      "accent": "#3d7dd8",
+      "outline": "#6b1a20"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M52 190 C20 120 40 40 128 40 C216 40 236 120 204 190\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M52 190 C20 120 40 40 128 40 C216 40 236 120 204 190\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 188 L64 188 L60 242 L44 242 Z\" fill=\"{{trim}}\"/><path d=\"M40 188 L64 188 L60 242 L44 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M192 188 L216 188 L212 242 L196 242 Z\" fill=\"{{trim}}\"/><path d=\"M192 188 L216 188 L212 242 L196 242 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"38\" y=\"184\" width=\"28\" height=\"10\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"38\" y=\"184\" width=\"28\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"190\" y=\"184\" width=\"28\" height=\"10\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"190\" y=\"184\" width=\"28\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "sports_cone",
+    "name": "Sports Cone",
+    "category": "sport",
+    "size": {
+      "w": 14,
+      "h": 16
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        30
+      ]
+    },
+    "palette": {
+      "main": "#ff7b1a",
+      "trim": "#ffffff",
+      "accent": "#3a3a3a",
+      "outline": "#7a3b0c"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"100\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M116 14 L140 14 L196 220 L60 220 Z\" fill=\"{{main}}\"/><path d=\"M116 14 L140 14 L196 220 L60 220 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 76 L156 76 L166 112 L90 112 Z\" fill=\"{{trim}}\"/><path d=\"M100 76 L156 76 L166 112 L90 112 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 148 L176 148 L186 184 L70 184 Z\" fill=\"{{trim}}\"/><path d=\"M80 148 L176 148 L186 184 L70 184 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"28\" y=\"216\" width=\"200\" height=\"24\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"28\" y=\"216\" width=\"200\" height=\"24\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "stadium_training_cones",
+    "name": "Training Cones",
+    "category": "sport",
+    "size": {
+      "w": 26,
+      "h": 30
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        120
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#ff7b1a",
+      "accent": "#3d7dd8",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"100\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M30 240 C40 208 216 208 226 240 Z\" fill=\"{{main}}\"/><path d=\"M30 240 C40 208 216 208 226 240 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"220\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 210 C40 178 216 178 226 210 Z\" fill=\"{{trim}}\"/><path d=\"M30 210 C40 178 216 178 226 210 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"190\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 180 C40 148 216 148 226 180 Z\" fill=\"{{main}}\"/><path d=\"M30 180 C40 148 216 148 226 180 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"160\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 150 C40 118 216 118 226 150 Z\" fill=\"{{trim}}\"/><path d=\"M30 150 C40 118 216 118 226 150 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"130\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 120 C40 88 216 88 226 120 Z\" fill=\"{{main}}\"/><path d=\"M30 120 C40 88 216 88 226 120 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"100\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 90 C40 58 216 58 226 90 Z\" fill=\"{{trim}}\"/><path d=\"M30 90 C40 58 216 58 226 90 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"70\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/><path d=\"M30 60 C40 28 216 28 226 60 Z\" fill=\"{{main}}\"/><path d=\"M30 60 C40 28 216 28 226 60 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"40\" rx=\"18\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.3\"/></svg>"
+  },
+  {
+    "id": "arena_goal_post",
+    "name": "Goal Post",
+    "category": "sport",
+    "size": {
+      "w": 80,
+      "h": 60
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        150
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#c0c6cc",
+      "accent": "#e63946",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><path d=\"M28 80 L228 80 L212 228 L44 228 Z\" fill=\"#3a2a2a\" opacity=\"0.08\"/><path d=\"M44 82 L44 226 M58 82 L58 226 M72 82 L72 226 M86 82 L86 226 M100 82 L100 226 M114 82 L114 226 M128 82 L128 226 M142 82 L142 226 M156 82 L156 226 M170 82 L170 226 M184 82 L184 226 M198 82 L198 226 M212 82 L212 226 M30 96 L226 96 M30 110 L226 110 M30 124 L226 124 M30 138 L226 138 M30 152 L226 152 M30 166 L226 166 M30 180 L226 180 M30 194 L226 194 M30 208 L226 208 M30 222 L226 222\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><rect x=\"16\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"226\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"226\" y=\"70\" width=\"14\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"68\" width=\"224\" height=\"14\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"16\" y=\"68\" width=\"224\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M20 76 L236 76\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/></svg>"
+  },
+  {
+    "id": "stadium_soccer_goal",
+    "name": "Stadium Soccer Goal",
+    "category": "sport",
+    "size": {
+      "w": 72,
+      "h": 48
+    },
+    "anchors": {
+      "base": [
+        128,
+        244
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#c0c6cc",
+      "accent": "#7ed957",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><path d=\"M10 236 L246 236 L232 244 L24 244 Z\" fill=\"{{accent}}\"/><path d=\"M10 236 L246 236 L232 244 L24 244 Z\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 106 L226 106 L226 236 L30 236 Z\" fill=\"#3a2a2a\" opacity=\"0.08\"/><path d=\"M42 106 L42 236 M54 106 L54 236 M66 106 L66 236 M78 106 L78 236 M90 106 L90 236 M102 106 L102 236 M114 106 L114 236 M126 106 L126 236 M138 106 L138 236 M150 106 L150 236 M162 106 L162 236 M174 106 L174 236 M186 106 L186 236 M198 106 L198 236 M210 106 L210 236 M222 106 L222 236 M30 118 L226 118 M30 130 L226 130 M30 142 L226 142 M30 154 L226 154 M30 166 L226 166 M30 178 L226 178 M30 190 L226 190 M30 202 L226 202 M30 214 L226 214 M30 226 L226 226\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><rect x=\"18\" y=\"94\" width=\"14\" height=\"146\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"18\" y=\"94\" width=\"14\" height=\"146\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"224\" y=\"94\" width=\"14\" height=\"146\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"224\" y=\"94\" width=\"14\" height=\"146\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"18\" y=\"92\" width=\"220\" height=\"14\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"18\" y=\"92\" width=\"220\" height=\"14\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "track_barrier",
+    "name": "Track Barrier",
+    "category": "sport",
+    "size": {
+      "w": 52,
+      "h": 18
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        176
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#e63946",
+      "accent": "#3a3a3a",
+      "outline": "#5a6068"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"116\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"30\" y=\"180\" width=\"10\" height=\"56\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"30\" y=\"180\" width=\"10\" height=\"56\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"216\" y=\"180\" width=\"10\" height=\"56\" rx=\"3\" fill=\"{{accent}}\"/><rect x=\"216\" y=\"180\" width=\"10\" height=\"56\" rx=\"3\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"232\" width=\"44\" height=\"10\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"14\" y=\"232\" width=\"44\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"198\" y=\"232\" width=\"44\" height=\"10\" rx=\"4\" fill=\"{{accent}}\"/><rect x=\"198\" y=\"232\" width=\"44\" height=\"10\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"164\" width=\"228\" height=\"26\" rx=\"4\" fill=\"{{main}}\"/><rect x=\"14\" y=\"164\" width=\"228\" height=\"26\" rx=\"4\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M30 164 L48 164 L38 190 L20 190 Z M66 164 L84 164 L74 190 L56 190 Z M102 164 L120 164 L110 190 L92 190 Z M138 164 L156 164 L146 190 L128 190 Z M174 164 L192 164 L182 190 L164 190 Z M210 164 L228 164 L218 190 L200 190 Z\" fill=\"{{trim}}\"/></svg>"
+  },
+  {
+    "id": "stadium_team_banner",
+    "name": "Team Banner",
+    "category": "sport",
+    "size": {
+      "w": 56,
+      "h": 42
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        21,
+        200
+      ]
+    },
+    "palette": {
+      "main": "#3d7dd8",
+      "trim": "#ffffff",
+      "accent": "#ffd23f",
+      "outline": "#1f3d6b"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"112\" ry=\"4\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"16\" y=\"70\" width=\"10\" height=\"172\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"16\" y=\"70\" width=\"10\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"230\" y=\"70\" width=\"10\" height=\"172\" rx=\"4\" fill=\"#ffffff\"/><rect x=\"230\" y=\"70\" width=\"10\" height=\"172\" rx=\"4\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"21\" cy=\"68\" r=\"7\" fill=\"{{accent}}\"/><circle cx=\"235\" cy=\"68\" r=\"7\" fill=\"{{accent}}\"/><path d=\"M26 82 L230 82 L230 176 C200 186 170 168 128 178 C86 188 56 168 26 178 Z\" fill=\"{{main}}\"/><path d=\"M26 82 L230 82 L230 176 C200 186 170 168 128 178 C86 188 56 168 26 178 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M26 106 L230 106 M26 156 L230 156\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><ellipse cx=\"128\" cy=\"130\" rx=\"26\" ry=\"26\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"130\" rx=\"26\" ry=\"26\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 112 L132.8 123.4 L145.1 124.4 L135.7 132.5 L138.6 144.6 L128 138.1 L117.4 144.6 L120.3 132.5 L110.9 124.4 L123.2 123.4 Z\" fill=\"{{accent}}\"/><path d=\"M128 112 L132.8 123.4 L145.1 124.4 L135.7 132.5 L138.6 144.6 L128 138.1 L117.4 144.6 L120.3 132.5 L110.9 124.4 L123.2 123.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "id": "stadium_football",
+    "name": "Stadium Football",
+    "category": "sport",
+    "size": {
+      "w": 12,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#ffffff",
+      "trim": "#e63946",
+      "accent": "#3d7dd8",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M40 70 C90 100 100 150 70 214 M216 70 C166 100 156 150 186 214\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><path d=\"M60 46 C110 70 150 70 196 46\" fill=\"none\" stroke=\"{{accent}}\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/><ellipse cx=\"128\" cy=\"128\" rx=\"114\" ry=\"114\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M54 80 C70 58 92 44 116 40\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/></svg>"
+  },
+  {
+    "id": "cute_snowball",
+    "name": "Snowball",
+    "category": "sport",
+    "size": {
+      "w": 12,
+      "h": 12
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        128
+      ]
+    },
+    "palette": {
+      "main": "#f4f8ff",
+      "trim": "#cdeeff",
+      "accent": "#ffffff",
+      "outline": "#7a8ea8"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"90\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"128\" cy=\"128\" rx=\"112\" ry=\"112\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"128\" rx=\"112\" ry=\"112\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"90\" cy=\"90\" rx=\"10\" ry=\"7\" fill=\"{{trim}}\" opacity=\"0.7\"/><ellipse cx=\"160\" cy=\"120\" rx=\"14\" ry=\"9.799999999999999\" fill=\"{{trim}}\" opacity=\"0.7\"/><ellipse cx=\"120\" cy=\"180\" rx=\"12\" ry=\"8.399999999999999\" fill=\"{{trim}}\" opacity=\"0.7\"/><ellipse cx=\"70\" cy=\"160\" rx=\"8\" ry=\"5.6\" fill=\"{{trim}}\" opacity=\"0.7\"/><ellipse cx=\"180\" cy=\"180\" rx=\"8\" ry=\"5.6\" fill=\"{{trim}}\" opacity=\"0.7\"/><path d=\"M96 64 L97.3 68.7 L102 70 L97.3 71.3 L96 76 L94.7 71.3 L90 70 L94.7 68.7 Z\" fill=\"#ffffff\"/><path d=\"M96 64 L97.3 68.7 L102 70 L97.3 71.3 L96 76 L94.7 71.3 L90 70 L94.7 68.7 Z\" fill=\"url(#L)\"/><path d=\"M150 76 L151.3 80.7 L156 82 L151.3 83.3 L150 88 L148.7 83.3 L144 82 L148.7 80.7 Z\" fill=\"#ffffff\"/><path d=\"M150 76 L151.3 80.7 L156 82 L151.3 83.3 L150 88 L148.7 83.3 L144 82 L148.7 80.7 Z\" fill=\"url(#L)\"/><path d=\"M70 114 L71.3 118.7 L76 120 L71.3 121.3 L70 126 L68.7 121.3 L64 120 L68.7 118.7 Z\" fill=\"#ffffff\"/><path d=\"M70 114 L71.3 118.7 L76 120 L71.3 121.3 L70 126 L68.7 121.3 L64 120 L68.7 118.7 Z\" fill=\"url(#L)\"/></svg>"
+  },
+  {
+    "id": "sports_medal",
+    "name": "Sports Medal",
+    "category": "sport",
+    "size": {
+      "w": 10,
+      "h": 14
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        40
+      ]
+    },
+    "palette": {
+      "main": "#d4af37",
+      "trim": "#3d7dd8",
+      "accent": "#e63946",
+      "outline": "#6b5214"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><path d=\"M56 14 L104 14 L140 120 L110 130 Z\" fill=\"{{trim}}\"/><path d=\"M56 14 L104 14 L140 120 L110 130 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M200 14 L152 14 L116 120 L146 130 Z\" fill=\"{{accent}}\"/><path d=\"M200 14 L152 14 L116 120 L146 130 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"176\" rx=\"66\" ry=\"66\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"176\" rx=\"66\" ry=\"66\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"176\" rx=\"48\" ry=\"48\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"176\" rx=\"48\" ry=\"48\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 146 L135.9 165.1 L156.5 166.7 L140.8 180.2 L145.6 200.3 L128 189.5 L110.4 200.3 L115.2 180.2 L99.5 166.7 L120.1 165.1 Z\" fill=\"{{main}}\"/><path d=\"M128 146 L135.9 165.1 L156.5 166.7 L140.8 180.2 L145.6 200.3 L128 189.5 L110.4 200.3 L115.2 180.2 L99.5 166.7 L120.1 165.1 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M84 150 C94 130 110 120 128 118\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.45\"/></svg>"
+  },
+  {
+    "id": "stadium_ball_rack",
+    "name": "Ball Rack",
+    "category": "sport",
+    "size": {
+      "w": 35,
+      "h": 50
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        120
+      ]
+    },
+    "palette": {
+      "main": "#c0c6cc",
+      "trim": "#ffffff",
+      "accent": "#3a3a3a",
+      "outline": "#4b525a"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"82\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><rect x=\"48\" y=\"40\" width=\"160\" height=\"178\" rx=\"8\" fill=\"#3a2a2a\"/><rect x=\"48\" y=\"40\" width=\"160\" height=\"178\" rx=\"8\" fill=\"url(#V)\" opacity=\"0.5\"/><ellipse cx=\"86\" cy=\"90\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"86\" cy=\"90\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M86 83 L92.7 87.8 L90.1 95.7 L81.9 95.7 L79.3 87.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"76\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"128\" cy=\"76\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 69 L134.7 73.8 L132.1 81.7 L123.9 81.7 L121.3 73.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"170\" cy=\"90\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"170\" cy=\"90\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M170 83 L176.7 87.8 L174.1 95.7 L165.9 95.7 L163.3 87.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"90\" cy=\"140\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"90\" cy=\"140\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M90 133 L96.7 137.8 L94.1 145.7 L85.9 145.7 L83.3 137.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"134\" cy=\"132\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"134\" cy=\"132\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M134 125 L140.7 129.8 L138.1 137.7 L129.9 137.7 L127.3 129.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"172\" cy=\"146\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"172\" cy=\"146\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M172 139 L178.7 143.8 L176.1 151.7 L167.9 151.7 L165.3 143.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"100\" cy=\"186\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"100\" cy=\"186\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M100 179 L106.7 183.8 L104.1 191.7 L95.9 191.7 L93.3 183.8 Z\" fill=\"{{accent}}\"/><ellipse cx=\"150\" cy=\"188\" rx=\"22\" ry=\"22\" fill=\"{{trim}}\"/><ellipse cx=\"150\" cy=\"188\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M150 181 L156.7 185.8 L154.1 193.7 L145.9 193.7 L143.3 185.8 Z\" fill=\"{{accent}}\"/><path d=\"M74 40 L74 218 M100 40 L100 218 M126 40 L126 218 M152 40 L152 218 M178 40 L178 218 M204 40 L204 218 M48 66 L208 66 M48 92 L208 92 M48 118 L208 118 M48 144 L208 144 M48 170 L208 170 M48 196 L208 196\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"44\" y=\"214\" width=\"168\" height=\"10\" rx=\"3\" fill=\"{{main}}\"/><rect x=\"44\" y=\"214\" width=\"168\" height=\"10\" rx=\"3\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M60 224 L56 236 M196 224 L200 236\" fill=\"none\" stroke=\"{{main}}\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"56\" cy=\"236\" r=\"6\" fill=\"#3a2a2a\"/><circle cx=\"200\" cy=\"236\" r=\"6\" fill=\"#3a2a2a\"/></svg>"
+  },
+  {
+    "id": "stadium_mascot_plush",
+    "name": "Stadium Mascot Plush",
+    "category": "sport",
+    "size": {
+      "w": 18,
+      "h": 20
+    },
+    "anchors": {
+      "base": [
+        128,
+        242
+      ],
+      "grip": [
+        128,
+        160
+      ]
+    },
+    "palette": {
+      "main": "#ffd23f",
+      "trim": "#3d7dd8",
+      "accent": "#ffffff",
+      "outline": "#7a5a00"
+    },
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"L\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.42\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"0.58\" stop-color=\"#3a2a2a\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.34\"/></linearGradient><linearGradient id=\"V\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.38\"/><stop offset=\"0.45\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.3\"/></linearGradient><radialGradient id=\"R\" cx=\"0.38\" cy=\"0.32\" r=\"0.72\"><stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.55\"/><stop offset=\"0.32\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.42\"/></radialGradient></defs><ellipse cx=\"128\" cy=\"242\" rx=\"90\" ry=\"5\" fill=\"#3a2a2a\" opacity=\"0.16\"/><ellipse cx=\"70\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"70\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"186\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"{{main}}\"/><ellipse cx=\"186\" cy=\"40\" rx=\"22\" ry=\"22\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"42\" r=\"11\" fill=\"#ffffff\" opacity=\"0.5\"/><circle cx=\"186\" cy=\"42\" r=\"11\" fill=\"#ffffff\" opacity=\"0.5\"/><path d=\"M64 236 C50 196 60 150 90 138 L166 138 C196 150 206 196 192 236 Z\" fill=\"{{trim}}\"/><path d=\"M64 236 C50 196 60 150 90 138 L166 138 C196 150 206 196 192 236 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M128 146 L128 230\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M128 166 L132.8 177.4 L145.1 178.4 L135.7 186.5 L138.6 198.6 L128 192.1 L117.4 198.6 L120.3 186.5 L110.9 178.4 L123.2 177.4 Z\" fill=\"{{accent}}\"/><path d=\"M128 166 L132.8 177.4 L145.1 178.4 L135.7 186.5 L138.6 198.6 L128 192.1 L117.4 198.6 L120.3 186.5 L110.9 178.4 L123.2 177.4 Z\" fill=\"url(#L)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"40\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"{{main}}\"/><ellipse cx=\"40\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"216\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"{{main}}\"/><ellipse cx=\"216\" cy=\"180\" rx=\"18\" ry=\"30\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"90\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"{{main}}\"/><ellipse cx=\"90\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"166\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"{{main}}\"/><ellipse cx=\"166\" cy=\"232\" rx=\"26\" ry=\"14\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"90\" rx=\"62\" ry=\"62\" fill=\"{{main}}\"/><ellipse cx=\"128\" cy=\"90\" rx=\"62\" ry=\"62\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"128\" cy=\"108\" rx=\"26\" ry=\"18\" fill=\"{{accent}}\"/><ellipse cx=\"128\" cy=\"108\" rx=\"26\" ry=\"18\" fill=\"url(#R)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"106\" cy=\"82\" r=\"7\" fill=\"#3a2a2a\"/><circle cx=\"103.55\" cy=\"79.55\" r=\"2.66\" fill=\"#ffffff\"/><circle cx=\"150\" cy=\"82\" r=\"7\" fill=\"#3a2a2a\"/><circle cx=\"147.55\" cy=\"79.55\" r=\"2.66\" fill=\"#ffffff\"/><ellipse cx=\"128\" cy=\"100\" rx=\"9\" ry=\"6\" fill=\"#3a2a2a\"/><ellipse cx=\"128\" cy=\"100\" rx=\"9\" ry=\"6\" fill=\"url(#R)\"/><path d=\"M120 112 C124 118 132 118 136 112\" fill=\"none\" stroke=\"#3a2a2a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"136\" width=\"96\" height=\"14\" rx=\"7\" fill=\"{{accent}}\"/><rect x=\"80\" y=\"136\" width=\"96\" height=\"14\" rx=\"7\" fill=\"url(#V)\" stroke=\"{{outline}}\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
   }
 ]
