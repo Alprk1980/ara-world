@@ -1,10 +1,16 @@
 // Realistic redraws, by Claude: second goes at drawings that did not read well on the review sheets (Qwen's croissant,
-// candy apple, hot dog and candy heart; Claude's carousel horses).
+// candy apple, hot dog and candy heart; Claude's carousel horses and big rose).
 //
 //   node tools/real-fixes.ts
-import { A, B, C, E, K, M, O, P, T, W, bar, dot, f, ground, horse, pal, rd, s, star, commitReal, type Redraw } from './real-kit.ts';
+import { A, B, C, E, K, M, O, P, T, W, bar, dot, f, ground, horse, pal, rd, roseHead, roseLeaf, s, star, commitReal, type Redraw } from './real-kit.ts';
 
 const list: Redraw[] = [
+  rd('big_rose_bloom', pal('#c8102e', '#3f7d3a', '#8f0b22', '#5a0a14'),
+    ground(128, 248, 40, 4) + s('M128 150 C122 184 134 214 128 246', O, 9) + s('M128 150 C122 184 134 214 128 246', T, 6) +
+      roseLeaf(126, 204, 62, 172, 18) .replace(/\{\{main\}\}/g, '{{trim}}').replace(/stroke="\{\{trim\}\}"/g, 'stroke="{{outline}}"') +
+      roseLeaf(130, 188, 196, 160, 16).replace(/\{\{main\}\}/g, '{{trim}}').replace(/stroke="\{\{trim\}\}"/g, 'stroke="{{outline}}"') +
+      roseHead(128, 96, 76),
+    { base: [128, 248] }),
   rd('croissant', pal('#d9963a', '#f2d29a', '#8a4a14', '#6b3a10'),
     ground(128, 240, 110, 4) +
       [[30, 214, 22, 16], [222, 214, 22, 16], [56, 192, 28, 26], [200, 192, 28, 26], [90, 172, 34, 34], [166, 172, 34, 34], [128, 164, 40, 40]].map(([x, y, rx, ry]) => E(x, y, rx, ry, M, 'R', 2)).join('') +

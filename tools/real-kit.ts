@@ -110,6 +110,52 @@ export function horse(cx: number, cy: number, k: number, body = M, mane = T, sad
     dot(cx + 60 * k, cy - 58 * k, Math.max(2, 4 * k), K);
 }
 
+/** A petal: an ellipse rx by ry around (cx, cy), tilted by angle (radians), as a path. */
+export function lobe(cx: number, cy: number, rx: number, ry: number, angle: number, k = 8): string {
+  const ca = Math.cos(angle), sa = Math.sin(angle);
+  // A smooth closed curve through k points (quadratic curves between midpoints), whole numbers to keep it small.
+  const pts = Array.from({ length: k }, (_, i) => {
+    const t = (i / k) * Math.PI * 2, x = Math.cos(t) * rx, y = Math.sin(t) * ry;
+    return [Math.round(cx + x * ca - y * sa), Math.round(cy + x * sa + y * ca)];
+  });
+  const mid = (i: number) => { const a = pts[i % k], b = pts[(i + 1) % k]; return `${Math.round((a[0] + b[0]) / 2)} ${Math.round((a[1] + b[1]) / 2)}`; };
+  return `M${mid(0)}` + pts.map((_, i) => ` Q${pts[(i + 1) % k].join(' ')} ${mid(i + 1)}`).join('') + ' Z';
+}
+/** A rose seen from above and a little in front: an outer ring of broad petals, a smaller ring turned between
+ * them, a cupped heart, and a tight spiral of petal edges in the middle. main is the petal colour, accent the deep
+ * shade inside. */
+export function roseHead(cx: number, cy: number, r: number, main = M, deep = A): string {
+  // One base of petal colour under the whole head; each petal is then just its light and outline, so the stacked
+  // shading reads as layers of petals (and the drawing stays small).
+  const lit = (d: string, w: number) => `<path d="${d}" fill="url(#R)"${line(w)}/>`;
+  let out = oval(cx, cy, r * 0.82, r * 0.72, main);
+  for (let i = 0; i < 5; i++) {
+    const a = -Math.PI / 2 + (i * 2 * Math.PI) / 5;
+    out += P(lobe(cx + Math.cos(a) * r * 0.5, cy + Math.sin(a) * r * 0.44, r * 0.54, r * 0.44, a), main, 'R', Math.max(1, r * 0.022));
+  }
+  for (let i = 0; i < 4; i++) {
+    const a = -Math.PI / 4 + (i * Math.PI) / 2;
+    out += lit(lobe(cx + Math.cos(a) * r * 0.28, cy + Math.sin(a) * r * 0.25, r * 0.36, r * 0.28, a), Math.max(0.8, r * 0.01));
+  }
+  out += E(cx, cy, r * 0.36, r * 0.32, deep, 'R', Math.max(1, r * 0.02));
+  out += lit(lobe(cx - r * 0.06, cy + r * 0.1, r * 0.3, r * 0.18, -0.3), Math.max(0.8, r * 0.01));
+  const w = Math.max(1.2, r * 0.035);
+  out += s(`M${n(cx - r * 0.02)} ${n(cy - r * 0.04)} C${n(cx + r * 0.1)} ${n(cy - r * 0.16)} ${n(cx + r * 0.22)} ${n(cy - r * 0.02)} ${n(cx + r * 0.12)} ${n(cy + r * 0.1)} C${n(cx)} ${n(cy + r * 0.2)} ${n(cx - r * 0.2)} ${n(cy + r * 0.06)} ${n(cx - r * 0.16)} ${n(cy - r * 0.12)} C${n(cx - r * 0.1)} ${n(cy - r * 0.28)} ${n(cx + r * 0.2)} ${n(cy - r * 0.3)} ${n(cx + r * 0.3)} ${n(cy - r * 0.12)}`, O, w, 0.55);
+  out += s(`M${n(cx - r * 0.7)} ${n(cy - r * 0.4)} C${n(cx - r * 0.5)} ${n(cy - r * 0.8)} ${n(cx)} ${n(cy - r * 0.95)} ${n(cx + r * 0.35)} ${n(cy - r * 0.82)}`, W, w * 1.4, 0.35);
+  return out;
+}
+/** A rose leaf from (x0, y0) to its tip, with a midrib and side veins. */
+export function roseLeaf(x0: number, y0: number, x1: number, y1: number, w: number, fill = M, vein = T): string {
+  const mx = (x0 + x1) / 2, my = (y0 + y1) / 2, dx = x1 - x0, dy = y1 - y0, len = Math.hypot(dx, dy), nx = -dy / len, ny = dx / len;
+  let v = `M${n(x0)} ${n(y0)} L${n(x1)} ${n(y1)}`;
+  for (const t of [0.3, 0.5, 0.7]) {
+    const px = x0 + dx * t, py = y0 + dy * t;
+    for (const sgn of [-1, 1]) v += ` M${n(px)} ${n(py)} L${n(px + dx * 0.12 + nx * w * 0.7 * sgn)} ${n(py + dy * 0.12 + ny * w * 0.7 * sgn)}`;
+  }
+  void mx; void my;
+  return P(blade(x0, y0, x1, y1, w), fill, 'L', Math.max(1, w * 0.08)) + s(v, vein, Math.max(1, w * 0.07), 0.8);
+}
+
 // ---- furniture and fittings (shared by the redraw files)
 export const WATER = '#7fd1ff';
 export const bar = (d: string, col: string, w: number) => s(d, O, w + 4) + s(d, col, w);
