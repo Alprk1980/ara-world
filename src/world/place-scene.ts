@@ -7,7 +7,7 @@ import type { Scene } from '../app/scenes.ts';
 import type { Floor } from '../../schemas/place.ts';
 import { WALL_HEIGHT, OUTDOOR_HEIGHT } from '../../schemas/place.ts';
 import { categoryOf, houses, items, places } from '../data/index.ts';
-import { anchorOffset, itemSize, itemSprite, showOpen } from '../art/geometry.ts';
+import { anchorOffset, itemSize, itemSprite, showOpen, surfaceHeights } from '../art/geometry.ts';
 import { hasOpenArt } from '../art/look.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { dressFloor } from '../art/room-dressing.ts';
@@ -45,7 +45,9 @@ const BED = /bed|cot|crib|hammock|cradle/;
 /** Emoji shown when picking a destination, by vehicle template. */
 const VEHICLE_EMOJI: [RegExp, string][] = [[/bus/, '🚌'], [/train|tram/, '🚂'], [/plane|jet/, '✈️'], [/boat|ship/, '⛵'], [/taxi|car/, '🚗']];
 const WARDROBE = /rack|wardrobe|closet|dresser|hanger|mannequin|clothes|uniform/;
-type Drag = { kind: 'thing'; thing: Thing; sprite: Sprite; floor: number; dx: number; dy: number; gx: number; gy: number; at: number }
+/** Things standing on a table or shelf being moved, with where they stand relative to it. */
+type Load = { thing: Thing; sprite: Sprite; dx: number; dy: number }[];
+type Drag = { kind: 'thing'; thing: Thing; sprite: Sprite; floor: number; dx: number; dy: number; gx: number; gy: number; at: number; load: Load }
   | { kind: 'person'; person: Person; rig: Rig; floor: number; dx: number; dy: number }
   | { kind: 'pan'; startX: number; startY: number; camX: number; moved: boolean };
 
@@ -59,7 +61,8 @@ export class PlaceScene implements Scene {
   private floorViews: Container[] = [];
   private floorTop: number[] = [];
   private rigs = new Map<string, Rig>();
-  private floor = 0;
+  /** The floor in view. */
+  floor = 0;
   private camY = 0;
   private camYTarget = 0;
   private scale = 1;
@@ -140,6 +143,7 @@ export class PlaceScene implements Scene {
     things.label = 'things';
     c.addChild(things);
     // Things, lowest first so things on tables draw over the tables.
+    this.settleOnSurfaces(i);
     for (const t of [...thingsOn(this.game.world, this.placeId, i)].sort((a, b) => a.y - b.y)) things.addChild(this.thingView(t, i));
     // People on this floor.
     for (const person of this.game.world.people) if (person.at?.place === this.placeId && person.at.floor === i) things.addChild(this.rigFor(person));
@@ -217,6 +221,7 @@ export class PlaceScene implements Scene {
 
   private thingView(t: Thing, floor: number): Sprite {
     const s = itemSprite(t.item, !!t.open);
+    s.label = t.uid;
     s.position.set(t.x, -t.y);
     s.eventMode = 'static';
     s.cursor = 'grab';
@@ -224,9 +229,12 @@ export class PlaceScene implements Scene {
     s.on('pointerdown', (e) => {
       e.stopPropagation();
       const p = this.toFloor(e, floor);
-      this.drag = { kind: 'thing', thing: t, sprite: s, floor, dx: t.x - p.x, dy: t.y - p.y, gx: e.global.x, gy: e.global.y, at: performance.now() };
+      this.drag = { kind: 'thing', thing: t, sprite: s, floor, dx: t.x - p.x, dy: t.y - p.y, gx: e.global.x, gy: e.global.y, at: performance.now(), load: [] };
       if (!this.canMove(t)) return;
       s.parent?.addChild(s);
+      // What stands on it goes with it (and stays drawn in front of it).
+      this.drag.load = this.loadOn(t, floor);
+      for (const l of this.drag.load) s.parent?.addChild(l.sprite);
       s.scale.set(s.scale.x * 1.08);
       this.bin.visible = this.building;
     });
@@ -238,6 +246,7 @@ export class PlaceScene implements Scene {
     this.rigs.set(person.id, rig);
     rig.position.set(person.at?.x ?? 100, -(person.at?.y ?? 0));
     if (person.holding) rig.hold(person.holding, () => this.bite(person, rig));
+    rig.onTakeOut = (e) => this.takeOut(person, rig, e);
     rig.eventMode = 'static';
     rig.cursor = 'grab';
     const height = rig.geo.height;
@@ -306,6 +315,23 @@ export class PlaceScene implements Scene {
     persist(this.game.world);
   }
 
+  /** Pull the thing out of someone's hand: it becomes a thing in the scene, carried by the finger until dropped. */
+  private takeOut(person: Person, rig: Rig, e: FederatedPointerEvent): void {
+    const item = person.holding, floor = person.at?.floor;
+    if (!item || floor === undefined) return;
+    const p = this.toFloor(e, floor);
+    const t: Thing = { item, x: p.x, y: Math.max(0, p.y - itemSize(item).h / 2), uid: uid(), ...(person.bitesLeft ? { bitesLeft: person.bitesLeft } : {}) };
+    person.holding = undefined;
+    person.bitesLeft = undefined;
+    rig.hold(null);
+    this.addThing(t, floor);
+    const s = this.thingsLayer(floor).children.at(-1) as Sprite;
+    s.scale.set(s.scale.x * 1.08);
+    // A drag that started long ago, so letting go is a drop, never a tap.
+    this.drag = { kind: 'thing', thing: t, sprite: s, floor, dx: t.x - p.x, dy: t.y - p.y, gx: e.global.x, gy: e.global.y, at: 0, load: [] };
+    playSound('pop');
+  }
+
   private feed(person: Person, rig: Rig): void {
     if (person.holding && EDIBLE.has(categoryOf(person.holding))) rig.eat();
   }
@@ -358,6 +384,7 @@ export class PlaceScene implements Scene {
       d.thing.y = p.y + d.dy;
       d.sprite.position.set(d.thing.x, -d.thing.y);
       this.carryRiders(d.thing, d.floor);
+      this.carryLoad(d.thing, d.load);
     } else {
       d.person.at!.x = p.x + d.dx;
       d.person.at!.y = p.y + d.dy;
@@ -383,6 +410,11 @@ export class PlaceScene implements Scene {
         this.removeThing(d.thing, d.floor);
         this.sparkle(this.floorViews[d.floor], d.thing.x, -d.thing.y);
         d.sprite.destroy();
+        // Whatever stood on it falls to the next surface down.
+        for (const l of d.load) {
+          l.thing.y = this.surfaceBelow(l.thing.x, l.thing.y, d.floor, l.thing);
+          l.sprite.position.set(l.thing.x, -l.thing.y);
+        }
         playSound('pop');
         persist(this.game.world);
         return;
@@ -411,6 +443,7 @@ export class PlaceScene implements Scene {
       }
       if (!movable) return;
       this.dropThing(d.thing, d.sprite, d.floor);
+      this.carryLoad(d.thing, d.load);
     } else {
       if (this.game.overPeopleBar(e.global)) {
         d.person.at = undefined;
@@ -513,18 +546,56 @@ export class PlaceScene implements Scene {
     }
   }
 
-  /** Height of the highest table-top (a 'top' anchor) under x that is below y, else the floor. */
+  /** Height of the highest surface (a table-top or a shelf level) under x that is below y, else the floor. */
   private surfaceBelow(x: number, y: number, floor: number, self?: Thing): number {
     let best = 0;
     for (const o of thingsOn(this.game.world, this.placeId, floor)) {
       if (o === self) continue;
-      const top = anchorOffset(o.item, 'top');
-      if (!top) continue;
       const w = itemSize(o.item).w;
-      const h = o.y - top.y;
-      if (Math.abs(x - o.x) < w / 2 && h <= y + 8 && h > best) best = h;
+      if (Math.abs(x - o.x) >= w / 2) continue;
+      for (const s of surfaceHeights(o.item)) {
+        const h = o.y + s;
+        if (h <= y + 8 && h > best) best = h;
+      }
     }
     return best;
+  }
+
+  /** Stand things that are up on a table or shelf exactly on its surface: the two looks draw surfaces at slightly
+   * different heights, and a layout is made in one of them. */
+  private settleOnSurfaces(floor: number): void {
+    const list = thingsOn(this.game.world, this.placeId, floor);
+    for (const t of list) {
+      if (t.y <= 0 || items.get(t.item)?.tags.includes('wall')) continue;
+      let best = t.y, gap = 12;
+      for (const o of list) {
+        if (o === t || Math.abs(t.x - o.x) >= itemSize(o.item).w / 2) continue;
+        for (const h of surfaceHeights(o.item)) if (Math.abs(o.y + h - t.y) < gap) [best, gap] = [o.y + h, Math.abs(o.y + h - t.y)];
+      }
+      t.y = best;
+    }
+  }
+
+  /** The things standing on a thing's surfaces (a table-top or shelf levels), with their offsets from it. */
+  private loadOn(t: Thing, floor: number): Load {
+    const levels = surfaceHeights(t.item);
+    if (!levels.length) return [];
+    const layer = this.thingsLayer(floor), w = itemSize(t.item).w;
+    return thingsOn(this.game.world, this.placeId, floor)
+      .filter((o) => o !== t && Math.abs(o.x - t.x) < w / 2 && levels.some((h) => Math.abs(o.y - (t.y + h)) < 1.5))
+      .flatMap((o) => {
+        const sprite = layer.getChildByLabel(o.uid) as Sprite | null;
+        return sprite ? [{ thing: o, sprite, dx: o.x - t.x, dy: o.y - t.y }] : [];
+      });
+  }
+
+  /** Keep a moved table's or shelf's things on it. */
+  private carryLoad(t: Thing, load: Load): void {
+    for (const l of load) {
+      l.thing.x = t.x + l.dx;
+      l.thing.y = t.y + l.dy;
+      l.sprite.position.set(l.thing.x, -l.thing.y);
+    }
   }
 
   /** Where someone sits on a thing, relative to its base: its seat point, or for baths, swings, salon chairs and
@@ -731,6 +802,7 @@ export class PlaceScene implements Scene {
     this.floor = i;
     this.camYTarget = this.floorTop[i];
     this.drawIndicator();
+    this.game.rememberWhere();
   }
 
   private clampCamX(x: number): number {

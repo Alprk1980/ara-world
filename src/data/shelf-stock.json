@@ -1,0 +1,9702 @@
+[
+  {
+    "id": "post_office:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 60,
+        "y": 92
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 40.5,
+        "y": 105.99
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 50.5,
+        "y": 105.99
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 62.5,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 75,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 42,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 55,
+        "y": 127.58
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 68,
+        "y": 127.58
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 79.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "train_station:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 66,
+        "y": 92
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 46,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 59,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_green",
+        "x": 72,
+        "y": 104.5
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 85.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "train_station:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 55,
+        "y": 92
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 33.5,
+        "y": 104.5
+      },
+      {
+        "item": "hospital_heart_balloon_sky",
+        "x": 52,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 71,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "bus_station:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 62,
+        "y": 92
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 39.5,
+        "y": 104.5
+      },
+      {
+        "item": "music_box_blue",
+        "x": 52,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 66,
+        "y": 104.5
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 79.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "kingdom_in_the_clouds:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 44,
+        "y": 92
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 24,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 37,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 49,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 61,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "snowboarding_place:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 252,
+        "y": 92
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 233,
+        "y": 105.99
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 245,
+        "y": 105.99
+      },
+      {
+        "item": "cute_snowball_strawberry",
+        "x": 258.5,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 270.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_snowball_lemon",
+        "x": 234.5,
+        "y": 127.58
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 249.5,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 263,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 272,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "school:1",
+    "items": [
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 151.2,
+        "y": 12.66
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 161.7,
+        "y": 12.66
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 172.2,
+        "y": 12.66
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 183.7,
+        "y": 12.66
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 196.7,
+        "y": 12.66
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 208.7,
+        "y": 12.66
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 219.7,
+        "y": 12.66
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 152.7,
+        "y": 43.04
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 167.2,
+        "y": 43.04
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 178.7,
+        "y": 43.04
+      },
+      {
+        "item": "zipper_pencil_case_gold",
+        "x": 195.2,
+        "y": 43.04
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 213.2,
+        "y": 43.04
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 221.7,
+        "y": 43.04
+      },
+      {
+        "item": "school_zip_pencil_case_lemon",
+        "x": 158.2,
+        "y": 73.42
+      },
+      {
+        "item": "school_water_bottle_strawberry",
+        "x": 176.2,
+        "y": 73.42
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 188.7,
+        "y": 73.42
+      },
+      {
+        "item": "cute_lunchbox_mint",
+        "x": 206.2,
+        "y": 73.42
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 220.7,
+        "y": 73.42
+      },
+      {
+        "item": "music_box_blue",
+        "x": 153.2,
+        "y": 103.8
+      },
+      {
+        "item": "school_water_bottle_sky",
+        "x": 166.2,
+        "y": 103.8
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 177.7,
+        "y": 103.8
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 188.2,
+        "y": 103.8
+      },
+      {
+        "item": "cute_lunchbox_strawberry",
+        "x": 204.2,
+        "y": 103.8
+      },
+      {
+        "item": "fairy_light_jar_warm",
+        "x": 220.2,
+        "y": 103.8
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 261,
+        "y": 92
+      },
+      {
+        "item": "cute_apple_lemon",
+        "x": 243.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 256.5,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 268,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 278.5,
+        "y": 105.99
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 243.5,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 255.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_lunchbox_lemon",
+        "x": 271.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "school:2",
+    "items": [
+      {
+        "item": "succulent_pot_jade",
+        "x": 514.2,
+        "y": 4.24
+      },
+      {
+        "item": "school_toy_blocks_lilac",
+        "x": 532.2,
+        "y": 4.24
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 550.2,
+        "y": 4.24
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 562.2,
+        "y": 4.24
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 514.2,
+        "y": 36.06
+      },
+      {
+        "item": "zipper_pencil_case_gold",
+        "x": 532.2,
+        "y": 36.06
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 550.2,
+        "y": 36.06
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 560.7,
+        "y": 36.06
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 569.7,
+        "y": 36.06
+      },
+      {
+        "item": "school_zip_pencil_case_lilac",
+        "x": 521.2,
+        "y": 67.88
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 538.2,
+        "y": 67.88
+      },
+      {
+        "item": "book_stack_green",
+        "x": 551.2,
+        "y": 67.88
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 564.7,
+        "y": 67.88
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 53,
+        "y": 92
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 30.5,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lunchbox_strawberry",
+        "x": 47,
+        "y": 104.5
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 64,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 75,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "daycare:1",
+    "items": [
+      {
+        "item": "small_flower_vase_pink",
+        "x": 668.2,
+        "y": 4.24
+      },
+      {
+        "item": "music_box_pink",
+        "x": 680.2,
+        "y": 4.24
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 692.7,
+        "y": 4.24
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 703.2,
+        "y": 4.24
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 713.7,
+        "y": 4.24
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 722.7,
+        "y": 4.24
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 668.2,
+        "y": 36.06
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 678.2,
+        "y": 36.06
+      },
+      {
+        "item": "daycare_toy_piano_lemon",
+        "x": 693.2,
+        "y": 36.06
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 709.7,
+        "y": 36.06
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 721.2,
+        "y": 36.06
+      },
+      {
+        "item": "cute_apple_lemon",
+        "x": 670.2,
+        "y": 67.88
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 684.2,
+        "y": 67.88
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 696.2,
+        "y": 67.88
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 707.2,
+        "y": 67.88
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 719.7,
+        "y": 67.88
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 37,
+        "y": 92
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 19.5,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 32,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 43,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 54,
+        "y": 105.99
+      },
+      {
+        "item": "daycare_soft_blocks_mint",
+        "x": 25.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_apple_berry",
+        "x": 45.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 56,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "daycare:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 37,
+        "y": 92
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 15.5,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 25.5,
+        "y": 104.5
+      },
+      {
+        "item": "daycare_soft_blocks_mint",
+        "x": 42,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 60,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "hospital:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 61,
+        "y": 92
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 39.5,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 51,
+        "y": 104.5
+      },
+      {
+        "item": "milk_bottle_lilac",
+        "x": 61,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 71.5,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 82,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "hospital:1",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 36,
+        "y": 92
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 16.5,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 27,
+        "y": 105.99
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 37.5,
+        "y": 105.99
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 47.5,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 56,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_pink",
+        "x": 18.5,
+        "y": 127.58
+      },
+      {
+        "item": "daycare_soft_blocks_sky",
+        "x": 38.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 55,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "fire_station:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 58,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 36.5,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_green",
+        "x": 51,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 67,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 78.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "fire_station:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 73,
+        "y": 92
+      },
+      {
+        "item": "fire_station_water_bucket_lemon",
+        "x": 52,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 62.5,
+        "y": 104.5
+      },
+      {
+        "item": "fire_station_water_bucket_sky",
+        "x": 73,
+        "y": 104.5
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 86.5,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 96.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "police_station:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 56,
+        "y": 92
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 31.5,
+        "y": 104.5
+      },
+      {
+        "item": "fire_station_treat_bowl_lemon",
+        "x": 47,
+        "y": 104.5
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 65.5,
+        "y": 104.5
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 77.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "police_station:2",
+    "items": [
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 36,
+        "y": 92
+      },
+      {
+        "item": "fire_station_treat_bowl_mint",
+        "x": 23.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 42,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 54,
+        "y": 105.99
+      },
+      {
+        "item": "fire_station_treat_bowl_lilac",
+        "x": 23.5,
+        "y": 127.58
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 43.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 55,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "pools:1",
+    "items": [
+      {
+        "item": "cube_storage_shelf_grey",
+        "x": 37
+      },
+      {
+        "item": "lemonade_glass_sky",
+        "x": 8.5,
+        "y": 4.24
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 17.5,
+        "y": 4.24
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 27.5,
+        "y": 4.24
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 38,
+        "y": 4.24
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 48.5,
+        "y": 4.24
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 59,
+        "y": 4.24
+      },
+      {
+        "item": "cute_pizza_slice_gold",
+        "x": 11.5,
+        "y": 36.06
+      },
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 24.5,
+        "y": 36.06
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 35.5,
+        "y": 36.06
+      },
+      {
+        "item": "cute_ice_cream_cone_chocolate",
+        "x": 49.5,
+        "y": 36.06
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 63.5,
+        "y": 36.06
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 12.5,
+        "y": 67.88
+      },
+      {
+        "item": "cute_juice_box_rainbow",
+        "x": 26.5,
+        "y": 67.88
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 39.5,
+        "y": 67.88
+      },
+      {
+        "item": "cute_pizza_slice_lilac",
+        "x": 53.5,
+        "y": 67.88
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 64,
+        "y": 67.88
+      }
+    ]
+  },
+  {
+    "id": "zoo:2",
+    "items": [
+      {
+        "item": "cube_storage_shelf_grey",
+        "x": 37
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 10,
+        "y": 4.24
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 20.5,
+        "y": 4.24
+      },
+      {
+        "item": "juice_jug_lemon",
+        "x": 30.5,
+        "y": 4.24
+      },
+      {
+        "item": "fire_station_water_bucket_strawberry",
+        "x": 42.5,
+        "y": 4.24
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 56.5,
+        "y": 4.24
+      },
+      {
+        "item": "music_box_wood",
+        "x": 11.5,
+        "y": 36.06
+      },
+      {
+        "item": "turtle_shell_lemon",
+        "x": 31.5,
+        "y": 36.06
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 50,
+        "y": 36.06
+      },
+      {
+        "item": "music_box_pink",
+        "x": 62.5,
+        "y": 36.06
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 11,
+        "y": 67.88
+      },
+      {
+        "item": "fire_station_water_bucket_sky",
+        "x": 24.5,
+        "y": 67.88
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 36.5,
+        "y": 67.88
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 46.5,
+        "y": 67.88
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 57,
+        "y": 67.88
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 66,
+        "y": 67.88
+      }
+    ]
+  },
+  {
+    "id": "aquarium:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 226,
+        "y": 92
+      },
+      {
+        "item": "turtle_shell_lilac",
+        "x": 214.5,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_blue",
+        "x": 234.5,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 245,
+        "y": 105.99
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 208.5,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 221,
+        "y": 127.58
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 233,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 244.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "aquarium:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 354,
+        "y": 92
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 331,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 341.5,
+        "y": 104.5
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 352.5,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 365,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 377,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "aquarium:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 221,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 199.5,
+        "y": 104.5
+      },
+      {
+        "item": "zoo_fruit_basket_lilac",
+        "x": 219,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 237,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 245.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "aquarium:3",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 56,
+        "y": 92
+      },
+      {
+        "item": "fizzy_drink_strawberry",
+        "x": 35.5,
+        "y": 105.99
+      },
+      {
+        "item": "book_stack_green",
+        "x": 47.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 61,
+        "y": 105.99
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 71.5,
+        "y": 105.99
+      },
+      {
+        "item": "turtle_shell_lemon",
+        "x": 44.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 61,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 70,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "theme_park:2",
+    "items": [
+      {
+        "item": "cube_storage_shelf_oak",
+        "x": 37
+      },
+      {
+        "item": "theme_park_ticket_stamp_lemon",
+        "x": 11.5,
+        "y": 4.24
+      },
+      {
+        "item": "plush_bunny_strawberry",
+        "x": 24.5,
+        "y": 4.24
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 36.5,
+        "y": 4.24
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 48.5,
+        "y": 4.24
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 60,
+        "y": 4.24
+      },
+      {
+        "item": "cute_photo_flash_lilac",
+        "x": 14.5,
+        "y": 36.06
+      },
+      {
+        "item": "coaster_place_sticker_strawberry",
+        "x": 36.5,
+        "y": 36.06
+      },
+      {
+        "item": "cute_photo_flash_sky",
+        "x": 58.5,
+        "y": 36.06
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 10.5,
+        "y": 67.88
+      },
+      {
+        "item": "theme_park_ticket_stamp_lilac",
+        "x": 23.5,
+        "y": 67.88
+      },
+      {
+        "item": "coaster_place_sticker_mint",
+        "x": 42.5,
+        "y": 67.88
+      },
+      {
+        "item": "theme_park_ticket_stamp_sky",
+        "x": 61.5,
+        "y": 67.88
+      }
+    ]
+  },
+  {
+    "id": "theme_park:3",
+    "items": [
+      {
+        "item": "cube_storage_shelf_white",
+        "x": 37
+      },
+      {
+        "item": "candy_apple_sky",
+        "x": 10.5,
+        "y": 4.24
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 22,
+        "y": 4.24
+      },
+      {
+        "item": "cute_photo_flash_sky",
+        "x": 37.5,
+        "y": 4.24
+      },
+      {
+        "item": "cute_photo_flash_lilac",
+        "x": 57.5,
+        "y": 4.24
+      },
+      {
+        "item": "cute_photo_flash_mint",
+        "x": 14.5,
+        "y": 36.06
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 30.5,
+        "y": 36.06
+      },
+      {
+        "item": "cute_photo_flash_lemon",
+        "x": 46.5,
+        "y": 36.06
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 63,
+        "y": 36.06
+      },
+      {
+        "item": "theme_park_ticket_stamp_sky",
+        "x": 11.5,
+        "y": 67.88
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 24.5,
+        "y": 67.88
+      },
+      {
+        "item": "coaster_place_sticker_strawberry",
+        "x": 42.5,
+        "y": 67.88
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 60,
+        "y": 67.88
+      }
+    ]
+  },
+  {
+    "id": "rollercoaster_place:2",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 33,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 15,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 27,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 38,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 49.5,
+        "y": 105.99
+      },
+      {
+        "item": "theme_park_ticket_stamp_strawberry",
+        "x": 15.5,
+        "y": 127.58
+      },
+      {
+        "item": "theme_park_ticket_stamp_lilac",
+        "x": 29.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_photo_flash_sky",
+        "x": 46.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "rollercoaster_place:3",
+    "items": [
+      {
+        "item": "trophy_cup_silver",
+        "x": 167.9,
+        "y": 17.14
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 180.4,
+        "y": 17.14
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 191.4,
+        "y": 17.14
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 203.9,
+        "y": 17.14
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 216.9,
+        "y": 17.14
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 228.9,
+        "y": 17.14
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 166.9,
+        "y": 37.4
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 178.4,
+        "y": 37.4
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 190.9,
+        "y": 37.4
+      },
+      {
+        "item": "plush_bunny_sky",
+        "x": 203.9,
+        "y": 37.4
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 216.4,
+        "y": 37.4
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 229.4,
+        "y": 37.4
+      },
+      {
+        "item": "coaster_place_sticker_lemon",
+        "x": 172.9,
+        "y": 57.66
+      },
+      {
+        "item": "theme_park_ticket_stamp_lilac",
+        "x": 191.9,
+        "y": 57.66
+      },
+      {
+        "item": "coaster_place_sticker_sky",
+        "x": 210.9,
+        "y": 57.66
+      },
+      {
+        "item": "plush_bunny_strawberry",
+        "x": 228.9,
+        "y": 57.66
+      },
+      {
+        "item": "theme_park_ticket_stamp_mint",
+        "x": 276.3,
+        "y": 18.24
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 289.8,
+        "y": 18.24
+      },
+      {
+        "item": "theme_park_ticket_stamp_strawberry",
+        "x": 303.3,
+        "y": 18.24
+      },
+      {
+        "item": "cute_photo_flash_sky",
+        "x": 320.3,
+        "y": 18.24
+      },
+      {
+        "item": "cute_photo_flash_lilac",
+        "x": 340.3,
+        "y": 18.24
+      },
+      {
+        "item": "coaster_place_sticker_mint",
+        "x": 362.3,
+        "y": 18.24
+      },
+      {
+        "item": "theme_park_ticket_stamp_sky",
+        "x": 276.3,
+        "y": 50.44
+      },
+      {
+        "item": "cute_photo_flash_mint",
+        "x": 293.3,
+        "y": 50.44
+      },
+      {
+        "item": "cute_photo_flash_lemon",
+        "x": 313.3,
+        "y": 50.44
+      },
+      {
+        "item": "coaster_place_sticker_strawberry",
+        "x": 335.3,
+        "y": 50.44
+      },
+      {
+        "item": "theme_park_ticket_stamp_lemon",
+        "x": 354.3,
+        "y": 50.44
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 367.8,
+        "y": 50.44
+      },
+      {
+        "item": "coaster_place_sticker_lilac",
+        "x": 281.3,
+        "y": 78.34
+      },
+      {
+        "item": "cute_photo_flash_strawberry",
+        "x": 303.3,
+        "y": 78.34
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 320.3,
+        "y": 78.34
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 332.8,
+        "y": 78.34
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 344.3,
+        "y": 78.34
+      },
+      {
+        "item": "theme_park_ticket_stamp_mint",
+        "x": 357.3,
+        "y": 78.34
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 371.3,
+        "y": 78.34
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 275.8,
+        "y": 107.32
+      },
+      {
+        "item": "cute_photo_flash_mint",
+        "x": 292.3,
+        "y": 107.32
+      },
+      {
+        "item": "theme_park_ticket_stamp_lemon",
+        "x": 309.3,
+        "y": 107.32
+      },
+      {
+        "item": "cute_photo_flash_sky",
+        "x": 326.3,
+        "y": 107.32
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 343.3,
+        "y": 107.32
+      },
+      {
+        "item": "theme_park_ticket_stamp_strawberry",
+        "x": 357.3,
+        "y": 107.32
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 371.3,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 172,
+        "y": 92
+      },
+      {
+        "item": "coaster_place_sticker_lilac",
+        "x": 156,
+        "y": 104.5
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 174.5,
+        "y": 104.5
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 187.5,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 238,
+        "y": 92
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 220.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 234,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 246.5,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_sky",
+        "x": 219.5,
+        "y": 127.58
+      },
+      {
+        "item": "coaster_place_sticker_strawberry",
+        "x": 237.5,
+        "y": 127.58
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 256,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 411,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 393,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 406,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 418,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 429.5,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 392.5,
+        "y": 127.58
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 405.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_photo_flash_strawberry",
+        "x": 422.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "waterpark:2",
+    "items": [
+      {
+        "item": "low_display_cabinet_cherry",
+        "x": 44
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 10.5,
+        "y": 17.14
+      },
+      {
+        "item": "french_fries_sky",
+        "x": 24,
+        "y": 17.14
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 36.5,
+        "y": 17.14
+      },
+      {
+        "item": "music_box_pink",
+        "x": 49,
+        "y": 17.14
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 62.5,
+        "y": 17.14
+      },
+      {
+        "item": "crab_toy_lilac",
+        "x": 76,
+        "y": 17.14
+      },
+      {
+        "item": "crab_toy_strawberry",
+        "x": 11,
+        "y": 37.4
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 23.5,
+        "y": 37.4
+      },
+      {
+        "item": "bouncy_ball_toy_beach",
+        "x": 36,
+        "y": 37.4
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 48,
+        "y": 37.4
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 59.5,
+        "y": 37.4
+      },
+      {
+        "item": "rubber_duck_lemon",
+        "x": 71,
+        "y": 37.4
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 79.5,
+        "y": 37.4
+      },
+      {
+        "item": "music_box_wood",
+        "x": 11,
+        "y": 57.66
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 24.5,
+        "y": 57.66
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 36,
+        "y": 57.66
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 46.5,
+        "y": 57.66
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 57.5,
+        "y": 57.66
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 68.5,
+        "y": 57.66
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 79,
+        "y": 57.66
+      }
+    ]
+  },
+  {
+    "id": "airport:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 66,
+        "y": 92
+      },
+      {
+        "item": "bouncy_ball_toy_royal",
+        "x": 48.5,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 60.5,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 71,
+        "y": 105.99
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 83,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 47,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 58,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 67,
+        "y": 127.58
+      },
+      {
+        "item": "passport_stamp_lilac",
+        "x": 79.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "airport:1",
+    "items": [
+      {
+        "item": "cat_ornament_black",
+        "x": 586.8,
+        "y": 17.14
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 597.3,
+        "y": 17.14
+      },
+      {
+        "item": "music_box_pink",
+        "x": 609.8,
+        "y": 17.14
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 623.3,
+        "y": 17.14
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 636.8,
+        "y": 17.14
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 648.8,
+        "y": 17.14
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 657.3,
+        "y": 17.14
+      },
+      {
+        "item": "tea_cup_lemon",
+        "x": 586.3,
+        "y": 37.4
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 596.3,
+        "y": 37.4
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 606.8,
+        "y": 37.4
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 616.8,
+        "y": 37.4
+      },
+      {
+        "item": "croissant_strawberry",
+        "x": 628.8,
+        "y": 37.4
+      },
+      {
+        "item": "jigsaw_puzzle_mint",
+        "x": 643.8,
+        "y": 37.4
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 654.8,
+        "y": 37.4
+      },
+      {
+        "item": "passport_stamp_mint",
+        "x": 590.8,
+        "y": 57.66
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 606.8,
+        "y": 57.66
+      },
+      {
+        "item": "jigsaw_puzzle_lemon",
+        "x": 621.8,
+        "y": 57.66
+      },
+      {
+        "item": "fairy_light_jar_warm",
+        "x": 634.8,
+        "y": 57.66
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 646.3,
+        "y": 57.66
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 656.3,
+        "y": 57.66
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 60,
+        "y": 92
+      },
+      {
+        "item": "book_stack_green",
+        "x": 43.5,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 57,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 68,
+        "y": 105.99
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 78.5,
+        "y": 105.99
+      },
+      {
+        "item": "jigsaw_puzzle_sky",
+        "x": 43.5,
+        "y": 127.58
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 56.5,
+        "y": 127.58
+      },
+      {
+        "item": "hospital_snack_tray_strawberry",
+        "x": 69.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 81,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "airport:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 50,
+        "y": 92
+      },
+      {
+        "item": "hospital_snack_tray_lemon",
+        "x": 30,
+        "y": 104.5
+      },
+      {
+        "item": "music_box_blue",
+        "x": 45,
+        "y": 104.5
+      },
+      {
+        "item": "hospital_snack_tray_mint",
+        "x": 60,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 73,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "malls:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 65,
+        "y": 92
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 46,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 55,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 64,
+        "y": 105.99
+      },
+      {
+        "item": "board_game_lemon",
+        "x": 78.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 44.5,
+        "y": 127.58
+      },
+      {
+        "item": "toy_car_sky",
+        "x": 56.5,
+        "y": 127.58
+      },
+      {
+        "item": "music_box_pink",
+        "x": 71.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_lipstick_mint",
+        "x": 81.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 121,
+        "y": 92
+      },
+      {
+        "item": "toy_car_lemon",
+        "x": 104.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 118,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 130,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 139.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 100.5,
+        "y": 127.58
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 110.5,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 122,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 133,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 142,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 387,
+        "y": 92
+      },
+      {
+        "item": "music_box_wood",
+        "x": 366,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_strawberry",
+        "x": 379,
+        "y": 104.5
+      },
+      {
+        "item": "music_box_blue",
+        "x": 392,
+        "y": 104.5
+      },
+      {
+        "item": "toy_car_strawberry",
+        "x": 407,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "malls:1",
+    "items": [
+      {
+        "item": "cute_lipstick_mint",
+        "x": 575.9,
+        "y": 23.66
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 583.9,
+        "y": 23.66
+      },
+      {
+        "item": "toy_car_lilac",
+        "x": 596.9,
+        "y": 23.66
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 607.9,
+        "y": 23.66
+      },
+      {
+        "item": "toy_car_sky",
+        "x": 618.9,
+        "y": 23.66
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 578.4,
+        "y": 55.21
+      },
+      {
+        "item": "board_game_strawberry",
+        "x": 592.9,
+        "y": 55.21
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 607.4,
+        "y": 55.21
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 616.4,
+        "y": 55.21
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 623.4,
+        "y": 55.21
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 578.4,
+        "y": 86.76
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 589.9,
+        "y": 86.76
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 601.4,
+        "y": 86.76
+      },
+      {
+        "item": "toy_car_lemon",
+        "x": 614.9,
+        "y": 86.76
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 180,
+        "y": 92
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 157.5,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_sky",
+        "x": 169,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 180,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 188.5,
+        "y": 104.5
+      },
+      {
+        "item": "music_box_blue",
+        "x": 199,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 245,
+        "y": 92
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 222.5,
+        "y": 104.5
+      },
+      {
+        "item": "music_box_wood",
+        "x": 235,
+        "y": 104.5
+      },
+      {
+        "item": "board_game_sky",
+        "x": 251,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 266,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 405,
+        "y": 92
+      },
+      {
+        "item": "board_game_lilac",
+        "x": 389.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 402.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 410.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 421,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 387,
+        "y": 127.58
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 397.5,
+        "y": 127.58
+      },
+      {
+        "item": "board_game_mint",
+        "x": 410.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 422.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "malls:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 55,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 33.5,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_sky",
+        "x": 46,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 57.5,
+        "y": 104.5
+      },
+      {
+        "item": "board_game_sky",
+        "x": 72,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "places_to_eat:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 34,
+        "y": 92
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 16,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 29,
+        "y": 105.99
+      },
+      {
+        "item": "cute_pizza_slice_gold",
+        "x": 42.5,
+        "y": 105.99
+      },
+      {
+        "item": "fizzy_drink_lilac",
+        "x": 53.5,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 15,
+        "y": 127.58
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 26,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 36.5,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 47,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "places_to_eat:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 69,
+        "y": 92
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 47.5,
+        "y": 104.5
+      },
+      {
+        "item": "pink_donut_lilac",
+        "x": 59.5,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 70.5,
+        "y": 104.5
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 83,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 93.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "sports_arena:2",
+    "items": [
+      {
+        "item": "desk_globe_dark",
+        "x": 315.3,
+        "y": 17.14
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 326.3,
+        "y": 17.14
+      },
+      {
+        "item": "candy_apple_mint",
+        "x": 337.8,
+        "y": 17.14
+      },
+      {
+        "item": "cocoa_mug_lemon",
+        "x": 349.8,
+        "y": 17.14
+      },
+      {
+        "item": "book_stack_green",
+        "x": 363.8,
+        "y": 17.14
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 377.3,
+        "y": 17.14
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 386.3,
+        "y": 17.14
+      },
+      {
+        "item": "music_box_pink",
+        "x": 316.8,
+        "y": 37.4
+      },
+      {
+        "item": "hospital_snack_tray_lemon",
+        "x": 331.8,
+        "y": 37.4
+      },
+      {
+        "item": "music_box_wood",
+        "x": 346.8,
+        "y": 37.4
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 358.8,
+        "y": 37.4
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 368.8,
+        "y": 37.4
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 379.3,
+        "y": 37.4
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 314.8,
+        "y": 57.66
+      },
+      {
+        "item": "cute_snowball_strawberry",
+        "x": 326.8,
+        "y": 57.66
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 338.8,
+        "y": 57.66
+      },
+      {
+        "item": "cocoa_mug_sky",
+        "x": 349.8,
+        "y": 57.66
+      },
+      {
+        "item": "cocoa_mug_lilac",
+        "x": 361.8,
+        "y": 57.66
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 373.3,
+        "y": 57.66
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 383.8,
+        "y": 57.66
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 61,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 43,
+        "y": 105.99
+      },
+      {
+        "item": "cute_snowball_lilac",
+        "x": 56.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 70,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 80,
+        "y": 105.99
+      },
+      {
+        "item": "cocoa_mug_mint",
+        "x": 42.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_snowball_lemon",
+        "x": 55.5,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 67.5,
+        "y": 127.58
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 79,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "football_stadium:2",
+    "items": [
+      {
+        "item": "desk_globe_blue",
+        "x": 68.5,
+        "y": 17.14
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 77.5,
+        "y": 17.14
+      },
+      {
+        "item": "hospital_snack_tray_sky",
+        "x": 89,
+        "y": 17.14
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 102.5,
+        "y": 17.14
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 115,
+        "y": 17.14
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 128.5,
+        "y": 17.14
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 138.5,
+        "y": 17.14
+      },
+      {
+        "item": "music_box_wood",
+        "x": 70,
+        "y": 37.4
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 82,
+        "y": 37.4
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 92,
+        "y": 37.4
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 103.5,
+        "y": 37.4
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 115.5,
+        "y": 37.4
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 126,
+        "y": 37.4
+      },
+      {
+        "item": "cocoa_mug_strawberry",
+        "x": 137,
+        "y": 37.4
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 68.5,
+        "y": 57.66
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 81,
+        "y": 57.66
+      },
+      {
+        "item": "soccer_football_mint",
+        "x": 101,
+        "y": 57.66
+      },
+      {
+        "item": "cocoa_mug_lilac",
+        "x": 120,
+        "y": 57.66
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 129.5,
+        "y": 57.66
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 138,
+        "y": 57.66
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 34,
+        "y": 92
+      },
+      {
+        "item": "cute_snowball_lilac",
+        "x": 13,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 28,
+        "y": 104.5
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 41,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 51.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "school_shopping_place:0",
+    "items": [
+      {
+        "item": "school_zip_pencil_case_strawberry",
+        "x": 284,
+        "y": 18.24
+      },
+      {
+        "item": "school_shopping_eraser_strawberry",
+        "x": 303,
+        "y": 18.24
+      },
+      {
+        "item": "glue_stick_lilac",
+        "x": 313,
+        "y": 18.24
+      },
+      {
+        "item": "cute_lunchbox_sky",
+        "x": 327,
+        "y": 18.24
+      },
+      {
+        "item": "school_water_bottle_lilac",
+        "x": 344,
+        "y": 18.24
+      },
+      {
+        "item": "school_water_bottle_sky",
+        "x": 356,
+        "y": 18.24
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 369,
+        "y": 18.24
+      },
+      {
+        "item": "glue_stick_strawberry",
+        "x": 379,
+        "y": 18.24
+      },
+      {
+        "item": "school_shopping_lunchbox_sky",
+        "x": 283,
+        "y": 50.44
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 297,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_lunchbox_lemon",
+        "x": 311,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_eraser_mint",
+        "x": 329,
+        "y": 50.44
+      },
+      {
+        "item": "zipper_pencil_case_cocoa",
+        "x": 349,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_eraser_lilac",
+        "x": 369,
+        "y": 50.44
+      },
+      {
+        "item": "glue_stick_lemon",
+        "x": 379,
+        "y": 50.44
+      },
+      {
+        "item": "zipper_pencil_case_rainbow",
+        "x": 285,
+        "y": 78.34
+      },
+      {
+        "item": "cute_lunchbox_lilac",
+        "x": 309,
+        "y": 78.34
+      },
+      {
+        "item": "school_water_bottle_mint",
+        "x": 326,
+        "y": 78.34
+      },
+      {
+        "item": "cute_lunchbox_mint",
+        "x": 343,
+        "y": 78.34
+      },
+      {
+        "item": "school_shopping_notebook_mint",
+        "x": 365,
+        "y": 78.34
+      },
+      {
+        "item": "glue_stick_mint",
+        "x": 379,
+        "y": 78.34
+      },
+      {
+        "item": "zipper_pencil_case_gold",
+        "x": 285,
+        "y": 107.32
+      },
+      {
+        "item": "school_water_bottle_lemon",
+        "x": 304,
+        "y": 107.32
+      },
+      {
+        "item": "cute_lunchbox_lemon",
+        "x": 321,
+        "y": 107.32
+      },
+      {
+        "item": "school_shopping_eraser_lemon",
+        "x": 339,
+        "y": 107.32
+      },
+      {
+        "item": "school_water_bottle_strawberry",
+        "x": 352,
+        "y": 107.32
+      },
+      {
+        "item": "school_shopping_lunchbox_lilac",
+        "x": 369,
+        "y": 107.32
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 143,
+        "y": 92
+      },
+      {
+        "item": "school_shopping_lunchbox_mint",
+        "x": 129.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_zip_pencil_case_lemon",
+        "x": 152.5,
+        "y": 105.99
+      },
+      {
+        "item": "crayon_box_strawberry",
+        "x": 125.5,
+        "y": 127.58
+      },
+      {
+        "item": "school_shopping_lunchbox_strawberry",
+        "x": 143.5,
+        "y": 127.58
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 157.5,
+        "y": 127.58
+      },
+      {
+        "item": "glue_stick_lilac",
+        "x": 163.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 201,
+        "y": 92
+      },
+      {
+        "item": "crayon_box_lemon",
+        "x": 183.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lunchbox_strawberry",
+        "x": 201.5,
+        "y": 105.99
+      },
+      {
+        "item": "glue_stick_lemon",
+        "x": 215.5,
+        "y": 105.99
+      },
+      {
+        "item": "glue_stick_strawberry",
+        "x": 221.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_zip_pencil_case_sky",
+        "x": 188.5,
+        "y": 127.58
+      },
+      {
+        "item": "crayon_box_sky",
+        "x": 207.5,
+        "y": 127.58
+      },
+      {
+        "item": "glue_stick_mint",
+        "x": 217.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 418,
+        "y": 92
+      },
+      {
+        "item": "school_zip_pencil_case_mint",
+        "x": 402,
+        "y": 104.5
+      },
+      {
+        "item": "school_zip_pencil_case_lilac",
+        "x": 426,
+        "y": 104.5
+      },
+      {
+        "item": "glue_stick_mint",
+        "x": 441,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "school_shopping_place:1",
+    "items": [
+      {
+        "item": "glue_stick_lemon",
+        "x": 26,
+        "y": 18.24
+      },
+      {
+        "item": "school_zip_pencil_case_mint",
+        "x": 41,
+        "y": 18.24
+      },
+      {
+        "item": "zipper_pencil_case_cocoa",
+        "x": 66,
+        "y": 18.24
+      },
+      {
+        "item": "school_shopping_eraser_strawberry",
+        "x": 86,
+        "y": 18.24
+      },
+      {
+        "item": "school_shopping_notebook_sky",
+        "x": 104,
+        "y": 18.24
+      },
+      {
+        "item": "school_water_bottle_lemon",
+        "x": 121,
+        "y": 18.24
+      },
+      {
+        "item": "glue_stick_strawberry",
+        "x": 130,
+        "y": 18.24
+      },
+      {
+        "item": "school_water_bottle_mint",
+        "x": 29,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_eraser_mint",
+        "x": 42,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_lunchbox_mint",
+        "x": 60,
+        "y": 50.44
+      },
+      {
+        "item": "school_shopping_lunchbox_strawberry",
+        "x": 82,
+        "y": 50.44
+      },
+      {
+        "item": "crayon_box_lilac",
+        "x": 100,
+        "y": 50.44
+      },
+      {
+        "item": "school_zip_pencil_case_sky",
+        "x": 119,
+        "y": 50.44
+      },
+      {
+        "item": "school_water_bottle_strawberry",
+        "x": 29,
+        "y": 78.34
+      },
+      {
+        "item": "glue_stick_lilac",
+        "x": 38,
+        "y": 78.34
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 44,
+        "y": 78.34
+      },
+      {
+        "item": "school_zip_pencil_case_lilac",
+        "x": 59,
+        "y": 78.34
+      },
+      {
+        "item": "school_water_bottle_sky",
+        "x": 77,
+        "y": 78.34
+      },
+      {
+        "item": "school_shopping_notebook_mint",
+        "x": 94,
+        "y": 78.34
+      },
+      {
+        "item": "cute_lunchbox_sky",
+        "x": 116,
+        "y": 78.34
+      },
+      {
+        "item": "school_zip_pencil_case_strawberry",
+        "x": 35,
+        "y": 107.32
+      },
+      {
+        "item": "cute_lunchbox_lemon",
+        "x": 58,
+        "y": 107.32
+      },
+      {
+        "item": "cute_lunchbox_strawberry",
+        "x": 80,
+        "y": 107.32
+      },
+      {
+        "item": "school_shopping_lunchbox_lemon",
+        "x": 102,
+        "y": 107.32
+      },
+      {
+        "item": "glue_stick_mint",
+        "x": 116,
+        "y": 107.32
+      },
+      {
+        "item": "school_shopping_eraser_lemon",
+        "x": 126,
+        "y": 107.32
+      },
+      {
+        "item": "school_water_bottle_lilac",
+        "x": 164,
+        "y": 4.24
+      },
+      {
+        "item": "cute_lunchbox_lilac",
+        "x": 181,
+        "y": 4.24
+      },
+      {
+        "item": "school_shopping_lunchbox_sky",
+        "x": 203,
+        "y": 4.24
+      },
+      {
+        "item": "glue_stick_lemon",
+        "x": 217,
+        "y": 4.24
+      },
+      {
+        "item": "school_shopping_lunchbox_lilac",
+        "x": 169,
+        "y": 36.06
+      },
+      {
+        "item": "school_shopping_eraser_sky",
+        "x": 187,
+        "y": 36.06
+      },
+      {
+        "item": "school_zip_pencil_case_lemon",
+        "x": 206,
+        "y": 36.06
+      },
+      {
+        "item": "zipper_pencil_case_rainbow",
+        "x": 171,
+        "y": 67.88
+      },
+      {
+        "item": "school_shopping_eraser_lilac",
+        "x": 191,
+        "y": 67.88
+      },
+      {
+        "item": "cute_lunchbox_mint",
+        "x": 209,
+        "y": 67.88
+      },
+      {
+        "item": "crayon_box_strawberry",
+        "x": 255,
+        "y": 17.14
+      },
+      {
+        "item": "crayon_box_sky",
+        "x": 269,
+        "y": 17.14
+      },
+      {
+        "item": "zipper_pencil_case_gold",
+        "x": 289,
+        "y": 17.14
+      },
+      {
+        "item": "cute_lunchbox_sky",
+        "x": 313,
+        "y": 17.14
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 255,
+        "y": 37.4
+      },
+      {
+        "item": "crayon_box_lemon",
+        "x": 269,
+        "y": 37.4
+      },
+      {
+        "item": "glue_stick_strawberry",
+        "x": 279,
+        "y": 37.4
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 285,
+        "y": 37.4
+      },
+      {
+        "item": "school_zip_pencil_case_lilac",
+        "x": 300,
+        "y": 37.4
+      },
+      {
+        "item": "school_shopping_eraser_lilac",
+        "x": 319,
+        "y": 37.4
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 255,
+        "y": 57.66
+      },
+      {
+        "item": "crayon_box_sky",
+        "x": 269,
+        "y": 57.66
+      },
+      {
+        "item": "school_shopping_eraser_sky",
+        "x": 283,
+        "y": 57.66
+      },
+      {
+        "item": "school_zip_pencil_case_strawberry",
+        "x": 302,
+        "y": 57.66
+      },
+      {
+        "item": "school_water_bottle_mint",
+        "x": 320,
+        "y": 57.66
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 168,
+        "y": 92
+      },
+      {
+        "item": "crayon_box_lilac",
+        "x": 147,
+        "y": 104.5
+      },
+      {
+        "item": "school_shopping_eraser_mint",
+        "x": 161,
+        "y": 104.5
+      },
+      {
+        "item": "school_shopping_eraser_strawberry",
+        "x": 175,
+        "y": 104.5
+      },
+      {
+        "item": "glue_stick_mint",
+        "x": 185,
+        "y": 104.5
+      },
+      {
+        "item": "glue_stick_lilac",
+        "x": 191,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 233,
+        "y": 92
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 211.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_shopping_eraser_sky",
+        "x": 221.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_zip_pencil_case_strawberry",
+        "x": 240.5,
+        "y": 105.99
+      },
+      {
+        "item": "glue_stick_sky",
+        "x": 211.5,
+        "y": 127.58
+      },
+      {
+        "item": "glue_stick_strawberry",
+        "x": 217.5,
+        "y": 127.58
+      },
+      {
+        "item": "school_zip_pencil_case_mint",
+        "x": 232.5,
+        "y": 127.58
+      },
+      {
+        "item": "school_water_bottle_lemon",
+        "x": 250.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 292,
+        "y": 92
+      },
+      {
+        "item": "school_zip_pencil_case_sky",
+        "x": 279.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_zip_pencil_case_strawberry",
+        "x": 303.5,
+        "y": 105.99
+      },
+      {
+        "item": "school_water_bottle_lilac",
+        "x": 273.5,
+        "y": 127.58
+      },
+      {
+        "item": "school_shopping_lunchbox_strawberry",
+        "x": 290.5,
+        "y": 127.58
+      },
+      {
+        "item": "school_water_bottle_sky",
+        "x": 307.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "old_people_home:0",
+    "items": [
+      {
+        "item": "cute_lipstick_gold",
+        "x": 438,
+        "y": 12.66
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 447.5,
+        "y": 12.66
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 460.5,
+        "y": 12.66
+      },
+      {
+        "item": "book_stack_green",
+        "x": 475,
+        "y": 12.66
+      },
+      {
+        "item": "passport_stamp_lemon",
+        "x": 492,
+        "y": 12.66
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 506,
+        "y": 12.66
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 440,
+        "y": 43.04
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 448.5,
+        "y": 43.04
+      },
+      {
+        "item": "passport_stamp_strawberry",
+        "x": 461,
+        "y": 43.04
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 475.5,
+        "y": 43.04
+      },
+      {
+        "item": "music_box_pink",
+        "x": 488,
+        "y": 43.04
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 502,
+        "y": 43.04
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 441.5,
+        "y": 73.42
+      },
+      {
+        "item": "zipper_pencil_case_gold",
+        "x": 461,
+        "y": 73.42
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 481,
+        "y": 73.42
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 493.5,
+        "y": 73.42
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 504.5,
+        "y": 73.42
+      },
+      {
+        "item": "tea_cup_lemon",
+        "x": 439.5,
+        "y": 103.8
+      },
+      {
+        "item": "tea_cup_strawberry",
+        "x": 448.5,
+        "y": 103.8
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 458,
+        "y": 103.8
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 468,
+        "y": 103.8
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 476.5,
+        "y": 103.8
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 485,
+        "y": 103.8
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 498,
+        "y": 103.8
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 509.5,
+        "y": 103.8
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 44,
+        "y": 92
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 21.5,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 32,
+        "y": 104.5
+      },
+      {
+        "item": "jigsaw_puzzle_mint",
+        "x": 45,
+        "y": 104.5
+      },
+      {
+        "item": "jigsaw_puzzle_sky",
+        "x": 61,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "supermarket:0",
+    "items": [
+      {
+        "item": "zoo_fruit_basket_mint",
+        "x": 358.9,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_strawberry",
+        "x": 375.9,
+        "y": 18.24
+      },
+      {
+        "item": "banana_mint",
+        "x": 385.9,
+        "y": 18.24
+      },
+      {
+        "item": "carrot_strawberry",
+        "x": 394.9,
+        "y": 18.24
+      },
+      {
+        "item": "cereal_box_sky",
+        "x": 402.9,
+        "y": 18.24
+      },
+      {
+        "item": "zoo_fruit_basket_sky",
+        "x": 420.9,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_mint",
+        "x": 439.9,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_sky",
+        "x": 449.9,
+        "y": 18.24
+      },
+      {
+        "item": "bread_loaf_lilac",
+        "x": 353.9,
+        "y": 50.44
+      },
+      {
+        "item": "banana_sky",
+        "x": 367.9,
+        "y": 50.44
+      },
+      {
+        "item": "bread_loaf_strawberry",
+        "x": 381.9,
+        "y": 50.44
+      },
+      {
+        "item": "carrot_lemon",
+        "x": 392.9,
+        "y": 50.44
+      },
+      {
+        "item": "cute_apple_lemon",
+        "x": 402.9,
+        "y": 50.44
+      },
+      {
+        "item": "carrot_mint",
+        "x": 412.9,
+        "y": 50.44
+      },
+      {
+        "item": "milk_carton_lilac",
+        "x": 419.9,
+        "y": 50.44
+      },
+      {
+        "item": "zoo_fruit_basket_lilac",
+        "x": 436.9,
+        "y": 50.44
+      },
+      {
+        "item": "zoo_fruit_basket_strawberry",
+        "x": 358.9,
+        "y": 78.34
+      },
+      {
+        "item": "milk_carton_lemon",
+        "x": 375.9,
+        "y": 78.34
+      },
+      {
+        "item": "cereal_box_lemon",
+        "x": 384.9,
+        "y": 78.34
+      },
+      {
+        "item": "zoo_fruit_basket_lemon",
+        "x": 402.9,
+        "y": 78.34
+      },
+      {
+        "item": "bread_loaf_mint",
+        "x": 423.9,
+        "y": 78.34
+      },
+      {
+        "item": "banana_strawberry",
+        "x": 437.9,
+        "y": 78.34
+      },
+      {
+        "item": "banana_lemon",
+        "x": 449.9,
+        "y": 78.34
+      },
+      {
+        "item": "cheese_wedge_lemon",
+        "x": 351.9,
+        "y": 107.32
+      },
+      {
+        "item": "bread_loaf_lemon",
+        "x": 365.9,
+        "y": 107.32
+      },
+      {
+        "item": "cute_juice_box_ocean",
+        "x": 379.9,
+        "y": 107.32
+      },
+      {
+        "item": "egg_carton_sky",
+        "x": 393.9,
+        "y": 107.32
+      },
+      {
+        "item": "cute_juice_box_royal",
+        "x": 407.9,
+        "y": 107.32
+      },
+      {
+        "item": "cheese_wedge_sky",
+        "x": 419.9,
+        "y": 107.32
+      },
+      {
+        "item": "milk_carton_mint",
+        "x": 429.9,
+        "y": 107.32
+      },
+      {
+        "item": "egg_carton_lilac",
+        "x": 441.9,
+        "y": 107.32
+      },
+      {
+        "item": "carrot_sky",
+        "x": 452.9,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 46,
+        "y": 92
+      },
+      {
+        "item": "milk_carton_sky",
+        "x": 22,
+        "y": 104.5
+      },
+      {
+        "item": "cute_juice_box_beach",
+        "x": 32,
+        "y": 104.5
+      },
+      {
+        "item": "fizzy_drink_lemon",
+        "x": 42,
+        "y": 104.5
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 53,
+        "y": 104.5
+      },
+      {
+        "item": "cheese_wedge_lilac",
+        "x": 66,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 108,
+        "y": 92
+      },
+      {
+        "item": "egg_carton_strawberry",
+        "x": 88,
+        "y": 104.5
+      },
+      {
+        "item": "bread_loaf_sky",
+        "x": 104,
+        "y": 104.5
+      },
+      {
+        "item": "cheese_wedge_strawberry",
+        "x": 118,
+        "y": 104.5
+      },
+      {
+        "item": "cereal_box_lilac",
+        "x": 129,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 173,
+        "y": 92
+      },
+      {
+        "item": "cute_juice_box_rainbow",
+        "x": 154.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_apple_berry",
+        "x": 167.5,
+        "y": 105.99
+      },
+      {
+        "item": "egg_carton_lemon",
+        "x": 182.5,
+        "y": 105.99
+      },
+      {
+        "item": "carrot_lilac",
+        "x": 193.5,
+        "y": 105.99
+      },
+      {
+        "item": "cereal_box_strawberry",
+        "x": 153.5,
+        "y": 127.58
+      },
+      {
+        "item": "banana_lilac",
+        "x": 164.5,
+        "y": 127.58
+      },
+      {
+        "item": "milk_carton_strawberry",
+        "x": 174.5,
+        "y": 127.58
+      },
+      {
+        "item": "cereal_box_mint",
+        "x": 183.5,
+        "y": 127.58
+      },
+      {
+        "item": "fizzy_drink_mint",
+        "x": 192.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "supermarket:1",
+    "items": [
+      {
+        "item": "fizzy_drink_lilac",
+        "x": 32.4,
+        "y": 18.24
+      },
+      {
+        "item": "cereal_box_mint",
+        "x": 41.4,
+        "y": 18.24
+      },
+      {
+        "item": "milk_carton_mint",
+        "x": 50.4,
+        "y": 18.24
+      },
+      {
+        "item": "milk_carton_lemon",
+        "x": 58.4,
+        "y": 18.24
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 69.4,
+        "y": 18.24
+      },
+      {
+        "item": "zoo_fruit_basket_lilac",
+        "x": 89.4,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_mint",
+        "x": 106.4,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_strawberry",
+        "x": 116.4,
+        "y": 18.24
+      },
+      {
+        "item": "egg_carton_sky",
+        "x": 130.4,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_lemon",
+        "x": 34.4,
+        "y": 50.44
+      },
+      {
+        "item": "egg_carton_lilac",
+        "x": 48.4,
+        "y": 50.44
+      },
+      {
+        "item": "carrot_sky",
+        "x": 59.4,
+        "y": 50.44
+      },
+      {
+        "item": "bread_loaf_strawberry",
+        "x": 70.4,
+        "y": 50.44
+      },
+      {
+        "item": "cute_juice_box_royal",
+        "x": 84.4,
+        "y": 50.44
+      },
+      {
+        "item": "cute_juice_box_rainbow",
+        "x": 96.4,
+        "y": 50.44
+      },
+      {
+        "item": "zoo_fruit_basket_sky",
+        "x": 115.4,
+        "y": 50.44
+      },
+      {
+        "item": "milk_carton_lilac",
+        "x": 132.4,
+        "y": 50.44
+      },
+      {
+        "item": "carrot_mint",
+        "x": 31.4,
+        "y": 78.34
+      },
+      {
+        "item": "cereal_box_lilac",
+        "x": 39.4,
+        "y": 78.34
+      },
+      {
+        "item": "carrot_lilac",
+        "x": 47.4,
+        "y": 78.34
+      },
+      {
+        "item": "cute_apple_berry",
+        "x": 57.4,
+        "y": 78.34
+      },
+      {
+        "item": "cereal_box_sky",
+        "x": 69.4,
+        "y": 78.34
+      },
+      {
+        "item": "zoo_fruit_basket_mint",
+        "x": 87.4,
+        "y": 78.34
+      },
+      {
+        "item": "egg_carton_strawberry",
+        "x": 108.4,
+        "y": 78.34
+      },
+      {
+        "item": "bread_loaf_lemon",
+        "x": 124.4,
+        "y": 78.34
+      },
+      {
+        "item": "cute_apple_blueberry",
+        "x": 35.4,
+        "y": 107.32
+      },
+      {
+        "item": "cereal_box_strawberry",
+        "x": 47.4,
+        "y": 107.32
+      },
+      {
+        "item": "cute_juice_box_beach",
+        "x": 58.4,
+        "y": 107.32
+      },
+      {
+        "item": "cheese_wedge_sky",
+        "x": 70.4,
+        "y": 107.32
+      },
+      {
+        "item": "bread_loaf_mint",
+        "x": 84.4,
+        "y": 107.32
+      },
+      {
+        "item": "carrot_lemon",
+        "x": 95.4,
+        "y": 107.32
+      },
+      {
+        "item": "zoo_fruit_basket_strawberry",
+        "x": 111.4,
+        "y": 107.32
+      },
+      {
+        "item": "fizzy_drink_lemon",
+        "x": 128.4,
+        "y": 107.32
+      },
+      {
+        "item": "carrot_strawberry",
+        "x": 135.4,
+        "y": 107.32
+      },
+      {
+        "item": "cute_juice_box_ocean",
+        "x": 174.9,
+        "y": 18.24
+      },
+      {
+        "item": "egg_carton_lemon",
+        "x": 188.9,
+        "y": 18.24
+      },
+      {
+        "item": "banana_lemon",
+        "x": 202.9,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_sky",
+        "x": 212.9,
+        "y": 18.24
+      },
+      {
+        "item": "cute_apple_lemon",
+        "x": 223.9,
+        "y": 18.24
+      },
+      {
+        "item": "zoo_fruit_basket_lemon",
+        "x": 243.9,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_mint",
+        "x": 262.9,
+        "y": 18.24
+      },
+      {
+        "item": "milk_carton_sky",
+        "x": 272.9,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_strawberry",
+        "x": 172.9,
+        "y": 50.44
+      },
+      {
+        "item": "milk_carton_strawberry",
+        "x": 180.9,
+        "y": 50.44
+      },
+      {
+        "item": "cereal_box_lemon",
+        "x": 189.9,
+        "y": 50.44
+      },
+      {
+        "item": "banana_mint",
+        "x": 200.9,
+        "y": 50.44
+      },
+      {
+        "item": "banana_lilac",
+        "x": 212.9,
+        "y": 50.44
+      },
+      {
+        "item": "cheese_wedge_lilac",
+        "x": 224.9,
+        "y": 50.44
+      },
+      {
+        "item": "bread_loaf_lilac",
+        "x": 238.9,
+        "y": 50.44
+      },
+      {
+        "item": "egg_carton_mint",
+        "x": 254.9,
+        "y": 50.44
+      },
+      {
+        "item": "bread_loaf_sky",
+        "x": 270.9,
+        "y": 50.44
+      },
+      {
+        "item": "banana_strawberry",
+        "x": 174.9,
+        "y": 78.34
+      },
+      {
+        "item": "banana_sky",
+        "x": 186.9,
+        "y": 78.34
+      },
+      {
+        "item": "carrot_strawberry",
+        "x": 195.9,
+        "y": 78.34
+      },
+      {
+        "item": "bread_loaf_mint",
+        "x": 206.9,
+        "y": 78.34
+      },
+      {
+        "item": "egg_carton_mint",
+        "x": 222.9,
+        "y": 78.34
+      },
+      {
+        "item": "fizzy_drink_lemon",
+        "x": 234.9,
+        "y": 78.34
+      },
+      {
+        "item": "cute_apple_berry",
+        "x": 245.9,
+        "y": 78.34
+      },
+      {
+        "item": "fizzy_drink_lilac",
+        "x": 256.9,
+        "y": 78.34
+      },
+      {
+        "item": "cheese_wedge_sky",
+        "x": 266.9,
+        "y": 78.34
+      },
+      {
+        "item": "carrot_mint",
+        "x": 275.9,
+        "y": 78.34
+      },
+      {
+        "item": "cute_juice_box_royal",
+        "x": 174.9,
+        "y": 107.32
+      },
+      {
+        "item": "bread_loaf_sky",
+        "x": 188.9,
+        "y": 107.32
+      },
+      {
+        "item": "fizzy_drink_strawberry",
+        "x": 200.9,
+        "y": 107.32
+      },
+      {
+        "item": "cheese_wedge_strawberry",
+        "x": 210.9,
+        "y": 107.32
+      },
+      {
+        "item": "milk_carton_sky",
+        "x": 220.9,
+        "y": 107.32
+      },
+      {
+        "item": "milk_carton_mint",
+        "x": 228.9,
+        "y": 107.32
+      },
+      {
+        "item": "egg_carton_sky",
+        "x": 240.9,
+        "y": 107.32
+      },
+      {
+        "item": "bread_loaf_mint",
+        "x": 256.9,
+        "y": 107.32
+      },
+      {
+        "item": "cereal_box_sky",
+        "x": 269.9,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 315,
+        "y": 92
+      },
+      {
+        "item": "cheese_wedge_lilac",
+        "x": 293,
+        "y": 104.5
+      },
+      {
+        "item": "zoo_fruit_basket_lilac",
+        "x": 312,
+        "y": 104.5
+      },
+      {
+        "item": "cute_juice_box_rainbow",
+        "x": 331,
+        "y": 104.5
+      },
+      {
+        "item": "carrot_strawberry",
+        "x": 340,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "supermarket:2",
+    "items": [
+      {
+        "item": "egg_carton_lilac",
+        "x": 370.5,
+        "y": 18.24
+      },
+      {
+        "item": "milk_carton_lemon",
+        "x": 382.5,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_strawberry",
+        "x": 392.5,
+        "y": 18.24
+      },
+      {
+        "item": "cute_juice_box_royal",
+        "x": 404.5,
+        "y": 18.24
+      },
+      {
+        "item": "cereal_box_strawberry",
+        "x": 415.5,
+        "y": 18.24
+      },
+      {
+        "item": "milk_carton_sky",
+        "x": 424.5,
+        "y": 18.24
+      },
+      {
+        "item": "fizzy_drink_lemon",
+        "x": 432.5,
+        "y": 18.24
+      },
+      {
+        "item": "carrot_lemon",
+        "x": 439.5,
+        "y": 18.24
+      },
+      {
+        "item": "cute_juice_box_beach",
+        "x": 448.5,
+        "y": 18.24
+      },
+      {
+        "item": "cute_apple_berry",
+        "x": 461.5,
+        "y": 18.24
+      },
+      {
+        "item": "cheese_wedge_mint",
+        "x": 368.5,
+        "y": 50.44
+      },
+      {
+        "item": "bread_loaf_sky",
+        "x": 382.5,
+        "y": 50.44
+      },
+      {
+        "item": "zoo_fruit_basket_lemon",
+        "x": 403.5,
+        "y": 50.44
+      },
+      {
+        "item": "cheese_wedge_lemon",
+        "x": 422.5,
+        "y": 50.44
+      },
+      {
+        "item": "fizzy_drink_lilac",
+        "x": 432.5,
+        "y": 50.44
+      },
+      {
+        "item": "milk_carton_strawberry",
+        "x": 440.5,
+        "y": 50.44
+      },
+      {
+        "item": "zoo_fruit_basket_lilac",
+        "x": 457.5,
+        "y": 50.44
+      },
+      {
+        "item": "egg_carton_sky",
+        "x": 370.5,
+        "y": 78.34
+      },
+      {
+        "item": "zoo_fruit_basket_strawberry",
+        "x": 391.5,
+        "y": 78.34
+      },
+      {
+        "item": "cereal_box_lemon",
+        "x": 409.5,
+        "y": 78.34
+      },
+      {
+        "item": "bread_loaf_lilac",
+        "x": 422.5,
+        "y": 78.34
+      },
+      {
+        "item": "fizzy_drink_sky",
+        "x": 434.5,
+        "y": 78.34
+      },
+      {
+        "item": "egg_carton_strawberry",
+        "x": 446.5,
+        "y": 78.34
+      },
+      {
+        "item": "banana_lilac",
+        "x": 460.5,
+        "y": 78.34
+      },
+      {
+        "item": "carrot_mint",
+        "x": 469.5,
+        "y": 78.34
+      },
+      {
+        "item": "zoo_fruit_basket_sky",
+        "x": 375.5,
+        "y": 107.32
+      },
+      {
+        "item": "milk_carton_mint",
+        "x": 392.5,
+        "y": 107.32
+      },
+      {
+        "item": "carrot_sky",
+        "x": 399.5,
+        "y": 107.32
+      },
+      {
+        "item": "milk_carton_lilac",
+        "x": 406.5,
+        "y": 107.32
+      },
+      {
+        "item": "banana_lemon",
+        "x": 416.5,
+        "y": 107.32
+      },
+      {
+        "item": "banana_strawberry",
+        "x": 428.5,
+        "y": 107.32
+      },
+      {
+        "item": "bread_loaf_mint",
+        "x": 442.5,
+        "y": 107.32
+      },
+      {
+        "item": "cheese_wedge_sky",
+        "x": 456.5,
+        "y": 107.32
+      },
+      {
+        "item": "fizzy_drink_strawberry",
+        "x": 466.5,
+        "y": 107.32
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 67,
+        "y": 92
+      },
+      {
+        "item": "fizzy_drink_mint",
+        "x": 46.5,
+        "y": 105.99
+      },
+      {
+        "item": "banana_sky",
+        "x": 56.5,
+        "y": 105.99
+      },
+      {
+        "item": "bread_loaf_lemon",
+        "x": 70.5,
+        "y": 105.99
+      },
+      {
+        "item": "carrot_strawberry",
+        "x": 81.5,
+        "y": 105.99
+      },
+      {
+        "item": "carrot_lilac",
+        "x": 87.5,
+        "y": 105.99
+      },
+      {
+        "item": "cereal_box_lilac",
+        "x": 47.5,
+        "y": 127.58
+      },
+      {
+        "item": "egg_carton_lemon",
+        "x": 60.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_apple_blueberry",
+        "x": 75.5,
+        "y": 127.58
+      },
+      {
+        "item": "milk_carton_strawberry",
+        "x": 86.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 129,
+        "y": 92
+      },
+      {
+        "item": "cute_apple_lemon",
+        "x": 108,
+        "y": 104.5
+      },
+      {
+        "item": "cereal_box_mint",
+        "x": 120,
+        "y": 104.5
+      },
+      {
+        "item": "bread_loaf_strawberry",
+        "x": 133,
+        "y": 104.5
+      },
+      {
+        "item": "egg_carton_mint",
+        "x": 149,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 191,
+        "y": 92
+      },
+      {
+        "item": "cute_juice_box_ocean",
+        "x": 172.5,
+        "y": 105.99
+      },
+      {
+        "item": "cheese_wedge_lilac",
+        "x": 184.5,
+        "y": 105.99
+      },
+      {
+        "item": "banana_mint",
+        "x": 196.5,
+        "y": 105.99
+      },
+      {
+        "item": "cereal_box_sky",
+        "x": 207.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_juice_box_rainbow",
+        "x": 172.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 185.5,
+        "y": 127.58
+      },
+      {
+        "item": "cereal_box_lilac",
+        "x": 197.5,
+        "y": 127.58
+      },
+      {
+        "item": "banana_strawberry",
+        "x": 208.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "eye_opticians:0",
+    "items": [
+      {
+        "item": "contact_lens_box_lilac",
+        "x": 441.6,
+        "y": 17.14
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 451.6,
+        "y": 17.14
+      },
+      {
+        "item": "reading_glasses_tray_lemon",
+        "x": 469.6,
+        "y": 17.14
+      },
+      {
+        "item": "contact_lens_box_mint",
+        "x": 487.6,
+        "y": 17.14
+      },
+      {
+        "item": "lens_case_lemon",
+        "x": 498.6,
+        "y": 17.14
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 509.6,
+        "y": 17.14
+      },
+      {
+        "item": "contact_lens_box_strawberry",
+        "x": 441.6,
+        "y": 37.4
+      },
+      {
+        "item": "lens_case_sky",
+        "x": 452.6,
+        "y": 37.4
+      },
+      {
+        "item": "reading_glasses_tray_mint",
+        "x": 471.6,
+        "y": 37.4
+      },
+      {
+        "item": "reading_glasses_tray_lilac",
+        "x": 497.6,
+        "y": 37.4
+      },
+      {
+        "item": "eye_drop_bottle_lemon",
+        "x": 440.1,
+        "y": 57.66
+      },
+      {
+        "item": "eye_drop_bottle_lilac",
+        "x": 447.1,
+        "y": 57.66
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 455.6,
+        "y": 57.66
+      },
+      {
+        "item": "contact_lens_box_lemon",
+        "x": 465.6,
+        "y": 57.66
+      },
+      {
+        "item": "lens_case_lilac",
+        "x": 476.6,
+        "y": 57.66
+      },
+      {
+        "item": "reading_glasses_tray_strawberry",
+        "x": 495.6,
+        "y": 57.66
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 58,
+        "y": 92
+      },
+      {
+        "item": "reading_glasses_tray_sky",
+        "x": 43,
+        "y": 104.5
+      },
+      {
+        "item": "eye_drop_bottle_mint",
+        "x": 59.5,
+        "y": 104.5
+      },
+      {
+        "item": "eye_drop_bottle_strawberry",
+        "x": 66.5,
+        "y": 104.5
+      },
+      {
+        "item": "lens_case_mint",
+        "x": 76,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 188,
+        "y": 92
+      },
+      {
+        "item": "contact_lens_box_sky",
+        "x": 168.5,
+        "y": 105.99
+      },
+      {
+        "item": "lens_case_strawberry",
+        "x": 179.5,
+        "y": 105.99
+      },
+      {
+        "item": "eye_drop_bottle_sky",
+        "x": 189,
+        "y": 105.99
+      },
+      {
+        "item": "eye_drop_bottle_mint",
+        "x": 196,
+        "y": 105.99
+      },
+      {
+        "item": "lens_case_lemon",
+        "x": 205.5,
+        "y": 105.99
+      },
+      {
+        "item": "contact_lens_box_strawberry",
+        "x": 168.5,
+        "y": 127.58
+      },
+      {
+        "item": "reading_glasses_tray_sky",
+        "x": 186.5,
+        "y": 127.58
+      },
+      {
+        "item": "eye_drop_bottle_lilac",
+        "x": 203,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 250,
+        "y": 92
+      },
+      {
+        "item": "eye_drop_bottle_lemon",
+        "x": 225.5,
+        "y": 104.5
+      },
+      {
+        "item": "reading_glasses_tray_lilac",
+        "x": 242,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 260,
+        "y": 104.5
+      },
+      {
+        "item": "lens_case_lilac",
+        "x": 271,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "eye_opticians:1",
+    "items": [
+      {
+        "item": "contact_lens_box_lilac",
+        "x": 263,
+        "y": 23.66
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 273,
+        "y": 23.66
+      },
+      {
+        "item": "eye_drop_bottle_lemon",
+        "x": 281.5,
+        "y": 23.66
+      },
+      {
+        "item": "reading_glasses_tray_sky",
+        "x": 298,
+        "y": 23.66
+      },
+      {
+        "item": "eye_drop_bottle_lilac",
+        "x": 261.5,
+        "y": 55.21
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 270,
+        "y": 55.21
+      },
+      {
+        "item": "lens_case_strawberry",
+        "x": 281,
+        "y": 55.21
+      },
+      {
+        "item": "contact_lens_box_lemon",
+        "x": 292,
+        "y": 55.21
+      },
+      {
+        "item": "contact_lens_box_mint",
+        "x": 302,
+        "y": 55.21
+      },
+      {
+        "item": "eye_drop_bottle_sky",
+        "x": 261.5,
+        "y": 86.76
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 270,
+        "y": 86.76
+      },
+      {
+        "item": "reading_glasses_tray_lilac",
+        "x": 288,
+        "y": 86.76
+      },
+      {
+        "item": "eye_drop_bottle_strawberry",
+        "x": 304.5,
+        "y": 86.76
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 112,
+        "y": 92
+      },
+      {
+        "item": "eye_drop_bottle_mint",
+        "x": 87.5,
+        "y": 104.5
+      },
+      {
+        "item": "lens_case_mint",
+        "x": 97,
+        "y": 104.5
+      },
+      {
+        "item": "reading_glasses_tray_strawberry",
+        "x": 116,
+        "y": 104.5
+      },
+      {
+        "item": "contact_lens_box_sky",
+        "x": 134,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 59,
+        "y": 76
+      },
+      {
+        "item": "lens_case_lilac",
+        "x": 37,
+        "y": 88.5
+      },
+      {
+        "item": "contact_lens_box_strawberry",
+        "x": 48,
+        "y": 88.5
+      },
+      {
+        "item": "lens_case_sky",
+        "x": 59,
+        "y": 88.5
+      },
+      {
+        "item": "contact_lens_box_lilac",
+        "x": 70,
+        "y": 88.5
+      },
+      {
+        "item": "eye_drop_bottle_lilac",
+        "x": 78.5,
+        "y": 88.5
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 31,
+        "y": 108
+      },
+      {
+        "item": "reading_glasses_tray_lemon",
+        "x": 19.5,
+        "y": 121.99
+      },
+      {
+        "item": "lens_case_lemon",
+        "x": 38.5,
+        "y": 121.99
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 49.5,
+        "y": 121.99
+      },
+      {
+        "item": "reading_glasses_tray_mint",
+        "x": 19.5,
+        "y": 143.58
+      },
+      {
+        "item": "eye_drop_bottle_sky",
+        "x": 36,
+        "y": 143.58
+      },
+      {
+        "item": "lens_case_lilac",
+        "x": 45.5,
+        "y": 143.58
+      }
+    ]
+  },
+  {
+    "id": "hair_dressers:0",
+    "items": [
+      {
+        "item": "small_flower_vase_pink",
+        "x": 366.6,
+        "y": 23.66
+      },
+      {
+        "item": "hair_dryer_lemon",
+        "x": 379.6,
+        "y": 23.66
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 391.6,
+        "y": 23.66
+      },
+      {
+        "item": "salon_comb_mint",
+        "x": 404.1,
+        "y": 23.66
+      },
+      {
+        "item": "salon_scissors_lemon",
+        "x": 365.6,
+        "y": 55.21
+      },
+      {
+        "item": "hair_clips_sky",
+        "x": 376.6,
+        "y": 55.21
+      },
+      {
+        "item": "salon_comb_sky",
+        "x": 392.1,
+        "y": 55.21
+      },
+      {
+        "item": "salon_scissors_mint",
+        "x": 404.6,
+        "y": 55.21
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 412.1,
+        "y": 55.21
+      },
+      {
+        "item": "hair_clips_lilac",
+        "x": 368.6,
+        "y": 86.76
+      },
+      {
+        "item": "salon_comb_strawberry",
+        "x": 384.1,
+        "y": 86.76
+      },
+      {
+        "item": "salon_scissors_strawberry",
+        "x": 396.6,
+        "y": 86.76
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 404.6,
+        "y": 86.76
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 412.1,
+        "y": 86.76
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 163,
+        "y": 92
+      },
+      {
+        "item": "salon_comb_lilac",
+        "x": 143.5,
+        "y": 104.5
+      },
+      {
+        "item": "hair_clips_lemon",
+        "x": 159,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 169.5,
+        "y": 104.5
+      },
+      {
+        "item": "hair_clips_strawberry",
+        "x": 180,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 222,
+        "y": 92
+      },
+      {
+        "item": "salon_scissors_sky",
+        "x": 201.5,
+        "y": 105.99
+      },
+      {
+        "item": "salon_scissors_lilac",
+        "x": 209.5,
+        "y": 105.99
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 218.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_dryer_mint",
+        "x": 231.5,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 243,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_mint",
+        "x": 204.5,
+        "y": 127.58
+      },
+      {
+        "item": "hair_dryer_strawberry",
+        "x": 219.5,
+        "y": 127.58
+      },
+      {
+        "item": "salon_comb_lemon",
+        "x": 236,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 38,
+        "y": 92
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 18.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 27.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_dryer_sky",
+        "x": 39.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_strawberry",
+        "x": 54.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_dryer_lilac",
+        "x": 21.5,
+        "y": 127.58
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 33.5,
+        "y": 127.58
+      },
+      {
+        "item": "salon_scissors_strawberry",
+        "x": 41.5,
+        "y": 127.58
+      },
+      {
+        "item": "hair_dryer_strawberry",
+        "x": 53.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "hair_dressers:1",
+    "items": [
+      {
+        "item": "hair_dryer_lemon",
+        "x": 149.3,
+        "y": 33.86
+      },
+      {
+        "item": "salon_comb_mint",
+        "x": 165.8,
+        "y": 33.86
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 177.8,
+        "y": 33.86
+      },
+      {
+        "item": "salon_scissors_lemon",
+        "x": 185.3,
+        "y": 33.86
+      },
+      {
+        "item": "hair_dryer_strawberry",
+        "x": 197.3,
+        "y": 33.86
+      },
+      {
+        "item": "hair_clips_mint",
+        "x": 212.3,
+        "y": 33.86
+      },
+      {
+        "item": "hair_dryer_lilac",
+        "x": 149.3,
+        "y": 70.14
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 162.3,
+        "y": 70.14
+      },
+      {
+        "item": "salon_scissors_strawberry",
+        "x": 171.3,
+        "y": 70.14
+      },
+      {
+        "item": "salon_comb_lilac",
+        "x": 183.8,
+        "y": 70.14
+      },
+      {
+        "item": "salon_comb_lemon",
+        "x": 200.8,
+        "y": 70.14
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 213.3,
+        "y": 70.14
+      },
+      {
+        "item": "salon_scissors_lilac",
+        "x": 145.3,
+        "y": 105.21
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 152.8,
+        "y": 105.21
+      },
+      {
+        "item": "hair_dryer_sky",
+        "x": 164.3,
+        "y": 105.21
+      },
+      {
+        "item": "hair_clips_sky",
+        "x": 179.3,
+        "y": 105.21
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 191.3,
+        "y": 105.21
+      },
+      {
+        "item": "hair_clips_lemon",
+        "x": 203.3,
+        "y": 105.21
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 214.3,
+        "y": 105.21
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 40,
+        "y": 92
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 16,
+        "y": 104.5
+      },
+      {
+        "item": "salon_scissors_mint",
+        "x": 24,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 33,
+        "y": 104.5
+      },
+      {
+        "item": "salon_comb_strawberry",
+        "x": 46.5,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 58.5,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 254,
+        "y": 92
+      },
+      {
+        "item": "salon_scissors_sky",
+        "x": 233.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_strawberry",
+        "x": 244.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_lilac",
+        "x": 258.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 269.5,
+        "y": 105.99
+      },
+      {
+        "item": "salon_comb_sky",
+        "x": 238,
+        "y": 127.58
+      },
+      {
+        "item": "hair_dryer_mint",
+        "x": 254.5,
+        "y": 127.58
+      },
+      {
+        "item": "salon_scissors_lemon",
+        "x": 266.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 274,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 312,
+        "y": 92
+      },
+      {
+        "item": "salon_scissors_lilac",
+        "x": 291.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_sky",
+        "x": 302.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 313.5,
+        "y": 105.99
+      },
+      {
+        "item": "salon_scissors_mint",
+        "x": 321.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 329.5,
+        "y": 105.99
+      },
+      {
+        "item": "hair_clips_mint",
+        "x": 294.5,
+        "y": 127.58
+      },
+      {
+        "item": "salon_scissors_sky",
+        "x": 305.5,
+        "y": 127.58
+      },
+      {
+        "item": "salon_scissors_strawberry",
+        "x": 313.5,
+        "y": 127.58
+      },
+      {
+        "item": "hair_dryer_mint",
+        "x": 325.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "makeup_shop:0",
+    "items": [
+      {
+        "item": "blush_pot_lilac",
+        "x": 164.6,
+        "y": 23.66
+      },
+      {
+        "item": "blush_pot_strawberry",
+        "x": 173.6,
+        "y": 23.66
+      },
+      {
+        "item": "powder_compact_mint",
+        "x": 182.1,
+        "y": 23.66
+      },
+      {
+        "item": "powder_compact_strawberry",
+        "x": 190.1,
+        "y": 23.66
+      },
+      {
+        "item": "tissue_box_sky",
+        "x": 200.1,
+        "y": 23.66
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 209.1,
+        "y": 23.66
+      },
+      {
+        "item": "tissue_box_lemon",
+        "x": 166.1,
+        "y": 55.21
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 177.1,
+        "y": 55.21
+      },
+      {
+        "item": "brush_set_strawberry",
+        "x": 187.1,
+        "y": 55.21
+      },
+      {
+        "item": "cute_lipstick_mint",
+        "x": 195.1,
+        "y": 55.21
+      },
+      {
+        "item": "eyeshadow_palette_mint",
+        "x": 204.1,
+        "y": 55.21
+      },
+      {
+        "item": "blush_pot_sky",
+        "x": 164.6,
+        "y": 86.76
+      },
+      {
+        "item": "eyeshadow_palette_sky",
+        "x": 175.1,
+        "y": 86.76
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 185.1,
+        "y": 86.76
+      },
+      {
+        "item": "blush_pot_mint",
+        "x": 193.6,
+        "y": 86.76
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 202.1,
+        "y": 86.76
+      },
+      {
+        "item": "lip_balm_sky",
+        "x": 209.1,
+        "y": 86.76
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 240.5,
+        "y": 17.14
+      },
+      {
+        "item": "blush_pot_lemon",
+        "x": 248,
+        "y": 17.14
+      },
+      {
+        "item": "powder_compact_lemon",
+        "x": 256.5,
+        "y": 17.14
+      },
+      {
+        "item": "lip_balm_strawberry",
+        "x": 263.5,
+        "y": 17.14
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 270.5,
+        "y": 17.14
+      },
+      {
+        "item": "lip_balm_lilac",
+        "x": 277.5,
+        "y": 17.14
+      },
+      {
+        "item": "tissue_box_mint",
+        "x": 286.5,
+        "y": 17.14
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 295.5,
+        "y": 17.14
+      },
+      {
+        "item": "brush_set_sky",
+        "x": 303.5,
+        "y": 17.14
+      },
+      {
+        "item": "powder_compact_lilac",
+        "x": 312.5,
+        "y": 17.14
+      },
+      {
+        "item": "lip_balm_mint",
+        "x": 240.5,
+        "y": 37.4
+      },
+      {
+        "item": "eyeshadow_palette_strawberry",
+        "x": 249.5,
+        "y": 37.4
+      },
+      {
+        "item": "lip_balm_lemon",
+        "x": 258.5,
+        "y": 37.4
+      },
+      {
+        "item": "eyeshadow_palette_lemon",
+        "x": 267.5,
+        "y": 37.4
+      },
+      {
+        "item": "powder_compact_sky",
+        "x": 277.5,
+        "y": 37.4
+      },
+      {
+        "item": "brush_set_lemon",
+        "x": 286.5,
+        "y": 37.4
+      },
+      {
+        "item": "tissue_box_strawberry",
+        "x": 297.5,
+        "y": 37.4
+      },
+      {
+        "item": "cute_lipstick_lilac",
+        "x": 306.5,
+        "y": 37.4
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 312.5,
+        "y": 37.4
+      },
+      {
+        "item": "brush_set_lilac",
+        "x": 242.5,
+        "y": 57.66
+      },
+      {
+        "item": "tissue_box_lilac",
+        "x": 253.5,
+        "y": 57.66
+      },
+      {
+        "item": "eyeshadow_palette_lilac",
+        "x": 265.5,
+        "y": 57.66
+      },
+      {
+        "item": "powder_compact_sky",
+        "x": 275.5,
+        "y": 57.66
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 284.5,
+        "y": 57.66
+      },
+      {
+        "item": "lip_balm_lilac",
+        "x": 292.5,
+        "y": 57.66
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 298.5,
+        "y": 57.66
+      },
+      {
+        "item": "tissue_box_lemon",
+        "x": 307.5,
+        "y": 57.66
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 66,
+        "y": 92
+      },
+      {
+        "item": "lip_balm_lemon",
+        "x": 44.5,
+        "y": 105.99
+      },
+      {
+        "item": "brush_set_lemon",
+        "x": 52.5,
+        "y": 105.99
+      },
+      {
+        "item": "blush_pot_lemon",
+        "x": 62,
+        "y": 105.99
+      },
+      {
+        "item": "eyeshadow_palette_mint",
+        "x": 72.5,
+        "y": 105.99
+      },
+      {
+        "item": "brush_set_sky",
+        "x": 83.5,
+        "y": 105.99
+      },
+      {
+        "item": "eyeshadow_palette_lilac",
+        "x": 47.5,
+        "y": 127.58
+      },
+      {
+        "item": "lip_balm_mint",
+        "x": 56.5,
+        "y": 127.58
+      },
+      {
+        "item": "eyeshadow_palette_strawberry",
+        "x": 65.5,
+        "y": 127.58
+      },
+      {
+        "item": "lip_balm_sky",
+        "x": 74.5,
+        "y": 127.58
+      },
+      {
+        "item": "blush_pot_lilac",
+        "x": 82,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 313,
+        "y": 92
+      },
+      {
+        "item": "tissue_box_lilac",
+        "x": 291,
+        "y": 104.5
+      },
+      {
+        "item": "powder_compact_strawberry",
+        "x": 301,
+        "y": 104.5
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 309,
+        "y": 104.5
+      },
+      {
+        "item": "lip_balm_sky",
+        "x": 316,
+        "y": 104.5
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 324,
+        "y": 104.5
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 333,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 376,
+        "y": 92
+      },
+      {
+        "item": "brush_set_lemon",
+        "x": 353,
+        "y": 104.5
+      },
+      {
+        "item": "tissue_box_strawberry",
+        "x": 364,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 373,
+        "y": 104.5
+      },
+      {
+        "item": "eyeshadow_palette_mint",
+        "x": 382,
+        "y": 104.5
+      },
+      {
+        "item": "blush_pot_sky",
+        "x": 392.5,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 400,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "makeup_shop:1",
+    "items": [
+      {
+        "item": "lip_balm_sky",
+        "x": 231.5,
+        "y": 23.66
+      },
+      {
+        "item": "eyeshadow_palette_lemon",
+        "x": 240.5,
+        "y": 23.66
+      },
+      {
+        "item": "tissue_box_sky",
+        "x": 252.5,
+        "y": 23.66
+      },
+      {
+        "item": "blush_pot_lemon",
+        "x": 263,
+        "y": 23.66
+      },
+      {
+        "item": "tissue_box_lilac",
+        "x": 273.5,
+        "y": 23.66
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 231.5,
+        "y": 55.21
+      },
+      {
+        "item": "eyeshadow_palette_strawberry",
+        "x": 240.5,
+        "y": 55.21
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 249.5,
+        "y": 55.21
+      },
+      {
+        "item": "tissue_box_mint",
+        "x": 258.5,
+        "y": 55.21
+      },
+      {
+        "item": "brush_set_strawberry",
+        "x": 269.5,
+        "y": 55.21
+      },
+      {
+        "item": "powder_compact_lilac",
+        "x": 278.5,
+        "y": 55.21
+      },
+      {
+        "item": "eyeshadow_palette_mint",
+        "x": 234.5,
+        "y": 86.76
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 245.5,
+        "y": 86.76
+      },
+      {
+        "item": "lip_balm_lilac",
+        "x": 253.5,
+        "y": 86.76
+      },
+      {
+        "item": "lip_balm_strawberry",
+        "x": 259.5,
+        "y": 86.76
+      },
+      {
+        "item": "brush_set_sky",
+        "x": 267.5,
+        "y": 86.76
+      },
+      {
+        "item": "blush_pot_mint",
+        "x": 277,
+        "y": 86.76
+      },
+      {
+        "item": "blush_pot_lilac",
+        "x": 389.3,
+        "y": 33.86
+      },
+      {
+        "item": "cute_lipstick_lilac",
+        "x": 396.8,
+        "y": 33.86
+      },
+      {
+        "item": "perfume_bottle_lilac",
+        "x": 403.8,
+        "y": 33.86
+      },
+      {
+        "item": "tissue_box_strawberry",
+        "x": 413.8,
+        "y": 33.86
+      },
+      {
+        "item": "lip_balm_mint",
+        "x": 422.8,
+        "y": 33.86
+      },
+      {
+        "item": "blush_pot_strawberry",
+        "x": 430.3,
+        "y": 33.86
+      },
+      {
+        "item": "powder_compact_strawberry",
+        "x": 438.8,
+        "y": 33.86
+      },
+      {
+        "item": "powder_compact_lemon",
+        "x": 446.8,
+        "y": 33.86
+      },
+      {
+        "item": "brush_set_lemon",
+        "x": 455.8,
+        "y": 33.86
+      },
+      {
+        "item": "cute_lipstick_mint",
+        "x": 387.8,
+        "y": 70.14
+      },
+      {
+        "item": "tissue_box_lemon",
+        "x": 396.8,
+        "y": 70.14
+      },
+      {
+        "item": "brush_set_lilac",
+        "x": 407.8,
+        "y": 70.14
+      },
+      {
+        "item": "powder_compact_mint",
+        "x": 416.8,
+        "y": 70.14
+      },
+      {
+        "item": "powder_compact_sky",
+        "x": 424.8,
+        "y": 70.14
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 431.8,
+        "y": 70.14
+      },
+      {
+        "item": "eyeshadow_palette_sky",
+        "x": 440.8,
+        "y": 70.14
+      },
+      {
+        "item": "perfume_bottle_pink",
+        "x": 450.8,
+        "y": 70.14
+      },
+      {
+        "item": "blush_pot_sky",
+        "x": 459.3,
+        "y": 70.14
+      },
+      {
+        "item": "lip_balm_lemon",
+        "x": 387.8,
+        "y": 105.21
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 394.8,
+        "y": 105.21
+      },
+      {
+        "item": "eyeshadow_palette_lilac",
+        "x": 404.8,
+        "y": 105.21
+      },
+      {
+        "item": "tissue_box_lilac",
+        "x": 416.8,
+        "y": 105.21
+      },
+      {
+        "item": "tissue_box_mint",
+        "x": 428.8,
+        "y": 105.21
+      },
+      {
+        "item": "eyeshadow_palette_lemon",
+        "x": 440.8,
+        "y": 105.21
+      },
+      {
+        "item": "blush_pot_strawberry",
+        "x": 451.3,
+        "y": 105.21
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 458.8,
+        "y": 105.21
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 42,
+        "y": 92
+      },
+      {
+        "item": "lip_balm_strawberry",
+        "x": 20.5,
+        "y": 105.99
+      },
+      {
+        "item": "tissue_box_strawberry",
+        "x": 29.5,
+        "y": 105.99
+      },
+      {
+        "item": "tissue_box_lilac",
+        "x": 41.5,
+        "y": 105.99
+      },
+      {
+        "item": "lip_balm_sky",
+        "x": 50.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 56.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lipstick_mint",
+        "x": 62.5,
+        "y": 105.99
+      },
+      {
+        "item": "perfume_bottle_amber",
+        "x": 21.5,
+        "y": 127.58
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 30.5,
+        "y": 127.58
+      },
+      {
+        "item": "lip_balm_lemon",
+        "x": 38.5,
+        "y": 127.58
+      },
+      {
+        "item": "brush_set_sky",
+        "x": 46.5,
+        "y": 127.58
+      },
+      {
+        "item": "blush_pot_sky",
+        "x": 56,
+        "y": 127.58
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 63.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 184,
+        "y": 92
+      },
+      {
+        "item": "brush_set_lilac",
+        "x": 161,
+        "y": 104.5
+      },
+      {
+        "item": "tissue_box_strawberry",
+        "x": 172,
+        "y": 104.5
+      },
+      {
+        "item": "lip_balm_lilac",
+        "x": 181,
+        "y": 104.5
+      },
+      {
+        "item": "eyeshadow_palette_lemon",
+        "x": 190,
+        "y": 104.5
+      },
+      {
+        "item": "eyeshadow_palette_sky",
+        "x": 202,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 320,
+        "y": 92
+      },
+      {
+        "item": "eyeshadow_palette_mint",
+        "x": 298,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 307,
+        "y": 104.5
+      },
+      {
+        "item": "lip_balm_lemon",
+        "x": 313,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 319,
+        "y": 104.5
+      },
+      {
+        "item": "blush_pot_strawberry",
+        "x": 326.5,
+        "y": 104.5
+      },
+      {
+        "item": "brush_set_sky",
+        "x": 336,
+        "y": 104.5
+      },
+      {
+        "item": "lip_balm_strawberry",
+        "x": 344,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "hotels:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 52,
+        "y": 92
+      },
+      {
+        "item": "passport_stamp_lilac",
+        "x": 33,
+        "y": 104.5
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 47.5,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 56,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 64.5,
+        "y": 104.5
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 75,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "hotels:1",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 170,
+        "y": 92
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 149,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 158,
+        "y": 105.99
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 168.5,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_blue",
+        "x": 180.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 190.5,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 150.5,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 161,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 170,
+        "y": 127.58
+      },
+      {
+        "item": "night_lamp_lilac",
+        "x": 180.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 191,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "sweets_shop:0",
+    "items": [
+      {
+        "item": "chocolate_bar_strawberry",
+        "x": 250,
+        "y": 18.24
+      },
+      {
+        "item": "cute_cupcake_pistachio",
+        "x": 262,
+        "y": 18.24
+      },
+      {
+        "item": "candy_heart_mint",
+        "x": 272,
+        "y": 18.24
+      },
+      {
+        "item": "candy_heart_lemon",
+        "x": 280,
+        "y": 18.24
+      },
+      {
+        "item": "sprinkle_jar_mint",
+        "x": 289,
+        "y": 18.24
+      },
+      {
+        "item": "cute_cupcake_chocolate",
+        "x": 300,
+        "y": 18.24
+      },
+      {
+        "item": "gummy_bears_lilac",
+        "x": 311,
+        "y": 18.24
+      },
+      {
+        "item": "chocolate_bar_lemon",
+        "x": 322,
+        "y": 18.24
+      },
+      {
+        "item": "sprinkle_jar_sky",
+        "x": 333,
+        "y": 18.24
+      },
+      {
+        "item": "candy_apple_lilac",
+        "x": 344,
+        "y": 18.24
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 250,
+        "y": 50.44
+      },
+      {
+        "item": "food_street_cupcake_mint",
+        "x": 264,
+        "y": 50.44
+      },
+      {
+        "item": "gummy_bears_lemon",
+        "x": 277,
+        "y": 50.44
+      },
+      {
+        "item": "chocolate_bar_mint",
+        "x": 288,
+        "y": 50.44
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 300,
+        "y": 50.44
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 312.5,
+        "y": 50.44
+      },
+      {
+        "item": "pink_donut_lemon",
+        "x": 324.5,
+        "y": 50.44
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 336.5,
+        "y": 50.44
+      },
+      {
+        "item": "candy_heart_lilac",
+        "x": 347,
+        "y": 50.44
+      },
+      {
+        "item": "gummy_bears_sky",
+        "x": 249,
+        "y": 78.34
+      },
+      {
+        "item": "pink_donut_mint",
+        "x": 259.5,
+        "y": 78.34
+      },
+      {
+        "item": "candy_heart_strawberry",
+        "x": 269,
+        "y": 78.34
+      },
+      {
+        "item": "pink_donut_lilac",
+        "x": 278.5,
+        "y": 78.34
+      },
+      {
+        "item": "gummy_bears_strawberry",
+        "x": 289,
+        "y": 78.34
+      },
+      {
+        "item": "candy_apple_strawberry",
+        "x": 300,
+        "y": 78.34
+      },
+      {
+        "item": "chocolate_bar_lilac",
+        "x": 312,
+        "y": 78.34
+      },
+      {
+        "item": "sprinkle_jar_lemon",
+        "x": 323,
+        "y": 78.34
+      },
+      {
+        "item": "candy_heart_sky",
+        "x": 332,
+        "y": 78.34
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 342.5,
+        "y": 78.34
+      },
+      {
+        "item": "pink_donut_sky",
+        "x": 249.5,
+        "y": 107.32
+      },
+      {
+        "item": "food_street_cupcake_lilac",
+        "x": 263,
+        "y": 107.32
+      },
+      {
+        "item": "pink_donut_strawberry",
+        "x": 276.5,
+        "y": 107.32
+      },
+      {
+        "item": "sprinkle_jar_strawberry",
+        "x": 287,
+        "y": 107.32
+      },
+      {
+        "item": "food_street_cupcake_lemon",
+        "x": 300,
+        "y": 107.32
+      },
+      {
+        "item": "candy_apple_mint",
+        "x": 314,
+        "y": 107.32
+      },
+      {
+        "item": "gummy_bears_mint",
+        "x": 325,
+        "y": 107.32
+      },
+      {
+        "item": "sprinkle_jar_lilac",
+        "x": 335,
+        "y": 107.32
+      },
+      {
+        "item": "chocolate_bar_sky",
+        "x": 346,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 71,
+        "y": 92
+      },
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 49,
+        "y": 104.5
+      },
+      {
+        "item": "candy_apple_sky",
+        "x": 61,
+        "y": 104.5
+      },
+      {
+        "item": "food_street_cupcake_sky",
+        "x": 75,
+        "y": 104.5
+      },
+      {
+        "item": "food_street_cupcake_strawberry",
+        "x": 91,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 135,
+        "y": 92
+      },
+      {
+        "item": "food_street_cupcake_lilac",
+        "x": 118.5,
+        "y": 105.99
+      },
+      {
+        "item": "chocolate_bar_lilac",
+        "x": 132.5,
+        "y": 105.99
+      },
+      {
+        "item": "chocolate_bar_mint",
+        "x": 144.5,
+        "y": 105.99
+      },
+      {
+        "item": "candy_heart_mint",
+        "x": 154.5,
+        "y": 105.99
+      },
+      {
+        "item": "sprinkle_jar_mint",
+        "x": 115.5,
+        "y": 127.58
+      },
+      {
+        "item": "pink_donut_mint",
+        "x": 126,
+        "y": 127.58
+      },
+      {
+        "item": "candy_apple_strawberry",
+        "x": 137.5,
+        "y": 127.58
+      },
+      {
+        "item": "chocolate_bar_strawberry",
+        "x": 149.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 196,
+        "y": 92
+      },
+      {
+        "item": "food_street_cupcake_strawberry",
+        "x": 179.5,
+        "y": 105.99
+      },
+      {
+        "item": "pink_donut_mint",
+        "x": 193,
+        "y": 105.99
+      },
+      {
+        "item": "food_street_cupcake_lilac",
+        "x": 206.5,
+        "y": 105.99
+      },
+      {
+        "item": "gummy_bears_mint",
+        "x": 176.5,
+        "y": 127.58
+      },
+      {
+        "item": "sprinkle_jar_strawberry",
+        "x": 186.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_cupcake_chocolate",
+        "x": 197.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_lilac",
+        "x": 207.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_lemon",
+        "x": 215.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "sweets_shop:1",
+    "items": [
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 447.3,
+        "y": 18.24
+      },
+      {
+        "item": "candy_heart_lilac",
+        "x": 457.3,
+        "y": 18.24
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 467.3,
+        "y": 18.24
+      },
+      {
+        "item": "candy_heart_strawberry",
+        "x": 477.3,
+        "y": 18.24
+      },
+      {
+        "item": "cute_cupcake_chocolate",
+        "x": 487.3,
+        "y": 18.24
+      },
+      {
+        "item": "food_street_cupcake_lilac",
+        "x": 501.3,
+        "y": 18.24
+      },
+      {
+        "item": "sprinkle_jar_lemon",
+        "x": 514.3,
+        "y": 18.24
+      },
+      {
+        "item": "candy_apple_mint",
+        "x": 525.3,
+        "y": 18.24
+      },
+      {
+        "item": "sprinkle_jar_strawberry",
+        "x": 536.3,
+        "y": 18.24
+      },
+      {
+        "item": "gummy_bears_lemon",
+        "x": 546.3,
+        "y": 18.24
+      },
+      {
+        "item": "gummy_bears_mint",
+        "x": 446.3,
+        "y": 50.44
+      },
+      {
+        "item": "pink_donut_mint",
+        "x": 456.8,
+        "y": 50.44
+      },
+      {
+        "item": "food_street_cupcake_mint",
+        "x": 470.3,
+        "y": 50.44
+      },
+      {
+        "item": "chocolate_bar_strawberry",
+        "x": 484.3,
+        "y": 50.44
+      },
+      {
+        "item": "food_street_cupcake_strawberry",
+        "x": 498.3,
+        "y": 50.44
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 512.8,
+        "y": 50.44
+      },
+      {
+        "item": "gummy_bears_sky",
+        "x": 524.3,
+        "y": 50.44
+      },
+      {
+        "item": "chocolate_bar_lemon",
+        "x": 535.3,
+        "y": 50.44
+      },
+      {
+        "item": "candy_heart_lemon",
+        "x": 545.3,
+        "y": 50.44
+      },
+      {
+        "item": "candy_apple_lilac",
+        "x": 447.3,
+        "y": 78.34
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 459.8,
+        "y": 78.34
+      },
+      {
+        "item": "candy_apple_strawberry",
+        "x": 472.3,
+        "y": 78.34
+      },
+      {
+        "item": "chocolate_bar_lilac",
+        "x": 484.3,
+        "y": 78.34
+      },
+      {
+        "item": "gummy_bears_strawberry",
+        "x": 495.3,
+        "y": 78.34
+      },
+      {
+        "item": "food_street_cupcake_sky",
+        "x": 508.3,
+        "y": 78.34
+      },
+      {
+        "item": "gummy_bears_lilac",
+        "x": 521.3,
+        "y": 78.34
+      },
+      {
+        "item": "candy_heart_mint",
+        "x": 530.3,
+        "y": 78.34
+      },
+      {
+        "item": "sprinkle_jar_mint",
+        "x": 539.3,
+        "y": 78.34
+      },
+      {
+        "item": "pink_donut_strawberry",
+        "x": 446.8,
+        "y": 107.32
+      },
+      {
+        "item": "chocolate_bar_mint",
+        "x": 458.3,
+        "y": 107.32
+      },
+      {
+        "item": "pink_donut_sky",
+        "x": 469.8,
+        "y": 107.32
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 481.3,
+        "y": 107.32
+      },
+      {
+        "item": "candy_apple_sky",
+        "x": 493.3,
+        "y": 107.32
+      },
+      {
+        "item": "candy_heart_sky",
+        "x": 503.3,
+        "y": 107.32
+      },
+      {
+        "item": "sprinkle_jar_lilac",
+        "x": 512.3,
+        "y": 107.32
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 523.8,
+        "y": 107.32
+      },
+      {
+        "item": "chocolate_bar_sky",
+        "x": 536.3,
+        "y": 107.32
+      },
+      {
+        "item": "candy_heart_mint",
+        "x": 546.3,
+        "y": 107.32
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 61,
+        "y": 92
+      },
+      {
+        "item": "sprinkle_jar_sky",
+        "x": 41.5,
+        "y": 105.99
+      },
+      {
+        "item": "food_street_cupcake_lemon",
+        "x": 54.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_pistachio",
+        "x": 68.5,
+        "y": 105.99
+      },
+      {
+        "item": "pink_donut_lilac",
+        "x": 80,
+        "y": 105.99
+      },
+      {
+        "item": "pink_donut_lemon",
+        "x": 42,
+        "y": 127.58
+      },
+      {
+        "item": "gummy_bears_mint",
+        "x": 52.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_strawberry",
+        "x": 61.5,
+        "y": 127.58
+      },
+      {
+        "item": "pink_donut_lilac",
+        "x": 71,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_lemon",
+        "x": 80.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 117,
+        "y": 92
+      },
+      {
+        "item": "chocolate_bar_lemon",
+        "x": 98.5,
+        "y": 105.99
+      },
+      {
+        "item": "gummy_bears_mint",
+        "x": 109.5,
+        "y": 105.99
+      },
+      {
+        "item": "gummy_bears_strawberry",
+        "x": 119.5,
+        "y": 105.99
+      },
+      {
+        "item": "food_street_cupcake_lemon",
+        "x": 132.5,
+        "y": 105.99
+      },
+      {
+        "item": "food_street_cupcake_lemon",
+        "x": 100.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 114.5,
+        "y": 127.58
+      },
+      {
+        "item": "sprinkle_jar_sky",
+        "x": 125.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_strawberry",
+        "x": 134.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 173,
+        "y": 92
+      },
+      {
+        "item": "pink_donut_lilac",
+        "x": 154,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_chocolate",
+        "x": 165.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 177.5,
+        "y": 105.99
+      },
+      {
+        "item": "candy_apple_mint",
+        "x": 189.5,
+        "y": 105.99
+      },
+      {
+        "item": "candy_apple_lemon",
+        "x": 154.5,
+        "y": 127.58
+      },
+      {
+        "item": "food_street_cupcake_sky",
+        "x": 168.5,
+        "y": 127.58
+      },
+      {
+        "item": "sprinkle_jar_lemon",
+        "x": 181.5,
+        "y": 127.58
+      },
+      {
+        "item": "candy_heart_sky",
+        "x": 190.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "toy_shop:0",
+    "items": [
+      {
+        "item": "bouncy_ball_toy_beach",
+        "x": 28.5,
+        "y": 18.24
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 41,
+        "y": 18.24
+      },
+      {
+        "item": "toy_car_mint",
+        "x": 54.5,
+        "y": 18.24
+      },
+      {
+        "item": "diamond_kite_sky",
+        "x": 71.5,
+        "y": 18.24
+      },
+      {
+        "item": "diamond_kite_lilac",
+        "x": 89.5,
+        "y": 18.24
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 104,
+        "y": 18.24
+      },
+      {
+        "item": "board_game_sky",
+        "x": 118.5,
+        "y": 18.24
+      },
+      {
+        "item": "plush_bunny_sky",
+        "x": 27.5,
+        "y": 50.44
+      },
+      {
+        "item": "jigsaw_puzzle_mint",
+        "x": 41.5,
+        "y": 50.44
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 55.5,
+        "y": 50.44
+      },
+      {
+        "item": "diamond_kite_lemon",
+        "x": 70.5,
+        "y": 50.44
+      },
+      {
+        "item": "cute_photo_flash_lemon",
+        "x": 89.5,
+        "y": 50.44
+      },
+      {
+        "item": "board_game_lemon",
+        "x": 108.5,
+        "y": 50.44
+      },
+      {
+        "item": "bouncy_ball_toy_royal",
+        "x": 124.5,
+        "y": 50.44
+      },
+      {
+        "item": "toy_car_lilac",
+        "x": 29.5,
+        "y": 78.34
+      },
+      {
+        "item": "cute_photo_flash_mint",
+        "x": 47.5,
+        "y": 78.34
+      },
+      {
+        "item": "building_blocks_lemon",
+        "x": 66.5,
+        "y": 78.34
+      },
+      {
+        "item": "toy_car_sky",
+        "x": 83.5,
+        "y": 78.34
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 97,
+        "y": 78.34
+      },
+      {
+        "item": "diamond_kite_mint",
+        "x": 111.5,
+        "y": 78.34
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 126,
+        "y": 78.34
+      },
+      {
+        "item": "board_game_strawberry",
+        "x": 30.5,
+        "y": 107.32
+      },
+      {
+        "item": "board_game_lilac",
+        "x": 48.5,
+        "y": 107.32
+      },
+      {
+        "item": "bouncy_ball_toy_ocean",
+        "x": 64.5,
+        "y": 107.32
+      },
+      {
+        "item": "cute_photo_flash_strawberry",
+        "x": 81.5,
+        "y": 107.32
+      },
+      {
+        "item": "music_box_pink",
+        "x": 98.5,
+        "y": 107.32
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 111.5,
+        "y": 107.32
+      },
+      {
+        "item": "bouncy_ball_toy_peach",
+        "x": 124.5,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 168,
+        "y": 92
+      },
+      {
+        "item": "music_box_blue",
+        "x": 147,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 160,
+        "y": 104.5
+      },
+      {
+        "item": "building_blocks_strawberry",
+        "x": 175,
+        "y": 104.5
+      },
+      {
+        "item": "plush_bunny_strawberry",
+        "x": 190,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 231,
+        "y": 92
+      },
+      {
+        "item": "jigsaw_puzzle_sky",
+        "x": 214.5,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_wood",
+        "x": 229.5,
+        "y": 105.99
+      },
+      {
+        "item": "toy_car_strawberry",
+        "x": 244.5,
+        "y": 105.99
+      },
+      {
+        "item": "board_game_mint",
+        "x": 215.5,
+        "y": 127.58
+      },
+      {
+        "item": "toy_car_lemon",
+        "x": 232.5,
+        "y": 127.58
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 246,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 288,
+        "y": 92
+      },
+      {
+        "item": "jigsaw_puzzle_strawberry",
+        "x": 271.5,
+        "y": 105.99
+      },
+      {
+        "item": "building_blocks_sky",
+        "x": 288.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 303,
+        "y": 105.99
+      },
+      {
+        "item": "diamond_kite_strawberry",
+        "x": 272.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_photo_flash_lilac",
+        "x": 291.5,
+        "y": 127.58
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 307,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "toy_shop:1",
+    "items": [
+      {
+        "item": "toy_car_strawberry",
+        "x": 220.7,
+        "y": 4.24
+      },
+      {
+        "item": "jigsaw_puzzle_strawberry",
+        "x": 236.7,
+        "y": 4.24
+      },
+      {
+        "item": "board_game_lemon",
+        "x": 253.7,
+        "y": 4.24
+      },
+      {
+        "item": "plush_bunny_lilac",
+        "x": 268.7,
+        "y": 4.24
+      },
+      {
+        "item": "building_blocks_lilac",
+        "x": 221.7,
+        "y": 36.06
+      },
+      {
+        "item": "plush_bunny_lemon",
+        "x": 236.7,
+        "y": 36.06
+      },
+      {
+        "item": "jigsaw_puzzle_lemon",
+        "x": 250.7,
+        "y": 36.06
+      },
+      {
+        "item": "music_box_blue",
+        "x": 265.7,
+        "y": 36.06
+      },
+      {
+        "item": "diamond_kite_strawberry",
+        "x": 221.7,
+        "y": 67.88
+      },
+      {
+        "item": "diamond_kite_sky",
+        "x": 239.7,
+        "y": 67.88
+      },
+      {
+        "item": "plush_bunny_mint",
+        "x": 254.7,
+        "y": 67.88
+      },
+      {
+        "item": "bouncy_ball_toy_peach",
+        "x": 267.7,
+        "y": 67.88
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 57,
+        "y": 92
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 38,
+        "y": 105.99
+      },
+      {
+        "item": "plush_bunny_strawberry",
+        "x": 49.5,
+        "y": 105.99
+      },
+      {
+        "item": "toy_car_mint",
+        "x": 63.5,
+        "y": 105.99
+      },
+      {
+        "item": "toy_car_sky",
+        "x": 40.5,
+        "y": 127.58
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 54,
+        "y": 127.58
+      },
+      {
+        "item": "music_box_wood",
+        "x": 66.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 118,
+        "y": 92
+      },
+      {
+        "item": "bouncy_ball_toy_beach",
+        "x": 97,
+        "y": 104.5
+      },
+      {
+        "item": "building_blocks_sky",
+        "x": 113,
+        "y": 104.5
+      },
+      {
+        "item": "board_game_mint",
+        "x": 131,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 182,
+        "y": 92
+      },
+      {
+        "item": "board_game_sky",
+        "x": 166.5,
+        "y": 105.99
+      },
+      {
+        "item": "building_blocks_lemon",
+        "x": 184.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 199,
+        "y": 105.99
+      },
+      {
+        "item": "bouncy_ball_toy_ocean",
+        "x": 164.5,
+        "y": 127.58
+      },
+      {
+        "item": "toy_car_lilac",
+        "x": 179.5,
+        "y": 127.58
+      },
+      {
+        "item": "diamond_kite_lilac",
+        "x": 196.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "restaurant:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 61,
+        "y": 92
+      },
+      {
+        "item": "cute_pizza_slice_mint",
+        "x": 43.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 57,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 69.5,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 80.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 42.5,
+        "y": 127.58
+      },
+      {
+        "item": "milk_bottle_mint",
+        "x": 53.5,
+        "y": 127.58
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 63.5,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 73.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 82,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "offices:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 38,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 20,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 32,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 44,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 56,
+        "y": 105.99
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 20,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 31.5,
+        "y": 127.58
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 41.5,
+        "y": 127.58
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 53,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "offices:1",
+    "items": [
+      {
+        "item": "succulent_pot_blue",
+        "x": 548.3,
+        "y": 12.66
+      },
+      {
+        "item": "fire_extinguisher_dark_red",
+        "x": 559.3,
+        "y": 12.66
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 570.3,
+        "y": 12.66
+      },
+      {
+        "item": "fire_extinguisher_bright",
+        "x": 581.3,
+        "y": 12.66
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 593.8,
+        "y": 12.66
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 605.8,
+        "y": 12.66
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 616.3,
+        "y": 12.66
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 549.8,
+        "y": 43.04
+      },
+      {
+        "item": "soft_cushion_lilac",
+        "x": 567.3,
+        "y": 43.04
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 583.3,
+        "y": 43.04
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 594.8,
+        "y": 43.04
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 604.8,
+        "y": 43.04
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 613.3,
+        "y": 43.04
+      },
+      {
+        "item": "fairy_light_jar_warm",
+        "x": 548.3,
+        "y": 73.42
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 561.3,
+        "y": 73.42
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 574.8,
+        "y": 73.42
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 585.8,
+        "y": 73.42
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 598.3,
+        "y": 73.42
+      },
+      {
+        "item": "music_box_wood",
+        "x": 612.3,
+        "y": 73.42
+      },
+      {
+        "item": "soft_cushion_sky",
+        "x": 554.3,
+        "y": 103.8
+      },
+      {
+        "item": "fire_extinguisher_red",
+        "x": 571.3,
+        "y": 103.8
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 585.3,
+        "y": 103.8
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 598.3,
+        "y": 103.8
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 608.8,
+        "y": 103.8
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 617.8,
+        "y": 103.8
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 43,
+        "y": 92
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 20.5,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_green",
+        "x": 34,
+        "y": 104.5
+      },
+      {
+        "item": "soft_cushion_strawberry",
+        "x": 53,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 67.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "vets:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 47,
+        "y": 92
+      },
+      {
+        "item": "treat_jar_mint",
+        "x": 28.5,
+        "y": 105.99
+      },
+      {
+        "item": "bone_toy_sky",
+        "x": 42.5,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_wood",
+        "x": 57.5,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 68,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 27.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 36,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 46,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 58,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 67,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "vets:1",
+    "items": [
+      {
+        "item": "piggy_bank_gold",
+        "x": 570.4,
+        "y": 17.14
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 583.9,
+        "y": 17.14
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 595.9,
+        "y": 17.14
+      },
+      {
+        "item": "water_bowl_sky",
+        "x": 608.9,
+        "y": 17.14
+      },
+      {
+        "item": "bandage_roll_lilac",
+        "x": 621.9,
+        "y": 17.14
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 633.4,
+        "y": 17.14
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 570.4,
+        "y": 37.4
+      },
+      {
+        "item": "bone_toy_lemon",
+        "x": 584.9,
+        "y": 37.4
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 597.9,
+        "y": 37.4
+      },
+      {
+        "item": "music_box_wood",
+        "x": 609.9,
+        "y": 37.4
+      },
+      {
+        "item": "water_bowl_strawberry",
+        "x": 624.9,
+        "y": 37.4
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 638.4,
+        "y": 37.4
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 570.4,
+        "y": 57.66
+      },
+      {
+        "item": "bone_toy_sky",
+        "x": 584.9,
+        "y": 57.66
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 600.9,
+        "y": 57.66
+      },
+      {
+        "item": "water_bowl_lilac",
+        "x": 616.9,
+        "y": 57.66
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 628.4,
+        "y": 57.66
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 636.9,
+        "y": 57.66
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 41,
+        "y": 92
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 23.5,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 36,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 46.5,
+        "y": 105.99
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 56.5,
+        "y": 105.99
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 24.5,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 38,
+        "y": 127.58
+      },
+      {
+        "item": "bone_toy_mint",
+        "x": 51.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "cafe:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 48,
+        "y": 92
+      },
+      {
+        "item": "cute_pizza_slice_gold",
+        "x": 30.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_pizza_slice_lilac",
+        "x": 44.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_apple_blueberry",
+        "x": 58.5,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 69,
+        "y": 105.99
+      },
+      {
+        "item": "cute_cupcake_strawberry",
+        "x": 29.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_cupcake_pistachio",
+        "x": 41.5,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 52.5,
+        "y": 127.58
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 62.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "cafe:1",
+    "items": [
+      {
+        "item": "croissant_strawberry",
+        "x": 491.7,
+        "y": 12.66
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 504.2,
+        "y": 12.66
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 517.7,
+        "y": 12.66
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 532.2,
+        "y": 12.66
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 545.7,
+        "y": 12.66
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 557.7,
+        "y": 12.66
+      },
+      {
+        "item": "fairy_light_jar_warm",
+        "x": 489.7,
+        "y": 43.04
+      },
+      {
+        "item": "cute_cupcake_blueberry",
+        "x": 500.7,
+        "y": 43.04
+      },
+      {
+        "item": "book_stack_green",
+        "x": 514.7,
+        "y": 43.04
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 529.2,
+        "y": 43.04
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 542.2,
+        "y": 43.04
+      },
+      {
+        "item": "cute_pizza_slice_lilac",
+        "x": 555.7,
+        "y": 43.04
+      },
+      {
+        "item": "cute_ice_cream_cone_chocolate",
+        "x": 493.7,
+        "y": 73.42
+      },
+      {
+        "item": "cute_apple_mint",
+        "x": 509.7,
+        "y": 73.42
+      },
+      {
+        "item": "cute_juice_box_ocean",
+        "x": 522.7,
+        "y": 73.42
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 533.7,
+        "y": 73.42
+      },
+      {
+        "item": "milk_bottle_lemon",
+        "x": 543.7,
+        "y": 73.42
+      },
+      {
+        "item": "cute_apple_blueberry",
+        "x": 555.7,
+        "y": 73.42
+      },
+      {
+        "item": "cute_pizza_slice_berry",
+        "x": 491.7,
+        "y": 103.8
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 502.2,
+        "y": 103.8
+      },
+      {
+        "item": "music_box_wood",
+        "x": 512.7,
+        "y": 103.8
+      },
+      {
+        "item": "cute_pizza_slice_gold",
+        "x": 526.7,
+        "y": 103.8
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 539.2,
+        "y": 103.8
+      },
+      {
+        "item": "cute_cupcake_pistachio",
+        "x": 550.7,
+        "y": 103.8
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 560.2,
+        "y": 103.8
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 54,
+        "y": 92
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 31,
+        "y": 104.5
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 41.5,
+        "y": 104.5
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 52,
+        "y": 104.5
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 62.5,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 75,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "pub:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 34,
+        "y": 92
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 14.5,
+        "y": 105.99
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 25,
+        "y": 105.99
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 37,
+        "y": 105.99
+      },
+      {
+        "item": "pretzel_strawberry",
+        "x": 49.5,
+        "y": 105.99
+      },
+      {
+        "item": "board_game_mint",
+        "x": 18.5,
+        "y": 127.58
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 33,
+        "y": 127.58
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 45.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "pub:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 46,
+        "y": 92
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 23,
+        "y": 104.5
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 33.5,
+        "y": 104.5
+      },
+      {
+        "item": "board_game_sky",
+        "x": 48,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_green",
+        "x": 65,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "stables:1",
+    "items": [
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 67,
+        "y": 92
+      },
+      {
+        "item": "piggy_bank_blue",
+        "x": 49,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 59,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_blue",
+        "x": 69.5,
+        "y": 105.99
+      },
+      {
+        "item": "banana_strawberry",
+        "x": 82.5,
+        "y": 105.99
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 47.5,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 59,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 72,
+        "y": 127.58
+      },
+      {
+        "item": "brush_set_lilac",
+        "x": 83.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "stables:2",
+    "items": [
+      {
+        "item": "cat_ornament_white",
+        "x": 634.2,
+        "y": 17.14
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 644.2,
+        "y": 17.14
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 655.7,
+        "y": 17.14
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 665.7,
+        "y": 17.14
+      },
+      {
+        "item": "desk_globe_blue",
+        "x": 674.7,
+        "y": 17.14
+      },
+      {
+        "item": "fire_station_water_bucket_strawberry",
+        "x": 687.2,
+        "y": 17.14
+      },
+      {
+        "item": "music_box_pink",
+        "x": 701.2,
+        "y": 17.14
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 634.2,
+        "y": 37.4
+      },
+      {
+        "item": "brush_set_mint",
+        "x": 644.2,
+        "y": 37.4
+      },
+      {
+        "item": "brush_set_lilac",
+        "x": 654.2,
+        "y": 37.4
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 666.2,
+        "y": 37.4
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 679.7,
+        "y": 37.4
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 691.7,
+        "y": 37.4
+      },
+      {
+        "item": "banana_lemon",
+        "x": 703.2,
+        "y": 37.4
+      },
+      {
+        "item": "fire_station_water_bucket_lilac",
+        "x": 636.2,
+        "y": 57.66
+      },
+      {
+        "item": "banana_lilac",
+        "x": 649.2,
+        "y": 57.66
+      },
+      {
+        "item": "fairy_light_jar_warm",
+        "x": 660.2,
+        "y": 57.66
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 668.7,
+        "y": 57.66
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 678.7,
+        "y": 57.66
+      },
+      {
+        "item": "brush_set_strawberry",
+        "x": 690.2,
+        "y": 57.66
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 702.2,
+        "y": 57.66
+      },
+      {
+        "item": "wall_double_shelf_white",
+        "x": 68,
+        "y": 92
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 48.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 60,
+        "y": 105.99
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 71.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 82,
+        "y": 105.99
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 50.5,
+        "y": 127.58
+      },
+      {
+        "item": "brush_set_lemon",
+        "x": 62.5,
+        "y": 127.58
+      },
+      {
+        "item": "banana_mint",
+        "x": 73.5,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 85,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "pet_shop:0",
+    "items": [
+      {
+        "item": "treat_jar_sky",
+        "x": 328,
+        "y": 18.24
+      },
+      {
+        "item": "cat_bell_toy_lemon",
+        "x": 339,
+        "y": 18.24
+      },
+      {
+        "item": "pet_food_bowl_lemon",
+        "x": 351,
+        "y": 18.24
+      },
+      {
+        "item": "treat_jar_mint",
+        "x": 364,
+        "y": 18.24
+      },
+      {
+        "item": "tiny_party_hat_sky",
+        "x": 374,
+        "y": 18.24
+      },
+      {
+        "item": "goldfish_bowl_strawberry",
+        "x": 388,
+        "y": 18.24
+      },
+      {
+        "item": "tiny_party_hat_lilac",
+        "x": 402,
+        "y": 18.24
+      },
+      {
+        "item": "cat_bell_toy_sky",
+        "x": 411,
+        "y": 18.24
+      },
+      {
+        "item": "bone_toy_lemon",
+        "x": 424,
+        "y": 18.24
+      },
+      {
+        "item": "tiny_party_hat_lemon",
+        "x": 326,
+        "y": 50.44
+      },
+      {
+        "item": "toy_mouse_lilac",
+        "x": 335,
+        "y": 50.44
+      },
+      {
+        "item": "bone_toy_lilac",
+        "x": 348,
+        "y": 50.44
+      },
+      {
+        "item": "treat_jar_strawberry",
+        "x": 362,
+        "y": 50.44
+      },
+      {
+        "item": "toy_mouse_strawberry",
+        "x": 373,
+        "y": 50.44
+      },
+      {
+        "item": "cat_bell_toy_lilac",
+        "x": 383,
+        "y": 50.44
+      },
+      {
+        "item": "tiny_party_hat_mint",
+        "x": 392,
+        "y": 50.44
+      },
+      {
+        "item": "yarn_ball_sky",
+        "x": 401,
+        "y": 50.44
+      },
+      {
+        "item": "yarn_ball_lilac",
+        "x": 411,
+        "y": 50.44
+      },
+      {
+        "item": "pet_food_bowl_mint",
+        "x": 423,
+        "y": 50.44
+      },
+      {
+        "item": "hamster_ball_mint",
+        "x": 328,
+        "y": 78.34
+      },
+      {
+        "item": "tiny_party_hat_strawberry",
+        "x": 338,
+        "y": 78.34
+      },
+      {
+        "item": "hamster_ball_strawberry",
+        "x": 348,
+        "y": 78.34
+      },
+      {
+        "item": "toy_mouse_mint",
+        "x": 359,
+        "y": 78.34
+      },
+      {
+        "item": "cat_bell_toy_strawberry",
+        "x": 369,
+        "y": 78.34
+      },
+      {
+        "item": "bone_toy_mint",
+        "x": 382,
+        "y": 78.34
+      },
+      {
+        "item": "yarn_ball_lemon",
+        "x": 395,
+        "y": 78.34
+      },
+      {
+        "item": "bone_toy_strawberry",
+        "x": 408,
+        "y": 78.34
+      },
+      {
+        "item": "pet_food_bowl_sky",
+        "x": 423,
+        "y": 78.34
+      },
+      {
+        "item": "hamster_ball_sky",
+        "x": 328,
+        "y": 107.32
+      },
+      {
+        "item": "water_bowl_strawberry",
+        "x": 342,
+        "y": 107.32
+      },
+      {
+        "item": "pet_food_bowl_strawberry",
+        "x": 357,
+        "y": 107.32
+      },
+      {
+        "item": "water_bowl_mint",
+        "x": 372,
+        "y": 107.32
+      },
+      {
+        "item": "toy_mouse_sky",
+        "x": 385,
+        "y": 107.32
+      },
+      {
+        "item": "goldfish_bowl_mint",
+        "x": 400,
+        "y": 107.32
+      },
+      {
+        "item": "goldfish_bowl_lilac",
+        "x": 420,
+        "y": 107.32
+      },
+      {
+        "item": "hamster_ball_lemon",
+        "x": 550,
+        "y": 17.14
+      },
+      {
+        "item": "water_bowl_lilac",
+        "x": 564,
+        "y": 17.14
+      },
+      {
+        "item": "yarn_ball_mint",
+        "x": 577,
+        "y": 17.14
+      },
+      {
+        "item": "bone_toy_sky",
+        "x": 590,
+        "y": 17.14
+      },
+      {
+        "item": "toy_mouse_lemon",
+        "x": 603,
+        "y": 17.14
+      },
+      {
+        "item": "water_bowl_lemon",
+        "x": 616,
+        "y": 17.14
+      },
+      {
+        "item": "goldfish_bowl_lemon",
+        "x": 554,
+        "y": 37.4
+      },
+      {
+        "item": "treat_jar_lemon",
+        "x": 570,
+        "y": 37.4
+      },
+      {
+        "item": "hamster_ball_lilac",
+        "x": 582,
+        "y": 37.4
+      },
+      {
+        "item": "water_bowl_sky",
+        "x": 596,
+        "y": 37.4
+      },
+      {
+        "item": "yarn_ball_strawberry",
+        "x": 609,
+        "y": 37.4
+      },
+      {
+        "item": "cat_bell_toy_mint",
+        "x": 619,
+        "y": 37.4
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 550,
+        "y": 57.66
+      },
+      {
+        "item": "goldfish_bowl_sky",
+        "x": 566,
+        "y": 57.66
+      },
+      {
+        "item": "pet_food_bowl_lilac",
+        "x": 583,
+        "y": 57.66
+      },
+      {
+        "item": "pet_food_bowl_sky",
+        "x": 597,
+        "y": 57.66
+      },
+      {
+        "item": "cat_bell_toy_lemon",
+        "x": 609,
+        "y": 57.66
+      },
+      {
+        "item": "yarn_ball_sky",
+        "x": 619,
+        "y": 57.66
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 53,
+        "y": 92
+      },
+      {
+        "item": "cat_bell_toy_lemon",
+        "x": 30,
+        "y": 104.5
+      },
+      {
+        "item": "tiny_party_hat_lemon",
+        "x": 39,
+        "y": 104.5
+      },
+      {
+        "item": "bone_toy_lilac",
+        "x": 51,
+        "y": 104.5
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 65,
+        "y": 104.5
+      },
+      {
+        "item": "yarn_ball_strawberry",
+        "x": 76,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 119,
+        "y": 92
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 100.5,
+        "y": 105.99
+      },
+      {
+        "item": "goldfish_bowl_sky",
+        "x": 116.5,
+        "y": 105.99
+      },
+      {
+        "item": "tiny_party_hat_lilac",
+        "x": 130.5,
+        "y": 105.99
+      },
+      {
+        "item": "tiny_party_hat_strawberry",
+        "x": 138.5,
+        "y": 105.99
+      },
+      {
+        "item": "cat_bell_toy_strawberry",
+        "x": 99.5,
+        "y": 127.58
+      },
+      {
+        "item": "hamster_ball_mint",
+        "x": 110.5,
+        "y": 127.58
+      },
+      {
+        "item": "cat_bell_toy_lilac",
+        "x": 121.5,
+        "y": 127.58
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 132.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 178,
+        "y": 92
+      },
+      {
+        "item": "tiny_party_hat_sky",
+        "x": 154,
+        "y": 104.5
+      },
+      {
+        "item": "pet_food_bowl_lemon",
+        "x": 165,
+        "y": 104.5
+      },
+      {
+        "item": "treat_jar_mint",
+        "x": 178,
+        "y": 104.5
+      },
+      {
+        "item": "tiny_party_hat_strawberry",
+        "x": 188,
+        "y": 104.5
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 198,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "pet_shop:1",
+    "items": [
+      {
+        "item": "yarn_ball_sky",
+        "x": 186.1,
+        "y": 17.14
+      },
+      {
+        "item": "goldfish_bowl_strawberry",
+        "x": 201.1,
+        "y": 17.14
+      },
+      {
+        "item": "water_bowl_sky",
+        "x": 219.1,
+        "y": 17.14
+      },
+      {
+        "item": "hamster_ball_mint",
+        "x": 233.1,
+        "y": 17.14
+      },
+      {
+        "item": "toy_mouse_sky",
+        "x": 244.1,
+        "y": 17.14
+      },
+      {
+        "item": "cat_bell_toy_strawberry",
+        "x": 254.1,
+        "y": 17.14
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 187.1,
+        "y": 37.4
+      },
+      {
+        "item": "tiny_party_hat_mint",
+        "x": 197.1,
+        "y": 37.4
+      },
+      {
+        "item": "hamster_ball_lemon",
+        "x": 207.1,
+        "y": 37.4
+      },
+      {
+        "item": "treat_jar_strawberry",
+        "x": 219.1,
+        "y": 37.4
+      },
+      {
+        "item": "hamster_ball_strawberry",
+        "x": 231.1,
+        "y": 37.4
+      },
+      {
+        "item": "cat_bell_toy_mint",
+        "x": 242.1,
+        "y": 37.4
+      },
+      {
+        "item": "toy_mouse_lilac",
+        "x": 252.1,
+        "y": 37.4
+      },
+      {
+        "item": "toy_mouse_mint",
+        "x": 186.1,
+        "y": 57.66
+      },
+      {
+        "item": "bone_toy_mint",
+        "x": 199.1,
+        "y": 57.66
+      },
+      {
+        "item": "goldfish_bowl_lilac",
+        "x": 217.1,
+        "y": 57.66
+      },
+      {
+        "item": "water_bowl_strawberry",
+        "x": 235.1,
+        "y": 57.66
+      },
+      {
+        "item": "tiny_party_hat_lemon",
+        "x": 247.1,
+        "y": 57.66
+      },
+      {
+        "item": "cat_bell_toy_lilac",
+        "x": 256.1,
+        "y": 57.66
+      },
+      {
+        "item": "pet_food_bowl_lemon",
+        "x": 463.9,
+        "y": 18.24
+      },
+      {
+        "item": "hamster_ball_sky",
+        "x": 476.9,
+        "y": 18.24
+      },
+      {
+        "item": "pet_food_bowl_lilac",
+        "x": 489.9,
+        "y": 18.24
+      },
+      {
+        "item": "water_bowl_lemon",
+        "x": 504.9,
+        "y": 18.24
+      },
+      {
+        "item": "bone_toy_strawberry",
+        "x": 520.9,
+        "y": 18.24
+      },
+      {
+        "item": "yarn_ball_mint",
+        "x": 533.9,
+        "y": 18.24
+      },
+      {
+        "item": "treat_jar_sky",
+        "x": 544.9,
+        "y": 18.24
+      },
+      {
+        "item": "tiny_party_hat_sky",
+        "x": 554.9,
+        "y": 18.24
+      },
+      {
+        "item": "tiny_party_hat_strawberry",
+        "x": 562.9,
+        "y": 18.24
+      },
+      {
+        "item": "bone_toy_sky",
+        "x": 464.9,
+        "y": 50.44
+      },
+      {
+        "item": "treat_jar_lemon",
+        "x": 478.9,
+        "y": 50.44
+      },
+      {
+        "item": "water_bowl_mint",
+        "x": 492.9,
+        "y": 50.44
+      },
+      {
+        "item": "goldfish_bowl_lemon",
+        "x": 510.9,
+        "y": 50.44
+      },
+      {
+        "item": "yarn_ball_lemon",
+        "x": 525.9,
+        "y": 50.44
+      },
+      {
+        "item": "yarn_ball_strawberry",
+        "x": 535.9,
+        "y": 50.44
+      },
+      {
+        "item": "pet_food_bowl_mint",
+        "x": 547.9,
+        "y": 50.44
+      },
+      {
+        "item": "cat_bell_toy_sky",
+        "x": 559.9,
+        "y": 50.44
+      },
+      {
+        "item": "cat_bell_toy_lemon",
+        "x": 461.9,
+        "y": 78.34
+      },
+      {
+        "item": "tiny_party_hat_lilac",
+        "x": 470.9,
+        "y": 78.34
+      },
+      {
+        "item": "bone_toy_lemon",
+        "x": 482.9,
+        "y": 78.34
+      },
+      {
+        "item": "pet_food_bowl_sky",
+        "x": 497.9,
+        "y": 78.34
+      },
+      {
+        "item": "goldfish_bowl_mint",
+        "x": 514.9,
+        "y": 78.34
+      },
+      {
+        "item": "bone_toy_lilac",
+        "x": 532.9,
+        "y": 78.34
+      },
+      {
+        "item": "toy_mouse_strawberry",
+        "x": 545.9,
+        "y": 78.34
+      },
+      {
+        "item": "hamster_ball_lilac",
+        "x": 556.9,
+        "y": 78.34
+      },
+      {
+        "item": "toy_mouse_lemon",
+        "x": 461.9,
+        "y": 107.32
+      },
+      {
+        "item": "treat_jar_mint",
+        "x": 472.9,
+        "y": 107.32
+      },
+      {
+        "item": "pet_food_bowl_strawberry",
+        "x": 485.9,
+        "y": 107.32
+      },
+      {
+        "item": "water_bowl_lilac",
+        "x": 500.9,
+        "y": 107.32
+      },
+      {
+        "item": "yarn_ball_lilac",
+        "x": 513.9,
+        "y": 107.32
+      },
+      {
+        "item": "goldfish_bowl_sky",
+        "x": 528.9,
+        "y": 107.32
+      },
+      {
+        "item": "cat_bell_toy_lilac",
+        "x": 543.9,
+        "y": 107.32
+      },
+      {
+        "item": "toy_mouse_sky",
+        "x": 553.9,
+        "y": 107.32
+      },
+      {
+        "item": "tiny_party_hat_lemon",
+        "x": 562.9,
+        "y": 107.32
+      },
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 284,
+        "y": 92
+      },
+      {
+        "item": "pet_food_bowl_sky",
+        "x": 263,
+        "y": 104.5
+      },
+      {
+        "item": "bone_toy_mint",
+        "x": 278,
+        "y": 104.5
+      },
+      {
+        "item": "pet_food_bowl_mint",
+        "x": 293,
+        "y": 104.5
+      },
+      {
+        "item": "tiny_party_hat_sky",
+        "x": 304,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 193,
+        "y": 92
+      },
+      {
+        "item": "treat_jar_lilac",
+        "x": 174.5,
+        "y": 105.99
+      },
+      {
+        "item": "treat_jar_mint",
+        "x": 186.5,
+        "y": 105.99
+      },
+      {
+        "item": "cat_bell_toy_lilac",
+        "x": 197.5,
+        "y": 105.99
+      },
+      {
+        "item": "cat_bell_toy_mint",
+        "x": 207.5,
+        "y": 105.99
+      },
+      {
+        "item": "hamster_ball_strawberry",
+        "x": 174.5,
+        "y": 127.58
+      },
+      {
+        "item": "pet_food_bowl_lemon",
+        "x": 187.5,
+        "y": 127.58
+      },
+      {
+        "item": "goldfish_bowl_lemon",
+        "x": 204.5,
+        "y": 127.58
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 345,
+        "y": 92
+      },
+      {
+        "item": "water_bowl_lemon",
+        "x": 328.5,
+        "y": 105.99
+      },
+      {
+        "item": "tiny_party_hat_lilac",
+        "x": 340.5,
+        "y": 105.99
+      },
+      {
+        "item": "bone_toy_mint",
+        "x": 352.5,
+        "y": 105.99
+      },
+      {
+        "item": "tiny_party_hat_mint",
+        "x": 364.5,
+        "y": 105.99
+      },
+      {
+        "item": "tiny_party_hat_mint",
+        "x": 324.5,
+        "y": 127.58
+      },
+      {
+        "item": "toy_mouse_lilac",
+        "x": 333.5,
+        "y": 127.58
+      },
+      {
+        "item": "bone_toy_lilac",
+        "x": 346.5,
+        "y": 127.58
+      },
+      {
+        "item": "tiny_party_hat_lemon",
+        "x": 358.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "paint_shop:0",
+    "items": [
+      {
+        "item": "crayon_box_sky",
+        "x": 177,
+        "y": 18.24
+      },
+      {
+        "item": "paintbrush_mint",
+        "x": 188,
+        "y": 18.24
+      },
+      {
+        "item": "crayon_box_lemon",
+        "x": 199,
+        "y": 18.24
+      },
+      {
+        "item": "paint_roller_strawberry",
+        "x": 211,
+        "y": 18.24
+      },
+      {
+        "item": "paintbrush_sky",
+        "x": 220,
+        "y": 18.24
+      },
+      {
+        "item": "paint_roller_lemon",
+        "x": 229,
+        "y": 18.24
+      },
+      {
+        "item": "paint_palette_lilac",
+        "x": 241,
+        "y": 18.24
+      },
+      {
+        "item": "paint_cans_sky",
+        "x": 261,
+        "y": 18.24
+      },
+      {
+        "item": "paint_palette_mint",
+        "x": 177,
+        "y": 50.44
+      },
+      {
+        "item": "colour_mixing_bowl_lemon",
+        "x": 191,
+        "y": 50.44
+      },
+      {
+        "item": "paint_palette_sky",
+        "x": 205,
+        "y": 50.44
+      },
+      {
+        "item": "colour_mixing_bowl_lilac",
+        "x": 219,
+        "y": 50.44
+      },
+      {
+        "item": "paint_sponge_strawberry",
+        "x": 231,
+        "y": 50.44
+      },
+      {
+        "item": "paint_sponge_lilac",
+        "x": 241,
+        "y": 50.44
+      },
+      {
+        "item": "paint_roller_mint",
+        "x": 251,
+        "y": 50.44
+      },
+      {
+        "item": "paint_roller_sky",
+        "x": 261,
+        "y": 50.44
+      },
+      {
+        "item": "paintbrush_strawberry",
+        "x": 270,
+        "y": 50.44
+      },
+      {
+        "item": "paint_cans_lilac",
+        "x": 183,
+        "y": 78.34
+      },
+      {
+        "item": "paint_sponge_sky",
+        "x": 201,
+        "y": 78.34
+      },
+      {
+        "item": "paint_cans_lemon",
+        "x": 219,
+        "y": 78.34
+      },
+      {
+        "item": "paint_palette_lemon",
+        "x": 239,
+        "y": 78.34
+      },
+      {
+        "item": "paint_sponge_lemon",
+        "x": 251,
+        "y": 78.34
+      },
+      {
+        "item": "colour_mixing_bowl_sky",
+        "x": 263,
+        "y": 78.34
+      },
+      {
+        "item": "paintbrush_lilac",
+        "x": 274,
+        "y": 78.34
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 177,
+        "y": 107.32
+      },
+      {
+        "item": "colour_mixing_bowl_mint",
+        "x": 191,
+        "y": 107.32
+      },
+      {
+        "item": "paint_cans_strawberry",
+        "x": 211,
+        "y": 107.32
+      },
+      {
+        "item": "paint_sponge_mint",
+        "x": 229,
+        "y": 107.32
+      },
+      {
+        "item": "paint_roller_lilac",
+        "x": 239,
+        "y": 107.32
+      },
+      {
+        "item": "paint_palette_strawberry",
+        "x": 251,
+        "y": 107.32
+      },
+      {
+        "item": "crayon_box_strawberry",
+        "x": 265,
+        "y": 107.32
+      },
+      {
+        "item": "paintbrush_lemon",
+        "x": 276,
+        "y": 107.32
+      },
+      {
+        "item": "colour_mixing_bowl_strawberry",
+        "x": 548.5,
+        "y": 17.14
+      },
+      {
+        "item": "paint_cans_mint",
+        "x": 568.5,
+        "y": 17.14
+      },
+      {
+        "item": "crayon_box_lilac",
+        "x": 588.5,
+        "y": 17.14
+      },
+      {
+        "item": "paint_cans_sky",
+        "x": 608.5,
+        "y": 17.14
+      },
+      {
+        "item": "paint_cans_sky",
+        "x": 554.5,
+        "y": 37.4
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 574.5,
+        "y": 37.4
+      },
+      {
+        "item": "paint_cans_mint",
+        "x": 594.5,
+        "y": 37.4
+      },
+      {
+        "item": "paint_sponge_sky",
+        "x": 612.5,
+        "y": 37.4
+      },
+      {
+        "item": "paint_cans_lilac",
+        "x": 554.5,
+        "y": 57.66
+      },
+      {
+        "item": "paint_cans_lemon",
+        "x": 580.5,
+        "y": 57.66
+      },
+      {
+        "item": "paint_roller_sky",
+        "x": 598.5,
+        "y": 57.66
+      },
+      {
+        "item": "paint_palette_lemon",
+        "x": 610.5,
+        "y": 57.66
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 55,
+        "y": 92
+      },
+      {
+        "item": "paint_palette_lemon",
+        "x": 34,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_sky",
+        "x": 45,
+        "y": 104.5
+      },
+      {
+        "item": "paint_cans_strawberry",
+        "x": 62,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_lilac",
+        "x": 79,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 122,
+        "y": 92
+      },
+      {
+        "item": "crayon_box_mint",
+        "x": 101,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_lilac",
+        "x": 112,
+        "y": 104.5
+      },
+      {
+        "item": "paint_cans_mint",
+        "x": 129,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_strawberry",
+        "x": 146,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_sage",
+        "x": 366,
+        "y": 92
+      },
+      {
+        "item": "crayon_box_strawberry",
+        "x": 348.5,
+        "y": 105.99
+      },
+      {
+        "item": "colour_mixing_bowl_lilac",
+        "x": 362.5,
+        "y": 105.99
+      },
+      {
+        "item": "paint_roller_strawberry",
+        "x": 374.5,
+        "y": 105.99
+      },
+      {
+        "item": "paintbrush_mint",
+        "x": 383.5,
+        "y": 105.99
+      },
+      {
+        "item": "paint_palette_lilac",
+        "x": 348.5,
+        "y": 127.58
+      },
+      {
+        "item": "paint_sponge_sky",
+        "x": 360.5,
+        "y": 127.58
+      },
+      {
+        "item": "colour_mixing_bowl_strawberry",
+        "x": 372.5,
+        "y": 127.58
+      },
+      {
+        "item": "paintbrush_sky",
+        "x": 383.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "paint_shop:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 46,
+        "y": 92
+      },
+      {
+        "item": "colour_mixing_bowl_mint",
+        "x": 25,
+        "y": 104.5
+      },
+      {
+        "item": "colour_mixing_bowl_lilac",
+        "x": 39,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_strawberry",
+        "x": 50,
+        "y": 104.5
+      },
+      {
+        "item": "paint_palette_strawberry",
+        "x": 61,
+        "y": 104.5
+      },
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 110,
+        "y": 92
+      },
+      {
+        "item": "colour_mixing_bowl_sky",
+        "x": 89,
+        "y": 104.5
+      },
+      {
+        "item": "colour_mixing_bowl_strawberry",
+        "x": 103,
+        "y": 104.5
+      },
+      {
+        "item": "paint_roller_mint",
+        "x": 115,
+        "y": 104.5
+      },
+      {
+        "item": "paint_sponge_lilac",
+        "x": 125,
+        "y": 104.5
+      },
+      {
+        "item": "paintbrush_lemon",
+        "x": 134,
+        "y": 104.5
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 172,
+        "y": 92
+      },
+      {
+        "item": "colour_mixing_bowl_lemon",
+        "x": 154.5,
+        "y": 105.99
+      },
+      {
+        "item": "paint_palette_sky",
+        "x": 168.5,
+        "y": 105.99
+      },
+      {
+        "item": "crayon_box_strawberry",
+        "x": 182.5,
+        "y": 105.99
+      },
+      {
+        "item": "paint_roller_strawberry",
+        "x": 152.5,
+        "y": 127.58
+      },
+      {
+        "item": "paint_palette_lilac",
+        "x": 164.5,
+        "y": 127.58
+      },
+      {
+        "item": "crayon_box_lemon",
+        "x": 178.5,
+        "y": 127.58
+      },
+      {
+        "item": "paint_sponge_strawberry",
+        "x": 190.5,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "secret_garden:2",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 38,
+        "y": 92
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 17,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 29.5,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 43,
+        "y": 104.5
+      },
+      {
+        "item": "trophy_cup_silver",
+        "x": 58,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "secret_beach_house:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 68,
+        "y": 92
+      },
+      {
+        "item": "pretty_seashell_strawberry",
+        "x": 47,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 57.5,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 66,
+        "y": 104.5
+      },
+      {
+        "item": "bouncy_ball_toy_ocean",
+        "x": 78,
+        "y": 104.5
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 90,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "secret_mansion:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_walnut",
+        "x": 46,
+        "y": 92
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 21,
+        "y": 104.5
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 29,
+        "y": 104.5
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 39.5,
+        "y": 104.5
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 50,
+        "y": 104.5
+      },
+      {
+        "item": "piggy_bank_pink",
+        "x": 61.5,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 71,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "secret_mansion:1",
+    "items": [
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 185,
+        "y": 92
+      },
+      {
+        "item": "big_rose_bloom_strawberry",
+        "x": 167,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_classic",
+        "x": 185,
+        "y": 104.5
+      },
+      {
+        "item": "milk_bottle_mint",
+        "x": 198,
+        "y": 104.5
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 206,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "secret_mansion:2",
+    "items": [
+      {
+        "item": "milk_bottle_strawberry",
+        "x": 553,
+        "y": 4.24
+      },
+      {
+        "item": "milk_bottle_mint",
+        "x": 563,
+        "y": 4.24
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 573,
+        "y": 4.24
+      },
+      {
+        "item": "rose_vase_strawberry",
+        "x": 586,
+        "y": 4.24
+      },
+      {
+        "item": "cute_lipstick_gold",
+        "x": 597,
+        "y": 4.24
+      },
+      {
+        "item": "cat_bell_toy_sky",
+        "x": 605,
+        "y": 4.24
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 556,
+        "y": 36.06
+      },
+      {
+        "item": "cute_lipstick_lemon",
+        "x": 567,
+        "y": 36.06
+      },
+      {
+        "item": "fairy_light_jar_gold",
+        "x": 575,
+        "y": 36.06
+      },
+      {
+        "item": "photo_frame_stand_white",
+        "x": 585.5,
+        "y": 36.06
+      },
+      {
+        "item": "cat_bell_toy_strawberry",
+        "x": 596,
+        "y": 36.06
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 606.5,
+        "y": 36.06
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 553.5,
+        "y": 67.88
+      },
+      {
+        "item": "photo_frame_stand_silver",
+        "x": 564.5,
+        "y": 67.88
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 575,
+        "y": 67.88
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 585.5,
+        "y": 67.88
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 596.5,
+        "y": 67.88
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 605.5,
+        "y": 67.88
+      },
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 62,
+        "y": 92
+      },
+      {
+        "item": "milk_bottle_sky",
+        "x": 42.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_gold",
+        "x": 53,
+        "y": 105.99
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 62,
+        "y": 105.99
+      },
+      {
+        "item": "cute_pizza_slice_lilac",
+        "x": 72.5,
+        "y": 105.99
+      },
+      {
+        "item": "cute_lipstick_lilac",
+        "x": 82.5,
+        "y": 105.99
+      },
+      {
+        "item": "sweet_jar_blue",
+        "x": 44,
+        "y": 127.58
+      },
+      {
+        "item": "book_stack_green",
+        "x": 58.5,
+        "y": 127.58
+      },
+      {
+        "item": "cute_lipstick_strawberry",
+        "x": 69.5,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 79,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "starry_observatory:1",
+    "items": [
+      {
+        "item": "candle_jar_rose",
+        "x": 25.9,
+        "y": 12.66
+      },
+      {
+        "item": "storybook_lemon",
+        "x": 35.4,
+        "y": 12.66
+      },
+      {
+        "item": "floating_cloud_teacup_strawberry",
+        "x": 50.4,
+        "y": 12.66
+      },
+      {
+        "item": "cloud_key_mint",
+        "x": 64.4,
+        "y": 12.66
+      },
+      {
+        "item": "storybook_sky",
+        "x": 75.4,
+        "y": 12.66
+      },
+      {
+        "item": "small_flower_vase_pink",
+        "x": 86.4,
+        "y": 12.66
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 94.9,
+        "y": 12.66
+      },
+      {
+        "item": "trophy_cup_gold",
+        "x": 29.4,
+        "y": 43.04
+      },
+      {
+        "item": "storybook_strawberry",
+        "x": 42.4,
+        "y": 43.04
+      },
+      {
+        "item": "desk_globe_antique",
+        "x": 53.9,
+        "y": 43.04
+      },
+      {
+        "item": "sweet_jar_red",
+        "x": 65.9,
+        "y": 43.04
+      },
+      {
+        "item": "cloud_star_lamp_sky",
+        "x": 80.4,
+        "y": 43.04
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 93.4,
+        "y": 43.04
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 27.4,
+        "y": 73.42
+      },
+      {
+        "item": "fairy_light_jar_pink",
+        "x": 37.4,
+        "y": 73.42
+      },
+      {
+        "item": "book_stack_pastel",
+        "x": 50.4,
+        "y": 73.42
+      },
+      {
+        "item": "succulent_pot_jade",
+        "x": 63.4,
+        "y": 73.42
+      },
+      {
+        "item": "floating_cloud_teacup_lemon",
+        "x": 77.4,
+        "y": 73.42
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 89.9,
+        "y": 73.42
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 96.9,
+        "y": 73.42
+      },
+      {
+        "item": "music_box_pink",
+        "x": 29.4,
+        "y": 103.8
+      },
+      {
+        "item": "cat_ornament_ginger",
+        "x": 41.4,
+        "y": 103.8
+      },
+      {
+        "item": "cloud_key_lemon",
+        "x": 51.4,
+        "y": 103.8
+      },
+      {
+        "item": "cloud_star_lamp_mint",
+        "x": 64.4,
+        "y": 103.8
+      },
+      {
+        "item": "music_box_blue",
+        "x": 79.4,
+        "y": 103.8
+      },
+      {
+        "item": "storybook_mint",
+        "x": 92.4,
+        "y": 103.8
+      },
+      {
+        "item": "wall_plank_shelf_oak",
+        "x": 141,
+        "y": 92
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 118,
+        "y": 104.5
+      },
+      {
+        "item": "book_stack_green",
+        "x": 131,
+        "y": 104.5
+      },
+      {
+        "item": "storybook_lilac",
+        "x": 145,
+        "y": 104.5
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 156.5,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 165.5,
+        "y": 104.5
+      }
+    ]
+  },
+  {
+    "id": "halloween_house:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_pine",
+        "x": 56,
+        "y": 92
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 35,
+        "y": 105.99
+      },
+      {
+        "item": "cat_ornament_black",
+        "x": 43.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_blue",
+        "x": 54,
+        "y": 105.99
+      },
+      {
+        "item": "desk_globe_dark",
+        "x": 65,
+        "y": 105.99
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 75.5,
+        "y": 105.99
+      },
+      {
+        "item": "snow_globe_red",
+        "x": 37,
+        "y": 127.58
+      },
+      {
+        "item": "trophy_cup_bronze",
+        "x": 49.5,
+        "y": 127.58
+      },
+      {
+        "item": "sweet_jar_pink",
+        "x": 63,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_vanilla",
+        "x": 73,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "mansion:0",
+    "items": [
+      {
+        "item": "wall_double_shelf_white",
+        "x": 56,
+        "y": 92
+      },
+      {
+        "item": "small_flower_vase_yellow",
+        "x": 36.5,
+        "y": 105.99
+      },
+      {
+        "item": "music_box_wood",
+        "x": 48.5,
+        "y": 105.99
+      },
+      {
+        "item": "piggy_bank_gold",
+        "x": 62,
+        "y": 105.99
+      },
+      {
+        "item": "succulent_pot_sage",
+        "x": 73.5,
+        "y": 105.99
+      },
+      {
+        "item": "tea_cup_mint",
+        "x": 36,
+        "y": 127.58
+      },
+      {
+        "item": "cat_ornament_white",
+        "x": 45.5,
+        "y": 127.58
+      },
+      {
+        "item": "photo_frame_stand_wood",
+        "x": 56,
+        "y": 127.58
+      },
+      {
+        "item": "small_flower_vase_white",
+        "x": 66.5,
+        "y": 127.58
+      },
+      {
+        "item": "candle_jar_rose",
+        "x": 75,
+        "y": 127.58
+      }
+    ]
+  },
+  {
+    "id": "beach_house:0",
+    "items": [
+      {
+        "item": "wall_plank_shelf_white",
+        "x": 40,
+        "y": 92
+      },
+      {
+        "item": "bouncy_ball_toy_beach",
+        "x": 19,
+        "y": 104.5
+      },
+      {
+        "item": "succulent_pot_blue",
+        "x": 31,
+        "y": 104.5
+      },
+      {
+        "item": "pretty_seashell_lemon",
+        "x": 43,
+        "y": 104.5
+      },
+      {
+        "item": "juice_jug_lemon",
+        "x": 55,
+        "y": 104.5
+      },
+      {
+        "item": "candle_jar_lavender",
+        "x": 63.5,
+        "y": 104.5
+      }
+    ]
+  }
+]

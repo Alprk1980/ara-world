@@ -28,6 +28,11 @@ import { PlaceScene } from '../world/place-scene.ts';
 import type { Rig } from '../world/rig.ts';
 import { currentLook, initLook, toggleLook } from '../art/look.ts';
 import { loadWorld, persist, resetWorld, type World } from '../world/state.ts';
+import { load, save } from './save.ts';
+
+/** Where the player was (saved as it changes), so a refresh comes back to the same screen: the map, or a place and
+ * floor. null is the title screen. */
+type Where = { map: true } | { place: string; floor: number } | null;
 import { places } from '../data/index.ts';
 
 export class Game {
@@ -80,6 +85,8 @@ export class Game {
       },
       reset: async () => {
         await resetWorld();
+        // A fresh world starts at the title, not back where the old one was.
+        await save('where', null);
         location.reload();
       },
     });
@@ -100,7 +107,22 @@ export class Game {
   async start(): Promise<void> {
     await initLook();
     this.world = await loadWorld();
+    // Come back to where they were before the refresh (the title stays underneath, so back works as before). Read it
+    // before building the stack, which would otherwise save the title over it.
+    const where = await load<Where>('where', null);
+    this.restoring = true;
     this.stack.push(new TitleScene(() => this.play()));
+    if (where) {
+      this.play();
+      if ('place' in where && (places.has(where.place) || this.world.lots[where.place])) {
+        this.openPlace(where.place);
+        this.place?.goFloor(where.floor);
+      }
+      // Browsers only let sound start after a touch.
+      window.addEventListener('pointerdown', () => void startMusic(), { once: true });
+    }
+    this.restoring = false;
+    this.rememberWhere();
     this.layout();
   }
 
@@ -248,7 +270,21 @@ export class Game {
     top?.onSky?.();
   }
 
+  private restoring = false;
+
+  /** Save where the player is now (on every scene change, and when a place changes floor). */
+  rememberWhere(): void {
+    if (this.restoring) return;
+    const top = this.stack.top;
+    const place = this.place;
+    if (place) void save('where', { place: place.placeId, floor: place.floor });
+    else if (top?.name === 'map') void save('where', { map: true });
+    else if (top?.name === 'title') void save('where', null);
+    // The creator and builder are short visits: a refresh there goes back to where they came from.
+  }
+
   private onSceneChange(): void {
+    this.rememberWhere();
     const top = this.stack.top;
     this.hud.visible = top !== undefined && top.name !== 'title';
     // Sky and the make/people/hammer tools belong to the world; the creator and builder only need back.

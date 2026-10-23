@@ -3,13 +3,16 @@
 // Chosen in the ⚙️ menu and saved apart from the world. In the realistic look every template that has a redraw is
 // swapped for it (same id, so saved worlds and items keep working); the rest stay cute until they are redrawn.
 import type { Template } from '../../schemas/template.ts';
+import type { Item } from '../../schemas/item.ts';
 import { load, save } from '../app/save.ts';
-import { templates } from '../data/index.ts';
+import { items, templates } from '../data/index.ts';
 import realList from '../data/templates-real.json';
 import openList from '../data/templates-open.json';
 import type { RigStyle } from '../world/rig.ts';
 
 let look: RigStyle = 'cute';
+/** Things that only come in their real colours in the realistic look. */
+const NATURAL = new Set(['food', 'drink', 'plant']);
 
 export const currentLook = (): RigStyle => look;
 
@@ -21,16 +24,24 @@ export const hasOpenArt = (templateId: string) => templates.has(openId(templateI
  * overrides it without saving, for previews and the e2e tests. */
 export async function initLook(): Promise<void> {
   const asked = new URLSearchParams(location.search).get('look');
-  applyLook(asked === 'real' || asked === 'cute' ? asked : await load<RigStyle>('look', 'cute'));
+  applyLook(asked === 'real' || asked === 'cute' ? asked : await load<RigStyle>('look', 'real'));
 }
 
 export function applyLook(next: RigStyle): void {
   look = next;
   if (look !== 'real') return;
-  for (const t of realList as (Template & { palette?: unknown })[]) {
-    if (!templates.has(t.id)) continue;
-    const { palette: _, ...real } = t;
+  const byTemplate = new Map<string, Item[]>();
+  for (const it of items.values()) byTemplate.set(it.template, [...(byTemplate.get(it.template) ?? []), it]);
+  const wear = (id: string, palettes: Item['palette'][]) => (byTemplate.get(id) ?? []).forEach((it, k) => items.set(it.id, { ...it, palette: palettes[k % palettes.length] }));
+  for (const t of realList as (Template & { palette?: Item['palette']; coats?: Item['palette'][] })[]) {
+    const orig = templates.get(t.id);
+    if (!orig) continue;
+    const { palette, coats, ...real } = t;
     templates.set(t.id, real);
+    // Animals wear natural coats in turn (a ginger cat, a grey cat, a black cat…) instead of their items' own colours,
+    // and food, drink and plants their real colours (no blue carrots).
+    if (coats?.length) wear(t.id, coats);
+    else if (palette && NATURAL.has(t.category)) wear(t.id, [palette]);
   }
   // Things that open have a second drawing, kept as "<id>__open" (same canvas, size and anchors as the closed one).
   for (const o of openList as { id: string; svg: string }[]) {

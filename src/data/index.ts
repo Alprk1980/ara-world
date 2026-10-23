@@ -14,6 +14,8 @@ import characterList from './characters.json';
 import emotionList from './emotions.json';
 import dailyList from './daily.json';
 import nameList from './names.json';
+import stockList from './shelf-stock.json';
+import type { ShelfStock } from '../../schemas/shelf-stock.ts';
 
 const byId = <T extends { id: string }>(list: T[]) => new Map(list.map((e) => [e.id, e]));
 
@@ -24,6 +26,8 @@ export const houses = byId(houseList as House[]);
 export const characters = byId(characterList as Character[]);
 export const emotions = emotionList as Emotion[];
 export const daily = byId(dailyList as Daily[]);
+/** Shelves and their stock added to place floors, keyed "<placeId>:<floor>". */
+export const shelfStock = byId(stockList as ShelfStock[]);
 
 /** First names for new people and pets. */
 export const names = (nameList as { id: string; name: string }[]).map((n) => n.name);

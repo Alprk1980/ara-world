@@ -35,6 +35,14 @@ export function anchorOffset(itemId: string, anchor: string): { x: number; y: nu
   return { x: (a[0] - base[0]) * u, y: (a[1] - base[1]) * u };
 }
 
+/** Heights above its base of everything that can be put on: a table-top, or each level of a shelf unit. */
+export function surfaceHeights(itemId: string): number[] {
+  return (['shelf1', 'shelf2', 'shelf3', 'top'] as const).flatMap((k) => {
+    const a = anchorOffset(itemId, k);
+    return a ? [-a.y] : [];
+  });
+}
+
 /** Width and height of an item in world units. */
 export function itemSize(itemId: string): { w: number; h: number } {
   const t = templates.get(items.get(itemId)?.template ?? '');

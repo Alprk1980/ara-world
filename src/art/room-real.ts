@@ -191,15 +191,6 @@ function clock(g: G, x: number, y: number, r: number): void {
   for (let k = 0; k < 12; k++) g.rect(x + Math.cos(k * 0.5236) * (r - 5) - 0.75, y + Math.sin(k * 0.5236) * (r - 5) - 0.75, 1.5, 1.5).fill(DARK);
   g.moveTo(x, y).lineTo(x, y - r * 0.6).moveTo(x, y).lineTo(x + r * 0.42, y + 2).stroke({ color: DARK, width: 1.8, cap: 'round' });
 }
-function shelf(g: G, x0: number, x1: number, y: number, h: number, small = false): void {
-  g.rect(x0, y, x1 - x0, 5).fill(lin([[0, 0xc8a27a], [1, 0x7a5a3a]])).rect(x0, y + 5, x1 - x0, 3).fill({ color: DARK, alpha: 0.18 });
-  const cols = [0xd9667a, 0x5a9ad8, 0xe8b44a, 0x7ab86a, 0x9a7ac8, 0xe88a4a];
-  for (let x = x0 + 6, i = 0; x < x1 - 14; x += small ? 14 : 18 + Math.round(rnd(h, i) * 6), i++) {
-    const hh = (small ? 10 : 14) + Math.round(rnd(h, i + 40) * 8), col = cols[(i + h) % cols.length];
-    if (i % 4 === 3) g.ellipse(x + 6, y - 5, 6, 5).fill(lin([[0, D(hx(col), 0.2)], [1, D(hx(col), -0.2)]]));
-    else g.roundRect(x, y - hh, small ? 10 : 12, hh, 2).fill(lin([[0, D(hx(col), 0.15)], [1, D(hx(col), -0.15)]], true)).rect(x + 2, y - hh + 3, small ? 6 : 8, 2).fill({ color: WHITE, alpha: 0.5 });
-  }
-}
 function board(g: G, x: number, y: number, w: number, hgt: number, face: number, chalk = true): void {
   g.rect(x + 3, y + 4, w, hgt).fill({ color: DARK, alpha: 0.18 }).rect(x, y, w, hgt).fill(lin([[0, 0xa8784a], [1, 0x6a4628]])).rect(x + 4, y + 4, w - 8, hgt - 8).fill(lin([[0, D(hx(face), 0.08)], [1, D(hx(face), -0.08)]]));
   if (chalk) for (let k = 0; k < 3; k++) g.moveTo(x + 10, y + 14 + k * 11).lineTo(x + w - 18 - k * 9, y + 13 + k * 11).stroke({ color: WHITE, width: 1.6, alpha: 0.8, cap: 'round' });
@@ -261,10 +252,10 @@ function indoor(g: G, c: Container, W: number, d: Dressing, h: number): void {
       break;
     }
     case 'shop': case 'salon': {
-      // An awning along the top, then wall shelves full of stock.
+      // An awning along the top and a panelled dado; the shelves are real things, stocked from the data.
       for (let x = 0; x < W; x += 24) g.rect(x, -H, 12, 16).fill(lin([[0, D(acc, 0.1)], [1, D(acc, -0.15)]])).rect(x + 12, -H, 12, 16).fill(lin([[0, 0xffffff], [1, 0xe0d8d0]]));
       g.rect(0, -H + 16, W, 4).fill({ color: DARK, alpha: 0.15 });
-      for (const y of [-110, -70]) shelf(g, 10, W - 10, y, h + y);
+      wainscot(g, W, -40, shade(wall, -0.08), true);
       if (t.kind === 'salon') for (let i = 0; i < n; i++) {
         const cx = (W / n) * (i + 0.5);
         g.roundRect(cx - 26, -H + 24, 52, 62, 20).fill(lin([[0, 0xf4efe8], [1, 0xc8bfb4]])).roundRect(cx - 20, -H + 30, 40, 50, 16).fill(lin([[0, 0xe6f4ff], [1, 0xb8d8ec]]));

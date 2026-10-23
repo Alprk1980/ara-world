@@ -1,6 +1,6 @@
 // A drawn person: body by code, clothes and hair from templates fitted to slot frames, a face driven by emotion data.
 // Local units are world units (an adult is ~100 tall); the origin is between the feet, y grows downward.
-import { Container, Graphics, Sprite, Text } from 'pixi.js';
+import { Container, Graphics, Sprite, Text, type FederatedPointerEvent } from 'pixi.js';
 import type { Emotion } from '../../schemas/emotion.ts';
 import { textureFor, RASTER_SCALE } from '../art/textures.ts';
 import { shade, hexNum } from '../art/color.ts';
@@ -31,8 +31,10 @@ const REAL_BODIES: Record<string, Body> = {
   adult: { headR: 10, neckH: 3, torsoH: 25, torsoW: 17, armW: 7, legH: 52, legW: 10 },
   elder: { headR: 10, neckH: 2.6, torsoH: 24, torsoW: 18, armW: 7, legH: 46, legW: 10 },
 };
-/** Half the height of the head (a soft oval, nearly round), as a share of headR (half its width). */
-const HEAD_H = 0.95;
+/** Half the height of the head (an oval, taller than wide), as a share of headR (half its width). */
+const HEAD_H = 1.15;
+/** The same share for the head that hair is drawn round (x 38-218, y 55-225 on its canvas): hair is stretched to fit. */
+const HAIR_HEAD_H = 170 / 180;
 export type RigStyle = 'cute' | 'real';
 const FOOT_H = 4;
 
@@ -70,12 +72,12 @@ export function bodyGeometry(age: string, style: RigStyle = 'cute') {
     frames.shoes = { x: -w / 2, y: -(240 / 256) * h, w, h };
   }
   {
-    const s = (b.headR * 256) / 90;
-    frames.hair = { x: -(128 / 256) * s, y: headCy - (140 / 256) * s, w: s, h: s };
+    const s = (b.headR * 256) / 90, h = real ? (s * HEAD_H) / HAIR_HEAD_H : s;
+    frames.hair = { x: -(128 / 256) * s, y: headCy - (140 / 256) * h, w: s, h };
   }
   {
     const w = (b.headR * (real ? 2.6 : 2.4) * 256) / 216, h = w;
-    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? 0.84 : 0.45) - (220 / 256) * h, w, h };
+    frames.hat = { x: -w / 2, y: headCy - b.headR * (real ? HEAD_H * 0.88 : 0.45) - (220 / 256) * h, w, h };
   }
   {
     const w = (eyeDist * 256) / 100, h = w;
@@ -183,7 +185,7 @@ export class Rig extends Container {
     block(-b.torsoW / 2, shoulderY, b.torsoW, b.torsoH + 1, 0.8);
     // The left arm (the right one swings, in drawRealArm), shaped the same: curved at the shoulder, square below.
     blockArm(this.armL, -b.torsoW / 2 - armW, shoulderY, armW, armH, -1, skin, dark, stroke);
-    // The head is a soft oval, nearly round (its own layer, above the collar), so hair sits on it naturally. The rim
+    // The head is an oval, a little taller than wide (its own layer, above the collar), so hair sits on it naturally. The rim
     // is shaded evenly all round, with a soft highlight on top.
     const hw = b.headR, hh = b.headR * HEAD_H, hg = this.head;
     hg.ellipse(0, headCy, hw, hh).fill(dark);
@@ -397,6 +399,9 @@ export class Rig extends Container {
     this.drawFace();
   }
 
+  /** Called when someone presses on the thing in the hand, to take it out (set by the scene). */
+  onTakeOut: ((e: FederatedPointerEvent) => void) | null = null;
+
   get holding(): string | null {
     return this.heldId;
   }
@@ -412,6 +417,14 @@ export class Rig extends Container {
     const t = it ? templates.get(it.template) : undefined;
     if (!it || !t) return;
     this.held = new Sprite();
+    // The thing in the hand can be pressed and pulled out again.
+    this.held.eventMode = 'static';
+    this.held.cursor = 'grab';
+    this.held.on('pointerdown', (e) => {
+      if (!this.onTakeOut) return;
+      e.stopPropagation();
+      this.onTakeOut(e);
+    });
     this.body.addChild(this.held);
     textureFor(it.template, it.palette).then((tex) => {
       if (!this.held || this.held.destroyed) return;

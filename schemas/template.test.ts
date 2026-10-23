@@ -36,6 +36,14 @@ describe('templateErrors', () => {
     expect(templateErrors({ ...shaded, svg: shaded.svg.replace('url(#sh)', 'url(#nope)') }).join()).toMatch(/points at no gradient/);
     expect(templateErrors({ ...shaded, svg: shaded.svg.replace('fill="url(#sh)"', 'fill="url(http://x.com/a)"') }).join()).toMatch(/is not allowed/);
   });
+  it('checks shelf levels: under a top, numbered from 1, with room between them', () => {
+    const svg = '<svg viewBox="0 0 256 256"><rect x="30" y="20" width="196" height="220" fill="{{main}}"/></svg>';
+    const unit: Template = { id: 'shelf_unit', name: 'Shelf Unit', category: 'furniture', size: { w: 80, h: 120 }, svg, anchors: { base: [128, 240], shelf1: [128, 180], shelf2: [128, 110], top: [128, 24] } };
+    expect(templateErrors(unit)).toEqual([]);
+    expect(templateErrors({ ...unit, anchors: { base: [128, 240], shelf1: [128, 180] } }).join()).toMatch(/needs a "top" anchor/);
+    expect(templateErrors({ ...unit, anchors: { base: [128, 240], shelf2: [128, 180], top: [128, 24] } }).join()).toMatch(/numbered from shelf1/);
+    expect(templateErrors({ ...unit, anchors: { base: [128, 240], shelf1: [128, 180], shelf2: [128, 160], top: [128, 24] } }).join()).toMatch(/40 canvas units/);
+  });
   it('rejects scripts, transforms and bad XML', () => {
     expect(templateErrors({ ...cupcake, svg: '<svg viewBox="0 0 256 256"><script/></svg>' }).join()).toMatch(/<script> is not allowed/);
     expect(templateErrors({ ...cupcake, svg: cupcake.svg.replace('<circle', '<circle transform="scale(2)"') }).join()).toMatch(/"transform"/);

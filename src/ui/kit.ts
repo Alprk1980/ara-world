@@ -31,15 +31,23 @@ export function pillButton(text: string, onTap: () => void, w = 220, h = 70, fil
 export function makeTappable(c: Container, onTap: (e: FederatedPointerEvent) => void): void {
   c.eventMode = 'static';
   c.cursor = 'pointer';
+  // A tap is a press and a release on the button: a finger lifted over it after pressing elsewhere (or before the
+  // page reloaded under it) does nothing.
+  let pressed = false;
   c.on('pointerdown', (e) => {
     e.stopPropagation();
+    pressed = true;
     c.scale.set(0.92);
   });
-  const release = () => c.scale.set(1);
+  const release = () => {
+    pressed = false;
+    c.scale.set(1);
+  };
   c.on('pointerupoutside', release);
   c.on('pointerup', (e) => {
     e.stopPropagation();
+    const was = pressed;
     release();
-    onTap(e);
+    if (was) onTap(e);
   });
 }

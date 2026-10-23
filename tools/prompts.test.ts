@@ -10,6 +10,7 @@ const ASKS: Record<string, string> = { item: 'a,b', daily: '10', 'template-redra
 describe('prompts', () => {
   for (const [name, kind] of Object.entries(KINDS)) {
     if (name === 'place') continue; // needs a plan entry; covered when the pipeline runs
+    if (!kind.prompt) continue; // made by rules, not the model
     it(`${name}: every placeholder is filled`, () => {
       const vars = kind.vars?.(ASKS[name] ?? '') ?? {};
       const left = [...readFileSync(kind.prompt, 'utf8').matchAll(/\{\{(\w+)\}\}/g)].map((m) => m[1]).filter((k) => !(k in vars) && !GENERIC.includes(k) && !SLOTS.includes(k));

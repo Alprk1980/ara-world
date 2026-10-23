@@ -41,7 +41,9 @@ export const REQUIRED_ANCHORS: Record<string, readonly string[]> = {
   animal: ['base'],
   vehicle: ['base'],
 };
-export const OPTIONAL_ANCHORS = ['seat', 'grip', 'top'] as const;
+export const OPTIONAL_ANCHORS = ['seat', 'grip', 'top', 'shelf1', 'shelf2', 'shelf3'] as const;
+/** Lower shelf levels of a shelf unit, bottom to top (its highest surface is "top"): small things stand on each. */
+export const SHELF_ANCHORS = ['shelf1', 'shelf2', 'shelf3'] as const;
 
 /** World size bounds per object category, in units where an adult is 100 tall. */
 export const SIZE_BOUNDS: Record<string, { min: number; max: number }> = {

@@ -85,12 +85,9 @@ function indoor(g: Graphics, c: Container, W: number, d: Dressing, h: number): v
       break;
     }
     case 'shop': case 'salon': {
-      // Wall shelves full of colourful stock, an awning stripe along the top.
+      // An awning stripe along the top and a dado band; the shelves are real things, stocked from the data.
       for (let x = 0; x < W; x += 24) g.rect(x, -H, 12, 14).fill(acc).rect(x + 12, -H, 12, 14).fill(0xffffff);
-      for (const y of [-110, -70]) {
-        g.rect(10, y, W - 20, 5).fill(D(wall, -0.3));
-        for (let x = 16; x < W - 24; x += 18 + (h % 7)) g.roundRect(x, y - 16 - ((x * 7) % 9), 12, 16 + ((x * 7) % 9), 3).fill(N(['#ff8fb8', '#7fd1c7', '#ffd36e', '#b197fc', '#7fb8ff'][(x / 18 | 0) % 5]));
-      }
+      g.rect(0, -40, W, 34).fill(D(wall, -0.08)).rect(0, -42, W, 3).fill(D(wall, -0.25));
       if (t.kind === 'salon') for (let i = 0; i < n; i++) {
         const cx = (W / n) * (i + 0.5);
         g.roundRect(cx - 24, -H + 22, 48, 60, 18).fill(0xffffff).roundRect(cx - 18, -H + 28, 36, 48, 14).fill(N('#cdeeff'));

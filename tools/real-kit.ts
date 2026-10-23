@@ -181,11 +181,14 @@ export const eye = (x: number, y: number, r = 6) => dot(x, y, r, K) + dot(x - r 
 // ---- redraws: Claude's realistic versions of the game's templates (user's OK, 2026-10-22, in place of Qwen)
 export type Pal = { main: string; trim: string; accent: string; outline: string };
 export const pal = (main: string, trim: string, accent: string, outline: string): Pal => ({ main, trim, accent, outline });
-export type Redraw = { id: string; palette: Pal; body: string; anchors?: Template['anchors'] };
+export type Redraw = { id: string; palette: Pal; body: string; anchors?: Template['anchors']; coats?: Pal[] };
 /** A redraw of template `id`: its body (svg() adds the root and lights) and real-world colours. Anchors default to the
  * original's names, with base moved to the bottom of the new drawing and the rest kept inside it; any given here
  * are added or replace those (a seat on a horse's back). */
 export const rd = (id: string, palette: Pal, body: string, anchors?: Template['anchors']): Redraw => ({ id, palette, body, anchors });
+/** Natural coats for an animal: in the realistic look its game items wear these in turn instead of their own colours
+ * (src/art/look.ts), so there are no pink lions. */
+export const coats = (r: Redraw, list: Pal[]): Redraw => ({ ...r, coats: list });
 
 const REAL_FILE = 'src/data/templates-real.json';
 
@@ -202,7 +205,7 @@ export function commitReal(list: Redraw[], label: string): number {
       continue;
     }
     const text = svg(r.body);
-    const t: Template & { palette: Pal } = { id: o.id, name: o.name, category: o.category, ...(o.size ? { size: o.size, anchors: { ...fitAnchors(o.anchors ?? {}, text), ...r.anchors } } : {}), palette: r.palette, svg: text };
+    const t: Template & { palette: Pal; coats?: Pal[] } = { id: o.id, name: o.name, category: o.category, ...(o.size ? { size: o.size, anchors: { ...fitAnchors(o.anchors ?? {}, text), ...r.anchors } } : {}), palette: r.palette, ...(r.coats ? { coats: r.coats } : {}), svg: text };
     const pool = [...shipped.filter((x) => x.id !== t.id), t] as unknown as Entry[];
     const errs = KINDS['template-redraw'].errors(t as unknown as Entry, pool);
     if (errs.length) {
@@ -216,6 +219,41 @@ export function commitReal(list: Redraw[], label: string): number {
   }
   writeFileSync(REAL_FILE, `${JSON.stringify(shipped, null, 2)}\n`);
   console.log(`${label}: ${ok} of ${list.length} merged (${shipped.length} redrawn in all)`);
+  for (const x of errors) console.log(`  ✗ ${x}`);
+  return errors.length;
+}
+
+// ---- new templates drawn straight in the realistic style, by Claude (user's call, 2026-10-23, in place of Qwen)
+export type Fresh = { id: string; name: string; category: string; palette: Pal; body: string; h?: number; anchors?: Template['anchors'] };
+/** A new template: h is its real height in world units (objects only; the width follows the drawing). */
+export const nw = (id: string, name: string, category: string, palette: Pal, body: string, h?: number, anchors?: Template['anchors']): Fresh =>
+  ({ id, name, category, palette, body, h, anchors });
+
+/** Validate each new template like Qwen's (kind template-new) and merge the passing ones into templates.json. */
+export function commitNew(list: Fresh[], label: string): number {
+  const file = KINDS['template-new'].data;
+  const shipped = JSON.parse(readFileSync(file, 'utf8')) as Template[];
+  const errors: string[] = [];
+  let ok = 0;
+  for (const r of list) {
+    const text = svg(r.body);
+    // The width is the thing's own, without its ground shadow.
+    const box = checkSvg(text.replace(/<ellipse[^>]*fill="#3a2a2a" opacity="0\.\d+"\/>/g, '')).box;
+    const size = r.h && box ? { w: Math.max(1, Math.round((r.h * (box.maxX - box.minX)) / (box.maxY - box.minY))), h: r.h } : undefined;
+    const t = { id: r.id, name: r.name, category: r.category, ...(size ? { size, anchors: r.anchors } : {}), palette: r.palette, svg: text };
+    const pool = [...shipped.filter((x) => x.id !== t.id), t] as unknown as Entry[];
+    const errs = KINDS['template-new'].errors(t as unknown as Entry, pool);
+    if (errs.length) {
+      errors.push(...errs);
+      continue;
+    }
+    const i = shipped.findIndex((x) => x.id === t.id);
+    if (i >= 0) shipped[i] = t;
+    else shipped.push(t);
+    ok++;
+  }
+  writeFileSync(file, `${JSON.stringify(shipped, null, 2)}\n`);
+  console.log(`${label}: ${ok} of ${list.length} merged`);
   for (const x of errors) console.log(`  ✗ ${x}`);
   return errors.length;
 }
