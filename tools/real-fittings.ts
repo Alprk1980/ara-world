@@ -2,7 +2,7 @@
 // extinguisher, a departure board, a hospital drip stand, a vet's pet scale and a supermarket chest freezer.
 //
 //   node tools/real-fittings.ts
-import { A, B, C, E, G, K, M, O, P, T, W, bar, dot, f, ground, nw, pal, s, commitNew, type Fresh } from './real-kit.ts';
+import { A, B, C, E, G, K, M, O, P, T, W, bar, dot, f, ground, nw, pal, s, commitFresh, type Fresh } from './real-kit.ts';
 
 const list: Fresh[] = [
   nw('fire_extinguisher', 'Fire Extinguisher', 'decor', pal('#d62828', '#2b2b2b', '#e9c46a', '#6b1010'),
@@ -45,4 +45,4 @@ const list: Fresh[] = [
     50, { base: [128, 242], top: [128, 78] }),
 ];
 
-process.exit(commitNew(list, 'fittings') ? 1 : 0);
+process.exit(commitFresh(list, 'fittings') ? 1 : 0);

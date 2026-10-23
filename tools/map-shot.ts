@@ -1,10 +1,10 @@
 // Screenshots of the town map: the whole island zoomed out, and a close view, by day and by night.
-//   node tools/map-shot.ts            (LOOK=real for the realistic look, into out/map-real/)
+//   node tools/map-shot.ts            -> out/map/
 import { mkdirSync } from 'node:fs';
 import { chromium } from 'playwright';
 import { createServer } from 'vite';
 
-const real = process.env.LOOK === 'real', dir = real ? 'out/map-real' : 'out/map';
+const dir = 'out/map';
 mkdirSync(dir, { recursive: true });
 const server = await createServer({ server: { port: 5195, strictPort: true, hmr: false, watch: null }, logLevel: 'error' });
 await server.listen();
@@ -14,10 +14,6 @@ const errors: string[] = [];
 page.on('pageerror', (e) => errors.push(e.message));
 try {
   await page.goto('http://localhost:5195/');
-  await page.waitForFunction(() => 'ara' in window);
-  // The look is a saved setting: write it, then reload so the game starts in it.
-  await page.evaluate(async (look) => (await import(/* @vite-ignore */ '/src/app/save.ts' as string)).save('look', look), real ? 'real' : 'cute');
-  await page.reload();
   await page.waitForFunction(() => 'ara' in window);
   await page.evaluate(() => (window as any).ara.play());
   await page.waitForTimeout(800);

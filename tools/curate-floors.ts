@@ -64,6 +64,8 @@ const SPEC: Record<string, string[][]> = {
     ['police_car', 'traffic_cone*2', 'police_station_doghouse', 'police_station_dog_leash', 'sitting_puppy', 'garden_bench', 'police_patrol_car'],
     ['police_desk+desktop_computer+police_station_badge', 'office_chair', 'police_station_cosy_chair*2', 'water_cooler', 'filing_cabinet+police_magnifying_glass', 'whiteboard', 'cute_potted_plant'],
     ['police_station_doghouse', 'police_station_paw_mat', 'pet_bed', 'water_bowl', 'pet_food_bowl', 'leash_hook', 'bone_toy', 'sitting_puppy', 'police_station_dog_leash'],
+    // The cells, as the user's daughter designed them.
+    ['jail_cell*3', 'police_desk', 'wooden_chair'],
   ],
   pools: [
     ['pool_water', 'diving_board', 'pool_ladder', 'pool_lounger*2', 'pool_sun_umbrella', 'inflatable_flamingo', 'pool_ring_float', 'pool_beach_ball', 'rubber_duck'],
@@ -241,8 +243,10 @@ const SPEC: Record<string, string[][]> = {
   ],
   mansion: [
     ['grand_piano', 'velvet_sofa', 'chandelier', 'cosy_fireplace', 'tea_table+tea_cup', 'gift_cabinet+rose_vase', 'window_seat', 'pool_table', 'floor_lamp'],
-    ['garden_fountain', 'flower_bed*2', 'garden_bench', 'round_tree_plant', 'garden_swing_set', 'bird_bath', 'big_rose_bloom'],
-    ['pool_water', 'pool_lounger*2', 'pool_sun_umbrella', 'cute_potted_plant', 'tea_table+lemonade_glass'],
+    // The pool garden and kids' garden, as the user's daughter designed them.
+    ['beach_umbrella', 'pool_lounger*2', 'heated_pool', 'bbq_grill', 'long_garden_table', 'waterpark_snack_stand', 'pool_drink_cart'],
+    ['garden_treehouse', 'garden_swing_set', 'rainbow_slide', 'sandbox', 'waterpark_splash_pad', 'baby_slide'],
+    ['garden_fountain', 'flower_bed*2', 'garden_bench', 'cute_potted_plant', 'tea_table+lemonade_glass', 'big_rose_bloom'],
   ],
   beach_house: [
     ['driftwood_bench', 'kitchen_table+coconut_drink+snack_basket', 'wooden_chair*2', 'seashell_basket', 'starfish_pillow', 'floor_lamp', 'cute_potted_plant', 'toy_lighthouse'],
@@ -399,12 +403,14 @@ const STYLE: Record<string, Record<string, string[]>> = {
   apartment: { living: ['cute_potted_plant'] },
 };
 const houses = load<House>(FILES.house);
+/** Houses the user's daughter designed room by room: kept exactly as she made them. */
+const DESIGNED = new Set(['sparkle_mansion', 'six_floor_house']);
 const roomSpec = (style: string, type: string) => {
   const extra = STYLE[style]?.[type] ?? [];
   // A canopy bed takes the place of the plain one.
   return [...extra, ...ROOMS[type].filter((e) => !(extra.includes('canopy_bed') && e === 'single_cozy_bed'))];
 };
-const nextHouses = houses.map((h) => ({ ...h, floors: h.floors.map((f, fi) => {
+const nextHouses = houses.map((h) => DESIGNED.has(h.id) ? h : ({ ...h, floors: h.floors.map((f, fi) => {
   // Rooms too narrow for their furniture are widened, and the floor with them (sharing out the limit if need be).
   const want = f.rooms.map((r) => Math.max(r.width, Math.ceil(standingWidth(roomSpec(h.style, r.type), new Set([r.type])) * 1.15 + 24)));
   const sum = want.reduce((a, w) => a + w, 0), k = Math.min(1, 1200 / sum);

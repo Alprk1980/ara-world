@@ -3,7 +3,7 @@
 // TV switches on (SWITCHES), the cooker cooks (COOKS) and the wardrobe opens the clothes (WARDROBE).
 //
 //   node tools/real-home.ts
-import { A, B, C, E, G, K, M, O, P, T, W, bar, dot, f, ground, nw, oval, pal, s, commitNew, type Fresh } from './real-kit.ts';
+import { A, B, C, E, G, K, M, O, P, T, W, bar, dot, f, ground, nw, oval, pal, s, commitFresh, type Fresh } from './real-kit.ts';
 
 const list: Fresh[] = [
   nw('tv_stand', 'TV', 'furniture', pal('#8a5a36', '#2b2b2e', '#5bc0eb', '#3e2614'),
@@ -67,4 +67,4 @@ const list: Fresh[] = [
     8, { base: [128, 242] }),
 ];
 
-process.exit(commitNew(list, 'home') ? 1 : 0);
+process.exit(commitFresh(list, 'home') ? 1 : 0);

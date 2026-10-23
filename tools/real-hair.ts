@@ -3,7 +3,7 @@
 // long lengths fall beside it. The game colours hair itself (main = the person's hair colour, trim and accent lighter).
 //
 //   node tools/real-hair.ts
-import { C, E, K, M, O, P, T, W, n, nw, pal, rd, s, commitNew, commitReal, type Fresh, type Redraw } from './real-kit.ts';
+import { C, E, K, M, O, P, T, W, n, nw, pal, rd, s, commitFresh, commitReal, type Fresh, type Redraw } from './real-kit.ts';
 
 // The cap over the top of the head, ending at a fringe across the forehead and short side pieces.
 const CAP = 'M34 176 C26 98 62 36 128 36 C194 36 230 98 222 176 L198 176 C196 142 188 120 180 106 C150 94 106 94 76 106 C68 120 60 142 58 176 Z';
@@ -175,4 +175,4 @@ const fresh: Fresh[] = [
       s('M128 40 L128 76', K, 2, 0.3) + tie(46, 244, 10, 6) + tie(210, 244, 10, 6)),
 ];
 
-process.exit(commitReal(list, 'hair') + commitNew(fresh, 'new hair') ? 1 : 0);
+process.exit(commitReal(list, 'hair') + commitFresh(fresh, 'new hair') ? 1 : 0);

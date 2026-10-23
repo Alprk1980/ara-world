@@ -26,7 +26,7 @@ import { musicOn, startMusic, toggleMusic } from '../ui/music.ts';
 import { roundButton } from '../ui/kit.ts';
 import { PlaceScene } from '../world/place-scene.ts';
 import type { Rig } from '../world/rig.ts';
-import { currentLook, initLook, toggleLook } from '../art/look.ts';
+import { initLook } from '../art/look.ts';
 import { loadWorld, persist, resetWorld, type World } from '../world/state.ts';
 import { load, save } from './save.ts';
 
@@ -75,11 +75,6 @@ export class Game {
       },
       sounds: soundsOn,
       toggleSounds: async () => void (await toggleSounds()),
-      realistic: () => currentLook() === 'real',
-      toggleLook: async () => {
-        await toggleLook();
-        location.reload();
-      },
       title: () => {
         while (this.stack.depth > 1) this.stack.pop();
       },

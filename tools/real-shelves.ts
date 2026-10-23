@@ -2,7 +2,7 @@
 // levels (all small enough for the gap between levels: at most 24 wide and 28 tall).
 //
 //   node tools/real-shelves.ts
-import { A, B, C, E, G, K, M, O, P, T, W, WATER, back, bar, blade, dot, f, ground, n, nw, oval, pal, s, commitNew, type Fresh } from './real-kit.ts';
+import { A, B, C, E, G, K, M, O, P, T, W, WATER, back, bar, blade, dot, f, ground, n, nw, oval, pal, s, commitFresh, type Fresh } from './real-kit.ts';
 
 // A five-petal flower head facing us, centred on (cx, cy): one scalloped shape and its middle.
 const flower = (cx: number, cy: number, r: number, petal = M, middle = A) => {
@@ -188,4 +188,4 @@ const list: Fresh[] = [
     9, { base: [128, 240], grip: [128, 170] }),
 ];
 
-process.exit(commitNew(list, 'shelves') ? 1 : 0);
+process.exit(commitFresh(list, 'shelves') ? 1 : 0);

@@ -44,7 +44,9 @@ and the legs as one long block split down the middle. Clothes are front view, st
 - hair: the head is a soft OVAL, nearly round, x 38-218, y 55-225 (centre 128,140); draw hair over the top of it
   and down its sides, keeping the face
   (x 75-181, y 105-215) clear.
-- hat: sits on top of the square head; brim around y 200-240 spanning x 20-236. glasses: lenses centred (78,128) and
+- hat: a real hat covers the top of the round head down to the forehead. The crown is as wide as the head
+  (x 30-226) with its top around y 100-120; the band or brim sits at y 196-226 and a brim may spread to x 6-250.
+  Hats are wide, not tall: no towers (ears, pompoms or leaves may rise above the crown). glasses: lenses centred (78,128) and
   (178,128). bag: a bag seen from the front, filling the frame.
 Wearables have no size and no anchors, and must cover at least half of the frame in both width and height.
 
