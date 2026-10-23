@@ -10,6 +10,7 @@ import { dailyErrors, type Daily } from '../schemas/daily.ts';
 import { planErrors, type PlanEntry } from '../schemas/plan.ts';
 import { checkSvg } from '../schemas/svg.ts';
 import { realStyleErrors } from '../schemas/style-real.ts';
+import { shelfStockErrors, type ShelfStock } from '../schemas/shelf-stock.ts';
 import { AGE_GROUPS, OBJECT_CATEGORIES, REQUIRED_ANCHORS, SIZE_BOUNDS, WEARABLE_CATEGORIES, isWearable } from '../schemas/vocab.ts';
 
 export type Entry = { id: string } & Record<string, unknown>;
@@ -17,6 +18,8 @@ export type Kind = {
   prompt: string;
   data: string;
   errors: (entry: Entry, all: readonly Entry[]) => string[];
+  /** Which entries of a shared data file this kind checks (default: all of them). */
+  owns?: (entry: Entry) => boolean;
   /** Extra {{name}} values for the prompt, computed from the shipped data and the --ask text. */
   vars?: (ask: string) => Record<string, string>;
 };
@@ -36,6 +39,7 @@ export const FILES = {
   daily: 'src/data/daily.json',
   names: 'src/data/names.json',
   templateReal: 'src/data/templates-real.json',
+  shelfStock: 'src/data/shelf-stock.json',
 };
 
 const templates = () => new Map(load<Template>(FILES.template).map((t) => [t.id, t]));
@@ -87,6 +91,10 @@ export const KINDS: Record<string, Kind> = {
       const orig = load<Template>(FILES.template).find((o) => o.id === t.id);
       if (!orig) return [`${t.id}: keep the original id (it must be one of the game's templates)`];
       const out = [...templateErrors(t, as<Template[]>(all)), ...realStyleErrors(t)];
+      // Natural coats (animals): whole palettes the realistic look paints the template's items in.
+      const coats = (e as { coats?: unknown }).coats;
+      if (coats !== undefined && (!Array.isArray(coats) || !coats.length || coats.some((c) => !['main', 'trim', 'accent', 'outline'].every((k) => /^#[0-9a-f]{6}$/i.test(c?.[k] ?? '')))))
+        out.push(`${t.id}: coats: a list of palettes {"main","trim","accent","outline"} as #rrggbb`);
       if (t.category !== orig.category) out.push(`${t.id}: category must stay "${orig.category}"`);
       if (orig.size) {
         const near = (a: number, b: number) => Math.abs(a - b) <= b * 0.15;
@@ -142,6 +150,25 @@ export const KINDS: Record<string, Kind> = {
         sizes: Object.entries(SIZE_BOUNDS).map(([c, b]) => `${c} ${b.min}-${b.max}`).join(', '),
         examples: ex.join('\n'),
         existing: [...load<Template>(FILES.template), ...s.templates].map((t) => t.id).filter((id) => id.startsWith('real_')).join(', '),
+      };
+    },
+  },
+  // New game templates, drawn straight in the realistic style (the cute look is no longer drawn for).
+  'template-new': {
+    prompt: 'prompts/template-new.txt',
+    data: FILES.template,
+    // It shares templates.json with the cute templates; the realistic ones are those that carry a palette.
+    owns: (e) => 'palette' in e,
+    errors: (e, all) => [...templateErrors(as<Template>(e), as<Template[]>(all)), ...realStyleErrors(as<Template & { palette?: Record<string, string> }>(e))],
+    vars: (ask) => {
+      const s = realSamples();
+      const asked = s.templates.filter((t) => ask.includes(`(${t.category})`)).map((t) => t.id);
+      const ids = [...new Set([...asked, 'real_tshirt', 'real_apple'])].slice(0, 2);
+      return {
+        objects: OBJECT_CATEGORIES.join(', '),
+        anchors: Object.entries(REQUIRED_ANCHORS).map(([c, a]) => `${c}: ${a.join(' + ')}`).join('; '),
+        sizes: Object.entries(SIZE_BOUNDS).map(([c, b]) => `${c} ${b.min}-${b.max}`).join(', '),
+        examples: ids.map((id) => JSON.stringify({ ...s.templates.find((x) => x.id === id)!, palette: s.items.find((i) => i.id === id)!.palette })).join('\n'),
       };
     },
   },
@@ -244,6 +271,12 @@ export const KINDS: Record<string, Kind> = {
         decor: all.filter((it) => decorCats.has(ts.get(it.template)?.category ?? '')).map((it) => `${it.id}${it.tags.includes('halloween') ? ' (halloween)' : it.tags.includes('christmas') ? ' (christmas)' : ''}`).join(', '),
       };
     },
+  },
+  // Shelves stocked by tools/stock-shelves.ts (rules, not the model): no prompt, checked like the rest.
+  'shelf-stock': {
+    prompt: '',
+    data: FILES.shelfStock,
+    errors: (e, all) => shelfStockErrors(as<ShelfStock>(e), as<ShelfStock[]>(all), { items: items(), templates: templates(), places: new Map(load<Place>(FILES.place).map((p) => [p.id, p])) }),
   },
   names: {
     prompt: 'prompts/names.txt',

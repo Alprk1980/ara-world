@@ -36,5 +36,6 @@ describe('Qwen redraws (src/data/templates-real.json)', () => {
     const { KINDS } = await import('../../tools/kinds.ts');
     const redraws = JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as (Template & { id: string })[];
     for (const t of redraws) expect(KINDS['template-redraw'].errors(t, redraws), t.id).toEqual([]);
-  });
+    // Each check reads the game's templates from disk: hundreds of redraws take a few seconds.
+  }, 30_000);
 });

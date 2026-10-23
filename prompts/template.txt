@@ -41,7 +41,10 @@ Two families of templates:
    - "anchors": points [x, y] inside the drawing. Required per category: {{anchors}}.
      base = bottom centre where it rests on the floor (y at the bottom edge of the drawing).
      grip = where a hand holds it. Optional: seat (where a person sits, for chairs/sofas/beds/swings),
-     top (a surface where small things can be put, for tables/shelves/counters).
+     top (a surface where small things can be put, for tables/shelves/counters; for a shelf unit, its highest shelf).
+     A shelf unit with more levels also gives shelf1, shelf2, shelf3: the lower shelves, bottom to top, each a point
+     at the centre of that shelf board's upper face, with at least 40 canvas units of empty space above each (the
+     shelves are drawn EMPTY so the player puts things on them).
 
 Ids already taken (do not reuse): {{existing}}
 

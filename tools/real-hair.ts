@@ -3,7 +3,7 @@
 // long lengths fall beside it. The game colours hair itself (main = the person's hair colour, trim and accent lighter).
 //
 //   node tools/real-hair.ts
-import { C, E, K, M, O, P, T, W, pal, rd, s, commitReal, type Redraw } from './real-kit.ts';
+import { C, E, K, M, O, P, T, W, n, nw, pal, rd, s, commitFresh, commitReal, type Fresh, type Redraw } from './real-kit.ts';
 
 // The cap over the top of the head, ending at a fringe across the forehead and short side pieces.
 const CAP = 'M34 176 C26 98 62 36 128 36 C194 36 230 98 222 176 L198 176 C196 142 188 120 180 106 C150 94 106 94 76 106 C68 120 60 142 58 176 Z';
@@ -24,6 +24,28 @@ const braid = (pts: number[][], w = 18) =>
 // A long straight lock falling beside the head, from (x, top) to the bottom, w wide.
 const lock = (x: number, top: number, w: number, bottom = 250, flare = 6) =>
   P(`M${x} ${top} L${x + w} ${top} L${x + w + flare} ${bottom - 8} C${x + w + flare} ${bottom} ${x - flare} ${bottom} ${x - flare} ${bottom - 8} Z`, M, 'H', 2.5);
+
+
+// A cap parted in the middle, with no fringe: the hair sweeps back from the parting at the top of the forehead.
+const PARTED = 'M34 176 C26 98 62 36 128 36 C194 36 230 98 222 176 L198 176 C196 140 186 116 172 104 C156 96 140 90 128 76 C116 90 100 96 84 104 C70 116 60 140 58 176 Z';
+// Long hair falling straight to the shoulders and past them on both sides, outside the face.
+const LONG = 'M28 246 L28 140 C28 70 70 36 128 36 C186 36 228 70 228 140 L228 246 C228 250 222 252 216 250 L196 246 L196 150 C196 130 190 115 182 104 L74 104 C66 115 60 130 60 150 L60 246 L40 250 C34 252 28 250 28 246 Z';
+// Soft rounded spikes round the top of the head.
+const SPIKES = (() => {
+  const k = 9, pt = (a: number, r: number) => `${n(128 + Math.cos(a) * r)} ${n(132 + Math.sin(a) * r * 0.95)}`;
+  let d = `M40 160 L${pt(Math.PI * 1.06, 92)}`;
+  for (let i = 0; i < k; i++) {
+    const a0 = Math.PI * (1.06 + (0.88 * i) / k), a1 = Math.PI * (1.06 + (0.88 * (i + 1)) / k), am = (a0 + a1) / 2;
+    d += ` Q${pt(am - 0.04, 118)} ${pt(am, 116)} Q${pt(am + 0.04, 118)} ${pt(a1, 92)}`;
+  }
+  return `${d} L216 160 L204 156 C202 128 196 114 186 104 C160 96 96 96 70 104 C60 114 54 128 52 156 Z`;
+})();
+// A thin plait hanging from (x, top): a rope with crossing lines down it.
+const plait = (x: number, top: number, bottom = 246) => {
+  let x2 = '';
+  for (let y = top + 6; y < bottom - 4; y += 12) x2 += `M${x - 5} ${y} L${x + 5} ${y + 5} `;
+  return s(`M${x} ${top} L${x} ${bottom}`, O, 13) + s(`M${x} ${top} L${x} ${bottom}`, M, 10) + s(x2.trim(), O, 1.5, 0.35);
+};
 
 const HAIR = pal('#6b4226', '#9c6b43', '#b88a5a', '#3b2414');
 
@@ -105,6 +127,52 @@ const list: Redraw[] = [
   rd('curly_side_ponytail_hair', HAIR,
     curls([[214, 140, 24], [226, 170, 22], [214, 198, 21], [228, 224, 18], [212, 242, 13]]) + cap() + crown + tie(206, 118, 14, 9) +
       s('M206 166 C214 158 222 164 218 172 M218 218 C226 210 234 216 230 224', T, 2, 0.7)),
+  // Long straight hair with a straight fringe across the forehead.
+  rd('long_straight_fringe_hair', HAIR,
+    P(LONG, M, 'H') + P('M70 106 C70 70 96 52 128 52 C160 52 186 70 186 106 Z', M, 'V', 2) +
+      strands(['M90 60 L86 104', 'M108 54 L106 104', 'M128 52 L128 104', 'M148 54 L150 104', 'M166 60 L170 104', 'M40 140 L38 240', 'M50 150 L50 240', 'M216 140 L218 240', 'M206 150 L206 240']) +
+      s('M76 70 C100 54 156 54 180 70', W, 6, 0.3)),
+  // Short crop: close to the head, a little textured on top.
+  rd('short_crop_hair', HAIR,
+    P('M40 178 C30 92 70 42 128 42 C186 42 226 92 216 178 L204 178 C204 132 196 114 186 104 C160 96 96 96 70 104 C60 114 52 132 52 178 Z', M, 'H') +
+      s('M76 70 L84 62 M96 58 L104 52 M118 54 L126 48 M140 54 L148 50 M160 58 L168 54 M180 66 L186 62 M86 84 L94 76 M110 74 L118 68 M136 74 L144 70 M160 80 L168 74', T, 2.5, 0.7) +
+      s('M70 74 C96 54 160 54 186 74', W, 6, 0.25) + s('M46 124 L46 172 M210 124 L210 172', O, 2, 0.25)),
+  // Spiky short hair: short, sticking up in soft rounded spikes.
+  rd('spiky_short_hair', HAIR,
+    P(SPIKES, M, 'H') + strands(['M128 104 L128 24', 'M100 104 L82 30', 'M156 104 L174 30', 'M80 108 L44 60', 'M176 108 L212 60']) +
+      s('M66 82 C96 58 160 58 190 82', W, 6, 0.25)),
+  // Box braids: a middle parting and many thin plaits hanging past the shoulders.
+  rd('box_braids_hair', HAIR,
+    [28, 44, 60, 196, 212, 228].map((x) => plait(x, x < 128 ? 120 + (x - 26) * 0.2 : 120 + (230 - x) * 0.2)).join('') +
+      P(PARTED, M, 'H') + strands(['M128 40 L128 76', 'M112 46 C96 60 84 80 78 100', 'M144 46 C160 60 172 80 178 100', 'M96 52 C76 68 62 92 56 122', 'M160 52 C180 68 194 92 200 122']) +
+      s('M70 72 C92 54 112 48 124 46 M188 72 C166 54 146 48 132 46', W, 5, 0.25)),
+  // Half up with a bow: the top tied back with a little bow, the rest hanging long.
+  rd('half_up_bow_hair', HAIR,
+    P(LONG, M, 'H') + P('M70 106 C68 76 92 56 128 56 C164 56 188 76 186 106 C164 94 92 94 70 106 Z', M, 'V', 2) +
+      strands(['M84 98 C100 76 112 66 124 60', 'M172 98 C156 76 144 66 132 60', 'M40 140 L38 240', 'M216 140 L218 240']) +
+      P('M128 30 C110 10 84 14 90 32 C94 46 116 42 128 30 Z', T, 'L', 2) + P('M128 30 C146 10 172 14 166 32 C162 46 140 42 128 30 Z', T, 'L', 2) +
+      P('M122 32 L110 58 L118 58 L128 36 Z', T, 'L', 1.5) + P('M134 32 L146 58 L138 58 L128 36 Z', T, 'L', 1.5) + E(128, 30, 8, 7, T, 'R', 1.5) +
+      s('M70 74 C96 56 160 56 186 74', W, 6, 0.25)),
+  // Curly bob: a bouncy chin-length bob of round curls.
+  rd('curly_bob_hair', HAIR,
+    cap() + curls([[46, 204, 20], [40, 176, 21], [42, 146, 22], [52, 116, 22], [68, 88, 22], [92, 64, 23], [128, 54, 24], [164, 64, 23], [188, 88, 22], [204, 116, 22], [214, 146, 22], [216, 176, 21], [210, 204, 20],
+      [90, 92, 16], [114, 86, 16], [142, 86, 16], [166, 92, 16], [62, 222, 15], [194, 222, 15]]) +
+      s('M34 166 C40 160 46 166 42 172 M210 166 C216 160 222 166 218 172 M120 50 C126 44 134 48 132 56', T, 2, 0.7)),
 ];
 
-process.exit(commitReal(list, 'hair') ? 1 : 0);
+// Two hairstyles drawn new in the realistic style (Qwen's tries did not read as the style).
+const fresh: Fresh[] = [
+  // Side-swept long hair: parted on the left, swept across the forehead to the right, long on both sides.
+  nw('side_swept_long_hair', 'Side Swept Long Hair', 'hair', HAIR,
+    P(LONG, M, 'H') + P('M92 44 C130 46 172 70 196 112 C200 122 198 130 194 136 C186 118 172 106 150 100 C120 92 92 96 70 106 C66 82 74 58 92 44 Z', M, 'V', 2) +
+      strands(['M96 48 C130 56 166 76 190 112', 'M90 62 C120 66 156 82 182 112', 'M80 84 C110 82 140 90 166 104', 'M40 150 L38 240', 'M52 150 L52 240', 'M214 150 L216 240', 'M204 150 L204 240']) +
+      s('M92 44 L86 76', K, 2, 0.3) + s('M104 50 C140 54 170 72 188 98', W, 6, 0.3)),
+  // Double Dutch braids: two plaits running back from the forehead either side of a middle parting, hanging down each side.
+  nw('double_dutch_braids_hair', 'Double Dutch Braids', 'hair', HAIR,
+    P(PARTED, M, 'H') +
+      braid([[110, 50], [90, 62], [74, 80], [62, 104], [54, 130], [48, 156], [46, 182], [46, 208], [46, 230]], 16) +
+      braid([[146, 50], [166, 62], [182, 80], [194, 104], [202, 130], [208, 156], [210, 182], [210, 208], [210, 230]], 16) +
+      s('M128 40 L128 76', K, 2, 0.3) + tie(46, 244, 10, 6) + tie(210, 244, 10, 6)),
+];
+
+process.exit(commitReal(list, 'hair') + commitFresh(fresh, 'new hair') ? 1 : 0);

@@ -5,7 +5,8 @@ import type { Scene } from '../app/scenes.ts';
 import type { Game } from '../app/game.ts';
 import { HOUSE_STYLES } from '../../schemas/house.ts';
 import { houses } from '../data/index.ts';
-import { drawHouse, VARIANTS } from '../art/house-art.ts';
+import { DOORS, HUES, ROOFS, drawHouse, variantFor } from '../art/house-art.ts';
+import { hexNum } from '../art/color.ts';
 import { LOT_COUNT, persist } from '../world/state.ts';
 import { COLORS, label, pillButton } from './kit.ts';
 import { ScrollGrid, type Cell } from './scroll-grid.ts';
@@ -18,7 +19,11 @@ export class BuilderScene implements Scene {
   readonly view = new Container();
   private game: Game;
   private lot: string | undefined;
+  /** The house picked (step 2), then its colour (step 3). */
+  private house: string | null = null;
   private pick: { house: string; variant: number } | null = null;
+  /** Colours chosen on the colour step (indexes into HUES, ROOFS, DOORS); null keeps the blueprint's own colours. */
+  private colours: { wall: number; roof: number; door: number } | null = null;
   private style: string | null = null;
   private bg = new Graphics();
   private heading = label('', 40);
@@ -69,9 +74,9 @@ export class BuilderScene implements Scene {
       this.grid.set(cells, 190);
       return;
     }
-    if (!this.pick) {
+    if (!this.house) {
       const list = [...houses.values()].filter((hh) => !this.style || hh.style === this.style);
-      this.heading.text = `🏠 Pick a house (${(houses.size * VARIANTS).toLocaleString()} to choose from!)`;
+      this.heading.text = '🏠 Pick a house';
       // Style filter chips.
       [null, ...HOUSE_STYLES.filter((s) => [...houses.values()].some((hh) => hh.style === s))].forEach((s, i) => {
         const b = pillButton(s ? STYLE_EMOJI[s] ?? '🏠' : '⭐', () => {
@@ -81,26 +86,66 @@ export class BuilderScene implements Scene {
         b.position.set(80 + i * 80, 130);
         this.bar.addChild(b);
       });
-      const cells: Cell[] = [];
-      for (const house of list)
-        for (let v = 0; v < VARIANTS; v++)
-          cells.push({
-            draw: () => {
-              const c = new Container();
-              const g = new Graphics();
-              drawHouse(g, house, v, 130);
-              g.y = 50;
-              const n = label(house.name, 15);
-              n.y = 80;
-              c.addChild(g, n);
-              return c;
-            },
-            onTap: () => {
-              this.pick = { house: house.id, variant: v };
-              this.step();
-            },
+      // Each house once; its colour is picked next.
+      this.grid.set(list.map((house) => ({
+        draw: () => houseCell(house.id, 0, house.name),
+        onTap: () => {
+          this.house = house.id;
+          this.step();
+        },
+      })), 200);
+      return;
+    }
+    if (!this.pick) {
+      // Pick the colours: walls, roof and door swatches beside a big picture of the house.
+      const house = houses.get(this.house)!;
+      this.heading.text = `🎨 Colour your ${house.name}`;
+      this.grid.view.visible = false;
+      const variant = this.colours ? variantFor(this.colours.wall, this.colours.roof, this.colours.door) : 0;
+      const g = new Graphics();
+      drawHouse(g, house, variant, Math.min(w * 0.36, h * 0.45));
+      g.position.set(w * 0.26, h * 0.8);
+      this.bar.addChild(g);
+      const x0 = w * 0.5, rowGap = Math.min(110, h * 0.17);
+      const rows: [string, string[], 'wall' | 'roof' | 'door'][] = [['Walls', HUES, 'wall'], ['Roof', ROOFS, 'roof'], ['Door', DOORS, 'door']];
+      rows.forEach(([name, list, key], r) => {
+        const y = h * 0.3 + r * rowGap;
+        const t = label(name, 26);
+        t.anchor.set(0, 0.5);
+        t.position.set(x0, y - 34);
+        this.bar.addChild(t);
+        const size = Math.min(40, (w * 0.46) / 12 - 6);
+        list.forEach((col, i) => {
+          const on = this.colours?.[key] === i;
+          const sw = new Graphics().circle(0, 0, size / 2).fill(hexNum(col)).stroke({ color: on ? COLORS.pink : 0x5a3d4f, width: on ? 5 : 2 });
+          sw.position.set(x0 + size / 2 + i * (size + 6), y + 6);
+          sw.eventMode = 'static';
+          sw.cursor = 'pointer';
+          sw.on('pointertap', () => {
+            this.colours = { wall: 0, roof: 0, door: 0, ...this.colours, [key]: i };
+            playSound('pop');
+            this.step();
           });
-      this.grid.set(cells, 200);
+          this.bar.addChild(sw);
+        });
+      });
+      const own = pillButton('✨ Original colours', () => {
+        this.colours = null;
+        this.step();
+      }, 280, 60, this.colours ? 0xb197fc : COLORS.pink);
+      own.position.set(x0 + 130, h * 0.3 + 3 * rowGap);
+      const back = pillButton('⬅️ Houses', () => {
+        this.house = null;
+        this.colours = null;
+        this.step();
+      }, 200, 60);
+      back.position.set(140, 130);
+      const next = pillButton('Next ➡️', () => {
+        this.pick = { house: house.id, variant };
+        this.step();
+      }, 220, 80, 0x7fd1c7);
+      next.position.set(w - 160, h - 70);
+      this.bar.addChild(own, back, next);
       return;
     }
     // Furnished or empty?
@@ -130,4 +175,22 @@ export class BuilderScene implements Scene {
     this.game.stack.pop();
     this.game.openPlace(lot);
   }
+}
+
+/** A house in one of its colours, with its name under it (if given). */
+function houseCell(id: string, variant: number, name: string): Container {
+  const c = new Container();
+  const g = new Graphics();
+  // Tall houses (castles, mansions) shrink to fit the card.
+  const house = houses.get(id)!;
+  const floors = house.floors.filter((f) => !f.outdoor).length || 1;
+  drawHouse(g, house, variant, Math.min(130, 150 / (floors * 0.42 + 0.55)));
+  g.y = 62;
+  c.addChild(g);
+  if (name) {
+    const n = label(name, 15);
+    n.y = 80;
+    c.addChild(n);
+  }
+  return c;
 }

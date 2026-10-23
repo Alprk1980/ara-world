@@ -100,16 +100,33 @@ try {
     await shot('3-wheel');
     const before = await inPage<number>(`const p = ara.world.people.find((p) => p.id === '__tester'); return p.bitesLeft ?? data.items.get(p.holding)?.bites ?? 0;`);
     // The eat button is the first in the wheel when holding food.
-    await inPage(`ara.emojis.view.getChildByLabel('eat').emit('pointerup', { stopPropagation() {} });`);
+    await inPage(`ara.emojis.view.getChildByLabel('eat').emit('pointerdown', { stopPropagation() {} }); ara.emojis.view.getChildByLabel('eat').emit('pointerup', { stopPropagation() {} });`);
     await page.waitForTimeout(900);
     const after = await inPage<number>(`const p = ara.world.people.find((p) => p.id === '__tester'); return p.holding ? (p.bitesLeft ?? data.items.get(p.holding).bites) : 0;`);
     check('eating takes a bite (hand to mouth)', after < before, `bites ${before} → ${after}`);
     await shot('4-ate');
+    // Pull the food back out of the hand and put it down on the floor away from them.
+    await inPage(`ara.emojis.close();`);
+    const hand = await inPage<{ x: number; y: number } | null>(`
+      const rig = ara.place.rigs.get('__tester');
+      if (!rig.held) return null;
+      const b = rig.held.getBounds();
+      return { x: b.x + b.width / 2, y: b.y + b.height / 2 };
+    `);
+    if (hand) {
+      await drag(hand, { x: hand.x + 220, y: hand.y });
+      const out = await inPage<{ holding?: string; onFloor: boolean }>(`
+        const p = ara.world.people.find((p) => p.id === '__tester');
+        return { holding: p.holding, onFloor: st.thingsOn(ara.world, '__test', 0).some((t) => data.categoryOf(t.item) === 'food' && t.x > p.at.x + 30) };
+      `);
+      check('a held thing can be pulled out of the hand and put down', !out.holding && out.onFloor, JSON.stringify(out));
+      await shot('4b-put-down');
+    }
   } else check('food dragged onto a person goes to their hand', false, 'no food item exists yet');
 
   // Tap the person again, press 👗, pick another top: they wear it.
   await page.mouse.click(pos.person.x, pos.person.y);
-  await inPage(`ara.emojis.view.getChildByLabel('dress').emit('pointerup', { stopPropagation() {} });`);
+  await inPage(`ara.emojis.view.getChildByLabel('dress').emit('pointerdown', { stopPropagation() {} }); ara.emojis.view.getChildByLabel('dress').emit('pointerup', { stopPropagation() {} });`);
   const dressed = await inPage<{ open: boolean; before: string; options: string[] }>(`
     const p = ara.world.people.find((p) => p.id === '__tester');
     const w = await import('/src/ui/wardrobe.ts');
@@ -324,12 +341,22 @@ try {
   await inPage(`ara.panel.hide(); ara.stack.replace(new (ara.place.constructor)(ara, '__test2'));`);
   await inPage(`const p = ara.world.people.find((p) => p.id === '__tester'); p.at = { place: '__test2', floor: 0, x: 80, y: 0 }; st.persist(ara.world);`);
 
+  // Go to a real place's upper floor before the refresh: it should reopen there, not on the title screen.
+  const was = await inPage<{ id: string; floor: number }>(`
+    const id = [...data.places.values()].find((p) => p.floors.length > 1 && !p.hidden).id;
+    ara.openPlace(id);
+    ara.place.goFloor(1);
+    return { id, floor: ara.place.floor };
+  `);
   // Close and reopen: the world is still there.
   await page.waitForTimeout(800);
   await page.reload();
   await page.waitForFunction(() => 'ara' in window && !!(window as any).ara.world);
   const kept = await inPage<string>(`const p = ara.world.people.find((p) => p.id === '__tester'); return p ? p.at?.place + ' floor ' + p.at?.floor + ', night ' + ara.world.sky.night : 'gone';`);
   check('the world is saved across a reload', kept === '__test2 floor 0, night false', kept);
+  await page.waitForTimeout(300);
+  const back = await inPage<string>(`return ara.place ? ara.place.placeId + ' floor ' + ara.place.floor : String(ara.stack.top?.name);`);
+  check('a refresh comes back to the same place and floor', back === `${was.id} floor ${was.floor}`, back);
 } finally {
   await browser.close();
   await server.close();

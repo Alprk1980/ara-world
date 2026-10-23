@@ -1,6 +1,6 @@
 // A template is one drawable shape with colour slots. Recipes (items) paint it.
 import { checkSvg } from './svg.ts';
-import { OPTIONAL_ANCHORS, REQUIRED_ANCHORS, SIZE_BOUNDS, TEMPLATE_CATEGORIES, isWearable } from './vocab.ts';
+import { OPTIONAL_ANCHORS, REQUIRED_ANCHORS, SHELF_ANCHORS, SIZE_BOUNDS, TEMPLATE_CATEGORIES, isWearable } from './vocab.ts';
 
 export type Point = [number, number];
 export type Template = {
@@ -19,6 +19,8 @@ const WEARABLE_MIN_COVER = 0.5;
 const HAT_MIN_HEIGHT = 0.3;
 /** How much of the canvas an object's longest side must cover. */
 const OBJECT_MIN_FILL = 0.6;
+/** Canvas units between shelf levels, so things fit between them. */
+const SHELF_GAP = 40;
 
 const isPoint = (p: unknown): p is Point =>
   Array.isArray(p) && p.length === 2 && p.every((v) => typeof v === 'number' && v >= 0 && v <= 256);
@@ -66,6 +68,16 @@ export function templateErrors(t: Template, all: readonly Template[] = []): stri
     else if (!isPoint(p)) err(`anchors.${name} must be [x, y] inside 0-256`);
     else if (svg.box && (p[0] < svg.box.minX - 6 || p[0] > svg.box.maxX + 6 || p[1] < svg.box.minY - 6 || p[1] > svg.box.maxY + 6))
       err(`anchors.${name} [${p}] is outside the drawing (box ${Math.round(svg.box.minX)},${Math.round(svg.box.minY)} to ${Math.round(svg.box.maxX)},${Math.round(svg.box.maxY)})`);
+  }
+  // Shelf levels go bottom to top under the top shelf, with room above each for things to stand.
+  const levels = SHELF_ANCHORS.filter((k) => isPoint(anchors[k]));
+  if (levels.length) {
+    if (!isPoint(anchors.top)) err('a shelf unit with shelf1-3 needs a "top" anchor (its highest shelf)');
+    if (levels.some((k, i) => k !== SHELF_ANCHORS[i])) err('shelf anchors are numbered from shelf1 up, with no gaps');
+    const ys = [...levels.map((k) => anchors[k][1]), ...(isPoint(anchors.top) ? [anchors.top[1]] : [])];
+    for (let i = 1; i < ys.length; i++)
+      if (ys[i - 1] - ys[i] < SHELF_GAP) err(`shelf levels need ${SHELF_GAP} canvas units between them (bottom to top: y ${ys.join(', ')})`);
+    if (isPoint(anchors.base) && anchors.base[1] - ys[0] < 8) err('shelf1 must be above the base');
   }
   if (svg.box && isPoint(anchors.base) && anchors.base[1] < svg.box.maxY - 12)
     err(`anchors.base must sit at the bottom of the drawing (y near ${Math.round(svg.box.maxY)})`);

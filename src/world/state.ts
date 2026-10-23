@@ -3,7 +3,7 @@ import type { Character } from '../../schemas/character.ts';
 import type { Item } from '../../schemas/item.ts';
 import type { Template } from '../../schemas/template.ts';
 import type { Floor, Placed } from '../../schemas/place.ts';
-import { characters, houses, items, places, templates } from '../data/index.ts';
+import { characters, houses, items, places, shelfStock, templates } from '../data/index.ts';
 import { load, save } from '../app/save.ts';
 
 export const WEATHERS = ['sunny', 'rain', 'snow', 'wind', 'rainbow', 'cloudy'] as const;
@@ -34,6 +34,8 @@ export type World = {
   custom: Item[];
   /** Templates drawn in the 🖍️ draw pad. */
   drawings: Template[];
+  /** Floors whose stocked shelves (src/data/shelf-stock.json) are in their layout. */
+  stocked?: string[];
 };
 
 const KEY = 'world';
@@ -93,15 +95,20 @@ export function floorsOf(w: World, placeId: string, furnishedOverride?: boolean)
     const furnished = furnishedOverride ?? lot.furnished;
     return h.floors.map((f) => ({ ...f, items: furnished ? f.items : [] }));
   }
-  return places.get(placeId)?.floors ?? [];
+  return (places.get(placeId)?.floors ?? []).map((f, i) => {
+    const stock = shelfStock.get(`${placeId}:${i}`);
+    return stock ? { ...f, items: [...f.items, ...stock.items] } : f;
+  });
 }
 
 /** The live things on a floor, created from the data layout the first time it is visited. */
 export function thingsOn(w: World, placeId: string, floor: number): Thing[] {
   const k = `${placeId}:${floor}`;
-  if (!w.layouts[k]) {
-    const f = floorsOf(w, placeId)[floor];
-    w.layouts[k] = (f?.items ?? []).map((p) => ({ ...p, y: p.y ?? 0, uid: uid() }));
-  }
+  const live = (list: Placed[]) => list.map((p) => ({ ...p, y: p.y ?? 0, uid: uid() }));
+  const stock = w.lots[placeId] ? undefined : shelfStock.get(k);
+  if (!w.layouts[k]) w.layouts[k] = live(floorsOf(w, placeId)[floor]?.items ?? []);
+  // A floor laid out before its shelves were stocked gets them now, once.
+  else if (stock && !w.stocked?.includes(k)) w.layouts[k].push(...live(stock.items));
+  if (stock && !w.stocked?.includes(k)) (w.stocked ??= []).push(k);
   return w.layouts[k];
 }

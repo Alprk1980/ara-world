@@ -59791,6 +59791,1818 @@
     ]
   },
   {
+    "id": "wall_plank_shelf_oak",
+    "name": "Oak Wall Shelf",
+    "template": "wall_plank_shelf",
+    "palette": {
+      "main": "#c9a06a",
+      "trim": "#3a3a3a",
+      "accent": "#8a6a44",
+      "outline": "#6b4a2a"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "wall_plank_shelf_white",
+    "name": "White Wall Shelf",
+    "template": "wall_plank_shelf",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#9a9a9a",
+      "accent": "#d8d2c4",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "wall_plank_shelf_walnut",
+    "name": "Walnut Wall Shelf",
+    "template": "wall_plank_shelf",
+    "palette": {
+      "main": "#6e4a2e",
+      "trim": "#2e2e2e",
+      "accent": "#9a7250",
+      "outline": "#3e2818"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "wall_double_shelf_pine",
+    "name": "Pine Hanging Shelf",
+    "template": "wall_double_shelf",
+    "palette": {
+      "main": "#d9b27c",
+      "trim": "#b88a52",
+      "accent": "#efd9b0",
+      "outline": "#7a5630"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "wall_double_shelf_white",
+    "name": "White Hanging Shelf",
+    "template": "wall_double_shelf",
+    "palette": {
+      "main": "#f4f1ea",
+      "trim": "#d6d0c2",
+      "accent": "#ffffff",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "wall_double_shelf_sage",
+    "name": "Sage Hanging Shelf",
+    "template": "wall_double_shelf",
+    "palette": {
+      "main": "#9db59a",
+      "trim": "#7d9a7a",
+      "accent": "#d9e4d2",
+      "outline": "#4e6a4c"
+    },
+    "tags": [
+      "wall",
+      "living",
+      "bedroom",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "tall_open_bookcase_oak",
+    "name": "Oak Bookcase",
+    "template": "tall_open_bookcase",
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#a87b4f",
+      "accent": "#e8d3b0",
+      "outline": "#5e4026"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "school",
+      "office"
+    ]
+  },
+  {
+    "id": "tall_open_bookcase_white",
+    "name": "White Bookcase",
+    "template": "tall_open_bookcase",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#d8d2c4",
+      "accent": "#ffffff",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "school",
+      "office"
+    ]
+  },
+  {
+    "id": "tall_open_bookcase_walnut",
+    "name": "Walnut Bookcase",
+    "template": "tall_open_bookcase",
+    "palette": {
+      "main": "#6e4a2e",
+      "trim": "#553823",
+      "accent": "#9a7250",
+      "outline": "#33200f"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "school",
+      "office"
+    ]
+  },
+  {
+    "id": "shop_shelving_unit_steel",
+    "name": "Steel Shop Shelves",
+    "template": "shop_shelving_unit",
+    "palette": {
+      "main": "#c7ccd1",
+      "trim": "#8f979e",
+      "accent": "#e8ecef",
+      "outline": "#4f565c"
+    },
+    "tags": [
+      "shop",
+      "supermarket",
+      "toys",
+      "sweets"
+    ]
+  },
+  {
+    "id": "shop_shelving_unit_white",
+    "name": "White Shop Shelves",
+    "template": "shop_shelving_unit",
+    "palette": {
+      "main": "#f1f1ee",
+      "trim": "#c9c9c4",
+      "accent": "#ffffff",
+      "outline": "#7d7d78"
+    },
+    "tags": [
+      "shop",
+      "supermarket",
+      "toys",
+      "sweets"
+    ]
+  },
+  {
+    "id": "shop_shelving_unit_black",
+    "name": "Black Shop Shelves",
+    "template": "shop_shelving_unit",
+    "palette": {
+      "main": "#3c3f43",
+      "trim": "#24272a",
+      "accent": "#6b7075",
+      "outline": "#16181a"
+    },
+    "tags": [
+      "shop",
+      "supermarket",
+      "toys",
+      "sweets"
+    ]
+  },
+  {
+    "id": "low_display_cabinet_oak",
+    "name": "Oak Display Cabinet",
+    "template": "low_display_cabinet",
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#a87b4f",
+      "accent": "#e8d3b0",
+      "outline": "#5e4026"
+    },
+    "tags": [
+      "living",
+      "shop",
+      "salon",
+      "hotel"
+    ]
+  },
+  {
+    "id": "low_display_cabinet_cream",
+    "name": "Cream Display Cabinet",
+    "template": "low_display_cabinet",
+    "palette": {
+      "main": "#efe6d2",
+      "trim": "#d6c8a8",
+      "accent": "#c9a227",
+      "outline": "#857858"
+    },
+    "tags": [
+      "living",
+      "shop",
+      "salon",
+      "hotel"
+    ]
+  },
+  {
+    "id": "low_display_cabinet_cherry",
+    "name": "Cherry Display Cabinet",
+    "template": "low_display_cabinet",
+    "palette": {
+      "main": "#8c3f2a",
+      "trim": "#6e2e1e",
+      "accent": "#c98a5a",
+      "outline": "#401a10"
+    },
+    "tags": [
+      "living",
+      "shop",
+      "salon",
+      "hotel"
+    ]
+  },
+  {
+    "id": "ladder_shelf_natural",
+    "name": "Natural Ladder Shelf",
+    "template": "ladder_shelf",
+    "palette": {
+      "main": "#d4b088",
+      "trim": "#a87b4f",
+      "accent": "#efd9b0",
+      "outline": "#6b4a2a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "salon"
+    ]
+  },
+  {
+    "id": "ladder_shelf_black",
+    "name": "Black Ladder Shelf",
+    "template": "ladder_shelf",
+    "palette": {
+      "main": "#b48a5e",
+      "trim": "#2e2e2e",
+      "accent": "#d8c09a",
+      "outline": "#1e1e1e"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "salon"
+    ]
+  },
+  {
+    "id": "ladder_shelf_white",
+    "name": "White Ladder Shelf",
+    "template": "ladder_shelf",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#e2ddd2",
+      "accent": "#ffffff",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "salon"
+    ]
+  },
+  {
+    "id": "glass_display_shelf_chrome",
+    "name": "Chrome Glass Shelves",
+    "template": "glass_display_shelf",
+    "palette": {
+      "main": "#cfd6dc",
+      "trim": "#9aa3ab",
+      "accent": "#eef2f5",
+      "outline": "#56606a"
+    },
+    "tags": [
+      "salon",
+      "makeup",
+      "shop",
+      "mall"
+    ]
+  },
+  {
+    "id": "glass_display_shelf_gold",
+    "name": "Gold Glass Shelves",
+    "template": "glass_display_shelf",
+    "palette": {
+      "main": "#d9b45a",
+      "trim": "#a8853a",
+      "accent": "#f2e2b0",
+      "outline": "#6e5420"
+    },
+    "tags": [
+      "salon",
+      "makeup",
+      "shop",
+      "mall"
+    ]
+  },
+  {
+    "id": "glass_display_shelf_black",
+    "name": "Black Glass Shelves",
+    "template": "glass_display_shelf",
+    "palette": {
+      "main": "#3a3d42",
+      "trim": "#24272a",
+      "accent": "#7a8088",
+      "outline": "#141618"
+    },
+    "tags": [
+      "salon",
+      "makeup",
+      "shop",
+      "mall"
+    ]
+  },
+  {
+    "id": "cube_storage_shelf_oak",
+    "name": "Oak Cube Shelf",
+    "template": "cube_storage_shelf",
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#a87b4f",
+      "accent": "#e8d3b0",
+      "outline": "#5e4026"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "living",
+      "nursery"
+    ]
+  },
+  {
+    "id": "cube_storage_shelf_white",
+    "name": "White Cube Shelf",
+    "template": "cube_storage_shelf",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#ddd7ca",
+      "accent": "#ffffff",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "living",
+      "nursery"
+    ]
+  },
+  {
+    "id": "cube_storage_shelf_grey",
+    "name": "Grey Cube Shelf",
+    "template": "cube_storage_shelf",
+    "palette": {
+      "main": "#9a9d9f",
+      "trim": "#7d8082",
+      "accent": "#c6c8c9",
+      "outline": "#4a4c4e"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "living",
+      "nursery"
+    ]
+  },
+  {
+    "id": "small_flower_vase_pink",
+    "name": "Pink Flower Vase",
+    "template": "small_flower_vase",
+    "palette": {
+      "main": "#f06a8a",
+      "trim": "#4f8f3a",
+      "accent": "#f7c948",
+      "outline": "#7a2f45"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "cafe",
+      "hotel",
+      "cosy"
+    ]
+  },
+  {
+    "id": "small_flower_vase_yellow",
+    "name": "Yellow Flower Vase",
+    "template": "small_flower_vase",
+    "palette": {
+      "main": "#f7d046",
+      "trim": "#4f8f3a",
+      "accent": "#e07a2c",
+      "outline": "#8a6a14"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "cafe",
+      "hotel",
+      "cosy"
+    ]
+  },
+  {
+    "id": "small_flower_vase_white",
+    "name": "White Flower Vase",
+    "template": "small_flower_vase",
+    "palette": {
+      "main": "#f7f4ee",
+      "trim": "#4f8f3a",
+      "accent": "#f2c94c",
+      "outline": "#8a8378"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "cafe",
+      "hotel",
+      "cosy"
+    ]
+  },
+  {
+    "id": "photo_frame_stand_wood",
+    "name": "Wooden Photo Frame",
+    "template": "photo_frame_stand",
+    "palette": {
+      "main": "#b08850",
+      "trim": "#6aa84f",
+      "accent": "#ffd23f",
+      "outline": "#5e4520"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "cosy"
+    ]
+  },
+  {
+    "id": "photo_frame_stand_silver",
+    "name": "Silver Photo Frame",
+    "template": "photo_frame_stand",
+    "palette": {
+      "main": "#c9ced3",
+      "trim": "#6aa84f",
+      "accent": "#ffd23f",
+      "outline": "#5c6268"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "cosy"
+    ]
+  },
+  {
+    "id": "photo_frame_stand_white",
+    "name": "White Photo Frame",
+    "template": "photo_frame_stand",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#6aa84f",
+      "accent": "#ffd23f",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "cosy"
+    ]
+  },
+  {
+    "id": "trophy_cup_gold",
+    "name": "Gold Trophy",
+    "template": "trophy_cup",
+    "palette": {
+      "main": "#e0b13a",
+      "trim": "#3b2f2a",
+      "accent": "#d9d4c7",
+      "outline": "#8a6414"
+    },
+    "tags": [
+      "sport",
+      "football",
+      "school",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "trophy_cup_silver",
+    "name": "Silver Trophy",
+    "template": "trophy_cup",
+    "palette": {
+      "main": "#c9ced3",
+      "trim": "#2e2e2e",
+      "accent": "#e8e4da",
+      "outline": "#5c6268"
+    },
+    "tags": [
+      "sport",
+      "football",
+      "school",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "trophy_cup_bronze",
+    "name": "Bronze Trophy",
+    "template": "trophy_cup",
+    "palette": {
+      "main": "#b87333",
+      "trim": "#3b2f2a",
+      "accent": "#d9d4c7",
+      "outline": "#6e4218"
+    },
+    "tags": [
+      "sport",
+      "football",
+      "school",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "snow_globe_red",
+    "name": "Snow Globe",
+    "template": "snow_globe",
+    "palette": {
+      "main": "#7a4a2a",
+      "trim": "#c0392b",
+      "accent": "#ffd27a",
+      "outline": "#3e2414"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "living"
+    ]
+  },
+  {
+    "id": "snow_globe_blue",
+    "name": "Blue House Snow Globe",
+    "template": "snow_globe",
+    "palette": {
+      "main": "#3a3a3a",
+      "trim": "#3a6ea5",
+      "accent": "#ffd27a",
+      "outline": "#1e1e1e"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "living"
+    ]
+  },
+  {
+    "id": "snow_globe_gold",
+    "name": "Golden Snow Globe",
+    "template": "snow_globe",
+    "palette": {
+      "main": "#c9a227",
+      "trim": "#8c3f2a",
+      "accent": "#ffe08a",
+      "outline": "#6e5414"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "living"
+    ]
+  },
+  {
+    "id": "candle_jar_vanilla",
+    "name": "Vanilla Candle",
+    "template": "candle_jar",
+    "palette": {
+      "main": "#f3e6d0",
+      "trim": "#8fae9a",
+      "accent": "#ffb347",
+      "outline": "#7a6a55"
+    },
+    "tags": [
+      "bedroom",
+      "bathroom",
+      "living",
+      "cosy"
+    ]
+  },
+  {
+    "id": "candle_jar_lavender",
+    "name": "Lavender Candle",
+    "template": "candle_jar",
+    "palette": {
+      "main": "#d9c8e8",
+      "trim": "#7a5fa0",
+      "accent": "#ffb347",
+      "outline": "#6a5880"
+    },
+    "tags": [
+      "bedroom",
+      "bathroom",
+      "living",
+      "cosy"
+    ]
+  },
+  {
+    "id": "candle_jar_rose",
+    "name": "Rose Candle",
+    "template": "candle_jar",
+    "palette": {
+      "main": "#f4c6cc",
+      "trim": "#b8505e",
+      "accent": "#ffb347",
+      "outline": "#8a5a60"
+    },
+    "tags": [
+      "bedroom",
+      "bathroom",
+      "living",
+      "cosy"
+    ]
+  },
+  {
+    "id": "book_stack_classic",
+    "name": "Stack of Books",
+    "template": "book_stack",
+    "palette": {
+      "main": "#8b2e2e",
+      "trim": "#2e5e8b",
+      "accent": "#c9a227",
+      "outline": "#3a1e1e"
+    },
+    "tags": [
+      "living",
+      "school",
+      "bedroom",
+      "office"
+    ]
+  },
+  {
+    "id": "book_stack_green",
+    "name": "Green Book Stack",
+    "template": "book_stack",
+    "palette": {
+      "main": "#3e6b48",
+      "trim": "#a8553a",
+      "accent": "#e0c070",
+      "outline": "#1e3a24"
+    },
+    "tags": [
+      "living",
+      "school",
+      "bedroom",
+      "office"
+    ]
+  },
+  {
+    "id": "book_stack_pastel",
+    "name": "Pastel Book Stack",
+    "template": "book_stack",
+    "palette": {
+      "main": "#e8a6b6",
+      "trim": "#8ab8d8",
+      "accent": "#f2d27a",
+      "outline": "#7a4a58"
+    },
+    "tags": [
+      "living",
+      "school",
+      "bedroom",
+      "office"
+    ]
+  },
+  {
+    "id": "sweet_jar_red",
+    "name": "Sweet Jar",
+    "template": "sweet_jar",
+    "palette": {
+      "main": "#e84a5f",
+      "trim": "#ffd23f",
+      "accent": "#5bc0be",
+      "outline": "#7a2430"
+    },
+    "tags": [
+      "sweets",
+      "kitchen",
+      "cafe",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "sweet_jar_blue",
+    "name": "Blue Lid Sweet Jar",
+    "template": "sweet_jar",
+    "palette": {
+      "main": "#3a7bd5",
+      "trim": "#f28cb1",
+      "accent": "#9be15d",
+      "outline": "#1e3e6e"
+    },
+    "tags": [
+      "sweets",
+      "kitchen",
+      "cafe",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "sweet_jar_pink",
+    "name": "Pink Lid Sweet Jar",
+    "template": "sweet_jar",
+    "palette": {
+      "main": "#f28cb1",
+      "trim": "#ffffff",
+      "accent": "#a66cff",
+      "outline": "#8a3e60"
+    },
+    "tags": [
+      "sweets",
+      "kitchen",
+      "cafe",
+      "kids_room"
+    ]
+  },
+  {
+    "id": "cat_ornament_white",
+    "name": "China Cat",
+    "template": "cat_ornament",
+    "palette": {
+      "main": "#f7f4ee",
+      "trim": "#e8a6a6",
+      "accent": "#3a6ea5",
+      "outline": "#8a8378"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "elder",
+      "cosy"
+    ]
+  },
+  {
+    "id": "cat_ornament_black",
+    "name": "Black China Cat",
+    "template": "cat_ornament",
+    "palette": {
+      "main": "#3a3a3e",
+      "trim": "#e8a6a6",
+      "accent": "#c9a227",
+      "outline": "#141416"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "elder",
+      "cosy"
+    ]
+  },
+  {
+    "id": "cat_ornament_ginger",
+    "name": "Ginger China Cat",
+    "template": "cat_ornament",
+    "palette": {
+      "main": "#e8a160",
+      "trim": "#f4c6c6",
+      "accent": "#3e8a5a",
+      "outline": "#8a5426"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "elder",
+      "cosy"
+    ]
+  },
+  {
+    "id": "desk_globe_blue",
+    "name": "Desk Globe",
+    "template": "desk_globe",
+    "palette": {
+      "main": "#3f7cbf",
+      "trim": "#7fb069",
+      "accent": "#c9a227",
+      "outline": "#1f3f66"
+    },
+    "tags": [
+      "school",
+      "office",
+      "kids_room",
+      "living"
+    ]
+  },
+  {
+    "id": "desk_globe_antique",
+    "name": "Antique Globe",
+    "template": "desk_globe",
+    "palette": {
+      "main": "#d8c49a",
+      "trim": "#a8804a",
+      "accent": "#8a6414",
+      "outline": "#6e5430"
+    },
+    "tags": [
+      "school",
+      "office",
+      "kids_room",
+      "living"
+    ]
+  },
+  {
+    "id": "desk_globe_dark",
+    "name": "Dark Sea Globe",
+    "template": "desk_globe",
+    "palette": {
+      "main": "#22355a",
+      "trim": "#c9a227",
+      "accent": "#d0d4d8",
+      "outline": "#0e1a30"
+    },
+    "tags": [
+      "school",
+      "office",
+      "kids_room",
+      "living"
+    ]
+  },
+  {
+    "id": "music_box_wood",
+    "name": "Music Box",
+    "template": "music_box",
+    "palette": {
+      "main": "#8b5a2b",
+      "trim": "#e8b4c8",
+      "accent": "#d4af37",
+      "outline": "#4a2e14"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "toys",
+      "cosy"
+    ]
+  },
+  {
+    "id": "music_box_pink",
+    "name": "Pink Music Box",
+    "template": "music_box",
+    "palette": {
+      "main": "#e8a6c0",
+      "trim": "#ffffff",
+      "accent": "#d4af37",
+      "outline": "#8a4a66"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "toys",
+      "cosy"
+    ]
+  },
+  {
+    "id": "music_box_blue",
+    "name": "Blue Music Box",
+    "template": "music_box",
+    "palette": {
+      "main": "#7fa8d8",
+      "trim": "#f2d0e0",
+      "accent": "#d0d4d8",
+      "outline": "#3a5a80"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "toys",
+      "cosy"
+    ]
+  },
+  {
+    "id": "piggy_bank_pink",
+    "name": "Piggy Bank",
+    "template": "piggy_bank",
+    "palette": {
+      "main": "#f4a7b9",
+      "trim": "#e88aa0",
+      "accent": "#ffd23f",
+      "outline": "#a8556a"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "shop"
+    ]
+  },
+  {
+    "id": "piggy_bank_blue",
+    "name": "Blue Piggy Bank",
+    "template": "piggy_bank",
+    "palette": {
+      "main": "#9cc4e8",
+      "trim": "#7aa8d4",
+      "accent": "#ffd23f",
+      "outline": "#4a6e90"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "shop"
+    ]
+  },
+  {
+    "id": "piggy_bank_gold",
+    "name": "Gold Piggy Bank",
+    "template": "piggy_bank",
+    "palette": {
+      "main": "#e0b13a",
+      "trim": "#c9962a",
+      "accent": "#f2e2b0",
+      "outline": "#8a6414"
+    },
+    "tags": [
+      "kids_room",
+      "bedroom",
+      "toys",
+      "shop"
+    ]
+  },
+  {
+    "id": "fairy_light_jar_warm",
+    "name": "Fairy Light Jar",
+    "template": "fairy_light_jar",
+    "palette": {
+      "main": "#b8b8b8",
+      "trim": "#c9a97a",
+      "accent": "#ffd56b",
+      "outline": "#5a5a5a"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "garden",
+      "cosy"
+    ]
+  },
+  {
+    "id": "fairy_light_jar_gold",
+    "name": "Gold Lid Light Jar",
+    "template": "fairy_light_jar",
+    "palette": {
+      "main": "#d4af37",
+      "trim": "#e8d8b8",
+      "accent": "#ffe08a",
+      "outline": "#6e5414"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "garden",
+      "cosy"
+    ]
+  },
+  {
+    "id": "fairy_light_jar_pink",
+    "name": "Pink Light Jar",
+    "template": "fairy_light_jar",
+    "palette": {
+      "main": "#e8a6c0",
+      "trim": "#ffffff",
+      "accent": "#ffb0d0",
+      "outline": "#8a4a66"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "garden",
+      "cosy"
+    ]
+  },
+  {
+    "id": "succulent_pot_sage",
+    "name": "Succulent",
+    "template": "succulent_pot",
+    "palette": {
+      "main": "#7fae8a",
+      "trim": "#c8693f",
+      "accent": "#e3a0a8",
+      "outline": "#3f5e48"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "garden"
+    ]
+  },
+  {
+    "id": "succulent_pot_blue",
+    "name": "Blue Succulent",
+    "template": "succulent_pot",
+    "palette": {
+      "main": "#8ab0b8",
+      "trim": "#f2efe8",
+      "accent": "#d8a0c8",
+      "outline": "#45606a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "garden"
+    ]
+  },
+  {
+    "id": "succulent_pot_jade",
+    "name": "Jade Succulent",
+    "template": "succulent_pot",
+    "palette": {
+      "main": "#5a9a52",
+      "trim": "#3a3a3a",
+      "accent": "#d06a5a",
+      "outline": "#2e5a2a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "office",
+      "garden"
+    ]
+  },
+  {
+    "id": "fire_extinguisher_red",
+    "name": "Fire Extinguisher",
+    "template": "fire_extinguisher",
+    "palette": {
+      "main": "#d62828",
+      "trim": "#2b2b2b",
+      "accent": "#e9c46a",
+      "outline": "#6b1010"
+    },
+    "tags": [
+      "fire_station",
+      "school",
+      "office",
+      "hotel"
+    ]
+  },
+  {
+    "id": "fire_extinguisher_dark_red",
+    "name": "Fire Extinguisher",
+    "template": "fire_extinguisher",
+    "palette": {
+      "main": "#b81d24",
+      "trim": "#2b2b2b",
+      "accent": "#c9ced3",
+      "outline": "#5a0e10"
+    },
+    "tags": [
+      "fire_station",
+      "school",
+      "office",
+      "hotel"
+    ]
+  },
+  {
+    "id": "fire_extinguisher_bright",
+    "name": "Fire Extinguisher",
+    "template": "fire_extinguisher",
+    "palette": {
+      "main": "#e63946",
+      "trim": "#3a3a3a",
+      "accent": "#e9c46a",
+      "outline": "#7a1a20"
+    },
+    "tags": [
+      "fire_station",
+      "school",
+      "office",
+      "hotel"
+    ]
+  },
+  {
+    "id": "departure_board_black",
+    "name": "Departure Board",
+    "template": "departure_board",
+    "palette": {
+      "main": "#1f2430",
+      "trim": "#f2c14e",
+      "accent": "#4caf50",
+      "outline": "#0d1016"
+    },
+    "tags": [
+      "wall",
+      "airport",
+      "station"
+    ]
+  },
+  {
+    "id": "departure_board_blue",
+    "name": "Blue Departure Board",
+    "template": "departure_board",
+    "palette": {
+      "main": "#1e3a5f",
+      "trim": "#ffffff",
+      "accent": "#f2c14e",
+      "outline": "#0e1e30"
+    },
+    "tags": [
+      "wall",
+      "airport",
+      "station"
+    ]
+  },
+  {
+    "id": "departure_board_grey",
+    "name": "Grey Departure Board",
+    "template": "departure_board",
+    "palette": {
+      "main": "#3a3f45",
+      "trim": "#f29e4e",
+      "accent": "#7fd1c7",
+      "outline": "#1c1f22"
+    },
+    "tags": [
+      "wall",
+      "airport",
+      "station"
+    ]
+  },
+  {
+    "id": "drip_stand_steel",
+    "name": "Drip Stand",
+    "template": "drip_stand",
+    "palette": {
+      "main": "#c9d1d8",
+      "trim": "#9aa4ad",
+      "accent": "#bfe6ff",
+      "outline": "#4f5a63"
+    },
+    "tags": [
+      "hospital",
+      "vet"
+    ]
+  },
+  {
+    "id": "drip_stand_white",
+    "name": "White Drip Stand",
+    "template": "drip_stand",
+    "palette": {
+      "main": "#eef1f4",
+      "trim": "#b8c0c8",
+      "accent": "#ffd6e0",
+      "outline": "#6a737c"
+    },
+    "tags": [
+      "hospital",
+      "vet"
+    ]
+  },
+  {
+    "id": "drip_stand_blue",
+    "name": "Blue Drip Stand",
+    "template": "drip_stand",
+    "palette": {
+      "main": "#b8c8d8",
+      "trim": "#8a9cae",
+      "accent": "#d6f0c8",
+      "outline": "#4a5a6a"
+    },
+    "tags": [
+      "hospital",
+      "vet"
+    ]
+  },
+  {
+    "id": "pet_scale_grey",
+    "name": "Pet Scale",
+    "template": "pet_scale",
+    "palette": {
+      "main": "#d8dee4",
+      "trim": "#7a8794",
+      "accent": "#7fe0a0",
+      "outline": "#4a545e"
+    },
+    "tags": [
+      "vet",
+      "pet_shop",
+      "pet"
+    ]
+  },
+  {
+    "id": "pet_scale_blue",
+    "name": "Blue Pet Scale",
+    "template": "pet_scale",
+    "palette": {
+      "main": "#cfe0ef",
+      "trim": "#5a7a9a",
+      "accent": "#7fe0a0",
+      "outline": "#3a5068"
+    },
+    "tags": [
+      "vet",
+      "pet_shop",
+      "pet"
+    ]
+  },
+  {
+    "id": "pet_scale_white",
+    "name": "White Pet Scale",
+    "template": "pet_scale",
+    "palette": {
+      "main": "#f2f4f6",
+      "trim": "#9aa4ae",
+      "accent": "#ffb86b",
+      "outline": "#6a747e"
+    },
+    "tags": [
+      "vet",
+      "pet_shop",
+      "pet"
+    ]
+  },
+  {
+    "id": "freezer_chest_white",
+    "name": "Chest Freezer",
+    "template": "freezer_chest",
+    "palette": {
+      "main": "#f2f5f7",
+      "trim": "#3a7bd5",
+      "accent": "#ffd166",
+      "outline": "#6a7680"
+    },
+    "tags": [
+      "supermarket",
+      "shop",
+      "cafe"
+    ]
+  },
+  {
+    "id": "freezer_chest_red",
+    "name": "Ice Cream Freezer",
+    "template": "freezer_chest",
+    "palette": {
+      "main": "#f2f5f7",
+      "trim": "#e63946",
+      "accent": "#ffd166",
+      "outline": "#6a7680"
+    },
+    "tags": [
+      "supermarket",
+      "shop",
+      "cafe"
+    ]
+  },
+  {
+    "id": "freezer_chest_green",
+    "name": "Green Freezer",
+    "template": "freezer_chest",
+    "palette": {
+      "main": "#eef4f0",
+      "trim": "#2a9d8f",
+      "accent": "#f4a261",
+      "outline": "#5e6e66"
+    },
+    "tags": [
+      "supermarket",
+      "shop",
+      "cafe"
+    ]
+  },
+  {
+    "id": "tv_stand_oak",
+    "name": "TV",
+    "template": "tv_stand",
+    "palette": {
+      "main": "#8a5a36",
+      "trim": "#2b2b2e",
+      "accent": "#5bc0eb",
+      "outline": "#3e2614"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "tv_stand_white",
+    "name": "TV on White Stand",
+    "template": "tv_stand",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#2b2b2e",
+      "accent": "#5bc0eb",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "tv_stand_grey",
+    "name": "TV on Grey Stand",
+    "template": "tv_stand",
+    "palette": {
+      "main": "#7d8082",
+      "trim": "#1e1e20",
+      "accent": "#ff6b6b",
+      "outline": "#3a3c3e"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "wardrobe_oak",
+    "name": "Oak Wardrobe",
+    "template": "wardrobe",
+    "palette": {
+      "main": "#c49a6c",
+      "trim": "#a87b4f",
+      "accent": "#d4af37",
+      "outline": "#5e4026"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "wardrobe_white",
+    "name": "White Wardrobe",
+    "template": "wardrobe",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#ddd7ca",
+      "accent": "#c9ced3",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "wardrobe_pink",
+    "name": "Pink Wardrobe",
+    "template": "wardrobe",
+    "palette": {
+      "main": "#f0c4cf",
+      "trim": "#e0a6b4",
+      "accent": "#ffffff",
+      "outline": "#8a5a66"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "teen_room",
+      "hotel"
+    ]
+  },
+  {
+    "id": "kitchen_cooker_white",
+    "name": "Cooker",
+    "template": "kitchen_cooker",
+    "palette": {
+      "main": "#eef0f2",
+      "trim": "#3a3d42",
+      "accent": "#c9ced3",
+      "outline": "#6a737c"
+    },
+    "tags": [
+      "kitchen",
+      "restaurant",
+      "cafe"
+    ]
+  },
+  {
+    "id": "kitchen_cooker_steel",
+    "name": "Steel Cooker",
+    "template": "kitchen_cooker",
+    "palette": {
+      "main": "#c9ced3",
+      "trim": "#2e3034",
+      "accent": "#eef0f2",
+      "outline": "#55595e"
+    },
+    "tags": [
+      "kitchen",
+      "restaurant",
+      "cafe"
+    ]
+  },
+  {
+    "id": "kitchen_cooker_cream",
+    "name": "Cream Cooker",
+    "template": "kitchen_cooker",
+    "palette": {
+      "main": "#efe4cc",
+      "trim": "#4a3a2a",
+      "accent": "#c9a227",
+      "outline": "#857858"
+    },
+    "tags": [
+      "kitchen",
+      "restaurant",
+      "cafe"
+    ]
+  },
+  {
+    "id": "kitchen_sink_counter_white",
+    "name": "Kitchen Sink",
+    "template": "kitchen_sink_counter",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#7a6a58",
+      "accent": "#c9ced3",
+      "outline": "#6a6458"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "kitchen_sink_counter_sage",
+    "name": "Sage Kitchen Sink",
+    "template": "kitchen_sink_counter",
+    "palette": {
+      "main": "#a8bfa4",
+      "trim": "#e8e4dc",
+      "accent": "#c9ced3",
+      "outline": "#4e6a4c"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "kitchen_sink_counter_navy",
+    "name": "Navy Kitchen Sink",
+    "template": "kitchen_sink_counter",
+    "palette": {
+      "main": "#3e5470",
+      "trim": "#d8d2c4",
+      "accent": "#d4af37",
+      "outline": "#1e2a3a"
+    },
+    "tags": [
+      "kitchen",
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "toilet_white",
+    "name": "Toilet",
+    "template": "toilet",
+    "palette": {
+      "main": "#f6f6f4",
+      "trim": "#d8dcdf",
+      "accent": "#c9ced3",
+      "outline": "#8a9096"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "school"
+    ]
+  },
+  {
+    "id": "toilet_cream",
+    "name": "Cream Toilet",
+    "template": "toilet",
+    "palette": {
+      "main": "#f2ebdc",
+      "trim": "#e0d6c2",
+      "accent": "#d4af37",
+      "outline": "#8a8270"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "school"
+    ]
+  },
+  {
+    "id": "toilet_white_wood",
+    "name": "Toilet with Wood Seat",
+    "template": "toilet",
+    "palette": {
+      "main": "#f6f6f4",
+      "trim": "#b88a5a",
+      "accent": "#c9ced3",
+      "outline": "#8a9096"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "school"
+    ]
+  },
+  {
+    "id": "bathroom_sink_white",
+    "name": "Bathroom Sink",
+    "template": "bathroom_sink",
+    "palette": {
+      "main": "#f6f6f4",
+      "trim": "#d8dcdf",
+      "accent": "#c9ced3",
+      "outline": "#8a9096"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "salon"
+    ]
+  },
+  {
+    "id": "bathroom_sink_cream",
+    "name": "Cream Bathroom Sink",
+    "template": "bathroom_sink",
+    "palette": {
+      "main": "#f2ebdc",
+      "trim": "#e0d6c2",
+      "accent": "#d4af37",
+      "outline": "#8a8270"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "salon"
+    ]
+  },
+  {
+    "id": "bathroom_sink_blue",
+    "name": "Blue Bathroom Sink",
+    "template": "bathroom_sink",
+    "palette": {
+      "main": "#dfeaf2",
+      "trim": "#c4d6e4",
+      "accent": "#c9ced3",
+      "outline": "#6a7e8e"
+    },
+    "tags": [
+      "bathroom",
+      "hotel",
+      "salon"
+    ]
+  },
+  {
+    "id": "dressing_table_cream",
+    "name": "Dressing Table",
+    "template": "dressing_table",
+    "palette": {
+      "main": "#f2e6dc",
+      "trim": "#d4b090",
+      "accent": "#d4af37",
+      "outline": "#7a6450"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "salon",
+      "makeup"
+    ]
+  },
+  {
+    "id": "dressing_table_white",
+    "name": "White Dressing Table",
+    "template": "dressing_table",
+    "palette": {
+      "main": "#f6f4f0",
+      "trim": "#d8d2c4",
+      "accent": "#c9ced3",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "salon",
+      "makeup"
+    ]
+  },
+  {
+    "id": "dressing_table_pink",
+    "name": "Pink Dressing Table",
+    "template": "dressing_table",
+    "palette": {
+      "main": "#f4cdd6",
+      "trim": "#e0a6b4",
+      "accent": "#d4af37",
+      "outline": "#8a5a66"
+    },
+    "tags": [
+      "bedroom",
+      "teen_room",
+      "salon",
+      "makeup"
+    ]
+  },
+  {
+    "id": "bedside_table_oak",
+    "name": "Bedside Table",
+    "template": "bedside_table",
+    "palette": {
+      "main": "#b88a5a",
+      "trim": "#9a6e42",
+      "accent": "#d4af37",
+      "outline": "#5a3e22"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "hotel",
+      "teen_room"
+    ]
+  },
+  {
+    "id": "bedside_table_white",
+    "name": "White Bedside Table",
+    "template": "bedside_table",
+    "palette": {
+      "main": "#f2efe8",
+      "trim": "#ddd7ca",
+      "accent": "#c9ced3",
+      "outline": "#8a857a"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "hotel",
+      "teen_room"
+    ]
+  },
+  {
+    "id": "bedside_table_walnut",
+    "name": "Walnut Bedside Table",
+    "template": "bedside_table",
+    "palette": {
+      "main": "#6e4a2e",
+      "trim": "#553823",
+      "accent": "#d4af37",
+      "outline": "#33200f"
+    },
+    "tags": [
+      "bedroom",
+      "kids_room",
+      "hotel",
+      "teen_room"
+    ]
+  },
+  {
+    "id": "living_rug_red",
+    "name": "Patterned Rug",
+    "template": "living_rug",
+    "palette": {
+      "main": "#c8553d",
+      "trim": "#f2d0a4",
+      "accent": "#2e4057",
+      "outline": "#6a2a1e"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "kids_room",
+      "cosy"
+    ]
+  },
+  {
+    "id": "living_rug_blue",
+    "name": "Blue Rug",
+    "template": "living_rug",
+    "palette": {
+      "main": "#3e6a8a",
+      "trim": "#e8dcc4",
+      "accent": "#c8553d",
+      "outline": "#1e3a50"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "kids_room",
+      "cosy"
+    ]
+  },
+  {
+    "id": "living_rug_pink",
+    "name": "Pink Rug",
+    "template": "living_rug",
+    "palette": {
+      "main": "#e8a6b6",
+      "trim": "#fbeff2",
+      "accent": "#8a5a9a",
+      "outline": "#8a4a5a"
+    },
+    "tags": [
+      "living",
+      "bedroom",
+      "kids_room",
+      "cosy"
+    ]
+  },
+  {
+    "id": "perfume_bottle_pink",
+    "name": "Pink Perfume",
+    "template": "perfume_bottle",
+    "palette": {
+      "main": "#f2a0c0",
+      "trim": "#d4af37",
+      "accent": "#e8c6e0",
+      "outline": "#7a3f5c"
+    },
+    "tags": [
+      "makeup",
+      "salon",
+      "bedroom",
+      "mall"
+    ]
+  },
+  {
+    "id": "perfume_bottle_amber",
+    "name": "Amber Perfume",
+    "template": "perfume_bottle",
+    "palette": {
+      "main": "#e8a040",
+      "trim": "#2e2e2e",
+      "accent": "#f2d8a8",
+      "outline": "#7a4e14"
+    },
+    "tags": [
+      "makeup",
+      "salon",
+      "bedroom",
+      "mall"
+    ]
+  },
+  {
+    "id": "perfume_bottle_lilac",
+    "name": "Lilac Perfume",
+    "template": "perfume_bottle",
+    "palette": {
+      "main": "#b89ad8",
+      "trim": "#d0d4d8",
+      "accent": "#e8dcf4",
+      "outline": "#5a4278"
+    },
+    "tags": [
+      "makeup",
+      "salon",
+      "bedroom",
+      "mall"
+    ]
+  },
+  {
     "id": "leaf_jumper_green",
     "name": "Green Leaf Jumper",
     "palette": {

@@ -82,6 +82,8 @@ try {
   await page.mouse.up().catch(() => undefined);
   await reloaded;
   await page.waitForFunction(() => 'ara' in window && (window as any).ara.world);
+  // The reload takes a moment: wait for the fresh page (it opens on the title) before reading it.
+  await page.waitForFunction(() => (window as any).ara?.stack?.top?.name === 'title', null, { timeout: 5000 }).catch(() => undefined);
   await page.waitForTimeout(300);
   const after = await page.evaluate(async () => {
     const ara = (window as any).ara;
@@ -89,7 +91,7 @@ try {
     return { lots: Object.keys(ara.world.lots).length, found: ara.world.found.length, title: ara.stack.top?.name, sounds: sound.soundsOn() };
   });
   check(after.lots === 0 && after.found === 0, `holding reset gives a fresh world (lots ${after.lots}, found ${after.found})`);
-  check(after.title === 'title', 'after a reset the game starts at the title');
+  check(after.title === 'title', `after a reset the game starts at the title (${after.title})`);
   check(after.sounds === false, 'settings survive a reset');
   await page.evaluate(() => (window as any).ara.play());
   await tap('⚙️');

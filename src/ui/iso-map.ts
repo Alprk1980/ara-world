@@ -96,7 +96,7 @@ function groundAt(x: number, y: number): Ground {
 }
 
 const GROUND_COLOUR: Record<Ground, number> = {
-  water: 0x7fc4ff, sand: 0xf6e3b4, grass: 0x9be37a, road: 0x9aa3ad, plaza: 0xf0e2d0, rail: 0xc9b8a0, runway: 0x8a939d,
+  water: 0x7fc4ff, sand: 0xf6e3b4, grass: 0x9be37a, road: 0x9aa3ad, plaza: 0xf0e2d0, rail: 0x9be37a, runway: 0x8a939d,
   field: 0xc8e070, snow: 0xf4f8ff, rock: 0xb8c4d8, forest: 0x7fcf6a, pond: 0x7fd1ff, boulevard: 0xe8d8c4, pier: 0xc9a27a, fun: 0xffe0ef, yard: 0xa8e889,
 };
 
@@ -123,6 +123,8 @@ export class MapScene implements Scene {
     this.game = game;
     this.world.addChild(this.ground, this.things, this.labels);
     this.labels.eventMode = 'none';
+    // Things are drawn back to front by depth (zIndex); moving things update theirs, so a car passes behind a building.
+    this.things.sortableChildren = true;
     this.view.addChild(this.sky, this.world);
     this.view.eventMode = 'static';
     this.view.on('pointerdown', (e) => this.down(e));
@@ -157,7 +159,7 @@ export class MapScene implements Scene {
         const { x, y } = iso(gx, gy);
         const lift = kind === 'snow' || kind === 'rock' ? mountainHeight(gx, gy) : 0;
         const top = y - lift;
-        const col = GROUND_COLOUR[kind];
+        const col = GROUND_COLOUR[kind === 'rail' && AVENUES_X.includes(gx) ? 'road' : kind];
         const fill = (gx + gy) % 2 ? col : hexNum(shade(`#${col.toString(16).padStart(6, '0')}`, -0.035));
         if (lift > 0) {
           // Cliff faces below a raised tile.
@@ -205,8 +207,10 @@ export class MapScene implements Scene {
       objects.push({ depth: p.gx + p.gy + 2 + (FLOATING.has(p.id) ? 100 : 0), c: this.plotView(p) });
     }
 
-    objects.sort((a, b) => a.depth - b.depth);
-    for (const o of objects) this.things.addChild(o.c);
+    for (const o of objects) {
+      o.c.zIndex = o.depth;
+      this.things.addChild(o.c);
+    }
     for (const a of AREAS) {
       const { x, y } = iso(a.x, a.y);
       const t = label(a.name, 28, COLORS.white);
@@ -225,10 +229,16 @@ export class MapScene implements Scene {
         if (AVENUES_X.includes(gx) && !AVENUES_Y.includes(gy)) g.moveTo(cx - 6, cy - 3).lineTo(cx + 6, cy + 3).stroke({ color: 0xffffff, width: 3 });
         if (AVENUES_Y.includes(gy) && !AVENUES_X.includes(gx)) g.moveTo(cx - 6, cy + 3).lineTo(cx + 6, cy - 3).stroke({ color: 0xffffff, width: 3 });
         break;
-      case 'rail':
-        g.moveTo(x - TW / 2 + 8, cy - 4).lineTo(x + TW / 2 - 8, cy - 4).stroke({ color: 0x6b6b6b, width: 3 }).moveTo(x - TW / 2 + 8, cy + 4).lineTo(x + TW / 2 - 8, cy + 4).stroke({ color: 0x6b6b6b, width: 3 });
-        for (let k = -2; k <= 2; k++) g.rect(cx + k * 16 - 2, cy - 8, 4, 16).fill(0x8a5a3c);
+      case 'rail': {
+        // The railway runs along the grid (+x), so the track goes from the middle of the tile's upper-left edge to the
+        // middle of its lower-right edge and joins up with the next tile's: a gravel bed, sleepers across, two rails.
+        const ax = x - TW / 4, ay = y + TH / 4, ux = TW / 2, uy = TH / 2, vx = -TW / 2, vy = TH / 2;
+        const at = (t: number, k: number) => [ax + ux * t + vx * k, ay + uy * t + vy * k];
+        g.poly([...at(0, -0.3), ...at(1, -0.3), ...at(1, 0.3), ...at(0, 0.3)]).fill(0xb3aa9c);
+        for (const t of [1 / 6, 3 / 6, 5 / 6]) g.moveTo(...(at(t, -0.24) as [number, number])).lineTo(...(at(t, 0.24) as [number, number])).stroke({ color: 0x7a5236, width: 5 });
+        for (const k of [-0.13, 0.13]) g.moveTo(...(at(0, k) as [number, number])).lineTo(...(at(1, k) as [number, number])).stroke({ color: 0x5f6670, width: 3 });
         break;
+      }
       case 'field':
         for (let k = -2; k <= 2; k++) g.moveTo(cx + k * 12 - 14, cy + k * 6 - 7).lineTo(cx + k * 12 + 14, cy + k * 6 + 7).stroke({ color: (gx + gy) % 3 ? 0xa8c84a : 0xe8c84a, width: 4 });
         break;
@@ -356,7 +366,9 @@ export class MapScene implements Scene {
     // The train runs along the railway; boats sail round the island; a balloon drifts over.
     const train = vehicle('🚂', () => this.goTo('train_station'));
     this.things.addChild(train);
-    this.movers.push({ c: train, path: [at(2, RAIL_Y), at(N - 3, RAIL_Y), at(2, RAIL_Y)], t: 0.2, speed: 0.02, flip: true });
+    const track = Array.from({ length: N }, (_, x) => x).filter((x) => groundAt(x, RAIL_Y) === 'rail');
+    const ends = [at(track[0] + 0.5, RAIL_Y), at(track[track.length - 1] - 0.5, RAIL_Y)];
+    this.movers.push({ c: train, path: [ends[0], ends[1], ends[0]], t: 0.2, speed: 0.02, flip: true });
     const sea = [at(-3, -3), at(N + 2, -3), at(N + 2, N + 2), at(-3, N + 2), at(-3, -3)];
     for (const [emoji, t] of [['⛵', 0], ['🚤', 0.45], ['🛳️', 0.7]] as const) {
       const b = vehicle(emoji, () => this.game.toast.show('Ahoy! ⚓'));
@@ -480,6 +492,8 @@ export class MapScene implements Scene {
       const k = m.t * segs, i = Math.floor(k), f = k - i;
       const a = m.path[i], b = m.path[i + 1];
       m.c.position.set(a.x + (b.x - a.x) * f, a.y + (b.y - a.y) * f);
+      // Depth in the same units as the scenery (gx + gy of the tile it is on), a little ahead of things on that tile.
+      if (m.c.parent === this.things) m.c.zIndex = m.c.y / (TH / 2) - 0.5;
       if (m.flip) m.c.scale.x = b.x < a.x ? -1 : 1;
     }
     if (this.beam) {

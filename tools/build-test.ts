@@ -21,8 +21,8 @@ const check = (ok: boolean, what: string) => {
 };
 const PLACE = 'cafe';
 /** A thing of one of these categories that is on screen, with a point to grab it by. */
-const find = (cats: string[]) =>
-  page.evaluate(async (cats) => {
+const find = (cats: string[], minX = 260) =>
+  page.evaluate(async ([cats, minX]) => {
     const ara = (window as any).ara;
     const data = await import(/* @vite-ignore */ '/src/data/index.ts' as string);
     const scene = ara.stack.top;
@@ -33,10 +33,10 @@ const find = (cats: string[]) =>
       if (!t || !cats.includes(data.categoryOf(t.item))) continue;
       const b = s.getBounds();
       const x = b.x + b.width / 2, y = b.y + b.height * 0.6;
-      if (x > 260 && x < 1100 && y > 150 && y < 760) return { uid: t.uid, x, y, tx: t.x };
+      if (x > minX && x < 1100 && y > 150 && y < 760) return { uid: t.uid, x, y, tx: t.x };
     }
     return null;
-  }, cats);
+  }, [cats, minX] as const);
 const xOf = (uid: string) => page.evaluate((uid) => {
   const s = (window as any).ara.stack.top;
   return s.game.world.layouts[`${s.placeId}:${s.floorIndex}`].find((t: any) => t.uid === uid)?.x ?? null;
@@ -83,10 +83,12 @@ try {
   check(state.building && state.panel && state.glyph === '✅', 'the 🔨 turns on build mode, opens the catalogue and shows ✅');
   await page.screenshot({ path: 'out/build/1-build-mode.png' });
 
-  const furn2 = await find(['furniture', 'decor']);
+  // The catalogue covers the left of the screen in build mode: pick furniture right of it.
+  const furn2 = await find(['furniture', 'decor'], 700);
   if (furn2) {
     await drag(furn2.x, furn2.y, -140);
-    check((await xOf(furn2.uid)) !== furn2.tx, 'in build mode furniture moves');
+    const moved = await xOf(furn2.uid);
+    check(moved !== furn2.tx, `in build mode furniture moves (${JSON.stringify(furn2)} -> ${moved})`);
   } else check(false, 'furniture still on screen beside the catalogue');
 
   const before = await page.evaluate(() => {

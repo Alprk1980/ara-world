@@ -57,6 +57,8 @@ really are), centred, longest side 80%+ of the canvas, standing on the bottom ar
 - "anchors": points [x, y] inside the drawing. Required per category: {{anchors}}.
   base = bottom centre where it rests (y at the bottom edge of the drawing, the ground shadow may be just below);
   grip = where a hand holds it; optional seat (chairs, sofas, beds) and top (tables, shelves).
+  shelf1, shelf2, shelf3 are the lower shelves of a shelf unit (bottom to top), each at the centre of that shelf
+  board's upper face. Keep the shelves EMPTY, with clear space above each board, so things can be put on them.
 
 Two examples in this style (one wearable, one object):
 {{examples}}

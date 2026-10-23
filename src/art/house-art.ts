@@ -5,18 +5,25 @@ import type { House } from '../../schemas/house.ts';
 import type { Place } from '../../schemas/place.ts';
 import { hexNum, shade } from './color.ts';
 
-/** Colourways per blueprint: every mix of wall, roof and door colours (12 x 12 x 6 = 864 possible; 300 shown). */
-export const VARIANTS = 300;
+/** Colourways per blueprint: every mix of wall, roof and door colours (12 x 12 x 6). Variant 0 is the blueprint's own. */
+export const VARIANTS = 864;
 
-const ROOFS = ['#e05a7a', '#c2557a', '#7b4fa0', '#3a6ea5', '#2f9e8f', '#e0784a', '#b8433f', '#5f8f3f', '#d4a017', '#8a5a3c', '#4f63c2', '#c24fa0'];
-const DOORS = ['#7fd1c7', '#ff8fb8', '#ffd36e', '#7fb8ff', '#b197fc', '#ff9f43'];
-const HUES = ['#ffb3c7', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff', '#a0c4ff', '#bdb2ff', '#ffc6ff', '#ffffff', '#f4d6c6', '#d8e2dc', '#ffe5ec'];
+export const ROOFS = ['#e05a7a', '#c2557a', '#7b4fa0', '#3a6ea5', '#2f9e8f', '#e0784a', '#b8433f', '#5f8f3f', '#d4a017', '#8a5a3c', '#4f63c2', '#c24fa0'];
+export const DOORS = ['#7fd1c7', '#ff8fb8', '#ffd36e', '#7fb8ff', '#b197fc', '#ff9f43'];
+export const HUES = ['#ffb3c7', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff', '#a0c4ff', '#bdb2ff', '#ffc6ff', '#ffffff', '#f4d6c6', '#d8e2dc', '#ffe5ec'];
 
 export function exteriorFor(h: House, variant: number): House['exterior'] {
   if (variant === 0) return h.exterior;
   // Step through the combinations so neighbouring variants differ in more than one colour.
   const k = (variant * 37) % (HUES.length * ROOFS.length * DOORS.length);
   return { walls: HUES[k % HUES.length], roof: ROOFS[Math.floor(k / HUES.length) % ROOFS.length], door: DOORS[Math.floor(k / (HUES.length * ROOFS.length)) % DOORS.length], trim: h.exterior.trim };
+}
+
+/** The variant with these wall, roof and door colours (indexes into HUES, ROOFS and DOORS). */
+export function variantFor(wall: number, roof: number, door: number): number {
+  const k = wall + roof * HUES.length + door * HUES.length * ROOFS.length;
+  for (let v = 1; v < VARIANTS; v++) if ((v * 37) % VARIANTS === k) return v;
+  return 0;
 }
 
 /** Draw a house front into g, `w` wide, standing on y=0 (grows upward). */
