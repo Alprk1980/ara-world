@@ -19,7 +19,10 @@ const count = Number(opt('--count', '8'));
 const batches = Number(opt('--batches', '1'));
 const replace = new Set(opt('--replace', '').split(',').map((s) => s.trim()).filter(Boolean));
 // --ask may list items separated by ";" — each batch then gets the next `count` of them.
-const askList = opt('--ask', '').split(';').map((s) => s.trim()).filter(Boolean);
+// A leading "@" reads the asks from a file (long asks get mangled by shell quoting).
+let askRaw = opt('--ask', '');
+if (askRaw.startsWith('@')) askRaw = readFileSync(askRaw.slice(1), 'utf8');
+const askList = askRaw.split(';').map((s) => s.trim()).filter(Boolean);
 mkdirSync('.qwen-runs', { recursive: true });
 
 async function runBatch(batch: number): Promise<number> {

@@ -80,8 +80,10 @@ export function placeErrors(p: Place, all: readonly Place[], ctx: Omit<Ctx, 'pla
   if (typeof p?.name !== 'string' || p.name.length < 2 || p.name.length > 28) err('name: 2-28 characters');
   if (typeof p?.emoji !== 'string' || [...p.emoji].length < 1 || [...p.emoji].length > 3 || /[a-z0-9]/i.test(p.emoji)) err('emoji: one emoji');
   if (!(DISTRICTS as readonly string[]).includes(p?.district)) err(`district: one of ${DISTRICTS.join(', ')}`);
-  if (!Array.isArray(p?.floors) || p.floors.length < 1 || p.floors.length > 4) {
-    err('floors: 1-4 floors');
+  // A public home may be as grand as the blueprint the hammer builds (schemas/house.ts): a mansion carries six floors.
+  const maxFloors = p?.district === 'homes' ? 6 : 4;
+  if (!Array.isArray(p?.floors) || p.floors.length < 1 || p.floors.length > maxFloors) {
+    err(`floors: 1-${maxFloors} floors`);
     return out;
   }
   const placeIds = new Set(all.map((o) => o.id));

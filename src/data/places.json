@@ -6683,57 +6683,47 @@
     "district": "homes",
     "floors": [
       {
-        "name": "Ground Floor",
-        "outdoor": false,
-        "wall": "#fff0e6",
-        "ground": "#d9b38c",
-        "width": 1015,
+        "name": "Grand Hall",
+        "wall": "#fff3d6",
+        "ground": "#c9a27a",
+        "width": 804,
         "items": [
           {
-            "item": "grand_piano_sky",
-            "x": 82
+            "item": "round_sofa_coral",
+            "x": 94
           },
           {
-            "item": "velvet_sofa_sky",
-            "x": 214
+            "item": "round_table_white",
+            "x": 220
           },
           {
-            "item": "chandelier_lilac",
+            "item": "velvet_sofa_strawberry",
             "x": 326
           },
           {
-            "item": "cosy_fireplace_lilac",
-            "x": 428
+            "item": "big_window_white",
+            "x": 204,
+            "y": 62
           },
           {
-            "item": "tea_table_sky",
-            "x": 530
+            "item": "tall_fridge_steel",
+            "x": 470
           },
           {
-            "item": "tea_cup_sky",
-            "x": 530,
-            "y": 26.07
+            "item": "kitchen_table_peach",
+            "x": 577
           },
           {
-            "item": "gift_cabinet_sky",
-            "x": 617
+            "item": "painted_stool_red",
+            "x": 661
           },
           {
-            "item": "rose_vase_sky",
-            "x": 617,
-            "y": 70
+            "item": "painted_stool_yellow",
+            "x": 710
           },
           {
-            "item": "window_seat_mint",
-            "x": 719
-          },
-          {
-            "item": "pool_table_sky",
-            "x": 841
-          },
-          {
-            "item": "floor_lamp_gold",
-            "x": 950.5
+            "item": "painted_stool_blue",
+            "x": 759
           }
         ]
       },
@@ -6742,39 +6732,39 @@
         "outdoor": true,
         "wall": "#bfe6ff",
         "ground": "#8ce99a",
-        "width": 1028,
+        "width": 1004,
         "items": [
           {
-            "item": "beach_umbrella_lilac",
-            "x": 64.8
+            "item": "beach_umbrella_sky",
+            "x": 59
           },
           {
-            "item": "pool_lounger_lemon",
-            "x": 164.6
+            "item": "pool_lounger_lilac",
+            "x": 151
           },
           {
-            "item": "pool_lounger_strawberry",
-            "x": 264.3
+            "item": "pool_lounger_sky",
+            "x": 243
           },
           {
-            "item": "heated_pool_deep",
-            "x": 410.6
+            "item": "heated_pool_blue",
+            "x": 382
           },
           {
-            "item": "bbq_grill_steel",
-            "x": 556.4
+            "item": "bbq_grill_black",
+            "x": 554
           },
           {
-            "item": "long_garden_table_teak",
-            "x": 672.7
+            "item": "long_garden_table_wood",
+            "x": 662
           },
           {
-            "item": "waterpark_snack_stand_sky",
-            "x": 796.4
+            "item": "waterpark_snack_stand_strawberry",
+            "x": 778
           },
           {
-            "item": "pool_drink_cart_sky",
-            "x": 933.2
+            "item": "pool_drink_cart_strawberry",
+            "x": 907
           }
         ]
       },
@@ -6783,73 +6773,140 @@
         "outdoor": true,
         "wall": "#bfe6ff",
         "ground": "#8ce99a",
-        "width": 1092,
+        "width": 1009,
         "items": [
           {
             "item": "garden_treehouse_wood",
-            "x": 139.4
+            "x": 123
           },
           {
-            "item": "garden_swing_set_gold",
-            "x": 353.9
+            "item": "garden_swing_set_strawberry",
+            "x": 319
           },
           {
-            "item": "rainbow_slide_mint",
-            "x": 509.3
+            "item": "rainbow_slide_strawberry",
+            "x": 456
           },
           {
-            "item": "sandbox_blue",
-            "x": 620.2
+            "item": "sandbox_wood",
+            "x": 549
           },
           {
-            "item": "waterpark_splash_pad_lilac",
-            "x": 821.1
+            "item": "waterpark_splash_pad_strawberry",
+            "x": 765
           },
           {
-            "item": "baby_slide_sky",
-            "x": 1021.6
+            "item": "baby_slide_lilac",
+            "x": 947
           }
         ]
       },
       {
-        "name": "Rooftop",
-        "outdoor": true,
-        "wall": "#bfe6ff",
-        "ground": "#8ce99a",
-        "width": 655,
+        "name": "Garage & Game Room",
+        "wall": "#e8e4dc",
+        "ground": "#9aa3ad",
+        "width": 794,
         "items": [
           {
-            "item": "garden_fountain_lemon",
-            "x": 67.4
+            "item": "garage_door_white",
+            "x": 67
           },
           {
-            "item": "flower_bed_lilac",
-            "x": 174.8
+            "item": "cute_small_car_strawberry",
+            "x": 159
           },
           {
-            "item": "flower_bed_lemon",
-            "x": 287.1
+            "item": "fire_station_tool_cabinet_strawberry",
+            "x": 244
           },
           {
-            "item": "garden_bench_cocoa",
-            "x": 394.5
+            "item": "arcade_machine_blue",
+            "x": 366
           },
           {
-            "item": "cute_potted_plant_sky",
-            "x": 475.9
+            "item": "arcade_machine_red",
+            "x": 449
           },
           {
-            "item": "tea_table_strawberry",
-            "x": 547.3
+            "item": "pool_table_strawberry",
+            "x": 546
           },
           {
-            "item": "lemonade_glass_lilac",
-            "x": 547.3,
-            "y": 26.07
+            "item": "velvet_sofa_strawberry",
+            "x": 663
           },
           {
-            "item": "big_rose_bloom_lemon",
-            "x": 613.6
+            "item": "painted_stool_purple",
+            "x": 749
+          }
+        ]
+      },
+      {
+        "name": "Bedrooms",
+        "wall": "#f3e6ff",
+        "ground": "#c9a27a",
+        "width": 771,
+        "items": [
+          {
+            "item": "double_bed_gold",
+            "x": 70
+          },
+          {
+            "item": "round_table_black",
+            "x": 172
+          },
+          {
+            "item": "big_window_white",
+            "x": 119,
+            "y": 62
+          },
+          {
+            "item": "canopy_bed_strawberry",
+            "x": 312
+          },
+          {
+            "item": "arcade_machine_purple",
+            "x": 415
+          },
+          {
+            "item": "tinted_glass_shower_smoke",
+            "x": 544
+          },
+          {
+            "item": "bubble_bathtub_bubblegum",
+            "x": 674
+          }
+        ]
+      },
+      {
+        "name": "Playroom Attic",
+        "wall": "#ffe3ef",
+        "ground": "#e8d2b8",
+        "width": 479,
+        "items": [
+          {
+            "item": "mall_toy_shelf_strawberry",
+            "x": 60
+          },
+          {
+            "item": "train_set_strawberry",
+            "x": 133
+          },
+          {
+            "item": "painted_stool_green",
+            "x": 184
+          },
+          {
+            "item": "painted_cot_pink",
+            "x": 281
+          },
+          {
+            "item": "daycare_changing_table_strawberry",
+            "x": 366
+          },
+          {
+            "item": "daycare_soft_blocks_strawberry",
+            "x": 435
           }
         ]
       }

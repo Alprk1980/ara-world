@@ -7,6 +7,12 @@
    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><path d=\"M60 34 L196 34 C216 34 232 50 232 70 L232 246 L190 246 L190 100 L66 100 L66 246 L24 246 L24 70 C24 50 40 34 60 34 Z\" fill=\"{{main}}\"/><path d=\"M60 34 L196 34 C216 34 232 50 232 70 L232 246 L190 246 L190 100 L66 100 L66 246 L24 246 L24 70 C24 50 40 34 60 34 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M24 100 L232 100\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><path d=\"M36 110 L36 240\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M50 106 L50 242\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.75\"/><path d=\"M206 106 L206 242\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M220 110 L220 240\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.75\"/><path d=\"M92 44 L88 98\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M128 40 L128 98\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.75\"/><path d=\"M164 44 L168 98\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M64 56 C96 46 160 46 192 56\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.3\"/></svg>"
   },
   {
+   "id": "real_short_crop_hair",
+   "name": "Short Crop Hair",
+   "category": "hair",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><defs><linearGradient id=\"H\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3a2a2a\" stop-opacity=\"0.28\"/><stop offset=\"0.22\" stop-color=\"#ffffff\" stop-opacity=\"0.34\"/><stop offset=\"0.42\" stop-color=\"#ffffff\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#3a2a2a\" stop-opacity=\"0.36\"/></linearGradient></defs><path d=\"M40 178 C30 92 70 42 128 42 C186 42 226 92 216 178 L204 178 C204 132 196 114 186 104 C160 96 96 96 70 104 C60 114 52 132 52 178 Z\" fill=\"{{main}}\"/><path d=\"M40 178 C30 92 70 42 128 42 C186 42 226 92 216 178 L204 178 C204 132 196 114 186 104 C160 96 96 96 70 104 C60 114 52 132 52 178 Z\" fill=\"url(#H)\" stroke=\"{{outline}}\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M76 70 L84 62 M96 58 L104 52 M118 54 L126 48 M140 54 L148 50 M160 58 L168 54 M180 66 L186 62 M86 84 L94 76 M110 74 L118 68 M136 74 L144 70 M160 80 L168 74\" fill=\"none\" stroke=\"{{trim}}\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.7\"/><path d=\"M70 74 C96 54 160 54 186 74\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M46 124 L46 172 M210 124 L210 172\" fill=\"none\" stroke=\"{{outline}}\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/></svg>"
+  },
+  {
    "id": "real_tshirt",
    "name": "Cotton T-shirt",
    "category": "top",
@@ -332,6 +338,20 @@
    "id": "real_long_hair",
    "name": "Long Wavy Hair",
    "template": "real_long_hair",
+   "palette": {
+    "main": "#6b4226",
+    "trim": "#9c6b43",
+    "accent": "#b88a5a",
+    "outline": "#3b2414"
+   },
+   "tags": [
+    "shop"
+   ]
+  },
+  {
+   "id": "real_short_crop_hair",
+   "name": "Short Crop Hair",
+   "template": "real_short_crop_hair",
    "palette": {
     "main": "#6b4226",
     "trim": "#9c6b43",

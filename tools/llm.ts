@@ -17,7 +17,7 @@ export async function chat(messages: Message[], opts: { model?: string; maxToken
       return await chatOnce(messages, opts);
     } catch (e) {
       const msg = (e as Error).message;
-      const transient = /unloaded|loading|fetch failed|ECONNRESET|terminated|HTTP 5\d\d/i.test(msg);
+      const transient = /unloaded|loading|fetch failed|ECONNRESET|terminated|HTTP 5\d\d|empty reply/i.test(msg);
       if (!transient || tries >= 6) throw e;
       console.log(`  (server: ${msg.slice(0, 80)}; retrying in 30s)`);
       await new Promise((r) => setTimeout(r, 30_000));
@@ -28,7 +28,8 @@ export async function chat(messages: Message[], opts: { model?: string; maxToken
 async function chatOnce(messages: Message[], opts: { model?: string; maxTokens?: number; temperature?: number }): Promise<string> {
   const res = await fetch(`${BASE}/chat/completions`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    // The strata server (LLM_URL .../v1 on :8080) wants a bearer key; LM Studio on :1234 does not.
+    headers: { 'Content-Type': 'application/json', ...(process.env.LLM_API_KEY ? { Authorization: `Bearer ${process.env.LLM_API_KEY}` } : {}) },
     body: JSON.stringify({
       model: opts.model ?? MODEL,
       messages,

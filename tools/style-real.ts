@@ -312,8 +312,14 @@ const pal = (main: string, trim: string, accent: string, outline: string) => ({ 
 const wear = (id: string, name: string, category: string, svgText: string, palette: Item['palette']): Sample => ({ t: { id, name, category, svg: svgText }, palette, tags: ['shop'] });
 const obj = (id: string, name: string, category: string, size: { w: number; h: number }, anchors: Template['anchors'], svgText: string, palette: Item['palette'], tags: string[], bites?: number): Sample => ({ t: { id, name, category, size, anchors, svg: svgText }, palette, tags, bites });
 
+// A SECOND hair example: the game's own shipped short grammar (cap + stubble ticks), so short asks
+// see a proven short design next to the long one (tools/kinds.ts feeds both when the ask is "(hair)").
+const shortCropSvg = (JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as Template[])
+  .find((t) => t.id === 'short_crop_hair')!.svg;
+
 export const SAMPLES: Sample[] = [
   wear('real_long_hair', 'Long Wavy Hair', 'hair', hair, pal('#6b4226', '#9c6b43', '#b88a5a', '#3b2414')),
+  wear('real_short_crop_hair', 'Short Crop Hair', 'hair', shortCropSvg, pal('#6b4226', '#9c6b43', '#b88a5a', '#3b2414')),
   wear('real_tshirt', 'Cotton T-shirt', 'top', top, pal('#2b4162', '#e9ecef', '#e9c46a', '#1b2a41')),
   wear('real_jeans', 'Blue Jeans', 'bottom', bottom, pal('#3d5a80', '#e0a458', '#b08d57', '#22334a')),
   wear('real_sundress', 'Summer Dress', 'dress', dress, pal('#f4a6b7', '#fbe4e9', '#ffffff', '#9c4f60')),

@@ -12,7 +12,7 @@ export function realStyleErrors(t: Template & { palette?: Record<string, string>
   const out: string[] = [];
   const err = (m: string) => out.push(`${id}: ${m}`);
   const svg = typeof t?.svg === 'string' ? t.svg : '';
-  if (t?.category !== 'glasses' && !/fill="url\(#[\w-]+\)"/.test(svg)) err('shade it: lay a gradient overlay (fill="url(#L)" etc.) over the main shapes, like the examples');
+  if (t?.category !== 'glasses' && !/fill=['"]url\(#[\w-]+\)['"]/.test(svg)) err('shade it: lay a gradient overlay (fill="url(#L)" etc.) over the main shapes, like the examples');
   for (const m of svg.matchAll(/<(path|rect|circle|ellipse|polygon)\b([^>]*)>/g)) {
     // Outlines ({{outline}} strokes round filled shapes) are thin; a thick coloured stroke can be the thing itself
     // (a glasses frame, a strap).

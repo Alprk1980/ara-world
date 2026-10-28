@@ -13,8 +13,9 @@ describe('realistic style samples', () => {
     for (const t of samples.templates) expect(templateErrors(t, samples.templates), t.id).toEqual([]);
     for (const it of samples.items) expect(itemErrors(it, samples.items, templates), it.id).toEqual([]);
   });
-  it('cover every category once', () => {
-    expect(samples.templates.map((t) => t.category).sort()).toEqual([...TEMPLATE_CATEGORIES].sort());
+  it('cover every category, with hair shown twice (long AND short grammar)', () => {
+    // real_short_crop_hair is a deliberate second hair example: short asks must see a proven short design.
+    expect(samples.templates.map((t) => t.category).sort()).toEqual([...TEMPLATE_CATEGORIES, 'hair'].sort());
   });
 });
 
