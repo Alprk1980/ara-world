@@ -21,8 +21,10 @@ const all = (JSON.parse(readFileSync(fresh ? 'src/data/templates.json' : 'src/da
 let list = all.filter((t) => (ids ? ids.includes(t.id) : !cats || cats.includes(t.category)));
 if (args.includes('--open')) {
   const opens = JSON.parse(readFileSync('src/data/templates-open.json', 'utf8')) as { id: string; svg: string }[];
-  list = opens.flatMap((o) => {
-    const c = all.find((t) => t.id === o.id)!;
+  // Things drawn new in the realistic style keep their closed drawing in templates.json.
+  const closed = [...all, ...(JSON.parse(readFileSync('src/data/templates.json', 'utf8')) as Sheet[]).filter((t) => t.palette)];
+  list = opens.filter((o) => !ids || ids.includes(o.id)).flatMap((o) => {
+    const c = closed.find((t) => t.id === o.id)!;
     return [c, { ...c, id: `${c.id} (open)`, svg: o.svg }];
   });
 }

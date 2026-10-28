@@ -10,6 +10,9 @@ What's next for the game. Her notes (15 pages, 2026-10-18) are the spec; this li
 - [ ] **Tablet install over Tailscale**: enable HTTPS certificates in the Tailscale admin console first.
 - [ ] **Hidden places**: where they go and how many. She picks. Right now they're placed automatically as secret spots.
 
+## Fixes
+- [ ] Makeup shop: a glass display shelf stands in front of the nail polish rack and catches taps meant for it.
+
 ## Ideas
 - [ ] Clothes she draws herself on the draw pad (it only makes objects now).
 - [ ] Delete or recolour saved drawings.
@@ -26,6 +29,8 @@ What's next for the game. Her notes (15 pages, 2026-10-18) are the spec; this li
 ## Done
 - 20 new salon hairstyles: 5 of Qwen's kept, 15 redrawn by Claude (`tools/real-hair-2.ts`).
 - Post office: miss a day and you get two prizes the next day (never more than two).
+- Open a container (fridges, boxes, jars, baskets, post boxes, shop shelves, counters, the freezer and the ice cream
+  cart) and its things are inside it, to drag out; shutting it puts the rest back. Fridges and shelves hold up to 16.
 - Proof of concept, playable: wardrobe, travel, bin, sleep, night glow, idle life, map buildings, music.
 - Draw pad v1 (objects).
 - Realistic style is the default, with her blocky body shape; realistic title screen and rose.

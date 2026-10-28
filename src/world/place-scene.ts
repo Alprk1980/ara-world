@@ -7,7 +7,7 @@ import type { Scene } from '../app/scenes.ts';
 import type { Floor } from '../../schemas/place.ts';
 import { WALL_HEIGHT, OUTDOOR_HEIGHT } from '../../schemas/place.ts';
 import { categoryOf, houses, items, places } from '../data/index.ts';
-import { anchorOffset, itemSize, itemSprite, showOpen, surfaceHeights } from '../art/geometry.ts';
+import { anchorOffset, insideShelves, itemSize, itemSprite, showOpen, surfaceHeights } from '../art/geometry.ts';
 import { hasOpenArt } from '../art/look.ts';
 import { hexNum, shade } from '../art/color.ts';
 import { dressFloor } from '../art/room-dressing.ts';
@@ -15,7 +15,7 @@ import { themeFor } from '../art/themes.ts';
 import { COLORS, label, pillButton, roundButton } from '../ui/kit.ts';
 import { itemThumb } from '../ui/creator.ts';
 import { playSound } from '../ui/sound.ts';
-import { COOKS, MOUNTS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, is, makeupKind, mountBack } from './behaviours.ts';
+import { COOKS, MOUNTS, SALON, SCREENS, SPLASH, SWINGS, SWITCHES, containerOf, fillInside, is, makeupKind, mountBack } from './behaviours.ts';
 import { emotions } from '../data/index.ts';
 import { Rig } from './rig.ts';
 import { floorsOf, persist, thingsOn, uid, type Person, type Thing } from './state.ts';
@@ -407,11 +407,13 @@ export class PlaceScene implements Scene {
       const movable = this.canMove(d.thing);
       if (movable) d.sprite.scale.set(d.sprite.scale.x / 1.08);
       if (this.building && Math.hypot(e.global.x - this.bin.x, e.global.y - this.bin.y) < 60) {
+        this.emptyInside(d.thing, d.floor);
         this.removeThing(d.thing, d.floor);
         this.sparkle(this.floorViews[d.floor], d.thing.x, -d.thing.y);
         d.sprite.destroy();
         // Whatever stood on it falls to the next surface down.
         for (const l of d.load) {
+          if (l.sprite.destroyed) continue;
           l.thing.y = this.surfaceBelow(l.thing.x, l.thing.y, d.floor, l.thing);
           l.sprite.position.set(l.thing.x, -l.thing.y);
         }
@@ -429,11 +431,13 @@ export class PlaceScene implements Scene {
         const takeOut = (id: string) => this.addThing({ item: id, x: clamp(t.x + itemSize(t.item).w / 2 + 12, 10, this.floorData[fl].width - 10), y: 0, uid: uid() }, fl);
         if (WARDROBE.test(items.get(t.item)?.template ?? '')) this.openWardrobeNear(t.x, fl);
         else if (hasOpenArt(items.get(t.item)?.template ?? '')) {
-          // Things with an open drawing open and shut with a tap; opening a container shows what's inside.
+          // Things with an open drawing open and shut with a tap. An open container shows its things inside it, on its
+          // shelves or peeking out of the top, to drag out; shutting it puts back whatever is left.
           t.open = !t.open;
           showOpen(d.sprite, t.item, t.open);
+          if (!t.open) this.emptyInside(t, fl);
+          else if (containerOf(t.item) && !this.fillInside(t, fl)) this.game.openContainer(t, takeOut);
           persist(this.game.world);
-          if (t.open && containerOf(t.item)) this.game.openContainer(t, takeOut);
         } else if (containerOf(t.item)) this.game.openContainer(t, takeOut);
         else if (SWITCHES.test(items.get(t.item)?.template ?? '')) {
           t.on = !t.on;
@@ -442,6 +446,7 @@ export class PlaceScene implements Scene {
         return;
       }
       if (!movable) return;
+      delete d.thing.in;
       this.dropThing(d.thing, d.sprite, d.floor);
       this.carryLoad(d.thing, d.load);
     } else {
@@ -579,10 +584,10 @@ export class PlaceScene implements Scene {
   /** The things standing on a thing's surfaces (a table-top or shelf levels), with their offsets from it. */
   private loadOn(t: Thing, floor: number): Load {
     const levels = surfaceHeights(t.item);
-    if (!levels.length) return [];
     const layer = this.thingsLayer(floor), w = itemSize(t.item).w;
+    // What stands on its surfaces, and what is inside it.
     return thingsOn(this.game.world, this.placeId, floor)
-      .filter((o) => o !== t && Math.abs(o.x - t.x) < w / 2 && levels.some((h) => Math.abs(o.y - (t.y + h)) < 1.5))
+      .filter((o) => o !== t && (o.in === t.uid || (Math.abs(o.x - t.x) < w / 2 && levels.some((h) => Math.abs(o.y - (t.y + h)) < 1.5))))
       .flatMap((o) => {
         const sprite = layer.getChildByLabel(o.uid) as Sprite | null;
         return sprite ? [{ thing: o, sprite, dx: o.x - t.x, dy: o.y - t.y }] : [];
@@ -667,6 +672,26 @@ export class PlaceScene implements Scene {
     at.y = Math.max(0, y);
     if (bed) rig.position.set(at.x + rig.geo.height / 2, -(at.y + rig.geo.b.legH * 0.6 + rig.geo.b.torsoW * 0.45));
     else rig.position.set(at.x, -at.y);
+  }
+
+  /** Put an opened container's things inside it; false when it has no shelves drawn, or nothing fits in it (a tiny
+   * jar), and it shows the panel instead. */
+  private fillInside(t: Thing, floor: number): boolean {
+    const inside = fillInside(t.item, t.uid, insideShelves(t.item), itemSize);
+    if (!inside.length) return false;
+    this.emptyInside(t, floor);
+    for (const p of inside) this.addThing({ item: p.item, x: t.x + p.x, y: t.y + p.y, uid: uid(), in: t.uid }, floor);
+    playSound('pop');
+    return true;
+  }
+
+  /** Shut a container: the things still inside it go back in. */
+  private emptyInside(t: Thing, floor: number): void {
+    const layer = this.thingsLayer(floor);
+    for (const o of thingsOn(this.game.world, this.placeId, floor).filter((o) => o.in === t.uid)) {
+      this.removeThing(o, floor);
+      (layer.getChildByLabel(o.uid) as Sprite | null)?.destroy();
+    }
   }
 
   private removeThing(t: Thing, floor: number): void {

@@ -18,6 +18,12 @@ export const openId = (templateId: string) => `${templateId}__open`;
 /** Whether a template has an open drawing. */
 export const hasOpenArt = (templateId: string) => templates.has(openId(templateId));
 
+/** A shelf inside an open container, in canvas units: things stand at y between x0 and x1, at most room tall. */
+export type InsideShelf = [y: number, x0: number, x1: number, room: number];
+const insides = new Map((openList as { id: string; inside?: InsideShelf[] }[]).flatMap((o) => (o.inside ? [[o.id, o.inside] as const] : [])));
+/** The shelves (or the rim of the opening) where an open container's things stand, if it has them. */
+export const insideOf = (templateId: string): InsideShelf[] | undefined => insides.get(templateId);
+
 /** Swap in the realistic drawings; call once before anything is drawn. */
 export async function initLook(): Promise<void> {
   applyLook('real');

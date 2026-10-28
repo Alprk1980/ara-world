@@ -3,7 +3,8 @@ import { Rectangle, Sprite } from 'pixi.js';
 import { checkSvg, type Box } from '../../schemas/svg.ts';
 import { items, templates } from '../data/index.ts';
 import { RASTER_SCALE, textureFor } from './textures.ts';
-import { hasOpenArt, openId } from './look.ts';
+import { hasOpenArt, insideOf, openId } from './look.ts';
+import type { Shelf } from '../world/behaviours.ts';
 
 const boxes = new Map<string, Box>();
 
@@ -41,6 +42,16 @@ export function surfaceHeights(itemId: string): number[] {
     const a = anchorOffset(itemId, k);
     return a ? [-a.y] : [];
   });
+}
+
+/** An open container's shelves in world units, relative to its base point (y is the height above it). */
+export function insideShelves(itemId: string): Shelf[] {
+  const t = templates.get(items.get(itemId)?.template ?? '');
+  const inside = t ? insideOf(t.id) : undefined;
+  if (!t || !inside) return [];
+  const u = unitsPerCanvas(t.id);
+  const base = t.anchors?.base ?? [128, templateBox(t.id).maxY];
+  return inside.map(([y, x0, x1, room]) => ({ y: (base[1] - y) * u, x0: (x0 - base[0]) * u, x1: (x1 - base[0]) * u, room: room * u }));
 }
 
 /** Width and height of an item in world units. */

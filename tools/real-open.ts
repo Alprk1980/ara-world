@@ -2,21 +2,27 @@
 // chests with the lid up and things inside, jars with the lid off, post boxes full of letters, gates and stable
 // doors open. Each is drawn on the same canvas as the closed drawing (same base, same size), so the game swaps one
 // texture for the other in place. Written to src/data/templates-open.json.
+// Containers (src/world/behaviours.ts) are drawn empty, with `inside`: the shelves, or the rim of the opening, where
+// the game stands the real things you can take out. Each is [y, x from, x to, room above] in canvas units.
 //
 //   node tools/real-open.ts
 import { readFileSync, writeFileSync } from 'node:fs';
 import { checkSvg } from '../schemas/svg.ts';
-import { A, B, C, E, G, K, M, O, P, T, W, bar, dot, f, ground, oval, s, star, svg, tyre } from './real-kit.ts';
+import { A, B, C, E, G, K, M, O, P, T, W, back, bar, box, dot, f, ground, legs, oval, s, shelves, slab, star, svg, tyre } from './real-kit.ts';
 
-type Open = { id: string; body: string };
-const op = (id: string, body: string): Open => ({ id, body });
+type Shelf = [y: number, x0: number, x1: number, room: number];
+type Open = { id: string; body: string; inside?: Shelf[] };
+const op = (id: string, body: string, inside?: Shelf[]): Open => ({ id, body, inside });
 // Dark inside, lit a little from the opening.
 const inside = (x: number, y: number, w: number, h: number, r = 4) => B(x, y, w, h, r, K, 'V', 1.5);
-const letter = (x: number, y: number, w = 40, h = 26) => B(x, y, w, h, 2, W, 'L', 1.2) + s(`M${x} ${y} L${x + w / 2} ${y + h * 0.55} L${x + w} ${y}`, O, 1.2, 0.5);
+// As in tools/real-furniture-b.ts and tools/real-decor-b.ts: a shop counter, and a sweet jar's glass.
+const counter = (y: number, fill = M, panel = T) => slab(10, 246, y, 10, 14) + B(16, y + 24, 224, 218 - y, 4, fill, 'L', 2) + B(30, y + 40, 196, 202 - y - 40, 4, panel, 'L', 1.5);
+const jarGlass = (x: number, y: number, w: number, h: number) =>
+  `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${w * 0.18}" fill="#cdeeff" fill-opacity="0.45" stroke="${O}" stroke-width="2"/>` + s(`M${x + 8} ${y + 10} L${x + 8} ${y + h - 10}`, W, 4, 0.5);
+// A lid lifted off and tipped back, above the opening it came from.
+const liftedLid = (x: number, y: number, w: number, fill: string) => P(`M${x + 4} ${y - 8} L${x + w - 4} ${y - 26} L${x + w} ${y - 12} L${x + 8} ${y + 6} Z`, fill, 'V', 1.5);
 const glass = (x: number, y: number, w: number, h: number) =>
   `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${w * 0.2}" fill="#cdeeff" fill-opacity="0.45" stroke="${O}" stroke-width="2"/>` + s(`M${x + 10} ${y + 12} L${x + 10} ${y + h - 12}`, W, 5, 0.5);
-const bone = (x: number, y: number, fill = M) =>
-  P(`M${x - 14} ${y - 4} C${x - 20} ${y - 12} ${x - 8} ${y - 16} ${x - 6} ${y - 6} L${x + 6} ${y - 6} C${x + 8} ${y - 16} ${x + 20} ${y - 12} ${x + 14} ${y - 4} C${x + 20} ${y + 4} ${x + 8} ${y + 10} ${x + 6} ${y + 2} L${x - 6} ${y + 2} C${x - 8} ${y + 10} ${x - 20} ${y + 4} ${x - 14} ${y - 4} Z`, fill, 'L', 1);
 const pencil = (x: number, top: number, bottom: number, fill: string) => B(x, top + 14, 14, bottom - top - 14, 2, fill, 'H', 1.5) + f(`M${x} ${top + 15} L${x + 7} ${top} L${x + 14} ${top + 15} Z`, '#ffffff') + f(`M${x + 4} ${top + 7} L${x + 7} ${top} L${x + 10} ${top + 7} Z`, K);
 
 const list: Open[] = [
@@ -25,10 +31,9 @@ const list: Open[] = [
     ground(128, 242, 70, 4) + B(74, 12, 108, 226, 12, M, 'H') +
       inside(80, 18, 96, 66, 6) + B(84, 22, 88, 58, 4, W, 'V', 0).replace('fill="url(#V)"', 'fill="url(#V)" opacity="0.5"') + E(128, 64, 30, 8, G, 'V', 1) + B(96, 30, 22, 18, 3, G, 'L', 1) +
       B(80, 96, 96, 134, 6, W, 'V', 1.5) + s('M82 140 L174 140 M82 184 L174 184', T, 3) +
-      B(88, 108, 18, 30, 2, W, 'L', 1.5) + B(88, 104, 18, 6, 1, A, 'V', 1) + C(130, 128, 10, A, 'R', 1.5) + P('M148 138 L172 138 L172 120 Z', T, 'L', 1.5) +
-      B(92, 158, 40, 24, 4, A, 'L', 1.5) + C(152, 170, 11, T, 'R', 1.5) + B(100, 196, 14, 32, 4, G, 'H', 1.5) + B(124, 204, 44, 24, 4, T, 'L', 1.5) +
       P('M182 14 L210 26 L210 80 L182 88 Z', M, 'H', 2) + P('M182 92 L210 104 L210 222 L182 236 Z', M, 'H', 2) + B(198, 40, 5, 26, 2, T, 'H', 1) + B(198, 128, 5, 44, 2, T, 'H', 1) +
-      B(84, 234, 18, 8, 2, K, 'V', 1) + B(154, 234, 18, 8, 2, K, 'V', 1)),
+      B(84, 234, 18, 8, 2, K, 'V', 1) + B(154, 234, 18, 8, 2, K, 'V', 1),
+    [[140, 84, 172, 42], [184, 84, 172, 42], [228, 84, 172, 42]]),
   op('fire_station_tool_cabinet',
     ground(128, 242, 76, 5) + B(54, 14, 148, 228, 8, M, 'L') + [96, 148, 200].map((y) => B(64, y - 22, 128, 46, 4, M, 'L', 1.5) + B(108, y - 2, 40, 8, 3, T, 'V', 1)).join('') +
       inside(64, 20, 128, 30, 3) + bar('M84 34 L84 10', T, 4) + C(84, 8, 7, T, 'R', 1.5) + dot(84, 6, 3, K) + B(112, 2, 9, 28, 3, A, 'H', 1.5) + s('M116.5 30 L116.5 40', T, 3) +
@@ -60,13 +65,14 @@ const list: Open[] = [
   op('toy_box',
     ground(128, 242, 116, 5) + P('M14 102 L242 102 L232 40 L24 40 Z', M, 'V', 2) + P('M30 96 L226 96 L218 50 L38 50 Z', K, 'V', 0).replace('fill="url(#V)"', 'fill="url(#V)" opacity="0.4"') +
       B(14, 104, 228, 138, 10, M, 'L') + P('M18 104 L238 104 L232 122 L24 122 Z', K, 'V', 1) +
-      C(70, 96, 28, A, 'R', 2) + P(star(176, 82, 28), T, 'L', 2) + B(110, 70, 40, 44, 4, T, 'L', 2) + C(130, 64, 10, A, 'R', 1.5) +
-      P(star(70, 180, 20), T, 'L', 1.5) + C(128, 180, 18, A, 'R', 1.5) + P(star(186, 180, 20), T, 'L', 1.5)),
+      P(star(70, 180, 20), T, 'L', 1.5) + C(128, 180, 18, A, 'R', 1.5) + P(star(186, 180, 20), T, 'L', 1.5),
+    [[114, 26, 230, 200]]),
   op('treasure_chest',
     ground(128, 242, 116, 5) + P('M20 114 L236 114 L226 26 C200 12 56 12 30 26 Z', M, 'V') + [50, 206].map((x) => P(`M${x - 10} 112 L${x + 10} 112 L${x + 8} 22 L${x - 8} 24 Z`, T, 'H', 1.5)).join('') +
       E(128, 116, 112, 22, T, 'R', 2) + [[50, 104], [80, 98], [110, 94], [144, 96], [176, 100], [204, 106], [96, 108], [160, 110]].map(([x, y]) => C(x, y, 12, T, 'R', 1.2)).join('') +
       P(star(128, 84, 14), A, 'L', 1.5) + dot(64, 92, 7, A) + C(190, 88, 7, W, 'R', 1) + [[90, 70], [168, 66], [128, 50]].map(([x, y]) => P(star(x, y, 7, 4, 0.3), W, 'L', 0)).join('') +
-      B(14, 116, 228, 126, 6, M, 'L') + s('M14 116 L242 116', O, 2) + [50, 206].map((x) => B(x - 10, 116, 20, 126, 2, T, 'H', 1.5)).join('') + B(112, 130, 32, 30, 5, T, 'L', 2) + dot(128, 140, 5, K)),
+      B(14, 116, 228, 126, 6, M, 'L') + s('M14 116 L242 116', O, 2) + [50, 206].map((x) => B(x - 10, 116, 20, 126, 2, T, 'H', 1.5)).join('') + B(112, 130, 32, 30, 5, T, 'L', 2) + dot(128, 140, 5, K),
+    [[112, 34, 222, 200]]),
   op('cute_gift_box',
     ground(128, 242, 92, 5) + P('M30 54 L214 34 L220 62 L36 82 Z', M, 'V', 2) + P('M114 46 L138 43 L144 72 L120 75 Z', T, 'H', 1.5) +
       P('M126 46 C100 6 64 14 76 38 C82 50 108 48 126 46 Z M126 46 C150 4 186 10 176 36 C170 48 144 48 126 46 Z', T, 'L', 2) +
@@ -75,14 +81,15 @@ const list: Open[] = [
       [[70, 150], [180, 190], [80, 210]].map(([x, y]) => dot(x, y, 6, A, 0.7)).join('')),
   op('first_aid_box',
     ground(128, 242, 116, 5) + P('M14 78 L242 78 L232 22 L24 22 Z', M, 'V', 2) + B(86, 30, 84, 18, 8, T, 'V', 1.5) +
-      B(14, 74, 228, 168, 14, M, 'L') + inside(22, 80, 212, 40, 8) + E(64, 96, 18, 14, W, 'R', 1.5) + dot(64, 96, 5, K, 0.2) + B(98, 86, 44, 14, 3, W, 'L', 1.2) + B(110, 90, 20, 6, 1, A, 'V', 0) +
-      B(160, 82, 18, 32, 4, T, 'H', 1.5) + B(190, 88, 28, 22, 3, W, 'L', 1.2) +
-      P('M106 136 L150 136 L150 160 L176 160 L176 202 L150 202 L150 226 L106 226 L106 202 L80 202 L80 160 L106 160 Z', T, 'L', 1.5)),
+      B(14, 74, 228, 168, 14, M, 'L') + inside(22, 80, 212, 40, 8) +
+      P('M106 136 L150 136 L150 160 L176 160 L176 202 L150 202 L150 226 L106 226 L106 202 L80 202 L80 160 L106 160 Z', T, 'L', 1.5),
+    [[110, 30, 226, 200]]),
   op('hospital_bandage_box',
     ground(128, 242, 116, 5) + P('M54 66 L244 66 L244 14 L54 14 Z', M, 'L', 2) + P('M12 100 L54 66 L244 66 L244 200 L202 240 L12 240 Z', M, 'L') +
-      P('M16 98 L56 70 L240 70 L200 98 Z', K, 'V', 1) + [[70, 84], [118, 84], [166, 84]].map(([x, y]) => E(x, y, 20, 8, W, 'V', 1.2) + E(x, y, 6, 2.5, K, 'R', 0)).join('') +
+      P('M16 98 L56 70 L240 70 L200 98 Z', K, 'V', 1) +
       P('M12 100 L202 100 L202 240 L12 240 Z', M, 'L', 2) + P('M202 100 L244 66 L244 200 L202 240 Z', M, 'H', 2) +
-      P('M90 132 L124 132 L124 152 L144 152 L144 186 L124 186 L124 206 L90 206 L90 186 L70 186 L70 152 L90 152 Z', T, 'L', 1.5)),
+      P('M90 132 L124 132 L124 152 L144 152 L144 186 L124 186 L124 206 L90 206 L90 186 L70 186 L70 152 L90 152 Z', T, 'L', 1.5),
+    [[92, 44, 200, 200]]),
   op('mall_shoe_box',
     ground(128, 242, 116, 4) + P('M40 120 L76 40 L250 40 L250 118 Z', T, 'V', 2) +
       P('M12 150 L48 122 L244 122 L208 150 Z', K, 'V', 1) + P('M40 142 C52 120 100 118 120 130 L170 132 C190 132 196 146 182 148 L44 150 Z', A, 'L', 1.5) + s('M70 130 L84 140 M90 128 L100 140', W, 2.5) +
@@ -120,28 +127,32 @@ const list: Open[] = [
   op('picnic_basket',
     ground(128, 242, 116, 5) + bar('M46 100 C46 30 210 30 210 100', M, 6) + P('M14 96 L242 96 L226 242 L30 242 Z', M, 'L') +
       s('M20 128 L236 128 M24 160 L232 160 M28 192 L228 192 M30 222 L226 222', K, 2, 0.18) + s(Array.from({ length: 10 }, (_, i) => `M${32 + i * 21} 98 L${40 + i * 19} 240`).join(' '), K, 2, 0.15) +
-      P('M18 96 L238 96 L234 116 L22 116 Z', K, 'V', 1) + P('M40 96 L110 54 C118 50 124 56 118 62 L64 104 Z', M, 'L', 1.5) + C(150, 92, 14, T, 'R', 1.5) + B(176, 52, 16, 52, 4, G, 'H', 1.5) + B(178, 44, 12, 10, 2, T, 'V', 1) +
-      P('M10 92 L56 92 L40 34 L10 44 Z', T, 'V', 2) + P('M246 92 L200 92 L216 34 L246 44 Z', T, 'V', 2) + f('M16 52 L28 48 L32 62 L18 66 Z M34 80 L46 76 L50 90 L38 92 Z M222 48 L234 52 L232 66 L220 62 Z M208 76 L220 80 L218 92 L206 90 Z', W, 0.85)),
+      P('M18 96 L238 96 L234 116 L22 116 Z', K, 'V', 1) +
+      P('M10 92 L56 92 L40 34 L10 44 Z', T, 'V', 2) + P('M246 92 L200 92 L216 34 L246 44 Z', T, 'V', 2) + f('M16 52 L28 48 L32 62 L18 66 Z M34 80 L46 76 L50 90 L38 92 Z M222 48 L234 52 L232 66 L220 62 Z M208 76 L220 80 L218 92 L206 90 Z', W, 0.85),
+    [[108, 30, 226, 200]]),
   // ---------------------------------------------------------------- jars
   op('cookie_jar',
     ground(128, 242, 104, 5) + glass(36, 60, 184, 182) +
-      [[90, 200], [148, 210], [118, 160], [170, 160], [80, 140], [120, 60]].map(([x, y]) => C(x, y, 24, M, 'R', 1.5) + [[-8, -6], [6, 4], [-2, 10], [10, -8]].map(([dx, dy]) => dot(x + dx, y + dy, 3.5, A)).join('')).join('') +
-      P('M160 30 C162 12 236 4 242 20 L244 34 L162 44 Z', T, 'V', 2) + C(202, 14, 12, T, 'R', 1.5)),
+      P('M160 30 C162 12 236 4 242 20 L244 34 L162 44 Z', T, 'V', 2) + C(202, 14, 12, M, 'R', 1.5),
+    [[234, 48, 208, 172]]),
   op('treat_jar',
-    ground(128, 242, 90, 4) + glass(50, 66, 156, 176) + [[90, 200], [130, 210], [166, 196], [110, 176], [150, 172], [80, 226], [176, 226]].map(([x, y]) => bone(x, y)).join('') + bone(128, 60) +
-      P('M150 30 L224 14 L228 32 L154 46 Z', T, 'V', 1.5) + P('M196 4 L202 14 L212 14 L205 20 L208 30 L198 24 L188 30 L191 20 L184 14 L194 14 Z', A, 'L', 1.5)),
+    ground(128, 242, 90, 4) + glass(50, 66, 156, 176) +
+      P('M150 30 L224 14 L228 32 L154 46 Z', T, 'V', 1.5) + P('M196 4 L202 14 L212 14 L205 20 L208 30 L198 24 L188 30 L191 20 L184 14 L194 14 Z', M, 'L', 1.5),
+    [[236, 60, 196, 166]]),
   op('sprinkle_jar',
-    ground(128, 242, 90, 4) + glass(56, 50, 144, 192) + P('M150 34 C150 22 236 10 240 22 L244 50 L158 62 Z', M, 'V', 2) +
-      [[80, 200, M], [110, 180, T], [150, 210, A], [170, 170, M], [100, 220, A], [136, 150, T], [90, 140, A], [160, 120, M], [120, 110, T], [180, 220, T], [100, 70, M], [140, 40, A], [120, 24, T]].map(([x, y, c]) => B(x as number, y as number, 14, 5, 2.5, c as string, 'V', 0)).join('')),
+    ground(128, 242, 90, 4) + glass(56, 50, 144, 192) + P('M150 34 C150 22 236 10 240 22 L244 50 L158 62 Z', M, 'V', 2),
+    [[236, 64, 192, 180]]),
   // ---------------------------------------------------------------- post boxes
   op('cute_post_box',
     ground(128, 242, 90, 5) + P('M56 78 C56 34 88 14 128 14 C168 14 200 34 200 78 L200 214 L56 214 Z', M, 'H') + E(128, 78, 72, 10, M, 'V', 2) + B(84, 92, 88, 14, 4, K, 'V', 1.5) +
-      inside(70, 116, 116, 92, 6) + letter(80, 176, 44, 26) + letter(122, 180, 50, 24) + letter(92, 152, 46, 26) + letter(132, 158, 36, 22) +
-      P('M186 112 L222 100 L222 222 L186 212 Z', M, 'H', 2) + B(206, 150, 6, 20, 2, T, 'H', 1) + P('M48 214 L208 214 L212 242 L44 242 Z', T, 'V', 2) + P(star(128, 52, 10), A, 'L', 1)),
+      inside(70, 116, 116, 92, 6) +
+      P('M186 112 L222 100 L222 222 L186 212 Z', M, 'H', 2) + B(206, 150, 6, 20, 2, T, 'H', 1) + P('M48 214 L208 214 L212 242 L44 242 Z', T, 'V', 2) + P(star(128, 52, 10), A, 'L', 1),
+    [[204, 76, 180, 86]]),
   op('big_post_box',
     ground(128, 242, 80, 5) + P('M66 60 C66 28 92 12 128 12 C164 12 190 28 190 60 L190 222 L66 222 Z', M, 'H') + E(128, 60, 62, 10, M, 'V', 2) + B(90, 74, 76, 12, 4, K, 'V', 1.5) +
-      inside(78, 98, 100, 116, 6) + letter(86, 180, 40, 24) + letter(124, 184, 44, 22) + letter(96, 154, 44, 26) + letter(130, 160, 36, 22) + letter(104, 130, 40, 24) +
-      P('M178 94 L212 82 L212 228 L178 216 Z', M, 'H', 2) + B(198, 140, 6, 20, 2, T, 'H', 1) + B(60, 218, 136, 24, 4, T, 'V', 2) + P(star(128, 40, 8), A, 'L', 1)),
+      inside(78, 98, 100, 116, 6) +
+      P('M178 94 L212 82 L212 228 L178 216 Z', M, 'H', 2) + B(198, 140, 6, 20, 2, T, 'H', 1) + B(60, 218, 136, 24, 4, T, 'V', 2) + P(star(128, 40, 8), A, 'L', 1),
+    [[210, 82, 174, 110]]),
   // ---------------------------------------------------------------- doors and gates
   op('stable_door',
     ground(128, 242, 92, 5) + B(40, 14, 176, 228, 4, M, 'L') + inside(46, 18, 164, 98, 2) +
@@ -178,11 +189,10 @@ const list: Open[] = [
   // From the furniture page the user's daughter drew: the tall fridge with both doors open, and the jail cell with its door swung open.
   op('tall_fridge',
     ground(128, 243, 110, 4) + B(48, 10, 160, 228, 14, M, 'H') + B(56, 18, 144, 172, 8, W, 'V', 1.5) + s('M58 62 L198 62 M58 106 L198 106 M58 150 L198 150', T, 3) +
-      B(66, 34, 18, 26, 3, W, 'L', 1.5) + B(66, 30, 18, 6, 2, A, 'V', 1) + C(108, 50, 11, A, 'R', 1.5) + B(130, 40, 36, 20, 4, T, 'L', 1.5) + C(180, 52, 8, A, 'R', 1.5) +
-      B(70, 80, 40, 24, 4, A, 'L', 1.5) + C(136, 92, 12, T, 'R', 1.5) + B(160, 74, 14, 30, 4, G, 'H', 1.5) + B(76, 122, 52, 26, 6, T, 'L', 1.5) + C(160, 136, 12, A, 'R', 1.5) +
       B(60, 160, 66, 26, 4, G, 'V', 1.5) + B(130, 160, 66, 26, 4, G, 'V', 1.5) + B(56, 198, 144, 34, 6, M, 'L', 2) + B(90, 210, 76, 8, 3, T, 'V', 1) +
       P('M48 14 L20 30 L20 222 L48 238 Z', M, 'H', 2) + P('M208 14 L236 30 L236 222 L208 238 Z', M, 'H', 2) + s('M28 70 L42 66 M28 130 L42 128 M214 66 L228 70 M214 128 L228 130', T, 4) +
-      B(54, 236, 20, 6, 2, K, 'V', 1) + B(182, 236, 20, 6, 2, K, 'V', 1)),
+      B(54, 236, 20, 6, 2, K, 'V', 1) + B(182, 236, 20, 6, 2, K, 'V', 1),
+    [[62, 60, 196, 42], [106, 60, 196, 42], [150, 60, 196, 42]]),
   op('jail_cell',
     ground(128, 243, 122, 3) + B(14, 40, 228, 200, 4, T, 'L') + s('M14 110 L242 110 M14 180 L242 180 M70 40 L70 110 M150 40 L150 110 M110 110 L110 180 M200 110 L200 180', K, 2, 0.12) +
       B(28, 166, 96, 14, 3, M, 'V', 2) + B(34, 180, 10, 60, 2, M, 'H', 1.5) + B(108, 180, 10, 60, 2, M, 'H', 1.5) + B(196, 60, 28, 30, 3, K, 'V', 1.5) + s('M210 60 L210 90 M196 75 L224 75', T, 3) +
@@ -194,14 +204,96 @@ const list: Open[] = [
     B(8, 40, 240, 204, 6, T, 'L') + s('M8 70 L248 70 M8 100 L248 100 M8 130 L248 130 M8 160 L248 160 M8 190 L248 190 M8 220 L248 220', K, 1.5, 0.2) +
       inside(26, 60, 204, 184, 4) + s('M60 120 L60 150 M80 116 L80 150 M100 120 L100 150', T, 4, 0.6) + B(150, 110, 60, 8, 2, T, 'V', 1) + B(156, 92, 14, 18, 2, A, 'L', 1) + B(178, 96, 22, 14, 2, T, 'L', 1) +
       B(26, 60, 204, 26, 4, M, 'V', 2) + s('M28 72 L228 72', K, 2, 0.16) + B(116, 44, 24, 12, 3, A, 'V', 1.5) + oval(128, 58, 14, 4, W, 0.7)),
+
+  // ---------------------------------------------------------------- shop displays and cabinets: emptied, the real stock stands on them
+  op('parcel_shelf',
+    ground(128, 242, 116, 4) + B(10, 92, 236, 150, 6, M, 'L') + back(22, 104, 212, 58) + back(22, 172, 212, 58) + shelves(22, 234, [160, 228]),
+    [[162, 26, 230, 54], [230, 26, 230, 54]]),
+  op('cute_parcel_belt',
+    ground(128, 242, 116, 4) + B(10, 194, 236, 22, 11, M, 'V') + s(Array.from({ length: 11 }, (_, i) => `M${26 + i * 20} 198 L${26 + i * 20} 212`).join(' '), T, 2, 0.6) +
+      C(20, 205, 8, T, 'R', 1.5) + C(236, 205, 8, T, 'R', 1.5) + legs([30, 118, 210], 216, 242, 12, T),
+    [[196, 24, 232, 150]]),
+  op('product_shelf',
+    ground(128, 242, 94, 5) + B(32, 14, 192, 228, 6, M, 'L') + back(44, 26, 168, 62) + back(44, 100, 168, 62) + back(44, 174, 168, 54) + shelves(44, 212, [88, 162]),
+    [[90, 48, 208, 60], [164, 48, 208, 60], [228, 48, 208, 52]]),
+  op('lipstick_display',
+    ground(128, 242, 116, 5) + slab(10, 246, 112, 10, 130) + B(30, 150, 196, 70, 6, T, 'L', 1.5) + s('M44 186 L212 186', W, 5, 0.4),
+    [[118, 24, 232, 110]]),
+  op('fruit_stand',
+    ground(128, 242, 116, 4) + bar('M24 82 L24 150 M232 82 L232 150', M, 4) + P('M14 82 L242 82 L232 104 L24 104 Z', T, 'V', 2) +
+      f('M24 104 L44 114 L64 104 L84 114 L104 104 L124 114 L144 104 L164 114 L184 104 L204 114 L224 104 Z', '#ffffff') +
+      slab(16, 240, 146, 10, 18) + B(26, 174, 204, 68, 4, M, 'L', 2) + s('M30 194 L226 194 M30 216 L226 216', K, 1.5, 0.2),
+    [[152, 30, 226, 44]]),
+  op('backpack_shelf',
+    ground(128, 242, 104, 5) + B(26, 14, 204, 228, 6, M, 'L') + back(38, 26, 180, 96) + back(38, 134, 180, 96) + shelves(38, 218, [122, 230]),
+    [[124, 42, 214, 94], [232, 42, 214, 94]]),
+  op('sweet_counter',
+    ground(128, 242, 116, 4) + counter(130, M, T) + s('M30 172 C60 182 90 162 120 172 C150 182 180 162 226 172', M, 6, 0.8),
+    [[136, 22, 234, 120]]),
+  op('gift_cabinet',
+    ground(128, 242, 86, 5) + B(46, 14, 164, 228, 6, M, 'L') + back(58, 26, 140, 92) + back(58, 132, 140, 92) + shelves(58, 198, [118, 224]),
+    [[120, 62, 194, 90], [226, 62, 194, 90]]),
+  op('nail_polish_rack',
+    ground(128, 242, 116, 4) + B(12, 46, 232, 196, 6, M, 'L') + back(24, 58, 208, 82) + back(24, 152, 208, 82) + shelves(24, 232, [140, 234]),
+    [[142, 28, 228, 80], [236, 28, 228, 80]]),
+  op('ice_cream_cart',
+    ground(128, 242, 116, 5) + B(124, 20, 8, 100, 3, T, 'H', 1.5) + P('M50 60 C60 20 196 20 206 60 Z', A, 'V', 2) + f('M50 60 C60 20 90 24 100 60 Z M156 60 C166 24 196 20 206 60 Z', T, 0.9) +
+      slab(20, 236, 132, 10, 66) + B(40, 160, 176, 36, 4, T, 'L', 1.5) + tyre(66, 222, 18) + tyre(192, 222, 18),
+    [[138, 30, 226, 70]]),
+  // ---------------------------------------------------------------- open-topped things: emptied, their things peek out of the top
+  op('parcel_pile',
+    ground(128, 242, 116, 5) + box(14, 160, 110, 82, M) + box(132, 176, 108, 66, M) + box(140, 110, 70, 66, M) +
+      P('M42 92 L22 66 L62 62 L74 92 Z', M, 'L', 2) + P('M132 92 L150 64 L110 60 L100 92 Z', M, 'L', 2) +
+      B(42, 92, 90, 68, 3, M, 'L', 2) + P('M46 92 L128 92 L124 102 L50 102 Z', K, 'V', 1) +
+      B(30, 190, 40, 20, 2, T, 'L', 1) + B(150, 190, 40, 16, 2, A, 'L', 1) + s('M60 120 L80 120 M156 130 L176 130', K, 2, 0.3),
+    [[100, 50, 124, 150]]),
+  op('candy_jars',
+    ground(128, 242, 116, 4) + [[16, 104, 70, T], [94, 80, 70, A], [172, 112, 68, M]].map(([x, y, w, lid]) => jarGlass(x as number, y as number, w as number, 242 - (y as number)) + liftedLid(x as number, (y as number) - 14, w as number, lid as string)).join(''),
+    [[236, 22, 80, 120], [236, 100, 158, 150], [236, 178, 234, 116]]),
+  op('crayon_box',
+    ground(128, 242, 108, 5) + P('M32 104 L224 104 L232 118 L24 118 Z', K, 'V', 1) +
+      P('M24 118 L232 118 L222 244 L34 244 Z', M, 'L') + P('M24 118 L232 118 L224 140 L32 140 Z', T, 'V', 2) + P(star(128, 188, 26), T, 'L', 1.5),
+    [[116, 34, 222, 220]]),
+  op('candy_bucket',
+    ground(128, 188, 70, 4) +
+      s('M62 106 C62 0 194 0 194 106', O, 7) + s('M62 106 C62 0 194 0 194 106', T, 4) +
+      P('M58 104 L198 104 C210 140 198 186 128 188 C58 186 46 140 58 104 Z', M, 'R') + E(128, 104, 70, 12, K, 'V', 2) +
+      s('M92 108 C84 140 88 170 100 184 M164 108 C172 140 168 170 156 184', K, 2, 0.18) +
+      f('M90 128 L110 128 L100 114 Z M146 128 L166 128 L156 114 Z M88 148 C104 176 152 176 168 148 L156 154 L148 146 L138 158 L128 148 L118 158 L108 146 L100 154 Z', K, 0.85),
+    [[106, 66, 190, 100]]),
+  op('candy_bowl',
+    ground(128, 186, 100, 4) + E(128, 120, 100, 8, K, 'V', 0) +
+      P('M22 120 L234 120 C230 166 186 186 128 186 C70 186 26 166 22 120 Z', '#ffffff', 'L') + s('M30 122 L226 122', O, 2.5) +
+      s('M40 136 C56 164 92 176 128 178', K, 2, 0.12) + s('M70 128 L186 128', A, 3, 0.6) + s('M52 146 C90 160 166 160 204 146', M, 5, 0.8),
+    [[122, 34, 222, 120]]),
+  op('snack_basket',
+    ground(128, 226, 92, 5) + P('M52 128 C52 18 204 18 204 128 L180 128 C180 62 76 62 76 128 Z', T, 'L') + P('M36 108 L220 108 L230 118 L26 118 Z', K, 'V', 1) +
+      P('M24 128 C24 122 28 118 34 118 L222 118 C228 118 232 122 232 128 L218 208 C216 216 210 220 202 220 L54 220 C46 220 40 216 38 208 Z', M, 'L') +
+      s('M40 150 C90 156 166 156 216 150 M44 170 C90 176 166 176 212 170 M48 190 C90 196 166 196 208 190', T, 2, 0.55) +
+      s('M68 142 L80 218 M100 142 L108 218 M130 142 L130 218 M160 142 L150 218 M190 142 L178 218', K, 2, 0.12),
+    [[118, 36, 220, 110]]),
+  op('sweet_jar',
+    ground(128, 243, 82, 5) +
+      P('M80 66 L176 66 C204 88 214 140 210 190 C208 228 190 240 160 240 L96 240 C66 240 48 228 46 190 C42 140 52 88 80 66 Z', G, 'R', 2.5) +
+      s('M66 110 C58 140 58 180 66 210', W, 7, 0.5) + B(88, 54, 80, 16, 4, G, 'V', 2) + liftedLid(110, 36, 110, M),
+    [[234, 62, 194, 160]]),
+  op('freezer_chest',
+    ground(128, 244, 116, 5) + B(28, 10, 200, 74, 8, M, 'L', 2.5) + B(40, 20, 176, 54, 5, G, 'V', 1.5) +
+      P('M40 84 L216 84 L226 108 L30 108 Z', K, 'V', 1.5) + s('M48 96 L208 96', G, 4, 0.6) +
+      B(22, 106, 212, 132, 8, M, 'L', 2.5) + B(22, 112, 212, 14, 3, T, 'V', 1.5) +
+      B(96, 150, 64, 34, 5, T, 'V', 1.5) + s('M108 166 L148 166', W, 4, 0.6) + B(30, 234, 24, 8, 2, O, 'V', 1) + B(202, 234, 24, 8, 2, O, 'V', 1),
+    [[110, 32, 224, 200]]),
 ];
 
 function eye(x: number, y: number, r = 6) {
   return dot(x, y, r, K) + dot(x - r * 0.35, y - r * 0.35, r * 0.38, W);
 }
 
-const real = JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as { id: string; svg: string }[];
-const out: { id: string; svg: string }[] = [];
+const real = [
+  ...(JSON.parse(readFileSync('src/data/templates-real.json', 'utf8')) as { id: string; svg: string }[]),
+  ...(JSON.parse(readFileSync('src/data/templates.json', 'utf8')) as { id: string; svg: string; palette?: unknown }[]).filter((t) => t.palette),
+];
+const out: { id: string; svg: string; inside?: Shelf[] }[] = [];
 let bad = 0;
 for (const o of list) {
   const closed = real.find((t) => t.id === o.id);
@@ -216,10 +308,12 @@ for (const o of list) {
   const a = checkSvg(text).box, b = checkSvg(closed.svg).box;
   if (text.length > 12000) errs.push(`${text.length} bytes (keep it under 12000)`);
   if (a && b && Math.abs(a.maxY - b.maxY) > 6) errs.push(`stands at y ${Math.round(a.maxY)}, the closed one at ${Math.round(b.maxY)}`);
+  for (const [y, x0, x1, room] of o.inside ?? [])
+    if (!(x0 < x1 && room > 0 && a && x0 >= a.minX && x1 <= a.maxX && y >= a.minY && y <= a.maxY)) errs.push(`inside [${y}, ${x0}, ${x1}, ${room}] is not within the drawing`);
   if (errs.length) {
     console.log(`✗ ${o.id}: ${errs.join('; ')}`);
     bad++;
-  } else out.push({ id: o.id, svg: text });
+  } else out.push({ id: o.id, svg: text, ...(o.inside ? { inside: o.inside } : {}) });
 }
 writeFileSync('src/data/templates-open.json', `${JSON.stringify(out, null, 2)}\n`);
 console.log(`${out.length} of ${list.length} open drawings -> src/data/templates-open.json`);

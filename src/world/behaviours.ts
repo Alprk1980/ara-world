@@ -7,13 +7,13 @@ const tpl = (itemId: string) => items.get(itemId)?.template ?? '';
 
 /** Containers: tapping opens them; what's inside depends on what they are. */
 export const CONTAINERS: { test: RegExp; inside: (itemId: string) => boolean; emoji: string }[] = [
-  { test: /fridge|freezer|cooler|ice_cream_cart/, inside: (id) => ['food', 'drink'].includes(categoryOf(id)), emoji: '🧊' },
+  { test: /fridge|freezer|(?<!water_)cooler|ice_cream_cart/, inside: (id) => ['food', 'drink'].includes(categoryOf(id)), emoji: '🧊' },
   { test: /cookie_jar|candy_jar|sweet|treat_jar|candy_bowl|candy_bucket|sprinkle/, inside: (id) => categoryOf(id) === 'food' && /cookie|candy|sweet|donut|cupcake|chocolate|gumm|lolli|heart/.test(tpl(id)), emoji: '🍪' },
-  { test: /toy_box|toy_chest|treasure_chest|gift_cabinet|parcel|post_box|big_post_box/, inside: (id) => categoryOf(id) === 'toy', emoji: '🎁' },
+  { test: /toy_box|toy_chest|treasure_chest|gift_cabinet|parcel_(?!crane)|post_box|big_post_box/, inside: (id) => categoryOf(id) === 'toy', emoji: '🎁' },
   { test: /cupboard|pantry|kitchen_cabinet|fruit_stand|snack_basket|picnic_basket/, inside: (id) => categoryOf(id) === 'food', emoji: '🥫' },
   { test: /backpack_shelf|school_locker|pencil|crayon_box/, inside: (id) => categoryOf(id) === 'school', emoji: '✏️' },
-  { test: /first_aid|medicine|bandage/, inside: (id) => /bandage|plaster|stethoscope|thermometer|medicine/.test(tpl(id)), emoji: '🩹' },
-  { test: /makeup|lipstick_display|nail_polish_rack|product_shelf|vanity/, inside: (id) => categoryOf(id) === 'makeup', emoji: '💄' },
+  { test: /first_aid|medicine|bandage_box/, inside: (id) => /bandage|plaster|stethoscope|thermometer|medicine/.test(tpl(id)), emoji: '🩹' },
+  { test: /makeup_(?!mirror)|lipstick_display|nail_polish_rack|product_shelf|vanity/, inside: (id) => categoryOf(id) === 'makeup', emoji: '💄' },
 ];
 export function containerOf(itemId: string): (typeof CONTAINERS)[number] | null {
   return CONTAINERS.find((c) => c.test.test(tpl(itemId))) ?? null;
@@ -35,6 +35,46 @@ export function contentsOf(itemId: string, uid: string, n = 8): string[] {
     }
   }
   return out;
+}
+
+export type Shelf = { y: number; x0: number; x1: number; room: number };
+/** Pack a container's things onto its shelves, left to right, each one that fits the shelf's width and room; each
+ * shelf's row is centred. A tiny jar or pot that nothing fits in still holds one thing, a little wider than its mouth
+ * (it pokes out over the rim), and so does each jar of a row of jars. Always the same things in the same places for the same container. */
+export function fillInside(itemId: string, uid: string, shelves: Shelf[], sizeOf: (id: string) => { w: number; h: number }, n = 16): { item: string; x: number; y: number }[] {
+  const pool = contentsOf(itemId, uid, 60);
+  const rows: { item: string; w: number }[][] = shelves.map(() => []);
+  const used = shelves.map(() => 0);
+  const gap = 0.6;
+  let placed = 0;
+  for (const id of pool) {
+    if (placed >= n) break;
+    const { w, h } = sizeOf(id);
+    const k = shelves.findIndex((s, i) => h <= s.room && used[i] + (rows[i].length ? gap : 0) + w <= s.x1 - s.x0);
+    if (k < 0) continue;
+    used[k] += (rows[k].length ? gap : 0) + w;
+    rows[k].push({ item: id, w });
+    placed++;
+  }
+  const taken = new Set(rows.flat().map((r) => r.item));
+  shelves.forEach((s, k) => {
+    if (rows[k].length || placed >= n) return;
+    const id = pool.find((id) => !taken.has(id) && sizeOf(id).h <= s.room && sizeOf(id).w <= (s.x1 - s.x0) * 1.6);
+    if (!id) return;
+    taken.add(id);
+    used[k] = sizeOf(id).w;
+    rows[k].push({ item: id, w: used[k] });
+    placed++;
+  });
+  return rows.flatMap((row, i) => {
+    const s = shelves[i];
+    let x = (s.x0 + s.x1) / 2 - used[i] / 2;
+    return row.map(({ item, w }) => {
+      const at = { item, x: x + w / 2, y: s.y };
+      x += w + gap;
+      return at;
+    });
+  });
 }
 
 /** Cookers: drop food on them and it cooks (steam, a ding, and it's fresh to eat again). */

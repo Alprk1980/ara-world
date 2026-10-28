@@ -13,7 +13,7 @@ export type Person = Character & { kind: 'person'; at?: { place: string; floor: 
 /** Makeup on a face: colours for lips, cheeks and eyelids, and glitter. */
 export type Makeup = { lips?: string; blush?: string; eyes?: string; glitter?: boolean };
 export type Pet = { kind: 'pet'; id: string; name: string; item: string; at?: { place: string; floor: number; x: number; y: number } };
-export type Thing = Placed & { uid: string; y: number; bitesLeft?: number; /** Switched on (lamps, TVs). */ on?: boolean; /** Opened (fridges, boxes, gates). */ open?: boolean };
+export type Thing = Placed & { uid: string; y: number; bitesLeft?: number; /** Switched on (lamps, TVs). */ on?: boolean; /** Opened (fridges, boxes, gates). */ open?: boolean; /** Inside an open container (its uid), until taken out. */ in?: string };
 export type Lot = { house: string; variant: number; furnished: boolean };
 
 export type World = {
